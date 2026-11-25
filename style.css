@@ -216,3 +216,5 @@ details.all summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
 .phan > h3 { margin: 0 0 8px; font-size: 1.12rem; }
 .phan h4 { margin: 14px 0 6px; font-size: .98rem; }
 .phan .facts { margin-top: 10px; }
+.chuyen .src.warn, .ten-cu .src.warn, .quan-card .src.warn { color: #9a6a12; display: block; }
+.ten-cu .src.warn { display: inline; font-size: .78rem; }

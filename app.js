@@ -559,24 +559,26 @@
   }
   // Chuyện của phố: tên cũ, mốc năm, chuyện ngắn. Ý chỉ có 1 nguồn thì ghi rõ.
   function chuyenHtml(c) {
-    function src(list, one) {
+    // muc: 'chac' (có báo / văn bản / nghiên cứu) · 'wiki' (chỉ Wikipedia + trang du lịch) · 'blog' (chỉ trang du lịch, blog)
+    var CANH = { wiki: 'Chỉ có Wikipedia và trang du lịch, chưa có báo hay văn bản', blog: 'Chỉ dựa trang du lịch, blog — chưa chắc' };
+    function src(list, one, muc) {
       return '<span class="src">' + (one ? 'Mới có 1 nguồn: ' : 'Nguồn: ') + list.map(function (n) {
         return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + '</a>';
-      }).join(' · ') + '</span>';
+      }).join(' · ') + '</span>' + (CANH[muc] ? '<span class="src warn">' + CANH[muc] + '</span>' : '');
     }
     var h = '<section class="chuyen phan"><h3>Lịch sử</h3>';
     if (c.ten_cu.length) {
       h += '<p class="ten-cu"><b>Tên xưa:</b> ' + c.ten_cu.map(function (t) {
-        return esc(t.ten) + (t.thoi_gian ? ' <span class="muted">(' + esc(t.thoi_gian) + ')</span>' : '');
+        return esc(t.ten) + (t.thoi_gian ? ' <span class="muted">(' + esc(t.thoi_gian) + ')</span>' : '') + (t.muc === 'blog' ? ' <span class="src warn">chưa chắc</span>' : '');
       }).join(' → ') + '</p>';
     }
     if (c.moc.length) {
       h += '<ol class="moc-nam">' + c.moc.map(function (m) {
-        return '<li><b>' + esc(m.nam) + '</b><span>' + esc(m.su_kien) + '</span>' + src(m.nguon, m.mot_nguon) + '</li>';
+        return '<li><b>' + esc(m.nam) + '</b><span>' + esc(m.su_kien) + '</span>' + src(m.nguon, m.mot_nguon, m.muc) + '</li>';
       }).join('') + '</ol>';
     }
     c.chuyen.forEach(function (t) {
-      h += '<div class="mau-chuyen"><b>' + esc(t.tieu_de) + '</b><span>' + esc(t.noi_dung) + '</span>' + src(t.nguon, t.mot_nguon) + '</div>';
+      h += '<div class="mau-chuyen"><b>' + esc(t.tieu_de) + '</b><span>' + esc(t.noi_dung) + '</span>' + src(t.nguon, t.mot_nguon, t.muc) + '</div>';
     });
     return h + '</section>';
   }
@@ -619,7 +621,7 @@
       }).join('') + '</ol>';
     }
     h += '<div id="quanCard" class="quan-card" hidden></div></section>' +
-      '<p class="note">Mỗi ý có nguồn ở ít nhất 2 trang khác nhau; ý chỉ có 1 nguồn được ghi rõ. Đường và vị trí: © OpenStreetMap. ' +
+      '<p class="note">Mỗi ý ghi nguồn bấm được; ý chỉ có 1 nguồn, hay chỉ dựa trang du lịch, blog thì ghi rõ. Đường và vị trí: © OpenStreetMap. ' +
       '<a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">Xem nghiên cứu</a>.</p>';
     sheetBody.innerHTML = h;
     sheet.classList.add('full');

@@ -12,6 +12,7 @@ nên khi lấy từ game KHÔNG lấy tên quán — chỉ lấy loại quán, �
 """
 import glob
 import json
+import re
 import math
 import os
 import shutil
@@ -110,11 +111,18 @@ def main(game):
         if os.path.exists(f):
             c = json.load(open(f, encoding='utf-8'))
             def lk(x):
-                return [{'link': u, 'trang': site(u)} for u in x.get('nguon', [])]
+                out = []
+                for u in x.get('nguon', []):
+                    if u.startswith('http'):
+                        out.append({'link': u, 'trang': site(u)})
+                    else:      # tệp trong kho: văn bản NQ 1671, ranh giới mới
+                        f2 = u.split(' ')[0]
+                        out.append({'link': REPO_URL + f2, 'trang': 'Nghị quyết 1671/NQ-UBTVQH15' if 'nq1671' in f2 else 'Ranh giới mới (phuong.json)'})
+                return out
             o['chuyen'] = {
-                'ten_cu': [{'ten': t['ten'], 'thoi_gian': t.get('thoi_gian', ''), 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', len(t.get('nguon', [])) < 2)} for t in c.get('ten_cu', [])],
-                'moc': [{'nam': m['nam'], 'su_kien': m['su_kien'], 'nguon': lk(m), 'mot_nguon': m.get('mot_nguon', False)} for m in c.get('moc', [])],
-                'chuyen': [{'tieu_de': t['tieu_de'], 'noi_dung': t['noi_dung'], 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', False)} for t in c.get('chuyen', [])],
+                'ten_cu': [{'ten': t['ten'], 'thoi_gian': t.get('thoi_gian', ''), 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', len(t.get('nguon', [])) < 2), 'muc': muc_nguon(lk(t))} for t in c.get('ten_cu', [])],
+                'moc': [{'nam': m['nam'], 'su_kien': m['su_kien'], 'nguon': lk(m), 'mot_nguon': m.get('mot_nguon', False), 'muc': muc_nguon(lk(m))} for m in c.get('moc', [])],
+                'chuyen': [{'tieu_de': t['tieu_de'], 'noi_dung': t['noi_dung'], 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', False), 'muc': muc_nguon(lk(t))} for t in c.get('chuyen', [])],
             }
     # tên hiện trên bản đồ + 3 phần trang (data/hien_thi.json); ten_pho giữ nguyên vì dùng chung với game
     hp = os.path.join(ROOT, 'data', 'hien_thi.json')
@@ -133,6 +141,31 @@ def main(game):
 
 def site(u):
     return urlparse(u).netloc.replace('www.', '')
+
+
+# Loại nguồn cho phần lịch sử (bước 3 hướng mới): mốc nào chỉ dựa trang du lịch/blog thì ghi rõ trên trang
+BAO = re.compile(r'(baolamdong|vnexpress|thanhnien|nhandan|tuoitre|vietnamnet|znews|zingnews|sggp|baophapluat|kienthuc|nguoidothi|baonghean|vtcnews|vnanet|thuonggiaonline|nguoiquansat|baovanhoa|voh\.com|suckhoedoisong|dantri|thanhtra|tienphong|tapchicongthuong|baoquocte|vietnamplus|doanhnghiephoinhap|vietnamfinance|baodautu|cadn|doanhnhanplus|plo\.vn|daibieunhandan|vov\.vn|daidoanket|vietbao|laodong|qdnd|congan|nld\.com|saigoneer)')
+VAN_BAN = re.compile(r'(\.gov\.vn|chinhphu\.vn|luatvietnam|thuviennhadat|thuvienphapluat|jica\.go\.jp|^NQ|Nghị quyết|Ranh giới)')
+NGHIEN_CUU = re.compile(r'(vjol|tapchinghiencuu|efeo|entreprises-coloniales|\.edu\.vn|remontees-mecaniques)')
+
+
+def loai_nguon(trang):
+    if VAN_BAN.search(trang):
+        return 'van_ban'
+    if NGHIEN_CUU.search(trang):
+        return 'nghien_cuu'
+    if BAO.search(trang):
+        return 'bao'
+    if 'wikipedia' in trang:
+        return 'wiki'
+    return 'blog'
+
+
+def muc_nguon(nguon):
+    loai = {loai_nguon(n['trang']) for n in nguon}
+    if loai & {'van_ban', 'nghien_cuu', 'bao'}:
+        return 'chac'
+    return 'wiki' if 'wiki' in loai else 'blog'
 
 
 def from_research(r):

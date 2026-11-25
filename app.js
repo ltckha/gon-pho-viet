@@ -521,6 +521,7 @@
         ? '<b>' + esc(d.ten) + '</b><span class="addr">' + esc(d.dia_chi) + ' · ' + esc(d.loai) + '</span>'
         : '<b>' + esc(d.loai) + '</b>') +
         '<span>' + esc(d.dac_trung) + '</span>' +
+        (d.ten && /^không rõ/i.test(d.con_mo || '') ? '<span class="src warn">Chưa rõ còn mở (nguồn mới nhất chưa xác nhận)</span>' : '') +
         (d.ten ? (d.vi_tri
           ? '<button class="mini" type="button" data-place="' + k + '">Xem chỗ quán trên bản đồ</button>'
           : '<button class="mini" type="button" data-place="' + k + '">Xem đường ' + esc(d.duong) + '</button><span class="src">Chưa có vị trí chính xác trên bản đồ</span>') : '') +

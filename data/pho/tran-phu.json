@@ -1,6 +1,9 @@
 {
  "road": "Trần Phú; Ba Tháng Hai",
- "duong_osm": ["Trần Phú", "Ba Tháng Hai"],
+ "duong_osm": [
+  "Trần Phú",
+  "Ba Tháng Hai"
+ ],
  "ward": "Xuân Hương - Đà Lạt",
  "ward_check": "chắc",
  "ward_ghi_chu": "Trần Phú thuộc Phường 3 cũ; Ba Tháng Hai thuộc Phường 1 và Phường 4 cũ; cả ba gộp vào Xuân Hương - Đà Lạt (đã kiểm trước). Các trang 2025-2026 (trip.com, vinwonders, wanderlog) cũng ghi 'Xuân Hương - Đà Lạt' cho địa chỉ trên hai đường.",
@@ -25,7 +28,13 @@
     "https://www.hotels.com/ho119097"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 10/11/2026 (ở tháng 10/2026)"
+   "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 10/11/2026 (ở tháng 10/2026)",
+   "vi_tri": {
+    "lon": 108.440375,
+    "lat": 11.937532,
+    "cach": "tên trên OpenStreetMap: Dalat Palace Hotel (ghép tay)",
+    "osm": "way/407699702"
+   }
   },
   {
    "ten": "Du Parc Hotel Dalat",
@@ -40,7 +49,13 @@
     "https://www.fodors.com/world/asia/vietnam/the-south-central-coasts-and-highlands/hotels/reviews/du-parc-hotel-dalat-615069"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 30/10/2026; bài mia.vn 02/12/2025"
+   "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 30/10/2026; bài mia.vn 02/12/2025",
+   "vi_tri": {
+    "lon": 108.439023,
+    "lat": 11.936708,
+    "cach": "tên trên OpenStreetMap: Du Parc (ghép tay)",
+    "osm": "node/1152351891"
+   }
   },
   {
    "ten": "Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)",
@@ -55,7 +70,13 @@
     "https://baolamdong.vn/dem-giang-sinh-da-lat-dong-vui-trong-suong-lanh-413266.html"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "có dấu hiệu còn mở 2025–2026: Báo Lâm Đồng 25/12/2025 tả lễ đêm Giáng sinh"
+   "con_mo": "có dấu hiệu còn mở 2025–2026: Báo Lâm Đồng 25/12/2025 tả lễ đêm Giáng sinh",
+   "vi_tri": {
+    "lon": 108.437692,
+    "lat": 11.936155,
+    "cach": "tên trên OpenStreetMap: Nhà thờ Chánh tòa (ghép tay)",
+    "osm": "way/452519411"
+   }
   },
   {
    "ten": "Tiệm bánh Liên Hoa (Liên Hoa Bakery)",
@@ -70,7 +91,13 @@
     "https://znews.vn/tan-huong-su-ngot-ngao-cua-da-lat-tai-nhung-tiem-banh-xinh-xan-post940949.html"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "có dấu hiệu còn mở 2025–2026: wanderlog hiện đánh giá Google ngày 09/08/2026; trip.com có đánh giá 30/10/2025"
+   "con_mo": "có dấu hiệu còn mở 2025–2026: wanderlog hiện đánh giá Google ngày 09/08/2026; trip.com có đánh giá 30/10/2025",
+   "vi_tri": {
+    "lon": 108.435226,
+    "lat": 11.942836,
+    "cach": "tên trên OpenStreetMap: Lien Hoa (ghép tay)",
+    "osm": "node/6320243386"
+   }
   },
   {
    "ten": "Phở Tiến",
@@ -85,7 +112,8 @@
     "https://vinpearl.com/en/pho-da-lat"
    ],
    "do_tin_cay": "trung bình",
-   "con_mo": "không rõ (chỉ có bài liệt kê vinwonders 05/07/2025, chưa thấy đánh giá khách 2026); giờ mở lệch nhau: 6:00/6:30–13:00, vinpearl ghi thêm 17:00–20:00"
+   "con_mo": "không rõ (chỉ có bài liệt kê vinwonders 05/07/2025, chưa thấy đánh giá khách 2026); giờ mở lệch nhau: 6:00/6:30–13:00, vinpearl ghi thêm 17:00–20:00",
+   "vi_tri": null
   },
   {
    "ten": "Bánh canh cá lóc An",
@@ -100,7 +128,8 @@
     "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
    ],
    "do_tin_cay": "trung bình",
-   "con_mo": "có dấu hiệu còn mở 2025–2026: bài mia.vn ngày 14/01/2026 và vinwonders 13/07/2025 còn liệt kê (bài liệt kê, chưa phải đánh giá khách)"
+   "con_mo": "có dấu hiệu còn mở 2025–2026: bài mia.vn ngày 14/01/2026 và vinwonders 13/07/2025 còn liệt kê (bài liệt kê, chưa phải đánh giá khách)",
+   "vi_tri": null
   },
   {
    "ten": "Khách sạn Sài Gòn - Đà Lạt (Saigon Dalat Hotel)",
@@ -115,7 +144,8 @@
     "https://ca.trip.com/hotels/dalat-hotel-detail-713589/saigon-dalat-hotel/review.html"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 11/10/2026 (ở tháng 6/2026)"
+   "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 11/10/2026 (ở tháng 6/2026)",
+   "vi_tri": null
   },
   {
    "ten": "Bếp 1985 - Quán Cơm Thuần Việt (Quán cơm 1985)",
@@ -130,7 +160,8 @@
     "https://www.foody.vn/lam-dong/bep-1985-quan-com-thuan-viet"
    ],
    "do_tin_cay": "trung bình",
-   "con_mo": "không rõ (vinwonders 09/07/2025 còn liệt kê; foody báo hơn 3 tháng không tương tác)"
+   "con_mo": "không rõ (vinwonders 09/07/2025 còn liệt kê; foody báo hơn 3 tháng không tương tác)",
+   "vi_tri": null
   },
   {
    "ten": "Bờ Kè Quán (cơm gia đình)",
@@ -144,7 +175,8 @@
     "https://www.foody.vn/lam-dong/bo-ke-quan-com-gia-dinh"
    ],
    "do_tin_cay": "trung bình",
-   "con_mo": "không rõ (vinwonders 09/07/2025 còn liệt kê; chưa thấy đánh giá khách 2026)"
+   "con_mo": "không rõ (vinwonders 09/07/2025 còn liệt kê; chưa thấy đánh giá khách 2026)",
+   "vi_tri": null
   }
  ],
  "can_kiem_them": [
@@ -155,7 +187,9 @@
    "duong": "Ba Tháng Hai",
    "so_nha": "62",
    "dia_chi": "62 Ba Tháng Hai",
-   "nguon": ["https://www.foody.vn/lam-dong/chao-dem-duong-3-thang-2"],
+   "nguon": [
+    "https://www.foody.vn/lam-dong/chao-dem-duong-3-thang-2"
+   ],
    "ly_do": "Chỉ foody đọc được (bình luận mới nhất 23/12/2017, foody cảnh báo có thể đã đóng); bài vinpearl 'quán ăn đêm' chặn đọc (403), toplist quán ăn đêm không có quán này.",
    "con_mo": "không rõ"
   },
@@ -166,7 +200,9 @@
    "duong": "Ba Tháng Hai",
    "so_nha": "22",
    "dia_chi": "22 Ba Tháng Hai",
-   "nguon": ["https://vinwonders.com/vi/wonderpedia/news/diem-mat-17-quan-banh-mi-da-lat/"],
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/diem-mat-17-quan-banh-mi-da-lat/"
+   ],
    "ly_do": "Một nguồn; trong bài tiêu đề ghi bánh mì gà nhưng phần tả lại nói bánh mì xíu mại.",
    "con_mo": "không rõ"
   },
@@ -177,7 +213,9 @@
    "duong": "Trần Phú",
    "so_nha": "21/2A",
    "dia_chi": "21/2A Trần Phú",
-   "nguon": ["https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"],
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
+   ],
    "ly_do": "Một nguồn, tên quán chung chung (có thể chỉ là tên món).",
    "con_mo": "không rõ"
   },

@@ -28,7 +28,13 @@
     "https://wanderlog.com/place/details/4854630/b%C3%A1nh-c%C4%83n-c%C3%A2y-b%C6%A1"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (cập nhật 14/07/2025) và (13/07/2025) vẫn ghi 56 Tăng Bạt Hổ, phường Xuân Hương – Đà Lạt"
+   "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (cập nhật 14/07/2025) và (13/07/2025) vẫn ghi 56 Tăng Bạt Hổ, phường Xuân Hương – Đà Lạt",
+   "vi_tri": {
+    "lon": 108.434608,
+    "lat": 11.944274,
+    "cach": "tên trên OpenStreetMap: Banh Can Cay Bo",
+    "osm": "node/7147596490"
+   }
   },
   {
    "ten": "Quán Hoa Sữa",
@@ -45,7 +51,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (cập nhật 08/07/2025) ghi 64 Tăng Bạt Hổ, phường Xuân Hương – Đà Lạt, 16:00–22:00",
-   "ghi_chu": "Số nhà lệch: VinWonders, mia.vn, Foody ghi 64; Toplist ghi 3F. Kết quả tìm kiếm Foody có đoạn '3F Tăng Bặt Hổ (số 64 cũ)' (em chưa thấy dòng này khi tải trang) → nhiều khả năng 64 là số cũ, 3F là số mới."
+   "ghi_chu": "Số nhà lệch: VinWonders, mia.vn, Foody ghi 64; Toplist ghi 3F. Kết quả tìm kiếm Foody có đoạn '3F Tăng Bặt Hổ (số 64 cũ)' (em chưa thấy dòng này khi tải trang) → nhiều khả năng 64 là số cũ, 3F là số mới.",
+   "vi_tri": {
+    "lon": 108.435316,
+    "lat": 11.943561,
+    "cach": "tên trên OpenStreetMap: Hoa Sūa",
+    "osm": "node/6423288385"
+   }
   },
   {
    "ten": "Liên Bánh Ướt Lòng Gà",
@@ -59,7 +71,8 @@
     "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (đăng 18/01/2026) ghi 44 Tăng Bạt Hổ, 06:30–21:30"
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (đăng 18/01/2026) ghi 44 Tăng Bạt Hổ, 06:30–21:30",
+   "vi_tri": null
   },
   {
    "ten": "Bánh ướt lòng gà Trang",
@@ -74,7 +87,8 @@
     "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (18/01/2026) và VinWonders (03/07/2025) đều ghi 15F Tăng Bạt Hổ"
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (18/01/2026) và VinWonders (03/07/2025) đều ghi 15F Tăng Bạt Hổ",
+   "vi_tri": null
   },
   {
    "ten": "Bánh ướt lòng gà – Bánh căn Chip Chip",
@@ -89,7 +103,8 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (18/01/2026) ghi 07:00–23:00",
-   "ghi_chu": "Số nhà lệch: VinWonders ghi 28 Tăng Bạt Hổ, mia.vn ghi 4 Tăng Bạt Hổ → để trống số nhà."
+   "ghi_chu": "Số nhà lệch: VinWonders ghi 28 Tăng Bạt Hổ, mia.vn ghi 4 Tăng Bạt Hổ → để trống số nhà.",
+   "vi_tri": null
   },
   {
    "ten": "Bánh căn 07 Tăng Bạt Hổ",
@@ -104,7 +119,8 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "không rõ (VinWonders cập nhật 16/07/2025 còn ghi Số 7, 13h–22h, nhưng chỉ là bài tổng hợp)",
-   "ghi_chu": "Đường này có nhiều quán bánh căn trùng kiểu tên 'Bánh căn Tăng Bạt Hổ': VinWonders bài bánh khọt ghi 14 Tăng Bạt Hổ, Foody có 'Bánh Căn - Tăng Bạt Hổ' ở số 4, mia.vn có 'Bánh căn 14 (hai Cô)' ở số 30. Chưa chắc đây là một hay nhiều quán; chỉ lấy tên 'Bánh căn 07' vì Toplist và VinWonders cùng ghi số 7."
+   "ghi_chu": "Đường này có nhiều quán bánh căn trùng kiểu tên 'Bánh căn Tăng Bạt Hổ': VinWonders bài bánh khọt ghi 14 Tăng Bạt Hổ, Foody có 'Bánh Căn - Tăng Bạt Hổ' ở số 4, mia.vn có 'Bánh căn 14 (hai Cô)' ở số 30. Chưa chắc đây là một hay nhiều quán; chỉ lấy tên 'Bánh căn 07' vì Toplist và VinWonders cùng ghi số 7.",
+   "vi_tri": null
   },
   {
    "ten": "Bicycle Up Cafe",
@@ -119,7 +135,13 @@
     "https://www.foody.vn/lam-dong/bicycle-up-cafe"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "không rõ (mia.vn sửa bài 06/2025 nhưng nội dung từ 2021; Foody báo hơn 3 tháng không có tương tác mới)"
+   "con_mo": "không rõ (mia.vn sửa bài 06/2025 nhưng nội dung từ 2021; Foody báo hơn 3 tháng không có tương tác mới)",
+   "vi_tri": {
+    "lon": 108.434951,
+    "lat": 11.944801,
+    "cach": "tên trên OpenStreetMap: Bicycle up",
+    "osm": "node/3864396278"
+   }
   },
   {
    "ten": "On The Rocks Cocktail Bar",
@@ -135,7 +157,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi địa chỉ mới '69 Trương Công Định, Xuân Hương - Đà Lạt', 4.7 (1.121 đánh giá), không đánh dấu đóng cửa",
-   "ghi_chu": "Bản tóm tắt kết quả tìm kiếm có nhắc 1 trang (trvlogue.com) ghi tầng hầm số 69 là 'Karma Lounge' — em không mở được trang đó để kiểm; cần nhìn biển thật."
+   "ghi_chu": "Bản tóm tắt kết quả tìm kiếm có nhắc 1 trang (trvlogue.com) ghi tầng hầm số 69 là 'Karma Lounge' — em không mở được trang đó để kiểm; cần nhìn biển thật.",
+   "vi_tri": {
+    "lon": 108.434218,
+    "lat": 11.944422,
+    "cach": "số nhà trên OpenStreetMap: 69 Trương Công Định",
+    "osm": "node/13811426701"
+   }
   },
   {
    "ten": "B21 Bar",
@@ -151,7 +179,8 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi địa chỉ mới '68 Trương Công Định, Xuân Hương - Đà Lạt', không đánh dấu đóng cửa",
-   "ghi_chu": "Hai bài Toplist cùng một trang web → tính là 1 nguồn; nguồn thứ hai là Wanderlog."
+   "ghi_chu": "Hai bài Toplist cùng một trang web → tính là 1 nguồn; nguồn thứ hai là Wanderlog.",
+   "vi_tri": null
   },
   {
    "ten": "Woody Classic Bar",
@@ -167,7 +196,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi '49a Trương Công Định, Xuân Hương - Đà Lạt', 4.7 (404 đánh giá)",
-   "ghi_chu": "Toplist bài 57973 ghi '49 Trương Công Định' và thêm chi nhánh 14-16 Hòa Bình; đoạn mô tả lại nhắc Nguyễn Công Trứ (có vẻ chép nhầm)."
+   "ghi_chu": "Toplist bài 57973 ghi '49 Trương Công Định' và thêm chi nhánh 14-16 Hòa Bình; đoạn mô tả lại nhắc Nguyễn Công Trứ (có vẻ chép nhầm).",
+   "vi_tri": {
+    "lon": 108.434728,
+    "lat": 11.943829,
+    "cach": "số nhà trên OpenStreetMap: 49A Trương Công Định",
+    "osm": "node/6085727286"
+   }
   },
   {
    "ten": "Fox's Den",
@@ -182,7 +217,13 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "không rõ: trang danh sách Wanderlog ghi 'Temporarily Closed' (tạm đóng), trang riêng của quán trên Wanderlog vẫn ghi giờ 18h–24h",
-   "ghi_chu": "Cùng số 56 với Bánh căn Cây Bơ (sáng bán bánh căn, tối bar?) — chưa có nguồn nói rõ, cần nhìn thực tế."
+   "ghi_chu": "Cùng số 56 với Bánh căn Cây Bơ (sáng bán bánh căn, tối bar?) — chưa có nguồn nói rõ, cần nhìn thực tế.",
+   "vi_tri": {
+    "lon": 108.434608,
+    "lat": 11.944274,
+    "cach": "số nhà trên OpenStreetMap: 56 Tăng Bạt Hổ",
+    "osm": "node/7147596490"
+   }
   },
   {
    "ten": "Dalat YOLO Hostel (Yolo Hostel n Bar)",
@@ -197,7 +238,13 @@
     "https://ostrovok.ru/hotel/vietnam/da_lat/mid6796041/dalat_yolo_hostel"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "không rõ (Ostrovok còn nhận đặt phòng, 84 đánh giá, nhưng không ghi ngày)"
+   "con_mo": "không rõ (Ostrovok còn nhận đặt phòng, 84 đánh giá, nhưng không ghi ngày)",
+   "vi_tri": {
+    "lon": 108.435053,
+    "lat": 11.94352,
+    "cach": "số nhà trên OpenStreetMap: 31 Trương Công Định",
+    "osm": "node/5659684330"
+   }
   }
  ],
  "du_bi": [

@@ -74,6 +74,14 @@ const URL = process.env.URL || 'http://localhost:8765/';
   // 5. Mở thẳng link trang phố, rồi nút quay lại
   await p.goto(URL + '#pho-hoang-dieu'); await p.waitForTimeout(2500);
   if (!(await p.isVisible('#sheet.full'))) fail('Mở link #pho-hoang-dieu không ra trang phố');
+  const nTen = await p.locator('.places li b').count();
+  const btnQuan = p.locator('text=Xem chỗ quán trên bản đồ');
+  if (await btnQuan.count()) {
+    await btnQuan.first().click(); await p.waitForTimeout(600);
+    if ((await p.locator('#placeMark').count()) !== 1) fail('Bấm "Xem chỗ quán" mà không có chấm quán');
+    await shot('10_cho_quan');
+  } else fail('Trang phố Lẩu Bò không có quán nào có vị trí');
+  if (nTen < 1) fail('Trang phố không có tên quán');
   await p.goto(URL + '#lam-dong'); await p.waitForTimeout(1200);
   await p.goto(URL + '#pho-tran-phu'); await p.waitForTimeout(2500);
   await p.goBack(); await p.waitForTimeout(1200);

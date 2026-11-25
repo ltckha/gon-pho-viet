@@ -45,9 +45,9 @@ python3 tools/build_pho.py /home/user/ltckha/giang-ho-ai
 - Toạ độ tầng đường cần 4 số lẻ (`prec: 4`), 1 số lẻ thì đường lệch cả trăm mét.
 - Tên đường: OSM chia đường thành nhiều đoạn ngắn → nối đoạn cùng tên (`ten_duong`) để đặt chữ; chữ chỉ hiện khi đủ chỗ và không đè (hàm `layout()`).
 - **Tên quán trong nghiên cứu của game là tên đặt lại** (game không dùng tên quán thật). Không đưa các tên đó lên bản đồ như tên thật; `build_pho.py` chỉ lấy loại quán, đặc trưng, nguồn.
-- OSM ở Đà Lạt ghi tiệm rất thiếu; dò tên quán trong OSM ra toàn trùng nhầm — đừng dùng làm vị trí quán.
+- OSM ở Đà Lạt ghi tiệm thiếu; so tên lỏng ra trùng nhầm ("Café Nga" ≠ "Miến gà Nga"). `vi_tri_quan.py` so tên hai chiều + số, số nhà đúng y tên đường; tên viết khác thì soát tay rồi thêm vào `ALIAS`. Không khớp thì để trống, không đoán.
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
 ## Agent có sẵn (`.claude/agents/`)
-- `nghien-cuu-pho` — nghiên cứu một phố mới: phường, đặc trưng, địa điểm (≥2 nguồn), ra file JSON đúng mẫu.
+- `nghien-cuu-pho` — nghiên cứu một phố mới: phường, đặc trưng, địa điểm tên thật (≥2 nguồn ở 2 trang khác nhau), ra `data/pho/<slug>.json`. Sau đó chạy `python3 tools/vi_tri_quan.py /tmp/osm` rồi `tools/build_pho.py`.
 - `kiem-thu-ban-do` — chạy kiểm thử điện thoại, xem ảnh, báo lỗi bằng lời dễ hiểu.

@@ -5,8 +5,8 @@ Cách chạy:
   python3 tools/vi_tri_quan.py <thư mục .xml OSM>
 
 Chỉ nhận vị trí khi chắc:
-  1. OSM có điểm/khối mang ĐÚNG tên quán (so không dấu, đủ các chữ chính) và nằm trong 80 m quanh con đường của quán; hoặc
-  2. OSM có điểm/khối ghi đúng số nhà + tên đường (addr:housenumber, addr:street).
+  1. OSM có điểm/khối mang ĐÚNG tên quán (so không dấu, các chữ chính khớp cả hai chiều) và nằm trong 80 m quanh con đường của quán; hoặc
+  2. OSM có điểm/khối ghi đúng số nhà + tên đường (addr:housenumber, addr:street); "Hẻm 23 Trần Phú" khác "Trần Phú".
 Không khớp thì để vi_tri = null (trang phố sẽ ghi "chưa có vị trí chính xác"). Không đoán, không nội suy.
 """
 import glob
@@ -19,7 +19,18 @@ import unicodedata
 import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STOP = {'quan', 'tiem', 'cafe', 'ca', 'phe', 'coffee', 'cf', 'nha', 'hang', 'da', 'lat', 'dalat', 'the', 'and', 'va'}
+STOP = {'quan', 'tiem', 'cafe', 'ca', 'phe', 'coffee', 'cf', 'nha', 'da', 'lat', 'dalat', 'the', 'and', 'va', 'so'}
+
+
+# Tên trên OSM viết khác tên quán — em (Claude) đã soát tay từng cặp ngày 25/11/2026; vẫn phải sát đúng đường ≤ 80 m.
+ALIAS = {
+    'Nari - Chè Kem Bơ': 'Kem Nari',                                   # OSM ghi 74c Nguyễn Văn Trỗi
+    'Dalat Palace Heritage Hotel': 'Dalat Palace Hotel',
+    'Du Parc Hotel Dalat': 'Du Parc',
+    'Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)': 'Nhà thờ Chánh tòa',
+    'Tiệm bánh Liên Hoa (Liên Hoa Bakery)': 'Liên Hoa',
+    'Nem nướng Bà Hùng': 'Nem Nuong Ba Hung',
+}
 
 
 def words(s):
@@ -29,7 +40,16 @@ def words(s):
 
 
 def key_words(s):
-    return {w for w in words(s) if w not in STOP}
+    return {w for w in words(s) if w not in STOP and not w.isdigit()}
+
+
+def same_name(a, b):
+    """Khớp hai chiều: mọi chữ chính của tên này đều có trong tên kia và ngược lại.
+    (Tránh "Café Nga" khớp nhầm "Miến gà Nga", "Bánh ướt lòng gà Long" khớp nhầm "…Hằng".)"""
+    ka, kb = key_words(a), key_words(b)
+    da = {w.lstrip('0') for w in words(a) if w.isdigit()}
+    db = {w.lstrip('0') for w in words(b) if w.isdigit()}
+    return bool(ka) and ka == kb and da == db   # "Bánh tráng nướng 112" không khớp "Bánh tráng nướng" 
 
 
 def meters(a, b):
@@ -92,13 +112,14 @@ def main(osm_dir):
             cands = []
             for oid, t, pt in feats:
                 name = t.get('name')
-                if name and kw and kw <= key_words(name):
+                if name and (same_name(p['ten'], name) or (p['ten'] in ALIAS and same_name(ALIAS[p['ten']], name))):
                     d = near_road(pt, road)
                     if d <= 80:
-                        cands.append((d, oid, pt, 'tên trên OpenStreetMap: ' + name))
+                        how = 'tên trên OpenStreetMap: ' + name + (' (ghép tay)' if p['ten'] in ALIAS else '')
+                        cands.append((d, oid, pt, how))
             if not cands and p.get('so_nha'):
                 for oid, t, pt in feats:
-                    if t.get('addr:housenumber') == str(p['so_nha']) and words(t.get('addr:street', '')) [-len(words(road)):] == words(road):
+                    if t.get('addr:housenumber', '').upper() == str(p['so_nha']).upper() and words(t.get('addr:street', '')) == words(road):
                         cands.append((near_road(pt, road), oid, pt, 'số nhà trên OpenStreetMap: ' + t['addr:housenumber'] + ' ' + t['addr:street']))
             if cands:
                 cands.sort()

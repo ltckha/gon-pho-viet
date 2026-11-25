@@ -25,13 +25,48 @@
     "Trương Công Định"
    ],
    "ward": "Xuân Hương - Đà Lạt",
-   "gioi_thieu": "Phố ăn đêm sau chợ và dốc phố Tây: bánh căn, sữa nóng, hostel, bar dưới hầm",
+   "gioi_thieu": "Phố Ăn Đêm sau chợ Đà Lạt: dốc Tăng Bạt Hổ sáng bánh căn, bánh ướt lòng gà, tối sữa đậu nành nóng; rẽ sang Trương Công Định là hostel, cà phê đồ cũ và bar dưới tầng hầm.",
    "anh": "assets/dau_pho/dau_pho_tang_bat_ho.webp",
-   "ten_that": false,
+   "ten_that": true,
    "dia_diem": [
     {
-     "loai": "Quán sữa đậu nành đêm",
-     "dac_trung": "ly sữa nóng, đông khách buổi tối",
+     "ten": "Bánh căn Cây Bơ",
+     "loai": "quán bánh căn (ăn sáng)",
+     "dac_trung": "Bánh căn chấm nước xíu mại, ngồi dưới gốc cây bơ lớn bên lề dốc; chỉ bán buổi sáng.",
+     "dia_chi": "56 Tăng Bạt Hổ",
+     "duong": "Tăng Bạt Hổ",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-khot-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/banh-can-cay-bo",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/4854630/b%C3%A1nh-c%C4%83n-c%C3%A2y-b%C6%A1",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.434608,
+      "lat": 11.944274,
+      "cach": "tên trên OpenStreetMap: Banh Can Cay Bo",
+      "osm": "node/7147596490"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (cập nhật 14/07/2025) và (13/07/2025) vẫn ghi 56 Tăng Bạt Hổ, phường Xuân Hương – Đà Lạt"
+    },
+    {
+     "ten": "Quán Hoa Sữa",
+     "loai": "quán sữa đậu nành nóng (buổi tối)",
+     "dac_trung": "Sữa đậu nành nóng thêm lá dứa, bánh ngọt kèm; quán vỉa hè gần chợ Đà Lạt, mở chiều tối.",
+     "dia_chi": "64 Tăng Bạt Hổ",
+     "duong": "Tăng Bạt Hổ",
      "nguon": [
       {
        "link": "https://vinwonders.com/vi/wonderpedia/news/sua-dau-nanh-da-lat/",
@@ -40,44 +75,110 @@
       {
        "link": "https://mia.vn/cam-nang-du-lich/thuong-thuc-sua-dau-nanh-nong-thom-giua-tiet-troi-da-lat-se-lanh-1299",
        "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/quan-hoa-sua-tang-bat-ho",
+       "trang": "foody.vn"
       }
-     ]
+     ],
+     "vi_tri": {
+      "lon": 108.435316,
+      "lat": 11.943561,
+      "cach": "tên trên OpenStreetMap: Hoa Sūa",
+      "osm": "node/6423288385"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (cập nhật 08/07/2025) ghi 64 Tăng Bạt Hổ, phường Xuân Hương – Đà Lạt, 16:00–22:00"
     },
     {
-     "loai": "Quán bánh căn",
-     "dac_trung": "khuôn đất nung, trứng cút",
+     "ten": "Liên Bánh Ướt Lòng Gà",
+     "loai": "quán bánh ướt lòng gà",
+     "dac_trung": "Bánh ướt tráng tới đâu ăn tới đó, lòng gà đủ món; quán rộng.",
+     "dia_chi": "44 Tăng Bạt Hổ",
+     "duong": "Tăng Bạt Hổ",
      "nguon": [
       {
-       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-khot-da-lat/",
-       "trang": "vinwonders.com"
+       "link": "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+       "trang": "toplist.vn"
       },
       {
-       "link": "https://vinwonders.com/vi/wonderpedia/news/12-quan-banh-can-da-lat-sieu-ngon/",
-       "trang": "vinwonders.com"
-      },
-      {
-       "link": "https://mia.vn/cam-nang-du-lich/banh-can-da-lat-top-nhung-quan-ngon-nhat-tai-thanh-pho-suong-mu-1343",
+       "link": "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912",
        "trang": "mia.vn"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (đăng 18/01/2026) ghi 44 Tăng Bạt Hổ, 06:30–21:30"
     },
     {
-     "loai": "Quán ăn sáng dưới gốc cây",
-     "dac_trung": "ngồi dưới gốc cây lớn",
+     "ten": "Bánh ướt lòng gà Trang",
+     "loai": "quán bánh ướt lòng gà",
+     "dac_trung": "Bánh ướt với gà xé bóp gỏi, trứng non, hành tây; bán thêm gỏi gà, sữa chua.",
+     "dia_chi": "15F Tăng Bạt Hổ",
+     "duong": "Tăng Bạt Hổ",
      "nguon": [
       {
-       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-khot-da-lat/",
+       "link": "https://vinwonders.com/vi/bai-viet-du-lich/banh-uot-long-ga-da-lat/",
        "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/",
+       "trang": "vinwonders.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (18/01/2026) và VinWonders (03/07/2025) đều ghi 15F Tăng Bạt Hổ"
+    },
+    {
+     "ten": "Bánh ướt lòng gà – Bánh căn Chip Chip",
+     "loai": "quán bánh ướt lòng gà, bánh căn",
+     "dac_trung": "Bánh ướt gà xé và lòng gà, cháo gà, gỏi gà; mở từ sáng tới tối.",
+     "dia_chi": "Tăng Bạt Hổ",
+     "duong": "Tăng Bạt Hổ",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/bai-viet-du-lich/banh-uot-long-ga-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912",
+       "trang": "mia.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (18/01/2026) ghi 07:00–23:00"
+    },
+    {
+     "ten": "Bánh căn 07 Tăng Bạt Hổ",
+     "loai": "quán bánh căn (chiều tối)",
+     "dac_trung": "Bánh căn đổ khuôn liên tục, chấm nước xíu mại; bán từ trưa tới tối.",
+     "dia_chi": "7 Tăng Bạt Hổ",
+     "duong": "Tăng Bạt Hổ",
+     "nguon": [
+      {
+       "link": "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+       "trang": "toplist.vn"
       },
       {
        "link": "https://vinwonders.com/vi/wonderpedia/news/12-quan-banh-can-da-lat-sieu-ngon/",
        "trang": "vinwonders.com"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "không rõ (VinWonders cập nhật 16/07/2025 còn ghi Số 7, 13h–22h, nhưng chỉ là bài tổng hợp)"
     },
     {
-     "loai": "Quán cà phê trong nhà cũ, trang trí xe đạp",
-     "dac_trung": "xe đạp cũ treo tường",
+     "ten": "Bicycle Up Cafe",
+     "loai": "quán cà phê kiểu cũ",
+     "dac_trung": "Quán nhỏ cuối dốc, trang trí đồ cổ, xe đạp treo dưới bảng hiệu gỗ; có cà phê syphon, sách cũ.",
+     "dia_chi": "82 Trương Công Định",
+     "duong": "Trương Công Định",
      "nguon": [
       {
        "link": "https://mia.vn/cam-nang-du-lich/review-bicyle-up-cafe-quan-cafe-voi-khong-gian-retro-dac-biet-giua-long-da-lat-2693",
@@ -88,14 +189,152 @@
        "trang": "toplist.vn"
       },
       {
-       "link": "https://znews.vn/nhung-tiem-ca-phe-phong-cach-retro-o-da-lat-post1008585.html",
-       "trang": "znews.vn"
+       "link": "https://www.foody.vn/lam-dong/bicycle-up-cafe",
+       "trang": "foody.vn"
       }
-     ]
+     ],
+     "vi_tri": {
+      "lon": 108.434951,
+      "lat": 11.944801,
+      "cach": "tên trên OpenStreetMap: Bicycle up",
+      "osm": "node/3864396278"
+     },
+     "con_mo": "không rõ (mia.vn sửa bài 06/2025 nhưng nội dung từ 2021; Foody báo hơn 3 tháng không có tương tác mới)"
+    },
+    {
+     "ten": "On The Rocks Cocktail Bar",
+     "loai": "bar cocktail dưới tầng hầm",
+     "dac_trung": "Bar ở tầng hầm số 69, nhạc chill, cocktail cổ điển và pha theo yêu cầu.",
+     "dia_chi": "69 Trương Công Định",
+     "duong": "Trương Công Định",
+     "nguon": [
+      {
+       "link": "https://toplist.vn/top-list/quan-cocktail-bar-dang-cap-nhat-tai-tp-da-lat-lam-dong-57973.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/kham-pha-9-quan-ruou-khong-the-bo-qua-khi-den-da-lat.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://wanderlog.com/list/geoCategory/248821",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.434218,
+      "lat": 11.944422,
+      "cach": "số nhà trên OpenStreetMap: 69 Trương Công Định",
+      "osm": "node/13811426701"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi địa chỉ mới '69 Trương Công Định, Xuân Hương - Đà Lạt', 4.7 (1.121 đánh giá), không đánh dấu đóng cửa"
+    },
+    {
+     "ten": "B21 Bar",
+     "loai": "bar (DJ buổi tối)",
+     "dac_trung": "Bar kiểu quán bia đồng quê Pháp, gỗ tối màu; giờ vàng mua 1 tặng 1 từ 15h–20h30, tối có DJ.",
+     "dia_chi": "68 Trương Công Định",
+     "duong": "Trương Công Định",
+     "nguon": [
+      {
+       "link": "https://toplist.vn/top-list/quan-cocktail-dep-nhat-tai-da-lat-57085.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-cocktail-bar-dang-cap-nhat-tai-tp-da-lat-lam-dong-57973.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://wanderlog.com/list/geoCategory/248821",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi địa chỉ mới '68 Trương Công Định, Xuân Hương - Đà Lạt', không đánh dấu đóng cửa"
+    },
+    {
+     "ten": "Woody Classic Bar",
+     "loai": "bar cocktail nhỏ",
+     "dac_trung": "Quán bar nhỏ kiểu cổ điển, đồ trang trí vintage, cocktail và cà phê.",
+     "dia_chi": "49A Trương Công Định",
+     "duong": "Trương Công Định",
+     "nguon": [
+      {
+       "link": "https://toplist.vn/top-list/quan-cocktail-dep-nhat-tai-da-lat-57085.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://wanderlog.com/list/geoCategory/248821",
+       "trang": "wanderlog.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/bar-pub-phuc-vu-bia",
+       "trang": "foody.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.434728,
+      "lat": 11.943829,
+      "cach": "số nhà trên OpenStreetMap: 49A Trương Công Định",
+      "osm": "node/6085727286"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi '49a Trương Công Định, Xuân Hương - Đà Lạt', 4.7 (404 đánh giá)"
+    },
+    {
+     "ten": "Fox's Den",
+     "loai": "bar cocktail nhỏ",
+     "dac_trung": "Bar cocktail kín đáo trên dốc, không gian như hang cáo, dễ đi lướt qua.",
+     "dia_chi": "56 Tăng Bạt Hổ",
+     "duong": "Tăng Bạt Hổ",
+     "nguon": [
+      {
+       "link": "https://toplist.vn/top-list/quan-cocktail-bar-dang-cap-nhat-tai-tp-da-lat-lam-dong-57973.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/1781655/foxs-den",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.434608,
+      "lat": 11.944274,
+      "cach": "số nhà trên OpenStreetMap: 56 Tăng Bạt Hổ",
+      "osm": "node/7147596490"
+     },
+     "con_mo": "không rõ: trang danh sách Wanderlog ghi 'Temporarily Closed' (tạm đóng), trang riêng của quán trên Wanderlog vẫn ghi giờ 18h–24h"
+    },
+    {
+     "ten": "Dalat YOLO Hostel (Yolo Hostel n Bar)",
+     "loai": "hostel cho khách ba lô, có bar",
+     "dac_trung": "Hostel giường tầng kèm quầy bar, tổ chức BBQ và trò chơi tập thể cho khách trẻ.",
+     "dia_chi": "31 Trương Công Định",
+     "duong": "Trương Công Định",
+     "nguon": [
+      {
+       "link": "https://hostelmanagement.com/vietnam/dalat/dalat-yolo-hostel",
+       "trang": "hostelmanagement.com"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/da-lat-kham-pha-yolo-hostel-n-bar-trai-nghiem-moi-tai-da-lat.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://ostrovok.ru/hotel/vietnam/da_lat/mid6796041/dalat_yolo_hostel",
+       "trang": "ostrovok.ru"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.435053,
+      "lat": 11.94352,
+      "cach": "số nhà trên OpenStreetMap: 31 Trương Công Định",
+      "osm": "node/5659684330"
+     },
+     "con_mo": "không rõ (Ostrovok còn nhận đặt phòng, 84 đánh giá, nhưng không ghi ngày)"
     }
    ],
-   "can_kiem_them": 6,
-   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-23_pho_that_dia_diem.md"
+   "can_kiem_them": 14,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_tang-bat-ho.md"
   },
   {
    "id": "street_pho_ca_phe",
@@ -106,45 +345,125 @@
     "Lê Đại Hành"
    ],
    "ward": "Xuân Hương - Đà Lạt",
-   "gioi_thieu": "Con đường cà phê lên Khu Hoà Bình: quán xưa cạnh quán mới, kem bơ, sân thượng nhìn phố",
+   "gioi_thieu": "Phố Cà Phê: con dốc Nguyễn Chí Thanh lên Khu Hòa Bình, có Café Nga mở từ 5 giờ sáng đã hơn 20 năm, bên cạnh tiệm trà chuỗi mới Phê La.",
    "anh": "assets/dau_pho/dau_pho_ca_phe.webp",
-   "ten_that": false,
+   "ten_that": true,
    "dia_diem": [
     {
-     "loai": "Quán cà phê truyền thống mở từ 5 giờ",
-     "dac_trung": "vài bàn nhỏ, phin nhôm",
+     "ten": "Café Nga",
+     "loai": "quán cà phê truyền thống",
+     "dac_trung": "Quán cũ hơn 20 năm giữa Khu Hòa Bình, mở từ 5 giờ sáng, khách quen là người địa phương lớn tuổi; 20.000–40.000đ.",
+     "dia_chi": "2A Nguyễn Chí Thanh",
+     "duong": "Nguyễn Chí Thanh",
      "nguon": [
       {
        "link": "https://mia.vn/cam-nang-du-lich/4-quan-cafe-xua-cu-o-da-lat-cho-ngay-song-cham-giua-long-pho-thi-7861",
        "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cafe-da-lat",
+       "trang": "vietnamairlines.com"
       },
       {
        "link": "https://mia.vn/cam-nang-du-lich/tim-hieu-ve-van-hoa-ca-phe-sang-o-da-lat-binh-di-giua-doi-thuong-10354",
        "trang": "mia.vn"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025 (bài mia.vn ngày 06/06/2025 ghi giờ mở 5h–22h30); chưa thấy nguồn 2026"
     },
     {
-     "loai": "Quán cà phê xưa, ghế gỗ, nhạc Trịnh",
-     "dac_trung": "ghế gỗ cũ, nhạc Trịnh",
+     "ten": "Phê La Đà Lạt",
+     "loai": "tiệm trà ô long (chuỗi)",
+     "dac_trung": "Chuỗi trà ô long, không gian rộng nhiều hoa; mở khoảng 7–8h tới 22h30–23h.",
+     "dia_chi": "7 Nguyễn Chí Thanh",
+     "duong": "Nguyễn Chí Thanh",
      "nguon": [
       {
-       "link": "https://mia.vn/cam-nang-du-lich/4-quan-cafe-xua-cu-o-da-lat-cho-ngay-song-cham-giua-long-pho-thi-7861",
-       "trang": "mia.vn"
+       "link": "https://phela.vn/",
+       "trang": "phela.vn"
       },
       {
-       "link": "https://vinwonders.com/vi/wonderpedia/news/cafe-da-lat/",
+       "link": "https://vinwonders.com/vi/wonderpedia/news/review-20-quan-tra-sua-da-lat-ngon-quen-sau/",
        "trang": "vinwonders.com"
       },
       {
+       "link": "https://wanderlog.com/place/details/5146217/ph%C3%AA-la-%C4%91%C3%A0-l%E1%BA%A1t",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026 (phela.vn ghi 'Phường Xuân Hương - Đà Lạt' = tên phường sau 1/7/2025; wanderlog có giờ mở, không ghi đóng)"
+    },
+    {
+     "ten": "Retro 1992",
+     "loai": "quán cà phê hoài cổ",
+     "dac_trung": "Quán đồ gỗ cũ, đèn vàng, lối lên là bậc thang nhiều màu trên một con dốc nhỏ.",
+     "dia_chi": "23 Nguyễn Chí Thanh",
+     "duong": "Nguyễn Chí Thanh",
+     "nguon": [
+      {
        "link": "https://toplist.vn/top-list/quan-ca-phe-co-kinh-don-tim-du-khach-o-da-lat-31672.htm",
        "trang": "toplist.vn"
+      },
+      {
+       "link": "https://znews.vn/nhung-tiem-ca-phe-phong-cach-retro-o-da-lat-post1008585.html",
+       "trang": "znews.vn"
+      },
+      {
+       "link": "https://mytour.vn/en/blog/bai-viet/top-11-charming-vintage-cafes-that-capture-the-hearts-of-visitors-in-da-lat-lam-dong-mytour.html",
+       "trang": "mytour.vn"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "không rõ (nguồn có ngày mới nhất là Znews 2019)"
+    },
+    {
+     "ten": "Artista - Cafe Nghệ Sỹ",
+     "loai": "quán cà phê kiểu Âu",
+     "dac_trung": "Quán trang trí kiểu châu Âu, có lò sưởi củi, ngồi nhìn phố trung tâm; có món ăn sáng, tối.",
+     "dia_chi": "9 Nguyễn Chí Thanh",
+     "duong": "Nguyễn Chí Thanh",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/cafe-nghe-sy",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://www.airbnb.com/things-to-do/places/2994762",
+       "trang": "airbnb.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "không rõ (bình luận foody mới nhất 10/12/2020; Airbnb không ghi đóng)"
+    },
+    {
+     "ten": "Tiệm bánh Cối Xay Gió - Nguyễn Chí Thanh",
+     "loai": "tiệm bánh, cà phê",
+     "dac_trung": "Chi nhánh 'tường vàng đồ si' treo hơn 1.300 áo thun vàng, nhìn ra phố trung tâm; mỗi lượt check-in góp 1.000đ cho học sinh khó khăn.",
+     "dia_chi": "11A Nguyễn Chí Thanh",
+     "duong": "Nguyễn Chí Thanh",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/co-gi-dac-biet-o-tiem-banh-coi-xay-gio-noi-tieng-nhat-xu-so-suong-mu-da-lat-1369",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/khu-vuc-hoa-binh",
+       "trang": "foody.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.436672,
+      "lat": 11.941193,
+      "cach": "số nhà trên OpenStreetMap: 11A Nguyễn Chí Thanh",
+      "osm": "node/13555934502"
+     },
+     "con_mo": "không rõ (bình luận foody mới nhất 5/3/2021)"
     }
    ],
-   "can_kiem_them": 6,
-   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-23_pho_that_dia_diem.md"
+   "can_kiem_them": 5,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_pho-ca-phe.md"
   },
   {
    "id": "street_phan_dinh_phung",
@@ -154,41 +473,16 @@
     "Phan Đình Phùng"
    ],
    "ward": "Xuân Hương - Đà Lạt",
-   "gioi_thieu": "Phố cũ của dân phố núi: nhà thuốc, tiệm tóc, nhà sách, studio ảnh cưới, phở sáng, tiệm xe máy",
+   "gioi_thieu": "Phố Dân Sinh: phố cũ của dân phố núi — sáng có bánh bèo, mì hoành thánh, bún bò, phở thố đá; dọc phố có nhà sách lớn, nhà thuốc, quán nem nướng và chỗ thuê xe máy.",
    "anh": "assets/dau_pho/dau_pho_phan_dinh_phung.webp",
-   "ten_that": false,
+   "ten_that": true,
    "dia_diem": [
     {
-     "loai": "Nhà thuốc mở từ sáng tới khuya",
-     "dac_trung": "tủ thuốc nam, dầu gió, thuốc cảm mùa lạnh",
-     "nguon": [
-      {
-       "link": "https://nhathuoclongchau.com.vn/he-thong-cua-hang/204-phan-dinh-phung-p-tp-da-lat-tinh-lam-dong",
-       "trang": "nhathuoclongchau.com.vn"
-      },
-      {
-       "link": "https://nhathuoclongchau.com.vn/he-thong-cua-hang/44-44-a-phan-dinh-phung-p-1-tp-da-lat-tinh-lam-dong",
-       "trang": "nhathuoclongchau.com.vn"
-      }
-     ]
-    },
-    {
-     "loai": "Salon tóc, làm móng",
-     "dac_trung": "kéo bén, tông đơ kêu rè rè",
-     "nguon": [
-      {
-       "link": "https://mytour.vn/vi/blog/xep-hang/top-10-salon-toc-dep-va-noi-tieng-nhat-tai-da-lat-mytour.html",
-       "trang": "mytour.vn"
-      },
-      {
-       "link": "https://mytour.vn/vi/blog/bai-viet/top-12-salon-lam-toc-dep-va-uy-tin-nhat-da-lat.html",
-       "trang": "mytour.vn"
-      }
-     ]
-    },
-    {
-     "loai": "Nhà sách lớn, góc sách thiếu nhi",
-     "dac_trung": "kệ gỗ thông, sách chất cao",
+     "ten": "Nhà sách Phương Nam Đà Lạt",
+     "loai": "nhà sách",
+     "dac_trung": "nhà sách nhiều tầng, có khu sách thiếu nhi, bán cả văn phòng phẩm và quà lưu niệm",
+     "dia_chi": "279 Phan Đình Phùng",
+     "duong": "Phan Đình Phùng",
      "nguon": [
       {
        "link": "https://mia.vn/cam-nang-du-lich/cac-nha-sach-da-lat-15541",
@@ -197,44 +491,201 @@
       {
        "link": "https://mytour.vn/vi/blog/bai-viet/top-6-dia-diem-sach-uy-tin-o-lam-dong.html",
        "trang": "mytour.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/nha-sach-uy-tin-nhat-tinh-lam-dong-47306.htm",
+       "trang": "toplist.vn"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn sửa bài 25/08/2026 vẫn ghi địa chỉ này"
     },
     {
-     "loai": "Studio chụp ảnh cưới",
-     "dac_trung": "đèn flash, ô phản sáng",
+     "ten": "Nhà thuốc Long Châu (44-44A Phan Đình Phùng)",
+     "loai": "nhà thuốc",
+     "dac_trung": "nhà thuốc chuỗi, cùng chỗ có Trung tâm Tiêm chủng FPT Long Châu chi nhánh Phan Đình Phùng",
+     "dia_chi": "44-44A Phan Đình Phùng",
+     "duong": "Phan Đình Phùng",
      "nguon": [
       {
-       "link": "https://mytour.vn/en/blog/xep-hang/top-10-best-and-most-professional-wedding-photography-studios-in-lam-dong-mytour.html",
-       "trang": "mytour.vn"
+       "link": "https://nhathuoclongchau.com.vn/he-thong-cua-hang/44-44-a-phan-dinh-phung-p-1-tp-da-lat-tinh-lam-dong",
+       "trang": "nhathuoclongchau.com.vn"
       },
       {
-       "link": "https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-nhat-tai-da-lat-17292.htm",
-       "trang": "toplist.vn"
-      },
-      {
-       "link": "https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-chuyen-nghiep-nhat-tai-lam-dong-18106.htm",
-       "trang": "toplist.vn"
+       "link": "https://hellobacsi.com/care/benh-vien/trung-tam-tiem-chung-fpt-long-chau-chi-nhanh-phan-dinh-phung-tp-da-lat-lam-dong-5548/",
+       "trang": "hellobacsi.com"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "không rõ (trang Long Châu chặn đọc trực tiếp, chỉ thấy qua kết quả tìm kiếm)"
     },
     {
-     "loai": "Tiệm xe máy: cho thuê, mua bán, sửa",
-     "dac_trung": "cờ lê, mỏ lết, máy bơm hơi",
+     "ten": "Bánh bèo Bà Hường",
+     "loai": "quán bánh bèo",
+     "dac_trung": "bánh bèo hấp chén kiểu Quảng Nam, nhân thịt nạc và tôm băm, bán tới tối",
+     "dia_chi": "402 Phan Đình Phùng",
+     "duong": "Phan Đình Phùng",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/an-sang-da-lat",
+       "trang": "vietnamairlines.com"
+      },
+      {
+       "link": "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.grab.com/vn/food-blog/talk-of-the-town/tphcm-goi-y-5-quan-an-kham-pha-tron-mot-ngay-o-da-lat/",
+       "trang": "grab.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.432074,
+      "lat": 11.954171,
+      "cach": "số nhà trên OpenStreetMap: 402 Phan Đình Phùng",
+      "osm": "node/6152503086"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn sửa bài 06/08/2026, ghi phường Xuân Hương (tên sau 1/7/2025)"
+    },
+    {
+     "ten": "Mì hoành thánh Tàu Cao",
+     "loai": "quán mì hoành thánh",
+     "dac_trung": "mì hoành thánh nước trong, bán từ sáng sớm",
+     "dia_chi": "217 Phan Đình Phùng",
+     "duong": "Phan Đình Phùng",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/an-sang-da-lat",
+       "trang": "vietnamairlines.com"
+      },
+      {
+       "link": "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/",
+       "trang": "vinwonders.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.435576,
+      "lat": 11.947155,
+      "cach": "số nhà trên OpenStreetMap: 217 Phan Đình Phùng",
+      "osm": "node/6555060685"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn sửa bài 06/08/2026 ghi phường Xuân Hương"
+    },
+    {
+     "ten": "Phở Thố Đá Chu Gia",
+     "loai": "quán phở",
+     "dac_trung": "phở bò đựng trong thố đá nóng, nước dùng hầm xương bò lâu giờ",
+     "dia_chi": "1 Bis Phan Đình Phùng",
+     "duong": "Phan Đình Phùng",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/pho-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/dia-diem-phuc-vu-pho",
+       "trang": "foody.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025: vinwonders đăng 05/07/2025 ghi 1Bis Phan Đình Phùng, phường Xuân Hương"
+    },
+    {
+     "ten": "Trang's Cookery Restaurant",
+     "loai": "nhà hàng món Âu",
+     "dac_trung": "nhà hàng món Âu hai tầng sàn gỗ, có ban công nhìn ra phố, nhiều khách nước ngoài",
+     "dia_chi": "211 Phan Đình Phùng",
+     "duong": "Phan Đình Phùng",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/1143602",
+       "trang": "wanderlog.com"
+      },
+      {
+       "link": "https://www.bestpricetravel.com/travel-guide/best-restaurants-in-da-lat-2749.html",
+       "trang": "bestpricetravel.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.435439,
+      "lat": 11.947036,
+      "cach": "số nhà trên OpenStreetMap: 211 Phan Đình Phùng",
+      "osm": "node/8643831217"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (sửa 06/08/2026) và Wanderlog đều ghi phường Xuân Hương - Đà Lạt"
+    },
+    {
+     "ten": "Bánh ướt lòng gà Long",
+     "loai": "quán bánh ướt lòng gà",
+     "dac_trung": "bánh ướt ăn với lòng gà, thịt gà, trứng non bóp gỏi, nước chấm chua ngọt",
+     "dia_chi": "202/2/5 Phan Đình Phùng",
+     "duong": "Phan Đình Phùng",
+     "nguon": [
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/an-sang-da-lat",
+       "trang": "vietnamairlines.com"
+      },
+      {
+       "link": "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/",
+       "trang": "vinwonders.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders ghi phường Xuân Hương (tên sau 1/7/2025)"
+    },
+    {
+     "ten": "Bún bò Bà Sồi",
+     "loai": "quán bún bò Huế",
+     "dac_trung": "quán bún bò Huế nhỏ chỉ bán buổi sáng (6h–11h); mytour ghi đã mở khoảng 20 năm",
+     "dia_chi": "51/6 Phan Đình Phùng",
+     "duong": "Phan Đình Phùng",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/bai-viet-du-lich/quan-an-ngon-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mytour.vn/en/blog/bai-viet/discover-11-irresistible-bun-bo-restaurants-in-da-lat-mytour.html",
+       "trang": "mytour.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders ghi phường Xuân Hương; mytour cập nhật 01/11/2026"
+    },
+    {
+     "ten": "Thuê xe Cub 50 Đà Lạt",
+     "loai": "cho thuê xe máy",
+     "dac_trung": "cho thuê xe Cub 50 phân khối, đi không cần bằng lái",
+     "dia_chi": "340 Phan Đình Phùng",
+     "duong": "Phan Đình Phùng",
      "nguon": [
       {
        "link": "https://vinwonders.com/vi/wonderpedia/news/thue-xe-may-da-lat/",
        "trang": "vinwonders.com"
       },
       {
-       "link": "https://mia.vn/cam-nang-du-lich/top-dia-diem-thue-xe-may-da-lat-19448",
+       "link": "https://mia.vn/cam-nang-du-lich/tong-hop-7-dia-chi-thue-xe-may-tai-da-lat-uy-tin-nhat-1426",
        "trang": "mia.vn"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders ghi phường Xuân Hương (bài mia.vn cũ hơn, sửa 20/09/2023)"
     }
    ],
-   "can_kiem_them": 3,
-   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-23_pho3_phan_dinh_phung.md"
+   "can_kiem_them": 15,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_phan-dinh-phung.md"
   },
   {
    "id": "street_nguyen_van_troi",
@@ -244,63 +695,338 @@
     "Nguyễn Văn Trỗi"
    ],
    "ward": "Xuân Hương - Đà Lạt",
-   "gioi_thieu": "Phố một chiều ăn vặt ngọt: kem bơ lâu năm, chè, bánh tráng nướng, dốc chùa",
+   "gioi_thieu": "Phố Kem Bơ: đường một chiều có những hàng kem bơ 30–40 năm tuổi, chiều tối có bánh tráng nướng bếp than, cuối dốc là chùa Linh Sơn.",
    "anh": "assets/dau_pho/dau_pho_nguyen_van_troi.webp",
-   "ten_that": false,
+   "ten_that": true,
    "dia_diem": [
     {
-     "loai": "Tiệm kem bơ lâu năm",
-     "dac_trung": "bơ sáp xay sữa đặc, khách xếp hàng dù trời lạnh",
+     "ten": "Kem Phụng",
+     "loai": "tiệm kem bơ",
+     "dac_trung": "Kem bơ của bà Mai Thị Phụng, bán trong chợ Đà Lạt từ thập niên 80 rồi con cháu mở quán trên phố; cuối tuần xếp hàng, xe đậu kín hai bên đường.",
+     "dia_chi": "97A Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
      "nguon": [
+      {
+       "link": "https://vietnamnet.vn/da-lat-lanh-14-do-c-khach-van-xuyt-xoa-xep-hang-o-pho-kem-bo-2080453.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/15-quan-kem-da-lat-duoc-review-nhieu-nhat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/kem-phung",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kem-bo-da-lat-diem-danh-4-quan-kem-bo-gay-nghien-tai-da-lat-1273",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://wanderlog.com/list/geoCategory/49095/places-to-have-best-gelato-in-da-lat",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.437893,
+      "lat": 11.949127,
+      "cach": "tên trên OpenStreetMap: Kem Phụng",
+      "osm": "node/9863286730"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders (bài 15 quán kem) và wanderlog ghi địa chỉ theo tên phường mới Xuân Hương - Đà Lạt (chỉ có từ 7/2025)"
+    },
+    {
+     "ten": "Kem bơ Thanh Thảo",
+     "loai": "tiệm kem bơ, chè",
+     "dac_trung": "Quán hai tầng gần Kem Phụng, công thức kem dừa giữ 30 năm; bán cả chè Thái, rau câu, flan, yaourt phô mai.",
+     "dia_chi": "76 Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
+     "nguon": [
+      {
+       "link": "https://vietnamnet.vn/da-lat-lanh-14-do-c-khach-van-xuyt-xoa-xep-hang-o-pho-kem-bo-2080453.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kem-bo-thanh-thao-da-lat-14041",
+       "trang": "mia.vn"
+      },
       {
        "link": "https://vinwonders.com/vi/wonderpedia/news/kem-bo-da-lat/",
        "trang": "vinwonders.com"
       },
       {
-       "link": "https://vinwonders.com/vi/wonderpedia/news/15-quan-kem-da-lat-duoc-review-nhieu-nhat/",
-       "trang": "vinwonders.com"
+       "link": "https://www.foody.vn/lam-dong/kem-bo-thanh-thao",
+       "trang": "foody.vn"
       },
       {
-       "link": "https://mia.vn/cam-nang-du-lich/kem-bo-thanh-thao-da-lat-14041",
-       "trang": "mia.vn"
+       "link": "https://wanderlog.com/list/geoCategory/49095/places-to-have-best-gelato-in-da-lat",
+       "trang": "wanderlog.com"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders kem-bo-da-lat (31/07/2025) và wanderlog ghi phường Xuân Hương - Đà Lạt"
     },
     {
-     "loai": "Quán chè, yaourt phô mai, rau câu",
-     "dac_trung": "ly chè Thái, yaourt phô mai",
+     "ten": "Nari - Chè Kem Bơ",
+     "loai": "tiệm kem bơ, chè, ăn vặt",
+     "dac_trung": "Quán mới hơn, sát bên Thanh Thảo, được khách trẻ thích; ngoài kem bơ có yaourt phô mai, chè Thái, bánh tráng nướng, nem chua.",
+     "dia_chi": "74C Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
      "nguon": [
-      {
-       "link": "https://vinwonders.com/vi/wonderpedia/news/15-quan-kem-da-lat-duoc-review-nhieu-nhat/",
-       "trang": "vinwonders.com"
-      },
-      {
-       "link": "https://mia.vn/cam-nang-du-lich/kem-bo-thanh-thao-da-lat-14041",
-       "trang": "mia.vn"
-      },
       {
        "link": "https://vietnamnet.vn/da-lat-lanh-14-do-c-khach-van-xuyt-xoa-xep-hang-o-pho-kem-bo-2080453.html",
        "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/kem-bo-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/nari-che-kem-bo",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kem-bo-da-lat-diem-danh-4-quan-kem-bo-gay-nghien-tai-da-lat-1273",
+       "trang": "mia.vn"
       }
-     ]
+     ],
+     "vi_tri": {
+      "lon": 108.436818,
+      "lat": 11.947369,
+      "cach": "tên trên OpenStreetMap: Kem Nari (ghép tay)",
+      "osm": "node/5401027221"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders 15 quán kem ghi phường Xuân Hương - Đà Lạt. Foody báo 'hơn 3 tháng chưa có tương tác mới'."
     },
     {
-     "loai": "Bánh tráng nướng vỉa hè",
-     "dac_trung": "bếp than vỉa hè, bán chiều tối",
+     "ten": "Bánh tráng nướng 112",
+     "loai": "quán bánh tráng nướng",
+     "dac_trung": "Quán mặt tiền đông khách, mở từ trưa tới khuya, nhiều loại nhân trứng, khô bò, phô mai; bán thêm sữa đậu nành, yaourt phô mai.",
+     "dia_chi": "112 Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
      "nguon": [
       {
        "link": "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
        "trang": "mia.vn"
       },
       {
-       "link": "https://vinwonders.com/vi/wonderpedia/news/kem-bo-da-lat/",
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/banh-trang-nuong-da-lat",
+       "trang": "vietnamairlines.com"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-banh-trang-nuong-ngon-nhat-o-da-lat-25656.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/top-8-dia-diem-banh-trang-nuong-hot-nhat-da-lat.html",
+       "trang": "mytour.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.437298,
+      "lat": 11.948618,
+      "cach": "số nhà trên OpenStreetMap: 112 Nguyễn Văn Trỗi",
+      "osm": "node/7147596486"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (10/08/2026) và vinwonders (26/07/2025) ghi phường Xuân Hương - Đà Lạt"
+    },
+    {
+     "ten": "Bánh tráng nướng Bà Khùng",
+     "loai": "bánh tráng nướng vỉa hè",
+     "dac_trung": "Một bếp than chữ nhật đặt trên vỉa hè, gần 20 năm; cô chủ nổi tiếng tính 'nắng mưa', bán buổi chiều tối.",
+     "dia_chi": "61 Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/top-8-dia-diem-banh-trang-nuong-hot-nhat-da-lat.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/2465266",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.435783,
+      "lat": 11.946281,
+      "cach": "số nhà trên OpenStreetMap: 61 Nguyễn Văn Trỗi",
+      "osm": "node/7147596385"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (10/08/2026), mytour (cập nhật 1/11/2026), wanderlog ghi phường Xuân Hương - Đà Lạt. Giờ mở mỗi nguồn ghi khác (16–20h / 15h30–22h / 6–23h)."
+    },
+    {
+     "ten": "Bánh tráng nướng Cô Phượng",
+     "loai": "quán bánh tráng nướng, sữa đậu nành",
+     "dac_trung": "Bánh nhiều phô mai, bán kèm sữa đậu nành, mở chiều tới tối.",
+     "dia_chi": "69C Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-banh-trang-nuong-ngon-nhat-o-da-lat-25656.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/top-8-dia-diem-banh-trang-nuong-hot-nhat-da-lat.html",
+       "trang": "mytour.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.43599,
+      "lat": 11.946849,
+      "cach": "số nhà trên OpenStreetMap: 69C Nguyễn Văn Trỗi",
+      "osm": "node/6221239511"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (10/08/2026) và vinwonders (26/07/2025) ghi phường Xuân Hương - Đà Lạt"
+    },
+    {
+     "ten": "Chùa Linh Sơn",
+     "loai": "chùa",
+     "dac_trung": "Chùa trên đồi thấp ngay mặt phố, xây 1938–1940 (Wikipedia; trang khác ghi 1936); lên bằng bậc thang ngắn mà dốc qua cổng chào; vào cửa miễn phí.",
+     "dia_chi": "120 Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
+     "nguon": [
+      {
+       "link": "https://en.wikipedia.org/wiki/Linh_Son_Pagoda",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/chua-linh-son-vieng-tham-chon-thien-dinh-lau-doi-o-da-lat-1365",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.vietnamtourism.com/vi/chua-linh-son-o-a-lat-cam-nang-ay-u-ve-ngoi-chua-tren-oi",
+       "trang": "vietnamtourism.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.43702,
+      "lat": 11.950274,
+      "cach": "tên trên OpenStreetMap: Chùa Linh Sơn",
+      "osm": "way/361851927"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: vietnamtourism.com mô tả là tu viện đang hoạt động (bài trong cụm cập nhật 2026)"
+    },
+    {
+     "ten": "Phở Hiếu",
+     "loai": "quán phở",
+     "dac_trung": "Phở bò ăn buổi sáng, ăn kèm quẩy, có sữa chua tráng miệng; Google ghi vị trí 'dốc chùa'.",
+     "dia_chi": "103 Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
+     "nguon": [
+      {
+       "link": "https://wanderlog.com/place/details/1521900",
+       "trang": "wanderlog.com"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-pho-ngon-noi-tieng-nhat-tai-da-lat-33695.htm",
+       "trang": "toplist.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.435363,
+      "lat": 11.943531,
+      "cach": "tên trên OpenStreetMap: Pho Hieu",
+      "osm": "node/5139681925"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: wanderlog (dữ liệu Google) ghi phường Xuân Hương - Đà Lạt, mở 5h30–20h45. Nhưng vinwonders phở Đà Lạt (05/07/2025) và foody vẫn ghi 23 Tăng Bạt Hổ — xem ghi chú."
+    },
+    {
+     "ten": "Bánh mì xíu mại 79",
+     "loai": "quán bánh mì xíu mại buổi sáng",
+     "dac_trung": "Quán sáng nhỏ, mở từ 5h, chén xíu mại với da heo, hành lá, ăn kèm sữa đậu nành nóng.",
+     "dia_chi": "119C Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/banh-mi-xiu-mai-da-lat-18910",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/banh-mi-xiu-mai-da-lat",
+       "trang": "vietnamairlines.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: bài mia.vn có ngày 23.07.2026 (vẫn ghi Phường 2 cũ). Tuổi quán: các trang ghi khác nhau (hơn 20 năm / gần 40 năm) nên không ghi số."
+    },
+    {
+     "ten": "Cơm Tấm Mộc",
+     "loai": "quán cơm tấm",
+     "dac_trung": "Quán nhỏ bày kiểu hoài cổ, cơm tấm sườn chả bì, chỉ bán sáng tới trưa (6h–13h).",
+     "dia_chi": "121C Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
+     "nguon": [
+      {
+       "link": "https://foody.vn/lam-dong/com-tam-moc",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/bo-tui-top-10-quan-com-tam-da-lat-ngon-nuc-tieng-ma-ban-phai-thu-1327",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/trai-nghiem-8-quan-com-tam-da-lat-ngon-kho-quen-digifood.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/",
        "trang": "vinwonders.com"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders ăn trưa (13/07/2025) ghi phường Xuân Hương - Đà Lạt; mytour cập nhật 1/11/2026"
+    },
+    {
+     "ten": "Cơm chay Thanh Đạm",
+     "loai": "quán cơm chay",
+     "dac_trung": "Quán chay bình dân, nhiều món chay kiểu Việt (phở, hoành thánh, cơm phần), mở 6h30–18h30.",
+     "dia_chi": "97C Nguyễn Văn Trỗi",
+     "duong": "Nguyễn Văn Trỗi",
+     "nguon": [
+      {
+       "link": "https://app.wanderlog.com/place/details/1502585",
+       "trang": "app.wanderlog.com"
+      },
+      {
+       "link": "https://spinach.guide/venues/com-chay-thanh-am-189058/",
+       "trang": "spinach.guide"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/com-chay-thanh-dam",
+       "trang": "foody.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.437928,
+      "lat": 11.949475,
+      "cach": "tên trên OpenStreetMap: Com Chay Thanh Dam",
+      "osm": "node/5963217089"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: wanderlog và spinach.guide ghi phường Xuân Hương - Đà Lạt. Toplist ghi 99C (lệch số nhà)."
     }
    ],
-   "can_kiem_them": 6,
-   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-24_pho_moi_da_lat.md"
+   "can_kiem_them": 8,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_nguyen-van-troi.md"
   },
   {
    "id": "street_hoang_dieu",
@@ -310,45 +1036,107 @@
     "Hoàng Diệu"
    ],
    "ward": "Cam Ly - Đà Lạt",
-   "gioi_thieu": "Phố lẩu bò Ba Toa: hơn 20 quán lẩu, sáng bán bánh mì xíu mại",
+   "gioi_thieu": "Phố lẩu bò Ba Toa: hơn 20 quán lẩu bò trên đoạn dưới 300 m (cùng Nguyễn Thị Định, Tô Ngọc Vân), sáng bán bánh mì xíu mại",
    "anh": "assets/dau_pho/dau_pho_hoang_dieu.webp",
-   "ten_that": false,
+   "ten_that": true,
    "dia_diem": [
     {
-     "loai": "Quán lẩu bò nhà gỗ",
-     "dac_trung": "nồi lẩu bò bốc hơi, gần như luôn kín khách",
+     "ten": "Lẩu Bò Quán Gỗ (Lẩu Bò ABa Toa)",
+     "loai": "quán lẩu bò",
+     "dac_trung": "Quán gốc lâu năm trong căn nhà gỗ nhỏ cuối hẻm, thường kín khách; có quán khác mạo danh tên.",
+     "dia_chi": "29/1 Hoàng Diệu",
+     "duong": "Hoàng Diệu",
      "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/lau-bo-ba-toa-hoang-dieu",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/moi-ban-vao-team-miavn-de-cung-di-an-quan-lau-bo-ba-toa-nha-go-nuc-tieng-da-lat-1420",
+       "trang": "mia.vn"
+      },
       {
        "link": "https://news.tuoitre.vn/over-20-ba-toa-beef-hotpot-restaurants-line-this-300m-street-in-vietnams-da-lat-10326061223565753.htm",
        "trang": "news.tuoitre.vn"
       },
       {
-       "link": "https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503",
-       "trang": "mia.vn"
-      },
-      {
-       "link": "https://mia.vn/cam-nang-du-lich/moi-ban-vao-team-miavn-de-cung-di-an-quan-lau-bo-ba-toa-nha-go-nuc-tieng-da-lat-1420",
-       "trang": "mia.vn"
+       "link": "https://znews.vn/4-quan-lau-bo-noi-tieng-thom-ngon-tai-da-lat-post942147.html",
+       "trang": "znews.vn"
       }
-     ]
+     ],
+     "vi_tri": {
+      "lon": 108.429478,
+      "lat": 11.941377,
+      "cach": "số nhà trên OpenStreetMap: 29/1 Hoàng Diệu",
+      "osm": "node/4375004390"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: Tuổi Trẻ News 13/06/2026 ghi là quán lâu năm, đông nhất; mia.vn 08/07/2026 ghi giờ mở 9h30–21h30"
     },
     {
-     "loai": "Quán lẩu bò trong hẻm",
-     "dac_trung": "khách địa phương, đông 6–8 giờ tối",
+     "ten": "Quán Dìn (Batoa) - Lẩu Bò",
+     "loai": "quán lẩu bò",
+     "dac_trung": "Đối diện Quán Gỗ; nước lẩu có thuốc Bắc, đông khách 18–20 giờ.",
+     "dia_chi": "8/1 Hoàng Diệu",
+     "duong": "Hoàng Diệu",
      "nguon": [
       {
+       "link": "https://www.foody.vn/lam-dong/quan-din-batoa-lau-bo",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-lau-bo-hap-dan-nhat-da-lat-33370.htm",
+       "trang": "toplist.vn"
+      },
+      {
        "link": "https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503",
        "trang": "mia.vn"
       },
       {
-       "link": "https://www.foody.vn/lam-dong/lau-bo-ba-toa-hoang-dieu",
-       "trang": "foody.vn"
+       "link": "https://news.tuoitre.vn/over-20-ba-toa-beef-hotpot-restaurants-line-this-300m-street-in-vietnams-da-lat-10326061223565753.htm",
+       "trang": "news.tuoitre.vn"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: Tuổi Trẻ News 13/06/2026 có tên 'Din' trong các quán đang bán; mia.vn 23/07/2026 ghi giờ mở 9h–22h30 (Foody: đánh giá cuối 12/2019)"
     },
     {
-     "loai": "Quán bánh mì xíu mại buổi sáng",
-     "dac_trung": "chén xíu mại, ổ bánh nóng, hết hàng lúc 9 giờ",
+     "ten": "Bánh Mì Xíu Mại Bé Linh",
+     "loai": "quán bánh mì xíu mại",
+     "dac_trung": "Quán vỉa hè hơn 50 năm, hai đời, không biển hiệu (dân gọi 'xíu mại Hoàng Diệu'); có chi nhánh 2 tầng ở số 37.",
+     "dia_chi": "26 Hoàng Diệu",
+     "duong": "Hoàng Diệu",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-quan-banh-mi-xiu-mai-hoang-dieu-19607",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/top-20-quan-banh-mi-xiu-mai-noi-tieng-o-da-lat.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-mi-xiu-mai-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://toplist.vn/top-list/dia-chi-an-banh-mi-xiu-mai-ngon-va-chat-luong-nhat-da-lat-31656.htm",
+       "trang": "toplist.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.428663,
+      "lat": 11.942854,
+      "cach": "tên trên OpenStreetMap: Bánh mì xíu mại Bé Linh",
+      "osm": "node/8113305933"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn 12/11/2025 ghi cả 2 cơ sở 26 và 37; vinwonders 30/07/2025"
+    },
+    {
+     "ten": "Bánh Mì Xíu Mại 47",
+     "loai": "quán bánh mì xíu mại",
+     "dac_trung": "Biển 'Bánh mì 47', chén xíu mại 2 viên với bánh mì nóng; bán thêm yaourt phô mai, sữa đậu nành.",
+     "dia_chi": "47 Hoàng Diệu",
+     "duong": "Hoàng Diệu",
      "nguon": [
       {
        "link": "https://mia.vn/cam-nang-du-lich/top-quan-banh-mi-xiu-mai-hoang-dieu-19607",
@@ -359,28 +1147,62 @@
        "trang": "vinwonders.com"
       },
       {
-       "link": "https://vietnamnews.vn/life-style/1728243/a-taste-of-mist-discovering-da-lat-through-its-cuisine.html",
-       "trang": "vietnamnews.vn"
+       "link": "https://toplist.vn/top-list/dia-chi-an-banh-mi-xiu-mai-ngon-va-chat-luong-nhat-da-lat-31656.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/banh-mi-xiu-mai-47",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/top-20-quan-banh-mi-xiu-mai-noi-tieng-o-da-lat.html",
+       "trang": "mytour.vn"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn 12/11/2025; vinwonders 11/07/2025 và 13/07/2025"
     },
     {
-     "loai": "Quán cơm gà đầu phố",
-     "dac_trung": "cơm gà xé, nước mắm gừng",
+     "ten": "Bánh Mì Xíu Mại Phúc Hân",
+     "loai": "quán bánh mì xíu mại",
+     "dac_trung": "Quán rộng, có chỗ để xe, bán từ sáng tới tối; có xíu mại, bánh bao, sữa đậu nành, combo cho nhóm.",
+     "dia_chi": "34 Hoàng Diệu",
+     "duong": "Hoàng Diệu",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-quan-banh-mi-xiu-mai-hoang-dieu-19607",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/dia-chi-an-banh-mi-xiu-mai-ngon-va-chat-luong-nhat-da-lat-31656.htm",
+       "trang": "toplist.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn 12/11/2025"
+    },
+    {
+     "ten": "Cơm Gà Hoàng Diệu",
+     "loai": "quán cơm gà",
+     "dac_trung": "Quán cơm gà đầu phố, bán buổi trưa; đánh giá trên Foody trái chiều.",
+     "dia_chi": "2 Hoàng Diệu",
+     "duong": "Hoàng Diệu",
      "nguon": [
       {
        "link": "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/",
        "trang": "vinwonders.com"
       },
       {
-       "link": "https://foody.vn/lam-dong/com-ga-hoang-dieu",
+       "link": "https://www.foody.vn/lam-dong/com-ga-hoang-dieu",
        "trang": "foody.vn"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "không rõ (vinwonders 13/07/2025 còn liệt kê nhưng không có chi tiết mới)"
     }
    ],
-   "can_kiem_them": 5,
-   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-24_pho_moi_da_lat.md"
+   "can_kiem_them": 8,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_hoang-dieu.md"
   },
   {
    "id": "street_tran_phu",
@@ -391,27 +1213,128 @@
     "Ba Tháng Hai"
    ],
    "ward": "Xuân Hương - Đà Lạt",
-   "gioi_thieu": "Phố di sản: khách sạn thời Pháp bên hồ, tiệm bánh lâu đời, quán phở, cháo đêm",
+   "gioi_thieu": "Phố Di Sản: khách sạn Lang-Bian Palace xây xong năm 1922 bên hồ Xuân Hương, nhà thờ Con Gà xây 1931–1942, tiệm bánh Liên Hoa mở từ 5 giờ sáng tới nửa đêm.",
    "anh": "assets/dau_pho/dau_pho_tran_phu.webp",
-   "ten_that": false,
+   "ten_that": true,
    "dia_diem": [
     {
-     "loai": "Khách sạn di sản bên hồ",
-     "dac_trung": "thời Pháp, nhìn ra hồ",
+     "ten": "Dalat Palace Heritage Hotel",
+     "loai": "khách sạn di sản",
+     "dac_trung": "Khách sạn thời Pháp bên hồ Xuân Hương, tên gốc Lang-Bian Palace, khởi công 1916, mở 1922.",
+     "dia_chi": "2 Trần Phú",
+     "duong": "Trần Phú",
      "nguon": [
+      {
+       "link": "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+       "trang": "en.wikipedia.org"
+      },
       {
        "link": "https://uk.trip.com/hotels/dalat-hotel-detail-993587/dalat-palace-heritage-hotel/review.html",
        "trang": "uk.trip.com"
       },
       {
-       "link": "https://en.wikipedia.com/wiki/Dalat_Palace_Hotel",
-       "trang": "en.wikipedia.com"
+       "link": "https://www.hotels.com/ho119097",
+       "trang": "hotels.com"
       }
-     ]
+     ],
+     "vi_tri": {
+      "lon": 108.440375,
+      "lat": 11.937532,
+      "cach": "tên trên OpenStreetMap: Dalat Palace Hotel (ghép tay)",
+      "osm": "way/407699702"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 10/11/2026 (ở tháng 10/2026)"
     },
     {
-     "loai": "Quán phở",
-     "dac_trung": "nước xương bò, bán sáng và chiều tối",
+     "ten": "Du Parc Hotel Dalat",
+     "loai": "khách sạn cổ",
+     "dac_trung": "Khách sạn Art Deco khánh thành 1932 cạnh nhà thờ Con Gà, còn thang máy lồng sắt kiểu cũ.",
+     "dia_chi": "15 Trần Phú",
+     "duong": "Trần Phú",
+     "nguon": [
+      {
+       "link": "https://ph.trip.com/hotels/dalat-hotel-detail-993584/du-parc-hotel-dalat",
+       "trang": "ph.trip.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/du-parc-hotel-dalat-review-19738",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.fodors.com/world/asia/vietnam/the-south-central-coasts-and-highlands/hotels/reviews/du-parc-hotel-dalat-615069",
+       "trang": "fodors.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.439023,
+      "lat": 11.936708,
+      "cach": "tên trên OpenStreetMap: Du Parc (ghép tay)",
+      "osm": "node/1152351891"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 30/10/2026; bài mia.vn 02/12/2025"
+    },
+    {
+     "ten": "Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)",
+     "loai": "nhà thờ, di tích",
+     "dac_trung": "Xây 1931–1942, con gà trên đỉnh tháp chuông; đêm Giáng sinh hàng nghìn người dồn về.",
+     "dia_chi": "15 Trần Phú",
+     "duong": "Trần Phú",
+     "nguon": [
+      {
+       "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://baolamdong.vn/dem-giang-sinh-da-lat-dong-vui-trong-suong-lanh-413266.html",
+       "trang": "baolamdong.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.437692,
+      "lat": 11.936155,
+      "cach": "tên trên OpenStreetMap: Nhà thờ Chánh tòa (ghép tay)",
+      "osm": "way/452519411"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: Báo Lâm Đồng 25/12/2025 tả lễ đêm Giáng sinh"
+    },
+    {
+     "ten": "Tiệm bánh Liên Hoa (Liên Hoa Bakery)",
+     "loai": "tiệm bánh",
+     "dac_trung": "Tiệm bánh mì, bánh ngọt quen của dân Đà Lạt ở khu chợ trung tâm, mở 5 giờ sáng tới nửa đêm.",
+     "dia_chi": "15-17-19 Ba Tháng Hai",
+     "duong": "Ba Tháng Hai",
+     "nguon": [
+      {
+       "link": "https://nz.trip.com/restaurant/vietnam/dalat/detail/Lien%20Hoa%20Bakery-504933",
+       "trang": "nz.trip.com"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/1184180",
+       "trang": "wanderlog.com"
+      },
+      {
+       "link": "https://znews.vn/tan-huong-su-ngot-ngao-cua-da-lat-tai-nhung-tiem-banh-xinh-xan-post940949.html",
+       "trang": "znews.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.435226,
+      "lat": 11.942836,
+      "cach": "tên trên OpenStreetMap: Lien Hoa (ghép tay)",
+      "osm": "node/6320243386"
+     },
+     "con_mo": "có dấu hiệu còn mở 2025–2026: wanderlog hiện đánh giá Google ngày 09/08/2026; trip.com có đánh giá 30/10/2025"
+    },
+    {
+     "ten": "Phở Tiến",
+     "loai": "quán phở",
+     "dac_trung": "Phở kiểu Bắc, nước dùng xương bò, bán buổi sáng tới trưa, có chỗ để xe.",
+     "dia_chi": "54 Trần Phú",
+     "duong": "Trần Phú",
      "nguon": [
       {
        "link": "https://vinwonders.com/vi/wonderpedia/news/pho-da-lat/",
@@ -425,11 +1348,101 @@
        "link": "https://vinpearl.com/en/pho-da-lat",
        "trang": "vinpearl.com"
       }
-     ]
+     ],
+     "vi_tri": null,
+     "con_mo": "không rõ (chỉ có bài liệt kê vinwonders 05/07/2025, chưa thấy đánh giá khách 2026); giờ mở lệch nhau: 6:00/6:30–13:00, vinpearl ghi thêm 17:00–20:00"
+    },
+    {
+     "ten": "Bánh canh cá lóc An",
+     "loai": "quán bánh canh",
+     "dac_trung": "Bánh canh cá lóc nước xương cá, ăn kèm rau đắng, bán từ sáng tới chiều tối.",
+     "dia_chi": "21/9 Trần Phú",
+     "duong": "Trần Phú",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/banh-canh-ca-loc-mon-an-thoi-hon-vao-tinh-hoa-am-thuc-da-lat-1306",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://toplist.vn/top/banh-canh-ca-loc-an-504609.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/",
+       "trang": "vinwonders.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: bài mia.vn ngày 14/01/2026 và vinwonders 13/07/2025 còn liệt kê (bài liệt kê, chưa phải đánh giá khách)"
+    },
+    {
+     "ten": "Khách sạn Sài Gòn - Đà Lạt (Saigon Dalat Hotel)",
+     "loai": "khách sạn",
+     "dac_trung": "Khách sạn 4 sao 160 phòng trên Ba Tháng Hai, kiến trúc kiểu Pháp, có hồ bơi nước nóng.",
+     "dia_chi": "180 Ba Tháng Hai",
+     "duong": "Ba Tháng Hai",
+     "nguon": [
+      {
+       "link": "https://www.vietnambooking.com/khach-san/tin-tuc-khach-san/khach-san-dep-tren-duong-3-thang-2-da-lat.html",
+       "trang": "vietnambooking.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/ghe-saigon-dalat-hotel-tan-huong-ky-nghi-trong-mo-5902",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://ca.trip.com/hotels/dalat-hotel-detail-713589/saigon-dalat-hotel/review.html",
+       "trang": "ca.trip.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 11/10/2026 (ở tháng 6/2026)"
+    },
+    {
+     "ten": "Bếp 1985 - Quán Cơm Thuần Việt (Quán cơm 1985)",
+     "loai": "quán cơm gia đình",
+     "dac_trung": "Cơm nhà ba món mặn một món phụ, đựng thố đất, thực đơn đổi mỗi ngày.",
+     "dia_chi": "25 Trần Phú",
+     "duong": "Trần Phú",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/quan-com-da-lat-chuan-vi-19916",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/bep-1985-quan-com-thuan-viet",
+       "trang": "foody.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "không rõ (vinwonders 09/07/2025 còn liệt kê; foody báo hơn 3 tháng không tương tác)"
+    },
+    {
+     "ten": "Bờ Kè Quán (cơm gia đình)",
+     "loai": "quán cơm gia đình",
+     "dac_trung": "Cơm canh chua cá lóc, vịt kho sả ớt, thịt kho hột vịt; nằm trong hẻm cạnh khách sạn Bông Hồng.",
+     "dia_chi": "73A Ba Tháng Hai",
+     "duong": "Ba Tháng Hai",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/bo-ke-quan-com-gia-dinh",
+       "trang": "foody.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "không rõ (vinwonders 09/07/2025 còn liệt kê; chưa thấy đánh giá khách 2026)"
     }
    ],
    "can_kiem_them": 6,
-   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-24_pho_moi_da_lat.md"
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_tran-phu.md"
   }
  ]
 }

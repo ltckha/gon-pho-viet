@@ -65,3 +65,26 @@ Dự bị (đủ 2 nguồn, để ngoài 12): Moi Craft Beer, 38 Trương Công 
 3. **Tầng hầm số 69 Trương Công Định**: kết quả tìm kiếm có nhắc trang trvlogue.com gọi chỗ này là "Karma Lounge" (em không đọc được trang đó). Mytour lại ghi Bossa Jazz Spot cùng số 69.
 4. "Còn mở" chủ yếu dựa vào bài tổng hợp cập nhật 7/2025–1/2026 và dữ liệu Google qua Wanderlog — không phải xác nhận trực tiếp.
 5. Không thấy lỗi gì trong file game cần báo; ghi chú của game "1 quán phở đã dời khỏi Tăng Bạt Hổ" khớp với việc em chưa đủ nguồn cho Phở Hiếu / Phở Bắc Nam.
+
+## Kiểm thêm 25/11/2026
+
+Kết quả: 14 nơi trong "cần kiểm thêm" → **4 đạt** (chuyển vào danh sách chính), **2 đã đóng hẳn**, **8 vẫn chưa đủ**. Không dùng Google Maps; dữ liệu Google chỉ đọc gián tiếp qua Wanderlog.
+
+| Tên | Kết quả | Nguồn mới / lý do | Tin cậy | Còn mở? |
+|---|---|---|---|---|
+| Bánh căn 14 (hai Cô) | **đạt**, số 30 Tăng Bạt Hổ | [mia.vn (sửa 19/01/2026)](https://mia.vn/cam-nang-du-lich/banh-can-da-lat-top-nhung-quan-ngon-nhat-tai-thanh-pho-suong-mu-1343) · [Foody "Bánh Căn 14 Tăng Bạt Hổ" – 30 Tăng Bạt Hổ](https://www.foody.vn/lam-dong/banh-can-14-tang-bat-ho). Tên "14" có lẽ là số nhà cũ | trung bình | dấu hiệu yếu (mia 1/2026; Foody bình luận mới nhất 11/2022) |
+| Bánh ướt lòng gà 18 | **đạt**, số 18 | [Toplist](https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm) · [Foody](https://www.foody.vn/lam-dong/banh-uot-long-ga-18) | trung bình | không rõ (Foody mới nhất 02/2022) |
+| Bánh ướt lòng gà Trương Công Định | **đạt**, số 21 Trương Công Định | [VinWonders](https://vinwonders.com/vi/bai-viet-du-lich/banh-uot-long-ga-da-lat/) · [Việt Nam News 26/03/2019 (đăng lại trên VietNamNet)](https://vietnamnet.vn/en/banh-uot-long-ga-a-must-try-in-da-lat-city-E220747.html) | trung bình | dấu hiệu yếu (VinWonders 2025) |
+| Gemination Eatery & Bar | **đạt**, số 24 Trương Công Định | [Wanderlog](https://wanderlog.com/list/geoCategory/248821) · [Tinh tế 18/12/2025](https://tinhte.vn/thread/kham-pha-nhung-quan-bar-chill-da-lat-dang-trai-nghiem.4084801/) · [Kupi](https://kupi.com/en-ae/explore/vietnam/da-lat/gemination-eatery-and-bar-da-lat) · [The Dot Magazine 21/07/2023](https://thedotmagazine.com/we-go-native-at-dalats-gemination-cocktail-bar/) | trung bình | có dấu hiệu (Tinh tế 12/2025 ghi phường Xuân Hương; Wanderlog 955 đánh giá, không ghi đóng) |
+| The Fog Bar | **đã đóng hẳn** | Wanderlog ghi "Permanently Closed" ở cả [danh sách](https://wanderlog.com/list/geoCategory/248821) và [trang quán](https://wanderlog.com/place/details/1482627/the-fog-on-site), xem 25/11/2026 | — | đã đóng |
+| The Chairman | **đã đóng hẳn** | [Wanderlog](https://wanderlog.com/list/geoCategory/248821) "Permanently Closed", xem 25/11/2026 | — | đã đóng |
+| Phở Hiếu (23 Tăng Bạt Hổ) | vẫn chưa đủ, **nghi đã dời** | Foody cũng ghi 23 Tăng Bạt Hổ nhưng bình luận mới nhất 11/2021; [Wanderlog](https://wanderlog.com/place/details/1521900) nay ghi 103 Nguyễn Văn Trỗi (đã có trong phố Nguyễn Văn Trỗi) | — | — |
+| Quán Hen | vẫn chưa đủ | tìm chung, Foody: chỉ VinWonders | — | — |
+| Phở Bắc Nam (1C) | vẫn chưa đủ | tìm chung, Foody: chỉ Toplist | — | — |
+| Bánh mì xíu mại 3B | vẫn chưa đủ | tìm "xíu mại 3B", Foody: chỉ Toplist | — | — |
+| Quán Phố (5) | vẫn chưa đủ | chỉ Toplist | — | — |
+| Don Quixote (19) | vẫn chưa đủ | chỉ Wanderlog (có Facebook quán); không thấy Foody, báo, blog | — | — |
+| NO bar (63) | vẫn chưa đủ | chỉ Wanderlog | — | — |
+| Coi Kissa / Bossa Jazz Spot | vẫn chưa đủ | không có nguồn 2025–2026; số 60/69 vẫn vênh. Trang dalat.app (2026) ghi sai vài địa chỉ khác nên không dùng | — | — |
+
+Danh sách chính nay 16 nơi. Kiểm lại nhanh các nơi đang có: Fox's Den — trang Wanderlog riêng của quán không ghi đóng (danh sách cũ ghi "tạm đóng"), giữ nguyên.

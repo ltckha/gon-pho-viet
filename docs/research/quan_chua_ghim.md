@@ -1,6 +1,6 @@
 # Quán chưa ghim được vị trí (cập nhật 25/11/2026)
 
-Tổng: 21 quán.
+Tổng: 31 quán.
 
 OpenStreetMap chưa có đúng tên quán, chưa có đúng số nhà, và quanh đó quá ít căn ghi số nhà để ước.
 Cách ghim chuẩn nhất: đi ngang quán, mở ứng dụng bản đồ miễn phí (Organic Maps hoặc StreetComplete) đánh dấu quán lên OpenStreetMap, rồi chạy lại `tools/vi_tri_quan.py`.
@@ -8,6 +8,7 @@ Cách ghim chuẩn nhất: đi ngang quán, mở ứng dụng bản đồ miễn
 ## Phố Ăn Đêm (Tăng Bạt Hổ, Trương Công Định)
 - Bánh ướt lòng gà Trang — 15F Tăng Bạt Hổ
 - Bánh ướt lòng gà – Bánh căn Chip Chip — Tăng Bạt Hổ
+- Bánh ướt lòng gà Trương Công Định — 21 Trương Công Định
 
 ## Phố Cà Phê (Nguyễn Chí Thanh, Lê Đại Hành)
 - Café Nga — 2A Nguyễn Chí Thanh
@@ -17,19 +18,27 @@ Cách ghim chuẩn nhất: đi ngang quán, mở ứng dụng bản đồ miễn
 - Nhà sách Phương Nam Đà Lạt — 279 Phan Đình Phùng
 - Nhà thuốc Long Châu (44-44A Phan Đình Phùng) — 44-44A Phan Đình Phùng
 - Phở Thố Đá Chu Gia — 1 Bis Phan Đình Phùng
+- Nem nướng Bà Hùng — 328 Phan Đình Phùng
 - Bánh ướt lòng gà Long — 202/2/5 Phan Đình Phùng
 - Bún bò Bà Sồi — 51/6 Phan Đình Phùng
 - Thuê xe Cub 50 Đà Lạt — 340 Phan Đình Phùng
+- Bún thịt nướng Liên — 287/7 Phan Đình Phùng
 
 ## Phố Kem Bơ (Nguyễn Văn Trỗi)
 - Bánh mì xíu mại 79 — 119C Nguyễn Văn Trỗi
 - Cơm Tấm Mộc — 121C Nguyễn Văn Trỗi
+- Bánh tráng nướng Yến — 10 Nguyễn Văn Trỗi
+- Bánh tráng nướng 54 Nguyễn Văn Trỗi — 54 Nguyễn Văn Trỗi
+- Bánh tráng nướng Cô Hương — 46 Nguyễn Văn Trỗi
+- Tấm Mei — Nguyễn Văn Trỗi
 
 ## Phố Lẩu Bò (Hoàng Diệu)
 - Quán Dìn (Batoa) - Lẩu Bò — 8/1 Hoàng Diệu
 - Bánh Mì Xíu Mại 47 — 47 Hoàng Diệu
 - Bánh Mì Xíu Mại Phúc Hân — 34 Hoàng Diệu
 - Cơm Gà Hoàng Diệu — 2 Hoàng Diệu
+- Pizza Like - Hoàng Diệu — 1A Hoàng Diệu
+- Lẩu bò Ba Toa Tô Bò Quán — Hoàng Diệu
 
 ## Phố Di Sản (Trần Phú, Ba Tháng Hai)
 - Phở Tiến — 54 Trần Phú
@@ -37,3 +46,4 @@ Cách ghim chuẩn nhất: đi ngang quán, mở ứng dụng bản đồ miễn
 - Khách sạn Sài Gòn - Đà Lạt (Saigon Dalat Hotel) — 180 Ba Tháng Hai
 - Bếp 1985 - Quán Cơm Thuần Việt (Quán cơm 1985) — 25 Trần Phú
 - Bờ Kè Quán (cơm gia đình) — 73A Ba Tháng Hai
+- Cơm Lá Chuối — 21/9 Trần Phú

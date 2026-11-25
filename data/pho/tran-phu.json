@@ -192,7 +192,12 @@
    "do_tin_cay": "trung bình",
    "ghi_chu": "Hai nguồn cùng ghi 62 Ba Tháng Hai. Giờ lệch: Foody 17h–23h, amthucbinhxuyen 17h–2h. amthucbinhxuyen là trang tổng hợp (ghi 'review by google'), đăng 25/02/2025, cập nhật 20/05/2025.",
    "con_mo": "không rõ: amthucbinhxuyen 20/05/2025 còn liệt kê; Foody không có bình luận mới từ 2017",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.434222,
+    "lat": 11.94249,
+    "cach": "số nhà trên OpenStreetMap: 62 Ba Tháng Hai",
+    "osm": "node/5334468422"
+   }
   },
   {
    "ten": "Cơm Lá Chuối",

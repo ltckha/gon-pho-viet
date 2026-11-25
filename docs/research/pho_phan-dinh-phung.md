@@ -41,3 +41,29 @@ Link đầy đủ của từng nguồn nằm trong `data/pho/phan-dinh-phung.jso
 3. **Trang Long Châu** chặn không cho đọc trực tiếp (lỗi 403 và trang chặn của Cloudflare). Em chỉ thấy địa chỉ qua kết quả tìm kiếm.
 4. Các tiệm tóc và studio ảnh cưới là nét đặc trưng game đã ghi cho phố này, nhưng hiện chưa có nơi nào đủ 2 nguồn độc lập. Câu giới thiệu vì thế không nhắc tới hai loại này.
 5. Không có tên nào trong danh sách lấy từ tên game đặt lại. Tất cả là tên ghi trên các trang nguồn.
+
+## Kiểm thêm 25/11/2026
+
+Kết quả: 14 nơi trong "cần kiểm thêm" → **1 đạt**, **0 đã đóng hẳn**, **13 vẫn chưa đủ** (1 trong số đó nghi đã đóng). Không dùng Google Maps.
+
+**Nem nướng Bà Hùng (328) — kết luận: còn mở.** Trang Airbnb từng hiện "Permanently closed" nay mở ra chỉ báo "không tìm thấy" (trang đã gỡ). [Wanderlog](https://wanderlog.com/place/details/773582/ba-hung-fried-rolls) (dữ liệu Google, xem 25/11/2026) ghi 328 Phan Đình Phùng, Xuân Hương - Đà Lạt, mở 9:30–21:00, 3.313 đánh giá, đánh giá mới nhất 11/11/2025, không ghi đóng. Cộng với mia.vn sửa 21/02/2026 vẫn ghi 328 → dấu hiệu mạnh là còn bán. Đã thêm Wanderlog vào nguồn, sửa `con_mo` và `ghi_chu`.
+
+| Tên | Kết quả | Nguồn mới / lý do | Tin cậy |
+|---|---|---|---|
+| Bún thịt nướng Liên | **đạt**, chốt **287/7** (trong hẻm) | 287/7 ở 3 trang: [mia.vn ăn sáng (sửa 06/08/2026)](https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352), [VinWonders ăn sáng](https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/), [Toplist](https://toplist.vn/top-list/dia-chi-an-bun-thit-nuong-hap-dan-nhat-da-lat-31850.htm). Số 272 ở 2 bài ([mia.vn bún thịt nướng](https://mia.vn/cam-nang-du-lich/mach-ban-dia-chi-cac-quan-bun-thit-nuong-o-da-lat-ngon-bo-re-1411), [VinWonders quán ăn ngon](https://vinwonders.com/vi/bai-viet-du-lich/quan-an-ngon-da-lat/)) — ghi chú trong JSON | trung bình; còn mở: có dấu hiệu (2026, phường mới) |
+| **Tiệm tóc** Traky Hair Salon | vẫn chưa đủ, **nghi đã đóng** | Nay có 2 trang khác nhau cùng ghi 289: mytour và [toplist (uốn xoăn hippie)](https://toplist.vn/top-list/salon-uon-xoan-hippie-toc-xu-mi-dep-nhat-tai-da-lat-63902.htm). Nhưng [trang chính thức Traky](https://trakyhairsalon.com/he-thong-salon) (xem 25/11/2026) liệt kê hơn 40 chi nhánh ở 18 tỉnh/thành, **không có Lâm Đồng** → chưa đưa lên | — |
+| Jolie Hair Studio | vẫn chưa đủ | tìm tên, Foody mục làm tóc, toplist salon: không thấy | — |
+| **Studio cưới** Sunny Tuyết | vẫn chưa đủ | ngoài toplist + bản dịch mytour không có trang nào | — |
+| Bonheaur Studio | vẫn chưa đủ | thêm toplist bài áo dài cưới (29704) + mytour tương ứng — vẫn cùng họ bài | — |
+| Thuyết Nguyễn Wedding House | vẫn chưa đủ | [toplist 17292](https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-nhat-tai-da-lat-17292.htm) nay ghi 213A, phường Xuân Hương (cùng số điện thoại với bài ghi Lô 703 KQH); holidify lại ghi 213A là My Dream Hotel | — |
+| Ròm Studio (mới tìm thấy) | không thêm | Foody mục chụp hình cưới ghi 164 Phan Đình Phùng, nhưng kết quả Foody khác ghi 71 Thủ Khoa Huân → vênh, chỉ một trang | — |
+| Long Châu 204 | vẫn chưa đủ | chỉ trang Long Châu (bị chặn đọc trực tiếp) | — |
+| Kim Hằng – Kim Thái – Kim Cương | vẫn chưa đủ, **địa chỉ vênh** | [Foody "Nhà Thuốc Kim Hằng"](https://www.foody.vn/lam-dong/nha-thuoc-kim-hang) ghi **159**, toplist ghi **109** | — |
+| Pharmacity 42 | vẫn chưa đủ | chỉ toplist | — |
+| Phở Phi Thuyền | vẫn chưa đủ | không trang nào khác | — |
+| Hoàn Vũ (377) | vẫn chưa đủ | chỉ mia.vn (đăng 14/10/2025, sửa 17/11/2026) | — |
+| Thuê xe máy Phan Đình Phùng (281) | vẫn chưa đủ | chỉ muaban.net (sửa 03/12/2025) | — |
+| Style Motorbikes / Minh Long | vẫn chưa đủ | chỉ vietnamtourism.com; cùng bài ghi sai địa chỉ Tigit | — |
+| Bánh Căn Bình Dân | vẫn chưa đủ | chỉ Foody | — |
+
+**Tiệm tóc và studio ảnh cưới:** em chưa tìm được nơi nào mỗi loại đủ 2 nguồn độc lập *và* chắc còn mở. Gần nhất là Traky (đủ 2 trang nhưng trang chính thức không còn chi nhánh Lâm Đồng). Câu giới thiệu vẫn không nhắc hai loại này.

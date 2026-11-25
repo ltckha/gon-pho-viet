@@ -135,7 +135,12 @@
    "do_tin_cay": "cao",
    "ghi_chu": "Cùng số 26 với Bánh Mì Xíu Mại Bé Linh: Bé Linh bán sáng, Dì Đinh bán chiều (giờ ghi lệch: 13h–20h30 theo Vietnam Airlines, 14h–18h30 theo mia.vn, '3–4 giờ chiều tới 7–8 giờ tối' theo khách trên Airbnb). Chưa có nguồn nói rõ hai quán dùng chung mặt tiền.",
    "con_mo": "có dấu hiệu còn mở 2026: mia.vn 23/07/2026 và mytour cập nhật 01/11/2026 còn liệt kê, ghi giờ bán",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.428645,
+    "lat": 11.942853,
+    "cach": "tên trên OpenStreetMap: Banh Trang nuong Di Dinh",
+    "osm": "node/7147596485"
+   }
   },
   {
    "ten": "Pizza Like - Hoàng Diệu",

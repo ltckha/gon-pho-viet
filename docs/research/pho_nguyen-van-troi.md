@@ -62,3 +62,20 @@ Ngày nghiên cứu: 25/11/2026. File dữ liệu: `data/pho/nguyen-van-troi.jso
 
 ## Ghi chú về kho game
 Tên quán trong `content/streets/street_nguyen_van_troi.json` là tên đặt lại, không dùng ở đây. Game ghi "Phở … dốc chùa" có `sources` gồm vinwonders phở Đà Lạt, nhưng bài đó lại ghi quán ở Tăng Bạt Hổ — không sai về loại quán, chỉ cần biết nguồn đó không chứng minh địa chỉ trên Nguyễn Văn Trỗi.
+
+## Kiểm thêm 25/11/2026
+
+Kết quả: 8 nơi trong "cần kiểm thêm" → **4 đạt**, **0 đã đóng hẳn**, **4 còn lại** (3 vẫn chưa đủ, 1 bị loại vì không nằm trên đường này). Không dùng Google Maps.
+
+| Tên | Kết quả | Nguồn mới / lý do | Tin cậy | Còn mở? |
+|---|---|---|---|---|
+| Bánh tráng nướng Yến | **đạt**, số 10 | [VinWonders 26/07/2025](https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/) · [Foody "Bắp Nướng - Bánh Tráng Nướng Yến"](https://www.foody.vn/lam-dong/banh-trang-nuong-yen) | trung bình | có dấu hiệu (VinWonders ghi phường mới) |
+| Bánh tráng nướng 54 | **đạt**, số 54 | VinWonders · [Foody](https://www.foody.vn/lam-dong/banh-trang-nuong-54-nguyen-van-troi) | trung bình | không rõ (Foody mới nhất 07/2019) |
+| Bánh tráng nướng Cô Hương | **đạt**, số 46 | [Vietnam Airlines](https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/banh-trang-nuong-da-lat) · [Foody "Bánh Tráng Nướng - 46 Nguyễn Văn Trỗi"](https://www.foody.vn/lam-dong/banh-trang-nuong-46-nguyen-van-troi) (Foody không ghi tên Cô Hương, khớp số nhà và món) | trung bình | không rõ (Foody mới nhất 11/2020) |
+| Tấm Mei | **đạt**, **không có số nhà** | [mia.vn](https://mia.vn/cam-nang-du-lich/bo-tui-top-10-quan-com-tam-da-lat-ngon-nuc-tieng-ma-ban-phai-thu-1327) · [VinWonders ăn trưa 13/07/2025](https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/) (mytour viết lại bài mia, không tính riêng) | trung bình | dấu hiệu yếu; chưa đặt được vị trí vì thiếu số nhà |
+| Trinh Nguyen Homestay | **loại khỏi phố** | trip.com và [holidify](https://holidify.com/hotel/trinh-nguyen-homestay-7633.html) đều ghi 48/18 Đoàn Thị Điểm, Phường 4 cũ — không phải Nguyễn Văn Trỗi | — | — |
+| Quán Ăn Lẩu Gà Lá É | vẫn chưa đủ | bài lẩu gà lá é của Vietnam Airlines, VinWonders không có quán trên Nguyễn Văn Trỗi | — | — |
+| Nướng & lẩu bếp chú Việt (75) | vẫn chưa đủ | chỉ VinWonders | — | — |
+| Cơm tấm Ba Mập (91D) | vẫn chưa đủ | chỉ mytour (cập nhật 1/11/2026) | — | — |
+
+Ghi chú cho kho game: ghi chú "Trinh Nguyen Homestay, hẻm 36/3 Nguyễn Văn Trỗi" trong game không khớp nguồn đặt phòng (48/18 Đoàn Thị Điểm) — nên báo phiên game kiểm lại.

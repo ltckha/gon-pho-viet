@@ -102,11 +102,12 @@
     "https://mia.vn/cam-nang-du-lich/fan-cha-ram-nem-nuong-nhat-dinh-khong-duoc-bo-qua-top4-quan-ngon-tuyet-dinh-tai-da-lat-1308",
     "https://toplist.vn/top-list/quan-an-dem-ngon-nhat-tai-da-lat-37718.htm",
     "https://mytour.vn/vi/blog/bai-viet/nhat-dinh-phai-thu-fan-cha-ram-nem-nuong-tai-da-lat.html",
-    "https://vinwonders.com/vi/bai-viet-du-lich/quan-an-ngon-da-lat/"
+    "https://vinwonders.com/vi/bai-viet-du-lich/quan-an-ngon-da-lat/",
+    "https://wanderlog.com/place/details/773582/ba-hung-fried-rolls"
    ],
    "do_tin_cay": "cao",
-   "ghi_chu": "Kết quả tìm kiếm cho thấy trang Airbnb (things-to-do/places/1158237) ghi 'Permanently closed', em mở trang đó không đọc được để xác nhận. Foody có bình luận chê phục vụ.",
-   "con_mo": "có dấu hiệu còn mở 2026: mia.vn sửa bài 21/02/2026 vẫn ghi cơ sở 328 Phan Đình Phùng; vinwonders ghi phường Xuân Hương. Riêng Airbnb ghi đã đóng — còn nghi",
+   "ghi_chu": "Kiểm thêm 25/11/2026: trang Airbnb (things-to-do/places/1158237) từng hiện \"Permanently closed\" nay mở ra chỉ báo \"không tìm thấy\" (trang đã gỡ). Wanderlog (dữ liệu Google) ghi 328 Phan Đình Phùng, Xuân Hương - Đà Lạt, mở 9:30–21:00, 3.313 đánh giá, đánh giá mới nhất 11/11/2025, không ghi đóng. Foody có bình luận chê phục vụ (bình luận mới nhất 27/12/2022).",
+   "con_mo": "còn mở (dấu hiệu mạnh): Wanderlog/dữ liệu Google ghi phường mới, có đánh giá 11/2025, không ghi đóng; mia.vn sửa 21/02/2026 vẫn ghi 328. Trang Airbnb báo đóng đã bị gỡ, không còn đối chứng",
    "vi_tri": null
   },
   {
@@ -173,6 +174,25 @@
    "ghi_chu": "Hai bài ghi cùng số điện thoại; tên tiệm chỉ là 'Thuê xe Cub 50', không thấy tên biển hiệu riêng.",
    "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders ghi phường Xuân Hương (bài mia.vn cũ hơn, sửa 20/09/2023)",
    "vi_tri": null
+  },
+  {
+   "ten": "Bún thịt nướng Liên",
+   "loai": "quán bún thịt nướng",
+   "dac_trung": "Bún thịt nướng bình dân, thịt ướp sả tiêu nướng than, ăn kèm nhiều rau; khoảng 20.000–40.000đ một phần (mia.vn, VinWonders).",
+   "dia_chi": "287/7 Phan Đình Phùng (trong hẻm), phường Xuân Hương - Đà Lạt; vài bài ghi 272 Phan Đình Phùng",
+   "duong": "Phan Đình Phùng",
+   "so_nha": "287/7",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352",
+    "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/",
+    "https://toplist.vn/top-list/dia-chi-an-bun-thit-nuong-hap-dan-nhat-da-lat-31850.htm",
+    "https://mia.vn/cam-nang-du-lich/mach-ban-dia-chi-cac-quan-bun-thit-nuong-o-da-lat-ngon-bo-re-1411",
+    "https://vinwonders.com/vi/bai-viet-du-lich/quan-an-ngon-da-lat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "Số nhà chốt theo đa số: 287/7 có ở 3 trang (mia.vn bài ăn sáng sửa 06/08/2026, VinWonders bài ăn sáng, Toplist); 272 có ở 2 bài (mia.vn bài bún thịt nướng sửa 06/08/2026, VinWonders bài quán ăn ngon). Chưa rõ là dời chỗ hay ghi nhầm.",
+   "con_mo": "có dấu hiệu: mia.vn sửa 06/08/2026 và VinWonders ghi phường Xuân Hương (tên có từ 7/2025)",
+   "vi_tri": null
   }
  ],
  "can_kiem_them": [
@@ -185,7 +205,9 @@
     "https://mytour.vn/vi/blog/xep-hang/top-10-salon-toc-dep-va-noi-tieng-nhat-tai-da-lat-mytour.html",
     "https://mytour.vn/vi/blog/bai-viet/top-12-salon-lam-toc-dep-va-uy-tin-nhat-da-lat.html"
    ],
-   "ly_do": "2 bài cùng 1 trang (mytour.vn), số nhà vênh 289/425"
+   "ly_do": "2 bài cùng 1 trang (mytour.vn), số nhà vênh 289/425",
+   "ket_qua_kiem_them": "vẫn chưa đủ (nghi đã đóng)",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Đã có 2 trang khác nhau cùng ghi 289 Phan Đình Phùng: mytour.vn và toplist.vn (https://toplist.vn/top-list/salon-uon-xoan-hippie-toc-xu-mi-dep-nhat-tai-da-lat-63902.htm, hotline 1900 636 883). Nhưng trang chính thức https://trakyhairsalon.com/he-thong-salon (xem 25/11/2026) liệt kê hơn 40 chi nhánh ở 18 tỉnh/thành, không có Lâm Đồng/Đà Lạt. Nên chưa đưa lên bản đồ cho tới khi có nguồn 2025–2026 xác nhận còn mở."
   },
   {
    "ten": "Jolie Hair Studio",
@@ -195,7 +217,9 @@
    "nguon": [
     "https://mytour.vn/vi/blog/xep-hang/top-10-salon-toc-dep-va-noi-tieng-nhat-tai-da-lat-mytour.html"
    ],
-   "ly_do": "chỉ 1 nguồn"
+   "ly_do": "chỉ 1 nguồn",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Tìm \"Jolie Hair\" Đà Lạt, Foody mục làm tóc, toplist salon: không thấy trang thứ hai."
   },
   {
    "ten": "Áo cưới Sunny Tuyết (Sunny Tuyết Bridal Studio)",
@@ -206,7 +230,9 @@
     "https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-chuyen-nghiep-nhat-tai-lam-dong-18106.htm",
     "https://mytour.vn/en/blog/xep-hang/top-10-best-and-most-professional-wedding-photography-studios-in-lam-dong-mytour.html"
    ],
-   "ly_do": "bài mytour (tiếng Anh) là bản dịch gần nguyên văn bài toplist → không độc lập"
+   "ly_do": "bài mytour (tiếng Anh) là bản dịch gần nguyên văn bài toplist → không độc lập",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Tìm thêm báo, Foody mục cưới: không thấy ngoài toplist và bản dịch mytour."
   },
   {
    "ten": "Bonheaur Studio",
@@ -217,7 +243,9 @@
     "https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-chuyen-nghiep-nhat-tai-lam-dong-18106.htm",
     "https://mytour.vn/en/blog/xep-hang/top-10-best-and-most-professional-wedding-photography-studios-in-lam-dong-mytour.html"
    ],
-   "ly_do": "như trên, mytour dịch lại toplist; tên viết lúc Bonheaur lúc Boheur"
+   "ly_do": "như trên, mytour dịch lại toplist; tên viết lúc Bonheaur lúc Boheur",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Có thêm toplist bài cho thuê áo dài cưới (29704) và mytour bản tiếng Anh tương ứng — vẫn cùng một họ bài toplist/mytour, chưa có trang độc lập."
   },
   {
    "ten": "Thuyết Nguyễn Wedding House",
@@ -229,7 +257,9 @@
     "https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-chuyen-nghiep-nhat-tai-lam-dong-18106.htm",
     "https://mytour.vn/en/blog/xep-hang/top-10-best-and-most-professional-wedding-photography-studios-in-lam-dong-mytour.html"
    ],
-   "ly_do": "địa chỉ vênh; nguồn cùng một họ trang"
+   "ly_do": "địa chỉ vênh; nguồn cùng một họ trang",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Toplist 17292 nay ghi \"213A Phan Đình Phùng, phường Xuân Hương\" (cùng số điện thoại 0974 276 675 như bài ghi Lô 703 KQH). Nhưng holidify ghi 213A Phan Đình Phùng là My Dream Hotel. Chưa có trang độc lập nào xác nhận số nhà."
   },
   {
    "ten": "Nhà thuốc Long Châu (204 Phan Đình Phùng, Ngã Ba Chùa)",
@@ -239,7 +269,9 @@
    "nguon": [
     "https://nhathuoclongchau.com.vn/he-thong-cua-hang/204-phan-dinh-phung-p-tp-da-lat-tinh-lam-dong"
    ],
-   "ly_do": "chỉ trang Long Châu (đọc qua kết quả tìm kiếm); toplist lại ghi Long Châu ở 356 Phan Đình Phùng"
+   "ly_do": "chỉ trang Long Châu (đọc qua kết quả tìm kiếm); toplist lại ghi Long Châu ở 356 Phan Đình Phùng",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Trang Long Châu (qua kết quả tìm kiếm) ghi 204 Phan Đình Phùng (Ngã Ba Chùa), P. Xuân Hương; trang chặn đọc trực tiếp. Không tìm được trang thứ hai."
   },
   {
    "ten": "Nhà thuốc Kim Hằng - Kim Thái - Kim Cương",
@@ -249,7 +281,9 @@
    "nguon": [
     "https://toplist.vn/top-list/tiem-thuoc-tay-uy-tin-nhat-da-lat-39270.htm"
    ],
-   "ly_do": "chỉ 1 nguồn"
+   "ly_do": "chỉ 1 nguồn",
+   "ket_qua_kiem_them": "vẫn chưa đủ (địa chỉ vênh)",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Foody \"Nhà Thuốc Kim Hằng\" (https://www.foody.vn/lam-dong/nha-thuoc-kim-hang) ghi 159 Phan Đình Phùng, bình luận mới nhất 10/12/2020; toplist ghi 109. Trang nhathuockimthai.com không tải được."
   },
   {
    "ten": "Pharmacity",
@@ -259,7 +293,9 @@
    "nguon": [
     "https://toplist.vn/top-list/tiem-thuoc-tay-uy-tin-nhat-da-lat-39270.htm"
    ],
-   "ly_do": "chỉ 1 nguồn, không thấy trên trang Pharmacity"
+   "ly_do": "chỉ 1 nguồn, không thấy trên trang Pharmacity",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Trang Pharmacity không có cửa hàng Phan Đình Phùng ở Đà Lạt trong các trang đọc được; chỉ toplist."
   },
   {
    "ten": "Phở Phi Thuyền",
@@ -269,19 +305,9 @@
    "nguon": [
     "https://vinwonders.com/vi/wonderpedia/news/pho-da-lat/"
    ],
-   "ly_do": "chỉ 1 nguồn, tìm không ra trang khác"
-  },
-  {
-   "ten": "Bún thịt nướng Liên",
-   "loai": "quán bún thịt nướng",
-   "dia_chi": "287/7 Phan Đình Phùng (mia, vinwonders ăn sáng) hoặc 272 Phan Đình Phùng (vinwonders quán ăn ngon)",
-   "so_nha": null,
-   "nguon": [
-    "https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352",
-    "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/",
-    "https://vinwonders.com/vi/bai-viet-du-lich/quan-an-ngon-da-lat/"
-   ],
-   "ly_do": "có 2 trang nhưng số nhà vênh (287/7 hay 272) — cần xem Google Maps"
+   "ly_do": "chỉ 1 nguồn, tìm không ra trang khác",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Tìm thêm: không trang nào khác nhắc tên này."
   },
   {
    "ten": "Hoàn Vũ Motorbike Rental",
@@ -291,7 +317,9 @@
    "nguon": [
     "https://mia.vn/cam-nang-du-lich/top-dia-diem-thue-xe-may-da-lat-19448"
    ],
-   "ly_do": "chỉ 1 nguồn"
+   "ly_do": "chỉ 1 nguồn",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Chỉ mia.vn (bài đăng 14/10/2025, sửa 17/11/2026, ghi phường Xuân Hương, có fanpage). VinWonders/muaban/vietnamtourism không có."
   },
   {
    "ten": "Thuê xe máy Phan Đình Phùng",
@@ -301,7 +329,9 @@
    "nguon": [
     "https://muaban.net/blog/cho-thue-xe-may-da-lat-364430/"
    ],
-   "ly_do": "chỉ 1 nguồn"
+   "ly_do": "chỉ 1 nguồn",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Chỉ muaban.net (đăng 26/04/2023, sửa 03/12/2025). mia.vn và VinWonders không có số 281."
   },
   {
    "ten": "Style Motorbikes / Minh Long Rental",
@@ -311,7 +341,9 @@
    "nguon": [
     "https://www.vietnamtourism.com/vi/thue-xe-may-a-lat-huong-dan-toan-dien-cho-du-khach"
    ],
-   "ly_do": "chỉ 1 nguồn (vietnamtourism.com là trang tư nhân, không phải trang của Tổng cục)"
+   "ly_do": "chỉ 1 nguồn (vietnamtourism.com là trang tư nhân, không phải trang của Tổng cục)",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Chỉ vietnamtourism.com; cùng bài ghi sai địa chỉ Tigit (Tigit tự ghi 8 Nguyên Tử Lực) nên độ tin thấp."
   },
   {
    "ten": "Bánh Căn Bình Dân - Phan Đình Phùng",
@@ -321,7 +353,9 @@
    "nguon": [
     "https://www.foody.vn/lam-dong/banh-can-binh-dan-phan-dinh-phung"
    ],
-   "ly_do": "chỉ 1 nguồn, bình luận cũ (2014–2017)"
+   "ly_do": "chỉ 1 nguồn, bình luận cũ (2014–2017)",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Không tìm được trang nào khác Foody."
   }
  ],
  "nguon_chung": [

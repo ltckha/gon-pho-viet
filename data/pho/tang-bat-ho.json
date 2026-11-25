@@ -263,6 +263,88 @@
     "cach": "số nhà trên OpenStreetMap: 31 Trương Công Định",
     "osm": "node/5659684330"
    }
+  },
+  {
+   "ten": "Bánh căn 14 (hai Cô)",
+   "loai": "quán bánh căn (ăn sáng–trưa)",
+   "dac_trung": "Quán bánh căn lâu đời, người Đà Lạt hay ăn; mở 6:00–15:30 (theo mia.vn).",
+   "dia_chi": "30 Tăng Bạt Hổ, phường Xuân Hương - Đà Lạt",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "30",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/banh-can-da-lat-top-nhung-quan-ngon-nhat-tai-thanh-pho-suong-mu-1343",
+    "https://www.foody.vn/lam-dong/banh-can-14-tang-bat-ho"
+   ],
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "Tên \"14\" có lẽ là số nhà cũ (Foody tên \"Bánh Căn 14 Tăng Bạt Hổ\" nhưng ghi địa chỉ 30 Tăng Bạt Hổ, P. 1). Có thể trùng \"Bánh căn Tăng Bạt Hổ, số 14\" của VinWonders — chưa có nguồn nói rõ.",
+   "con_mo": "có dấu hiệu yếu: mia.vn sửa bài 19/01/2026 vẫn ghi; Foody bình luận mới nhất 27/11/2022 và báo lâu chưa có tương tác",
+   "vi_tri": {
+    "lon": 108.435416,
+    "lat": 11.943791,
+    "cach": "ước theo số nhà: giữa số 16 và số 64 Tăng Bạt Hổ trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 30
+   }
+  },
+  {
+   "ten": "Bánh ướt lòng gà 18",
+   "loai": "quán bánh ướt lòng gà",
+   "dac_trung": "Quán bánh ướt lòng gà bình dân trên dốc Tăng Bạt Hổ.",
+   "dia_chi": "18 Tăng Bạt Hổ, phường Xuân Hương - Đà Lạt",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "18",
+   "nguon": [
+    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+    "https://www.foody.vn/lam-dong/banh-uot-long-ga-18"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ: Foody bình luận mới nhất 05/02/2022; chưa thấy nguồn 2025–2026",
+   "vi_tri": {
+    "lon": 108.435445,
+    "lat": 11.943902,
+    "cach": "ước theo số nhà: giữa số 16 và số 64 Tăng Bạt Hổ trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 30
+   }
+  },
+  {
+   "ten": "Bánh ướt lòng gà Trương Công Định",
+   "loai": "quán bánh ướt lòng gà",
+   "dac_trung": "Quán bánh ướt lòng gà gần chợ Đà Lạt; báo Việt Nam News (2019) đưa vào danh sách nên ăn.",
+   "dia_chi": "21 Trương Công Định, phường Xuân Hương - Đà Lạt",
+   "duong": "Trương Công Định",
+   "so_nha": "21",
+   "nguon": [
+    "https://vinwonders.com/vi/bai-viet-du-lich/banh-uot-long-ga-da-lat/",
+    "https://vietnamnet.vn/en/banh-uot-long-ga-a-must-try-in-da-lat-city-E220747.html"
+   ],
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "Bài tiếng Anh đăng 26/03/2019, ghi \"Source: VNS\" (Việt Nam News) — cùng bài với vietnamnews.vn/life-style/507306, chỉ tính 1 nguồn. Tên quán theo bài VNS; không có tên riêng.",
+   "con_mo": "có dấu hiệu yếu: VinWonders (bài 2025) vẫn liệt kê; nguồn còn lại từ 2019",
+   "vi_tri": null
+  },
+  {
+   "ten": "Gemination Eatery & Bar",
+   "loai": "bar cocktail kiêm quán ăn",
+   "dac_trung": "Bar yên tĩnh, đèn dịu, vừa pha cocktail vừa bán đồ ăn; mở 18:00–02:00 (Tinh tế 12/2025).",
+   "dia_chi": "24 Trương Công Định, phường Xuân Hương - Đà Lạt",
+   "duong": "Trương Công Định",
+   "so_nha": "24",
+   "nguon": [
+    "https://wanderlog.com/list/geoCategory/248821",
+    "https://tinhte.vn/thread/kham-pha-nhung-quan-bar-chill-da-lat-dang-trai-nghiem.4084801/",
+    "https://kupi.com/en-ae/explore/vietnam/da-lat/gemination-eatery-and-bar-da-lat",
+    "https://thedotmagazine.com/we-go-native-at-dalats-gemination-cocktail-bar/"
+   ],
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "Bài Tinh tế (18/12/2025) là bài thành viên viết kiểu giới thiệu quán, có số điện thoại quán. The Dot Magazine (21/07/2023) viết về quán nhưng không ghi số nhà. Kupi ghi số 24, Phường 1 cũ.",
+   "con_mo": "có dấu hiệu: Tinh tế 18/12/2025 ghi phường Xuân Hương; Wanderlog (dữ liệu Google, xem 25/11/2026) ghi 24 Trương Công Định, 955 đánh giá, không ghi đóng",
+   "vi_tri": {
+    "lon": 108.435097,
+    "lat": 11.943602,
+    "cach": "tên trên OpenStreetMap: Gemination Eatery & Bar Da Lat",
+    "osm": "node/7108557488"
+   }
   }
  ],
  "du_bi": [
@@ -304,7 +386,9 @@
    "nguon": [
     "https://vinwonders.com/vi/wonderpedia/news/sua-dau-nanh-da-lat/"
    ],
-   "ly_do": "chỉ 1 nguồn (VinWonders)"
+   "ly_do": "chỉ 1 nguồn (VinWonders)",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Tìm \"Quán Hen\" + Tăng Bạt Hổ, \"50 Tăng Bạt Hổ\", thử Foody: chỉ thấy VinWonders. Các trang khác chỉ nhắc Quán Hoa Sữa (64)."
   },
   {
    "ten": "Phở Hiếu",
@@ -313,7 +397,9 @@
    "nguon": [
     "https://vinwonders.com/vi/wonderpedia/news/pho-da-lat/"
    ],
-   "ly_do": "chỉ 1 nguồn; nghiên cứu của game ghi có 1 quán phở nổi tiếng đã dời khỏi Tăng Bạt Hổ — chưa rõ có phải quán này"
+   "ly_do": "chỉ 1 nguồn; nghiên cứu của game ghi có 1 quán phở nổi tiếng đã dời khỏi Tăng Bạt Hổ — chưa rõ có phải quán này",
+   "ket_qua_kiem_them": "vẫn chưa đủ (nghi đã dời)",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Foody (https://www.foody.vn/lam-dong/pho-hieu) cũng ghi 23 Tăng Bạt Hổ nhưng bình luận mới nhất 07/11/2021 và báo lâu chưa tương tác. Wanderlog (dữ liệu Google, https://wanderlog.com/place/details/1521900) nay ghi Phở Hiếu ở 103 Nguyễn Văn Trỗi \"dốc chùa\", phường Xuân Hương — quán đã nằm trong danh sách phố Nguyễn Văn Trỗi. Nghi chỗ 23 Tăng Bạt Hổ là chỗ cũ; không đưa lên phố này."
   },
   {
    "ten": "Phở Bắc Nam",
@@ -322,7 +408,9 @@
    "nguon": [
     "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm"
    ],
-   "ly_do": "chỉ 1 nguồn (Toplist)"
+   "ly_do": "chỉ 1 nguồn (Toplist)",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Tìm thêm (Foody, tìm kiếm chung): chỉ Toplist ghi 1C Tăng Bạt Hổ."
   },
   {
    "ten": "Bánh mì xíu mại 3B",
@@ -331,16 +419,9 @@
    "nguon": [
     "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm"
    ],
-   "ly_do": "chỉ 1 nguồn (Toplist)"
-  },
-  {
-   "ten": "Bánh ướt lòng gà 18",
-   "duong": "Tăng Bạt Hổ",
-   "so_nha": "18",
-   "nguon": [
-    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm"
-   ],
-   "ly_do": "chỉ 1 nguồn (Toplist)"
+   "ly_do": "chỉ 1 nguồn (Toplist)",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Tìm \"xíu mại 3B\", thử Foody: chỉ Toplist."
   },
   {
    "ten": "Quán Phố (ăn vặt)",
@@ -349,16 +430,9 @@
    "nguon": [
     "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm"
    ],
-   "ly_do": "chỉ 1 nguồn (Toplist)"
-  },
-  {
-   "ten": "Bánh căn 14 (hai Cô)",
-   "duong": "Tăng Bạt Hổ",
-   "so_nha": "30",
-   "nguon": [
-    "https://mia.vn/cam-nang-du-lich/banh-can-da-lat-top-nhung-quan-ngon-nhat-tai-thanh-pho-suong-mu-1343"
-   ],
-   "ly_do": "chỉ mia.vn ghi tên này; VinWonders bài bánh khọt ghi 'Bánh căn Tăng Bạt Hổ' ở số 14 — có thể cùng quán (số cũ 14, số mới 30?) nhưng chưa có nguồn nói rõ"
+   "ly_do": "chỉ 1 nguồn (Toplist)",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Tìm \"5 Tăng Bạt Hổ\", thử Foody: chỉ Toplist."
   },
   {
    "ten": "Don Quixote (bar)",
@@ -367,25 +441,9 @@
    "nguon": [
     "https://wanderlog.com/list/geoCategory/248821"
    ],
-   "ly_do": "chỉ 1 nguồn (Wanderlog)"
-  },
-  {
-   "ten": "Quán bánh ướt lòng gà 21 Trương Công Định",
-   "duong": "Trương Công Định",
-   "so_nha": "21",
-   "nguon": [
-    "https://vinwonders.com/vi/bai-viet-du-lich/banh-uot-long-ga-da-lat/"
-   ],
-   "ly_do": "chỉ 1 nguồn, không có tên quán"
-  },
-  {
-   "ten": "Gemination Eatery & Bar",
-   "duong": "Trương Công Định",
-   "so_nha": "24",
-   "nguon": [
-    "https://wanderlog.com/list/geoCategory/248821"
-   ],
-   "ly_do": "chỉ 1 nguồn (Wanderlog)"
+   "ly_do": "chỉ 1 nguồn (Wanderlog)",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Chỉ Wanderlog (19 Tăng Bạt Hổ, phường Xuân Hương, có Facebook donquixotevietnam, 356 đánh giá Google). Tìm thêm Foody, báo, blog tiếng Việt và tiếng Anh: không thấy trang thứ hai."
   },
   {
    "ten": "NO bar",
@@ -394,7 +452,9 @@
    "nguon": [
     "https://wanderlog.com/list/geoCategory/248821"
    ],
-   "ly_do": "chỉ 1 nguồn (Wanderlog)"
+   "ly_do": "chỉ 1 nguồn (Wanderlog)",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Chỉ Wanderlog (233 đánh giá Google). Tìm thêm toplist, mytour, foody, Tinh tế: không thấy."
   },
   {
    "ten": "Coi Kissa (cà phê) và Bossa Jazz Spot",
@@ -404,7 +464,9 @@
     "https://vietcetera.com/en/blending-cocktails-and-the-arts-at-cu-ru-and-bossa-jazz-spot-in-da-lat",
     "https://mytour.vn/vi/blog/bai-viet/kham-pha-9-quan-ruou-khong-the-bo-qua-khi-den-da-lat.html"
    ],
-   "ly_do": "2 nguồn nhưng lệch số nhà: Vietcetera (bài 12/2021) ghi Coi Kissa ở 60, Bossa ở phía sau; Mytour ghi Bossa ở 69 (cùng số với On The Rocks). Bài cũ, chưa rõ còn mở"
+   "ly_do": "2 nguồn nhưng lệch số nhà: Vietcetera (bài 12/2021) ghi Coi Kissa ở 60, Bossa ở phía sau; Mytour ghi Bossa ở 69 (cùng số với On The Rocks). Bài cũ, chưa rõ còn mở",
+   "ket_qua_kiem_them": "vẫn chưa đủ",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Không tìm được nguồn 2025–2026 nào; trang dalat.app (2026) liệt kê quán bar ở Trương Công Định nhưng không có Bossa/Coi Kissa và ghi sai vài địa chỉ khác nên không dùng. Số 60 hay 69 vẫn vênh, chưa rõ còn mở."
   },
   {
    "ten": "The Fog Bar",
@@ -415,7 +477,9 @@
     "https://tatinta.com/diem-den/the-fog-bar-da-lat/3076",
     "https://wanderlog.com/place/details/1482627/the-fog-on-site"
    ],
-   "ly_do": "đủ nguồn nhưng dữ liệu Google trên Wanderlog ghi 'Permanently closed' (đã đóng hẳn) → không đưa lên bản đồ"
+   "ly_do": "đủ nguồn nhưng dữ liệu Google trên Wanderlog ghi 'Permanently closed' (đã đóng hẳn) → không đưa lên bản đồ",
+   "ket_qua_kiem_them": "đã đóng hẳn",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Wanderlog (dữ liệu Google) ghi \"Permanently Closed\" cả ở danh sách https://wanderlog.com/list/geoCategory/248821 lẫn trang quán (xem 25/11/2026). Chỉ một nguồn báo đóng, không thấy nguồn nào 2025–2026 nói còn mở."
   },
   {
    "ten": "The Chairman (bar)",
@@ -424,7 +488,9 @@
    "nguon": [
     "https://wanderlog.com/list/geoCategory/248821"
    ],
-   "ly_do": "1 nguồn và Wanderlog ghi 'Permanently Closed'"
+   "ly_do": "1 nguồn và Wanderlog ghi 'Permanently Closed'",
+   "ket_qua_kiem_them": "đã đóng hẳn",
+   "ghi_chu_kiem_them": "kiểm thêm 25/11/2026: Wanderlog https://wanderlog.com/list/geoCategory/248821 ghi \"Permanently Closed\" (xem 25/11/2026), địa chỉ còn ghi Phường 1 cũ. Không thấy nguồn nào khác."
   }
  ],
  "nguon_chung": [

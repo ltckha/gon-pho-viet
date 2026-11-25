@@ -413,7 +413,7 @@
   function layoutMoc() {
     if (!mocs.length) return;
     // phóng tới đâu, mốc gần giữa màn hình hiện trước; tối đa MOC_TOI_DA mốc một lúc (tỉnh có bản đồ phố luôn được ưu tiên)
-    var r = svg.getBoundingClientRect(), boxes = [], cx = r.width / 2, cy = r.height / 2, dem = 0, MOC_TOI_DA = 5;
+    var r = svg.getBoundingClientRect(), boxes = [], cx = r.width / 2, cy = r.height / 2, dem = 0, MOC_TOI_DA = 8;
     function kc(g) { return Math.hypot(g._x * view.s + view.x - cx, g._y * view.s + view.y - cy) * (g._thu_do ? 0.35 : g._uu === 1 ? 0.6 : 1); }   // thủ đô, rồi thành phố trực thuộc TW được ưu tiên hơn
     function hangMoc(g) { return g._deco ? 1e9 : (g._uu === 0 ? -1e9 : kc(g)); }
     mocs.slice().sort(function (a, b) { return hangMoc(a) - hangMoc(b); }).forEach(function (g) {

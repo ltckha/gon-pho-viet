@@ -1,0 +1,196 @@
+{
+  "road": "Nguyễn Văn Trỗi",
+  "ward": "Xuân Hương - Đà Lạt",
+  "ward_check": "chắc",
+  "ward_ghi_chu": "Phường 2 cũ (vietnamnet 2022, foody, mia). Một nguồn (vietnamairlines) ghi số 46 thuộc Phường 1 cũ; Phường 1 và Phường 2 đều gộp vào Xuân Hương - Đà Lạt (nq1671 mục 99) nên phường mới không đổi.",
+  "ten_osm": "Nguyễn Văn Trỗi",
+  "ten_pho": "Phố Kem Bơ",
+  "gioi_thieu": "Phố Kem Bơ: đường một chiều có những hàng kem bơ 30–40 năm tuổi, chiều tối có bánh tráng nướng bếp than, cuối dốc là chùa Linh Sơn.",
+  "gioi_thieu_nguon": [
+    "https://vietnamnet.vn/da-lat-lanh-14-do-c-khach-van-xuyt-xoa-xep-hang-o-pho-kem-bo-2080453.html",
+    "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
+    "https://en.wikipedia.org/wiki/Linh_Son_Pagoda"
+  ],
+  "dia_diem": [
+    {
+      "ten": "Kem Phụng",
+      "loai": "tiệm kem bơ",
+      "dac_trung": "Kem bơ của bà Mai Thị Phụng, bán trong chợ Đà Lạt từ thập niên 80 rồi con cháu mở quán trên phố; cuối tuần xếp hàng, xe đậu kín hai bên đường.",
+      "dia_chi": "97A Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "97A",
+      "nguon": [
+        "https://vietnamnet.vn/da-lat-lanh-14-do-c-khach-van-xuyt-xoa-xep-hang-o-pho-kem-bo-2080453.html",
+        "https://vinwonders.com/vi/wonderpedia/news/15-quan-kem-da-lat-duoc-review-nhieu-nhat/",
+        "https://www.foody.vn/lam-dong/kem-phung",
+        "https://mia.vn/cam-nang-du-lich/kem-bo-da-lat-diem-danh-4-quan-kem-bo-gay-nghien-tai-da-lat-1273",
+        "https://wanderlog.com/list/geoCategory/49095/places-to-have-best-gelato-in-da-lat"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders (bài 15 quán kem) và wanderlog ghi địa chỉ theo tên phường mới Xuân Hương - Đà Lạt (chỉ có từ 7/2025)"
+    },
+    {
+      "ten": "Kem bơ Thanh Thảo",
+      "loai": "tiệm kem bơ, chè",
+      "dac_trung": "Quán hai tầng gần Kem Phụng, công thức kem dừa giữ 30 năm; bán cả chè Thái, rau câu, flan, yaourt phô mai.",
+      "dia_chi": "76 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "76",
+      "nguon": [
+        "https://vietnamnet.vn/da-lat-lanh-14-do-c-khach-van-xuyt-xoa-xep-hang-o-pho-kem-bo-2080453.html",
+        "https://mia.vn/cam-nang-du-lich/kem-bo-thanh-thao-da-lat-14041",
+        "https://vinwonders.com/vi/wonderpedia/news/kem-bo-da-lat/",
+        "https://www.foody.vn/lam-dong/kem-bo-thanh-thao",
+        "https://wanderlog.com/list/geoCategory/49095/places-to-have-best-gelato-in-da-lat"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders kem-bo-da-lat (31/07/2025) và wanderlog ghi phường Xuân Hương - Đà Lạt"
+    },
+    {
+      "ten": "Nari - Chè Kem Bơ",
+      "loai": "tiệm kem bơ, chè, ăn vặt",
+      "dac_trung": "Quán mới hơn, sát bên Thanh Thảo, được khách trẻ thích; ngoài kem bơ có yaourt phô mai, chè Thái, bánh tráng nướng, nem chua.",
+      "dia_chi": "74C Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "74C",
+      "nguon": [
+        "https://vietnamnet.vn/da-lat-lanh-14-do-c-khach-van-xuyt-xoa-xep-hang-o-pho-kem-bo-2080453.html",
+        "https://vinwonders.com/vi/wonderpedia/news/kem-bo-da-lat/",
+        "https://www.foody.vn/lam-dong/nari-che-kem-bo",
+        "https://mia.vn/cam-nang-du-lich/kem-bo-da-lat-diem-danh-4-quan-kem-bo-gay-nghien-tai-da-lat-1273"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders 15 quán kem ghi phường Xuân Hương - Đà Lạt. Foody báo 'hơn 3 tháng chưa có tương tác mới'."
+    },
+    {
+      "ten": "Bánh tráng nướng 112",
+      "loai": "quán bánh tráng nướng",
+      "dac_trung": "Quán mặt tiền đông khách, mở từ trưa tới khuya, nhiều loại nhân trứng, khô bò, phô mai; bán thêm sữa đậu nành, yaourt phô mai.",
+      "dia_chi": "112 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "112",
+      "nguon": [
+        "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
+        "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/banh-trang-nuong-da-lat",
+        "https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/",
+        "https://toplist.vn/top-list/quan-banh-trang-nuong-ngon-nhat-o-da-lat-25656.htm",
+        "https://mytour.vn/vi/blog/bai-viet/top-8-dia-diem-banh-trang-nuong-hot-nhat-da-lat.html"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (10/08/2026) và vinwonders (26/07/2025) ghi phường Xuân Hương - Đà Lạt"
+    },
+    {
+      "ten": "Bánh tráng nướng Bà Khùng",
+      "loai": "bánh tráng nướng vỉa hè",
+      "dac_trung": "Một bếp than chữ nhật đặt trên vỉa hè, gần 20 năm; cô chủ nổi tiếng tính 'nắng mưa', bán buổi chiều tối.",
+      "dia_chi": "61 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "61",
+      "nguon": [
+        "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
+        "https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/",
+        "https://mytour.vn/vi/blog/bai-viet/top-8-dia-diem-banh-trang-nuong-hot-nhat-da-lat.html",
+        "https://wanderlog.com/place/details/2465266"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (10/08/2026), mytour (cập nhật 1/11/2026), wanderlog ghi phường Xuân Hương - Đà Lạt. Giờ mở mỗi nguồn ghi khác (16–20h / 15h30–22h / 6–23h)."
+    },
+    {
+      "ten": "Bánh tráng nướng Cô Phượng",
+      "loai": "quán bánh tráng nướng, sữa đậu nành",
+      "dac_trung": "Bánh nhiều phô mai, bán kèm sữa đậu nành, mở chiều tới tối.",
+      "dia_chi": "69C Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "69C",
+      "nguon": [
+        "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
+        "https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/",
+        "https://toplist.vn/top-list/quan-banh-trang-nuong-ngon-nhat-o-da-lat-25656.htm",
+        "https://mytour.vn/vi/blog/bai-viet/top-8-dia-diem-banh-trang-nuong-hot-nhat-da-lat.html"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (10/08/2026) và vinwonders (26/07/2025) ghi phường Xuân Hương - Đà Lạt"
+    },
+    {
+      "ten": "Chùa Linh Sơn",
+      "loai": "chùa",
+      "dac_trung": "Chùa trên đồi thấp ngay mặt phố, xây 1938–1940 (Wikipedia; trang khác ghi 1936); lên bằng bậc thang ngắn mà dốc qua cổng chào; vào cửa miễn phí.",
+      "dia_chi": "120 Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "120",
+      "nguon": [
+        "https://en.wikipedia.org/wiki/Linh_Son_Pagoda",
+        "https://mia.vn/cam-nang-du-lich/chua-linh-son-vieng-tham-chon-thien-dinh-lau-doi-o-da-lat-1365",
+        "https://www.vietnamtourism.com/vi/chua-linh-son-o-a-lat-cam-nang-ay-u-ve-ngoi-chua-tren-oi"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: vietnamtourism.com mô tả là tu viện đang hoạt động (bài trong cụm cập nhật 2026)"
+    },
+    {
+      "ten": "Phở Hiếu",
+      "loai": "quán phở",
+      "dac_trung": "Phở bò ăn buổi sáng, ăn kèm quẩy, có sữa chua tráng miệng; Google ghi vị trí 'dốc chùa'.",
+      "dia_chi": "103 Nguyễn Văn Trỗi (dốc chùa), Xuân Hương - Đà Lạt",
+      "so_nha": "103",
+      "nguon": [
+        "https://wanderlog.com/place/details/1521900",
+        "https://toplist.vn/top-list/quan-pho-ngon-noi-tieng-nhat-tai-da-lat-33695.htm"
+      ],
+      "do_tin_cay": "trung bình",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: wanderlog (dữ liệu Google) ghi phường Xuân Hương - Đà Lạt, mở 5h30–20h45. Nhưng vinwonders phở Đà Lạt (05/07/2025) và foody vẫn ghi 23 Tăng Bạt Hổ — xem ghi chú."
+    },
+    {
+      "ten": "Bánh mì xíu mại 79",
+      "loai": "quán bánh mì xíu mại buổi sáng",
+      "dac_trung": "Quán sáng nhỏ, mở từ 5h, chén xíu mại với da heo, hành lá, ăn kèm sữa đậu nành nóng.",
+      "dia_chi": "119C Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "119C",
+      "nguon": [
+        "https://mia.vn/cam-nang-du-lich/banh-mi-xiu-mai-da-lat-18910",
+        "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/banh-mi-xiu-mai-da-lat"
+      ],
+      "do_tin_cay": "trung bình",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: bài mia.vn có ngày 23.07.2026 (vẫn ghi Phường 2 cũ). Tuổi quán: các trang ghi khác nhau (hơn 20 năm / gần 40 năm) nên không ghi số."
+    },
+    {
+      "ten": "Cơm Tấm Mộc",
+      "loai": "quán cơm tấm",
+      "dac_trung": "Quán nhỏ bày kiểu hoài cổ, cơm tấm sườn chả bì, chỉ bán sáng tới trưa (6h–13h).",
+      "dia_chi": "121C Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "121C",
+      "nguon": [
+        "https://foody.vn/lam-dong/com-tam-moc",
+        "https://mia.vn/cam-nang-du-lich/bo-tui-top-10-quan-com-tam-da-lat-ngon-nuc-tieng-ma-ban-phai-thu-1327",
+        "https://mytour.vn/vi/blog/bai-viet/trai-nghiem-8-quan-com-tam-da-lat-ngon-kho-quen-digifood.html",
+        "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders ăn trưa (13/07/2025) ghi phường Xuân Hương - Đà Lạt; mytour cập nhật 1/11/2026"
+    },
+    {
+      "ten": "Cơm chay Thanh Đạm",
+      "loai": "quán cơm chay",
+      "dac_trung": "Quán chay bình dân, nhiều món chay kiểu Việt (phở, hoành thánh, cơm phần), mở 6h30–18h30.",
+      "dia_chi": "97C Nguyễn Văn Trỗi, Xuân Hương - Đà Lạt",
+      "so_nha": "97C",
+      "nguon": [
+        "https://app.wanderlog.com/place/details/1502585",
+        "https://spinach.guide/venues/com-chay-thanh-am-189058/",
+        "https://www.foody.vn/lam-dong/com-chay-thanh-dam"
+      ],
+      "do_tin_cay": "trung bình",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: wanderlog và spinach.guide ghi phường Xuân Hương - Đà Lạt. Toplist ghi 99C (lệch số nhà)."
+    }
+  ],
+  "can_kiem_them": [
+    {"ten": "Quán Ăn Lẩu Gà Lá É", "loai": "quán lẩu gà lá é", "dac_trung": "hơn 30 năm, đông sau 19h, nồi 2 người ~250.000đ", "dia_chi": "Nguyễn Văn Trỗi (không có số nhà)", "so_nha": null, "nguon": ["https://www.vietnamtourism.com/vi/am-thuc-a-lat-ca-phe-lau-va-o-an-uong-pho"], "ly_do": "1 nguồn, tên chung chung, không số nhà; không tìm được trang thứ hai"},
+    {"ten": "Nướng & lẩu bếp chú Việt", "loai": "quán nướng, lẩu", "dia_chi": "75 Nguyễn Văn Trỗi", "so_nha": "75", "nguon": ["https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"], "ly_do": "1 nguồn"},
+    {"ten": "Tấm Mei", "loai": "quán cơm tấm", "dia_chi": "Nguyễn Văn Trỗi (không có số nhà)", "so_nha": null, "nguon": ["https://mia.vn/cam-nang-du-lich/bo-tui-top-10-quan-com-tam-da-lat-ngon-nuc-tieng-ma-ban-phai-thu-1327", "https://mytour.vn/vi/blog/bai-viet/top-10-quan-com-tam-da-lat-ngon-khong-the-bo-qua.html"], "ly_do": "có 2 trang nhưng cả hai không ghi số nhà, không đặt được vị trí"},
+    {"ten": "Cơm tấm Ba Mập", "loai": "quán cơm tấm", "dia_chi": "91D Nguyễn Văn Trỗi", "so_nha": "91D", "nguon": ["https://mytour.vn/vi/blog/bai-viet/trai-nghiem-8-quan-com-tam-da-lat-ngon-kho-quen-digifood.html"], "ly_do": "1 nguồn"},
+    {"ten": "Bánh tráng nướng Cô Hương", "loai": "bánh tráng nướng", "dia_chi": "46 Nguyễn Văn Trỗi (nguồn ghi Phường 1 cũ)", "so_nha": "46", "nguon": ["https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/banh-trang-nuong-da-lat"], "ly_do": "1 nguồn"},
+    {"ten": "Bánh tráng nướng 54 Nguyễn Văn Trỗi", "loai": "bánh tráng nướng", "dia_chi": "54 Nguyễn Văn Trỗi", "so_nha": "54", "nguon": ["https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/"], "ly_do": "1 nguồn"},
+    {"ten": "Bánh tráng nướng Yến", "loai": "bánh tráng nướng", "dia_chi": "10 Nguyễn Văn Trỗi", "so_nha": "10", "nguon": ["https://vinwonders.com/vi/wonderpedia/news/banh-trang-nuong-da-lat/"], "ly_do": "1 nguồn"},
+    {"ten": "Trinh Nguyen Homestay", "loai": "homestay", "dia_chi": "hẻm 36/3 Nguyễn Văn Trỗi (theo ghi chú game; trang trip.com em đọc không hiện địa chỉ)", "so_nha": null, "nguon": ["https://vn.trip.com/hotels/dalat-hotel-detail-47145665/trinh-nguyen-homestay"], "ly_do": "1 nguồn, địa chỉ chưa thấy tận mắt"}
+  ],
+  "nguon_chung": [
+    "https://vietnamnet.vn/da-lat-lanh-14-do-c-khach-van-xuyt-xoa-xep-hang-o-pho-kem-bo-2080453.html",
+    "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
+    "data/lam-dong/nq1671.json (mục 99: Xuân Hương - Đà Lạt gộp từ Phường 1, 2, 3, 4, 10)",
+    "data/lam-dong/da-lat/duong.json (OSM: 6 đoạn tên 'Nguyễn Văn Trỗi', 3 đoạn một chiều)",
+    "ltckha/giang-ho-ai: docs/research/2026-11-24_pho_moi_da_lat.md (chỉ lấy nguồn, không lấy tên đặt lại)"
+  ],
+  "ngay_nghien_cuu": "2026-11-25"
+}

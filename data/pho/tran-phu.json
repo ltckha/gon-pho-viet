@@ -1,0 +1,229 @@
+{
+ "road": "Trần Phú; Ba Tháng Hai",
+ "duong_osm": ["Trần Phú", "Ba Tháng Hai"],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Trần Phú thuộc Phường 3 cũ; Ba Tháng Hai thuộc Phường 1 và Phường 4 cũ; cả ba gộp vào Xuân Hương - Đà Lạt (đã kiểm trước). Các trang 2025-2026 (trip.com, vinwonders, wanderlog) cũng ghi 'Xuân Hương - Đà Lạt' cho địa chỉ trên hai đường.",
+ "ten_pho": "Phố Di Sản",
+ "gioi_thieu": "Phố Di Sản: khách sạn Lang-Bian Palace xây xong năm 1922 bên hồ Xuân Hương, nhà thờ Con Gà xây 1931–1942, tiệm bánh Liên Hoa mở từ 5 giờ sáng tới nửa đêm.",
+ "gioi_thieu_nguon": [
+  "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+  "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+  "https://nz.trip.com/restaurant/vietnam/dalat/detail/Lien%20Hoa%20Bakery-504933"
+ ],
+ "dia_diem": [
+  {
+   "ten": "Dalat Palace Heritage Hotel",
+   "loai": "khách sạn di sản",
+   "dac_trung": "Khách sạn thời Pháp bên hồ Xuân Hương, tên gốc Lang-Bian Palace, khởi công 1916, mở 1922.",
+   "duong": "Trần Phú",
+   "so_nha": "2",
+   "dia_chi": "2 Trần Phú",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+    "https://uk.trip.com/hotels/dalat-hotel-detail-993587/dalat-palace-heritage-hotel/review.html",
+    "https://www.hotels.com/ho119097"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 10/11/2026 (ở tháng 10/2026)"
+  },
+  {
+   "ten": "Du Parc Hotel Dalat",
+   "loai": "khách sạn cổ",
+   "dac_trung": "Khách sạn Art Deco khánh thành 1932 cạnh nhà thờ Con Gà, còn thang máy lồng sắt kiểu cũ.",
+   "duong": "Trần Phú",
+   "so_nha": "15",
+   "dia_chi": "15 Trần Phú (mia.vn ghi 15A)",
+   "nguon": [
+    "https://ph.trip.com/hotels/dalat-hotel-detail-993584/du-parc-hotel-dalat",
+    "https://mia.vn/cam-nang-du-lich/du-parc-hotel-dalat-review-19738",
+    "https://www.fodors.com/world/asia/vietnam/the-south-central-coasts-and-highlands/hotels/reviews/du-parc-hotel-dalat-615069"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 30/10/2026; bài mia.vn 02/12/2025"
+  },
+  {
+   "ten": "Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)",
+   "loai": "nhà thờ, di tích",
+   "dac_trung": "Xây 1931–1942, con gà trên đỉnh tháp chuông; đêm Giáng sinh hàng nghìn người dồn về.",
+   "duong": "Trần Phú",
+   "so_nha": "15",
+   "dia_chi": "15 Trần Phú (một nguồn ghi 17)",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+    "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html",
+    "https://baolamdong.vn/dem-giang-sinh-da-lat-dong-vui-trong-suong-lanh-413266.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: Báo Lâm Đồng 25/12/2025 tả lễ đêm Giáng sinh"
+  },
+  {
+   "ten": "Tiệm bánh Liên Hoa (Liên Hoa Bakery)",
+   "loai": "tiệm bánh",
+   "dac_trung": "Tiệm bánh mì, bánh ngọt quen của dân Đà Lạt ở khu chợ trung tâm, mở 5 giờ sáng tới nửa đêm.",
+   "duong": "Ba Tháng Hai",
+   "so_nha": "15-17-19",
+   "dia_chi": "15-17-19 Ba Tháng Hai (wanderlog ghi 19)",
+   "nguon": [
+    "https://nz.trip.com/restaurant/vietnam/dalat/detail/Lien%20Hoa%20Bakery-504933",
+    "https://wanderlog.com/place/details/1184180",
+    "https://znews.vn/tan-huong-su-ngot-ngao-cua-da-lat-tai-nhung-tiem-banh-xinh-xan-post940949.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: wanderlog hiện đánh giá Google ngày 09/08/2026; trip.com có đánh giá 30/10/2025"
+  },
+  {
+   "ten": "Phở Tiến",
+   "loai": "quán phở",
+   "dac_trung": "Phở kiểu Bắc, nước dùng xương bò, bán buổi sáng tới trưa, có chỗ để xe.",
+   "duong": "Trần Phú",
+   "so_nha": "54",
+   "dia_chi": "54 Trần Phú",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/pho-da-lat/",
+    "https://mytour.vn/vi/blog/am-thuc/top-12-quan-pho-ngon-dinh-dam-tai-phuong-cam-ly-da-lat-lam-dong-mytour.html",
+    "https://vinpearl.com/en/pho-da-lat"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ (chỉ có bài liệt kê vinwonders 05/07/2025, chưa thấy đánh giá khách 2026); giờ mở lệch nhau: 6:00/6:30–13:00, vinpearl ghi thêm 17:00–20:00"
+  },
+  {
+   "ten": "Bánh canh cá lóc An",
+   "loai": "quán bánh canh",
+   "dac_trung": "Bánh canh cá lóc nước xương cá, ăn kèm rau đắng, bán từ sáng tới chiều tối.",
+   "duong": "Trần Phú",
+   "so_nha": "21/9",
+   "dia_chi": "21/9 Trần Phú (trong hẻm 21; foody ghi 23/2 Trần Phú)",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/banh-canh-ca-loc-mon-an-thoi-hon-vao-tinh-hoa-am-thuc-da-lat-1306",
+    "https://toplist.vn/top/banh-canh-ca-loc-an-504609.htm",
+    "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: bài mia.vn ngày 14/01/2026 và vinwonders 13/07/2025 còn liệt kê (bài liệt kê, chưa phải đánh giá khách)"
+  },
+  {
+   "ten": "Khách sạn Sài Gòn - Đà Lạt (Saigon Dalat Hotel)",
+   "loai": "khách sạn",
+   "dac_trung": "Khách sạn 4 sao 160 phòng trên Ba Tháng Hai, kiến trúc kiểu Pháp, có hồ bơi nước nóng.",
+   "duong": "Ba Tháng Hai",
+   "so_nha": "180",
+   "dia_chi": "180 Ba Tháng Hai",
+   "nguon": [
+    "https://www.vietnambooking.com/khach-san/tin-tuc-khach-san/khach-san-dep-tren-duong-3-thang-2-da-lat.html",
+    "https://mia.vn/cam-nang-du-lich/ghe-saigon-dalat-hotel-tan-huong-ky-nghi-trong-mo-5902",
+    "https://ca.trip.com/hotels/dalat-hotel-detail-713589/saigon-dalat-hotel/review.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: đánh giá khách trên trip.com đăng 11/10/2026 (ở tháng 6/2026)"
+  },
+  {
+   "ten": "Bếp 1985 - Quán Cơm Thuần Việt (Quán cơm 1985)",
+   "loai": "quán cơm gia đình",
+   "dac_trung": "Cơm nhà ba món mặn một món phụ, đựng thố đất, thực đơn đổi mỗi ngày.",
+   "duong": "Trần Phú",
+   "so_nha": "25",
+   "dia_chi": "25 Trần Phú (mia.vn ghi hẻm 25 Trần Phú)",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/quan-com-da-lat-chuan-vi-19916",
+    "https://www.foody.vn/lam-dong/bep-1985-quan-com-thuan-viet"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ (vinwonders 09/07/2025 còn liệt kê; foody báo hơn 3 tháng không tương tác)"
+  },
+  {
+   "ten": "Bờ Kè Quán (cơm gia đình)",
+   "loai": "quán cơm gia đình",
+   "dac_trung": "Cơm canh chua cá lóc, vịt kho sả ớt, thịt kho hột vịt; nằm trong hẻm cạnh khách sạn Bông Hồng.",
+   "duong": "Ba Tháng Hai",
+   "so_nha": "73A",
+   "dia_chi": "hẻm 73A Ba Tháng Hai (số cũ, cạnh khách sạn Bông Hồng)",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/",
+    "https://www.foody.vn/lam-dong/bo-ke-quan-com-gia-dinh"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ (vinwonders 09/07/2025 còn liệt kê; chưa thấy đánh giá khách 2026)"
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Cháo Đêm - Đường 3 Tháng 2",
+   "loai": "quán cháo đêm",
+   "dac_trung": "Cháo trắng, cháo đậu xanh, cháo gà, ăn kèm cá kho, trứng muối, cải chua; khoảng 20.000–25.000đ.",
+   "duong": "Ba Tháng Hai",
+   "so_nha": "62",
+   "dia_chi": "62 Ba Tháng Hai",
+   "nguon": ["https://www.foody.vn/lam-dong/chao-dem-duong-3-thang-2"],
+   "ly_do": "Chỉ foody đọc được (bình luận mới nhất 23/12/2017, foody cảnh báo có thể đã đóng); bài vinpearl 'quán ăn đêm' chặn đọc (403), toplist quán ăn đêm không có quán này.",
+   "con_mo": "không rõ"
+  },
+  {
+   "ten": "Bánh mì gà Nga",
+   "loai": "quán bánh mì sáng",
+   "dac_trung": "Bán 6–9 giờ sáng, đối diện tiệm Liên Hoa, thường hết hàng sau khoảng 3 tiếng.",
+   "duong": "Ba Tháng Hai",
+   "so_nha": "22",
+   "dia_chi": "22 Ba Tháng Hai",
+   "nguon": ["https://vinwonders.com/vi/wonderpedia/news/diem-mat-17-quan-banh-mi-da-lat/"],
+   "ly_do": "Một nguồn; trong bài tiêu đề ghi bánh mì gà nhưng phần tả lại nói bánh mì xíu mại.",
+   "con_mo": "không rõ"
+  },
+  {
+   "ten": "Cơm gà Hải Nam",
+   "loai": "quán cơm gà",
+   "dac_trung": "Cơm gà Hải Nam trong hẻm 21 Trần Phú.",
+   "duong": "Trần Phú",
+   "so_nha": "21/2A",
+   "dia_chi": "21/2A Trần Phú",
+   "nguon": ["https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"],
+   "ly_do": "Một nguồn, tên quán chung chung (có thể chỉ là tên món).",
+   "con_mo": "không rõ"
+  },
+  {
+   "ten": "Cơm Lá Chuối",
+   "loai": "quán cơm gia đình",
+   "dac_trung": "Suất cơm xào, mặn, rau, canh; có bún bò Huế, bún mắm.",
+   "duong": "Trần Phú",
+   "so_nha": null,
+   "dia_chi": "vinwonders ghi 21 Trần Phú, vinpearl ghi 23/2 Trần Phú",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/",
+    "https://vinpearl.com/vi/quan-com-da-lat-ngon"
+   ],
+   "ly_do": "Hai nguồn cùng một tập đoàn (Vingroup) và lệch số nhà; chưa có nguồn độc lập.",
+   "con_mo": "không rõ"
+  },
+  {
+   "ten": "Le Café de la Poste",
+   "loai": "nhà hàng Pháp",
+   "dac_trung": "Nhà hàng trong toà nhà thời Pháp đối diện bưu điện; mia.vn 12/2025 ghi là nhà hàng của Du Parc Hotel (còn gọi Le Bistro).",
+   "duong": "Trần Phú",
+   "so_nha": null,
+   "dia_chi": "chưa rõ",
+   "nguon": [
+    "https://fodors.fodors.com/world/asia/vietnam/the-south-central-coasts-and-highlands/restaurants/reviews/le-cafe-de-la-poste-614656",
+    "https://mia.vn/cam-nang-du-lich/du-parc-hotel-dalat-review-19738"
+   ],
+   "ly_do": "Fodor's cũ; không rõ còn tên này hay đã đổi thành Le Bistro; chưa có số nhà.",
+   "con_mo": "không rõ"
+  },
+  {
+   "ten": "Bưu điện Đà Lạt",
+   "loai": "bưu điện, công trình cũ",
+   "dac_trung": "chưa rõ",
+   "duong": "Trần Phú",
+   "so_nha": null,
+   "dia_chi": "chưa rõ (nghe nói 14 Trần Phú, chưa có nguồn)",
+   "nguon": [],
+   "ly_do": "Chưa tìm được nguồn ghi số nhà và năm xây.",
+   "con_mo": "không rõ"
+  }
+ ],
+ "nguon_chung": [
+  "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-24_pho_moi_da_lat.md",
+  "https://www.vietnambooking.com/khach-san/tin-tuc-khach-san/khach-san-dep-tren-duong-3-thang-2-da-lat.html",
+  "https://baolamdong.vn/dem-giang-sinh-da-lat-dong-vui-trong-suong-lanh-413266.html"
+ ]
+}

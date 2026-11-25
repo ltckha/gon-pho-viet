@@ -205,9 +205,17 @@ def draw_area(game, duong, phos, key, with_center):
     d.text((W - tw - 16, H - 31), txt, fill=(250, 244, 226), font=small)
 
     out = os.path.join(ROOT, 'assets', key + '.webp')
-    im.convert('RGB').save(out, 'WEBP', quality=72, method=6)
+    # tấm vùng ven rộng (Lang Biang ~10 km) cả khung hiện một lần trên điện thoại ~1.100 điểm ảnh → thu về tối đa 2.200,
+    # tấm trung tâm giữ nguyên độ nét (mỗi phố chỉ hiện một góc nhỏ) nhưng nén mạnh hơn
+    f = 1.0 if with_center else min(1.0, 2200 / max(W, H))
+    ppm = PX_PER_M
+    if f < 1:
+        W, H = int(W * f), int(H * f)
+        im = im.resize((W, H), Image.LANCZOS)
+        ppm = PX_PER_M * f
+    im.convert('RGB').save(out, 'WEBP', quality=64 if with_center else 70, method=6)
     print(out, W, 'x', H, os.path.getsize(out) // 1024, 'KB', [p['slug'] for p in phos])
-    return {'anh': 'assets/' + key + '.webp', 'w': W, 'h': H, 'lon0': lon0, 'lat1': lat1, 'kx': kx, 'px_per_m': PX_PER_M, 'M': M,
+    return {'anh': 'assets/' + key + '.webp', 'w': W, 'h': H, 'lon0': lon0, 'lat1': lat1, 'kx': kx, 'px_per_m': ppm, 'M': M,
             'pho': [p['slug'] for p in phos],
             'moc': [{'ten': MOC_TEN[n], 'lon': lo, 'lat': la} for n, la, lo, _ in LMS]}
 

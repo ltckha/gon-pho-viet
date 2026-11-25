@@ -8,7 +8,7 @@ Em là người nghiên cứu phố cho bản đồ Gọn Phố Việt (kho hi�
 Việc cần làm với một con đường/phố được giao:
 1. **Phường mới**: tìm phường cũ của đường (bảng giá đất trên thuviennhadat.vn, hoặc trang rao nhà ghi rõ phường), rồi đổi sang phường mới theo `data/lam-dong/nq1671.json` (mục `gop_tu`). Đường chạy qua nhiều phường cũ thì ghi từng đoạn. Ghi độ chắc: "chắc" (có bảng giá đất/văn bản), "khá chắc" (chỉ trang rao), "chưa rõ".
 2. **Đặc trưng phố**: một câu giới thiệu ngắn kiểu "Phố lẩu bò Ba Toa: hơn 20 quán lẩu, sáng bán bánh mì xíu mại". Con số trong câu phải có nguồn.
-3. **Địa điểm tiêu biểu** (5–15 nơi): tên, loại, đặc trưng, địa chỉ số nhà nếu có. **Mỗi nơi ≥ 2 nguồn độc lập** (Google Maps/Foody/báo/blog/OSM). Chỉ 1 nguồn thì để vào mục "cần kiểm thêm", không đưa vào danh sách chính.
+3. **Địa điểm tiêu biểu** (5–15 nơi): tên, loại, đặc trưng, địa chỉ số nhà nếu có. **Mỗi nơi ≥ 2 nguồn độc lập** (báo, trang nhà nước, Foody, blog, OpenStreetMap — KHÔNG lấy dữ liệu hay toạ độ từ Google Maps: điều khoản Google cấm chép sang bản đồ khác). Chỉ 1 nguồn thì để vào mục "cần kiểm thêm", không đưa vào danh sách chính.
 4. Đối chiếu tên đường với OpenStreetMap trong `data/lam-dong/da-lat/duong.json` (trường `ten`) để chắc tên viết giống bản đồ.
 
 Đọc mẫu sẵn có trước khi viết: kho game `ltckha/giang-ho-ai` (chỉ đọc) có `content/streets/*.json` và `docs/research/2026-11-2*_*.md` — giữ cùng kiểu ghi nguồn và độ tin cậy.

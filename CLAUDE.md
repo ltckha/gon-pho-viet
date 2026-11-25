@@ -26,9 +26,12 @@ Người dùng: anh Kha. Lộ trình (Artifact): https://claude.ai/artifact/U8sJ
 GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/ThangLeQuoc/vietnamese-provinces-database /tmp/vpd
 python3 tools/build_data.py /tmp/vpd/json/geojson          # viet-nam.json + lam-dong/phuong.json
 # 2. Đường thật (OSM) cho phường cần vẽ
-python3 tools/tai_osm.py /tmp/vpd/json/geojson /tmp/osm '68_lam_dong/wards/*_xuan_huong_da_lat' '68_lam_dong/wards/*_cam_ly_da_lat'
+python3 tools/tai_osm.py /tmp/vpd/json/geojson /tmp/osm '68_lam_dong/wards/*_da_lat'   # cả 5 phường Đà Lạt (~210 ô, ~100 MB)
 python3 tools/build_streets.py /tmp/osm /tmp/vpd/json/geojson
-# 3. Trang phố (đọc kho game, chỉ đọc)
+# 2b. Nước láng giềng (Natural Earth)
+curl -sL -o /tmp/c10.json https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-10m.json && python3 tools/build_lang_gieng.py /tmp/c10.json
+# 3. Trang phố (đọc kho game, chỉ đọc) — dò vị trí quán trước
+python3 tools/vi_tri_quan.py /tmp/osm
 python3 tools/build_pho.py /home/user/ltckha/giang-ho-ai
 ```
 `build_data.py` dừng báo lỗi nếu tên xã/phường không khớp văn bản NQ — đừng tắt kiểm tra đó, sửa đúng gốc.
@@ -46,6 +49,7 @@ python3 tools/build_pho.py /home/user/ltckha/giang-ho-ai
 - Tên đường: OSM chia đường thành nhiều đoạn ngắn → nối đoạn cùng tên (`ten_duong`) để đặt chữ; chữ chỉ hiện khi đủ chỗ và không đè (hàm `layout()`).
 - **Tên quán trong nghiên cứu của game là tên đặt lại** (game không dùng tên quán thật). Không đưa các tên đó lên bản đồ như tên thật; `build_pho.py` chỉ lấy loại quán, đặc trưng, nguồn.
 - OSM ở Đà Lạt ghi tiệm thiếu; so tên lỏng ra trùng nhầm ("Café Nga" ≠ "Miến gà Nga"). `vi_tri_quan.py` so tên hai chiều + số, số nhà đúng y tên đường; tên viết khác thì soát tay rồi thêm vào `ALIAS`. Không khớp thì để trống, không đoán.
+- Điều khoản Google không cho máy tự lấy dữ liệu Google Maps (kể cả toạ độ) đưa sang bản đồ khác → không chép toạ độ từ Google Maps vào kho.
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
 ## Agent có sẵn (`.claude/agents/`)

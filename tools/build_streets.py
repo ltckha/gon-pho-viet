@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tạo data/lam-dong/da-lat/duong.json: đường thật, mặt nước, mốc của phường Xuân Hương và Cam Ly (Đà Lạt).
+"""Tạo data/lam-dong/da-lat/duong.json: đường thật, mặt nước, mốc của 5 phường Đà Lạt.
 
 Cách chạy:
   python3 tools/build_streets.py <thư mục các file .xml tải từ OpenStreetMap> <thư mục json/geojson của vietnamese-provinces-database>
@@ -19,7 +19,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_data import dp, point_in_ring  # noqa: E402
 
-WARDS = {'xuan_huong': 'Xuân Hương - Đà Lạt', 'cam_ly': 'Cam Ly - Đà Lạt'}
+WARDS = {'xuan_huong': 'Xuân Hương - Đà Lạt', 'cam_ly': 'Cam Ly - Đà Lạt', 'lam_vien': 'Lâm Viên - Đà Lạt',
+         'xuan_truong': 'Xuân Trường - Đà Lạt', 'lang_biang': 'Lang Biang - Đà Lạt'}   # cả 5 phường Đà Lạt
 
 # Loại đường giữ lại và độ "to" (để vẽ dày mỏng, hiện tên sớm hay muộn)
 ROAD_RANK = {

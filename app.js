@@ -29,12 +29,12 @@
     'lam-dong': {
       file: 'data/lam-dong/phuong.json', list: 'phuong', crumb: [['Việt Nam', ''], ['Lâm Đồng', 'lam-dong']],
       context: { layer: 'viet-nam', skip: '68' },  // vẽ mờ các tỉnh xung quanh để không lẫn với biển
-      cls: function (p) { return p.so_pho ? 'open' : (p.da_lat ? 'dalat' : (p.loai === 'Phường' ? 'ward' : '')); },
+      cls: function (p) { return p.so_pho ? 'open' : (p.da_lat ? 'dalat' : (p.loai === 'Phường' ? 'ward' : '')); },  // 5 phường Đà Lạt đều có đường
       minZoom: function (p) { return p.da_lat ? 3.2 : (p.loai === 'Xã' ? 4.5 : 2.2); },
       label: function (p) { return p.ten; },
       // Tên gom "Đà Lạt" ở tầm cả tỉnh, phóng tới 5 phường thì ẩn đi
       extraLabels: [['Đà Lạt', 108.44, 11.97, 0, 3.2, 'open']],
-      legend: [['open', 'Có phố, bấm để xem đường'], ['dalat', 'Phường khác của Đà Lạt'], ['ward', 'Phường'], ['soon', 'Xã, đặc khu']],
+      legend: [['open', 'Có phố đã nghiên cứu'], ['dalat', 'Phường khác của Đà Lạt (có đường)'], ['ward', 'Phường'], ['soon', 'Xã, đặc khu']],
       card: cardPhuong
     },
     'da-lat': {
@@ -180,15 +180,15 @@
     lam.phuong.forEach(function (w) {
       var on = onSet[w.ma];
       land.appendChild(el('path', { d: pathOf(w.hinh, 3), 'class': 'prov ' + (on ? 'w-on' : 'ctx') }));
-      if (on) {
+      if (on && w.so_pho) {   // khung mở đầu: 2 phường trung tâm có phố; 3 phường kia kéo ra là thấy
         w.hinh.forEach(function (pl) {
           pl[0].forEach(function (q) {
             var x = px(q[0]), y = py(q[1]);
             minX = Math.min(minX, x); maxX = Math.max(maxX, x); minY = Math.min(minY, y); maxY = Math.max(maxY, y);
           });
         });
-        labels.appendChild(el('text', { x: px(w.nhan[0]), y: py(w.nhan[1]), 'class': 'lbl ward-name', 'data-min': 0, 'data-max': 3 }, 'Phường ' + w.ten));
       }
+      if (on) labels.appendChild(el('text', { x: px(w.nhan[0]), y: py(w.nhan[1]), 'class': 'lbl ward-name', 'data-min': 0, 'data-max': 3 }, 'Phường ' + w.ten));
     });
     var water = el('g', { 'class': 'water' });
     data.nuoc.forEach(function (n) { water.appendChild(el('path', { d: lineOf(n.pts) + 'Z' })); });
@@ -451,7 +451,7 @@
       '<dt>Gộp từ</dt><dd>' + esc(p.gop_tu) + '</dd>' +
       '<dt>Diện tích</dt><dd>' + fmt(p.dien_tich_km2, 1) + ' km²</dd>' +
       '</dl>';
-    if (p.so_pho) h += '<button class="go" type="button" data-go="da-lat">Xem đường phố Đà Lạt →</button>';
+    if (p.da_lat) h += '<button class="go" type="button" data-go="da-lat">Xem đường phố Đà Lạt →</button>';
     h += '<p class="note">Theo Nghị quyết 1671/NQ-UBTVQH15, Điều 1 khoản ' + p.muc_nq + '.</p>';
     return h;
   }

@@ -59,9 +59,9 @@
    "con_mo": "mở: nằm trong Delight Park (Người Quan Sát 04/2025, Báo Lâm Đồng 07/2025).",
    "ghi_chu": "Diện tích mặt nước lệch: 9 ha (Wikipedia) / 8,5 ha (VnExpress) → không ghi. vietnamnet 2011 ghi đổi tên Sương Mai 'sau năm 1976' (các nguồn khác: 1975). Cách Chợ Đà Lạt khoảng 4,7 km đường chim bay (theo OSM); các báo ghi khoảng 6 km. Đường gần nhất trong duong.json: Hồ Xuân Hương (chạy sát đập phía tây nam), Nam Hồ.",
    "vi_tri": {
-    "lon": 108.47849,
-    "lat": 11.95707,
-    "cach": "tên trên OpenStreetMap: Hồ Than Thở (tâm mặt hồ)",
+    "lon": 108.478488,
+    "lat": 11.957073,
+    "cach": "tên trên OpenStreetMap: Hồ Than Thở (ghép tay)",
     "osm": "way/473771570"
    }
   },
@@ -118,9 +118,9 @@
    "con_mo": "đang hoạt động (trường quân sự, không phải điểm tham quan).",
    "ghi_chu": "Việc Học viện Lục quân vào tiếp quản cuối 1975 chỉ Wikipedia tiếng Anh ghi; Nhân Dân 2022 chỉ nói học viện đóng quân ở Lâm Đồng 'hơn 45 năm'. Năm 1950 chuyển lên Đà Lạt: Wikipedia tiếng Anh + blog (nguồn yếu). OSM có hai khối 'Học viện Lục quân' (way/1355564844, cách hồ khoảng 1,3 km về phía tây) và 'Học viện Lục quân Đà Lạt' (way/1391739631, xa hơn về phía bắc). Đường gần nhất trong duong.json: Lữ Gia 64 m, Chi Lăng 166 m. Khu quân sự, không nên gợi ý khách vào.",
    "vi_tri": {
-    "lon": 108.46644,
-    "lat": 11.95545,
-    "cach": "tên trên OpenStreetMap: Học viện Lục quân (tâm khối)",
+    "lon": 108.466438,
+    "lat": 11.955446,
+    "cach": "tên trên OpenStreetMap: Học viện Lục quân (ghép tay)",
     "osm": "way/1355564844"
    }
   }

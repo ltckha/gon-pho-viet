@@ -71,10 +71,10 @@
    "con_mo": "mở: VietNamNet 26/08/2026 và Người Quan Sát 20/09/2026 còn viết về khách tham quan; OSM (kiểm 05/2026) ghi giờ mở 08:30–19:00, VinWonders ghi 08:30–18:00 → không ghi giờ, không ghi giá vé.",
    "ghi_chu": "Lệch: số phòng 10 (VnExpress 2008, Wikipedia tiếng Việt) / 11 (VietNamNet 2026, crazyhouse.vn, VinWonders) — có thể do xây thêm; diện tích khuôn viên 'gần 4.000 m²' (Wikipedia tiếng Việt) / 'ban đầu gần 1.900 m²' (Người Quan Sát); 'hoàn thành năm 2010' chỉ Người Quan Sát ghi, Tiền Phong 2011 và VietNamNet 2026 kể bà vẫn xây thêm. 'Lonely Planet xếp thứ 11 trong 15 kỳ quan' chỉ Người Quan Sát → không đưa vào đặc trưng. OSM: điểm 'Biệt Thự Hằng Nga' (node/1152347338, tourism=hotel) và khối nhà 'Crazy House' (relation/20657435, tourism=museum, wikidata Q1171693).",
    "vi_tri": {
-    "lon": 108.430897,
-    "lat": 11.934707,
-    "cach": "tên trên OpenStreetMap: Biệt Thự Hằng Nga (ghép tay)",
-    "osm": "node/1152347338"
+    "lon": 108.430929,
+    "lat": 11.934764,
+    "cach": "số nhà trên OpenStreetMap: 3 Huỳnh Thúc Kháng",
+    "osm": "node/11359650522"
    }
   },
   {
@@ -95,9 +95,9 @@
    "con_mo": "đang hoạt động như công ty vắc xin (Báo Lâm Đồng, trungtamthuoc); là cơ sở sản xuất, không phải điểm tham quan — chưa thấy nguồn nói có mở cho khách vào.",
    "ghi_chu": "Năm xây 1933–1934 và ngày mở 1/1/1936 lấy từ báo L'Avenir du Tonkin 21/9/1936 (chép lại trên entreprises-coloniales.fr, dẫn ghi chú của Dr L. Souchard, giám đốc đầu tiên theo danh sách bổ nhiệm 22/8/1936). Wikipedia tiếng Anh ghi Yersin lập và đứng đầu viện năm 1936 — lệch với báo 1936 ghi giám đốc là Souchard; Báo Lâm Đồng chỉ ghi 'thành lập năm 1936 theo đề xuất của bác sĩ Alexandre Yersin' → em ghi theo Báo Lâm Đồng. Một trang du lịch (wander-lush) ghi 'xây 1930–1936' → không dùng. Địa chỉ 18 Lê Hồng Phong theo trungtamthuoc và vnras; khối nhà OSM gần đường Pasteur và Nguyễn Viết Xuân hơn (khoảng 45 m), cách Lê Hồng Phong khoảng 70 m. Cách Biệt thự Hằng Nga khoảng 430 m chim bay.",
    "vi_tri": {
-    "lon": 108.427305,
-    "lat": 11.933307,
-    "cach": "tên trên OpenStreetMap: Công ty Vắc xin Pasteur Đà Lạt (name:fr Institut Pasteur de Dalat), tâm khối nhà (ghép tay)",
+    "lon": 108.427301,
+    "lat": 11.933315,
+    "cach": "tên trên OpenStreetMap: Công ty Vắc xin Pasteur Đà Lạt (ghép tay)",
     "osm": "way/1305208733"
    }
   },
@@ -117,9 +117,9 @@
    "con_mo": "đang là trường học (Wikipedia tiếng Việt, VIR 2016); không phải điểm tham quan mở cửa tự do — chưa thấy nguồn nói giờ cho khách vào.",
    "ghi_chu": "Ngày 3/10/1935, 26/10/1936, 110 nữ sinh chỉ Wikipedia tiếng Việt ghi; VIR (05/07/2016) gọi tên 'Notre-Dame du Langbian Monastery', xây 1935, trường Couvent des Oiseaux hoạt động 1940–1975 (lệch với Wikipedia khai giảng 1936). Kiến trúc sư: chưa rõ. Catalogue triển lãm EFEO về kiến trúc Đà Lạt có dùng lưu trữ của Congrégation Notre-Dame (Couvent des Oiseaux) nhưng em không đọc được nội dung riêng về toà nhà. Cách Biệt thự Hằng Nga khoảng 1 km chim bay về phía tây; phường khác (Cam Ly).",
    "vi_tri": {
-    "lon": 108.422346,
-    "lat": 11.938366,
-    "cach": "tên trên OpenStreetMap: Couvent des Oiseaux, tâm khối nhà (ghép tay)",
+    "lon": 108.422342,
+    "lat": 11.938395,
+    "cach": "tên trên OpenStreetMap: Couvent des Oiseaux (ghép tay)",
     "osm": "way/542486117"
    }
   },
@@ -140,9 +140,9 @@
    "con_mo": "chưa rõ ngày mới nhất: Kiến Thức 21/12/2016; là nhà thờ giáo xứ đang sinh hoạt (OSM có 'Giáo Xứ Du Sinh').",
    "ghi_chu": "Khánh thành Giáng sinh 1957, tháp chuông xong 1962, cho giáo dân di cư: chỉ toplist ghi → không đưa vào mốc chính. Bài Thanh Niên 'nhà thờ mang dáng dấp đình, chùa' em chỉ thấy tiêu đề được dalat.app dẫn lại, chưa đọc được bài gốc. Địa chỉ lệch (12B / 40/8 Huyền Trân Công Chúa) → để trống số nhà. Xa nhất trong danh sách: khoảng 1,4 km chim bay về phía tây Biệt thự Hằng Nga; thuộc Cam Ly.",
    "vi_tri": {
-    "lon": 108.418371,
-    "lat": 11.933664,
-    "cach": "tên trên OpenStreetMap: Nhà thờ Giáo xứ Du Sinh, tâm khối nhà (ghép tay)",
+    "lon": 108.418334,
+    "lat": 11.933694,
+    "cach": "tên trên OpenStreetMap: Nhà thờ Giáo xứ Du Sinh (ghép tay)",
     "osm": "way/542486128"
    }
   },
@@ -162,9 +162,9 @@
    "con_mo": "chưa rõ (nguồn là trang du lịch, không ngày rõ).",
    "ghi_chu": "Đạt 2 nguồn cho tên và địa chỉ, nhưng KHÔNG có nguồn nào cho năm xây, người xây → chưa phải 'mốc lâu đời'. Đề nghị không chọn làm mốc trên trang cho tới khi có nguồn lịch sử. Không nhầm với nhà thờ Chính toà (Con Gà, 15 Trần Phú, thuộc trang Trần Phú).",
    "vi_tri": {
-    "lon": 108.430666,
-    "lat": 11.937461,
-    "cach": "tên trên OpenStreetMap: Nhà thờ Thánh Tâm, tâm khối nhà (ghép tay)",
+    "lon": 108.430628,
+    "lat": 11.937454,
+    "cach": "tên trên OpenStreetMap: Nhà thờ Thánh Tâm",
     "osm": "way/361851889"
    }
   }

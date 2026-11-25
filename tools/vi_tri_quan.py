@@ -24,6 +24,18 @@ STOP = {'quan', 'tiem', 'cafe', 'ca', 'phe', 'coffee', 'cf', 'nha', 'da', 'lat',
 
 # Tên trên OSM viết khác tên quán — em (Claude) đã soát tay từng cặp ngày 25/11/2026; vẫn phải sát đúng đường ≤ 80 m.
 ALIAS = {
+    'Nhà thờ Domaine de Marie (nhà thờ Mai Anh, Lãnh địa Đức Bà)': 'Nhà thờ Domaine de Marie',
+    'Trung tâm Lưu trữ quốc gia IV (Biệt điện Trần Lệ Xuân)': 'Trung tâm Lưu trữ Quốc gia IV',
+    'Nhà thờ giáo xứ Vinh Sơn (xóm Lạc Vang cũ)': 'Nhà Thờ Vinh Sơn',
+    'Nhà thờ Cam Ly (nhà thờ Sơn Cước)': 'Nhà thờ Cam Ly',
+    'Dinh Tỉnh trưởng (Đồi Dinh)': 'Dinh Tỉnh Trưởng',
+    'Cụm biệt thự Pháp cổ đường Lê Lai (nay là Ana Mandara Villas Dalat)': 'Ana Mandara',
+    'Viện Pasteur Đà Lạt (nay Công ty Vắc xin Pasteur Đà Lạt)': 'Công ty Vắc xin Pasteur Đà Lạt',
+    'Couvent des Oiseaux (Tu viện Đức Bà Lâm Viên, nay Trường PT Dân tộc Nội trú Lâm Đồng)': 'Couvent des Oiseaux',
+    'Nhà thờ Du Sinh': 'Nhà thờ Giáo xứ Du Sinh',
+    'Dinh I (Dinh 1, Dinh Bảo Đại 1, nay là King Palace)': 'King Palace',
+    'Hồ Than Thở (có thời tên Hồ Sương Mai)': 'Hồ Than Thở',
+    'Học viện Lục quân (khuôn viên Trường Võ bị Quốc gia Đà Lạt cũ)': 'Học viện Lục quân Đà Lạt',
     'Ga Đà Lạt (Ga hỏa xa Đà Lạt)': 'Ga Đà Lạt',                        # node 5661470624
     'Quán cà phê trong ga Đà Lạt (Train Café)': 'Train Café Đà Lạt Railway Station',
     'Dalat Train Villa & Cafe (cà phê Xe Lửa)': 'Dalat Train Cafe',     # OSM ghi 1 Quang Trung, đúng địa chỉ nguồn

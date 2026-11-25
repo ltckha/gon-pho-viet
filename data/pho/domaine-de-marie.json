@@ -74,8 +74,8 @@
    "con_mo": "mở: Thanh Niên 30/03/2026 còn viết về khách tham quan. Giờ lễ các trang ghi đều cũ (Wikipedia tiếng Anh dẫn 2015) → không ghi.",
    "ghi_chu": "Năm xây lệch: 1940–1944 (VnExpress 2014), khởi công 1940 (Thanh Niên 2026, Wikipedia tiếng Anh), đặt viên đá đầu tiên 8/1939 do Đức cha Jean Cassaigne chủ trì, xong 1942 (vinhson.net, trang giáo xứ), khánh thành 11/1942 (Wikipedia tiếng Anh), 1930–1943 (vài trang du lịch), 'xây từ 1938' (Wikipedia tiếng Việt, câu tự mâu thuẫn). Tên kiến trúc sư thiết kế nhà nguyện: chưa nguồn nào nêu. Tên người tạc tượng viết lệch: Jonchère (Thanh Niên, Wikipedia) / Janchère (VnExpress) / Jouchère (vinhson.net). OSM ghi year_of_construction=1943, alt_name 'Nhà thờ Mai Anh'.",
    "vi_tri": {
-    "lon": 108.43012,
-    "lat": 11.9497,
+    "lon": 108.430122,
+    "lat": 11.949705,
     "cach": "tên trên OpenStreetMap: Nhà thờ Domaine de Marie (ghép tay)",
     "osm": "way/361692265"
    }
@@ -98,8 +98,8 @@
    "con_mo": "có dấu hiệu: Thanh Niên 17/12/2023 còn ký họa, nhắc khách đến xem.",
    "ghi_chu": "Số mộc bản lệch: 34.619 tấm / 55.320 mặt khắc (NLĐ 2016, một bài SGGP), 33.976 tấm đã số hoá (bài SGGP khác), 'gần 35.000' (Thanh Niên) → em ghi 'gần 35.000'. Ngày UNESCO ghi 30/7 hoặc 31/7/2009. Cách nhà thờ khoảng 550 m theo đường chim bay (tâm khu OSM). Trong khu OSM còn có điểm 'Museum Madam De Dalat' (way/361692317) chưa có nguồn khác.",
    "vi_tri": {
-    "lon": 108.42653,
-    "lat": 11.94619,
+    "lon": 108.426533,
+    "lat": 11.946194,
     "cach": "tên trên OpenStreetMap: Trung tâm Lưu trữ Quốc gia IV (ghép tay)",
     "osm": "way/1016426047"
    }
@@ -121,9 +121,9 @@
    "con_mo": "mở: Thanh Niên 18/06/2026.",
    "ghi_chu": "Mốc 'những năm 1930' và 1976 chỉ có ở trang thương mại (hellobacsi; Long Châu ghi đúng năm 1930 với 100 giường nhưng em chỉ đọc qua kết quả tìm kiếm, mở trang bị 403), chép từ trang giới thiệu bệnh viện trên lamdong.gov.vn (mở bị lỗi 503) → coi như 1 nguồn; báo chỉ xác nhận 'gần một thế kỷ'. Số giường lệch: 590 (trang tỉnh, cũ) / 800 (Thanh Niên 2026). Wikipedia tiếng Việt kể bà Decoux sau tai nạn đèo Prenn được đưa về cấp cứu ở bệnh viện này (chỉ 1 nguồn, xem chuyen). Đường Hải Thượng gần đó thời Pháp tên 'Hôpital' (Báo Lâm Đồng 2013: 'HÔPITAL - Hải Thượng').",
    "vi_tri": {
-    "lon": 108.43083,
-    "lat": 11.94642,
-    "cach": "tên trên OpenStreetMap: Bệnh viện Đa khoa tỉnh Lâm Đồng (ghép tay)",
+    "lon": 108.430834,
+    "lat": 11.946417,
+    "cach": "tên trên OpenStreetMap: Bệnh viện Đa khoa tỉnh Lâm Đồng",
     "osm": "way/473556887"
    }
   },
@@ -143,8 +143,8 @@
    "con_mo": "mở: nhà thờ mới khánh thành 04/06/2025 (mapstore 15/08/2026).",
    "ghi_chu": "Hai nguồn đều là trang thông tin Công giáo (không phải báo). Số nhà 51 Yết Kiêu chỉ có ở mapstore. Ngày khánh thành nhà thờ mới chỉ có ở mapstore. OSM ghi amenity=monastery, cách nhà thờ Domaine de Marie khoảng 560 m.",
    "vi_tri": {
-    "lon": 108.42514,
-    "lat": 11.94836,
+    "lon": 108.425142,
+    "lat": 11.948359,
     "cach": "tên trên OpenStreetMap: Nhà Thờ Vinh Sơn (ghép tay)",
     "osm": "way/1355656405"
    }
@@ -166,7 +166,7 @@
    "con_mo": "mở: Thanh Niên 31/03/2026.",
    "ghi_chu": "Năm xây lệch: 1961–1968 (Thanh Niên dẫn sách giáo phận) / 1960–1968 (Wikipedia) / khởi công cuối 1959 (trang du lịch tỉnh, em chưa mở được). Nhà thầu lệch: Nguyễn Thanh Hồ (Thanh Niên) / Đỗ Kiều (Wikipedia). Cách nhà thờ Domaine de Marie khoảng 1,1 km về phía tây nam.",
    "vi_tri": {
-    "lon": 108.42201,
+    "lon": 108.422013,
     "lat": 11.94391,
     "cach": "tên trên OpenStreetMap: Nhà thờ Cam Ly (ghép tay)",
     "osm": "way/515288602"
@@ -188,8 +188,8 @@
    "con_mo": "chưa rõ: PLO 11/2023 kể quy hoạch dời dinh lên cao gần 30 m nhường đất cho khách sạn; em chưa thấy tin mới hơn.",
    "ghi_chu": "Cách nhà thờ khoảng 900 m về phía đông, gần Chợ hơn, thuộc phường khác (Xuân Hương). OSM gắn abandoned:building=yes.",
    "vi_tri": {
-    "lon": 108.43737,
-    "lat": 11.9458,
+    "lon": 108.437372,
+    "lat": 11.945796,
     "cach": "tên trên OpenStreetMap: Dinh Tỉnh Trưởng (ghép tay)",
     "osm": "way/618049072"
    }
@@ -210,10 +210,10 @@
    "con_mo": "chưa rõ: còn nhận đặt phòng trên các trang đặt phòng (không ghi ngày).",
    "ghi_chu": "Số biệt thự lệch (VnExpress 2007: 19; mia: 17); năm xây 1920–1930 chỉ có ở mia và vài trang du lịch → không đưa số vào đặc trưng. Số nhà lệch: 2 Lê Lai (OSM, trip.com) / 26 Lê Lai (viamichelin). Cách nhà thờ khoảng 840 m về phía tây nam.",
    "vi_tri": {
-    "lon": 108.4236,
-    "lat": 11.94423,
-    "cach": "tên trên OpenStreetMap: Ana Mandara Villas Dalat (ghép tay)",
-    "osm": "node/12882531037"
+    "lon": 108.423241,
+    "lat": 11.945596,
+    "cach": "tên trên OpenStreetMap: Ana Mandara (ghép tay)",
+    "osm": "way/1307493492"
    }
   }
  ],

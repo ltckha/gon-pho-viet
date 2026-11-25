@@ -174,7 +174,8 @@ def from_research(r):
     for d in r.get('dia_diem', []):
         urls = [n if isinstance(n, str) else n.get('link') or n.get('url') for n in d.get('nguon', [])]
         urls = [u for u in urls if u]
-        if len({site(u) for u in urls}) < 2 or 'đã đóng' in str(d.get('con_mo', '')).replace('tạm đóng', ''):
+        # chỉ bỏ khi ghi chú khẳng định đã đóng hẳn; "chưa rõ: … đã đóng hơn hai năm …" (Dinh I) vẫn giữ
+        if len({site(u) for u in urls}) < 2 or str(d.get('con_mo', '')).strip().lower().startswith('đã đóng'):
             can += 1      # thiếu nguồn, hoặc nghi đã đóng hẳn: chờ kiểm, chưa đưa lên bản đồ
             continue
         so, duong = d.get('so_nha'), d.get('duong') or r.get('road')

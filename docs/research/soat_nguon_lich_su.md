@@ -164,3 +164,16 @@ Việc kế: tìm báo, văn bản cho các ý dưới đây; tìm được thì
 - [chỉ blog] Tên xưa: Albert Sarraut — nguồn: didulichdalat.wordpress.com
 - [chỉ blog] Tên xưa: Yersin — nguồn: didulichdalat.wordpress.com
 - [chỉ Wikipedia] Chuyện: Vết đồng hồ trên tháp chuông — nguồn: vi.wikipedia.org, en.wikipedia.org
+
+## Đợt tìm nguồn mạnh (25/11/2026)
+
+Thêm được nguồn báo, EFEO, tạp chí cho 14 ý: hồ Xuân Hương 8 ý (VOV, VietnamNet, VietnamPlus, EFEO), Nguyễn Văn Trỗi 2, Cầu Đất 1, Ga Đà Lạt 1, Trại Mát 1, Vạn Thành 1. Khoảng 75 ý chưa tìm được, phần lớn là tên đường cũ — trang "Đường phố Đà Lạt" của tỉnh (lamdong.gov.vn/sites/duongpho) báo lỗi 503, nên thử lại lúc khác.
+
+**Nguồn mạnh nói khác dữ liệu (chưa sửa nội dung, chờ quyết):**
+1. Hồ Xuân Hương — bão 1932: EFEO ghi tháng 5/1932 (dữ liệu ghi tháng 3). Đã sửa: chỉ ghi năm 1932.
+2. Chợ đêm — mốc 1937: Kiến Thức ghi Chợ Cây cháy năm 1931, 1937 chính quyền thành phố xây chợ gạch, không nhắc SIDEC.
+3. Cầu Đất — đường sắt: EFEO ghi đoạn Sông Pha – Đà Lạt làm 1922–1932 (không nói khởi công 1908); SGGP ghi ga Cầu Đất cách Đà Lạt 25 km.
+4. Sân golf Đồi Cù: VOV ghi câu lạc bộ golf xây 1936, "sân đầu tiên ở Đông Dương", 1992 mới làm sân 18 lỗ (dữ liệu: khánh thành 1922, giấy phép 18 lỗ 8/8/1990).
+5. Chùa Linh Quang: Tạp chí Nghiên cứu Phật học ghi có từ 1921 (dữ liệu đã ghi "1921 hoặc 1931").
+
+Nguồn nên dùng tiếp: bộ tài liệu triển lãm Đà Lạt của EFEO (efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie1..4.pdf); bài Tạp chí Nghiên cứu Phật học về Phật giáo Lâm Đồng.

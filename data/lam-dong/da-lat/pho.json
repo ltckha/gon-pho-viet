@@ -859,9 +859,28 @@
       "osm": "node/13555934502"
      },
      "con_mo": "không rõ (bình luận foody mới nhất 5/3/2021)"
+    },
+    {
+     "ten": "Windmills – Nhà 9 Cánh",
+     "loai": "quán cà phê sân thượng",
+     "dac_trung": "Quán cổ điển trên sân thượng một khách sạn lâu đời, nhìn hồ Xuân Hương và chợ Đà Lạt; cappuccino, bánh Pháp.",
+     "dia_chi": "1 Lê Đại Hành",
+     "duong": "Lê Đại Hành",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/dl-kham-pha-da-lat-ghe-tham-windmills.html",
+       "trang": "mytour.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "không rõ (nghi đã đóng — xem ghi_chu)"
     }
    ],
-   "can_kiem_them": 5,
+   "can_kiem_them": 4,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_pho-ca-phe.md",
    "chuyen": {
     "ten_cu": [
@@ -2164,6 +2183,10 @@
        {
         "link": "https://kienthuc.net.vn/kho-tri-thuc/dieu-dac-biet-cua-chua-linh-son-noi-tieng-nhat-da-lat-1175727.html",
         "trang": "kienthuc.net.vn"
+       },
+       {
+        "link": "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
+        "trang": "tapchinghiencuuphathoc.vn"
        }
       ],
       "mot_nguon": false,
@@ -3976,10 +3999,18 @@
        {
         "link": "https://en.wikipedia.org/wiki/Da_Lat%E2%80%93Thap_Cham_railway",
         "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://daidoanket.vn/trai-nghiem-hoa-xa-da-lat-10291022.html",
+        "trang": "daidoanket.vn"
+       },
+       {
+        "link": "https://www.sggp.org.vn/theo-dau-tich-duong-sat-co-da-lat-phan-rang-post435805.html",
+        "trang": "sggp.org.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "wiki"
+      "muc": "chac"
      },
      {
       "nam": "1927",
@@ -4217,6 +4248,1119 @@
     "Cầu Đất Farm – Đồi chè Cầu Đất",
     "Bảo tàng trà cổ Cầu Đất Farm (xưởng chè cũ)",
     "Đường hầm hỏa xa (hầm xe lửa cổ)"
+   ]
+  },
+  {
+   "id": "pho_dinh_1",
+   "slug": "dinh-1",
+   "ten_pho": "Dinh I",
+   "duong": [
+    "Trần Quang Diệu",
+    "Vòng Dinh",
+    "Trần Thái Tông",
+    "Hùng Vương"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Dinh I: biệt thự trên đồi thông phía đông Đà Lạt, xây khoảng năm 1940 cho triệu phú Pháp Robert Clément Bourgery, sau về tay Bảo Đại rồi thành nơi nghỉ của các đời lãnh đạo Sài Gòn; từ 2014 là khu King Palace của Công ty Hoàn Cầu Đà Lạt, đóng cửa từ 26/4/2024 vì vụ cho thuê không đấu giá.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.46751,
+   "lat": 11.94327,
+   "dia_diem": [
+    {
+     "ten": "Dinh I (Dinh 1, Dinh Bảo Đại 1, nay là King Palace)",
+     "loai": "dinh thự, biệt thự cổ nhóm 1, điểm tham quan",
+     "dac_trung": "Biệt thự kiểu Âu trên đồi thông, xây khoảng năm 1940 cho Robert Clément Bourgery (Tuổi Trẻ 2018 dẫn nhà nghiên cứu Nguyễn Đắc Xuân; Wikipedia; VietnamPlus 2026). Bảo Đại mua lại (năm 1949 theo Wikipedia, mia; cuối 1951 theo Tuổi Trẻ); thời Ngô Đình Diệm được sửa và làm thêm đường hầm; đến 1975 là nơi nghỉ của các nguyên thủ chế độ Sài Gòn. Toà biệt thự chính rộng 711 m² (SGGP, Báo Văn hóa). Năm 2023 là một trong 3 biệt thự nhóm 1 của Đà Lạt cùng Dinh 2, Dinh 3 (SGGP). Năm 2014 tỉnh cho Công ty CP Hoàn Cầu Đà Lạt thuê 50 năm làm dự án King Palace, mở đón khách từ 9/2015; Thanh tra Chính phủ năm 2020 kết luận cho thuê không đấu giá là sai; đóng cửa từ 26/4/2024; ngày 19/8/2026 tỉnh cho công ty tiếp tục thuê (QĐ 4218/QĐ-UBND).",
+     "dia_chi": "1 Trần Quang Diệu",
+     "duong": "Trần Quang Diệu",
+     "nguon": [
+      {
+       "link": "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Dinh_I",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+       "trang": "vietnamplus.vn"
+      },
+      {
+       "link": "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://www.sggp.org.vn/nhieu-biet-thu-co-da-lat-duoc-phan-loai-lai-post704760.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://baovanhoa.vn/du-lich/dinh-1-da-lat-mo-cua-tro-lai-sau-hon-hai-nam-ngung-hoat-dong-239661.html",
+       "trang": "baovanhoa.vn"
+      },
+      {
+       "link": "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html",
+       "trang": "baophapluat.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/1152345096",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.467562,
+      "lat": 11.943277,
+      "cach": "tên trên OpenStreetMap: King Palace (ghép tay)",
+      "osm": "node/6031332170"
+     },
+     "con_mo": "chưa rõ: SGGP 15/06/2026 (và Báo Văn hóa) báo chủ đầu tư mở cửa miễn phí trở lại từ 15/6/2026; nhưng VietnamPlus 21/08/2026 vẫn viết dinh đã đóng hơn hai năm, công ty dự kiến mở lại vào tháng 8/2026."
+    },
+    {
+     "ten": "Nhà lao thiếu nhi Đà Lạt (Trung tâm giáo huấn thiếu nhi Đà Lạt)",
+     "loai": "di tích lịch sử cách mạng cấp quốc gia",
+     "dac_trung": "Nhà tù dành riêng cho thiếu nhi do chính quyền Sài Gòn lập trên đồi Chi Lăng, tên gọi chính thức 'Trung tâm giáo huấn thiếu nhi Đà Lạt'; hoạt động 1971–1973; giam hơn 600 tù nhân thiếu nhi (SGGP 2024; Báo Lâm Đồng 2025 ghi lúc đông nhất khoảng 600, trong đó khoảng 200 nữ). Công nhận di tích cấp quốc gia ngày 22/6/2009.",
+     "dia_chi": "Hồ Xuân Hương",
+     "duong": "Hồ Xuân Hương",
+     "nguon": [
+      {
+       "link": "https://baolamdong.vn/co-mot-nha-tu-doc-nhat-vo-nhi-tren-the-gioi-ky-i-283885.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://www.sggp.org.vn/hon-300-cuu-tu-tham-lai-dia-chi-do-nha-lao-thieu-nhi-da-lat-post745638.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://kienthuc.net.vn/kho-tri-thuc/vao-chon-dia-nguc-tran-gian-cua-tre-em-giua-da-lat-942898.html",
+       "trang": "kienthuc.net.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/relation/7758125",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu: SGGP 21/06/2024 kể hơn 300 cựu tù thăm lại di tích; OSM ghi tourism=museum."
+    },
+    {
+     "ten": "Đường sắt răng cưa Tháp Chàm – Đà Lạt, đoạn Đà Lạt – Trại Mát",
+     "loai": "tuyến đường sắt cũ, còn chạy tàu du lịch",
+     "dac_trung": "Đoạn đường sắt gần 7 km còn lại của tuyến răng cưa Tháp Chàm – Đà Lạt (khởi công 1908), khôi phục năm 1991 để chạy tàu du lịch Đà Lạt – Trại Mát; chạy ngang phía bắc Dinh 1, khoảng 700 m.",
+     "dia_chi": "Hùng Vương",
+     "duong": "Hùng Vương",
+     "nguon": [
+      {
+       "link": "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_s%E1%BA%AFt_Th%C3%A1p_Ch%C3%A0m_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/99661030",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "mở: tàu du lịch còn chạy (Nhân Dân 06/2026)."
+    }
+   ],
+   "can_kiem_them": 3,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_dinh-1.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Domain Bourgerie",
+      "thoi_gian": "tên ban đầu của khu đất, khi còn là của Robert Clément Bourgery (khoảng 1940)",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "ten": "Văn Võ phòng Quốc trưởng",
+      "thoi_gian": "từ khi Bảo Đại mua lại (cuối 1951 theo Nguyễn Đắc Xuân)",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "ten": "King Palace",
+      "thoi_gian": "tên dự án du lịch của Công ty CP Hoàn Cầu Đà Lạt, từ 2014",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+        "trang": "vietnamplus.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1940",
+      "su_kien": "Xây biệt thự trên đồi thông cho Robert Clément Bourgery, triệu phú và viên chức người Pháp.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_I",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+        "trang": "vietnamplus.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1949 hoặc cuối 1951",
+      "su_kien": "Bảo Đại mua lại khu dinh.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_I",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "thời Ngô Đình Diệm",
+      "su_kien": "Dinh được sửa lại, làm thêm đường hầm.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_I",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1963–1975",
+      "su_kien": "Sau khi Ngô Đình Diệm bị ám sát, dinh vẫn là nơi nghỉ mát của các nguyên thủ chế độ Sài Gòn đến năm 1975.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_I",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+        "trang": "vietnamplus.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "sau 1975",
+      "su_kien": "Dinh được dùng vào nhiều mục đích khác nhau và xuống cấp trầm trọng.",
+      "nguon": [
+       {
+        "link": "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "nam": "2014",
+      "su_kien": "UBND tỉnh Lâm Đồng cho Công ty CP Hoàn Cầu Đà Lạt thuê Dinh 1 và đất rừng quanh dinh 50 năm, làm dự án du lịch King Palace; Trung tâm quản lý nhà Đà Lạt bàn giao để trùng tu.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+        "trang": "vietnamplus.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2015",
+      "su_kien": "Tháng 9: King Palace mở đón khách tham quan.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+        "trang": "vietnamplus.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2018",
+      "su_kien": "Công ty Hoàn Cầu Đà Lạt thừa nhận sai sót, gỡ các bảng thuyết minh lịch sử sai trong dinh.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "nam": "2020",
+      "su_kien": "Thanh tra Chính phủ (Kết luận 929/KL-TTCP) kết luận việc cho thuê Dinh 1 và biệt thự không qua đấu giá là vi phạm, kiến nghị thu hồi; năm 2021 sửa kết luận, cho phép định giá lại nếu thuê lại.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/du-lich/dinh-1-da-lat-mo-cua-tro-lai-sau-hon-hai-nam-ngung-hoat-dong-239661.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2023",
+      "su_kien": "Đà Lạt phân loại lại biệt thự cổ: Dinh 1 là một trong 3 biệt thự nhóm 1 (cùng Dinh 2, Dinh 3), phải giữ nguyên hình thức bên ngoài, kết cấu, mật độ, chiều cao.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/nhieu-biet-thu-co-da-lat-duoc-phan-loai-lai-post704760.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/du-lich/dinh-1-da-lat-mo-cua-tro-lai-sau-hon-hai-nam-ngung-hoat-dong-239661.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2024",
+      "su_kien": "Ngày 26/4: Dinh 1 ngừng đón khách theo yêu cầu của cơ quan chức năng, chờ thu hồi dự án.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Từ 1/7/2025: Phường 10 vào phường Xuân Hương - Đà Lạt; Dinh 1 thuộc Xuân Hương.",
+      "nguon": [
+       {
+        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/nq1671.json",
+        "trang": "Nghị quyết 1671/NQ-UBTVQH15"
+       },
+       {
+        "link": "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+        "trang": "sggp.org.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2026",
+      "su_kien": "Ngày 15/6: chủ đầu tư mở cửa miễn phí cho khách vào thăm (SGGP). Ngày 19/8: UBND tỉnh ra Quyết định 4218/QĐ-UBND cho Công ty Hoàn Cầu Đà Lạt tiếp tục thuê đất dự án King Palace (hơn 18 ha).",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+        "trang": "vietnamplus.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Thuyết minh sai bị gỡ",
+      "noi_dung": "Năm 2018, Tuổi Trẻ dẫn nhà nghiên cứu Nguyễn Đắc Xuân và nhà văn Trần Trọng Văn chỉ ra nhiều điều thuyết minh cho khách ở Dinh I là sai: dinh xây năm 1940 chứ không phải 1929; đây là nơi làm việc của Văn Võ phòng Quốc trưởng chứ không phải 'tổng hành dinh' của Bảo Đại; hai căn gọi là 'biệt thự Nam Phương', 'biệt thự Bảo Đại' vốn là nhà người giúp việc của ông Bourgery; 'phòng nghỉ bà Từ Cung' không có thật. Theo lời kể lại, Bảo Đại rất ít khi lên Dinh I, thường nghỉ và đi săn ở Dinh III. Công ty Hoàn Cầu Đà Lạt nhận sai và gỡ bảng.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Đường hầm trong dinh",
+      "noi_dung": "Wikipedia ghi thời Ngô Đình Diệm dinh được sửa lại và làm thêm đường hầm. Trang du lịch mia kể chi tiết hơn: lối hầm thoát hiểm giấu sau giá sách cạnh giường ở tầng hai, dẫn ra bãi trực thăng sau đồi, cửa thép nặng hàng trăm ki-lô-gam.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_I",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "tieu_de": "Cho thuê không đấu giá",
+      "noi_dung": "Năm 2014 tỉnh cho một công ty thuê Dinh 1 và đồi thông quanh dinh 50 năm làm khu King Palace. Năm 2020 Thanh tra Chính phủ kết luận việc cho thuê không qua đấu giá là sai, kiến nghị thu hồi. Dinh đóng cửa từ 26/4/2024 trong lúc hai bên giằng co tiền bồi thường. Tháng 8/2026 tỉnh quyết định cho chính công ty này tiếp tục thuê.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+        "trang": "vietnamplus.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Ba dinh, ba biệt thự nhóm 1",
+      "noi_dung": "Trong lần phân loại lại biệt thự cổ Đà Lạt năm 2023, chỉ có 3 biệt thự xếp nhóm 1 (nhóm phải giữ nguyên nhất): Dinh 1, Dinh 2 và Dinh 3. Toà biệt thự chính của Dinh 1 rộng 711 m².",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/nhieu-biet-thu-co-da-lat-duoc-phan-loai-lai-post704760.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/du-lich/dinh-1-da-lat-mo-cua-tro-lai-sau-hon-hai-nam-ngung-hoat-dong-239661.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ]
+   },
+   "ten_ngan": "Dinh I",
+   "ten_hien": "Dinh I",
+   "dac_trung": "Biệt thự đồi thông, dinh cũ Bảo Đại",
+   "ban_gi": "Đồi thông, biệt thự kiểu Âu và vườn hoa khu King Palace (đóng mở thất thường từ 2024); di tích Nhà lao thiếu nhi; đường tàu đi Trại Mát.",
+   "moc_lau_doi": [
+    "Dinh I (Dinh 1, Dinh Bảo Đại 1, nay là King Palace)",
+    "Nhà lao thiếu nhi Đà Lạt (Trung tâm giáo huấn thiếu nhi Đà Lạt)"
+   ]
+  },
+  {
+   "id": "pho_domaine_de_marie",
+   "slug": "domaine-de-marie",
+   "ten_pho": "Nhà thờ Domaine de Marie",
+   "duong": [
+    "Ngô Quyền",
+    "Đồi Mai Anh",
+    "Mai Hắc Đế",
+    "Phạm Ngọc Thạch",
+    "Thi Sách",
+    "Yết Kiêu"
+   ],
+   "ward": "Cam Ly - Đà Lạt",
+   "gioi_thieu": "Nhà thờ Domaine de Marie (nhà thờ Mai Anh): nhà nguyện tường hồng của dòng nữ tu Bác Ái Vinh Sơn trên đồi Mai Anh, xây khoảng 1940–1944 nhờ bà Suzanne Humbert, phu nhân Toàn quyền Decoux, vận động; khuôn viên khoảng 12 ha, cách Chợ Đà Lạt khoảng 1 km. Quanh đồi còn biệt điện Trần Lệ Xuân (nay là Trung tâm Lưu trữ quốc gia IV giữ mộc bản triều Nguyễn), nhà thờ Cam Ly mái nhà rông và Bệnh viện Đa khoa tỉnh.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.42921,
+   "lat": 11.94653,
+   "dia_diem": [
+    {
+     "ten": "Nhà thờ Domaine de Marie (nhà thờ Mai Anh, Lãnh địa Đức Bà)",
+     "loai": "nhà thờ, tu viện, điểm tham quan",
+     "dac_trung": "Nhà nguyện và tu viện của dòng Nữ tử Bác ái Thánh Vinh Sơn trên đồi Mai Anh; khuôn viên khoảng 12 ha (VnExpress, Wikipedia). Bà Suzanne Humbert, phu nhân Toàn quyền Đông Dương Jean Decoux, vận động quyên góp xây (VnExpress, Thanh Niên). Mặt bằng chữ thập khoảng 11 x 33 m, mặt tiền tam giác có cửa sổ hoa hồng, mái dốc lợp ngói đỏ gợi dáng nhà rông Tây Nguyên, tường quét vôi hồng đậm; tường xây bằng vôi trộn mật mía, không dùng xi măng (VnExpress, Thanh Niên, Wikipedia). Giữa nhà nguyện có tượng Đức Mẹ đứng trên quả địa cầu, cao khoảng 3 m, nặng khoảng 1 tấn, tạc theo dáng phụ nữ Việt, kiến trúc sư Pháp Jonchère thiết kế năm 1943. Mộ bà Decoux ở phía sau nhà thờ. Phía sau có quầy bán đồ thủ công do các sơ và trẻ mồ côi làm (VnExpress 2014).",
+     "dia_chi": "1 Ngô Quyền",
+     "duong": "Ngô Quyền",
+     "nguon": [
+      {
+       "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+       "trang": "vinhson.net"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/nha-tho-domaine-de-marie-dau-an-chau-au-giua-long-da-lat-1361",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/361692265",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.430122,
+      "lat": 11.949705,
+      "cach": "tên trên OpenStreetMap: Nhà thờ Domaine de Marie (ghép tay)",
+      "osm": "way/361692265"
+     },
+     "con_mo": "mở: Thanh Niên 30/03/2026 còn viết về khách tham quan. Giờ lễ các trang ghi đều cũ (Wikipedia tiếng Anh dẫn 2015) → không ghi."
+    },
+    {
+     "ten": "Trung tâm Lưu trữ quốc gia IV (Biệt điện Trần Lệ Xuân)",
+     "loai": "biệt thự lịch sử, kho lưu trữ quốc gia",
+     "dac_trung": "Cụm ba biệt thự Bạch Ngọc, Lam Ngọc, Hồng Ngọc khởi công năm 1958 cho gia đình ông Ngô Đình Nhu – bà Trần Lệ Xuân, rộng khoảng 1,3 ha (NLĐ 2016, Thanh Niên 2023). Năm 2007 Bộ Nội vụ chi khoảng 53 tỉ đồng trùng tu làm trụ sở Trung tâm Lưu trữ quốc gia IV; nơi đây giữ gần 35.000 tấm mộc bản triều Nguyễn, di sản tư liệu thế giới đầu tiên của Việt Nam (UNESCO công nhận 2009).",
+     "dia_chi": "2 Yết Kiêu",
+     "duong": "Yết Kiêu",
+     "nguon": [
+      {
+       "link": "https://tuoitre.vn/nld/thoi-su-trong-nuoc/xa-hoa-nhu-biet-dien-tran-le-xuan-20160126220548738.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://thanhnien.vn/goc-ky-hoa-biet-dien-tran-le-xuan-185231216194917196.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://www.sggp.org.vn/noi-bao-quan-ky-uc-trieu-nguyen-giua-da-lat-post856008.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1016426047",
+       "trang": "openstreetmap.org"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1305230699",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.426533,
+      "lat": 11.946194,
+      "cach": "tên trên OpenStreetMap: Trung tâm Lưu trữ Quốc gia IV (ghép tay)",
+      "osm": "way/1016426047"
+     },
+     "con_mo": "có dấu hiệu: Thanh Niên 17/12/2023 còn ký họa, nhắc khách đến xem."
+    },
+    {
+     "ten": "Bệnh viện Đa khoa tỉnh Lâm Đồng",
+     "loai": "bệnh viện, công trình lâu đời",
+     "dac_trung": "Bệnh viện tuyến tỉnh ngay chân đồi Mai Anh; Thanh Niên 06/2026 ghi đã phát triển 'gần một thế kỷ', quy mô 800 giường. Tiền thân là Dân Y Viện Đà Lạt lập từ những năm 1930; đến năm 1976 thành bệnh viện tỉnh Lâm Đồng (hellobacsi).",
+     "dia_chi": "01 Phạm Ngọc Thạch",
+     "duong": "Phạm Ngọc Thạch",
+     "nguon": [
+      {
+       "link": "https://thanhnien.vn/benh-vien-da-khoa-tinh-lam-dong-diem-sang-y-te-vung-tay-nguyen-185260618082519492.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://nhathuoclongchau.com.vn/bai-viet/gioi-thieu-tong-quan-ve-benh-vien-da-khoa-lam-dong.html",
+       "trang": "nhathuoclongchau.com.vn"
+      },
+      {
+       "link": "https://hellobacsi.com/care/benh-vien/benh-vien-da-khoa-tinh-lam-dong-2247/",
+       "trang": "hellobacsi.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/473556887",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.430834,
+      "lat": 11.946417,
+      "cach": "tên trên OpenStreetMap: Bệnh viện Đa khoa tỉnh Lâm Đồng",
+      "osm": "way/473556887"
+     },
+     "con_mo": "mở: Thanh Niên 18/06/2026."
+    },
+    {
+     "ten": "Nhà thờ giáo xứ Vinh Sơn (xóm Lạc Vang cũ)",
+     "loai": "nhà thờ",
+     "dac_trung": "Giáo xứ trong thung lũng nhỏ sau chân đồi Mai Anh; gốc là vài gia đình giúp việc cho các nữ tu Bác Ái, quanh biệt thự Lạc Vang. Nhà thờ gỗ đầu tiên xong dịp Phục Sinh 1957; từ 1962 các cha dòng Vinh Sơn coi sóc; ngày 02/01/1972 thành giáo xứ Vinh Sơn. Nhà thờ mới đặt đá 02/03/2019, khánh thành 04/06/2025 (mapstore).",
+     "dia_chi": "51 Yết Kiêu",
+     "duong": "Yết Kiêu",
+     "nguon": [
+      {
+       "link": "https://mapstore.vn/tin-tuc/nha-tho-giao-xu-vinh-son-giao-phan-da-lat",
+       "trang": "mapstore.vn"
+      },
+      {
+       "link": "https://giothanhle.net/gio-le/nha-tho-vinh-son-da-lat/",
+       "trang": "giothanhle.net"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1355656405",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.425142,
+      "lat": 11.948359,
+      "cach": "tên trên OpenStreetMap: Nhà Thờ Vinh Sơn (ghép tay)",
+      "osm": "way/1355656405"
+     },
+     "con_mo": "mở: nhà thờ mới khánh thành 04/06/2025 (mapstore 15/08/2026)."
+    },
+    {
+     "ten": "Nhà thờ Cam Ly (nhà thờ Sơn Cước)",
+     "loai": "nhà thờ, di tích kiến trúc",
+     "dac_trung": "Nhà thờ cho giáo dân đồng bào Tây Nguyên, mái mô phỏng nhà rông, hai mái dốc đứng cao khoảng 17 m, lợp khoảng 80.000 viên ngói (Thanh Niên 2026, Wikipedia). Linh mục Pháp Marius Boutary khởi xướng, linh mục Jean Kermarrec vẽ (Thanh Niên dẫn 'Lịch sử Giáo phận Đà Lạt' 1991).",
+     "dia_chi": "chưa rõ Nguyễn Khuyến",
+     "duong": "Nguyễn Khuyến",
+     "nguon": [
+      {
+       "link": "https://thanhnien.vn/nha-tho-cam-ly-khi-chua-va-yang-cung-chung-mot-mai-nha-185260330220522158.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Cam_Ly",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/nha-tho-cam-ly-da-lat-kham-pha-kien-truc-nha-tho-dam-mau-sac-dan-toc-mien-son-cuoc-o-da-lat-1609",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/515288602",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.422013,
+      "lat": 11.94391,
+      "cach": "tên trên OpenStreetMap: Nhà thờ Cam Ly (ghép tay)",
+      "osm": "way/515288602"
+     },
+     "con_mo": "mở: Thanh Niên 31/03/2026."
+    },
+    {
+     "ten": "Dinh Tỉnh trưởng (Đồi Dinh)",
+     "loai": "dinh thự Pháp, bảo tàng kỷ vật",
+     "dac_trung": "Dinh thự người Pháp xây trước năm 1910 trên đồi cao cách Chợ Đà Lạt chừng 1 km, cuối đường Lý Tự Trọng; nơi ở và làm việc của Thị trưởng Đà Lạt kiêm Tỉnh trưởng Tuyên Đức. Sau 1975 là Cung thiếu nhi, từ 1978 là Bảo tàng Lâm Đồng (đến 1999), nay trưng bày kỷ vật Đà Lạt (Thanh Niên 2023, PLO 2023).",
+     "dia_chi": "chưa rõ Lý Tự Trọng",
+     "duong": "Lý Tự Trọng",
+     "nguon": [
+      {
+       "link": "https://thanhnien.vn/goc-ky-hoa-dinh-tinh-truong-da-lat-185230715200426634.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://tuoitre.vn/plo/nuoi-tiec-cong-trinh-kien-truc-dinh-tinh-truong-o-da-lat-se-bi-di-doi-post760283.html",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/618049072",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.437372,
+      "lat": 11.945796,
+      "cach": "tên trên OpenStreetMap: Dinh Tỉnh Trưởng (ghép tay)",
+      "osm": "way/618049072"
+     },
+     "con_mo": "chưa rõ: PLO 11/2023 kể quy hoạch dời dinh lên cao gần 30 m nhường đất cho khách sạn; em chưa thấy tin mới hơn."
+    },
+    {
+     "ten": "Cụm biệt thự Pháp cổ đường Lê Lai (nay là Ana Mandara Villas Dalat)",
+     "loai": "cụm biệt thự Pháp cổ, khu nghỉ dưỡng",
+     "dac_trung": "Cụm biệt thự cổ kiểu Pháp giữa rừng thông trên đồi Lê Lai, nối bằng đường lát đá, đã trùng tu làm khu nghỉ (VnExpress 2007, mia).",
+     "dia_chi": "chưa rõ Lê Lai",
+     "duong": "Lê Lai",
+     "nguon": [
+      {
+       "link": "https://vnexpress.net/biet-thu-co-giua-ngan-thong-2935144.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/ana-mandara-villas-dalat-resort-spa-ngoi-lang-co-kinh-nuoc-phap-5898",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/12882531037",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.423241,
+      "lat": 11.945596,
+      "cach": "tên trên OpenStreetMap: Ana Mandara (ghép tay)",
+      "osm": "way/1307493492"
+     },
+     "con_mo": "chưa rõ: còn nhận đặt phòng trên các trang đặt phòng (không ghi ngày)."
+    }
+   ],
+   "can_kiem_them": 6,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_domaine-de-marie.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Domaine de Marie – 'Lãnh địa của Đức Bà'",
+      "thoi_gian": "tên đặt từ khi xây, còn dùng",
+      "nguon": [
+       {
+        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "ten": "Nhà thờ Mai Anh",
+      "thoi_gian": "cách người Đà Lạt thường gọi",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+        "trang": "vinhson.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "ten": "Nhà thờ Vinh Sơn",
+      "thoi_gian": "tên gọi khác",
+      "nguon": [
+       {
+        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "ten": "Đường Calmette (nay là Ngô Quyền và Thi Sách)",
+      "thoi_gian": "trước 1953",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
+        "trang": "trangdulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-ngo-quyen",
+        "trang": "tinbds.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "ten": "Đường Cassaigne (nay là Mai Hắc Đế)",
+      "thoi_gian": "trước 1953",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
+        "trang": "trangdulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1939",
+      "su_kien": "Tháng 8: đặt viên đá đầu tiên, Đức cha Jean Cassaigne chủ trì.",
+      "nguon": [
+       {
+        "link": "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+        "trang": "vinhson.net"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "blog"
+     },
+     {
+      "nam": "1940",
+      "su_kien": "Khởi công khu nhà thờ – tu viện, bà Suzanne Humbert (phu nhân Toàn quyền Jean Decoux) vận động quyên góp.",
+      "nguon": [
+       {
+        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1941",
+      "su_kien": "Hai nữ tu Bác Ái lên Đà Lạt tìm đất; cuối tháng 10 có 30 nữ tu đến ở.",
+      "nguon": [
+       {
+        "link": "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1942",
+      "su_kien": "Nhà nguyện xong (vinhson.net), khánh thành tháng 11 với 60 nữ tu và một linh mục (Wikipedia tiếng Anh).",
+      "nguon": [
+       {
+        "link": "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+        "trang": "vinhson.net"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1943",
+      "su_kien": "Tượng Đức Mẹ đứng trên quả địa cầu (cao khoảng 3 m, nặng khoảng 1 tấn) do kiến trúc sư Pháp Jonchère thiết kế, bà Decoux dâng tặng.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1944",
+      "su_kien": "Bà Suzanne Humbert mất sau tai nạn xe trên đèo Prenn khi từ Sài Gòn lên Đà Lạt; mộ đặt phía sau nhà thờ theo ý nguyện.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "trước 1975",
+      "su_kien": "Tu viện chính của hơn 50 nữ tu, mở nhà trẻ, trại mồ côi, trường tiểu học dạy chương trình Pháp.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://mapstore.vn/tin-tuc/nha-tho-giao-xu-mai-anh-giao-hat-da-lat-giao-phan-da-lat",
+        "trang": "mapstore.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1975–1976",
+      "su_kien": "Tòa Giám mục Đà Lạt lập giáo xứ Mai Anh; linh mục Giuse Nguyễn Văn Hân quản xứ từ 12/1975.",
+      "nguon": [
+       {
+        "link": "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+        "trang": "vinhson.net"
+       },
+       {
+        "link": "https://mapstore.vn/tin-tuc/nha-tho-giao-xu-mai-anh-giao-hat-da-lat-giao-phan-da-lat",
+        "trang": "mapstore.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "blog"
+     },
+     {
+      "nam": "2000",
+      "su_kien": "Tháng 4: giáo xứ giao cho Tu hội Truyền giáo Vinh Sơn coi sóc.",
+      "nguon": [
+       {
+        "link": "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+        "trang": "vinhson.net"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "blog"
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Từ 1/7/2025: Phường 6 vào phường Cam Ly - Đà Lạt.",
+      "nguon": [
+       {
+        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/nq1671.json",
+        "trang": "Nghị quyết 1671/NQ-UBTVQH15"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Bà Toàn quyền nằm lại sau nhà nguyện",
+      "noi_dung": "Bà Suzanne Humbert, vợ Toàn quyền Đông Dương Jean Decoux, là người đứng ra vận động quyên góp xây khu nhà thờ – tu viện. Năm 1944 bà gặp tai nạn xe trên đèo Prenn khi từ Sài Gòn lên Đà Lạt rồi qua đời; mộ bà đặt ngay phía sau nhà thờ, theo ý nguyện của bà.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Tường hồng xây bằng vôi và mật mía",
+      "noi_dung": "Tường chính nhà nguyện không dùng xi măng mà trộn vôi với mật mía; mái dốc lợp ngói đỏ làm ở Việt Nam, gợi dáng mái nhà rông Tây Nguyên; cửa sổ mái gắn kính màu mang từ Pháp sang. Màu hồng đậm của tường giữ từ khi xây xong đến nay.",
+      "nguon": [
+       {
+        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Đức Mẹ mang dáng phụ nữ Việt",
+      "noi_dung": "Pho tượng Đức Mẹ trong nhà nguyện cao khoảng 3 m, nặng khoảng 1 tấn, đứng trên quả địa cầu, được tạc theo dáng người phụ nữ Việt Nam; kiến trúc sư Pháp Jonchère thiết kế năm 1943, bà Decoux dâng tặng.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Đồi mai anh đào và hai nhà thờ cùng tên Vinh Sơn",
+      "noi_dung": "Đồi xưa trồng nhiều mai anh đào nên người Đà Lạt gọi nhà thờ trên đỉnh là nhà thờ Mai Anh. Dưới chân đồi, những gia đình giúp việc cho các sơ Bác Ái lập thành xóm Lạc Vang, có nhà thờ gỗ từ Phục Sinh 1957, đến 1972 thành giáo xứ Vinh Sơn — nên nói 'nhà thờ Vinh Sơn' ở Đà Lạt có thể là một trong hai nơi.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mapstore.vn/tin-tuc/nha-tho-giao-xu-vinh-son-giao-phan-da-lat",
+        "trang": "mapstore.vn"
+       },
+       {
+        "link": "https://giothanhle.net/gio-le/nha-tho-vinh-son-da-lat/",
+        "trang": "giothanhle.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Con đường mang tên bác sĩ Calmette",
+      "noi_dung": "Thời Pháp, con đường chạy qua chân đồi tên là Calmette; về sau đoạn này đổi thành Ngô Quyền và Thi Sách. Đường Mai Hắc Đế bên cạnh khi ấy mang tên Cassaigne.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
+        "trang": "trangdulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ]
+   },
+   "ten_ngan": "Nhà thờ Domaine de Marie",
+   "ten_hien": "Nhà thờ Domaine de Marie",
+   "dac_trung": "Nhà thờ hồng trên đồi Mai Anh",
+   "ban_gi": "Nhà nguyện và tu viện các sơ Bác Ái; đồ thủ công các sơ và trẻ mồ côi làm; biệt điện giữ mộc bản triều Nguyễn; nhà thờ Cam Ly mái nhà rông.",
+   "moc_lau_doi": [
+    "Nhà thờ Domaine de Marie (nhà thờ Mai Anh, Lãnh địa Đức Bà)",
+    "Trung tâm Lưu trữ quốc gia IV (Biệt điện Trần Lệ Xuân)",
+    "Nhà thờ Cam Ly (nhà thờ Sơn Cước)"
    ]
   },
   {
@@ -4634,10 +5778,18 @@
        {
         "link": "https://vinwonders.com/vi/wonderpedia/news/ga-xe-lua-da-lat/",
         "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://daidoanket.vn/trai-nghiem-hoa-xa-da-lat-10291022.html",
+        "trang": "daidoanket.vn"
+       },
+       {
+        "link": "https://www.sggp.org.vn/theo-dau-tich-duong-sat-co-da-lat-phan-rang-post435805.html",
+        "trang": "sggp.org.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "wiki"
+      "muc": "chac"
      },
      {
       "nam": "1991",
@@ -5385,6 +6537,1069 @@
    ]
   },
   {
+   "id": "pho_hang_nga",
+   "slug": "hang-nga",
+   "ten_pho": "Biệt thự Hằng Nga",
+   "duong": [
+    "Huỳnh Thúc Kháng",
+    "Lê Hồng Phong",
+    "Trần Phú",
+    "Huyền Trân Công Chúa"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Biệt thự Hằng Nga (Crazy House): ngôi nhà bê tông hình gốc cây, hang động do kiến trúc sư Đặng Việt Nga xây từ năm 1990 trên đường Huỳnh Thúc Kháng, từng suýt bị phá, năm 2008 mới được tỉnh công nhận quyền sở hữu; quanh đó là Viện Pasteur Đà Lạt mở năm 1936 và trường dòng Couvent des Oiseaux thập niên 1930.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.42687,
+   "lat": 11.93493,
+   "dia_diem": [
+    {
+     "ten": "Biệt thự Hằng Nga (Crazy House)",
+     "loai": "công trình kiến trúc, điểm tham quan, nhà nghỉ",
+     "dac_trung": "Nhà của kiến trúc sư Đặng Việt Nga (con gái cố Tổng Bí thư Trường Chinh, học kiến trúc ở Mátxcơva), xây từ năm 1990 bằng xi măng cốt thép theo lối biểu hiện, hình gốc cây, hang động, mạng nhện. Vừa là nhà ở, vừa bán vé tham quan và cho thuê phòng theo chủ đề (Con Gấu, Cây Tre, Con Hổ, Con Kiến…). Năm 2008 UBND tỉnh Lâm Đồng cấp quyền sở hữu sau khoảng 18 năm tranh cãi. Năm 2009 People's Daily (Trung Quốc) xếp vào nhóm 10 công trình kỳ dị nhất thế giới. Khoảng 100.000 lượt khách mỗi năm, phần lớn khách nước ngoài.",
+     "dia_chi": "3 Huỳnh Thúc Kháng",
+     "duong": "Huỳnh Thúc Kháng",
+     "nguon": [
+      {
+       "link": "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://tienphong.vn/Phong-Su/549292/Nu-nghe-si-doc-lap-va-%E2%80%9CNgoi-nha-ky-di%E2%80%9D-tpp.html",
+       "trang": "tienphong.vn"
+      },
+      {
+       "link": "https://vietnamnet.vn/en/da-lat-s-bizarre-crazy-house-still-draws-crowds-decades-later-2548773.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
+       "trang": "nguoiquansat.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Bi%E1%BB%87t_th%E1%BB%B1_H%E1%BA%B1ng_Nga",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/H%E1%BA%B1ng_Nga_Guesthouse",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://www.crazyhouse.vn/",
+       "trang": "crazyhouse.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/biet-thu-hang-nga/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/1152347338",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.430929,
+      "lat": 11.934764,
+      "cach": "số nhà trên OpenStreetMap: 3 Huỳnh Thúc Kháng",
+      "osm": "node/11359650522"
+     },
+     "con_mo": "mở: VietNamNet 26/08/2026 và Người Quan Sát 20/09/2026 còn viết về khách tham quan; OSM (kiểm 05/2026) ghi giờ mở 08:30–19:00, VinWonders ghi 08:30–18:00 → không ghi giờ, không ghi giá vé."
+    },
+    {
+     "ten": "Viện Pasteur Đà Lạt (nay Công ty Vắc xin Pasteur Đà Lạt)",
+     "loai": "công trình thời Pháp, cơ sở sản xuất vắc xin",
+     "dac_trung": "Xây bằng tiền trợ cấp của Phủ Toàn quyền trong các năm 1933–1934, trang bị bên trong năm 1935, mở cửa ngày 1/1/1936 theo đề xuất của bác sĩ Alexandre Yersin; kiến trúc sư Paul Veysseyre cùng một đồng nghiệp người Việt. Phòng vắc xin trước thuộc Viện Pasteur Sài Gòn được chuyển lên Đà Lạt vì khí hậu hợp hơn để làm và giữ vắc xin. Năm 2010 thành Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC); nay làm vắc xin thương hàn là chính.",
+     "dia_chi": "18 Lê Hồng Phong",
+     "duong": "Lê Hồng Phong",
+     "nguon": [
+      {
+       "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+       "trang": "entreprises-coloniales.fr"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://trungtamthuoc.com/thuong-hieu/davac",
+       "trang": "trungtamthuoc.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1305208733",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.427301,
+      "lat": 11.933315,
+      "cach": "tên trên OpenStreetMap: Công ty Vắc xin Pasteur Đà Lạt (ghép tay)",
+      "osm": "way/1305208733"
+     },
+     "con_mo": "đang hoạt động như công ty vắc xin (Báo Lâm Đồng, trungtamthuoc); là cơ sở sản xuất, không phải điểm tham quan — chưa thấy nguồn nói có mở cho khách vào."
+    },
+    {
+     "ten": "Couvent des Oiseaux (Tu viện Đức Bà Lâm Viên, nay Trường PT Dân tộc Nội trú Lâm Đồng)",
+     "loai": "công trình thời Pháp, trường học",
+     "dac_trung": "Trường nữ tu của dòng Đức Bà: 12 nữ tu đến Đà Lạt ngày 3/10/1935 theo lời kêu gọi của Giáo hoàng Piô XI và mong muốn của Hoàng hậu Nam Phương; khai giảng 26/10/1936 với 110 nữ sinh, dạy con gái nhà khá giả đến năm 1975. VIR ghi tu viện xây năm 1935, có hỗ trợ của Hoàng hậu Nam Phương; Wikipedia ghi bà hiến đất. Sau 1975 khu trường bị chia ra, toà chính nay là Trường Phổ thông Dân tộc Nội trú tỉnh Lâm Đồng. Trước trường có đồi thông nhìn xuống thành phố.",
+     "dia_chi": "2 Huyền Trân Công Chúa",
+     "duong": "Huyền Trân Công Chúa",
+     "nguon": [
+      {
+       "link": "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html",
+       "trang": "vir.com.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/542486117",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.422342,
+      "lat": 11.938395,
+      "cach": "tên trên OpenStreetMap: Couvent des Oiseaux (ghép tay)",
+      "osm": "way/542486117"
+     },
+     "con_mo": "đang là trường học (Wikipedia tiếng Việt, VIR 2016); không phải điểm tham quan mở cửa tự do — chưa thấy nguồn nói giờ cho khách vào."
+    },
+    {
+     "ten": "Nhà thờ Du Sinh",
+     "loai": "nhà thờ Công giáo",
+     "dac_trung": "Linh mục Thiên Phong Bửu Dưỡng (dòng dõi nhà Nguyễn) cho xây từ năm 1955 trên một ngọn đồi phía nam thành phố, cho giáo dân di cư từ miền Bắc; nhà thờ theo lối kiến trúc Á Đông, dáng đình chùa, khác hẳn các nhà thờ kiểu phương Tây ở Đà Lạt. Theo cách phiên âm của cha Bửu Dưỡng, 'Du Sinh' là Giu-se.",
+     "dia_chi": "Huyền Trân Công Chúa",
+     "duong": "Huyền Trân Công Chúa",
+     "nguon": [
+      {
+       "link": "https://kienthuc.net.vn/kho-tri-thuc/top-nha-tho-hot-nhat-da-lat-mua-giang-sinh-793237.html",
+       "trang": "kienthuc.net.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/nha-tho-dep-nhat-o-da-lat-5945.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://dalat.app/blog/news/du-sinh-church-unique-architecture-da-lat",
+       "trang": "dalat.app"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/542486128",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.418334,
+      "lat": 11.933694,
+      "cach": "tên trên OpenStreetMap: Nhà thờ Giáo xứ Du Sinh (ghép tay)",
+      "osm": "way/542486128"
+     },
+     "con_mo": "chưa rõ ngày mới nhất: Kiến Thức 21/12/2016; là nhà thờ giáo xứ đang sinh hoạt (OSM có 'Giáo Xứ Du Sinh')."
+    },
+    {
+     "ten": "Nhà thờ Thánh Tâm",
+     "loai": "nhà thờ Công giáo",
+     "dac_trung": "Nhà thờ kiến trúc kiểu châu Âu, màu trắng chủ đạo, trên đường Trần Phú, cách Biệt thự Hằng Nga khoảng 300 m.",
+     "dia_chi": "40 Trần Phú",
+     "duong": "Trần Phú",
+     "nguon": [
+      {
+       "link": "https://toplist.vn/top-list/nha-tho-dep-nhat-o-da-lat-5945.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kham-pha-10-nha-tho-da-lat-13967",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/361851889",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.430628,
+      "lat": 11.937454,
+      "cach": "tên trên OpenStreetMap: Nhà thờ Thánh Tâm",
+      "osm": "way/361851889"
+     },
+     "con_mo": "chưa rõ (nguồn là trang du lịch, không ngày rõ)."
+    }
+   ],
+   "can_kiem_them": 4,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_hang-nga.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Crazy House, Ngôi nhà điên, nhà gốc cây, lâu đài mạng nhện",
+      "thoi_gian": "các tên người ta gọi, từ những năm 1990 đến nay",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
+        "trang": "nguoiquansat.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/biet-thu-hang-nga/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "ten": "Institut Pasteur de Dalat (Viện Pasteur Đà Lạt)",
+      "thoi_gian": "1936–2010, nay là Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC)",
+      "nguon": [
+       {
+        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "ten": "Couvent des Oiseaux (trường Đức Bà Lâm Viên, Notre-Dame du Langbian)",
+      "thoi_gian": "1935/1936–1975, nay là Trường PT Dân tộc Nội trú Lâm Đồng",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html",
+        "trang": "vir.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1933–1936",
+      "su_kien": "Viện Pasteur Đà Lạt được xây (1933–1934), trang bị bên trong (1935) và mở cửa ngày 1/1/1936, theo đề xuất của bác sĩ Alexandre Yersin; kiến trúc sư Paul Veysseyre cùng một đồng nghiệp người Việt.",
+      "nguon": [
+       {
+        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+        "trang": "entreprises-coloniales.fr"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1935–1936",
+      "su_kien": "Mười hai nữ tu dòng Đức Bà đến Đà Lạt (3/10/1935), dựng trường nữ Couvent des Oiseaux trên đường nay là Huyền Trân Công Chúa; khai giảng ngày 26/10/1936.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html",
+        "trang": "vir.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1951",
+      "su_kien": "Ngày 11/5: đội cảm tử Phan Như Thạch đột nhập biệt thự Hoa Hồng (nay số 17 Huỳnh Thúc Kháng), nhà của Haasz, Chánh Thanh tra mật thám Đà Lạt, và bắn chết y giữa sân.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/dai-tuong-niem-cam-ly-noi-mau-da-do-giua-ngan-hoa-388961.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "nam": "1955",
+      "su_kien": "Linh mục Thiên Phong Bửu Dưỡng cho xây nhà thờ Du Sinh trên đồi phía tây nam, theo lối kiến trúc Á Đông.",
+      "nguon": [
+       {
+        "link": "https://kienthuc.net.vn/kho-tri-thuc/top-nha-tho-hot-nhat-da-lat-mua-giang-sinh-793237.html",
+        "trang": "kienthuc.net.vn"
+       },
+       {
+        "link": "https://toplist.vn/top-list/nha-tho-dep-nhat-o-da-lat-5945.htm",
+        "trang": "toplist.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1983",
+      "su_kien": "Kiến trúc sư Đặng Việt Nga rời Hà Nội vào Đà Lạt.",
+      "nguon": [
+       {
+        "link": "https://tienphong.vn/Phong-Su/549292/Nu-nghe-si-doc-lap-va-%E2%80%9CNgoi-nha-ky-di%E2%80%9D-tpp.html",
+        "trang": "tienphong.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Bi%E1%BB%87t_th%E1%BB%B1_H%E1%BA%B1ng_Nga",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1990",
+      "su_kien": "Tháng 2/1990 bà Đặng Việt Nga bắt đầu xây Biệt thự Hằng Nga ở đường Huỳnh Thúc Kháng; cuối năm 1990 bắt đầu bán vé cho khách vào xem.",
+      "nguon": [
+       {
+        "link": "https://www.crazyhouse.vn/",
+        "trang": "crazyhouse.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/biet-thu-hang-nga/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
+        "trang": "nguoiquansat.vn"
+       },
+       {
+        "link": "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/H%E1%BA%B1ng_Nga_Guesthouse",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1992–1993",
+      "su_kien": "Nhà 100 mái của kiến trúc sư Lữ Trúc Phương (đường Đinh Tiên Hoàng) bị buộc tháo dỡ; năm 1993 biệt thự của bà Nga cũng bị đe doạ phá. Bà viết thư gửi ông Đỗ Mười, sau đó tỉnh cho mua lại (hoá giá) căn nhà đang thuê.",
+      "nguon": [
+       {
+        "link": "https://tienphong.vn/Phong-Su/549292/Nu-nghe-si-doc-lap-va-%E2%80%9CNgoi-nha-ky-di%E2%80%9D-tpp.html",
+        "trang": "tienphong.vn"
+       },
+       {
+        "link": "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
+        "trang": "vnexpress.net"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "nam": "2008",
+      "su_kien": "UBND tỉnh Lâm Đồng cấp quyền sở hữu công trình cho bà Đặng Việt Nga, sau khoảng 18 năm; đại diện tỉnh gọi đây là 'tác phẩm nghệ thuật mang tính thử nghiệm khác thường'.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://tienphong.vn/Phong-Su/549292/Nu-nghe-si-doc-lap-va-%E2%80%9CNgoi-nha-ky-di%E2%80%9D-tpp.html",
+        "trang": "tienphong.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2009",
+      "su_kien": "Tờ People's Daily (Nhân dân Nhật báo, Trung Quốc) đưa Biệt thự Hằng Nga vào nhóm 10 công trình kỳ dị nhất thế giới.",
+      "nguon": [
+       {
+        "link": "https://en.wikipedia.org/wiki/H%E1%BA%B1ng_Nga_Guesthouse",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://vietnamnet.vn/en/da-lat-s-bizarre-crazy-house-still-draws-crowds-decades-later-2548773.html",
+        "trang": "vietnamnet.vn"
+       },
+       {
+        "link": "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
+        "trang": "nguoiquansat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2010",
+      "su_kien": "Viện Pasteur Đà Lạt chuyển thành Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC).",
+      "nguon": [
+       {
+        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://trungtamthuoc.com/thuong-hieu/davac",
+        "trang": "trungtamthuoc.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Từ 1/7/2025: Phường 4 vào phường Xuân Hương - Đà Lạt (biệt thự, Viện Pasteur); Phường 5 vào phường Cam Ly - Đà Lạt (Couvent des Oiseaux, nhà thờ Du Sinh).",
+      "nguon": [
+       {
+        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/nq1671.json",
+        "trang": "Nghị quyết 1671/NQ-UBTVQH15"
+       },
+       {
+        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/phuong.json",
+        "trang": "Ranh giới mới (phuong.json)"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Ngôi nhà suýt bị phá",
+      "noi_dung": "Nhiều năm chính quyền Đà Lạt từ chối cấp giấy sở hữu, không công nhận sơ đồ thiết kế; có ý kiến đòi phá vì cho rằng không hợp cảnh quan. Cùng thời, Nhà 100 mái của kiến trúc sư Lữ Trúc Phương đã bị buộc tháo dỡ. Phải đến năm 2008, sau khoảng 18 năm, tỉnh Lâm Đồng mới cấp quyền sở hữu cho bà Đặng Việt Nga.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://tienphong.vn/Phong-Su/549292/Nu-nghe-si-doc-lap-va-%E2%80%9CNgoi-nha-ky-di%E2%80%9D-tpp.html",
+        "trang": "tienphong.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/H%E1%BA%B1ng_Nga_Guesthouse",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Con gái Tổng Bí thư học kiến trúc ở Mátxcơva",
+      "noi_dung": "Bà Đặng Việt Nga là con gái cố Tổng Bí thư Trường Chinh. Bà tốt nghiệp Đại học Kiến trúc Mátxcơva (1959–1965), rồi lấy bằng tiến sĩ ở Liên Xô (1969–1972), làm ở các viện thiết kế ở Hà Nội trước khi vào Đà Lạt năm 1983.",
+      "nguon": [
+       {
+        "link": "https://tienphong.vn/Phong-Su/549292/Nu-nghe-si-doc-lap-va-%E2%80%9CNgoi-nha-ky-di%E2%80%9D-tpp.html",
+        "trang": "tienphong.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Bi%E1%BB%87t_th%E1%BB%B1_H%E1%BA%B1ng_Nga",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
+        "trang": "nguoiquansat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Gốc cây, hang động và phòng mang tên con vật",
+      "noi_dung": "Nhà làm bằng xi măng cốt thép nhưng uốn thành thân cây, rễ cây, hang đá; cầu thang như rễ cây vắt qua mái. Ý tưởng lấy từ những gốc cổ thụ trong rừng già bị tàn phá. Mỗi phòng nghỉ một chủ đề: Con Gấu gợi nước Nga, Cây Tre gợi Việt Nam, rồi Con Hổ, Con Kiến, Trăng Mật…",
+      "nguon": [
+       {
+        "link": "https://vietnamnet.vn/en/da-lat-s-bizarre-crazy-house-still-draws-crowds-decades-later-2548773.html",
+        "trang": "vietnamnet.vn"
+       },
+       {
+        "link": "https://vietbao.vn/can-biet-thu-quai-di-o-lam-dong-tung-gay-sot-truyen-thong-quoc-te-gio-ra-sao-604317.html",
+        "trang": "vietbao.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/biet-thu-hang-nga/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
+        "trang": "nguoiquansat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Vay bạn bè để xây",
+      "noi_dung": "Theo Tiền Phong (2011), bà Nga vay tiền bạn bè để xây, rồi vay ngân hàng trả nợ bạn bè; về sau công trình sống bằng tiền vé tham quan. VnExpress (2008) ghi bà đã chi 12 tỷ đồng để xây và duy tu.",
+      "nguon": [
+       {
+        "link": "https://tienphong.vn/Phong-Su/549292/Nu-nghe-si-doc-lap-va-%E2%80%9CNgoi-nha-ky-di%E2%80%9D-tpp.html",
+        "trang": "tienphong.vn"
+       },
+       {
+        "link": "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
+        "trang": "vnexpress.net"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Vắc xin làm trên cao nguyên",
+      "noi_dung": "Phòng làm vắc xin vốn thuộc Viện Pasteur Sài Gòn được chuyển lên Đà Lạt đầu năm 1936, vì khí hậu mát hợp hơn để làm và giữ vắc xin. Năm 1936 viện làm ra hơn 3 triệu liều, phần lớn là vắc xin tả. Nay công ty kế thừa vẫn làm vắc xin thương hàn.",
+      "nguon": [
+       {
+        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+        "trang": "entreprises-coloniales.fr"
+       },
+       {
+        "link": "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Trường của các tiểu thư",
+      "noi_dung": "Couvent des Oiseaux là trường nữ của các nữ tu dòng Đức Bà, mở theo mong muốn của Hoàng hậu Nam Phương, dạy con gái nhà khá giả ở Đà Lạt và miền Nam cho tới năm 1975. Nay toà chính là trường nội trú cho học sinh dân tộc thiểu số của tỉnh.",
+      "nguon": [
+       {
+        "link": "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html",
+        "trang": "vir.com.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "tieu_de": "Nhà thờ dáng chùa",
+      "noi_dung": "Nhà thờ Du Sinh do linh mục Thiên Phong Bửu Dưỡng, người dòng dõi nhà Nguyễn, cho xây từ năm 1955; ông chọn lối kiến trúc Á Đông, nên nhà thờ mang dáng đình chùa giữa một thành phố nhiều nhà thờ kiểu Pháp.",
+      "nguon": [
+       {
+        "link": "https://kienthuc.net.vn/kho-tri-thuc/top-nha-tho-hot-nhat-da-lat-mua-giang-sinh-793237.html",
+        "trang": "kienthuc.net.vn"
+       },
+       {
+        "link": "https://toplist.vn/top-list/nha-tho-dep-nhat-o-da-lat-5945.htm",
+        "trang": "toplist.vn"
+       },
+       {
+        "link": "https://dalat.app/blog/news/du-sinh-church-unique-architecture-da-lat",
+        "trang": "dalat.app"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ]
+   },
+   "ten_ngan": "Biệt thự Hằng Nga",
+   "ten_hien": "Biệt thự Hằng Nga",
+   "dac_trung": "Nhà gốc cây bê tông, xây từ 1990",
+   "ban_gi": "Mua vé xem ngôi nhà gốc cây, hang động; ngủ lại phòng theo chủ đề con vật; Viện Pasteur mở năm 1936; trường dòng Couvent des Oiseaux; đi bộ tới Dinh III.",
+   "moc_lau_doi": [
+    "Biệt thự Hằng Nga (Crazy House)",
+    "Viện Pasteur Đà Lạt (nay Công ty Vắc xin Pasteur Đà Lạt)",
+    "Couvent des Oiseaux (Tu viện Đức Bà Lâm Viên, nay Trường PT Dân tộc Nội trú Lâm Đồng)"
+   ]
+  },
+  {
+   "id": "pho_ho_than_tho",
+   "slug": "ho-than-tho",
+   "ten_pho": "Hồ Than Thở",
+   "duong": [
+    "Hồ Xuân Hương",
+    "Nam Hồ",
+    "Lữ Gia"
+   ],
+   "ward": "Lâm Viên - Đà Lạt",
+   "gioi_thieu": "Hồ Than Thở: hồ chứa nước người Pháp đắp đập năm 1917 giữa rừng thông, cách trung tâm Đà Lạt khoảng 6 km về phía đông; tên Việt 'Than Thở' có từ năm 1956, cạnh hồ là Đồi thông hai mộ, và từ tháng 4/2025 cả khu thành công viên ánh sáng Delight Park.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.47074,
+   "lat": 11.95391,
+   "dia_diem": [
+    {
+     "ten": "Hồ Than Thở (có thời tên Hồ Sương Mai)",
+     "loai": "hồ nhân tạo, danh thắng quốc gia",
+     "dac_trung": "Trước là một cái ao người Cơ Ho gọi Tơ nô Pang đờng; năm 1917 người Pháp đắp đập lập hồ chứa nước sinh hoạt cho Đà Lạt, đặt tên Lac des Soupirs. Năm 1956 đổi tên Việt là Than Thở theo đề xuất của ông Nguyễn Vĩ; từ 1975 mang tên Sương Mai, năm 1990 lấy lại tên Than Thở. Năm 1997 Công ty Thùy Dương được phép trồng rừng, nạo vét, làm khu vui chơi; năm 1999 được công nhận danh thắng cấp quốc gia (Nhân Dân 2025, Wikipedia dẫn Địa chí Lâm Đồng, VnExpress International 2019).",
+     "dia_chi": "Hồ Xuân Hương",
+     "duong": "Hồ Xuân Hương",
+     "nguon": [
+      {
+       "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+       "trang": "e.vnexpress.net"
+      },
+      {
+       "link": "https://vietnamnet.vn/net-duyen-cac-ho-o-da-lat-34049.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/473771570",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.478488,
+      "lat": 11.957073,
+      "cach": "tên trên OpenStreetMap: Hồ Than Thở (ghép tay)",
+      "osm": "way/473771570"
+     },
+     "con_mo": "mở: nằm trong Delight Park (Người Quan Sát 04/2025, Báo Lâm Đồng 07/2025)."
+    },
+    {
+     "ten": "Đồi thông hai mộ",
+     "loai": "đồi thông, ngôi mộ đôi, điểm tham quan",
+     "dac_trung": "Đồi thông cạnh hồ Than Thở có ngôi mộ đôi gắn với chuyện Vũ Minh Tâm và Lê Thị Thảo: Thảo tự vẫn tháng 3/1956, Tâm mất sau đó và được chôn cạnh mộ Thảo; sau 1975 gia đình đưa hài cốt Tâm về quê. Nhân Dân 2025 ghi ngôi mộ đôi vẫn còn trong khu du lịch.",
+     "dia_chi": "Hồ Xuân Hương",
+     "duong": "Hồ Xuân Hương",
+     "nguon": [
+      {
+       "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+       "trang": "e.vnexpress.net"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/doi-thong-hai-mo-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://nguoiquansat.vn/cong-vien-anh-sang-lon-nhat-viet-nam-chinh-thuc-mo-cua-don-khach-214356.html",
+       "trang": "nguoiquansat.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "chưa rõ: Người Quan Sát 04/2025 viết Delight Park làm trên đất 'khu du lịch hồ Than Thở và Đồi thông hai mộ trước đây', không nói đồi còn mở riêng hay không."
+    },
+    {
+     "ten": "Delight Park Đà Lạt (Công viên Ánh sáng & Nghệ thuật)",
+     "loai": "công viên hoa và ánh sáng",
+     "dac_trung": "Công viên gần 40 ha làm trên đất khu du lịch hồ Than Thở và Đồi thông hai mộ cũ, do Công ty TNHH Thùy Dương (BB Group) đầu tư; khai trương ngày 25/4/2025; tour đêm 'Bồng Lai Tiên Cảnh Ngàn Sao', hệ thống đèn do một công ty Hồng Kông làm (Người Quan Sát). Tối 6/7/2025 mở show thực cảnh 'Sử thi Âu Lạc' trên mặt hồ Sương Mai (Báo Lâm Đồng).",
+     "dia_chi": "Hồ Xuân Hương",
+     "duong": "Hồ Xuân Hương",
+     "nguon": [
+      {
+       "link": "https://nguoiquansat.vn/cong-vien-anh-sang-lon-nhat-viet-nam-chinh-thuc-mo-cua-don-khach-214356.html",
+       "trang": "nguoiquansat.vn"
+      },
+      {
+       "link": "https://baolamdong.vn/chuong-trinh-nghe-thuat-chao-mung-tinh-lam-dong-moi-381464.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://news.tuoitre.vn/vietnams-largest-light-park-set-to-open-in-da-lat-10383856.htm",
+       "trang": "news.tuoitre.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "mở: Báo Lâm Đồng 07/07/2025 còn đưa tin sự kiện tại công viên."
+    },
+    {
+     "ten": "Học viện Lục quân (khuôn viên Trường Võ bị Quốc gia Đà Lạt cũ)",
+     "loai": "trường quân sự, khu đất lịch sử",
+     "dac_trung": "Trường Võ bị Quốc gia lập tháng 12/1948 ở Huế, năm 1950 chuyển lên Đà Lạt (Wikipedia tiếng Anh; ảnh cổng 'Trường Võ bị Liên quân Đà Lạt năm 1950' trên blog lưu trữ). Cuối năm 1975 Học viện Lục quân (lập năm 1946, ngày truyền thống 7/7) từ Hà Nội chuyển vào tiếp quản khu này; năm 2026 học viện kỷ niệm 80 năm tại Đà Lạt.",
+     "dia_chi": "Lữ Gia",
+     "duong": "Lữ Gia",
+     "nguon": [
+      {
+       "link": "https://en.wikipedia.org/wiki/Vietnamese_National_Military_Academy",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://tuyendinh75.blogspot.com/2019/02/truong-ao-tao-cac-anh-hung-qlvnch.html",
+       "trang": "tuyendinh75.blogspot.com"
+      },
+      {
+       "link": "https://nhandan.vn/to-tham-truyen-thong-hoc-vien-luc-quan-anh-hung-post731103.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://www.sggp.org.vn/hoc-vien-luc-quan-ky-niem-80-nam-ngay-truyen-thong-post861065.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1355564844",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.466438,
+      "lat": 11.955446,
+      "cach": "tên trên OpenStreetMap: Học viện Lục quân (ghép tay)",
+      "osm": "way/1355564844"
+     },
+     "con_mo": "đang hoạt động (trường quân sự, không phải điểm tham quan)."
+    }
+   ],
+   "can_kiem_them": 4,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_ho-than-tho.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Tơ nô Pang đờng",
+      "thoi_gian": "cái ao có trước khi người Pháp đắp đập (tên của người Cơ Ho)",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "ten": "Lac des Soupirs",
+      "thoi_gian": "tên người Pháp đặt, từ 1917 đến 1956",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       },
+       {
+        "link": "https://vietnamnet.vn/net-duyen-cac-ho-o-da-lat-34049.html",
+        "trang": "vietnamnet.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "ten": "Hồ Sương Mai",
+      "thoi_gian": "1975 – 1990 (tên chính thức); báo địa phương nay vẫn gọi 'mặt hồ Sương Mai'",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       },
+       {
+        "link": "https://baolamdong.vn/chuong-trinh-nghe-thuat-chao-mung-tinh-lam-dong-moi-381464.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1917",
+      "su_kien": "Người Pháp đắp đập, lập hồ chứa nước sinh hoạt cho Đà Lạt, đặt tên Lac des Soupirs.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1956",
+      "su_kien": "Đổi tên Việt là hồ Than Thở, theo đề xuất của ông Nguyễn Vĩ, Chủ tịch Hội đồng thị xã Đà Lạt lúc ấy. Cũng năm này (tháng 3) cô Lê Thị Thảo tự vẫn ở khu đồi thông cạnh hồ.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/doi-thong-hai-mo-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1975",
+      "su_kien": "Hồ đổi tên thành Sương Mai; người dân vẫn gọi Than Thở.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1980–1990",
+      "su_kien": "Rừng thông cổ thụ quanh hồ bị tàn phá; lòng hồ bồi lắng, thu hẹp vì làm nông ở thượng nguồn.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1990",
+      "su_kien": "Khôi phục tên hồ Than Thở.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1997",
+      "su_kien": "Công ty Du lịch Thùy Dương (TP.HCM) được phép bỏ vốn trồng rừng, nạo vét hồ, xây khu vui chơi.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1999",
+      "su_kien": "Hồ Than Thở được công nhận danh thắng cấp quốc gia.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Ngày 25/4: khai trương Delight Park Đà Lạt, công viên hoa và ánh sáng gần 40 ha trên đất khu du lịch hồ Than Thở và Đồi thông hai mộ cũ, chủ đầu tư Công ty TNHH Thùy Dương. Từ 1/7/2025: Phường 9 và 12 vào phường Lâm Viên - Đà Lạt.",
+      "nguon": [
+       {
+        "link": "https://nguoiquansat.vn/cong-vien-anh-sang-lon-nhat-viet-nam-chinh-thuc-mo-cua-don-khach-214356.html",
+        "trang": "nguoiquansat.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/chuong-trinh-nghe-thuat-chao-mung-tinh-lam-dong-moi-381464.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://news.tuoitre.vn/vietnams-largest-light-park-set-to-open-in-da-lat-10383856.htm",
+        "trang": "news.tuoitre.vn"
+       },
+       {
+        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/nq1671.json",
+        "trang": "Nghị quyết 1671/NQ-UBTVQH15"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Tiếng gió thành tiếng than",
+      "noi_dung": "Người Pháp gọi hồ là Lac des Soupirs. Wikipedia giải thích người Pháp muốn nói tiếng rì rào của gió trong rừng thông, nhưng khi dịch sang tiếng Việt lại thành 'than thở'; VnExpress dịch là 'hồ gió rừng'. Năm 1956 cái tên Than Thở được dùng chính thức.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       },
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Hoàng Tùng – Mai Nương: truyền thuyết bị nghi bịa",
+      "noi_dung": "Chuyện kể Hoàng Tùng theo Quang Trung đánh quân Thanh, Mai Nương nghe tin chàng tử trận nên gieo mình xuống hồ, chàng về cũng tự vẫn theo. Sách và báo dẫn lại nhiều. Nhưng Nhân Dân (07/2025) cho rằng đây là chuyện 'hoàn toàn ngụy tạo': trận đánh quân Thanh năm 1789, khi ấy cao nguyên Lang Biang chưa có người Việt ở; người Việt đầu tiên tới là Nguyễn Thông (1862–1867), và người Việt định cư ở Đà Lạt khoảng năm 1901.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Than_Th%E1%BB%9F",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Tâm và Thảo",
+      "noi_dung": "Chuyện được coi là có thật: Lê Thị Thảo và Vũ Minh Tâm yêu nhau nhưng gia đình ngăn cản. Tháng 3/1956 Thảo tự vẫn ở khu đồi thông cạnh hồ. Tâm mất sau đó và được chôn cạnh Thảo — thành ngôi mộ đôi đặt tên cho Đồi thông hai mộ. Sau 1975 gia đình đưa hài cốt Tâm về quê.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ton-vinh-nhung-xin-dung-nguy-tao-post893116.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/in-da-lat-a-lake-sighs-over-shakespearean-tragedies-3912853.html",
+        "trang": "e.vnexpress.net"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/doi-thong-hai-mo-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Một 'Đồi thông hai mộ' khác",
+      "noi_dung": "'Đồi thông hai mộ' còn là tên truyện thơ hơn 1.000 câu song thất lục bát của văn sĩ Tùng Giang (Vũ Đình Trung), in lần đầu cuối năm 1949. Theo Tiền Phong, nơi phát tích truyện thơ ở Kim Bôi (Hòa Bình cũ), nơi cháu nội tác giả dựng nhà lưu niệm từ mùa xuân 2023 — lâu nay nhiều người tưởng truyện ấy kể chuyện ở Đà Lạt.",
+      "nguon": [
+       {
+        "link": "https://tienphong.vn/epaper/TP-2024-244/23/",
+        "trang": "tienphong.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Từ trường Võ bị đến Học viện Lục quân",
+      "noi_dung": "Cách hồ chừng một cây số về phía tây là khu trường quân sự: Trường Võ bị Quốc gia chuyển từ Huế lên Đà Lạt năm 1950; cuối năm 1975 Học viện Lục quân từ Hà Nội vào tiếp quản và ở đây đến nay.",
+      "nguon": [
+       {
+        "link": "https://en.wikipedia.org/wiki/Vietnamese_National_Military_Academy",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://tuyendinh75.blogspot.com/2019/02/truong-ao-tao-cac-anh-hung-qlvnch.html",
+        "trang": "tuyendinh75.blogspot.com"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "wiki"
+     }
+    ]
+   },
+   "ten_ngan": "Hồ Than Thở",
+   "ten_hien": "Hồ Than Thở",
+   "dac_trung": "Hồ Pháp đắp 1917, Đồi thông hai mộ",
+   "ban_gi": "Hồ giữa rừng thông; Đồi thông hai mộ; công viên hoa và đèn Delight Park, xem ban ngày và show đèn ban đêm.",
+   "moc_lau_doi": [
+    "Hồ Than Thở (có thời tên Hồ Sương Mai)",
+    "Đồi thông hai mộ",
+    "Học viện Lục quân (khuôn viên Trường Võ bị Quốc gia Đà Lạt cũ)"
+   ]
+  },
+  {
    "id": "pho_ho_xuan_huong",
    "slug": "ho-xuan-huong",
    "ten_pho": "Quanh hồ Xuân Hương",
@@ -5956,7 +8171,7 @@
       "muc": "chac"
      },
      {
-      "nam": "3/1932",
+      "nam": "1932",
       "su_kien": "Bão lớn làm vỡ cả hai đập, ngập vùng dưới hồ.",
       "nguon": [
        {
@@ -10103,6 +12318,10 @@
        {
         "link": "https://baonghean.vn/en/thung-lung-tinh-yeu-noi-tieng-nhat-viet-nam-10118140.html",
         "trang": "baonghean.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/pha-nat-danh-thang-da-lat-493712.htm",
+        "trang": "tuoitre.vn"
        }
       ],
       "mot_nguon": false,
@@ -10580,10 +12799,14 @@
        {
         "link": "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/",
         "trang": "localvietnam.com"
+       },
+       {
+        "link": "https://saigoneer.com/vietnam-travel/19619-at-da-lat-s-secluded-da-phuoc-temple,-insights-into-cao-dai-teachings",
+        "trang": "saigoneer.com"
        }
       ],
       "mot_nguon": false,
-      "muc": "blog"
+      "muc": "chac"
      },
      {
       "nam": "1949",
@@ -10831,8 +13054,8 @@
    "anh": null,
    "ten_that": true,
    "moi": true,
-   "lon": 108.44737,
-   "lat": 11.93653,
+   "lon": 108.44771,
+   "lat": 11.93678,
    "dia_diem": [
     {
      "ten": "Dinh 2 (Dinh Toàn quyền, Governor Palace)",
@@ -10869,6 +13092,50 @@
       "osm": "way/777438901"
      },
      "con_mo": "mở hạn chế: là nhà khách, nơi hội nghị của UBND tỉnh. mia.vn (23/07/2026) ghi 7:30–17:00, vé 30.000 đ/người, nên hỏi trước; VinWonders (09/12/2025) ghi không mở cửa thường xuyên."
+    },
+    {
+     "ten": "Dalat Cadasa Resort (cụm biệt thự cổ Trần Hưng Đạo)",
+     "loai": "cụm biệt thự Pháp, khu nghỉ dưỡng",
+     "dac_trung": "Cụm biệt thự Pháp hai bên đường Trần Hưng Đạo trên khoảng 6 ha; thời Pháp là chỗ nghỉ của Thống sứ Nam Kỳ, vua Bảo Đại và quan lại, trước 1975 dành cho tướng lĩnh; bỏ hoang sau 1975, Công ty Cadasa trùng tu thành khu nghỉ dưỡng.",
+     "dia_chi": "16 Trần Hưng Đạo",
+     "duong": "Trần Hưng Đạo",
+     "nguon": [
+      {
+       "link": "https://vietnamfinance.vn/theo-dong-lich-su-dalat-cadasa-resort-thien-duong-phap-giua-long-da-lat-d57284.html",
+       "trang": "vietnamfinance.vn"
+      },
+      {
+       "link": "https://english.vov.vn/en/travel/old-villas-amidst-flowers-242619.vov",
+       "trang": "english.vov.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/me-man-ve-dep-co-kinh-cua-dalat-cadasa-resort-5543",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/cadasa-da-lat",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://baodautu.vn/lam-dong-nho-toa-an-doi-lai-tai-san-cong-d145619.html",
+       "trang": "baodautu.vn"
+      },
+      {
+       "link": "https://baolamdong.vn/danh-thuc-nguon-luc-tu-nhung-biet-thu-cong-da-lat-471832.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/515193501",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.454371,
+      "lat": 11.938221,
+      "cach": "tên trên OpenStreetMap: Khu nghỉ dưỡng Biệt thự cổ Đà Lạt Cadasa (ghép tay)",
+      "osm": "way/515193501"
+     },
+     "con_mo": "chưa rõ: Báo Lâm Đồng 29/10/2026 viết nhiều căn trong khu Cadasa 'vắng khách, đìu hiu' và xuống cấp trở lại sau trùng tu; Báo Đầu tư 24/06/2021: tỉnh kiện đòi lại 13 biệt thự cho Cadasa thuê, vụ án kéo dài. Chưa thấy nguồn ghi đã đóng hay đã thu hồi."
     },
     {
      "ten": "Trụ sở UBND tỉnh Lâm Đồng",
@@ -11125,7 +13392,7 @@
      "con_mo": "không rõ: VinWonders 13/07/2025 ghi '3 Trần Hưng Đạo, phường Xuân Hương'; Mytour cập nhật 1/11/2026 còn ghi số 3. Nhưng một dòng kết quả tìm kiếm trang Airbnb ghi 'Permanently closed' — em mở trang thì không đọc được, trang riêng nemnuongbahung.com không vào được → chưa xác nhận còn hay đóng."
     }
    ],
-   "can_kiem_them": 8,
+   "can_kiem_them": 7,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_tran-hung-dao.md",
    "chuyen": {
     "ten_cu": [
@@ -12762,10 +15029,14 @@
        {
         "link": "https://vinwonders.com/en/wonderpedia/news/cam-ly-waterfall-da-lat/",
         "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html",
+        "trang": "vietnamnet.vn"
        }
       ],
-      "mot_nguon": true,
-      "muc": "blog"
+      "mot_nguon": false,
+      "muc": "chac"
      },
      {
       "nam": "cuối 2010",

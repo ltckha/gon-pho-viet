@@ -65,10 +65,10 @@
    "con_mo": "chưa rõ: SGGP 15/06/2026 (và Báo Văn hóa) báo chủ đầu tư mở cửa miễn phí trở lại từ 15/6/2026; nhưng VietnamPlus 21/08/2026 vẫn viết dinh đã đóng hơn hai năm, công ty dự kiến mở lại vào tháng 8/2026.",
    "ghi_chu": "Lệch: năm Bảo Đại mua (1949 / cuối 1951); diện tích khuôn viên 60 ha (Wikipedia, Báo Pháp luật 2024) / hơn 18 ha (Tuổi Trẻ, VietnamPlus 2026) / gần 16 ha (SGGP, Báo Văn hóa) → không ghi diện tích khuôn viên. Bảng thuyết minh cũ ghi năm xây 1929 đã bị gỡ năm 2018 (Tuổi Trẻ). OSM có điểm 'Dinh Bao Dai 1' (historic=castle) và điểm 'King Palace' (addr '1 Dinh'). Cách Chợ Đà Lạt khoảng 3,6 km đường chim bay (mia: khoảng 4 km về hướng đông nam trung tâm). Đường gần nhất trong duong.json: Trần Thái Tông 215 m, Trần Quang Diệu 254 m, Vòng Dinh 330 m (lối vào dinh là đường nội bộ không tên trên OSM).",
    "vi_tri": {
-    "lon": 108.46987,
-    "lat": 11.94445,
-    "cach": "tên trên OpenStreetMap: Dinh Bao Dai 1",
-    "osm": "node/1152345096"
+    "lon": 108.467562,
+    "lat": 11.943277,
+    "cach": "tên trên OpenStreetMap: King Palace (ghép tay)",
+    "osm": "node/6031332170"
    }
   },
   {
@@ -87,12 +87,7 @@
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu: SGGP 21/06/2024 kể hơn 300 cựu tù thăm lại di tích; OSM ghi tourism=museum.",
    "ghi_chu": "Cách Dinh 1 khoảng 850 m về phía bắc, cách hồ Than Thở khoảng 1 km; khác phường với Dinh 1 (Lâm Viên). Năm lập: Báo Lâm Đồng ghi đầu năm 1971, giải tán đầu tháng 6/1973. Bài Kiến Thức em chỉ thấy đoạn trích qua tìm kiếm (xây 1971, giải tán 1973, di tích 22/6/2009). Đường gần nhất trong duong.json: Xóm Chùa 113 m, Hồ Xuân Hương 123 m, Hùng Vương 211 m.",
-   "vi_tri": {
-    "lon": 108.47065,
-    "lat": 11.9521,
-    "cach": "tên trên OpenStreetMap: Nhà lao thiếu nhi Đà Lạt (tâm khối nhà)",
-    "osm": "relation/7758125"
-   }
+   "vi_tri": null
   },
   {
    "ten": "Đường sắt răng cưa Tháp Chàm – Đà Lạt, đoạn Đà Lạt – Trại Mát",

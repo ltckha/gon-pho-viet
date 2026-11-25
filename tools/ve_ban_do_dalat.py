@@ -154,32 +154,7 @@ def main(game):
     road_font = ImageFont.truetype(FONT, 15)
     big = ImageFont.truetype(FONT, 26)
     mid_font = ImageFont.truetype(FONT, 17)
-    labels = [P(lo, la) for _, la, lo, _ in LANDMARKS]
-    for r in sorted(duong['ten_duong'], key=lambda r: r['loai']):
-        if r['loai'] > 4 or r['ten'].startswith(('Hẻm', 'Bùng binh', 'Công trường')):
-            continue
-        q = [P(*p) for p in r['pts']]
-        dens = []
-        for u, v in zip(q, q[1:]):
-            n_ = max(1, int(math.hypot(v[0] - u[0], v[1] - u[1]) / 4))
-            dens += [(u[0] + (v[0] - u[0]) * i / n_, u[1] + (v[1] - u[1]) * i / n_) for i in range(n_)]
-        if len(dens) < 40:
-            continue
-        mid = len(dens) // 2
-        mx, my = dens[mid]
-        a = dens[max(0, mid - 11)]; b = dens[min(len(dens) - 1, mid + 11)]
-        if not (30 < mx < W - 30 and 30 < my < H - 30) or any(math.hypot(mx - x, my - y) < 90 for x, y in labels):
-            continue
-        tw = int(d.textlength(r['ten'], font=road_font)) + 12
-        if tw > len(dens) * 4 * 1.1:
-            continue
-        t = Image.new('RGBA', (tw, 26), (0, 0, 0, 0))
-        ImageDraw.Draw(t).text((6, 3), r['ten'], font=road_font, fill=(58, 38, 22), stroke_width=3, stroke_fill=(255, 248, 228))
-        ang = math.degrees(math.atan2(b[1] - a[1], b[0] - a[0]))
-        ang = ang - 180 if ang > 90 else ang + 180 if ang < -90 else ang
-        t = t.rotate(-ang, expand=True, resample=Image.BICUBIC)
-        im.alpha_composite(t, (int(mx - t.width / 2), int(my - t.height / 2)))
-        labels.append((mx, my))
+    # Tên đường KHÔNG in vào ảnh: trang web tự ghi tên chạy uốn theo đường (anh Kha: chữ phải ôm theo con đường)
     d = ImageDraw.Draw(im)
     for name, la, lo, size in LANDMARKS:
         x, y = P(lo, la)

@@ -58,6 +58,7 @@ python3 tools/lich_trinh.py /tmp/osm
 ## Anh Kha đã chốt (25/11/2026)
 - Trang phố vẽ trên **bản đồ minh hoạ nét Spark, hướng Bắc ở trên, đúng tỉ lệ, có mốc quen** (Chợ, hồ, nhà thờ). Không xoay đường, không sơ đồ trừu tượng — người Đà Lạt nhìn phải nhận ra ngay.
 - Đường trên bản đồ không bao giờ cụt giữa khung.
+- Tên đường phải chạy uốn theo con đường (textPath, làm mềm Chaikin), đường cong gắt thì bỏ tên; tên không đè nhau, không đè mốc, không đè chấm quán. Không in tên đường cứng vào ảnh nền.
 - Làm: lịch trình theo phố, chuyện của phố. Không làm: người dùng xác nhận/đánh giá.
 - Nghiên cứu, thêm phố thì cứ làm, không hỏi; chỉ hỏi khi đưa lên mạng/tốn tiền.
 

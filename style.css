@@ -152,8 +152,11 @@ button:focus-visible { outline: 3px solid var(--pick); outline-offset: 2px; }
 /* bản đồ phố minh hoạ */
 .bd-pho-vien { fill: none; stroke: #8a2f2c; stroke-opacity: .55; stroke-linecap: round; stroke-linejoin: round; }
 .bd-pho { fill: none; stroke: #ff9d2e; stroke-linecap: round; stroke-linejoin: round; }
+.bd-ten-duong { font-family: var(--f-body); font-weight: 700; fill: #3a2616; paint-order: stroke; stroke: #fff8e4; stroke-linejoin: round; text-anchor: middle; }
 .bd-moc { font-family: var(--f-body); font-weight: 700; fill: #5a2a14; paint-order: stroke; stroke: #fff6e3; stroke-linejoin: round; dominant-baseline: central; }
 .bd-moc-cham { fill: #5a2a14; stroke: #fff6e3; stroke-width: 2; }
+.bd-noi { stroke: #8a2f2c; stroke-opacity: .8; }
+.bd-goc { fill: #8a2f2c; }
 .bd-cham { cursor: pointer; }
 .bd-cham circle { fill: #d9534f; stroke: #fffaf0; }
 .bd-cham circle.uoc { fill: #e58a86; stroke-dasharray: 3 2; }

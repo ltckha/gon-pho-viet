@@ -103,6 +103,33 @@
     return d;
   }
 
+  // Làm mềm đường (Chaikin 2 lượt) cho chữ chạy uốn êm theo đường, không gãy khúc
+  function smooth(pts, n) {
+    var p = pts;
+    for (var t = 0; t < (n || 2); t++) {
+      if (p.length < 3) return p;
+      var q = [p[0]];
+      for (var i = 0; i < p.length - 1; i++) {
+        var a = p[i], b = p[i + 1];
+        q.push([a[0] * 0.75 + b[0] * 0.25, a[1] * 0.75 + b[1] * 0.25], [a[0] * 0.25 + b[0] * 0.75, a[1] * 0.25 + b[1] * 0.75]);
+      }
+      q.push(p[p.length - 1]);
+      p = q;
+    }
+    return p;
+  }
+  // Độ gắt khúc cong lớn nhất (độ) trên đoạn giữa đường — cong quá thì không ghi tên
+  function maxTurn(pts) {
+    var m = 0;
+    for (var i = 1; i < pts.length - 1; i++) {
+      var a1 = Math.atan2(pts[i][1] - pts[i - 1][1], pts[i][0] - pts[i - 1][0]);
+      var a2 = Math.atan2(pts[i + 1][1] - pts[i][1], pts[i + 1][0] - pts[i][0]);
+      var d = Math.abs(a2 - a1) * 180 / Math.PI; if (d > 180) d = 360 - d;
+      m = Math.max(m, d);
+    }
+    return m;
+  }
+
   function meters(pts) {
     var m = 0;
     for (var k = 1; k < pts.length; k++) {
@@ -213,11 +240,13 @@
     (data.ten_duong || []).forEach(function (r, i) {
       if (meters(r.pts) < minLen[r.loai]) return;
       var id = 'rd' + i;
-      var pe0 = el('path', { id: id, d: lineOf(r.pts) });
+      var sm = smooth(r.pts, 3);
+      if (maxTurn(smooth(r.pts, 1)) > 50) return;          // đường gãy gắt: bỏ tên cho khỏi rối
+      var pe0 = el('path', { id: id, d: lineOf(sm) });
       defs.appendChild(pe0);
       var L0 = pe0.getTotalLength();
       if (pe0.getPointAtLength(L0 * 0.6).x < pe0.getPointAtLength(L0 * 0.4).x) {
-        pe0.setAttribute('d', lineOf(r.pts.slice().reverse()));  // chữ chạy trái sang phải, không lộn ngược
+        pe0.setAttribute('d', lineOf(sm.slice().reverse()));  // chữ chạy trái sang phải, không lộn ngược
       }
       var t = el('text', { 'class': 'lbl road-name r' + r.loai, dy: '0.35em', hidden: '' });
       var tp = el('textPath', { href: '#' + id, startOffset: '50%' }, r.ten);
@@ -610,7 +639,7 @@
         x0 = Math.min(x0, nb[0]); x1 = Math.max(x1, nb[0]); y0 = Math.min(y0, nb[1] - 40); y1 = Math.max(y1, nb[1] + 30);
       }
       // khung đủ rộng để thấy cả xóm xung quanh (≥ 1,3 km ngang), không quá cao so với bề ngang
-      var pad = 80, w = Math.max(x1 - x0 + pad * 2, 520), h = Math.max(y1 - y0 + pad * 2, w * 1.1);
+      var pad = 80, w = Math.max(x1 - x0 + pad * 2, 300), h = Math.max(y1 - y0 + pad * 2, w * 1.1);
       w = Math.max(w, h * 0.78);
       cx = (x0 + x1) / 2; cy = (y0 + y1) / 2;
       var vx = Math.max(0, Math.min(bd.w - w, cx - w / 2)), vy = Math.max(0, Math.min(bd.h - h, cy - h / 2));
@@ -620,6 +649,12 @@
         '<image href="' + esc(bd.anh) + '" width="' + bd.w + '" height="' + bd.h + '"/>';
       lines.forEach(function (l) { g += '<path d="' + path(l) + '" class="bd-pho-vien" style="stroke-width:' + (16 * k) + '"/>'; });
       lines.forEach(function (l) { g += '<path d="' + path(l) + '" class="bd-pho" style="stroke-width:' + (8 * k) + '"/>'; });
+      var boxes = [];
+      function hit(b) { return boxes.some(function (o) { return b.x1 > o.x0 && b.x0 < o.x1 && b.y1 > o.y0 && b.y0 < o.y1; }); }
+      // hình mốc vẽ sẵn trong ảnh (Chợ, nhà thờ, quảng trường…) và tên của nó chiếm chỗ trước
+      bd.moc.forEach(function (m) { var q = B(m.lon, m.lat); boxes.push({ x0: q[0] - 85, x1: q[0] + 85, y0: q[1] - 115, y1: q[1] + 60 }); });
+      // chấm quán chiếm chỗ trước
+      ph.dia_diem.forEach(function (d) { if (d.vi_tri) { var q = B(d.vi_tri.lon, d.vi_tri.lat); boxes.push({ x0: q[0] - 13 * k, x1: q[0] + 13 * k, y0: q[1] - 13 * k, y1: q[1] + 13 * k }); } });
       // tên mốc thật trong khung (chùa, chợ, dinh, công viên…) để định hướng; tối đa 4 mốc gần phố nhất
       var tenQuan = ph.dia_diem.map(function (d) { return d.ten; }).join('|');
       data.moc.map(function (m) { return { m: m, p: B(m.lon, m.lat) }; })
@@ -628,16 +663,78 @@
         .filter(function (o) {      // bỏ mốc trùng chỗ một quán đã có chấm (vd Dinh III)
           return !ph.dia_diem.some(function (d) { if (!d.vi_tri) return false; var q = B(d.vi_tri.lon, d.vi_tri.lat); return Math.hypot(q[0] - o.p[0], q[1] - o.p[1]) < 25 * k; });
         })
-        .slice(0, 4).forEach(function (o) {
+        .filter(function (o) {      // trùng tên mốc đã vẽ sẵn (vd "Chợ Đà Lạt") thì bỏ
+          return !bd.moc.some(function (m) { return o.m.ten.indexOf(m.ten) >= 0 || m.ten.indexOf(o.m.ten) >= 0; });
+        })
+        .filter(function (o) {      // tên mốc không đè chấm quán, không đè tên mốc khác
+          var tw = o.m.ten.length * 12 * k * 0.56, phai = o.p[0] > vx + w * 0.6;
+          var b = { x0: phai ? o.p[0] - tw - 8 * k : o.p[0] - 5 * k, x1: phai ? o.p[0] + 5 * k : o.p[0] + tw + 8 * k, y0: o.p[1] - 9 * k, y1: o.p[1] + 9 * k };
+          if (hit(b)) return false;
+          boxes.push(b); return true;
+        })
+        .slice(0, 3).forEach(function (o) {
           var phai = o.p[0] > vx + w * 0.6;     // gần mép phải thì viết chữ sang trái
           g += '<circle cx="' + o.p[0].toFixed(1) + '" cy="' + o.p[1].toFixed(1) + '" r="' + (4 * k) + '" class="bd-moc-cham"/>' +
             '<text x="' + (o.p[0] + (phai ? -7 : 7) * k).toFixed(1) + '" y="' + o.p[1].toFixed(1) + '" class="bd-moc" text-anchor="' + (phai ? 'end' : 'start') + '" style="font-size:' + (12 * k) + 'px;stroke-width:' + (4 * k) + 'px">' + esc(o.m.ten) + '</text>';
         });
+      // tên đường chạy uốn theo đường (textPath), chỉ đường đủ dài, không quá cong, không đè nhau
+      var fsz = 12 * k, defs = '', txt = '';
+      (data.ten_duong || []).slice().sort(function (a, b) { return a.loai - b.loai; }).forEach(function (r, ri) {
+        if (r.loai > 4 || /^(Hẻm|Bùng binh|Công trường)/.test(r.ten) || ph.duong.indexOf(r.ten) >= 0) return;   // tên phố đã ghi ở đầu trang
+        var q = r.pts.map(function (z) { return B(z[0], z[1]); });
+        var inside = q.filter(function (z) { return z[0] > vx + 10 && z[0] < vx + w - 10 && z[1] > vy + 10 && z[1] < vy + h - 10; });
+        if (inside.length < 2) return;
+        // cắt đoạn nằm trong khung, làm mềm
+        var seg = [], best = [];
+        q.forEach(function (z) {
+          var ok = z[0] > vx && z[0] < vx + w && z[1] > vy && z[1] < vy + h;
+          if (ok) seg.push(z); else { if (seg.length > best.length) best = seg; seg = []; }
+        });
+        if (seg.length > best.length) best = seg;
+        if (best.length < 2) return;
+        var sm = smooth(best, 3);
+        if (maxTurn(smooth(best, 1)) > 45) return;
+        var L = 0; for (var i = 1; i < sm.length; i++) L += Math.hypot(sm[i][0] - sm[i - 1][0], sm[i][1] - sm[i - 1][1]);
+        var tw = r.ten.length * fsz * 0.56;
+        if (tw > L * 0.8) return;
+        // giữa đoạn
+        var acc = 0, mid = sm[0];
+        for (var j = 1; j < sm.length; j++) { var dl = Math.hypot(sm[j][0] - sm[j - 1][0], sm[j][1] - sm[j - 1][1]); if (acc + dl >= L / 2) { mid = sm[j]; break; } acc += dl; }
+        // khung chữ theo hướng thật của đoạn giữa (không phải hình vuông) để khỏi bỏ sót nhiều tên
+        var ang = Math.atan2(sm[Math.min(sm.length - 1, j + 1)][1] - sm[Math.max(0, j - 1)][1], sm[Math.min(sm.length - 1, j + 1)][0] - sm[Math.max(0, j - 1)][0]);
+        var hx = Math.abs(Math.cos(ang)) * tw / 2 + fsz * 0.6, hy = Math.abs(Math.sin(ang)) * tw / 2 + fsz * 0.6;
+        var bx = { x0: mid[0] - hx, x1: mid[0] + hx, y0: mid[1] - hy, y1: mid[1] + hy };
+        if (hit(bx)) return;
+        boxes.push(bx);
+        if (sm[sm.length - 1][0] < sm[0][0]) sm = sm.slice().reverse();
+        var id = 'bdr' + ri;
+        defs += '<path id="' + id + '" d="' + path(sm) + '"/>';
+        txt += '<text class="bd-ten-duong" style="font-size:' + fsz + 'px;stroke-width:' + (3.5 * k) + 'px" dy="0.35em"><textPath href="#' + id + '" startOffset="50%">' + esc(r.ten) + '</textPath></text>';
+      });
+      g += '<defs>' + defs + '</defs>' + txt;
+      // chấm quán: chấm nào đè nhau thì đẩy dần ra cho tách hẳn, kèm nét nối về đúng chỗ quán
+      var dots = [];
+      ph.dia_diem.forEach(function (d, i) { if (d.vi_tri) { var q = B(d.vi_tri.lon, d.vi_tri.lat); dots.push({ i: i, ox: q[0], oy: q[1], x: q[0], y: q[1] }); } });
+      var R = 12 * k;
+      for (var it = 0; it < 120; it++) {
+        var moved = false;
+        for (var a1 = 0; a1 < dots.length; a1++) for (var b1 = a1 + 1; b1 < dots.length; b1++) {
+          var A = dots[a1], Bd = dots[b1], dx = Bd.x - A.x, dy = Bd.y - A.y, dd = Math.hypot(dx, dy);
+          if (dd < R * 2.15) {
+            if (dd < 0.01) { dx = Math.cos(b1); dy = Math.sin(b1); dd = 1; }
+            var push = (R * 2.15 - dd) / 2;
+            A.x -= dx / dd * push; A.y -= dy / dd * push; Bd.x += dx / dd * push; Bd.y += dy / dd * push; moved = true;
+          }
+        }
+        if (!moved) break;
+      }
+      var dotAt = {};
+      dots.forEach(function (o) { dotAt[o.i] = o; if (Math.hypot(o.x - o.ox, o.y - o.oy) > 3 * k) g += '<line x1="' + o.ox.toFixed(1) + '" y1="' + o.oy.toFixed(1) + '" x2="' + o.x.toFixed(1) + '" y2="' + o.y.toFixed(1) + '" class="bd-noi" style="stroke-width:' + (1.6 * k) + '"/><circle cx="' + o.ox.toFixed(1) + '" cy="' + o.oy.toFixed(1) + '" r="' + (2.5 * k) + '" class="bd-goc"/>'; });
       var so = 0;
       ph.dia_diem.forEach(function (d, i) {
         if (!d.vi_tri) return;
         so++;
-        var p = B(d.vi_tri.lon, d.vi_tri.lat), r = 11 * k;
+        var p = [dotAt[i].x, dotAt[i].y], r = 11 * k;
         g += '<g class="bd-cham" data-q="' + i + '" tabindex="0" role="button" aria-label="' + so + '. ' + esc(d.ten) + '">' +
           '<circle cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="' + r + '" class="' + (d.vi_tri.uoc ? 'uoc' : '') + '" style="stroke-width:' + (2.5 * k) + '"/>' +
           '<text x="' + p[0].toFixed(1) + '" y="' + p[1].toFixed(1) + '" style="font-size:' + (12 * k) + 'px">' + so + '</text></g>';

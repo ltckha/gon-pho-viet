@@ -1,0 +1,288 @@
+{
+ "road": "Yersin",
+ "duong": [
+  "Yersin"
+ ],
+ "ten_osm": [
+  "Yersin"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat chia Yersin (Thống Nhất cũ) làm 2 phường cũ: PHƯỜNG 10 gồm 2 đoạn 'Từ cổng khách sạn công đoàn tỉnh Lâm Đồng - Đến đầu đường Nguyễn Trãi' và 'Từ đầu đường Nguyễn Trãi - Đến cổng Trường Cao Đẳng Sư Phạm'; PHƯỜNG 9: 'Từ Cổng Trường Cao đẳng sư phạm Đà Lạt - Đến Nguyễn Đình Chiểu'. Theo NQ 1671: Phường 10 → Xuân Hương - Đà Lạt (mục 99), Phường 9 → Lâm Viên - Đà Lạt (mục 101). Đoạn hồ Xuân Hương – cổng trường (đoạn có nhiều quán nhất) thuộc Xuân Hương - Đà Lạt. Kiểm chéo bằng ranh giới phuong.json: từ Trần Quốc Toản tới khoảng cổng trường (11.9452, 108.4526) nằm trong Xuân Hương; đoạn trên (khoảng 850 m tới Nguyễn Đình Chiểu) chạy dọc ranh Xuân Hương / Lâm Viên. Ga Đà Lạt KHÔNG nằm trên đường Yersin: ga ở đường Quang Trung, từ ngã ba Yersin – Nguyễn Trãi đi Nguyễn Trãi khoảng 250 m (theo duong.json).",
+ "doan": [
+  {
+   "doan": "Cổng khách sạn Công Đoàn (gần hồ Xuân Hương) – đầu đường Nguyễn Trãi",
+   "phuong_cu": "Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-10"
+  },
+  {
+   "doan": "Đầu đường Nguyễn Trãi – cổng Trường Cao đẳng Sư phạm",
+   "phuong_cu": "Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-10"
+  },
+  {
+   "doan": "Cổng Trường Cao đẳng Sư phạm – Nguyễn Đình Chiểu",
+   "phuong_cu": "Phường 9",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-9",
+   "ghi_chu": "Trên ranh giới phuong.json đoạn này chạy dọc ranh Xuân Hương / Lâm Viên; nhà hai bên đường có thể thuộc hai phường."
+  }
+ ],
+ "ten_pho": "Phố Trường Xưa",
+ "gioi_thieu": "Phố Trường Xưa: đường Yersin đi từ công viên Yersin bên hồ Xuân Hương lên ngôi trường gạch đỏ Lycée Yersin mở năm 1927 (nay là Trường Cao đẳng Đà Lạt, một trong 1.000 công trình kiến trúc tiêu biểu thế kỷ XX do Hội Kiến trúc sư Thế giới chọn); đầu dốc gần hồ là chỗ ăn sáng với bánh căn Lệ, bánh mì xíu mại Cô Hồng, mì Quảng.",
+ "dia_diem": [
+  {
+   "ten": "Trường Cao đẳng Đà Lạt (Lycée Yersin cũ, Cao đẳng Sư phạm Đà Lạt)",
+   "loai": "di tích kiến trúc, trường học",
+   "dac_trung": "Dãy nhà hình vòng cung theo sườn đồi, gạch đỏ và ngói thạch bản chở từ Pháp, kiến trúc sư Moncet; Petit Lycée khánh thành 1927, mang tên Lycée Yersin từ 1935; di tích kiến trúc quốc gia năm 2001 (QĐ 52/2001/QĐ-BVHTT); được UIA đưa vào danh sách 1.000 công trình tiêu biểu thế kỷ XX.",
+   "dia_chi": "109 Yersin, phường Xuân Hương - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "109",
+   "nguon": [
+    "https://baolamdong.vn/khoac-ao-moi-cho-di-tich-quoc-gia-truong-cao-dang-da-lat-421271.html",
+    "https://baolamdong.vn/kien-truc-truong-cao-dang-su-pham-da-lat-di-san-the-ky-xx-giua-long-thanh-pho-454619.html",
+    "https://nhandan.vn/doc-dao-kien-truc-truong-cao-dang-da-lat-post958014.html",
+    "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Cao_%C4%91%E1%BA%B3ng_S%C6%B0_ph%E1%BA%A1m_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.openstreetmap.org/way/971585499"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "còn là trường học; Báo Lâm Đồng 29/01/2026 và 21/07/2026, Nhân Dân 24/04/2026 viết về trường đang hoạt động, có tu bổ. Vào tham quan cần hỏi trường (chưa có nguồn ghi giờ mở cho khách).",
+   "vi_tri": null,
+   "ghi_chu": "Số nhà 109: Wikipedia và OSM (addr:housenumber=109). mia.vn ghi '29 Yersin' — lệch, không dùng."
+  },
+  {
+   "ten": "Công viên Yersin",
+   "loai": "công viên bên hồ, tượng bác sĩ Yersin",
+   "dac_trung": "Công viên ở đầu đường, sát hồ Xuân Hương; tượng đá bác sĩ Alexandre Yersin đặt năm 2008 nhân 115 năm Yersin tìm ra Đà Lạt (tượng nặng 25 tấn, cao gần 2,5 m, nhà điêu khắc Phạm Văn Hằng).",
+   "dia_chi": "đầu đường Yersin, cạnh hồ Xuân Hương, phường Xuân Hương - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "",
+   "nguon": [
+    "https://en.sggp.org.vn/da-lat-unveils-statue-of-alexandre-yersin-to-mark-its-115th-anniversary-post34098.html",
+    "https://baolamdong.vn/go-vuong-mat-bang-cong-vien-yersin-468111.html",
+    "https://wanderlog.com/place/details/2582217",
+    "https://www.openstreetmap.org/relation/20594897"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; Báo Lâm Đồng 07/10/2026: công viên đang dùng, giai đoạn 3 (mở rộng) còn vướng mặt bằng. Wanderlog ghi mở 24 giờ.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Bánh Căn Lệ",
+   "loai": "quán bánh căn (ăn sáng/chiều)",
+   "dac_trung": "Bánh căn đổ khuôn đất khi khách gọi, nhân trứng cút, bò, tôm, mực; chấm mắm nêm hoặc nước mắm, thêm viên xíu mại. Quán trong hẻm, đông, thường phải chờ.",
+   "dia_chi": "27/44 Yersin (trong hẻm), phường Xuân Hương - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "27/44",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/review-quan-banh-can-le-da-lat-18801",
+    "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/",
+    "https://www.foody.vn/lam-dong/banh-can-le-yersin",
+    "https://znews.vn/4-quan-banh-can-hut-khach-o-da-lat-post1195480.html",
+    "https://mytour.vn/vi/blog/bai-viet/top-nhung-quan-banh-can-ngon-nhat-o-da-lat.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: mia.vn 04/07/2025, VinWonders 31/07/2025 ghi 'phường Xuân Hương – Đà Lạt'. Foody ghi 'hơn 3 tháng chưa có tương tác mới'. Giờ mở lệch nhau: mia 6:30–15:30; Foody, Znews 7:00–10:30 và 15:30–18:00.",
+   "vi_tri": null,
+   "ghi_chu": "Nhà trong hẻm; Mytour chỉ đường vào hẻm 27 từ phía Trần Quốc Toản. Điểm chấm trên bản đồ nên đặt ở đầu hẻm, không ngay mặt đường. OSM có điểm 'Banh Can Le' ghi '44 Yersin' (node 7147596488) — có thể là cùng quán nhưng số nhà khác 27/44, cần soát tay trước khi gắn vị trí."
+  },
+  {
+   "ten": "Bánh mì xíu mại Cô Hồng",
+   "loai": "quán bánh mì xíu mại (ăn sáng)",
+   "dac_trung": "Viên xíu mại nặn to, chén nước sốt chấm bánh mì; có thêm trứng, thịt nướng. Quán nhỏ, đông khách buổi sáng.",
+   "dia_chi": "72 Yersin, phường Xuân Hương - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "72",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/banh-mi-xiu-mai-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/banh-mi-xiu-mai-da-lat-18910",
+    "https://toplist.vn/top-list/quan-banh-mi-ngon-nhat-da-lat-57112.htm",
+    "https://www.foody.vn/lam-dong/banh-mi-xiu-mai-yersin",
+    "https://www.openstreetmap.org/node/7003724789"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: mia.vn cập nhật 23/07/2026, VinWonders 30/07/2025 ghi phường mới. Giờ mở lệch nhau (VinWonders 7:00–18:00 / 6:00–10:30; mia 5:00–18:30; Toplist 6:30–12:00).",
+   "vi_tri": null,
+   "ghi_chu": "Foody gọi 'Bánh Mì Xíu Mại - Yersin', OSM gọi 'bánh mì xíu mại Hồng', Toplist 'Bánh Mì Cô Hồng' — cùng số 72."
+  },
+  {
+   "ten": "Mì Quảng Hội An - Yersin",
+   "loai": "quán mì Quảng",
+   "dac_trung": "Mì Quảng nước dùng tôm khô, có chả cua, trứng cút, tôm, thịt, đậu phộng, bánh tráng; bán chủ yếu buổi chiều tối.",
+   "dia_chi": "14 Yersin (OSM ghi 14A), phường Xuân Hương - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "14",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/mi-quang-da-lat/",
+    "https://toplist.vn/top-list/dia-chi-mi-quang-ngon-nhat-da-lat-30604.htm",
+    "https://mytour.vn/vi/blog/bai-viet/tim-kiem-top-5-quan-mi-quang-ngon-nhat-tai-da-lat.html",
+    "https://www.openstreetmap.org/node/6152514285"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: VinWonders 03/07/2025 ghi phường Xuân Hương – Đà Lạt. Giờ: VinWonders, Mytour 15:30–20:00; Toplist 6:30–12:00 và 15:30–20:00; OSM 9:00–21:00.",
+   "vi_tri": null,
+   "ghi_chu": "Hai bài VinWonders (mì Quảng, ăn sáng) tính chung 1 nguồn."
+  },
+  {
+   "ten": "Bún Cá Tầm A Huy",
+   "loai": "quán bún cá tầm",
+   "dac_trung": "Bún cá tầm — món ít gặp ngoài Đà Lạt vì cá tầm nuôi ở vùng núi lạnh quanh thành phố; mở 7:00–21:00.",
+   "dia_chi": "21 Yersin, phường Xuân Hương - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "21",
+   "nguon": [
+    "https://vietnamcoracle.com/dalat-where-to-eat-drink",
+    "https://www.openstreetmap.org/way/1356812882"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở: Vietnam Coracle đăng 01/2026 (sửa 21/11/2026) còn giới thiệu.",
+   "vi_tri": null,
+   "ghi_chu": "Số 21 chỉ có ở Vietnam Coracle; OSM có nhà 'Bún cá tầm A Huy' sát mặt đường Yersin (đoạn gần Phạm Hồng Thái) nhưng không ghi số nhà."
+  },
+  {
+   "ten": "Le J' Cafe",
+   "loai": "quán cà phê đặc sản (specialty) nhỏ",
+   "dac_trung": "Quán nhỏ vài bàn trong hẻm dốc Yersin, chủ quán Lê Minh Đức; cà phê arabica Đà Lạt, pha phin/pour over; đóng cửa sớm buổi chiều, nghỉ thứ Tư.",
+   "dia_chi": "Hẻm 51 Yersin, phường Xuân Hương - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "hẻm 51",
+   "nguon": [
+    "https://www.tatlerasia.com/dining/food/duc-rules-at-his-cafe-lej-vn",
+    "https://spinach.guide/venues/le-j-cafe-191171/",
+    "https://thaiest.com/vietnam/travel/best-cafes-coffee-shops-in-dalat",
+    "https://www.openstreetmap.org/node/13026138101"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: Tatler Asia 15/06/2026 viết về quán đang mở. Giờ: Spinach 7:30–17:00, nghỉ thứ Tư; OSM giống vậy; Tatler: chủ đóng khoảng 16:00.",
+   "vi_tri": null,
+   "ghi_chu": "Thaiest ghi địa chỉ '51a ..., Ward 10' (đọc không rõ tên đường) nhưng tả quán 'khi đi trên đường Yersin'. Tatler bị chặn tải bằng curl, đọc qua WebFetch."
+  },
+  {
+   "ten": "Tiệm Cà-phê Cô Bông",
+   "loai": "quán cà phê hoài cổ",
+   "dac_trung": "Quán hai tầng trong nhà cũ, bày đồ như những năm 1990, có quà vặt tuổi thơ; câu quen của quán: 'Cô Bông cổ bán cà-phê, bán luôn cả vé đi về tuổi thơ'.",
+   "dia_chi": "238 Yersin (Phường 9 cũ), phường Lâm Viên - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "238",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/tiem-ca-phe-co-bong-yersin",
+    "https://mia.vn/cam-nang-du-lich/ghe-tiem-ca-phe-co-bong-da-lat-mua-mot-ve-tro-ve-tuoi-tho-1562",
+    "https://toplist.vn/top-list/quan-ca-phe-hot-nhat-tai-da-lat-33327.htm",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+    "https://caffeinatedexcursions.com/the-complete-guide-to-cafes-in-dalat-vietnam",
+    "https://www.openstreetmap.org/node/7140136187"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: VinWonders 15/07/2025 còn giới thiệu; mia.vn sửa 02/04/2025. Giờ 8:00–21:30 (Foody, mia, Toplist).",
+   "vi_tri": null,
+   "ghi_chu": "Nằm ở đoạn trên (Phường 9 cũ), không phải đoạn gần hồ. Phường mới suy theo bảng giá đất; điểm OSM nằm sát ranh Xuân Hương / Lâm Viên — xem ward_ghi_chu. Mytour chép gần nguyên bài mia → không tính riêng."
+  },
+  {
+   "ten": "Tiệm cà phê Hoa Hồng",
+   "loai": "quán cà phê nhà gỗ trồng hoa hồng",
+   "dac_trung": "Nhà gỗ trắng nhỏ trên vỉa hè Yersin, trồng hoa hồng quanh quán; có trà hoa hồng hái trong vườn, cà phê trứng, bánh dứa chủ quán làm.",
+   "dia_chi": "123 Yersin (Phường 9 cũ), phường Lâm Viên - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "123",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/tiem-ca-phe-hoa-hong",
+    "https://toplist.vn/top-list/quan-ca-phe-hot-nhat-tai-da-lat-33327.htm",
+    "https://thaiest.com/vietnam/travel/best-cafes-coffee-shops-in-dalat"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: bình luận Foody mới nhất em thấy là năm 2020; Toplist, Thaiest không ghi ngày. Chưa có nguồn 2025–2026.",
+   "vi_tri": null,
+   "ghi_chu": "Phường mới suy theo bảng giá đất (đoạn trên cổng trường là Phường 9 cũ)."
+  },
+  {
+   "ten": "Khách sạn Công Đoàn (Biệt thự Tường Vy)",
+   "loai": "khách sạn trong biệt thự Pháp, mốc đầu đường",
+   "dac_trung": "Khách sạn ngay đầu đường bên hồ Xuân Hương; bảng giá đất lấy cổng khách sạn làm mốc bắt đầu đường Yersin. OSM ghi nhà kiểu biệt thự Pháp, 3 tầng, tên khác 'Biệt thự Tường Vy'.",
+   "dia_chi": "1 Yersin (mia.vn ghi 1A), phường Xuân Hương - Đà Lạt",
+   "duong": "Yersin",
+   "so_nha": "1",
+   "nguon": [
+    "https://www.openstreetmap.org/way/777438261",
+    "https://mia.vn/cam-nang-du-lich/top-10-khach-san-da-lat-duong-yersin-duoc-nhieu-nguoi-yeu-thich-10488",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-10"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: mia.vn (không rõ ngày) còn giới thiệu, OSM không ghi đóng. Chưa thấy nguồn 2025–2026.",
+   "vi_tri": null,
+   "ghi_chu": "Tên 'Biệt thự Tường Vy' và 'kiểu Pháp' chỉ có trong OSM (1 nguồn)."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "The Lost Cafe Dalat",
+   "duong": "Yersin",
+   "so_nha": "26B",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn (VinWonders 15/07/2025, quán cà phê trong căn nhà gạch đổ nát)."
+  },
+  {
+   "ten": "Bách Du Tea House (Bach Du Tea & Coffee House)",
+   "duong": "Yersin",
+   "so_nha": "142",
+   "nguon": [
+    "https://toplist.vn/top-list/tiem-ca-phe-tra-banh-ngon-view-dep-nhat-tai-da-lat-33563.htm",
+    "https://wanderlog.com/place/details/4361470",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/"
+   ],
+   "ly_do": "đủ 3 trang nhưng Wanderlog (dữ liệu Google) ghi 'Temporarily Closed' khi em xem 25/11/2026 → chưa đưa vào danh sách chính."
+  },
+  {
+   "ten": "Bánh Mì Xíu Mại 40 Yersin",
+   "duong": "Yersin",
+   "so_nha": "40",
+   "nguon": [
+    "https://wanderlog.com/place/details/11103188"
+   ],
+   "ly_do": "1 nguồn (Wanderlog, 6–10 giờ sáng)."
+  },
+  {
+   "ten": "Ốc Yersin - Hải Sản & Món Nướng",
+   "duong": "Yersin",
+   "so_nha": "27/57",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/oc-yersin"
+   ],
+   "ly_do": "1 nguồn; Foody ghi lâu chưa có tương tác, bình luận cũ (2018)."
+  },
+  {
+   "ten": "Bánh Căn Yersin (quán vỉa hè, không số nhà)",
+   "duong": "Yersin",
+   "so_nha": "",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/banh-can-yersin"
+   ],
+   "ly_do": "1 nguồn, không số nhà, bình luận 2018."
+  },
+  {
+   "ten": "Cafe Bồ Công Anh",
+   "duong": "Yersin",
+   "so_nha": "1",
+   "nguon": [
+    "https://www.openstreetmap.org/way/777438259"
+   ],
+   "ly_do": "chỉ có trên OSM (cùng khuôn viên số 1 với Khách sạn Công Đoàn)."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-10",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-9",
+  "data/lam-dong/nq1671.json (mục 99, 101)",
+  "data/lam-dong/da-lat/duong.json (10 đoạn 'Yersin', tổng khoảng 2,8 km theo OSM, kể cả đoạn nhánh)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.4465,11.9375,108.4580,11.9515 (tải 25/11/2026, tìm quán có addr:street=Yersin)",
+  "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t (ga ở đường Quang Trung, không ở Yersin)"
+ ],
+ "cap_nhat": "2026-11-25"
+}

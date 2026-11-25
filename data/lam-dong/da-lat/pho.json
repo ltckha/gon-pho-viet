@@ -3340,7 +3340,187 @@
     }
    ],
    "can_kiem_them": 10,
-   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_bui-thi-xuan.md"
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_bui-thi-xuan.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Thouard",
+      "thoi_gian": "thời Pháp, tới năm 1953",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "ten": "Võ Tánh",
+      "thoi_gian": "1953 – 1975 (hoặc 1976)",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "ten": "Bùi Thị Xuân",
+      "thoi_gian": "từ năm 1975 hoặc 1976 (nguồn vênh)",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1897 hoặc 1898 (nguồn vênh)",
+      "su_kien": "Đại uý Thouard, người sau này được đặt tên cho con đường, cầm đầu đoàn khảo sát đường từ Nha Trang lên Lâm Viên. Sau 11 tháng ông kết luận không làm được đường thẳng Nha Trang - Lâm Viên, và vạch hướng đi từ Phan Rang.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/L%E1%BB%8Bch_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie1.pdf",
+        "trang": "efeo.fr"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1953",
+      "su_kien": "Đường Thouard đổi tên thành Võ Tánh.",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+        "trang": "tinbds.com"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "1975 hoặc 1976",
+      "su_kien": "Đường Võ Tánh đổi tên thành Bùi Thị Xuân.",
+      "nguon": [
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+        "trang": "tinbds.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2023",
+      "su_kien": "Kế hoạch của thành phố: nâng cấp, mở rộng đường Bùi Thị Xuân (Phường 2 và Phường 8), dài 1.551 m, từ Trần Quốc Toản - hồ Xuân Hương tới ngã năm Đại học, vốn 110 tỷ đồng, giai đoạn 2023–2024.",
+      "nguon": [
+       {
+        "link": "https://nguoiquansat.vn/diem-ten-6-du-an-sap-khoi-cong-tai-tp-da-lat-lam-dong-75204.html",
+        "trang": "nguoiquansat.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "2024",
+      "su_kien": "Dự án nâng cấp, mở rộng đường khởi công ngày 18/7/2024. Tới đầu tháng 12/2024, trước Festival Hoa, đường vẫn đang đào, việc buôn bán của người dân bị ảnh hưởng.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/duong-pho-da-lat-ngon-ngang-truoc-ngay-khai-mac-festival-hoa-da-lat-2024-post771314.html",
+        "trang": "sggp.org.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Tháng 11/2025 thu hồi trụ điện, dây điện nổi trên đường (đoạn từ trường Nguyễn Du tới hồ Xuân Hương), làm ngầm hạ tầng. Báo Lâm Đồng ghi dự án dài 1,65 km, vốn 109 tỷ đồng.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/thu-hoi-duong-day-tru-dien-noi-tren-tuyen-duong-bui-thi-xuan-402489.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Con đường mang tên người tìm đường lên Đà Lạt",
+      "noi_dung": "Tên đầu tiên của đường là Thouard, tên một đại uý Pháp. Cuối thế kỷ 19, ông dẫn đoàn đi gần một năm để tìm đường từ Nha Trang lên cao nguyên Lâm Viên. Ông kết luận không thể làm đường thẳng Nha Trang lên được, và đề xuất đi từ Phan Rang. Một người trong đoàn, ông Missigbrott, ở lại trồng rau, nuôi bò, mở đầu cho trạm nông nghiệp sau này.",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/L%E1%BB%8Bch_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie1.pdf",
+        "trang": "efeo.fr"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Ba tên trong một thế kỷ",
+      "noi_dung": "Đường đổi tên hai lần: Thouard thời Pháp, Võ Tánh từ năm 1953, rồi Bùi Thị Xuân sau năm 1975. Tinbds kể thêm: trước năm 1975 khu này thuộc ấp Võ Tánh.",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Đào đường giữa mùa Festival",
+      "noi_dung": "Đường bắt đầu được mở rộng từ tháng 7/2024. Đầu tháng 12/2024, ngay trước Festival Hoa Đà Lạt, Sài Gòn Giải Phóng thấy đường vẫn ngổn ngang. Nhiều người dân nói thời điểm đào đường làm việc buôn bán bị ảnh hưởng, nhà nhà phải xịt nước cho đỡ bụi. Tới tháng 11/2025 vẫn đang dỡ trụ điện, làm ngầm dây.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/duong-pho-da-lat-ngon-ngang-truoc-ngay-khai-mac-festival-hoa-da-lat-2024-post771314.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/thu-hoi-duong-day-tru-dien-noi-tren-tuyen-duong-bui-thi-xuan-402489.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ]
+   }
   },
   {
    "id": "pho_hai_ba_trung",
@@ -3637,7 +3817,184 @@
     }
    ],
    "can_kiem_them": 14,
-   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_hai-ba-trung.md"
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_hai-ba-trung.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Pasteur",
+      "thoi_gian": "thời Pháp, tới năm 1953",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/pho-hai-ba-trung",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "ten": "Hai Bà Trưng",
+      "thoi_gian": "từ năm 1953",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/pho-hai-ba-trung",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1921 hoặc 1931 (nguồn vênh)",
+      "su_kien": "Hoà thượng Thích Nhơn Thứ (Nhân Thứ) từ Khánh Hoà lên Đà Lạt, dựng một thảo am trên đồi đặt tên Linh Quang tự, nay là chùa Linh Quang số 133.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Linh_Quang_(%C4%90%C3%A0_L%E1%BA%A1t)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/chua-linh-quang-da-lat-13839",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
+        "trang": "tapchinghiencuuphathoc.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1933",
+      "su_kien": "Nhờ Phật tử cúng dường, thảo am được xây thành ngôi Tam bảo.",
+      "nguon": [
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/chua-linh-quang-da-lat-13839",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1938",
+      "su_kien": "Vua Bảo Đại ban sắc tứ cho chùa Linh Quang.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Linh_Quang_(%C4%90%C3%A0_L%E1%BA%A1t)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1939",
+      "su_kien": "Ngày 4/2/1939, Tỉnh hội Phật học Đồng Nai Thượng (Haut-Donnai) họp đại hội thành lập tại chùa Linh Quang, hoà thượng Nhơn Thứ làm chứng minh.",
+      "nguon": [
+       {
+        "link": "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
+        "trang": "tapchinghiencuuphathoc.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "1953",
+      "su_kien": "Đường Pasteur đổi tên thành Hai Bà Trưng.",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/pho-hai-ba-trung",
+        "trang": "tinbds.com"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "1958, 1968, 1972",
+      "su_kien": "Chùa Linh Quang trùng tu năm 1958 và 1972. Theo Tạp chí Nghiên cứu Phật học, trong cuộc tổng tiến công năm 1968 chùa bị tàn phá nặng nề rồi được dựng lại.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Linh_Quang_(%C4%90%C3%A0_L%E1%BA%A1t)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://kienthuc.net.vn/kho-tri-thuc/trung-hop-la-ky-cua-ba-ngoi-chua-thieng-noi-tieng-da-lat-1177306.html",
+        "trang": "kienthuc.net.vn"
+       },
+       {
+        "link": "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
+        "trang": "tapchinghiencuuphathoc.vn"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Ngôi chùa đầu tiên của Đà Lạt",
+      "noi_dung": "Chùa Linh Quang ở số 133 được gọi là ngôi chùa đầu tiên dựng ở Đà Lạt, nên còn có tên Linh Quang tổ đình. Lúc đầu chỉ là một thảo am trên đồi vắng, do một vị sư từ Khánh Hoà lên dựng.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Linh_Quang_(%C4%90%C3%A0_L%E1%BA%A1t)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
+        "trang": "tapchinghiencuuphathoc.vn"
+       },
+       {
+        "link": "https://kienthuc.net.vn/kho-tri-thuc/trung-hop-la-ky-cua-ba-ngoi-chua-thieng-noi-tieng-da-lat-1177306.html",
+        "trang": "kienthuc.net.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Con phố nhiều quán '33'",
+      "noi_dung": "Dọc Hai Bà Trưng có nhiều quán ốc nhồi thịt cùng mang tên 33. VinWonders liệt kê riêng quán 33 Cô Tâm, 33 Cô Bích và quán ở số 33 Hai Bà Trưng. Một khách trên Foody kể chạy xe dọc đường 'thấy quán nào cũng ghi là quán 33'. Một khách khác than cơ sở mình ăn chỉ là trùng tên với quán gốc cách vài nhà.",
+      "nguon": [
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/oc-nhoi-thit-da-lat/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://www.foody.vn/thuong-hieu/quan-33",
+        "trang": "foody.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Nơi hội Phật giáo trong tỉnh ra đời",
+      "noi_dung": "Năm 1939, Tỉnh hội Phật học Đồng Nai Thượng họp đại hội ra mắt ngay tại chùa Linh Quang. Cuối năm 1940, hội Phật giáo tỉnh Lâm Viên cũng họp tại đây để bầu ban trị sự.",
+      "nguon": [
+       {
+        "link": "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
+        "trang": "tapchinghiencuuphathoc.vn"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ]
+   }
   },
   {
    "id": "pho_hoang_hoa_tham",
@@ -3872,7 +4229,733 @@
     }
    ],
    "can_kiem_them": 8,
-   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_hoang-hoa-tham.md"
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_hoang-hoa-tham.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Dốc Trại Hầm",
+      "thoi_gian": "thời Pháp, tới năm 1953",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "ten": "Hoàng Hoa Thám",
+      "thoi_gian": "từ năm 1953",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "moc": [
+     {
+      "nam": "khoảng 1930",
+      "su_kien": "Cụ Hầm dựng trại gần ngã ba Hoàng Hoa Thám - Hùng Vương ngày nay; con dốc được gọi theo tên trại.",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham",
+        "trang": "tinbds.com"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "1940 hoặc 1944 (nguồn vênh)",
+      "su_kien": "Chùa Linh Phong ra đời trên đồi. Kiến Thức ghi chùa hình thành năm 1940. Một blog du lịch tiếng Anh ghi dựng năm 1944, lúc đầu là chỗ tụng niệm do thầy Thích Bích Nguyên coi sóc. Wanderlog ghi dựng 1940 bằng gỗ, mái tranh, dựng lại năm 1944.",
+      "nguon": [
+       {
+        "link": "https://kienthuc.net.vn/kho-tri-thuc/trung-hop-la-ky-cua-ba-ngoi-chua-thieng-noi-tieng-da-lat-1177306.html",
+        "trang": "kienthuc.net.vn"
+       },
+       {
+        "link": "https://vietnamtourismgroup.blogspot.com/2012/05/da-lat-pagodas.html",
+        "trang": "vietnamtourismgroup.blogspot.com"
+       },
+       {
+        "link": "https://wanderlog.com/place/details/4427074/linh-phong-pagoda",
+        "trang": "wanderlog.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1948–1962",
+      "su_kien": "Ni sư Thích Nữ Tú Hương trùng tu chỗ tụng niệm cũ thành chùa Linh Phong.",
+      "nguon": [
+       {
+        "link": "https://vietnamtourismgroup.blogspot.com/2012/05/da-lat-pagodas.html",
+        "trang": "vietnamtourismgroup.blogspot.com"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "1953",
+      "su_kien": "Dốc Trại Hầm đổi tên thành đường Hoàng Hoa Thám.",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham",
+        "trang": "tinbds.com"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Con dốc mang tên một cái trại",
+      "noi_dung": "Trước khi mang tên Hoàng Hoa Thám, đường được gọi là dốc Trại Hầm. Theo tinbds, khoảng năm 1930 có cụ Hầm dựng trại gần chỗ đường gặp Hùng Vương bây giờ, dân đi qua quen miệng gọi luôn tên con dốc theo trại.",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Chùa sư nữ trên đồi",
+      "noi_dung": "Chùa Linh Phong ở số 72C có tên đầy đủ là chùa Sư nữ Linh Phong. Kiến Thức gọi đây là ngôi chùa dành cho sư cô đầu tiên ở Đà Lạt. Sau chùa có lối lên đỉnh đồi thông gọi là Quan Âm Linh Cảnh Thạch Vân Phong, đứng đó nhìn được Đà Lạt từ trên cao.",
+      "nguon": [
+       {
+        "link": "https://kienthuc.net.vn/kho-tri-thuc/trung-hop-la-ky-cua-ba-ngoi-chua-thieng-noi-tieng-da-lat-1177306.html",
+        "trang": "kienthuc.net.vn"
+       },
+       {
+        "link": "https://wanderlog.com/place/details/4427074/linh-phong-pagoda",
+        "trang": "wanderlog.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Chùa là cột mốc chia đường",
+      "noi_dung": "Bảng giá đất của tỉnh chia đường Hoàng Hoa Thám làm hai đoạn lấy chùa Linh Phong làm mốc: từ đầu đường tới chùa, và đoạn còn lại.",
+      "nguon": [
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-hoa-tham-phuong-10",
+        "trang": "thuviennhadat.vn"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "pho_nguyen_thi_minh_khai",
+   "slug": "nguyen-thi-minh-khai",
+   "ten_pho": "Phố Chợ Đêm",
+   "duong": [
+    "Nguyễn Thị Minh Khai"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Phố Chợ Đêm: đoạn dốc Nguyễn Thị Minh Khai trước chợ Đà Lạt, ban ngày là chợ, tối thành chợ đêm với 591 hộ kinh doanh bán áo len, đặc sản, đồ ăn vặt như bánh tráng nướng, dâu lắc.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.43701,
+   "lat": 11.94246,
+   "dia_diem": [
+    {
+     "ten": "Chợ Đà Lạt",
+     "loai": "chợ trung tâm (ban ngày)",
+     "dac_trung": "Chợ chính của thành phố, nằm trên trục đường Nguyễn Thị Minh Khai; tầng trệt bán rau củ, tầng trên quần áo, đồ si, khu ăn uống. Khu nhà chợ hiện nay khởi công năm 1958, xong năm 1960.",
+     "dia_chi": "Nguyễn Thị Minh Khai",
+     "duong": "Nguyễn Thị Minh Khai",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.vietnambooking.com/du-lich/blog-du-lich/tham-quan-cho-da-lat.html",
+       "trang": "vietnambooking.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kham-pha-cho-da-lat-khu-cho-sam-uat-hang-dau-thanh-pho-ngan-hoa-1331",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/9768813",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: mia.vn (cập nhật 10/08/2026) ghi 'đường Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt'; Wanderlog (dữ liệu Google) ghi phường mới, không ghi đóng (xem 25/11/2026)"
+    },
+    {
+     "ten": "Chợ đêm Đà Lạt (chợ Âm Phủ)",
+     "loai": "chợ đêm: ăn vặt, áo len, đặc sản",
+     "dac_trung": "Họp mỗi tối từ khoảng 17 giờ đến nửa đêm ngay trên đường Nguyễn Thị Minh Khai trước chợ Đà Lạt; 591 hộ kinh doanh bán quần áo, đồ len, đặc sản, quà lưu niệm và đồ ăn đường phố (bánh tráng nướng, dâu lắc, xiên nướng, sữa đậu nành).",
+     "dia_chi": "Nguyễn Thị Minh Khai",
+     "duong": "Nguyễn Thị Minh Khai",
+     "nguon": [
+      {
+       "link": "https://baolamdong.vn/da-lat-them-khong-gian-kinh-te-dem-truoc-them-festival-hoa-473734.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cho-dem-da-lat",
+       "trang": "vietnamairlines.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/review-cho-dem-da-lat-18843",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/cho-dem-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://app.wanderlog.com/place/details/2184408",
+       "trang": "app.wanderlog.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "đang họp: Báo Lâm Đồng 10/11/2026 ghi chợ đêm hiện có 591 hộ kinh doanh, phường đang làm phương án sắp xếp lại trước Festival Hoa 2026"
+    },
+    {
+     "ten": "Langfarm Buffet & Langfarm Store Chợ Đêm Đà Lạt",
+     "loai": "cửa hàng đặc sản Đà Lạt, buffet đồ sấy, mứt, trà",
+     "dac_trung": "Cửa hàng đặc sản Langfarm (L'angfarm) ngay trong khu chợ đêm, có buffet cho khách nếm thử đồ sấy, mứt, trà; Langfarm còn 3 điểm khác trên cùng đường (số 2 - Bùng Binh Nước, cầu thang chợ - Mộng Đẹp, khách sạn Thanh Bình).",
+     "dia_chi": "6 Nguyễn Thị Minh Khai",
+     "duong": "Nguyễn Thị Minh Khai",
+     "nguon": [
+      {
+       "link": "https://www.langfarm.com/stores",
+       "trang": "langfarm.com"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/langfarm-thien-duong-mua-sam-tai-da-lat.html",
+       "trang": "mytour.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: trang chính thức Langfarm ghi 'Số 6 đường Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt' cho cả Buffet và Store Chợ Đêm (xem 25/11/2026)"
+    },
+    {
+     "ten": "Fungi Chingu Chợ Đêm",
+     "loai": "quán nướng Hàn Quốc",
+     "dac_trung": "Quán nướng Hàn Quốc sát chợ Đà Lạt (người viết Foody: 'nằm ngay trong lòng chợ Đà Lạt'); bán ba chỉ bò, dẻ sườn nướng, cơm trộn; mở trưa và tối.",
+     "dia_chi": "1 Nguyễn Thị Minh Khai",
+     "duong": "Nguyễn Thị Minh Khai",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/fungi-chingu-quan-nuong-han-quoc",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/bai-viet-du-lich/an-toi-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/2625653",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: VinWonders (17/07/2025) ghi 'số 1 đường Nguyễn Thị Minh Khai, phường Xuân Hương – Đà Lạt'; Wanderlog (dữ liệu Google) ghi phường mới, giờ 11:00–13:45 và 17:00–21:30, không ghi đóng (xem 25/11/2026)"
+    },
+    {
+     "ten": "Khách sạn Nice Dream",
+     "loai": "khách sạn cạnh chợ",
+     "dac_trung": "Khách sạn ở đầu đường, sát chợ Đà Lạt; tầng 2–3 khối văn phòng có quán (Foody ghi KATINAT, Flora ở đây).",
+     "dia_chi": "01 Nguyễn Thị Minh Khai",
+     "duong": "Nguyễn Thị Minh Khai",
+     "nguon": [
+      {
+       "link": "https://www.vietnambooking.com/hotel/vietnam/khach-san-nice-dream-da-lat.html",
+       "trang": "vietnambooking.com"
+      },
+      {
+       "link": "https://ph.trip.com/hotels/dalat-hotel-detail-6097660/nice-dream-hotel/",
+       "trang": "ph.trip.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-10-khach-san-da-lat-gia-re-gan-cho-dem-ban-nen-biet-10452",
+       "trang": "mia.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: Trip.com và Vietnambooking đang nhận đặt phòng (xem 25/11/2026); mia.vn ghi phường Xuân Hương"
+    },
+    {
+     "ten": "TTC Hotel – Đà Lạt (TTC Premium)",
+     "loai": "khách sạn cạnh chợ",
+     "dac_trung": "Khách sạn ở đầu đường, gần chợ Đà Lạt và chợ đêm (mia.vn xếp vào nhóm khách sạn gần chợ đêm).",
+     "dia_chi": "4 Nguyễn Thị Minh Khai",
+     "duong": "Nguyễn Thị Minh Khai",
+     "nguon": [
+      {
+       "link": "https://www.vietnambooking.com/hotel/vietnam/ttc-hotel-da-lat.html",
+       "trang": "vietnambooking.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-10-khach-san-da-lat-gia-re-gan-cho-dem-ban-nen-biet-10452",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://ae.trip.com/hotels/dalat-hotel-detail-713949/ttc-hotel-premium-da-lat",
+       "trang": "ae.trip.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: Vietnambooking có giá phòng, Trip.com có 42 đánh giá (xem 25/11/2026)"
+    },
+    {
+     "ten": "Sandals Flora Hotel",
+     "loai": "khách sạn gần chợ",
+     "dac_trung": "Khách sạn trên đường, gần chợ Đà Lạt; mia.vn ghi thuộc chuỗi Sandals Hotel (Tập đoàn Đôi Dép). Foody có quán Flora cùng số 40.",
+     "dia_chi": "37-40 Nguyễn Thị Minh Khai",
+     "duong": "Nguyễn Thị Minh Khai",
+     "nguon": [
+      {
+       "link": "https://www.vietnambooking.com/hotel/vietnam/khach-san-sandals-flora-da-lat.html",
+       "trang": "vietnambooking.com"
+      },
+      {
+       "link": "https://nz.trip.com/hotels/dalat-hotel-detail-88787563/sandals-flora-hotel",
+       "trang": "nz.trip.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-10-khach-san-da-lat-gia-re-gan-cho-dem-ban-nen-biet-10452",
+       "trang": "mia.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: Trip.com ghi 'Last booked 19 hrs ago' (xem 25/11/2026)"
+    }
+   ],
+   "can_kiem_them": 7,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_nguyen-thi-minh-khai.md",
+   "chuyen": {
+    "ten_cu": [],
+    "moc": [
+     {
+      "nam": "1929",
+      "su_kien": "Một ngôi chợ bằng gỗ lợp tôn, gọi là \"Chợ Cây\", được dựng ở chỗ nay là rạp 3 tháng 4, khu Hòa Bình (trên đầu dốc).",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://saigoneer.com/vietnam-heritage/10837-photos-a-nostalgic-look-at-da-lat-market-through-time",
+        "trang": "saigoneer.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1937",
+      "su_kien": "Sau một trận cháy lớn, công ty SIDEC xây chợ gạch thay cho Chợ Cây.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "1958–1960",
+      "su_kien": "Chợ Đà Lạt hiện nay khởi công năm 1958 trên một vùng đất sình lầy, do kiến trúc sư Nguyễn Duy Đức thiết kế, xong năm 1960. Sau đó kiến trúc sư Ngô Viết Thụ sửa lại mặt tiền chợ.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://saigoneer.com/vietnam-heritage/10837-photos-a-nostalgic-look-at-da-lat-market-through-time",
+        "trang": "saigoneer.com"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/kham-pha-cho-da-lat-khu-cho-sam-uat-hang-dau-thanh-pho-ngan-hoa-1331",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "trước 1990",
+      "su_kien": "Khu trung tâm chưa có đèn đường sáng. Người bán hàng rong, phần lớn là phụ nữ nghèo bán đồ ăn đêm, ngồi dọc bậc thang đá xuống chợ, thắp đèn dầu nhỏ hoặc nến che trong hộp mica.",
+      "nguon": [
+       {
+        "link": "https://vtcnews.vn/vi-sao-mot-so-ngoi-cho-duoc-goi-la-cho-am-phu-ar1034471.html",
+        "trang": "vtcnews.vn"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/review-cho-dem-da-lat-18843",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2026",
+      "su_kien": "Chợ đêm Nguyễn Thị Minh Khai có 591 hộ kinh doanh. Phường Xuân Hương - Đà Lạt làm phương án sắp xếp lại trước Festival Hoa lần thứ XI: dời các hộ bán đồ len sang đường Lê Thị Hồng Gấm (cách hơn 1 km), làm công viên Nguyễn Thị Minh Khai (khoảng 3.000 m²) thành không gian ẩm thực; dự kiến 26 tỷ đồng ngân sách tỉnh cho công viên và khu Hòa Bình giai đoạn 2026–2027.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/da-lat-them-khong-gian-kinh-te-dem-truoc-them-festival-hoa-473734.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Vì sao gọi là chợ Âm Phủ",
+      "noi_dung": "Hồi chưa có đèn đường, sương từ hồ Xuân Hương tràn lên, người bán hàng rong ngồi dọc bậc thang đá thắp đèn dầu leo lét. Bóng người áo len, khăn kín mặt đi lại trong sương khiến người qua đường đùa là phiên chợ cõi âm, rồi cái tên \"chợ Âm Phủ\" ở lại tới nay.",
+      "nguon": [
+       {
+        "link": "https://vtcnews.vn/vi-sao-mot-so-ngoi-cho-duoc-goi-la-cho-am-phu-ar1034471.html",
+        "trang": "vtcnews.vn"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/review-cho-dem-da-lat-18843",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Chợ dựng trên đất sình",
+      "noi_dung": "Chỗ chợ Đà Lạt bây giờ trước năm 1958 là vùng đất sình lầy. Kiến trúc sư Nguyễn Duy Đức vẽ chợ mới, xây xong năm 1960; về sau kiến trúc sư Ngô Viết Thụ sửa lại mặt tiền.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://saigoneer.com/vietnam-heritage/10837-photos-a-nostalgic-look-at-da-lat-market-through-time",
+        "trang": "saigoneer.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Bánh tráng nướng, dâu lắc",
+      "noi_dung": "Chợ đêm trên Nguyễn Thị Minh Khai là chỗ quen để ăn bánh tráng nướng (người nước ngoài gọi là \"pizza Việt Nam\"), hàng chục quầy nướng than cạnh nhau. Dọc đường vào chợ có các xe dâu tây lắc muối tôm, xoài lắc, cóc lắc.",
+      "nguon": [
+       {
+        "link": "https://www.vietnamtourism.com/vi/am-thuc-a-lat-ca-phe-lau-va-o-an-uong-pho",
+        "trang": "vietnamtourism.com"
+       },
+       {
+        "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cho-dem-da-lat",
+        "trang": "vietnamairlines.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Một con dốc, bốn cửa hàng Langfarm",
+      "noi_dung": "Hãng đặc sản Langfarm có tới 4 điểm trên đường này theo trang chính thức: Buffet và Store Chợ Đêm ở số 6, Bùng Binh Nước ở số 2, Mộng Đẹp ở cầu thang chợ, và một điểm trong khách sạn Thanh Bình ở bùng binh chợ.",
+      "nguon": [
+       {
+        "link": "https://www.langfarm.com/stores",
+        "trang": "langfarm.com"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "pho_phan_boi_chau",
+   "slug": "phan-boi-chau",
+   "ten_pho": "Phố Khách Sạn Cạnh Chợ",
+   "duong": [
+    "Phan Bội Châu"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Phố Khách Sạn Cạnh Chợ: đường Phan Bội Châu ngắn, chạy từ Khu Hòa Bình sát chợ Đà Lạt xuống Bùi Thị Xuân, có khách sạn lớn Colline và Mường Thanh Holiday (đi bộ 3–4 phút tới chợ), quán bar mê cung 100 Roofs, quán nướng buffet và lẩu cháo mở tới khuya.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.43885,
+   "lat": 11.94353,
+   "dia_diem": [
+    {
+     "ten": "Hôtel Colline (Colline Dalat)",
+     "loai": "khách sạn 4 sao",
+     "dac_trung": "Khách sạn lớn ngay cạnh chợ Đà Lạt và chợ đêm, mở năm 2019; phòng nhìn ra phố, nhà hàng Salt & Soy.",
+     "dia_chi": "10 Phan Bội Châu",
+     "duong": "Phan Bội Châu",
+     "nguon": [
+      {
+       "link": "https://uk.trip.com/hotels/dalat-hotel-detail-29515862/colline-dalat",
+       "trang": "uk.trip.com"
+      },
+      {
+       "link": "https://thanhtra.com.vn/du-lich-E19590D86/khach-san-colline-noi-trai-nghiem-thu-vi-95F58B85.html",
+       "trang": "thanhtra.com.vn"
+      },
+      {
+       "link": "https://mytour.vn/en/blog/bai-viet/hotel-colline-review-a-little-europe-in-the-heart-of-dalat.html",
+       "trang": "mytour.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2026: Trip.com ghi '10 Phan Boi Chau, Xuan Huong - Da Lat', nhận đặt phòng, có đánh giá đăng 03/10/2026 (xem 25/11/2026)"
+    },
+    {
+     "ten": "Mường Thanh Holiday Đà Lạt",
+     "loai": "khách sạn",
+     "dac_trung": "Khách sạn chuỗi Mường Thanh, đi bộ 4 phút tới chợ Đà Lạt; có hồ bơi, spa, khu vườn có cẩm tú cầu.",
+     "dia_chi": "42 Phan Bội Châu",
+     "duong": "Phan Bội Châu",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/muong-thanh-holiday-da-lat-hotel-thien-duong-nghi-duong-dang-cap-bac-nhat-6120",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://nz.trip.com/hotels/dalat-hotel-detail-713901/muong-thanh-holiday-da-lat-hotel",
+       "trang": "nz.trip.com"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/ho-xuan-huong-da-lat/",
+       "trang": "vinwonders.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2026: mia.vn ghi '42 Phan Bội Châu, phường Xuân Hương - Đà Lạt'; Trip.com ghi phường mới, nhận đặt phòng (xem 25/11/2026)"
+    },
+    {
+     "ten": "100 Roofs Café (100 Mái Cafe, Đường Lên Trăng, Maze Bar)",
+     "loai": "quán bar - cà phê kiến trúc mê cung",
+     "dac_trung": "Quán bar trong ngôi nhà nhiều tầng như mê cung, cầu thang xoắn và ngóc ngách, trên cùng là vườn sân thượng nhìn ra phố; người Đà Lạt gọi 'Đường Lên Trăng'. Khách nước ngoài đông.",
+     "dia_chi": "57 Phan Bội Châu",
+     "duong": "Phan Bội Châu",
+     "nguon": [
+      {
+       "link": "https://nz.trip.com/restaurant/vietnam/dalat/detail/maze-bar-149433915/",
+       "trang": "nz.trip.com"
+      },
+      {
+       "link": "https://app.wanderlog.com/place/details/1461945",
+       "trang": "app.wanderlog.com"
+      },
+      {
+       "link": "https://thaiest.com/vietnam/travel/most-unique-themed-cafes-in-dalat",
+       "trang": "thaiest.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/100-mai-cafe",
+       "trang": "foody.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở 2026: Trip.com ghi '57 Phan Bội Châu, Xuân Hương - Đà Lạt', giờ 8:00–23:59; Wanderlog (dữ liệu Google) ghi phường mới, giờ 8:30–24:00 (xem 25/11/2026)"
+    },
+    {
+     "ten": "Cút Kít BBQ & Beer",
+     "loai": "quán nướng buffet",
+     "dac_trung": "Quán nướng phục vụ buffet (gói 155k, 195k theo bình luận Foody), có khu chơi cho trẻ em; mở chiều tối tới 23 giờ.",
+     "dia_chi": "145 Phan Bội Châu",
+     "duong": "Phan Bội Châu",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/quan-nuong-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/cut-kit-bbq-beer-phan-boi-chau",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/danh-sach-cac-quan-nuong-da-lat-hap-dan-ban-khong-the-bo-qua.html",
+       "trang": "mytour.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "dấu hiệu yếu: VinWonders ghi địa chỉ phường mới (bài sửa sau 7/2025); Mytour (cập nhật 1/11/2026) vẫn giới thiệu nhưng ghi phường cũ; Foody ghi 'Hơn 3 tháng chưa có tương tác mới'"
+    },
+    {
+     "ten": "Mộc Thủy - Lẩu Cháo (cháo bồ câu 40 Phan Bội Châu)",
+     "loai": "quán lẩu cháo, cháo bồ câu",
+     "dac_trung": "Lẩu cháo, cháo chim bồ câu kèm mì hải sản, cá chiên sốt cà, rau xào; mở 15:00–23:00, cạnh khách sạn Mường Thanh.",
+     "dia_chi": "40 Phan Bội Châu",
+     "duong": "Phan Bội Châu",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/moc-thuy-lau-chao",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/bai-viet-du-lich/quan-chao-da-lat-ngon-kho-cuong/",
+       "trang": "vinwonders.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "chưa rõ: VinWonders ghi phường mới (bài sửa sau 7/2025) nhưng không ghi tên quán; Foody ghi 'Hơn 3 tháng chưa có tương tác mới', bình luận mới nhất em thấy từ 2018"
+    },
+    {
+     "ten": "Kem Xôi Dừa Kim Cúc",
+     "loai": "quán kem xôi dừa",
+     "dac_trung": "Quán kem xôi dừa ở đầu đường phía chợ; mở 10:30 sáng tới gần 23 giờ.",
+     "dia_chi": "8 Phan Bội Châu",
+     "duong": "Phan Bội Châu",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/kem-xoi-dua-kim-cuc-8-phan-boi-chau",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/9635992/kem-x%C3%B4i-d%E1%BB%ABa-kim-c%C3%BAc-kim-cuc-ice-cream",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: Wanderlog (dữ liệu Google) ghi '8a Phan Bội Châu, Xuân Hương - Đà Lạt', giờ 10:30–22:45 (xem 25/11/2026)"
+    },
+    {
+     "ten": "Lake View Hotel",
+     "loai": "khách sạn 2 sao",
+     "dac_trung": "Khách sạn 2 sao, Kayak ghi đi bộ 4 phút tới chợ Đà Lạt, 12 phút tới nhà thờ Con Gà.",
+     "dia_chi": "121 Phan Bội Châu",
+     "duong": "Phan Bội Châu",
+     "nguon": [
+      {
+       "link": "https://www.kayak.com/Dalat-Hotels-Lake-View-Hotel.2930564.ksp",
+       "trang": "kayak.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/lake-view-hotel",
+       "trang": "foody.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: Kayak nhận tìm phòng cho tháng 12/2026, 107 đánh giá (xem 25/11/2026); Foody ghi 'Hơn 3 tháng chưa có tương tác mới'"
+    }
+   ],
+   "can_kiem_them": 11,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_phan-boi-chau.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Van Vollenhoven",
+      "thoi_gian": "thời Pháp, trước năm 1953",
+      "nguon": [
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "ten": "Phan Bội Châu",
+      "thoi_gian": "sau năm 1953 (chưa rõ năm đổi)",
+      "nguon": [
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/phan-boi-chau-phuong-1",
+        "trang": "thuviennhadat.vn"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ],
+    "moc": [
+     {
+      "nam": "2007",
+      "su_kien": "Khách sạn Mường Thanh Holiday Đà Lạt ở số 42 mở cửa (sửa lại năm 2014).",
+      "nguon": [
+       {
+        "link": "https://nz.trip.com/hotels/dalat-hotel-detail-713901/muong-thanh-holiday-da-lat-hotel",
+        "trang": "nz.trip.com"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "2019",
+      "su_kien": "Hôtel Colline mở ở số 10, ngay cạnh chợ Đà Lạt và chợ đêm. Báo Thanh tra (23/08/2019) gọi Phan Bội Châu là 'một trong những cung đường huyết mạch' để khách đi tới hồ Xuân Hương, chợ Đà Lạt, chợ đêm.",
+      "nguon": [
+       {
+        "link": "https://thanhtra.com.vn/du-lich-E19590D86/khach-san-colline-noi-trai-nghiem-thu-vi-95F58B85.html",
+        "trang": "thanhtra.com.vn"
+       },
+       {
+        "link": "https://uk.trip.com/hotels/dalat-hotel-detail-29515862/colline-dalat",
+        "trang": "uk.trip.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2026",
+      "su_kien": "Phan Bội Châu nằm trong 9 tuyến đường trung tâm Đà Lạt được nâng cấp mặt đường, làm mới vỉa hè (gần 7 km, hơn 50 tỷ đồng), dự kiến xong tháng 7/2027.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/da-lat-nang-cap-loat-tuyen-duong-noi-do-470184.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Quán bar mê cung 'Đường Lên Trăng'",
+      "noi_dung": "Số 57 là 100 Roofs Café, tên Việt '100 Mái', người ta quen gọi 'Đường Lên Trăng'. Ngoài nhìn như nhà thường, trong là cầu thang xoắn, ngóc ngách như mê cung, leo lên tới vườn sân thượng nhìn ra thành phố. Trang Thaiest ví với Crazy House.",
+      "nguon": [
+       {
+        "link": "https://www.foody.vn/lam-dong/100-mai-cafe",
+        "trang": "foody.vn"
+       },
+       {
+        "link": "https://thaiest.com/vietnam/travel/most-unique-themed-cafes-in-dalat",
+        "trang": "thaiest.com"
+       },
+       {
+        "link": "https://nz.trip.com/restaurant/vietnam/dalat/detail/maze-bar-149433915/",
+        "trang": "nz.trip.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Đầu đường là quảng trường chợ cũ",
+      "noi_dung": "Phan Bội Châu bắt đầu ở Khu Hòa Bình. Thời Pháp chỗ này là quảng trường chợ (Marché), sau đổi tên thành Khu Hòa Bình.",
+      "nguon": [
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ]
+   }
   },
   {
    "id": "pho_trieu_viet_vuong",
@@ -4079,7 +5162,768 @@
     }
    ],
    "can_kiem_them": 10,
-   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_trieu-viet-vuong.md"
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_trieu-viet-vuong.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Darles",
+      "thoi_gian": "thời Pháp, tới năm 1953",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "ten": "Triệu Việt Vương",
+      "thoi_gian": "từ năm 1953",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
+        "trang": "tinbds.com"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1933–1938 (có nguồn ghi 1937–1941)",
+      "su_kien": "Xây Dinh III, biệt điện của vua Bảo Đại, ở số 1 Triệu Việt Vương.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_III",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://vietnamnet.vn/cuu-hoang-bao-dai-va-chung-tich-tinh-yeu-o-da-lat-64026.html",
+        "trang": "vietnamnet.vn"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/dinh-3-da-lat-biet-dien-vua-bao-dai-kham-pha-kien-truc-co-dien-phap-tai-da-lat-1385",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html",
+        "trang": "baoquocte.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1949",
+      "su_kien": "Hoàng hậu Nam Phương đưa các con sang Pháp sống và học. Các phòng của hoàng hậu, hoàng tử, công chúa trong dinh được giữ lại như cũ.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_III",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://plo.vn/biet-dien-mua-he-cua-vua-bao-dai-o-da-lat-post318549.html",
+        "trang": "plo.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1953",
+      "su_kien": "Đường Darles đổi tên thành Triệu Việt Vương.",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
+        "trang": "tinbds.com"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "sau 1954",
+      "su_kien": "Bảo Đại sang Pháp sống lưu vong. Dinh thành chỗ nghỉ mát cao cấp của chính quyền Ngô Đình Diệm, sau đó là của Nguyễn Văn Thiệu.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_III",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://vietnamnet.vn/cuu-hoang-bao-dai-va-chung-tich-tinh-yeu-o-da-lat-64026.html",
+        "trang": "vietnamnet.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "giữa năm 2000",
+      "su_kien": "Dinh được giao cho Công ty du lịch dịch vụ Xuân Hương quản lý. Trước đó, sau năm 1975, dinh thuộc Ban tài chính quản trị Tỉnh uỷ Lâm Đồng.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_III",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "13/11/2020",
+      "su_kien": "Đại sứ Pháp Nicolas Warnery trao cho tỉnh Lâm Đồng bản sao (đã số hoá) bản vẽ thiết kế Dinh III, do con trai kiến trúc sư Paul Veysseyre tặng.",
+      "nguon": [
+       {
+        "link": "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html",
+        "trang": "baoquocte.vn"
+       },
+       {
+        "link": "https://en.nhandan.vn/french-ambassador-presents-digitised-design-of-bao-dai-palace-to-lam-dong-province-post92023.html",
+        "trang": "en.nhandan.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/doi-song-van-hoa/phap-tang-ban-sao-so-do-thiet-ke-dinh-iii-cho-tinh-lam-dong-67129.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Bản vẽ Dinh III về lại Đà Lạt",
+      "noi_dung": "Gia đình kiến trúc sư Paul Veysseyre ở Pháp còn giữ bản vẽ gốc của Dinh III. Năm 2020, con trai ông là Jacques Veysseyre nhờ Đại sứ Pháp trao bản sao đã số hoá cho tỉnh Lâm Đồng, kèm một bức chân dung kiến trúc sư. Bản gốc lúc đó đang được phục chế, hẹn sẽ trao sau.",
+      "nguon": [
+       {
+        "link": "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html",
+        "trang": "baoquocte.vn"
+       },
+       {
+        "link": "https://en.nhandan.vn/french-ambassador-presents-digitised-design-of-bao-dai-palace-to-lam-dong-province-post92023.html",
+        "trang": "en.nhandan.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/doi-song-van-hoa/phap-tang-ban-sao-so-do-thiet-ke-dinh-iii-cho-tinh-lam-dong-67129.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Ai vẽ Dinh III?",
+      "noi_dung": "Nguồn nào cũng có tên kiến trúc sư Pháp Paul Veysseyre. Wikipedia tiếng Việt (dẫn trang của tỉnh) ghi người cùng vẽ là Arthur Kruze. VinWonders và Việt Báo lại ghi là kiến trúc sư Huỳnh Tấn Phát. Báo Thế giới & Việt Nam chỉ nói Veysseyre làm cùng 'các nhà xây dựng Việt Nam'.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Dinh_III",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://vietbao.vn/kham-pha-dinh-iii-noi-luu-giu-ky-uc-ve-vua-bao-dai-va-nam-phuong-hoang-hau-600707.html",
+        "trang": "vietbao.vn"
+       },
+       {
+        "link": "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html",
+        "trang": "baoquocte.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Quán cà phê của các bạn trẻ người điếc",
+      "noi_dung": "Dưới một con dốc nhỏ trên Triệu Việt Vương có Quán Của Thời Thanh Xuân. Người phục vụ và làm bánh ở đây đều là người điếc, khách gọi món bằng giấy bút. Bức tường quầy nước dán kín hàng nghìn mẩu giấy khách viết từ ngày đầu mở quán. Báo Lâm Đồng (8/2025) ghi quán đã hoạt động gần 10 năm.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/noi-luu-giu-huong-hoa-cho-doi-388319.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/ca-phe-thoi-thanh-xuan-noi-luu-giu-nhung-hanh-phuc-6289",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Đường nằm trên ranh hai khu phố",
+      "noi_dung": "Khi mới đổi tên năm 1953, đường thuộc khu phố VII và VIII, chạy đúng trên ranh giới hai khu phố.",
+      "nguon": [
+       {
+        "link": "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
+        "trang": "tinbds.com"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "pho_yersin",
+   "slug": "yersin",
+   "ten_pho": "Phố Trường Xưa",
+   "duong": [
+    "Yersin"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Phố Trường Xưa: đường Yersin đi từ công viên Yersin bên hồ Xuân Hương lên ngôi trường gạch đỏ Lycée Yersin mở năm 1927 (nay là Trường Cao đẳng Đà Lạt, một trong 1.000 công trình kiến trúc tiêu biểu thế kỷ XX do Hội Kiến trúc sư Thế giới chọn); đầu dốc gần hồ là chỗ ăn sáng với bánh căn Lệ, bánh mì xíu mại Cô Hồng, mì Quảng.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.45146,
+   "lat": 11.94467,
+   "dia_diem": [
+    {
+     "ten": "Trường Cao đẳng Đà Lạt (Lycée Yersin cũ, Cao đẳng Sư phạm Đà Lạt)",
+     "loai": "di tích kiến trúc, trường học",
+     "dac_trung": "Dãy nhà hình vòng cung theo sườn đồi, gạch đỏ và ngói thạch bản chở từ Pháp, kiến trúc sư Moncet; Petit Lycée khánh thành 1927, mang tên Lycée Yersin từ 1935; di tích kiến trúc quốc gia năm 2001 (QĐ 52/2001/QĐ-BVHTT); được UIA đưa vào danh sách 1.000 công trình tiêu biểu thế kỷ XX.",
+     "dia_chi": "109 Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://baolamdong.vn/khoac-ao-moi-cho-di-tich-quoc-gia-truong-cao-dang-da-lat-421271.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://baolamdong.vn/kien-truc-truong-cao-dang-su-pham-da-lat-di-san-the-ky-xx-giua-long-thanh-pho-454619.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://nhandan.vn/doc-dao-kien-truc-truong-cao-dang-da-lat-post958014.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Cao_%C4%91%E1%BA%B3ng_S%C6%B0_ph%E1%BA%A1m_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/971585499",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "còn là trường học; Báo Lâm Đồng 29/01/2026 và 21/07/2026, Nhân Dân 24/04/2026 viết về trường đang hoạt động, có tu bổ. Vào tham quan cần hỏi trường (chưa có nguồn ghi giờ mở cho khách)."
+    },
+    {
+     "ten": "Công viên Yersin",
+     "loai": "công viên bên hồ, tượng bác sĩ Yersin",
+     "dac_trung": "Công viên ở đầu đường, sát hồ Xuân Hương; tượng đá bác sĩ Alexandre Yersin đặt năm 2008 nhân 115 năm Yersin tìm ra Đà Lạt (tượng nặng 25 tấn, cao gần 2,5 m, nhà điêu khắc Phạm Văn Hằng).",
+     "dia_chi": "Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://en.sggp.org.vn/da-lat-unveils-statue-of-alexandre-yersin-to-mark-its-115th-anniversary-post34098.html",
+       "trang": "en.sggp.org.vn"
+      },
+      {
+       "link": "https://baolamdong.vn/go-vuong-mat-bang-cong-vien-yersin-468111.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/2582217",
+       "trang": "wanderlog.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/relation/20594897",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "mở; Báo Lâm Đồng 07/10/2026: công viên đang dùng, giai đoạn 3 (mở rộng) còn vướng mặt bằng. Wanderlog ghi mở 24 giờ."
+    },
+    {
+     "ten": "Bánh Căn Lệ",
+     "loai": "quán bánh căn (ăn sáng/chiều)",
+     "dac_trung": "Bánh căn đổ khuôn đất khi khách gọi, nhân trứng cút, bò, tôm, mực; chấm mắm nêm hoặc nước mắm, thêm viên xíu mại. Quán trong hẻm, đông, thường phải chờ.",
+     "dia_chi": "27/44 Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/review-quan-banh-can-le-da-lat-18801",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/banh-can-le-yersin",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://znews.vn/4-quan-banh-can-hut-khach-o-da-lat-post1195480.html",
+       "trang": "znews.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/top-nhung-quan-banh-can-ngon-nhat-o-da-lat.html",
+       "trang": "mytour.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: mia.vn 04/07/2025, VinWonders 31/07/2025 ghi 'phường Xuân Hương – Đà Lạt'. Foody ghi 'hơn 3 tháng chưa có tương tác mới'. Giờ mở lệch nhau: mia 6:30–15:30; Foody, Znews 7:00–10:30 và 15:30–18:00."
+    },
+    {
+     "ten": "Bánh mì xíu mại Cô Hồng",
+     "loai": "quán bánh mì xíu mại (ăn sáng)",
+     "dac_trung": "Viên xíu mại nặn to, chén nước sốt chấm bánh mì; có thêm trứng, thịt nướng. Quán nhỏ, đông khách buổi sáng.",
+     "dia_chi": "72 Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-mi-xiu-mai-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/banh-mi-xiu-mai-da-lat-18910",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-banh-mi-ngon-nhat-da-lat-57112.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/banh-mi-xiu-mai-yersin",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/7003724789",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: mia.vn cập nhật 23/07/2026, VinWonders 30/07/2025 ghi phường mới. Giờ mở lệch nhau (VinWonders 7:00–18:00 / 6:00–10:30; mia 5:00–18:30; Toplist 6:30–12:00)."
+    },
+    {
+     "ten": "Mì Quảng Hội An - Yersin",
+     "loai": "quán mì Quảng",
+     "dac_trung": "Mì Quảng nước dùng tôm khô, có chả cua, trứng cút, tôm, thịt, đậu phộng, bánh tráng; bán chủ yếu buổi chiều tối.",
+     "dia_chi": "14 Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/mi-quang-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://toplist.vn/top-list/dia-chi-mi-quang-ngon-nhat-da-lat-30604.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/tim-kiem-top-5-quan-mi-quang-ngon-nhat-tai-da-lat.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/6152514285",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: VinWonders 03/07/2025 ghi phường Xuân Hương – Đà Lạt. Giờ: VinWonders, Mytour 15:30–20:00; Toplist 6:30–12:00 và 15:30–20:00; OSM 9:00–21:00."
+    },
+    {
+     "ten": "Bún Cá Tầm A Huy",
+     "loai": "quán bún cá tầm",
+     "dac_trung": "Bún cá tầm — món ít gặp ngoài Đà Lạt vì cá tầm nuôi ở vùng núi lạnh quanh thành phố; mở 7:00–21:00.",
+     "dia_chi": "21 Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://vietnamcoracle.com/dalat-where-to-eat-drink",
+       "trang": "vietnamcoracle.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1356812882",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: Vietnam Coracle đăng 01/2026 (sửa 21/11/2026) còn giới thiệu."
+    },
+    {
+     "ten": "Le J' Cafe",
+     "loai": "quán cà phê đặc sản (specialty) nhỏ",
+     "dac_trung": "Quán nhỏ vài bàn trong hẻm dốc Yersin, chủ quán Lê Minh Đức; cà phê arabica Đà Lạt, pha phin/pour over; đóng cửa sớm buổi chiều, nghỉ thứ Tư.",
+     "dia_chi": "hẻm 51 Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://www.tatlerasia.com/dining/food/duc-rules-at-his-cafe-lej-vn",
+       "trang": "tatlerasia.com"
+      },
+      {
+       "link": "https://spinach.guide/venues/le-j-cafe-191171/",
+       "trang": "spinach.guide"
+      },
+      {
+       "link": "https://thaiest.com/vietnam/travel/best-cafes-coffee-shops-in-dalat",
+       "trang": "thaiest.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/13026138101",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: Tatler Asia 15/06/2026 viết về quán đang mở. Giờ: Spinach 7:30–17:00, nghỉ thứ Tư; OSM giống vậy; Tatler: chủ đóng khoảng 16:00."
+    },
+    {
+     "ten": "Tiệm Cà-phê Cô Bông",
+     "loai": "quán cà phê hoài cổ",
+     "dac_trung": "Quán hai tầng trong nhà cũ, bày đồ như những năm 1990, có quà vặt tuổi thơ; câu quen của quán: 'Cô Bông cổ bán cà-phê, bán luôn cả vé đi về tuổi thơ'.",
+     "dia_chi": "238 Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/tiem-ca-phe-co-bong-yersin",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/ghe-tiem-ca-phe-co-bong-da-lat-mua-mot-ve-tro-ve-tuoi-tho-1562",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-ca-phe-hot-nhat-tai-da-lat-33327.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://caffeinatedexcursions.com/the-complete-guide-to-cafes-in-dalat-vietnam",
+       "trang": "caffeinatedexcursions.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/7140136187",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu còn mở: VinWonders 15/07/2025 còn giới thiệu; mia.vn sửa 02/04/2025. Giờ 8:00–21:30 (Foody, mia, Toplist)."
+    },
+    {
+     "ten": "Tiệm cà phê Hoa Hồng",
+     "loai": "quán cà phê nhà gỗ trồng hoa hồng",
+     "dac_trung": "Nhà gỗ trắng nhỏ trên vỉa hè Yersin, trồng hoa hồng quanh quán; có trà hoa hồng hái trong vườn, cà phê trứng, bánh dứa chủ quán làm.",
+     "dia_chi": "123 Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/tiem-ca-phe-hoa-hong",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-ca-phe-hot-nhat-tai-da-lat-33327.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://thaiest.com/vietnam/travel/best-cafes-coffee-shops-in-dalat",
+       "trang": "thaiest.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "chưa rõ: bình luận Foody mới nhất em thấy là năm 2020; Toplist, Thaiest không ghi ngày. Chưa có nguồn 2025–2026."
+    },
+    {
+     "ten": "Khách sạn Công Đoàn (Biệt thự Tường Vy)",
+     "loai": "khách sạn trong biệt thự Pháp, mốc đầu đường",
+     "dac_trung": "Khách sạn ngay đầu đường bên hồ Xuân Hương; bảng giá đất lấy cổng khách sạn làm mốc bắt đầu đường Yersin. OSM ghi nhà kiểu biệt thự Pháp, 3 tầng, tên khác 'Biệt thự Tường Vy'.",
+     "dia_chi": "1 Yersin",
+     "duong": "Yersin",
+     "nguon": [
+      {
+       "link": "https://www.openstreetmap.org/way/777438261",
+       "trang": "openstreetmap.org"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-10-khach-san-da-lat-duong-yersin-duoc-nhieu-nguoi-yeu-thich-10488",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-10",
+       "trang": "thuviennhadat.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "chưa rõ: mia.vn (không rõ ngày) còn giới thiệu, OSM không ghi đóng. Chưa thấy nguồn 2025–2026."
+    }
+   ],
+   "can_kiem_them": 6,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_yersin.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Albert Sarraut",
+      "thoi_gian": "thời Pháp",
+      "nguon": [
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "ten": "Thống Nhất",
+      "thoi_gian": "trước năm 1993",
+      "nguon": [
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-10",
+        "trang": "thuviennhadat.vn"
+       },
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "ten": "Yersin",
+      "thoi_gian": "từ năm 1993",
+      "nguon": [
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1927",
+      "su_kien": "Trường Petit Lycée Đà Lạt khánh thành (Wikipedia: lập theo nghị định 16/7/1927, mở lớp 16/9/1927), dành cho con em người Pháp và một số gia đình Việt khá giả. Kiến trúc sư Moncet thiết kế.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-truong-cao-dang-da-lat-post958014.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Lyc%C3%A9e_Yersin",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://baolamdong.vn/kien-truc-truong-cao-dang-su-pham-da-lat-di-san-the-ky-xx-giua-long-thanh-pho-454619.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1929",
+      "su_kien": "Khởi công khu Grand Lycée (khối nhà vòng cung lớn).",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-truong-cao-dang-da-lat-post958014.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/da-lat-pedagogy-college/",
+        "trang": "localvietnam.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1932",
+      "su_kien": "Người Pháp khởi công nhà ga Đà Lạt, cách đầu dốc Yersin – Nguyễn Trãi một quãng ngắn (ga ở đường Quang Trung, không nằm trên đường Yersin).",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vnexpress.net/nha-ga-xe-lua-co-nhat-dong-duong-o-da-lat-3824481.html",
+        "trang": "vnexpress.net"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1935",
+      "su_kien": "Trường mang tên Lycée Yersin, để tưởng nhớ bác sĩ Alexandre Yersin, người tìm ra cao nguyên Lang Biang.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-truong-cao-dang-da-lat-post958014.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Lyc%C3%A9e_Yersin",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/da-lat-pedagogy-college/",
+        "trang": "localvietnam.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1976",
+      "su_kien": "Trường thành Trường Cao đẳng Sư phạm Đà Lạt (Wikipedia: lập ngày 3/9/1976 theo quyết định 1784/QĐ của Bộ Giáo dục).",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-truong-cao-dang-da-lat-post958014.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Cao_%C4%91%E1%BA%B3ng_S%C6%B0_ph%E1%BA%A1m_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2000–2001",
+      "su_kien": "Hội Kiến trúc sư Thế giới (UIA) đưa tòa nhà vào danh sách 1.000 công trình kiến trúc tiêu biểu thế kỷ XX; năm 2001 Bộ Văn hóa - Thông tin xếp hạng di tích kiến trúc cấp quốc gia (QĐ 52/2001/QĐ-BVHTT).",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/khoac-ao-moi-cho-di-tich-quoc-gia-truong-cao-dang-da-lat-421271.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/kien-truc-truong-cao-dang-su-pham-da-lat-di-san-the-ky-xx-giua-long-thanh-pho-454619.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-truong-cao-dang-da-lat-post958014.html",
+        "trang": "nhandan.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2008",
+      "su_kien": "Tượng đá bác sĩ Yersin (25 tấn, cao gần 2,5 m, nhà điêu khắc Phạm Văn Hằng) được đặt ở công viên Yersin bên hồ Xuân Hương, nhân 115 năm Yersin tìm ra Đà Lạt.",
+      "nguon": [
+       {
+        "link": "https://en.sggp.org.vn/da-lat-unveils-statue-of-alexandre-yersin-to-mark-its-115th-anniversary-post34098.html",
+        "trang": "en.sggp.org.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "2022",
+      "su_kien": "Cao đẳng Sư phạm Đà Lạt sáp nhập với Cao đẳng Kinh tế - Kỹ thuật Lâm Đồng và Cao đẳng Nghề Đà Lạt thành Trường Cao đẳng Đà Lạt.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-truong-cao-dang-da-lat-post958014.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Lyc%C3%A9e_Yersin",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2026",
+      "su_kien": "Dự án Công viên Yersin giai đoạn 3 (khu quy hoạch 12,8 ha cạnh hồ Xuân Hương) vẫn chờ giải phóng mặt bằng để thi công.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/go-vuong-mat-bang-cong-vien-yersin-468111.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Hai con đường tên Yersin",
+      "noi_dung": "Thời Pháp, cái tên Yersin thuộc về con đường nay là Trần Phú. Đường Yersin bây giờ khi ấy mang tên Albert Sarraut, sau đổi thành Thống Nhất, đến năm 1993 mới lấy tên Yersin. Bảng giá đất của tỉnh tới nay vẫn ghi 'Yersin (Thống Nhất cũ)'.",
+      "nguon": [
+       {
+        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+        "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-10",
+        "trang": "thuviennhadat.vn"
+       },
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-9",
+        "trang": "thuviennhadat.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Gạch đỏ, ngói đá chở từ Pháp sang",
+      "noi_dung": "Dãy lớp học hình vòng cung của Lycée Yersin uốn theo sườn đồi, một phía nhìn xuống hồ Xuân Hương, phía kia nhìn sang thung lũng nhà ga. Tường gạch trần màu đỏ và mái ngói thạch bản xanh đen được chở từ Pháp sang.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-truong-cao-dang-da-lat-post958014.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/kien-truc-truong-cao-dang-su-pham-da-lat-di-san-the-ky-xx-giua-long-thanh-pho-454619.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Lyc%C3%A9e_Yersin",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Vết đồng hồ trên tháp chuông",
+      "noi_dung": "Ngoài tháp chuông của trường trước kia có một chiếc đồng hồ lớn; nay đồng hồ không còn, chỉ thấy vết in lại trên nền gạch.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Cao_%C4%91%E1%BA%B3ng_S%C6%B0_ph%E1%BA%A1m_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Lyc%C3%A9e_Yersin",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "tieu_de": "Bữa sáng đầu dốc Yersin",
+      "noi_dung": "Đoạn gần hồ Xuân Hương có mấy quán ăn sáng quen: bánh căn Lệ trong hẻm 27/44 (thường phải chờ vì bánh đổ khi khách gọi), bánh mì xíu mại Cô Hồng số 72, mì Quảng Hội An số 14.",
+      "nguon": [
+       {
+        "link": "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/banh-mi-xiu-mai-da-lat-18910",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://znews.vn/4-quan-banh-can-hut-khach-o-da-lat-post1195480.html",
+        "trang": "znews.vn"
+       },
+       {
+        "link": "https://www.foody.vn/lam-dong/banh-can-le-yersin",
+        "trang": "foody.vn"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ]
+   }
   }
  ]
 }

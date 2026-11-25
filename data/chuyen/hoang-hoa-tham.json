@@ -1,0 +1,97 @@
+{
+  "slug": "hoang-hoa-tham",
+  "ten_cu": [
+    {
+      "ten": "Dốc Trại Hầm",
+      "thoi_gian": "thời Pháp, tới năm 1953",
+      "ghi_chu": "Khoảng năm 1930 có cụ Hầm dựng một trại gần chỗ Hoàng Hoa Thám gặp Hùng Vương ngày nay, nên người qua lại quen gọi là dốc Trại Hầm (tinbds). Bảng tên đường xưa ghi 'Trại Hầm (dốc)'.",
+      "nguon": [
+        "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham",
+        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+      ],
+      "mot_nguon": false
+    },
+    {
+      "ten": "Hoàng Hoa Thám",
+      "thoi_gian": "từ năm 1953",
+      "nguon": [
+        "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham",
+        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+      ],
+      "mot_nguon": false,
+      "ghi_chu": "tinbds ghi rõ năm 1953. Bảng của blog chỉ ghi tên cũ là tên 'trước năm 1953', không ghi năm đổi. Hoàng Hoa Thám không có trong danh sách đổi tên năm 1975 của bảng này."
+    }
+  ],
+  "moc": [
+    {
+      "nam": "khoảng 1930",
+      "su_kien": "Cụ Hầm dựng trại gần ngã ba Hoàng Hoa Thám - Hùng Vương ngày nay; con dốc được gọi theo tên trại.",
+      "nguon": [
+        "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham"
+      ],
+      "mot_nguon": true,
+      "ghi_chu": "Bảng tên đường xưa có tên 'Trại Hầm (dốc)' nhưng không ghi năm, không kể chuyện cụ Hầm."
+    },
+    {
+      "nam": "1940 hoặc 1944 (nguồn vênh)",
+      "su_kien": "Chùa Linh Phong ra đời trên đồi. Kiến Thức ghi chùa hình thành năm 1940. Một blog du lịch tiếng Anh ghi dựng năm 1944, lúc đầu là chỗ tụng niệm do thầy Thích Bích Nguyên coi sóc. Wanderlog ghi dựng 1940 bằng gỗ, mái tranh, dựng lại năm 1944.",
+      "nguon": [
+        "https://kienthuc.net.vn/kho-tri-thuc/trung-hop-la-ky-cua-ba-ngoi-chua-thieng-noi-tieng-da-lat-1177306.html",
+        "https://vietnamtourismgroup.blogspot.com/2012/05/da-lat-pagodas.html",
+        "https://wanderlog.com/place/details/4427074/linh-phong-pagoda"
+      ],
+      "mot_nguon": false,
+      "ghi_chu": "Có nguồn cho chùa ra đời nhưng năm vênh: 1940 (Kiến Thức) và 1944 (blog). Wanderlog là phần tóm tắt tự động, chỉ để tham khảo. mia.vn chỉ ghi chùa 'gần 80 năm tuổi'."
+    },
+    {
+      "nam": "1948–1962",
+      "su_kien": "Ni sư Thích Nữ Tú Hương trùng tu chỗ tụng niệm cũ thành chùa Linh Phong.",
+      "nguon": [
+        "https://vietnamtourismgroup.blogspot.com/2012/05/da-lat-pagodas.html"
+      ],
+      "mot_nguon": true
+    },
+    {
+      "nam": "1953",
+      "su_kien": "Dốc Trại Hầm đổi tên thành đường Hoàng Hoa Thám.",
+      "nguon": [
+        "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham"
+      ],
+      "mot_nguon": true,
+      "ghi_chu": "Bảng tên đường xưa xác nhận tên cũ là Trại Hầm nhưng không ghi năm đổi."
+    }
+  ],
+  "chuyen": [
+    {
+      "tieu_de": "Con dốc mang tên một cái trại",
+      "noi_dung": "Trước khi mang tên Hoàng Hoa Thám, đường được gọi là dốc Trại Hầm. Theo tinbds, khoảng năm 1930 có cụ Hầm dựng trại gần chỗ đường gặp Hùng Vương bây giờ, dân đi qua quen miệng gọi luôn tên con dốc theo trại.",
+      "nguon": [
+        "https://tinbds.com/lam-dong/da-lat/duong-hoang-hoa-tham",
+        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+      ],
+      "mot_nguon": false,
+      "ghi_chu": "Chuyện cụ Hầm và năm 1930 chỉ có ở tinbds. Bảng tên đường xưa chỉ xác nhận tên 'Trại Hầm (dốc)'."
+    },
+    {
+      "tieu_de": "Chùa sư nữ trên đồi",
+      "noi_dung": "Chùa Linh Phong ở số 72C có tên đầy đủ là chùa Sư nữ Linh Phong. Kiến Thức gọi đây là ngôi chùa dành cho sư cô đầu tiên ở Đà Lạt. Sau chùa có lối lên đỉnh đồi thông gọi là Quan Âm Linh Cảnh Thạch Vân Phong, đứng đó nhìn được Đà Lạt từ trên cao.",
+      "nguon": [
+        "https://kienthuc.net.vn/kho-tri-thuc/trung-hop-la-ky-cua-ba-ngoi-chua-thieng-noi-tieng-da-lat-1177306.html",
+        "https://wanderlog.com/place/details/4427074/linh-phong-pagoda"
+      ],
+      "mot_nguon": false,
+      "ghi_chu": "Ý 'chùa dành cho sư cô đầu tiên ở Đà Lạt' chỉ có ở Kiến Thức. Wanderlog xác nhận tên 'Sư Nữ Linh Phong', địa chỉ 72C và lối lên đỉnh đồi."
+    },
+    {
+      "tieu_de": "Chùa là cột mốc chia đường",
+      "noi_dung": "Bảng giá đất của tỉnh chia đường Hoàng Hoa Thám làm hai đoạn lấy chùa Linh Phong làm mốc: từ đầu đường tới chùa, và đoạn còn lại.",
+      "nguon": [
+        "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-hoa-tham-phuong-10"
+      ],
+      "mot_nguon": true,
+      "ghi_chu": "Bảng giá đất QĐ 02/2020 (sửa bởi QĐ 16/2021), chép lại trên thuviennhadat.vn."
+    }
+  ],
+  "mon": [],
+  "ghi_chu": "1) Em không mở được trang lamdong.gov.vn, nên dùng bản tinbds.com (nhiều khả năng chép từ trang tỉnh). Bảng tên đường xưa ở trangdulichdalat.wordpress.com (2018) chép lại bảng của didulichdalat (2010), không tính là nguồn thứ hai. 2) Mục món để trống: phố này nổi về quán cà phê ngắm đồi, không có món riêng nào có nguồn. Bình Minh Ơi mở từ 4:30 sáng đã có trong data/pho/hoang-hoa-tham.json. 3) Năm dựng chùa Linh Phong lệch: 1940 (Kiến Thức) và 1944 (blog du lịch tiếng Anh). Chưa có tài liệu của Giáo hội hay sách địa chí. 4) Bảng chữ trên cổng chùa: blog ghi là 'Linh Son Pagoda', nhiều khả năng ghi nhầm, em không đưa vào. 5) Độ dài đường: tinbds ghi khoảng 1,9 km, em chưa đo đối chiếu nên không đưa vào chuyện."
+}

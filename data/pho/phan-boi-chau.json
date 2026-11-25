@@ -1,0 +1,253 @@
+{
+ "road": "Phan Bội Châu",
+ "duong": [
+  "Phan Bội Châu"
+ ],
+ "ten_osm": [
+  "Phan Bội Châu"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat chỉ có 'Phan Bội Châu - PHƯỜNG 1', 2 đoạn: 'Từ đầu đường … Đến Lê Thị Hồng Gấm (Khách sạn Việt Hà và Vũ Tuấn)' và 'Đoạn còn lại' — cả đường thuộc Phường 1 cũ → Xuân Hương - Đà Lạt (NQ 1671, mục 99: gộp Phường 1, 2, 3, 4, 10). Vài trang rao/blog cũ ghi 'phường 2' cho số 42, 145 — dù vậy Phường 2 cũng gộp vào Xuân Hương - Đà Lạt nên không đổi kết quả. Đối chiếu thêm: cả 19 điểm của 2 đoạn 'Phan Bội Châu' trong duong.json đều nằm trong ranh giới Xuân Hương - Đà Lạt (phuong.json); các trang 2025–2026 (mia.vn, Trip.com, VinWonders) ghi 'phường Xuân Hương - Đà Lạt'.",
+ "ten_pho": "Phố Khách Sạn Cạnh Chợ",
+ "gioi_thieu": "Phố Khách Sạn Cạnh Chợ: đường Phan Bội Châu ngắn, chạy từ Khu Hòa Bình sát chợ Đà Lạt xuống Bùi Thị Xuân, có khách sạn lớn Colline và Mường Thanh Holiday (đi bộ 3–4 phút tới chợ), quán bar mê cung 100 Roofs, quán nướng buffet và lẩu cháo mở tới khuya.",
+ "gioi_thieu_nguon": {
+  "đi bộ 3–4 phút tới chợ": [
+   "https://uk.trip.com/hotels/dalat-hotel-detail-29515862/colline-dalat",
+   "https://nz.trip.com/hotels/dalat-hotel-detail-713901/muong-thanh-holiday-da-lat-hotel"
+  ],
+  "từ Khu Hòa Bình tới Bùi Thị Xuân": [
+   "data/lam-dong/da-lat/duong.json (OSM: đầu tây gặp Khu Hòa Bình/Nguyễn Thị Minh Khai, đầu đông gặp Bùi Thị Xuân/Lý Tự Trọng)"
+  ]
+ },
+ "dia_diem": [
+  {
+   "ten": "Hôtel Colline (Colline Dalat)",
+   "loai": "khách sạn 4 sao",
+   "dac_trung": "Khách sạn lớn ngay cạnh chợ Đà Lạt và chợ đêm, mở năm 2019; phòng nhìn ra phố, nhà hàng Salt & Soy.",
+   "dia_chi": "10 Phan Bội Châu, phường Xuân Hương - Đà Lạt",
+   "duong": "Phan Bội Châu",
+   "so_nha": "10",
+   "nguon": [
+    "https://uk.trip.com/hotels/dalat-hotel-detail-29515862/colline-dalat",
+    "https://thanhtra.com.vn/du-lich-E19590D86/khach-san-colline-noi-trai-nghiem-thu-vi-95F58B85.html",
+    "https://mytour.vn/en/blog/bai-viet/hotel-colline-review-a-little-europe-in-the-heart-of-dalat.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2026: Trip.com ghi '10 Phan Boi Chau, Xuan Huong - Da Lat', nhận đặt phòng, có đánh giá đăng 03/10/2026 (xem 25/11/2026)",
+   "ghi_chu": "Số phòng các nguồn ghi khác nhau: Thanh tra (23/08/2019) và Mytour ghi 150 phòng, Trip.com ghi 155 → không đưa số phòng vào câu giới thiệu. OSM có điểm 'Colline Dalat' (node 13799888704) ghi số 10.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Mường Thanh Holiday Đà Lạt",
+   "loai": "khách sạn",
+   "dac_trung": "Khách sạn chuỗi Mường Thanh, đi bộ 4 phút tới chợ Đà Lạt; có hồ bơi, spa, khu vườn có cẩm tú cầu.",
+   "dia_chi": "42 Phan Bội Châu, phường Xuân Hương - Đà Lạt",
+   "duong": "Phan Bội Châu",
+   "so_nha": "42",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/muong-thanh-holiday-da-lat-hotel-thien-duong-nghi-duong-dang-cap-bac-nhat-6120",
+    "https://nz.trip.com/hotels/dalat-hotel-detail-713901/muong-thanh-holiday-da-lat-hotel",
+    "https://vinwonders.com/vi/wonderpedia/news/ho-xuan-huong-da-lat/"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2026: mia.vn ghi '42 Phan Bội Châu, phường Xuân Hương - Đà Lạt'; Trip.com ghi phường mới, nhận đặt phòng (xem 25/11/2026)",
+   "ghi_chu": "Trip.com ghi 'Opened: 2007, Renovated: 2014, Number of Rooms: 67'; trang khác (vietnambooking qua kết quả tìm kiếm) ghi 71 phòng → không dùng số phòng. OSM có điểm 'Muong Thanh Holiday Da Lat Hotel' (node 1152347479) số 42.",
+   "vi_tri": null
+  },
+  {
+   "ten": "100 Roofs Café (100 Mái Cafe, Đường Lên Trăng, Maze Bar)",
+   "loai": "quán bar - cà phê kiến trúc mê cung",
+   "dac_trung": "Quán bar trong ngôi nhà nhiều tầng như mê cung, cầu thang xoắn và ngóc ngách, trên cùng là vườn sân thượng nhìn ra phố; người Đà Lạt gọi 'Đường Lên Trăng'. Khách nước ngoài đông.",
+   "dia_chi": "57 Phan Bội Châu, phường Xuân Hương - Đà Lạt",
+   "duong": "Phan Bội Châu",
+   "so_nha": "57",
+   "nguon": [
+    "https://nz.trip.com/restaurant/vietnam/dalat/detail/maze-bar-149433915/",
+    "https://app.wanderlog.com/place/details/1461945",
+    "https://thaiest.com/vietnam/travel/most-unique-themed-cafes-in-dalat",
+    "https://www.foody.vn/lam-dong/100-mai-cafe"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2026: Trip.com ghi '57 Phan Bội Châu, Xuân Hương - Đà Lạt', giờ 8:00–23:59; Wanderlog (dữ liệu Google) ghi phường mới, giờ 8:30–24:00 (xem 25/11/2026)",
+   "ghi_chu": "Thaiest ghi '57 Phan Boi Chau, Ward 1', tả 'giống Crazy House, cầu thang vô tận, vườn sân thượng nhìn toàn thành phố'. Foody tên '100 Mái Cafe' (bình luận 2016 gọi 'Đường lên trăng', 'khách nước ngoài nhiều'). Atlas Obscura và Lonely Planet có trang về quán nhưng chặn tải (403) nên không tính. Wanderlog dùng dữ liệu Google — tính 1 nguồn. OSM: '100 Roofs Café' node 4589513389 số 57.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Cút Kít BBQ & Beer",
+   "loai": "quán nướng buffet",
+   "dac_trung": "Quán nướng phục vụ buffet (gói 155k, 195k theo bình luận Foody), có khu chơi cho trẻ em; mở chiều tối tới 23 giờ.",
+   "dia_chi": "145 Phan Bội Châu, phường Xuân Hương - Đà Lạt",
+   "duong": "Phan Bội Châu",
+   "so_nha": "145",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-nuong-da-lat/",
+    "https://www.foody.vn/lam-dong/cut-kit-bbq-beer-phan-boi-chau",
+    "https://mytour.vn/vi/blog/bai-viet/danh-sach-cac-quan-nuong-da-lat-hap-dan-ban-khong-the-bo-qua.html"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "dấu hiệu yếu: VinWonders ghi địa chỉ phường mới (bài sửa sau 7/2025); Mytour (cập nhật 1/11/2026) vẫn giới thiệu nhưng ghi phường cũ; Foody ghi 'Hơn 3 tháng chưa có tương tác mới'",
+   "ghi_chu": "Giờ mở: VinWonders 17h–23h (bài quán nướng) và 16h–23h (bài quán ăn ngon); Foody 16:00–23:00. Mytour gọi Phan Bội Châu là 'thiên đường của các quán nướng Đà Lạt' — chỉ 1 nguồn nên không đưa vào câu giới thiệu.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Mộc Thủy - Lẩu Cháo (cháo bồ câu 40 Phan Bội Châu)",
+   "loai": "quán lẩu cháo, cháo bồ câu",
+   "dac_trung": "Lẩu cháo, cháo chim bồ câu kèm mì hải sản, cá chiên sốt cà, rau xào; mở 15:00–23:00, cạnh khách sạn Mường Thanh.",
+   "dia_chi": "40 Phan Bội Châu, phường Xuân Hương - Đà Lạt",
+   "duong": "Phan Bội Châu",
+   "so_nha": "40",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/moc-thuy-lau-chao",
+    "https://vinwonders.com/vi/bai-viet-du-lich/quan-chao-da-lat-ngon-kho-cuong/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: VinWonders ghi phường mới (bài sửa sau 7/2025) nhưng không ghi tên quán; Foody ghi 'Hơn 3 tháng chưa có tương tác mới', bình luận mới nhất em thấy từ 2018",
+   "ghi_chu": "Foody gọi 'Mộc Thủy - Lẩu Cháo', VinWonders chỉ gọi 'Cháo bồ câu Đà Lạt 40 Phan Bội Châu'. Cùng số nhà, cùng giờ 15:00–23:00 nên em coi là một quán, nhưng tên trên biển hiện nay chưa chắc. Bình luận Foody: 'Cạnh khách sạn mường Thanh'.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Kem Xôi Dừa Kim Cúc",
+   "loai": "quán kem xôi dừa",
+   "dac_trung": "Quán kem xôi dừa ở đầu đường phía chợ; mở 10:30 sáng tới gần 23 giờ.",
+   "dia_chi": "8 (hoặc 8A) Phan Bội Châu, phường Xuân Hương - Đà Lạt",
+   "duong": "Phan Bội Châu",
+   "so_nha": "8",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/kem-xoi-dua-kim-cuc-8-phan-boi-chau",
+    "https://wanderlog.com/place/details/9635992/kem-x%C3%B4i-d%E1%BB%ABa-kim-c%C3%BAc-kim-cuc-ice-cream"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở: Wanderlog (dữ liệu Google) ghi '8a Phan Bội Châu, Xuân Hương - Đà Lạt', giờ 10:30–22:45 (xem 25/11/2026)",
+   "ghi_chu": "Foody ghi số 8, giờ 10:00–22:30, chưa có bình luận; Wanderlog ghi 8a. Nguồn mỏng (không có bài báo/blog tả quán).",
+   "vi_tri": null
+  },
+  {
+   "ten": "Lake View Hotel",
+   "loai": "khách sạn 2 sao",
+   "dac_trung": "Khách sạn 2 sao, Kayak ghi đi bộ 4 phút tới chợ Đà Lạt, 12 phút tới nhà thờ Con Gà.",
+   "dia_chi": "121 Phan Bội Châu, phường Xuân Hương - Đà Lạt",
+   "duong": "Phan Bội Châu",
+   "so_nha": "121",
+   "nguon": [
+    "https://www.kayak.com/Dalat-Hotels-Lake-View-Hotel.2930564.ksp",
+    "https://www.foody.vn/lam-dong/lake-view-hotel"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở: Kayak nhận tìm phòng cho tháng 12/2026, 107 đánh giá (xem 25/11/2026); Foody ghi 'Hơn 3 tháng chưa có tương tác mới'",
+   "ghi_chu": "Đánh giá trái chiều: Kayak 8.0/10 (107 đánh giá), Foody 6.8 với một bài tố khách sạn tính tiền sai (một người kể, chưa kiểm). Kết quả tìm kiếm ghi 19 phòng nhưng em chưa thấy tận mắt trên trang → không dùng.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Phở Tam Hoa",
+   "duong": "Phan Bội Châu",
+   "so_nha": "115",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn (VinWonders); số 115 cùng lúc được trang khác ghi cho Xàm buffet, Lagim - Buffet Rau, Thi Thảo Cafe → có thể là một toà nhà nhiều quán hoặc đã đổi chủ."
+  },
+  {
+   "ten": "Xàm buffet (Buffet nầm nướng Xàm)",
+   "duong": "Phan Bội Châu",
+   "so_nha": "115",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-nuong-da-lat/",
+    "https://mytour.vn/vi/blog/bai-viet/danh-sach-cac-quan-nuong-da-lat-hap-dan-ban-khong-the-bo-qua.html"
+   ],
+   "ly_do": "đủ 2 trang nhưng số 115 bị nhiều nguồn ghi cho nơi khác (Phở Tam Hoa — VinWonders; Lagim - Buffet Rau 'view tầng 8' và Thi Thảo Cafe — Foody tìm kiếm). Chưa rõ quán nào đang ở đó nên em để lại kiểm thêm."
+  },
+  {
+   "ten": "Lagim - Buffet Rau",
+   "duong": "Phan Bội Châu",
+   "so_nha": "115",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/tim-kiem/115%20phan%20b%E1%BB%99i%20ch%C3%A2u"
+   ],
+   "ly_do": "chỉ 1 nguồn (Foody, kết quả tìm kiếm); trùng số 115."
+  },
+  {
+   "ten": "Tiệm ăn Bếp Đà Lạt (chi nhánh Phan Bội Châu)",
+   "duong": "Phan Bội Châu",
+   "so_nha": "10",
+   "nguon": [
+    "https://vinwonders.com/vi/bai-viet-du-lich/an-toi-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn (VinWonders ghi '10 Phan Bội Châu' là một địa chỉ của Bếp Đà Lạt, bán bánh căn); trùng số 10 với Hôtel Colline; Wanderlog có 'Tiệm ăn Bếp Đà Lạt - khu Hoà Bình' nhưng không ghi Phan Bội Châu."
+  },
+  {
+   "ten": "Rum Vàng Hotel",
+   "duong": "Phan Bội Châu",
+   "so_nha": "38",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/ho-xuan-huong-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn; các trang đặt phòng em thấy ghi Rum Vàng ở Lê Đại Hành / Đường 3/4, không thấy số 38 Phan Bội Châu."
+  },
+  {
+   "ten": "Cháo Đêm - Phan Bội Châu",
+   "duong": "Phan Bội Châu",
+   "so_nha": "15",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/chao-dem-phan-boi-chau"
+   ],
+   "ly_do": "chỉ 1 nguồn (Foody, bình luận 2015, 'Hơn 3 tháng chưa có tương tác mới'); quán cháo gà, gỏi gà, mở 17:00–00:00."
+  },
+  {
+   "ten": "Sữa Đậu Nành - Phan Bội Châu",
+   "duong": "Phan Bội Châu",
+   "so_nha": "3",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/sua-dau-nanh-phan-boi-chau"
+   ],
+   "ly_do": "chỉ 1 nguồn (Foody, 1 bình luận)."
+  },
+  {
+   "ten": "Tiệm Cơm Út Miền Tây",
+   "duong": "Phan Bội Châu",
+   "so_nha": "3",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/tiem-com-ut-mien-tay-phan-boi-chau"
+   ],
+   "ly_do": "chỉ 1 nguồn (Foody, 'Hơn 3 tháng chưa có tương tác mới'); trùng số 3 với Sữa Đậu Nành."
+  },
+  {
+   "ten": "HongKong Quán",
+   "duong": "Phan Bội Châu",
+   "so_nha": "77",
+   "nguon": [
+    "https://www.openstreetmap.org/node/11840608641"
+   ],
+   "ly_do": "chỉ có trên OSM; tìm '77 Phan Bội Châu' không ra trang khác."
+  },
+  {
+   "ten": "Cà Phê Bốn Mùa",
+   "duong": "Phan Bội Châu",
+   "so_nha": "chưa rõ",
+   "nguon": [
+    "https://www.vietnamtourism.com/vi/am-thuc-a-lat-ca-phe-lau-va-o-an-uong-pho"
+   ],
+   "ly_do": "chỉ 1 nguồn (vietnamtourism.com — trang tư nhân, không phải Tổng cục Du lịch; cập nhật 29/8/2026) ghi 'Cà Phê Bốn Mùa trên đường Phan Bội Châu… tự rang hạt hơn hai thập kỷ'; không có số nhà, không thấy nguồn khác."
+  },
+  {
+   "ten": "Nghĩa Lân Hotel",
+   "duong": "Phan Bội Châu",
+   "so_nha": "97/5 hoặc 99",
+   "nguon": [
+    "https://hotels.easyjet.com/reviews/vn/hotel/nghia-lan.en.html?aid=356980"
+   ],
+   "ly_do": "số nhà mỗi trang một khác (97/5 easyJet; 99 Expedia; 'Nghia Lan Maison' 97/10 hoặc 29B) — chưa rõ."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/phan-boi-chau-phuong-1",
+  "https://baolamdong.vn/da-lat-nang-cap-loat-tuyen-duong-noi-do-470184.html (20/10/2026: Phan Bội Châu nằm trong 9 tuyến nâng cấp mặt đường, vỉa hè, xong dự kiến 7/2027)",
+  "https://www.foody.vn/lam-dong/tim-kiem/phan-b%E1%BB%99i-ch%C3%A2u (12 kết quả ăn uống ở Đà Lạt có địa chỉ Phan Bội Châu, phần lớn 'Hơn 3 tháng chưa có tương tác mới' — không dùng làm số đếm)",
+  "https://www.openstreetmap.org (tải qua API 25/11/2026: trên đường có Colline Dalat 10, Dalat Center Residence 10, Muong Thanh 42, 100 Roofs Café 57, HongKong Quán 77, Cele Healthy 4, đại lý vé xe 109)",
+  "data/lam-dong/nq1671.json (mục 99)"
+ ],
+ "cap_nhat": "2026-11-25"
+}

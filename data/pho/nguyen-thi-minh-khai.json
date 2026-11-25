@@ -1,0 +1,211 @@
+{
+ "road": "Nguyễn Thị Minh Khai",
+ "duong": [
+  "Nguyễn Thị Minh Khai"
+ ],
+ "ten_osm": [
+  "Nguyễn Thị Minh Khai"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat ghi 'Nguyễn Thị Minh Khai - PHƯỜNG 1', đoạn 'Trọn đường' → cả đường thuộc Phường 1 cũ → Xuân Hương - Đà Lạt (NQ 1671, mục 99: gộp Phường 1, 2, 3, 4, 10). Đối chiếu thêm: 2 đầu đường Nguyễn Thị Minh Khai trong duong.json (1 đoạn OSM, id 51561533) đều nằm trong ranh giới Xuân Hương - Đà Lạt (phuong.json); Báo Lâm Đồng 10/11/2026, trang Langfarm, VinWonders 2025 ghi 'phường Xuân Hương - Đà Lạt'.",
+ "ten_pho": "Phố Chợ Đêm",
+ "gioi_thieu": "Phố Chợ Đêm: đoạn dốc Nguyễn Thị Minh Khai trước chợ Đà Lạt, ban ngày là chợ, tối thành chợ đêm với 591 hộ kinh doanh bán áo len, đặc sản, đồ ăn vặt như bánh tráng nướng, dâu lắc.",
+ "dia_diem": [
+  {
+   "ten": "Chợ Đà Lạt",
+   "loai": "chợ trung tâm (ban ngày)",
+   "dac_trung": "Chợ chính của thành phố, nằm trên trục đường Nguyễn Thị Minh Khai; tầng trệt bán rau củ, tầng trên quần áo, đồ si, khu ăn uống. Khu nhà chợ hiện nay khởi công năm 1958, xong năm 1960.",
+   "dia_chi": "Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": null,
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.vietnambooking.com/du-lich/blog-du-lich/tham-quan-cho-da-lat.html",
+    "https://mia.vn/cam-nang-du-lich/kham-pha-cho-da-lat-khu-cho-sam-uat-hang-dau-thanh-pho-ngan-hoa-1331",
+    "https://wanderlog.com/place/details/9768813"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: mia.vn (cập nhật 10/08/2026) ghi 'đường Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt'; Wanderlog (dữ liệu Google) ghi phường mới, không ghi đóng (xem 25/11/2026)",
+   "ghi_chu": "Số nhà chưa rõ: Wanderlog (dữ liệu Google) ghi '24 Đường Nguyễn Thị Minh Khai', một kết quả tìm kiếm ghi '01 Nguyễn Thị Minh Khai' — không khớp nhau nên để trống. Năm 1958–1960 theo Wikipedia tiếng Việt và Saigoneer.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Chợ đêm Đà Lạt (chợ Âm Phủ)",
+   "loai": "chợ đêm: ăn vặt, áo len, đặc sản",
+   "dac_trung": "Họp mỗi tối từ khoảng 17 giờ đến nửa đêm ngay trên đường Nguyễn Thị Minh Khai trước chợ Đà Lạt; 591 hộ kinh doanh bán quần áo, đồ len, đặc sản, quà lưu niệm và đồ ăn đường phố (bánh tráng nướng, dâu lắc, xiên nướng, sữa đậu nành).",
+   "dia_chi": "Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": null,
+   "nguon": [
+    "https://baolamdong.vn/da-lat-them-khong-gian-kinh-te-dem-truoc-them-festival-hoa-473734.html",
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cho-dem-da-lat",
+    "https://mia.vn/cam-nang-du-lich/review-cho-dem-da-lat-18843",
+    "https://vinwonders.com/vi/wonderpedia/news/cho-dem-da-lat/",
+    "https://app.wanderlog.com/place/details/2184408"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đang họp: Báo Lâm Đồng 10/11/2026 ghi chợ đêm hiện có 591 hộ kinh doanh, phường đang làm phương án sắp xếp lại trước Festival Hoa 2026",
+   "ghi_chu": "Số 591 hộ là lời Phó Chủ tịch UBND phường Xuân Hương - Đà Lạt trên Báo Lâm Đồng (10/11/2026). Vietnam Airlines ghi khác: 'từ năm 2019… hơn 150 gian hàng' — có thể đếm gian, không đếm hộ; em dùng số của báo tỉnh. Giờ họp các nguồn ghi khác nhau (mia: 17h–5h sáng; VinWonders: 17:00–00:00; Wanderlog: 17:30–24:00). VinWonders (an tối Đà Lạt, 17/07/2025) ghi địa chỉ '6B Nguyễn Thị Minh Khai' — chỉ 1 nguồn nên không ghi số.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Langfarm Buffet & Langfarm Store Chợ Đêm Đà Lạt",
+   "loai": "cửa hàng đặc sản Đà Lạt, buffet đồ sấy, mứt, trà",
+   "dac_trung": "Cửa hàng đặc sản Langfarm (L'angfarm) ngay trong khu chợ đêm, có buffet cho khách nếm thử đồ sấy, mứt, trà; Langfarm còn 3 điểm khác trên cùng đường (số 2 - Bùng Binh Nước, cầu thang chợ - Mộng Đẹp, khách sạn Thanh Bình).",
+   "dia_chi": "6 Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "6",
+   "nguon": [
+    "https://www.langfarm.com/stores",
+    "https://mytour.vn/vi/blog/bai-viet/langfarm-thien-duong-mua-sam-tai-da-lat.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: trang chính thức Langfarm ghi 'Số 6 đường Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt' cho cả Buffet và Store Chợ Đêm (xem 25/11/2026)",
+   "ghi_chu": "Mytour không ghi số nhà, chỉ ghi 'nằm tại đường Nguyễn Thị Minh Khai… trong khu chợ đêm'; giá buffet 39.000đ trong bài Mytour có thể đã cũ nên không đưa vào. Hotels.com (kết quả tìm kiếm) cũng ghi '6 Nguyen Thi Minh Khai, Ward 1' nhưng trang chặn tải (429), em chưa đọc tận mắt.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Fungi Chingu Chợ Đêm",
+   "loai": "quán nướng Hàn Quốc",
+   "dac_trung": "Quán nướng Hàn Quốc sát chợ Đà Lạt (người viết Foody: 'nằm ngay trong lòng chợ Đà Lạt'); bán ba chỉ bò, dẻ sườn nướng, cơm trộn; mở trưa và tối.",
+   "dia_chi": "1 Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "1",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/fungi-chingu-quan-nuong-han-quoc",
+    "https://vinwonders.com/vi/bai-viet-du-lich/an-toi-da-lat/",
+    "https://wanderlog.com/place/details/2625653"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: VinWonders (17/07/2025) ghi 'số 1 đường Nguyễn Thị Minh Khai, phường Xuân Hương – Đà Lạt'; Wanderlog (dữ liệu Google) ghi phường mới, giờ 11:00–13:45 và 17:00–21:30, không ghi đóng (xem 25/11/2026)",
+   "ghi_chu": "Foody: 138 bình luận, bình luận mới nhất em thấy là 2019. Cùng số 1 còn có tòa nhà khách sạn Nice Dream.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Khách sạn Nice Dream",
+   "loai": "khách sạn cạnh chợ",
+   "dac_trung": "Khách sạn ở đầu đường, sát chợ Đà Lạt; tầng 2–3 khối văn phòng có quán (Foody ghi KATINAT, Flora ở đây).",
+   "dia_chi": "01 Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "01",
+   "nguon": [
+    "https://www.vietnambooking.com/hotel/vietnam/khach-san-nice-dream-da-lat.html",
+    "https://ph.trip.com/hotels/dalat-hotel-detail-6097660/nice-dream-hotel/",
+    "https://mia.vn/cam-nang-du-lich/top-10-khach-san-da-lat-gia-re-gan-cho-dem-ban-nen-biet-10452"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: Trip.com và Vietnambooking đang nhận đặt phòng (xem 25/11/2026); mia.vn ghi phường Xuân Hương",
+   "vi_tri": null
+  },
+  {
+   "ten": "TTC Hotel – Đà Lạt (TTC Premium)",
+   "loai": "khách sạn cạnh chợ",
+   "dac_trung": "Khách sạn ở đầu đường, gần chợ Đà Lạt và chợ đêm (mia.vn xếp vào nhóm khách sạn gần chợ đêm).",
+   "dia_chi": "4 Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "4",
+   "nguon": [
+    "https://www.vietnambooking.com/hotel/vietnam/ttc-hotel-da-lat.html",
+    "https://mia.vn/cam-nang-du-lich/top-10-khach-san-da-lat-gia-re-gan-cho-dem-ban-nen-biet-10452",
+    "https://ae.trip.com/hotels/dalat-hotel-detail-713949/ttc-hotel-premium-da-lat"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: Vietnambooking có giá phòng, Trip.com có 42 đánh giá (xem 25/11/2026)",
+   "ghi_chu": "Địa chỉ Trip.com em đọc ở kết quả tìm kiếm; trang review Trip.com mở được nhưng em không lọc ra dòng địa chỉ.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Sandals Flora Hotel",
+   "loai": "khách sạn gần chợ",
+   "dac_trung": "Khách sạn trên đường, gần chợ Đà Lạt; mia.vn ghi thuộc chuỗi Sandals Hotel (Tập đoàn Đôi Dép). Foody có quán Flora cùng số 40.",
+   "dia_chi": "37-40 Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "37-40",
+   "nguon": [
+    "https://www.vietnambooking.com/hotel/vietnam/khach-san-sandals-flora-da-lat.html",
+    "https://nz.trip.com/hotels/dalat-hotel-detail-88787563/sandals-flora-hotel",
+    "https://mia.vn/cam-nang-du-lich/top-10-khach-san-da-lat-gia-re-gan-cho-dem-ban-nen-biet-10452"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: Trip.com ghi 'Last booked 19 hrs ago' (xem 25/11/2026)",
+   "ghi_chu": "Vietnambooking và Trip.com ghi '37-40', mia.vn ghi '40'.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Quán kem bơ, chè cô Huyền",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": null,
+   "nguon": [
+    "https://vinwonders.com/?p=104948",
+    "https://vinpearl.com/vi/kem-bo-da-lat"
+   ],
+   "ly_do": "VinWonders và Vinpearl cùng tập đoàn → chỉ tính 1 nguồn. Ghi 'chợ Đà Lạt, Nguyễn Thị Minh Khai', quầy nhỏ bán kem bơ và chè; tuổi quán hai trang ghi khác nhau (hơn 30 năm / hơn 40 năm). Em chưa mở trang Vinpearl (thường chặn tải)."
+  },
+  {
+   "ten": "Kem Phụng Chợ Đà Lạt",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "76",
+   "nguon": [
+    "https://wanderlog.com/list/geoCategory/50880"
+   ],
+   "ly_do": "chỉ Wanderlog (dữ liệu Google) ghi '76 Đường Nguyễn Thị Minh Khai', tầng 2 chợ. VinWonders lại ghi Kem bơ Phụng ở 97A Nguyễn Văn Trỗi — có thể là 2 điểm khác nhau, chưa rõ."
+  },
+  {
+   "ten": "Sữa đậu nành Sự",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "9-52",
+   "nguon": [
+    "https://wanderlog.com/list/geoCategory/25890"
+   ],
+   "ly_do": "chỉ 1 nguồn (Wanderlog, dữ liệu Google); '9-52' giống số sạp trong chợ hơn số nhà."
+  },
+  {
+   "ten": "Cao Nguyên Cần (rượu cần)",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "28",
+   "nguon": [
+    "https://grantourismotravels.com/dalat-markets/"
+   ],
+   "ly_do": "chỉ 1 nguồn (blog Grantourismo, bài cũ)."
+  },
+  {
+   "ten": "Anh Đào - Đặc sản Đà Lạt",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "1D",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/anh-dao-dac-san-da-lat"
+   ],
+   "ly_do": "chỉ 1 nguồn (Foody, ghi 'Hơn 3 tháng chưa có tương tác mới')."
+  },
+  {
+   "ten": "KATINAT - Nguyễn Thị Minh Khai",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": "01",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/katinat-nguyen-thi-minh-khai-da-lat"
+   ],
+   "ly_do": "chỉ 1 nguồn (Foody, 0 bình luận), tầng 2–3 khối văn phòng khách sạn Nice Dream."
+  },
+  {
+   "ten": "Công viên Nguyễn Thị Minh Khai",
+   "duong": "Nguyễn Thị Minh Khai",
+   "so_nha": null,
+   "nguon": [
+    "https://baolamdong.vn/da-lat-them-khong-gian-kinh-te-dem-truoc-them-festival-hoa-473734.html"
+   ],
+   "ly_do": "chỉ 1 nguồn: Báo Lâm Đồng (10/11/2026) — khoảng 3.000 m², nằm giữa đường Nguyễn Thị Minh Khai và Lê Đại Hành, được đề xuất làm không gian ẩm thực trước Festival Hoa 2026 (mới là đề xuất)."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-thi-minh-khai-phuong-1",
+  "https://baolamdong.vn/da-lat-them-khong-gian-kinh-te-dem-truoc-them-festival-hoa-473734.html (10/11/2026: chợ đêm Nguyễn Thị Minh Khai có 591 hộ kinh doanh)",
+  "https://www.vietnamtourism.com/vi/am-thuc-a-lat-ca-phe-lau-va-o-an-uong-pho (chợ đêm trên Nguyễn Thị Minh Khai là trung tâm bánh tráng nướng, 'hàng chục quầy')",
+  "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cho-dem-da-lat (dâu lắc, bánh tráng nướng, ốc; 'từ năm 2019… hơn 150 gian hàng')",
+  "data/lam-dong/nq1671.json (mục 99)"
+ ],
+ "cap_nhat": "2026-11-25"
+}

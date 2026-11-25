@@ -1,0 +1,122 @@
+{
+  "slug": "nguyen-thi-minh-khai",
+  "ten_cu": [],
+  "moc": [
+    {
+      "nam": "1929",
+      "su_kien": "Một ngôi chợ bằng gỗ lợp tôn, gọi là \"Chợ Cây\", được dựng ở chỗ nay là rạp 3 tháng 4, khu Hòa Bình (trên đầu dốc).",
+      "nguon": [
+        "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+        "https://saigoneer.com/vietnam-heritage/10837-photos-a-nostalgic-look-at-da-lat-market-through-time"
+      ],
+      "mot_nguon": false,
+      "ghi_chu": "Năm 1929 và vị trí chỉ Wikipedia ghi; Saigoneer chỉ xác nhận tên 'Chợ Cây' (chợ gỗ) lúc đầu, không ghi năm."
+    },
+    {
+      "nam": "1937",
+      "su_kien": "Sau một trận cháy lớn, công ty SIDEC xây chợ gạch thay cho Chợ Cây.",
+      "nguon": [
+        "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t"
+      ],
+      "mot_nguon": true
+    },
+    {
+      "nam": "1958–1960",
+      "su_kien": "Chợ Đà Lạt hiện nay khởi công năm 1958 trên một vùng đất sình lầy, do kiến trúc sư Nguyễn Duy Đức thiết kế, xong năm 1960. Sau đó kiến trúc sư Ngô Viết Thụ sửa lại mặt tiền chợ.",
+      "nguon": [
+        "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+        "https://saigoneer.com/vietnam-heritage/10837-photos-a-nostalgic-look-at-da-lat-market-through-time",
+        "https://mia.vn/cam-nang-du-lich/kham-pha-cho-da-lat-khu-cho-sam-uat-hang-dau-thanh-pho-ngan-hoa-1331"
+      ],
+      "mot_nguon": false,
+      "ghi_chu": "Tên kiến trúc sư Nguyễn Duy Đức: Wikipedia và Saigoneer. mia.vn ghi 1958–1960 nhưng không ghi tên. Vietnambooking ghi một mốc khác ('năm 1954… chợ mới 2 tầng') — không khớp, em không dùng."
+    },
+    {
+      "nam": "trước 1990",
+      "su_kien": "Khu trung tâm chưa có đèn đường sáng. Người bán hàng rong, phần lớn là phụ nữ nghèo bán đồ ăn đêm, ngồi dọc bậc thang đá xuống chợ, thắp đèn dầu nhỏ hoặc nến che trong hộp mica.",
+      "nguon": [
+        "https://vtcnews.vn/vi-sao-mot-so-ngoi-cho-duoc-goi-la-cho-am-phu-ar1034471.html",
+        "https://mia.vn/cam-nang-du-lich/review-cho-dem-da-lat-18843"
+      ],
+      "mot_nguon": false,
+      "ghi_chu": "VTC News (15/08/2026) kể chi tiết, mia.vn kể ngắn ('vài gánh hàng rong bán đồ ăn đêm… ánh đèn dầu leo lét'). Cả hai là chuyện kể lại, không dẫn tài liệu gốc."
+    },
+    {
+      "nam": "2026",
+      "su_kien": "Chợ đêm Nguyễn Thị Minh Khai có 591 hộ kinh doanh. Phường Xuân Hương - Đà Lạt làm phương án sắp xếp lại trước Festival Hoa lần thứ XI: dời các hộ bán đồ len sang đường Lê Thị Hồng Gấm (cách hơn 1 km), làm công viên Nguyễn Thị Minh Khai (khoảng 3.000 m²) thành không gian ẩm thực; dự kiến 26 tỷ đồng ngân sách tỉnh cho công viên và khu Hòa Bình giai đoạn 2026–2027.",
+      "nguon": [
+        "https://baolamdong.vn/da-lat-them-khong-gian-kinh-te-dem-truoc-them-festival-hoa-473734.html"
+      ],
+      "mot_nguon": true,
+      "ghi_chu": "Báo Lâm Đồng 10/11/2026. Đây là phương án/đề xuất, chưa phải việc đã làm xong."
+    }
+  ],
+  "chuyen": [
+    {
+      "tieu_de": "Vì sao gọi là chợ Âm Phủ",
+      "noi_dung": "Hồi chưa có đèn đường, sương từ hồ Xuân Hương tràn lên, người bán hàng rong ngồi dọc bậc thang đá thắp đèn dầu leo lét. Bóng người áo len, khăn kín mặt đi lại trong sương khiến người qua đường đùa là phiên chợ cõi âm, rồi cái tên \"chợ Âm Phủ\" ở lại tới nay.",
+      "nguon": [
+        "https://vtcnews.vn/vi-sao-mot-so-ngoi-cho-duoc-goi-la-cho-am-phu-ar1034471.html",
+        "https://mia.vn/cam-nang-du-lich/review-cho-dem-da-lat-18843"
+      ],
+      "mot_nguon": false
+    },
+    {
+      "tieu_de": "Chợ dựng trên đất sình",
+      "noi_dung": "Chỗ chợ Đà Lạt bây giờ trước năm 1958 là vùng đất sình lầy. Kiến trúc sư Nguyễn Duy Đức vẽ chợ mới, xây xong năm 1960; về sau kiến trúc sư Ngô Viết Thụ sửa lại mặt tiền.",
+      "nguon": [
+        "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+        "https://saigoneer.com/vietnam-heritage/10837-photos-a-nostalgic-look-at-da-lat-market-through-time"
+      ],
+      "mot_nguon": false,
+      "ghi_chu": "Wikipedia ghi thêm đất này trồng xà lách son (cresson, cải xoong) — chỉ 1 nguồn nên không đưa vào nội dung."
+    },
+    {
+      "tieu_de": "Bánh tráng nướng, dâu lắc",
+      "noi_dung": "Chợ đêm trên Nguyễn Thị Minh Khai là chỗ quen để ăn bánh tráng nướng (người nước ngoài gọi là \"pizza Việt Nam\"), hàng chục quầy nướng than cạnh nhau. Dọc đường vào chợ có các xe dâu tây lắc muối tôm, xoài lắc, cóc lắc.",
+      "nguon": [
+        "https://www.vietnamtourism.com/vi/am-thuc-a-lat-ca-phe-lau-va-o-an-uong-pho",
+        "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cho-dem-da-lat"
+      ],
+      "mot_nguon": false,
+      "ghi_chu": "'Hàng chục quầy' theo vietnamtourism.com; dâu lắc theo Vietnam Airlines."
+    },
+    {
+      "tieu_de": "Một con dốc, bốn cửa hàng Langfarm",
+      "noi_dung": "Hãng đặc sản Langfarm có tới 4 điểm trên đường này theo trang chính thức: Buffet và Store Chợ Đêm ở số 6, Bùng Binh Nước ở số 2, Mộng Đẹp ở cầu thang chợ, và một điểm trong khách sạn Thanh Bình ở bùng binh chợ.",
+      "nguon": [
+        "https://www.langfarm.com/stores"
+      ],
+      "mot_nguon": true,
+      "ghi_chu": "Chỉ trang chính thức Langfarm (xem 25/11/2026); điểm Buffet được Mytour xác nhận riêng."
+    }
+  ],
+  "mon": [
+    {
+      "ten": "Bánh tráng nướng",
+      "ghi_chu": "Bánh tráng đặt trên bếp than, phết trứng, rắc tôm khô, hành lá, có nơi thêm pa tê, phô mai, xúc xích, gấp lại ăn bằng tay.",
+      "nguon": [
+        "https://www.vietnamtourism.com/vi/am-thuc-a-lat-ca-phe-lau-va-o-an-uong-pho",
+        "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cho-dem-da-lat"
+      ],
+      "mot_nguon": false
+    },
+    {
+      "ten": "Dâu lắc",
+      "ghi_chu": "Dâu tây cắt miếng lắc với muối tôm, đường, nước tắc; bán ở các xe dọc đường vào chợ.",
+      "nguon": [
+        "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cho-dem-da-lat"
+      ],
+      "mot_nguon": true
+    },
+    {
+      "ten": "Sữa đậu nành nóng",
+      "ghi_chu": "Món ăn đêm của người lao động ở chợ Âm Phủ xưa (cùng khoai lang nướng, bắp luộc).",
+      "nguon": [
+        "https://vtcnews.vn/vi-sao-mot-so-ngoi-cho-duoc-goi-la-cho-am-phu-ar1034471.html"
+      ],
+      "mot_nguon": true
+    }
+  ],
+  "ghi_chu": "1) Em không tìm thấy tên cũ của đường Nguyễn Thị Minh Khai ở Đà Lạt: bảng tên đường xưa và nay trên didulichdalat.wordpress.com không có dòng nào về đường này, nên để trống ten_cu. 2) Chợ Âm Phủ theo VTC News là 'dọc theo cầu thang từ khu Hòa Bình dẫn xuống chợ' — cầu thang này không phải là đường Nguyễn Thị Minh Khai, nhưng chợ đêm bây giờ bày chính trên mặt đường Nguyễn Thị Minh Khai (Báo Lâm Đồng, VinWonders, mia.vn). 3) Số gian hàng các nguồn ghi khác nhau: Vietnam Airlines 'hơn 150 gian hàng' (từ 2019), dalat.app 'khoảng hơn 200 gian' (trang này còn ghi sai Phường 4 và Big C ở 01 Nguyễn Thị Minh Khai nên em không dùng), Báo Lâm Đồng 591 hộ kinh doanh (11/2026) — em dùng số của báo tỉnh. 4) Wikipedia ghi 'Năm 2011, Chợ Đà Lạt mới được xây dựng và hoàn thành vào năm 2018-2019' — câu mơ hồ, chưa có nguồn thứ hai, không đưa vào mốc."
+}

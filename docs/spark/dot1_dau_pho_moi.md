@@ -26,3 +26,14 @@ Mỗi hình PNG ngang 1024×512, có nền.
 - dau_pho_yersin: con dốc rợp thông đi lên một ngôi trường gạch đỏ kiểu Pháp có tháp chuông cao, đầu dốc là hồ nước và vài quầy bánh căn bốc khói buổi sáng
 - dau_pho_nguyen_thi_minh_khai: chợ đêm trên con dốc trước toà chợ lớn, sạp áo len nhiều màu, bếp than nướng bánh tráng, đèn dây vàng trong sương đêm
 ```
+
+## Thêm 3 phố nữa
+```
+Nét vẽ y hệt đợt trước (tranh đầu phố dau_pho_* đợt 35): hoạt hình ấm, viền nâu đậm, màu ấm,
+cảnh nhìn ngang dọc một con phố Đà Lạt, có nhà, cây thông, sương nhẹ, không có mặt người, KHÔNG có chữ.
+Mỗi hình PNG ngang 1024×512, có nền.
+
+- dau_pho_khu_hoa_binh: quảng trường nhỏ trên đỉnh dốc, giữa là rạp chiếu phim cũ mặt tiền cổ điển có tháp đồng hồ, quanh quảng trường là quán cà phê xưa ghế gỗ, quán cóc đầu cầu thang lúc tờ mờ sáng
+- dau_pho_tran_hung_dao: con đường trên đồi thông, hai bên là biệt thự Pháp mái ngói đỏ tường vàng nhạt, xa xa thấy mặt hồ, vài quán cà phê nhìn ra hồ
+- dau_pho_nguyen_cong_tru: con phố đông vui gần trường đại học, dãy quán ăn bình dân bày bàn ghế nhựa, quán mì Quảng, quán cơm quê, một quán cà phê kiêm xưởng rang có bao cà phê
+```

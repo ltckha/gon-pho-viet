@@ -1,0 +1,154 @@
+{
+ "slug": "nguyen-cong-tru",
+ "ten_cu": [
+  {
+   "ten": "Dankir (đường thời Pháp)",
+   "thoi_gian": "thời Pháp",
+   "ghi_chu": "Bảng tên đường xưa và nay của blog ghi 'Dankir → Đinh Tiên Hoàng + Nguyễn Công Trứ + Tôn Thất Thuyết + Nguyễn Hoàng + Dankir': một con đường thời Pháp sau chia thành nhiều đường, trong đó có Nguyễn Công Trứ. Chưa rõ đoạn nào đúng là Nguyễn Công Trứ hôm nay, chưa có nguồn thứ hai, chưa rõ năm đổi.",
+   "nguon": [
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Nguyễn Công Trứ",
+   "thoi_gian": "chưa rõ năm đặt",
+   "ghi_chu": "Tên hiện nay; bảng giá đất tỉnh (QĐ 02/2020) ghi tên này ở cả Phường 2 và Phường 8.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-2",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-8"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "moc": [
+  {
+   "nam": "1957",
+   "su_kien": "Viện Đại học Đà Lạt ra đời (hoạt động từ 1958), nay là Trường Đại học Đà Lạt ở số 1 Phù Đổng Thiên Vương, ngay ngã năm đầu đường Nguyễn Công Trứ. Trường không nằm trên đường này.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Vị trí trường sát ngã năm có thêm OSM (way 969458761, addr 1 Phù Đổng Thiên Vương), nhưng năm 1957 chỉ có Wikipedia."
+  },
+  {
+   "nam": "1975",
+   "su_kien": "Đường Tôn Thất Thuyết và Nguyễn Hoàng (cùng gốc đường Dankir thời Pháp với Nguyễn Công Trứ) đổi thành Xô Viết Nghệ Tĩnh — con đường ở cuối Nguyễn Công Trứ.",
+   "nguon": [
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "2013",
+   "su_kien": "Là Việt Coffee ra đời ở Đà Lạt: 'quán cà phê công xưởng đầu tiên' mở năm 2013 (Đại biểu Nhân dân); công ty đăng ký kinh doanh ngày 29/08/2013 (trang Là Việt). Nay quán kiêm xưởng rang ở 200 Nguyễn Công Trứ.",
+   "nguon": [
+    "https://daibieunhandan.vn/5-yeu-to-viet-nam-nhat-cua-la-viet-coffee-post393894.html",
+    "https://laviet.coffee/"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Hai nguồn đều nói năm 2013 nhưng KHÔNG nói quán đầu tiên ở số 200 Nguyễn Công Trứ; công ty đăng ký ở 95b Hai Bà Trưng. Đừng viết 'mở ở Nguyễn Công Trứ năm 2013'."
+  },
+  {
+   "nam": "2020",
+   "su_kien": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) ghi Nguyễn Công Trứ ở cả Phường 8 và Phường 2. Giá đất ở vị trí 1: tới ngã ba Lý Nam Đế 18,4 triệu đồng/m² (P8 tính từ ngã năm Đại học, P2 tính từ nhà số 47); từ Lý Nam Đế tới Xô Viết Nghệ Tĩnh 16 triệu (P2); 'đoạn còn lại' 16,5 triệu (P8).",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-2",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-8"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "2025",
+   "su_kien": "Từ 1/7/2025 (NQ 1671/NQ-UBTVQH15): Phường 8 vào phường Lâm Viên - Đà Lạt, Phường 2 vào phường Xuân Hương - Đà Lạt → hai bên đường Nguyễn Công Trứ thuộc hai phường mới khác nhau.",
+   "nguon": [
+    "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-2",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-8"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Một con đường, hai phường",
+   "noi_dung": "Bảng giá đất của tỉnh ghi Nguyễn Công Trứ ở cả Phường 2 lẫn Phường 8: đường là ranh giữa hai phường. Từ 1/7/2025, bên số chẵn (La Viet 200, Barn House 198) ghi phường Lâm Viên - Đà Lạt, bên số lẻ (Quê Xưa 157, Mì Quảng Nhà Shin 209) ghi phường Xuân Hương - Đà Lạt.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-2",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-8",
+    "https://spinach.guide/venues/la-viet-coffee-191174/",
+    "http://quanquexua.com/",
+    "https://mia.vn/cam-nang-du-lich/san-lung-top-5-quan-mi-quang-ngon-me-ly-tai-da-lat-1291"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Quy tắc chẵn/lẻ em suy từ địa chỉ quán, không có văn bản nào ghi thẳng. Có ngoại lệ (số 9, 65, 129A Foody ghi P8)."
+  },
+  {
+   "tieu_de": "Ngã năm của sinh viên",
+   "noi_dung": "Đầu đường là ngã năm Đại học, nơi Nguyễn Công Trứ gặp Bùi Thị Xuân, Phù Đổng Thiên Vương và Đinh Tiên Hoàng, sát cổng Trường Đại học Đà Lạt. Một bài giới thiệu khách sạn gọi khu ngã năm này là 'thiên đường ăn uống quen thuộc của các bạn sinh viên'; trên Foody có khách khen quán nướng ngói Vị Cay giá hợp học sinh, sinh viên.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/hong-tung-hotel-diem-dung-chan-sang-chanh-tai-pho-hoa-xinh-dep-5917",
+    "https://www.foody.vn/lam-dong/vi-cay-quan-nuong-ngoi"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Câu 'thiên đường ăn uống của sinh viên' chỉ có ở mia.vn (bài quảng bá khách sạn); Foody chỉ là một lời khen giá. Các đường gặp nhau ở ngã năm em đo trên duong.json."
+  },
+  {
+   "tieu_de": "Xưởng cà phê giữa phố quán",
+   "noi_dung": "Ở số 200, Là Việt vừa là quán cà phê vừa là xưởng rang, nơi sản xuất và nơi dạy pha chế; khách có thể xin đi xem khu chế biến, rồi mua cà phê, dụng cụ pha ở quầy.",
+   "nguon": [
+    "https://grantourismotravels.com/dalat-coffee-tours/",
+    "https://vietnam.travel/things-to-do/cool-cafes-vietnam"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "mon": [
+  {
+   "ten": "Mì Quảng",
+   "ghi_chu": "Mì Quảng Nhà Shin (209): mì gà, bò, lươn, cá lóc, ếch; tô lớn.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/san-lung-top-5-quan-mi-quang-ngon-me-ly-tai-da-lat-1291",
+    "https://vinwonders.com/vi/wonderpedia/news/mi-quang-da-lat/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Hủ tiếu Nam Vang",
+   "ghi_chu": "Thuận Phát (136): nước lèo xương heo, có khô và nước.",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/hu-tieu-nam-vang-da-lat/",
+    "https://toplist.vn/top-list/dia-chi-an-hu-tieu-nam-vang-chat-luong-nhat-da-lat-31751.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Cơm tấm sáng",
+   "ghi_chu": "Hồng Thủy (9): cơm sườn bì, bán 06:45–14:00.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/bo-tui-top-10-quan-com-tam-da-lat-ngon-nuc-tieng-ma-ban-phai-thu-1327",
+    "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Cơm quê bày mẹt",
+   "ghi_chu": "Quê Xưa (157): cá kho tộ, thịt kho, kho quẹt, canh chua; thực đơn đổi hằng ngày.",
+   "nguon": [
+    "http://quanquexua.com/",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Cà phê Arabica rang tại chỗ",
+   "ghi_chu": "La Viet Coffee (200).",
+   "nguon": [
+    "https://grantourismotravels.com/dalat-coffee-tours/",
+    "https://rustycompass.com/vietnam-travel-guide-233/dalat-33/eating-16/cafe-54"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ghi_chu": "1) Tên cũ 'Dankir' và mốc 1975 (Xô Viết Nghệ Tĩnh) chỉ dựa vào bảng của blog didulichdalat. 2) Trường Đại học Đà Lạt ở đường Phù Đổng Thiên Vương, không ở Nguyễn Công Trứ; chỉ là mốc quen ở ngã năm đầu đường. 3) Năm 2013 của Là Việt là năm thương hiệu/quán đầu tiên, không rõ có phải ở số 200 hay không. 4) Ranh phường trên phuong.json lệch khỏi tim đường 50–100 m về phía nam."
+}

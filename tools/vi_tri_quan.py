@@ -38,6 +38,7 @@ ALIAS = {
     'Nhà Lồng Coffee (The Green House)': 'Nha Long',
     'Sương Mai (buffet chay)': 'Súóng Mai',                                     # OSM ghi 8B Trần Hưng Đạo
     'Hoa Violet Café': 'Hoa Violet Cafe Restaurant',
+    'Mì Quảng Nhà Shin': 'Nha Shin - Pho',   # OSM không ghi số, vị trí khớp số 209 Nguyễn Công Trứ (agent soát)
 }
 
 

@@ -70,7 +70,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: Spinach ghi địa chỉ phường mới 'Lâm Viên - Đà Lạt' (sau 7/2025), giờ 07:00–22:00; trang laviet.coffee vẫn đăng bài tháng 10–11/2026.",
-   "ghi_chu": "OSM ghi số 198 (addr:housenumber=198); các trang khác đều ghi 200 → dùng 200. Số 198 là Barn House sát bên."
+   "ghi_chu": "OSM ghi số 198 (addr:housenumber=198); các trang khác đều ghi 200 → dùng 200. Số 198 là Barn House sát bên.",
+   "vi_tri": {
+    "lon": 108.435107,
+    "lat": 11.956919,
+    "cach": "tên trên OpenStreetMap: La Viet Coffee",
+    "osm": "node/4601279191"
+   }
   },
   {
    "ten": "Barn House BBQ & Beer",
@@ -87,7 +93,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: Wanderlog ghi phường mới 'Lâm Viên - Đà Lạt', không ghi đóng cửa; Foody báo 'hơn 3 tháng chưa có tương tác'. Giờ mở lệch giữa các trang.",
-   "ghi_chu": "OSM có 2 điểm: '198 Nguyễn Công Trứ BBQ & Beer Barn House' (node 7056510985) và 'Barn House' (node 13590795101)."
+   "ghi_chu": "OSM có 2 điểm: '198 Nguyễn Công Trứ BBQ & Beer Barn House' (node 7056510985) và 'Barn House' (node 13590795101).",
+   "vi_tri": {
+    "lon": 108.435107,
+    "lat": 11.956919,
+    "cach": "số nhà trên OpenStreetMap: 198 Nguyễn Công Trứ",
+    "osm": "node/4601279191"
+   }
   },
   {
    "ten": "Mì Quảng Nhà Shin",
@@ -105,7 +117,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: mia.vn sửa bài 10/08/2026, ghi phường mới 'Xuân Hương - Đà Lạt'; VinWonders 03/07/2025. Giờ mở lệch: 6:30–14:00 (VinWonders) / 06:00–20:00 (mia.vn).",
-   "ghi_chu": "OSM ghi tên 'Nha Shin - Pho', không số nhà, nằm phía nam mặt đường (bên số lẻ) — khớp vị trí 209 nhưng cần soát tay trước khi gắn."
+   "ghi_chu": "OSM ghi tên 'Nha Shin - Pho', không số nhà, nằm phía nam mặt đường (bên số lẻ) — khớp vị trí 209 nhưng cần soát tay trước khi gắn.",
+   "vi_tri": {
+    "lon": 108.435025,
+    "lat": 11.956419,
+    "cach": "tên trên OpenStreetMap: Nha Shin - Pho (ghép tay)",
+    "osm": "node/13590794901"
+   }
   },
   {
    "ten": "Quán Cơm Quê Xưa (chi nhánh 1)",
@@ -122,7 +140,8 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: trang quanquexua.com ghi 'CN1: 157 Nguyễn Công Trứ, phường Xuân Hương' (tên phường mới), giờ 9:00–20:00; Wanderlog cũng ghi phường mới.",
-   "ghi_chu": "Quán có chi nhánh 2 ở 05 Lê Hồng Phong (không thuộc đường này)."
+   "ghi_chu": "Quán có chi nhánh 2 ở 05 Lê Hồng Phong (không thuộc đường này).",
+   "vi_tri": null
   },
   {
    "ten": "Hủ Tiếu Nam Vang Thuận Phát",
@@ -137,7 +156,8 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "chưa rõ: nguồn mới nhất VinWonders 20/07/2025; Toplist ghi 2019.",
-   "ghi_chu": "Mytour chép gần nguyên bài Toplist → không tính riêng. Foody có trang 'Nem Nướng Hạnh' cũng ghi 136 Nguyễn Công Trứ (cũ) → số 136 có thể đã đổi quán; chưa rõ."
+   "ghi_chu": "Mytour chép gần nguyên bài Toplist → không tính riêng. Foody có trang 'Nem Nướng Hạnh' cũng ghi 136 Nguyễn Công Trứ (cũ) → số 136 có thể đã đổi quán; chưa rõ.",
+   "vi_tri": null
   },
   {
    "ten": "Cơm tấm Hồng Thủy (Foody ghi 'Quán Thủy - Cơm Tấm')",
@@ -152,7 +172,8 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "chưa rõ: VinWonders 13/07/2025 còn liệt kê; mia.vn sửa bài 11/07/2024.",
-   "ghi_chu": "Tên lệch: mia.vn, VinWonders, Mytour gọi 'Cơm tấm Hồng Thủy'; trang danh mục Foody gọi 'Quán Thủy - Cơm Tấm' cùng số 9. Mytour chép bài mia → không tính riêng."
+   "ghi_chu": "Tên lệch: mia.vn, VinWonders, Mytour gọi 'Cơm tấm Hồng Thủy'; trang danh mục Foody gọi 'Quán Thủy - Cơm Tấm' cùng số 9. Mytour chép bài mia → không tính riêng.",
+   "vi_tri": null
   },
   {
    "ten": "Hồng Tùng Hotel",
@@ -167,7 +188,8 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "chưa rõ: Travelated vẫn bán phòng khi em xem 25/11/2026; bài mia.vn 26/09/2023.",
-   "ghi_chu": "mia.vn ghi 85–87, Travelated và các trang đặt phòng ghi 85 → so_nha để 85."
+   "ghi_chu": "mia.vn ghi 85–87, Travelated và các trang đặt phòng ghi 85 → so_nha để 85.",
+   "vi_tri": null
   }
  ],
  "can_kiem_them": [

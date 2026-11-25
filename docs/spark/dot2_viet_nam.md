@@ -1,3 +1,5 @@
+# Spark đợt 41 (anh Kha đánh số chung với game; trước ghi là đợt 2 Gọn Phố Việt) — ĐÃ GHÉP 25/11/2026
+
 # Spark đợt 2 (Gọn Phố Việt): mốc cho 20 tỉnh còn lại trên bản đồ Việt Nam (25/11/2026)
 
 Bản đồ Việt Nam trên trang đã dùng 14 mốc Spark đợt 36 của game. Còn 20 tỉnh chưa có mốc, nên đang hiện tên bằng chữ.

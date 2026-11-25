@@ -25,7 +25,14 @@
       extraLabels: [['Quần đảo Hoàng Sa', 111.9, 17.25], ['Quần đảo Trường Sa', 113.4, 11.3]],
       // Biểu tượng mốc tỉnh (Spark đợt 36 của game Gọn Phố): mã tỉnh → hình trong assets/vn/
       moc: { '01': 'ha_noi', '31': 'hai_phong', '22': 'quang_ninh', '15': 'lao_cai', '37': 'ninh_binh', '44': 'quang_tri',
-             '46': 'hue', '48': 'da_nang', '52': 'gia_lai', '56': 'khanh_hoa', '68': 'lam_dong', '79': 'tp_hcm', '92': 'can_tho', '91': 'an_giang' },
+             '46': 'hue', '48': 'da_nang', '52': 'gia_lai', '56': 'khanh_hoa', '68': 'lam_dong', '79': 'tp_hcm', '92': 'can_tho', '91': 'an_giang',
+             // Spark đợt 41 (vẽ cho Gọn Phố Việt, tính chung số đợt với game)
+             '04': 'cao_bang', '08': 'tuyen_quang', '11': 'dien_bien', '12': 'lai_chau', '14': 'son_la', '19': 'thai_nguyen', '20': 'lang_son',
+             '24': 'bac_ninh', '25': 'phu_tho', '33': 'hung_yen', '38': 'thanh_hoa', '40': 'nghe_an', '42': 'ha_tinh', '51': 'quang_ngai',
+             '66': 'dak_lak', '75': 'dong_nai', '80': 'tay_ninh', '82': 'dong_thap', '86': 'vinh_long', '96': 'ca_mau' },
+      // Hình nhỏ rải cho sinh động (đợt 41): [tên, kinh độ, vĩ độ] — nằm dưới mốc, vướng mốc thì ẩn
+      deco: [['thuyen_buom', 110.2, 15.6], ['ca_heo', 109.6, 9.4], ['hai_dang', 107.08, 10.33], ['nui_da', 103.6, 21.9], ['rung_thong', 107.9, 14.3],
+             ['thuyen_buom', 106.6, 19.4], ['ca_heo', 112.5, 13.8]],
       legend: [['open', 'Có bản đồ phố'], ['soon', 'Sắp có'], ['star', 'Thành phố trực thuộc trung ương']],
       card: cardTinh
     },
@@ -319,6 +326,13 @@
         labels.appendChild(el('text', { x: px(t.nhan[0]).toFixed(1), y: py(t.nhan[1]).toFixed(1), 'class': 'lbl ctx', 'data-min': 0 }, t.ten));
       });
     }
+    (layer.deco || []).forEach(function (d) {
+      var g = el('g', { 'class': 'deco', transform: 'translate(' + px(d[1]).toFixed(1) + ' ' + py(d[2]).toFixed(1) + ')' });
+      var inner = el('g', {});
+      inner.appendChild(el('image', { href: 'assets/vn/deco_' + d[0] + '.webp', x: -15, y: -26, width: 30, height: 30 }));
+      inner._x = px(d[1]); inner._y = py(d[2]); inner._deco = true;
+      g.appendChild(inner); pinsRoot.appendChild(g); pins.push(inner); mocs.push(inner);
+    });
     if (layer.moc) {
       var vien = el('g', { 'class': 'bo-bien' });
       data[layer.list].forEach(function (t) { vien.appendChild(el('path', { d: pathOf(t.hinh), 'class': 'bo-hao' })); });
@@ -375,8 +389,15 @@
     // phóng tới đâu, mốc gần giữa màn hình hiện trước; tối đa MOC_TOI_DA mốc một lúc (tỉnh có bản đồ phố luôn được ưu tiên)
     var r = svg.getBoundingClientRect(), boxes = [], cx = r.width / 2, cy = r.height / 2, dem = 0, MOC_TOI_DA = 5;
     function kc(g) { return Math.hypot(g._x * view.s + view.x - cx, g._y * view.s + view.y - cy) * (g._thu_do ? 0.35 : g._uu === 1 ? 0.6 : 1); }   // thủ đô, rồi thành phố trực thuộc TW được ưu tiên hơn
-    mocs.slice().sort(function (a, b) { return (a._uu === 0 ? -1e9 : kc(a)) - (b._uu === 0 ? -1e9 : kc(b)); }).forEach(function (g) {
-      var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y, h = g._sz;
+    function hangMoc(g) { return g._deco ? 1e9 : (g._uu === 0 ? -1e9 : kc(g)); }
+    mocs.slice().sort(function (a, b) { return hangMoc(a) - hangMoc(b); }).forEach(function (g) {
+      var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y, h = g._sz || 30;
+      if (g._deco) {
+        var bd = { x0: sx - 16, x1: sx + 16, y0: sy - 27, y1: sy + 5 };
+        var hien = sx > 10 && sx < r.width - 10 && sy > 70 && sy < r.height - 130 && !boxes.some(function (o) { return bd.x1 > o.x0 && bd.x0 < o.x1 && bd.y1 > o.y0 && bd.y0 < o.y1; });
+        if (hien) { boxes.push(bd); g.parentNode.removeAttribute('display'); } else g.parentNode.setAttribute('display', 'none');
+        return;
+      }
       var b = { x0: sx - h * 0.62, x1: sx + h * 0.62, y0: sy - h * 0.85, y1: sy + h * 0.32 + 14 };
       var ok = dem < MOC_TOI_DA && sx > h * 0.4 && sx < r.width - h * 0.4 && sy > 70 && sy < r.height - 130 &&   // chừa ô chú thích ở đáy
         

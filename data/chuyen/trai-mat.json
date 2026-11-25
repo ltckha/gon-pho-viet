@@ -1,0 +1,227 @@
+{
+ "slug": "trai-mat",
+ "ten_cu": [
+  {
+   "ten": "Hùng Vương (Quốc lộ 20)",
+   "thoi_gian": "tên trong bảng giá đất 2020–2021",
+   "ghi_chu": "Bảng giá đất QĐ 02/2020 (sửa bởi QĐ 16/2021) gọi khúc từ Huỳnh Tấn Phát qua Trường Tiểu học Trại Mát, Nhà Ga tới giáp xã Xuân Thọ là 'Hùng Vương (Quốc lộ 20) – Phường 11'; OSM và báo chí gọi khúc này là Tự Phước. Báo Tuổi Trẻ đã ghi '120 đường Tự Phước' từ năm 2013, nên đây có thể là cách gọi theo quốc lộ chứ chưa chắc là tên cũ. Em chưa tìm được văn bản đặt tên đường Tự Phước.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-quoc-lo-20-phuong-11",
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "ĐT723 (Đường tỉnh 723)",
+   "thoi_gian": "song song với tên Huỳnh Tấn Phát",
+   "ghi_chu": "Bảng giá đất ghi 'Huỳnh Tấn Phát (ĐT723)' cho khúc từ vòng xoay tới cầu; Foody ghi Panorama ở 'Vòng Xoay 723'. Chưa rõ năm đặt tên Huỳnh Tấn Phát.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-ten-phat-dt723-phuong-11",
+    "https://www.foody.vn/lam-dong/panorama-da-lat-cafe"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Trại Mát (tên vùng)",
+   "thoi_gian": "chưa rõ",
+   "ghi_chu": "Hai cách giải thích, chỉ thấy ở mia.vn: (1) xưa có trại nghỉ mát, săn bắn của vua Bảo Đại; (2) công nhân dựng trại nghỉ khi làm đường Phan Rang – Đà Lạt năm 1915. Chưa có nguồn thứ hai.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/trai-mat-da-lat-co-gi-18974"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "moc": [
+  {
+   "nam": "1908",
+   "su_kien": "Khởi công tuyến đường sắt răng cưa Tháp Chàm – Đà Lạt (dài khoảng 84 km, có 16 km răng cưa).",
+   "nguon": [
+    "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+    "https://vi.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_s%E1%BA%AFt_Th%C3%A1p_Ch%C3%A0m_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "VnExpress ghi 'hơn 83 km'; VTC 2026 và Wikipedia ghi khoảng 84 km."
+  },
+  {
+   "nam": "1932",
+   "su_kien": "Tuyến Tháp Chàm – Đà Lạt hoàn thành (đoạn Đran xong), Trại Mát là ga ngay trước ga Đà Lạt.",
+   "nguon": [
+    "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+    "https://vi.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_s%E1%BA%AFt_Th%C3%A1p_Ch%C3%A0m_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://vi.wikipedia.org/wiki/Ga_Tr%E1%BA%A1i_M%C3%A1t"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "VnExpress ghi 'hoàn thành năm 1932 và đưa vào sử dụng 4 năm sau đó'. Chưa có nguồn ghi năm xây riêng nhà ga Trại Mát (mytour ghi 1932 nhưng có vẻ lẫn với ga Đà Lạt) → không ghi."
+  },
+  {
+   "nam": "1938",
+   "su_kien": "Đạo Cao Đài đến Đà Lạt; về sau thánh thất đặt ở tổ Đa Phước, gần ga Trại Mát.",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/thanh-that-da-phuoc/",
+    "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "VinWonders ghi 'khởi công xây dựng năm 1938'; localvietnam ghi 'bàn thờ Cao Đài đầu tiên ở Đà Lạt lập năm 1938'."
+  },
+  {
+   "nam": "1949",
+   "su_kien": "Khởi công chùa Linh Phước ở Trại Mát.",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+    "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Năm xong lệch: 1952 (Báo Pháp Luật, Wikipedia tiếng Anh); 1950 (Kiến Thức, em chỉ thấy qua kết quả tìm kiếm)."
+  },
+  {
+   "nam": "1990",
+   "su_kien": "Chùa Linh Phước đại trùng tu, bắt đầu khảm mảnh chai, sành sứ.",
+   "nguon": [
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+    "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1991",
+   "su_kien": "Đoạn Đà Lạt – Trại Mát bắt đầu chạy tàu du lịch (tên dịch vụ Dalat Plateau Rail Road).",
+   "nguon": [
+    "https://tuoitre.vn/tren-7km-duong-ray-539282.htm"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "1999",
+   "su_kien": "Đúc Đại hồng chung treo trong tháp chuông 7 tầng của chùa Linh Phước (nghệ nhân Huế).",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Nặng 8.500 kg, cao 4,3 m: chỉ Báo Pháp Luật."
+  },
+  {
+   "nam": "2009",
+   "su_kien": "Dựng tượng Quan Âm cao 17 m kết bằng 600.000 bông hoa bất tử ở chùa Linh Phước.",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "2010",
+   "su_kien": "Khánh thành Thánh thất Cao Đài Đa Phước xây lại theo mẫu số 2 của Tòa Thánh Tây Ninh (khởi công 2005).",
+   "nguon": [
+    "https://thanhtra.com.vn/xa-hoi/van-hoa/kham-pha-thanh-that-lon-nhat-viet-nam-cua-dao-cao-dai-187973.html",
+    "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/",
+    "https://vinwonders.com/vi/wonderpedia/news/thanh-that-da-phuoc/"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Tháng 7/2010 chỉ Báo Thanh Tra ghi; năm 2005 khởi công có ở VinWonders và localvietnam."
+  },
+  {
+   "nam": "2024",
+   "su_kien": "Tháng 4: mở chuyến tàu đêm Đà Lạt – Trại Mát. Ngày 24/12: đưa đoàn tàu La Reine (Hoàng Hậu) vào chạy tuyến này.",
+   "nguon": [
+    "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+    "https://tuoitre.vn/duong-sat-ra-mat-doan-tau-lay-cam-hung-tu-kien-truc-cung-nam-phuong-hoang-hau-20241224182244247.htm",
+    "https://www.sggp.org.vn/khai-thac-doan-tau-hoang-hau-phuc-vu-du-khach-tai-da-lat-post774695.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Tàu đêm: chỉ VnExpress (12/04/2024). La Reine: Tuổi Trẻ và SGGP (24/12/2024)."
+  },
+  {
+   "nam": "2025",
+   "su_kien": "Từ 1/7/2025, Phường 11 cùng các xã Xuân Thọ, Xuân Trường, Trạm Hành gộp thành phường Xuân Trường - Đà Lạt.",
+   "nguon": [
+    "data/lam-dong/nq1671.json (mục 102)",
+    "https://vtcnews.vn/tai-nan-hy-huu-giua-tau-du-lich-co-o-da-lat-va-oto-con-ar1037422.html"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Bảy cây số còn lại của đường răng cưa",
+   "noi_dung": "Tuyến răng cưa Tháp Chàm – Đà Lạt dài khoảng 84 km, sau năm 1975 gần như bị tháo hết ray. Nay chỉ còn gần 7 km từ ga Đà Lạt tới ga Trại Mát chạy tàu du lịch. Tàu dừng ở Trại Mát một lúc cho khách đi bộ sang chùa, ra chợ, rồi đổi đầu máy quay về.",
+   "nguon": [
+    "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+    "https://vtcnews.vn/tai-nan-hy-huu-giua-tau-du-lich-co-o-da-lat-va-oto-con-ar1037422.html",
+    "https://tuoitre.vn/tren-7km-duong-ray-539282.htm",
+    "https://daidoanket.vn/trai-nghiem-hoa-xa-da-lat-10291022.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Thời gian dừng lệch: Tuổi Trẻ 2013 ghi 30 phút; Đại Đoàn Kết 2024 chỉ ghi 'nghỉ lại'."
+  },
+  {
+   "tieu_de": "Ngôi chùa xin ve chai",
+   "noi_dung": "Để khảm chùa Linh Phước, các sư đi xin vỏ chai ở nhà máy bia rượu, mót chén bát vỡ ở một xưởng gần chùa; về sau xưởng tự gom chén bể mang tới bán. Chai được nung trên thanh sắt nóng rồi nhúng nước lạnh để cắt, thân rồng ghép bằng chai bia màu xanh. Thợ khảm là nghệ nhân từ Huế, làm không theo bản vẽ cố định.",
+   "nguon": [
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Các chi tiết xin ve chai, cắt chai chỉ có ở Báo Pháp Luật (2018, lời Đại đức Thích Hạnh Định). Việc rồng ghép bằng vỏ chai bia có thêm Tuổi Trẻ 2013."
+  },
+  {
+   "tieu_de": "Thung lũng đèn",
+   "noi_dung": "Quanh Trại Mát là nhà kính trồng rau, hoa phủ nilon; ban đêm đèn trong nhà kính bật sáng cho cây lớn, nhìn từ dốc Xóm Lèo hay các quán trên đồi thành cả một thung lũng đèn.",
+   "nguon": [
+    "https://vietnamcoracle.com/19-coffee-shops-in-da-lat-with-a-view",
+    "https://mia.vn/cam-nang-du-lich/xom-leo-da-lat-toa-do-san-hoang-hon-va-thuong-thuc-ca-phe-cuc-xin-12163",
+    "https://nhandan.vn/cung-duong-hoai-niem-post371581.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Chợ cuối hành trình",
+   "noi_dung": "Nhân Dân (2019) viết chợ Trại Mát cách nhà ga không xa nên hay được khách chọn làm điểm cuối, ngắm hàng hoa trái, uống cà phê, đủ gần để nghe còi tàu gọi về. mia.vn kể chợ từng lên phim 'Tháng Năm Rực Rỡ'.",
+   "nguon": [
+    "https://nhandan.vn/cung-duong-hoai-niem-post371581.html",
+    "https://tuoitre.vn/tren-7km-duong-ray-539282.htm",
+    "https://mia.vn/cam-nang-du-lich/review-trai-mat-da-lat-18972"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Chuyện chợ lên phim 'Tháng Năm Rực Rỡ' chỉ có ở mia.vn (1 nguồn); Znews viết về bối cảnh phim không nhắc Trại Mát. Chưa nguồn nào ghi địa chỉ chợ."
+  }
+ ],
+ "mon": [
+  {
+   "ten": "Cơm chay ở chùa",
+   "ghi_chu": "Chùa Linh Phước có gian bán cơm chay cho khách (Tuổi Trẻ 2013).",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Bánh tráng nướng, sữa đậu nành, trứng nướng",
+   "ghi_chu": "Hàng quán dọc đường lên dốc Xóm Lèo (vietnambooking 2023). OSM có điểm 'Sữa đậu nành hoàng hôn' trên đường Xóm Lèo. Chỉ vietnambooking nói rõ món; OSM chỉ xác nhận một hàng sữa đậu nành.",
+   "nguon": [
+    "https://www.vietnambooking.com/du-lich/blog-du-lich/xom-leo-da-lat.html",
+    "https://www.openstreetmap.org/node/10694523206"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Cà phê sữa sớm cho dân làm vườn",
+   "ghi_chu": "mia.vn: cà phê ở Trại Mát rẻ, khoảng 7.000 đồng ly cà phê sữa, có quán mở từ 1 giờ sáng cho người làm vườn.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/trai-mat-da-lat-co-gi-18974"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Trà atisô trên tàu",
+   "ghi_chu": "Chuyến tàu Đà Lạt – Trại Mát phục vụ trà atisô (VnExpress 04/2024).",
+   "nguon": [
+    "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "ghi_chu": "1) Tự Phước: bảng giá đất 2020 gọi khúc qua ga là 'Hùng Vương (Quốc lộ 20)', còn báo chí từ 2013 và OSM gọi Tự Phước — em chưa tìm được văn bản đặt tên, không kết luận đâu là tên cũ. 2) Huỳnh Tấn Phát: phía bắc khoảng 4,5 km nằm trong Lâm Viên - Đà Lạt theo ranh giới phuong.json, bảng giá vẫn ghi Phường 11 → chưa rõ. 3) Năm xong chùa Linh Phước lệch (1950/1952); số kỷ lục lệch (11 / 16+1+1). 4) Nguồn gốc tên 'Trại Mát' chỉ có ở mia.vn. 5) Em không mở được trang Bộ Xây dựng về giảm giá vé tàu (moc.gov.vn không trả về), nên không ghi giá vé."
+}

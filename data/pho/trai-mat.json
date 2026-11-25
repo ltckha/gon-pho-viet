@@ -1,0 +1,303 @@
+{
+ "road": "Huỳnh Tấn Phát",
+ "duong": [
+  "Huỳnh Tấn Phát",
+  "Tự Phước",
+  "Xóm Lèo",
+  "Sào Nam",
+  "Hùng Vương"
+ ],
+ "ten_osm": [
+  "Huỳnh Tấn Phát",
+  "Tự Phước",
+  "Bùng binh Trại Mát",
+  "Xóm Lèo",
+  "Sào Nam",
+  "Hẻm 31 Sào Nam",
+  "Hùng Vương"
+ ],
+ "ward": "Xuân Trường - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020/QĐ-UBND (sửa bởi QĐ 16/2021) trên thuviennhadat ghi cả hai đoạn Huỳnh Tấn Phát thuộc PHƯỜNG 11: 'Huỳnh Tấn Phát (ĐT723)' từ vòng xoay (thửa 727, 235 tờ 10) đến cầu (thửa 170, 172 tờ 5), và 'Huỳnh Tấn Phát – đoạn còn lại'. Bảng giá 2020 KHÔNG có tên 'Tự Phước'; đoạn tương ứng (Huỳnh Tấn Phát → Trường Tiểu học Trại Mát → Nhà Ga → giáp xã Xuân Thọ) ghi là 'Hùng Vương (Quốc lộ 20) – PHƯỜNG 11'. Báo chí từ 2013 (Tuổi Trẻ) đã ghi '120 đường Tự Phước, phường 11'. Theo NQ 1671 mục 102: Phường 11 + xã Xuân Thọ, Xuân Trường, Trạm Hành → phường Xuân Trường - Đà Lạt. VTC News 31/08/2026 và Wikipedia (Ga Trại Mát) cũng ghi đường sắt/ga thuộc phường Xuân Trường - Đà Lạt. Kiểm chéo ranh giới phuong.json: bùng binh Trại Mát, ga Trại Mát, cả đường Tự Phước nằm trong Xuân Trường - Đà Lạt. RIÊNG Huỳnh Tấn Phát dài khoảng 6,4 km theo OSM: khoảng 1,9 km phía nam (từ bùng binh lên tới khoảng 11.9566, 108.4881) nằm trong Xuân Trường; khoảng 4,5 km phía bắc nằm trong Lâm Viên - Đà Lạt theo phuong.json, dù bảng giá chỉ ghi Phường 11 → phần phía bắc em để 'chưa rõ'. Mọi nơi trong danh sách đều ở khúc gần bùng binh (Xuân Trường).",
+ "doan": [
+  {
+   "doan": "Huỳnh Tấn Phát (ĐT723): vòng xoay Trại Mát – cầu (thửa 170, 172 tờ 5)",
+   "phuong_cu": "Phường 11",
+   "phuong_moi": "Xuân Trường - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-ten-phat-dt723-phuong-11",
+   "ghi_chu": "Đường dẫn của trang ghi sai chính tả 'huynh-ten-phat'."
+  },
+  {
+   "doan": "Huỳnh Tấn Phát: đoạn còn lại (phía bắc)",
+   "phuong_cu": "Phường 11",
+   "phuong_moi": "Xuân Trường - Đà Lạt (theo bảng giá) / Lâm Viên - Đà Lạt (theo ranh giới phuong.json)",
+   "do_chac": "chưa rõ",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-tan-phat-phuong-11",
+   "ghi_chu": "Bảng giá chỉ ghi 'Đoạn còn lại' của Phường 11; ranh giới mới trong phuong.json cắt đường ở khoảng 1,9 km tính từ bùng binh, phía bắc thuộc Lâm Viên. Chưa có văn bản nào nói rõ."
+  },
+  {
+   "doan": "Tự Phước (bảng giá 2020 ghi 'Hùng Vương (Quốc lộ 20)'): Huỳnh Tấn Phát – Trường Tiểu học Trại Mát – Nhà Ga – giáp xã Xuân Thọ",
+   "phuong_cu": "Phường 11",
+   "phuong_moi": "Xuân Trường - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-quoc-lo-20-phuong-11",
+   "ghi_chu": "Bảng giá không dùng tên Tự Phước; em ghép theo mốc 'Nhà Ga' và ranh giới phuong.json. Báo ghi '120 Tự Phước, phường 11' (Tuổi Trẻ 2013, VTC 2023)."
+  },
+  {
+   "doan": "Sào Nam, hẻm 31 Sào Nam, Xóm Lèo, Hùng Vương (khúc dốc số 7 sát bùng binh)",
+   "phuong_cu": "Phường 11",
+   "phuong_moi": "Xuân Trường - Đà Lạt",
+   "do_chac": "khá chắc",
+   "nguon": "data/lam-dong/phuong.json (ranh giới); Foody ghi 'Hẻm 31 Sào Nam, P. 11', mia.vn ghi Dốc 7 'phường 11'",
+   "ghi_chu": "Không có trang bảng giá riêng cho Xóm Lèo; Sào Nam có 'Hẻm vào trường Sào Nam - PHƯỜNG 11'."
+  }
+ ],
+ "ten_pho": "Phố Tàu Cổ Trại Mát",
+ "gioi_thieu": "Phố Tàu Cổ Trại Mát: ga cuối của đoạn đường sắt gần 7 km còn chạy tàu du lịch từ ga Đà Lạt (khúc còn lại của tuyến răng cưa Tháp Chàm – Đà Lạt dài khoảng 84 km), sát chùa Linh Phước khảm ve chai có con rồng dài 49 m; chiều tối lên dốc Xóm Lèo đầu đường Huỳnh Tấn Phát ngắm thung lũng nhà kính lên đèn.",
+ "dia_diem": [
+  {
+   "ten": "Ga Trại Mát",
+   "loai": "ga xe lửa, điểm tham quan",
+   "dac_trung": "Ga cuối của tuyến tàu du lịch Đà Lạt – Trại Mát (gần 7 km, khoảng 20–30 phút); tàu dừng ở ga một lúc cho khách đi bộ sang chùa Linh Phước, chợ, rồi quay về ga Đà Lạt. Đoạn này là phần duy nhất còn chạy của tuyến răng cưa Tháp Chàm – Đà Lạt (khởi công 1908, xong 1932). Có chuyến đêm (từ 4/2024) và đoàn tàu La Reine (từ 24/12/2024).",
+   "dia_chi": "đường Tự Phước, Trại Mát, phường Xuân Trường - Đà Lạt",
+   "duong": "Tự Phước",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Ga_Tr%E1%BA%A1i_M%C3%A1t",
+    "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+    "https://vtcnews.vn/tai-nan-hy-huu-giua-tau-du-lich-co-o-da-lat-va-oto-con-ar1037422.html",
+    "https://nhandan.vn/cung-duong-hoai-niem-post371581.html",
+    "https://tuoitre.vn/tren-7km-duong-ray-539282.htm",
+    "https://www.sggp.org.vn/khai-thac-doan-tau-hoang-hau-phuc-vu-du-khach-tai-da-lat-post774695.html",
+    "https://daidoanket.vn/trai-nghiem-hoa-xa-da-lat-10291022.html",
+    "https://www.openstreetmap.org/node/3377406129"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "tàu còn chạy: VTC News 31/08/2026 đưa tin tàu du lịch Đà Lạt – Trại Mát va chạm ô tô ở phường Xuân Trường - Đà Lạt (không ai bị thương). Giờ tàu, giá vé hiện tại em chưa đọc được từ nguồn chính thức.",
+   "ghi_chu": "OSM có node 'Trại Mát' (railway=station) cách đường Tự Phước khoảng 9 m. Nguồn không ghi số nhà.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Chùa Linh Phước (chùa Ve Chai, chùa Mảnh Chai)",
+   "loai": "chùa, điểm tham quan",
+   "dac_trung": "Chùa khởi công năm 1949, khảm sành sứ và mảnh chai; rồng dài 49 m ghép từ 12.000 vỏ chai; tháp chuông 7 tầng treo Đại hồng chung đúc năm 1999 nặng 8.500 kg; tượng Quan Âm cao 17 m kết bằng 600.000 bông hoa bất tử (cuối năm 2009). Chùa có gian bán cơm chay.",
+   "dia_chi": "120 Tự Phước, Trại Mát, phường Xuân Trường - Đà Lạt",
+   "duong": "Tự Phước",
+   "so_nha": "120",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+    "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple",
+    "https://www.foody.vn/lam-dong/chua-linh-phuoc",
+    "https://www.openstreetmap.org/way/1048566814"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; mia.vn sửa bài 23/07/2026 ghi địa chỉ theo phường mới; Foody ghi 08:00–17:00 (chưa rõ ngày cập nhật).",
+   "ghi_chu": "Khuôn viên chùa (OSM way/1048566814) nằm lùi vào trong, cách đường Tự Phước khoảng 180 m, sát đường Lương Định Của; bảng giá đất có 'Hẻm vào chùa Linh Phước' từ Hùng Vương (nay là Tự Phước) tới Lương Định Của. Năm xong lệch: 1952 (Báo Pháp Luật, Wikipedia), 1950 (Kiến Thức, chỉ thấy qua kết quả tìm kiếm). Số kỷ lục lệch: 11 (Báo Pháp Luật 2018) / 16 kỷ lục VN + 1 châu Á + 1 thế giới (VTC 2023).",
+   "vi_tri": null
+  },
+  {
+   "ten": "Thánh thất Cao Đài Đa Phước (Thánh thất Cao Đài Đà Lạt)",
+   "loai": "thánh thất Cao Đài, điểm tham quan",
+   "dac_trung": "Đạo Cao Đài có mặt ở Đà Lạt từ năm 1938; thánh thất hiện nay xây lại từ năm 2005 theo mẫu số 2 của Tòa Thánh Tây Ninh, khánh thành tháng 7/2010, trên đồi thông tổ Đa Phước. Vào cửa miễn phí, 7:00–19:00.",
+   "dia_chi": "đường Tự Phước, phường Xuân Trường - Đà Lạt",
+   "duong": "Tự Phước",
+   "so_nha": "",
+   "nguon": [
+    "https://thanhtra.com.vn/xa-hoi/van-hoa/kham-pha-thanh-that-lon-nhat-viet-nam-cua-dao-cao-dai-187973.html",
+    "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/",
+    "https://vinwonders.com/vi/wonderpedia/news/thanh-that-da-phuoc/",
+    "https://www.openstreetmap.org/node/4698647291"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; localvietnam 19/05/2026 ghi mở hằng ngày 7:00–19:00, miễn phí.",
+   "ghi_chu": "OSM ghi tên 'Thánh thất Đà Lạt', điểm cách đường Tự Phước khoảng 170 m (lùi trên đồi). 'Lớn nhất' lệch nhau: Báo Thanh Tra 2021 ghi lớn nhất Việt Nam; localvietnam ghi lớn nhất sau Tòa Thánh Tây Ninh; VinWonders ghi lớn nhất Đà Lạt và Tây Nguyên → em không đưa chữ 'lớn nhất' vào.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Panorama Đà Lạt Cafe",
+   "loai": "cà phê ngắm cảnh",
+   "dac_trung": "Quán trên đồi cạnh bùng binh Trại Mát, nhìn bao quát thung lũng; chiều tối khi nhà kính trồng hoa lên đèn là lúc đông khách. Kiêm homestay.",
+   "dia_chi": "cạnh vòng xoay Trại Mát, hướng đường 723 (Huỳnh Tấn Phát), phường Xuân Trường - Đà Lạt",
+   "duong": "Huỳnh Tấn Phát",
+   "so_nha": "",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/panorama-da-lat-cafe",
+    "https://mia.vn/cam-nang-du-lich/review-cafe-panorama-da-lat-den-day-mot-lan-du-anh-up-nua-nam-2654",
+    "https://toplist.vn/top-list/quan-ca-phe-co-view-nha-kinh-dep-nuoc-uong-ngon-tai-da-lat-33184.htm",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: VinWonders 15/07/2025 còn giới thiệu; mia.vn sửa bài 22/10/2025. Bình luận Foody mới nhất em thấy là 2021.",
+   "ghi_chu": "Đường chưa chắc hẳn: Foody ghi 'Vòng Xoay 723', mia.vn ghi 'cạnh vòng xoay Trại Mát hướng đường 723' (bảng giá đất gọi Huỳnh Tấn Phát là ĐT723) → em gắn Huỳnh Tấn Phát; Toplist lại ghi 'Vòng xoay Trại Mát, Đường Hùng Vương'. VinWonders ghi 'Số 723 Trại Mát' (có lẽ nhầm tên đường thành số nhà) → không dùng. Không có trên OSM.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Xóm Lèo",
+   "loai": "dốc ngắm hoàng hôn, thung lũng nhà kính",
+   "dac_trung": "Con dốc dân cư đầu Trại Mát: từ bùng binh vào Huỳnh Tấn Phát khoảng 200 m, rẽ trái lên dốc; nhìn xuống thung lũng nhà kính, đẹp nhất 16–18 giờ và lúc nhà kính lên đèn. Không bán vé. Dọc đường lên có hàng bánh tráng nướng, sữa đậu nành, trứng nướng.",
+   "dia_chi": "khu quy hoạch Huỳnh Tấn Phát, Trại Mát, phường Xuân Trường - Đà Lạt",
+   "duong": "Xóm Lèo",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/xom-leo-da-lat-toa-do-san-hoang-hon-va-thuong-thuc-ca-phe-cuc-xin-12163",
+    "https://www.vietnambooking.com/du-lich/blog-du-lich/xom-leo-da-lat.html",
+    "https://www.vietnamairlines.com/gb/vi/plan-book/travel/travel-guide/xom-leo-da-lat",
+    "https://wanderlog.com/place/details/4301210",
+    "https://www.openstreetmap.org/node/13118691101"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "là dốc công cộng, không có giờ mở; mia.vn sửa bài 12/08/2026.",
+   "ghi_chu": "OSM có đường tên 'Xóm Lèo' rẽ từ Huỳnh Tấn Phát và một điểm tên 'Xóm Lèo' cách Huỳnh Tấn Phát khoảng 56 m. Vietnam Airlines viết Xóm Lèo là 'làng cổ do người Pháp xây từ thế kỷ 19' — trái với mia.vn ('chỉ là cách gọi dân dã của con dốc') và không có nguồn khác → không dùng ý đó.",
+   "vi_tri": {
+    "lon": 108.490962,
+    "lat": 11.950443,
+    "cach": "tên trên OpenStreetMap: Xóm Lèo",
+    "osm": "way/776392065"
+   }
+  },
+  {
+   "ten": "Tiệm Cà Phê Túi Mơ To",
+   "loai": "cà phê ngắm thung lũng nhà kính",
+   "dac_trung": "Quán nhà gỗ mái tôn kiểu nhà vườn trên mép thung lũng nhà kính; trang trí lấy cảm hứng từ nhà kính phủ nilon, ban đêm nhìn xuống thung lũng đèn. Giá nước 30.000–65.000 đồng (VinWonders), 7:00–21:30 (Foody).",
+   "dia_chi": "hẻm 31 Sào Nam, phường Xuân Trường - Đà Lạt",
+   "duong": "Sào Nam",
+   "so_nha": "hẻm 31",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/tiem-ca-phe-tui-mo-to",
+    "https://toplist.vn/top-list/quan-ca-phe-co-view-nha-kinh-dep-nuoc-uong-ngon-tai-da-lat-33184.htm",
+    "https://vietnamcoracle.com/19-coffee-shops-in-da-lat-with-a-view",
+    "https://vinwonders.com/vi/wonderpedia/news/cafe-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/trai-mat-da-lat-co-gi-18974"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu: VinWonders 30/07/2025 còn ghi giờ mở 7h45–21h45; bình luận Foody mới nhất em thấy 26/04/2023.",
+   "ghi_chu": "Địa chỉ lệch: Foody, Toplist ghi 'Hẻm 31 Sào Nam'; VinWonders (2 bài) ghi '36 Tự Phước'. OSM có đường 'Hẻm 31 Sào Nam' ở thung lũng phía tây nam bùng binh → em theo Foody/Toplist. Không có trên OSM nên chưa có vị trí chính xác.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Sunny Farm Cafe",
+   "loai": "cà phê ngắm nhà kính về đêm",
+   "dac_trung": "Quán ở Dốc số 7 đầu Trại Mát, nhiều góc chụp ảnh; buổi tối nhìn xuống những nhà kính sáng đèn.",
+   "dia_chi": "Dốc số 7, Trại Mát, phường Xuân Trường - Đà Lạt",
+   "duong": "Hùng Vương",
+   "so_nha": "",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/sunny-farm-da-lat-ban-muon-vui-ve-u-moi-ban-ve-team-minh-1564",
+    "https://www.openstreetmap.org/node/6418806785"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: VinWonders 15/07/2025 còn giới thiệu; bài mia.vn sửa lần cuối 21/09/2023.",
+   "ghi_chu": "VinWonders ghi 'Dốc số 7 đường Tự Phước', mia.vn ghi 'Dốc 7, Trại Mát'. Điểm OSM 'Sunny Farm' nằm sát đường Hùng Vương (cách 4 m), khoảng 600 m phía tây nam bùng binh → em ghi duong theo OSM là Hùng Vương.",
+   "vi_tri": {
+    "lon": 108.488406,
+    "lat": 11.944152,
+    "cach": "tên trên OpenStreetMap: Sunny Farm",
+    "osm": "node/6418806785"
+   }
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Chợ Trại Mát",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://nhandan.vn/cung-duong-hoai-niem-post371581.html",
+    "https://tuoitre.vn/tren-7km-duong-ray-539282.htm",
+    "https://mia.vn/cam-nang-du-lich/review-trai-mat-da-lat-18972"
+   ],
+   "ly_do": "đủ 3 trang nhắc tên (Nhân Dân 2019: 'cách không xa nhà ga'; Tuổi Trẻ 2013: 'chợ thị trấn' gần ga; mia.vn: rau, hoa quả) nhưng KHÔNG nguồn nào ghi địa chỉ/đường, OSM không có điểm chợ, chưa có nguồn mới xác nhận còn họp → chưa đặt lên bản đồ."
+  },
+  {
+   "ten": "Hai Ả Homestay – Cafe (Hai Ả Homestay Café Bakery)",
+   "duong": "Sào Nam",
+   "so_nha": "77",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/trai-mat-da-lat-co-gi-18974"
+   ],
+   "ly_do": "2 trang nhắc tên, nhưng chỉ VinWonders ghi số nhà '77 Sào Nam'; mia.vn không ghi địa chỉ."
+  },
+  {
+   "ten": "Thung Lũng Đèn Coffee",
+   "duong": "Hùng Vương",
+   "so_nha": "",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/thung-lung-den-coffee",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/"
+   ],
+   "ly_do": "2 trang, nhưng chỉ ghi 'Dốc số 7' (Foody ghi Quốc lộ 20, VinWonders ghi Trại Mát); không có trên OSM, không biết nằm đâu trên dốc; bình luận Foody cũ."
+  },
+  {
+   "ten": "Tiệm nướng Xóm Lèo",
+   "duong": "Huỳnh Tấn Phát",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/tiem-nuong-xom-leo-14084"
+   ],
+   "ly_do": "1 nguồn (mia.vn: đồ nướng, 16:00–22:00, 'vườn rau Trại Mát, đường Huỳnh Tấn Phát')."
+  },
+  {
+   "ten": "D'Lats - Xông Hơi Công Cộng & Cafe",
+   "duong": "Sào Nam",
+   "so_nha": "hẻm 31",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/d-lats-xong-hoi-cong-cong-cafe"
+   ],
+   "ly_do": "1 nguồn (Foody, bình luận 2023)."
+  },
+  {
+   "ten": "Kapi Café - Café Capybara Đà Lạt",
+   "duong": "Tự Phước",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/12657835101"
+   ],
+   "ly_do": "chỉ OSM (điểm cách đường Tự Tạo khoảng 60 m, Tự Phước khoảng 200 m); tìm web không thấy trang nào khác."
+  },
+  {
+   "ten": "Lời Của Gió (cà phê)",
+   "duong": "Huỳnh Tấn Phát",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/11840626298"
+   ],
+   "ly_do": "chỉ OSM (addr:street=Huỳnh Tấn Phát)."
+  },
+  {
+   "ten": "Sữa đậu nành hoàng hôn",
+   "duong": "Xóm Lèo",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/10694523206"
+   ],
+   "ly_do": "chỉ OSM; vietnambooking chỉ nói chung có hàng sữa đậu nành dọc đường lên Xóm Lèo, không nêu tên."
+  },
+  {
+   "ten": "Cơm Chay Bồ Đề (OSM ghi 'Com Chay Bô Dê')",
+   "duong": "Tự Phước",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/6029369291"
+   ],
+   "ly_do": "chỉ OSM, tên không dấu, gần ga (cách Tự Phước khoảng 34 m)."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-tan-phat-phuong-11",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-ten-phat-dt723-phuong-11",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-quoc-lo-20-phuong-11",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hem-vao-chua-linh-phuoc-phuong-11",
+  "data/lam-dong/nq1671.json (mục 102: Phường 11, xã Xuân Thọ, Xuân Trường, Trạm Hành → Xuân Trường - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json ('Huỳnh Tấn Phát' 3 đoạn, khoảng 6,4 km; 'Tự Phước' khoảng 2,9 km; 'Bùng binh Trại Mát'; mốc ga 'Trại Mát')",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.486,11.940,108.506,11.952 (tải 25/11/2026, tìm điểm có tên quanh Trại Mát)",
+  "https://www.foody.vn/lam-dong/khu-vuc-trai-mat"
+ ],
+ "cap_nhat": "2026-11-25"
+}

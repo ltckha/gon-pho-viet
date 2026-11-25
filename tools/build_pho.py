@@ -96,6 +96,18 @@ def main(game):
             'can_kiem_them': can_kiem,
             'nghien_cuu': REPO_URL + 'docs/research/pho_' + slug + '.md',
         })
+    # chuyện của phố (data/chuyen/<slug>.json, agent nghien-cuu-pho): tên cũ, mốc lịch sử, chuyện, món
+    for o in out:
+        f = os.path.join(ROOT, 'data', 'chuyen', o['slug'] + '.json')
+        if os.path.exists(f):
+            c = json.load(open(f, encoding='utf-8'))
+            def lk(x):
+                return [{'link': u, 'trang': site(u)} for u in x.get('nguon', [])]
+            o['chuyen'] = {
+                'ten_cu': [{'ten': t['ten'], 'thoi_gian': t.get('thoi_gian', ''), 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', len(t.get('nguon', [])) < 2)} for t in c.get('ten_cu', [])],
+                'moc': [{'nam': m['nam'], 'su_kien': m['su_kien'], 'nguon': lk(m), 'mot_nguon': m.get('mot_nguon', False)} for m in c.get('moc', [])],
+                'chuyen': [{'tieu_de': t['tieu_de'], 'noi_dung': t['noi_dung'], 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', False)} for t in c.get('chuyen', [])],
+            }
     write(out)
 
 

@@ -32,7 +32,10 @@ python3 tools/build_streets.py /tmp/osm /tmp/vpd/json/geojson
 curl -sL -o /tmp/c10.json https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-10m.json && python3 tools/build_lang_gieng.py /tmp/c10.json
 # 3. Trang phố (đọc kho game, chỉ đọc) — dò vị trí quán trước
 python3 tools/vi_tri_quan.py /tmp/osm
-python3 tools/build_pho.py /home/user/ltckha/giang-ho-ai
+python3 tools/build_pho.py /home/user/ltckha/giang-ho-ai   # gắn cả data/chuyen/<slug>.json (chuyện của phố)
+# 4. Bản đồ minh hoạ nét Spark (nền trang phố) và lịch trình đi bộ
+python3 tools/ve_ban_do_dalat.py /home/user/ltckha/giang-ho-ai
+python3 tools/lich_trinh.py /tmp/osm
 ```
 `build_data.py` dừng báo lỗi nếu tên xã/phường không khớp văn bản NQ — đừng tắt kiểm tra đó, sửa đúng gốc.
 
@@ -51,6 +54,12 @@ python3 tools/build_pho.py /home/user/ltckha/giang-ho-ai
 - OSM ở Đà Lạt ghi tiệm thiếu; so tên lỏng ra trùng nhầm ("Café Nga" ≠ "Miến gà Nga"). `vi_tri_quan.py` so tên hai chiều + số, số nhà đúng y tên đường; tên viết khác thì soát tay rồi thêm vào `ALIAS`. Không khớp thì để trống, không đoán.
 - Điều khoản Google không cho máy tự lấy dữ liệu Google Maps (kể cả toạ độ) đưa sang bản đồ khác → không chép toạ độ từ Google Maps vào kho.
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
+
+## Anh Kha đã chốt (25/11/2026)
+- Trang phố vẽ trên **bản đồ minh hoạ nét Spark, hướng Bắc ở trên, đúng tỉ lệ, có mốc quen** (Chợ, hồ, nhà thờ). Không xoay đường, không sơ đồ trừu tượng — người Đà Lạt nhìn phải nhận ra ngay.
+- Đường trên bản đồ không bao giờ cụt giữa khung.
+- Làm: lịch trình theo phố, chuyện của phố. Không làm: người dùng xác nhận/đánh giá.
+- Nghiên cứu, thêm phố thì cứ làm, không hỏi; chỉ hỏi khi đưa lên mạng/tốn tiền.
 
 ## Agent có sẵn (`.claude/agents/`)
 - `nghien-cuu-pho` — nghiên cứu một phố mới: phường, đặc trưng, địa điểm tên thật (≥2 nguồn ở 2 trang khác nhau), ra `data/pho/<slug>.json`. Sau đó chạy `python3 tools/vi_tri_quan.py /tmp/osm` rồi `tools/build_pho.py`.

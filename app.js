@@ -515,6 +515,30 @@
     pinsRoot.appendChild(g);
     pins.push(inner);
   }
+  // Chuyện của phố: tên cũ, mốc năm, chuyện ngắn. Ý chỉ có 1 nguồn thì ghi rõ.
+  function chuyenHtml(c) {
+    function src(list, one) {
+      return '<span class="src">' + (one ? 'Mới có 1 nguồn: ' : 'Nguồn: ') + list.map(function (n) {
+        return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + '</a>';
+      }).join(' · ') + '</span>';
+    }
+    var h = '<section class="chuyen"><h3>Chuyện của phố</h3>';
+    if (c.ten_cu.length) {
+      h += '<p class="ten-cu"><b>Tên xưa:</b> ' + c.ten_cu.map(function (t) {
+        return esc(t.ten) + (t.thoi_gian ? ' <span class="muted">(' + esc(t.thoi_gian) + ')</span>' : '');
+      }).join(' → ') + '</p>';
+    }
+    if (c.moc.length) {
+      h += '<ol class="moc-nam">' + c.moc.map(function (m) {
+        return '<li><b>' + esc(m.nam) + '</b><span>' + esc(m.su_kien) + '</span>' + src(m.nguon, m.mot_nguon) + '</li>';
+      }).join('') + '</ol>';
+    }
+    c.chuyen.forEach(function (t) {
+      h += '<div class="mau-chuyen"><b>' + esc(t.tieu_de) + '</b><span>' + esc(t.noi_dung) + '</span>' + src(t.nguon, t.mot_nguon) + '</div>';
+    });
+    return h + '</section>';
+  }
+
   function showPho(ph) {
     phoBox = highlight(ph.duong);
     var h = (ph.anh ? '<img class="banner" src="' + esc(ph.anh) + '" alt="Tranh đầu ' + esc(ph.ten_pho) + '">'
@@ -527,6 +551,7 @@
       '<div id="quanCard" class="quan-card" hidden></div>' +
       '<button class="go" type="button" id="seeMap">Xem cả phố trên bản đồ thật</button>' +
       '';
+    if (ph.chuyen) h += chuyenHtml(ph.chuyen);
     if (ph.can_kiem_them) h += '<p class="note">Còn ' + ph.can_kiem_them + ' nơi khác chưa đủ 2 nguồn nên chưa đưa lên.</p>';
     h += ph.ten_that
       ? '<p class="note">Tên quán thật, mỗi nơi có nguồn ở ít nhất 2 trang khác nhau. Vị trí lấy từ OpenStreetMap (đúng tên quán hoặc đúng số nhà), hoặc ước theo số nhà khi ghi rõ. <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">Xem nghiên cứu</a>.</p>'
@@ -652,6 +677,51 @@
     document.getElementById('quanGo').addEventListener('click', function () { goPlace(d); });
   }
 
+  /* ---------- lịch trình đi bộ theo phố ---------- */
+  var lich = null;
+  function moLich() {
+    (lich ? Promise.resolve(lich) : loadJSON('data/lam-dong/da-lat/lich_trinh.json')).then(function (L) {
+      lich = L;
+      var h = '<h2>Đi bộ theo phố</h2><p class="note">Quãng đường đo trên đường thật (OpenStreetMap). Thời gian tính đi bộ 4 km/giờ vì Đà Lạt nhiều dốc.</p>';
+      L.lich.forEach(function (l, li) {
+        h += '<section class="lich"><h3>' + esc(l.ten) + ' <span class="muted">· ' + fmt(l.tong_m / 100) / 10 + ' km, khoảng ' + l.tong_phut + ' phút đi bộ</span></h3><ol>';
+        l.chang.forEach(function (c, i) {
+          if (c.quang_duong_m) h += '<li class="di-bo">↓ đi bộ ' + fmt(c.quang_duong_m) + ' m, khoảng ' + c.phut + ' phút</li>';
+          h += '<li class="chang"><span class="buoi">' + esc(c.buoi) + '</span><button type="button" class="ten-pho" data-pho="' + esc(c.slug) + '">' + (i + 1) + '. ' + esc(c.ten_pho) + ' →</button><span>' + esc(c.goi_y) + '</span></li>';
+        });
+        h += '</ol><button class="go" type="button" data-lich="' + li + '">Xem đường đi trên bản đồ</button></section>';
+      });
+      sheetBody.innerHTML = h;
+      sheet.classList.add('full'); sheet.scrollTop = 0; srcSheet.hidden = true; sheet.hidden = false;
+      Array.prototype.forEach.call(sheetBody.querySelectorAll('[data-pho]'), function (b) {
+        b.addEventListener('click', function () { location.hash = 'pho-' + b.getAttribute('data-pho'); });
+      });
+      Array.prototype.forEach.call(sheetBody.querySelectorAll('[data-lich]'), function (b) {
+        b.addEventListener('click', function () { veLich(lich.lich[Number(b.getAttribute('data-lich'))]); });
+      });
+    });
+  }
+
+  function veLich(l) {
+    closeSheet();
+    var old = document.getElementById('lichDuong');
+    if (old) old.remove();
+    var g = el('g', { id: 'lichDuong', 'class': 'lich-duong' });
+    var bx = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
+    l.chang.forEach(function (c) {
+      if (!c.duong_di) return;
+      g.appendChild(el('path', { d: lineOf(c.duong_di) }));
+      c.duong_di.forEach(function (q) {
+        var x = px(q[0]), y = py(q[1]);
+        bx.minX = Math.min(bx.minX, x); bx.maxX = Math.max(bx.maxX, x); bx.minY = Math.min(bx.minY, y); bx.maxY = Math.max(bx.maxY, y);
+      });
+    });
+    var fillG = land.querySelector('.road-fill');
+    land.insertBefore(g, fillG ? fillG.nextSibling : null);
+    zoomTo(bx);
+  }
+  document.getElementById('lichBtn').addEventListener('click', moLich);
+
   function closeSheet() {
     sheet.classList.remove('full');
     if (/^#pho-/.test(location.hash)) location.replace('#da-lat');   // đóng trang phố = về bản đồ đường
@@ -677,6 +747,7 @@
     document.getElementById('srcList').innerHTML = nguon.map(function (n) {
       return '<li>' + esc(n.ten) + '<br><a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.link) + '</a></li>';
     }).join('');
+    document.getElementById('lichBtn').hidden = layer.kind !== 'duong';
     var name = layer.crumb[layer.crumb.length - 1][0];
     svg.setAttribute('aria-label', name === 'Việt Nam' ? 'Bản đồ 34 tỉnh, thành phố Việt Nam' : 'Bản đồ xã, phường tỉnh ' + name);
   }

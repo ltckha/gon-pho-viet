@@ -1,0 +1,373 @@
+{
+ "road": "Tăng Bạt Hổ; Trương Công Định",
+ "duong": [
+  "Tăng Bạt Hổ",
+  "Trương Công Định"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Cả hai đường thuộc Phường 1 cũ → Xuân Hương - Đà Lạt (NQ 1671, mục 99: gộp Phường 1, 2, 3, 4, 10). Trương Công Định: trang bảng giá đất riêng (P1). Tăng Bạt Hổ: danh mục bảng giá đất QĐ 02/2020 trên thuviennhadat ghi 'Tăng Bạt Hổ (đường chính) / (Đường nhánh 1) / (Đường nhánh 2) - PHƯỜNG 1'; bảng chi tiết không hiện khi tải bằng máy. Các bài quán đều ghi 'Phường 1' hoặc 'phường Xuân Hương – Đà Lạt'.",
+ "ten_osm": [
+  "Tăng Bạt Hổ",
+  "Trương Công Định"
+ ],
+ "ten_pho": "Phố Ăn Đêm",
+ "gioi_thieu": "Phố Ăn Đêm sau chợ Đà Lạt: dốc Tăng Bạt Hổ sáng bánh căn, bánh ướt lòng gà, tối sữa đậu nành nóng; rẽ sang Trương Công Định là hostel, cà phê đồ cũ và bar dưới tầng hầm.",
+ "dia_diem": [
+  {
+   "ten": "Bánh căn Cây Bơ",
+   "loai": "quán bánh căn (ăn sáng)",
+   "dac_trung": "Bánh căn chấm nước xíu mại, ngồi dưới gốc cây bơ lớn bên lề dốc; chỉ bán buổi sáng.",
+   "dia_chi": "56 Tăng Bạt Hổ, phường Xuân Hương - Đà Lạt",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "56",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/banh-khot-da-lat/",
+    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+    "https://www.foody.vn/lam-dong/banh-can-cay-bo",
+    "https://wanderlog.com/place/details/4854630/b%C3%A1nh-c%C4%83n-c%C3%A2y-b%C6%A1"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (cập nhật 14/07/2025) và (13/07/2025) vẫn ghi 56 Tăng Bạt Hổ, phường Xuân Hương – Đà Lạt"
+  },
+  {
+   "ten": "Quán Hoa Sữa",
+   "loai": "quán sữa đậu nành nóng (buổi tối)",
+   "dac_trung": "Sữa đậu nành nóng thêm lá dứa, bánh ngọt kèm; quán vỉa hè gần chợ Đà Lạt, mở chiều tối.",
+   "dia_chi": "64 Tăng Bạt Hổ, phường Xuân Hương - Đà Lạt",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "64",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/sua-dau-nanh-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/thuong-thuc-sua-dau-nanh-nong-thom-giua-tiet-troi-da-lat-se-lanh-1299",
+    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+    "https://www.foody.vn/lam-dong/quan-hoa-sua-tang-bat-ho"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (cập nhật 08/07/2025) ghi 64 Tăng Bạt Hổ, phường Xuân Hương – Đà Lạt, 16:00–22:00",
+   "ghi_chu": "Số nhà lệch: VinWonders, mia.vn, Foody ghi 64; Toplist ghi 3F. Kết quả tìm kiếm Foody có đoạn '3F Tăng Bặt Hổ (số 64 cũ)' (em chưa thấy dòng này khi tải trang) → nhiều khả năng 64 là số cũ, 3F là số mới."
+  },
+  {
+   "ten": "Liên Bánh Ướt Lòng Gà",
+   "loai": "quán bánh ướt lòng gà",
+   "dac_trung": "Bánh ướt tráng tới đâu ăn tới đó, lòng gà đủ món; quán rộng.",
+   "dia_chi": "44 Tăng Bạt Hổ, phường Xuân Hương - Đà Lạt",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "44",
+   "nguon": [
+    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+    "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (đăng 18/01/2026) ghi 44 Tăng Bạt Hổ, 06:30–21:30"
+  },
+  {
+   "ten": "Bánh ướt lòng gà Trang",
+   "loai": "quán bánh ướt lòng gà",
+   "dac_trung": "Bánh ướt với gà xé bóp gỏi, trứng non, hành tây; bán thêm gỏi gà, sữa chua.",
+   "dia_chi": "15F Tăng Bạt Hổ, phường Xuân Hương - Đà Lạt",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "15F",
+   "nguon": [
+    "https://vinwonders.com/vi/bai-viet-du-lich/banh-uot-long-ga-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912",
+    "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (18/01/2026) và VinWonders (03/07/2025) đều ghi 15F Tăng Bạt Hổ"
+  },
+  {
+   "ten": "Bánh ướt lòng gà – Bánh căn Chip Chip",
+   "loai": "quán bánh ướt lòng gà, bánh căn",
+   "dac_trung": "Bánh ướt gà xé và lòng gà, cháo gà, gỏi gà; mở từ sáng tới tối.",
+   "dia_chi": "Tăng Bạt Hổ (chưa rõ số nhà), phường Xuân Hương - Đà Lạt",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": null,
+   "nguon": [
+    "https://vinwonders.com/vi/bai-viet-du-lich/banh-uot-long-ga-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (18/01/2026) ghi 07:00–23:00",
+   "ghi_chu": "Số nhà lệch: VinWonders ghi 28 Tăng Bạt Hổ, mia.vn ghi 4 Tăng Bạt Hổ → để trống số nhà."
+  },
+  {
+   "ten": "Bánh căn 07 Tăng Bạt Hổ",
+   "loai": "quán bánh căn (chiều tối)",
+   "dac_trung": "Bánh căn đổ khuôn liên tục, chấm nước xíu mại; bán từ trưa tới tối.",
+   "dia_chi": "7 Tăng Bạt Hổ, phường Xuân Hương - Đà Lạt",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "7",
+   "nguon": [
+    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+    "https://vinwonders.com/vi/wonderpedia/news/12-quan-banh-can-da-lat-sieu-ngon/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ (VinWonders cập nhật 16/07/2025 còn ghi Số 7, 13h–22h, nhưng chỉ là bài tổng hợp)",
+   "ghi_chu": "Đường này có nhiều quán bánh căn trùng kiểu tên 'Bánh căn Tăng Bạt Hổ': VinWonders bài bánh khọt ghi 14 Tăng Bạt Hổ, Foody có 'Bánh Căn - Tăng Bạt Hổ' ở số 4, mia.vn có 'Bánh căn 14 (hai Cô)' ở số 30. Chưa chắc đây là một hay nhiều quán; chỉ lấy tên 'Bánh căn 07' vì Toplist và VinWonders cùng ghi số 7."
+  },
+  {
+   "ten": "Bicycle Up Cafe",
+   "loai": "quán cà phê kiểu cũ",
+   "dac_trung": "Quán nhỏ cuối dốc, trang trí đồ cổ, xe đạp treo dưới bảng hiệu gỗ; có cà phê syphon, sách cũ.",
+   "dia_chi": "82 Trương Công Định, phường Xuân Hương - Đà Lạt",
+   "duong": "Trương Công Định",
+   "so_nha": "82",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/review-bicyle-up-cafe-quan-cafe-voi-khong-gian-retro-dac-biet-giua-long-da-lat-2693",
+    "https://toplist.vn/top-list/quan-ca-phe-co-kinh-don-tim-du-khach-o-da-lat-31672.htm",
+    "https://www.foody.vn/lam-dong/bicycle-up-cafe"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "không rõ (mia.vn sửa bài 06/2025 nhưng nội dung từ 2021; Foody báo hơn 3 tháng không có tương tác mới)"
+  },
+  {
+   "ten": "On The Rocks Cocktail Bar",
+   "loai": "bar cocktail dưới tầng hầm",
+   "dac_trung": "Bar ở tầng hầm số 69, nhạc chill, cocktail cổ điển và pha theo yêu cầu.",
+   "dia_chi": "69 Trương Công Định, phường Xuân Hương - Đà Lạt",
+   "duong": "Trương Công Định",
+   "so_nha": "69",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-cocktail-bar-dang-cap-nhat-tai-tp-da-lat-lam-dong-57973.htm",
+    "https://mytour.vn/vi/blog/bai-viet/kham-pha-9-quan-ruou-khong-the-bo-qua-khi-den-da-lat.html",
+    "https://wanderlog.com/list/geoCategory/248821"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi địa chỉ mới '69 Trương Công Định, Xuân Hương - Đà Lạt', 4.7 (1.121 đánh giá), không đánh dấu đóng cửa",
+   "ghi_chu": "Bản tóm tắt kết quả tìm kiếm có nhắc 1 trang (trvlogue.com) ghi tầng hầm số 69 là 'Karma Lounge' — em không mở được trang đó để kiểm; cần nhìn biển thật."
+  },
+  {
+   "ten": "B21 Bar",
+   "loai": "bar (DJ buổi tối)",
+   "dac_trung": "Bar kiểu quán bia đồng quê Pháp, gỗ tối màu; giờ vàng mua 1 tặng 1 từ 15h–20h30, tối có DJ.",
+   "dia_chi": "68 Trương Công Định, phường Xuân Hương - Đà Lạt",
+   "duong": "Trương Công Định",
+   "so_nha": "68",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-cocktail-dep-nhat-tai-da-lat-57085.htm",
+    "https://toplist.vn/top-list/quan-cocktail-bar-dang-cap-nhat-tai-tp-da-lat-lam-dong-57973.htm",
+    "https://wanderlog.com/list/geoCategory/248821"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi địa chỉ mới '68 Trương Công Định, Xuân Hương - Đà Lạt', không đánh dấu đóng cửa",
+   "ghi_chu": "Hai bài Toplist cùng một trang web → tính là 1 nguồn; nguồn thứ hai là Wanderlog."
+  },
+  {
+   "ten": "Woody Classic Bar",
+   "loai": "bar cocktail nhỏ",
+   "dac_trung": "Quán bar nhỏ kiểu cổ điển, đồ trang trí vintage, cocktail và cà phê.",
+   "dia_chi": "49A Trương Công Định, phường Xuân Hương - Đà Lạt",
+   "duong": "Trương Công Định",
+   "so_nha": "49A",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-cocktail-dep-nhat-tai-da-lat-57085.htm",
+    "https://wanderlog.com/list/geoCategory/248821",
+    "https://www.foody.vn/lam-dong/bar-pub-phuc-vu-bia"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi '49a Trương Công Định, Xuân Hương - Đà Lạt', 4.7 (404 đánh giá)",
+   "ghi_chu": "Toplist bài 57973 ghi '49 Trương Công Định' và thêm chi nhánh 14-16 Hòa Bình; đoạn mô tả lại nhắc Nguyễn Công Trứ (có vẻ chép nhầm)."
+  },
+  {
+   "ten": "Fox's Den",
+   "loai": "bar cocktail nhỏ",
+   "dac_trung": "Bar cocktail kín đáo trên dốc, không gian như hang cáo, dễ đi lướt qua.",
+   "dia_chi": "56 Tăng Bạt Hổ, phường Xuân Hương - Đà Lạt",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "56",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-cocktail-bar-dang-cap-nhat-tai-tp-da-lat-lam-dong-57973.htm",
+    "https://wanderlog.com/place/details/1781655/foxs-den"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ: trang danh sách Wanderlog ghi 'Temporarily Closed' (tạm đóng), trang riêng của quán trên Wanderlog vẫn ghi giờ 18h–24h",
+   "ghi_chu": "Cùng số 56 với Bánh căn Cây Bơ (sáng bán bánh căn, tối bar?) — chưa có nguồn nói rõ, cần nhìn thực tế."
+  },
+  {
+   "ten": "Dalat YOLO Hostel (Yolo Hostel n Bar)",
+   "loai": "hostel cho khách ba lô, có bar",
+   "dac_trung": "Hostel giường tầng kèm quầy bar, tổ chức BBQ và trò chơi tập thể cho khách trẻ.",
+   "dia_chi": "31 Trương Công Định, phường Xuân Hương - Đà Lạt",
+   "duong": "Trương Công Định",
+   "so_nha": "31",
+   "nguon": [
+    "https://hostelmanagement.com/vietnam/dalat/dalat-yolo-hostel",
+    "https://mytour.vn/vi/blog/bai-viet/da-lat-kham-pha-yolo-hostel-n-bar-trai-nghiem-moi-tai-da-lat.html",
+    "https://ostrovok.ru/hotel/vietnam/da_lat/mid6796041/dalat_yolo_hostel"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "không rõ (Ostrovok còn nhận đặt phòng, 84 đánh giá, nhưng không ghi ngày)"
+  }
+ ],
+ "du_bi": [
+  {
+   "ten": "Moi Craft Beer",
+   "loai": "quán bia thủ công, cocktail",
+   "dac_trung": "Bia thủ công, ginger beer, cocktail; không gian yên.",
+   "dia_chi": "38 Trương Công Định, phường Xuân Hương - Đà Lạt",
+   "duong": "Trương Công Định",
+   "so_nha": "38",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-cocktail-dep-nhat-tai-da-lat-57085.htm",
+    "https://wanderlog.com/list/geoCategory/248821"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi '38 Trương Công Định, Xuân Hương - Đà Lạt'",
+   "ghi_chu": "Foody ghi 'Mơi Craft Beer' ở 49B Trương Công Định — lệch số nhà."
+  },
+  {
+   "ten": "Beepub Hostel",
+   "loai": "hostel, dưới tầng trệt có pub nhạc sống",
+   "dac_trung": "Hostel 11 phòng (3 dorm, 8 phòng thường), tường màu rực; dưới tầng có bar nhạc sống.",
+   "dia_chi": "74 Trương Công Định, phường Xuân Hương - Đà Lạt",
+   "duong": "Trương Công Định",
+   "so_nha": "74",
+   "nguon": [
+    "https://toplist.vn/top-list/hostel-view-dep-gan-cho-da-lat-ban-khong-nen-bo-qua-26413.htm",
+    "https://www.foody.vn/lam-dong/beepub-truong-cong-dinh"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ (bình luận Foody mới nhất em thấy là 2018)"
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Quán Hen (sữa đậu nành)",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "50",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/sua-dau-nanh-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn (VinWonders)"
+  },
+  {
+   "ten": "Phở Hiếu",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "23",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/pho-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn; nghiên cứu của game ghi có 1 quán phở nổi tiếng đã dời khỏi Tăng Bạt Hổ — chưa rõ có phải quán này"
+  },
+  {
+   "ten": "Phở Bắc Nam",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "1C",
+   "nguon": [
+    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm"
+   ],
+   "ly_do": "chỉ 1 nguồn (Toplist)"
+  },
+  {
+   "ten": "Bánh mì xíu mại 3B",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "3B",
+   "nguon": [
+    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm"
+   ],
+   "ly_do": "chỉ 1 nguồn (Toplist)"
+  },
+  {
+   "ten": "Bánh ướt lòng gà 18",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "18",
+   "nguon": [
+    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm"
+   ],
+   "ly_do": "chỉ 1 nguồn (Toplist)"
+  },
+  {
+   "ten": "Quán Phố (ăn vặt)",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "5",
+   "nguon": [
+    "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm"
+   ],
+   "ly_do": "chỉ 1 nguồn (Toplist)"
+  },
+  {
+   "ten": "Bánh căn 14 (hai Cô)",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "30",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/banh-can-da-lat-top-nhung-quan-ngon-nhat-tai-thanh-pho-suong-mu-1343"
+   ],
+   "ly_do": "chỉ mia.vn ghi tên này; VinWonders bài bánh khọt ghi 'Bánh căn Tăng Bạt Hổ' ở số 14 — có thể cùng quán (số cũ 14, số mới 30?) nhưng chưa có nguồn nói rõ"
+  },
+  {
+   "ten": "Don Quixote (bar)",
+   "duong": "Tăng Bạt Hổ",
+   "so_nha": "19",
+   "nguon": [
+    "https://wanderlog.com/list/geoCategory/248821"
+   ],
+   "ly_do": "chỉ 1 nguồn (Wanderlog)"
+  },
+  {
+   "ten": "Quán bánh ướt lòng gà 21 Trương Công Định",
+   "duong": "Trương Công Định",
+   "so_nha": "21",
+   "nguon": [
+    "https://vinwonders.com/vi/bai-viet-du-lich/banh-uot-long-ga-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn, không có tên quán"
+  },
+  {
+   "ten": "Gemination Eatery & Bar",
+   "duong": "Trương Công Định",
+   "so_nha": "24",
+   "nguon": [
+    "https://wanderlog.com/list/geoCategory/248821"
+   ],
+   "ly_do": "chỉ 1 nguồn (Wanderlog)"
+  },
+  {
+   "ten": "NO bar",
+   "duong": "Trương Công Định",
+   "so_nha": "63",
+   "nguon": [
+    "https://wanderlog.com/list/geoCategory/248821"
+   ],
+   "ly_do": "chỉ 1 nguồn (Wanderlog)"
+  },
+  {
+   "ten": "Coi Kissa (cà phê) và Bossa Jazz Spot",
+   "duong": "Trương Công Định",
+   "so_nha": null,
+   "nguon": [
+    "https://vietcetera.com/en/blending-cocktails-and-the-arts-at-cu-ru-and-bossa-jazz-spot-in-da-lat",
+    "https://mytour.vn/vi/blog/bai-viet/kham-pha-9-quan-ruou-khong-the-bo-qua-khi-den-da-lat.html"
+   ],
+   "ly_do": "2 nguồn nhưng lệch số nhà: Vietcetera (bài 12/2021) ghi Coi Kissa ở 60, Bossa ở phía sau; Mytour ghi Bossa ở 69 (cùng số với On The Rocks). Bài cũ, chưa rõ còn mở"
+  },
+  {
+   "ten": "The Fog Bar",
+   "duong": "Trương Công Định",
+   "so_nha": "76",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-cocktail-bar-dang-cap-nhat-tai-tp-da-lat-lam-dong-57973.htm",
+    "https://tatinta.com/diem-den/the-fog-bar-da-lat/3076",
+    "https://wanderlog.com/place/details/1482627/the-fog-on-site"
+   ],
+   "ly_do": "đủ nguồn nhưng dữ liệu Google trên Wanderlog ghi 'Permanently closed' (đã đóng hẳn) → không đưa lên bản đồ"
+  },
+  {
+   "ten": "The Chairman (bar)",
+   "duong": "Trương Công Định",
+   "so_nha": "30",
+   "nguon": [
+    "https://wanderlog.com/list/geoCategory/248821"
+   ],
+   "ly_do": "1 nguồn và Wanderlog ghi 'Permanently Closed'"
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/truong-cong-dinh-phuong-1",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tang-bat-ho-phuong-1",
+  "data/lam-dong/nq1671.json (mục 99)",
+  "https://www.toplist.vn/top-list/dia-chi-an-cuc-ngon-tai-duong-tang-bat-ho-ma-ban-khong-nen-bo-qua-khi-den-voi-da-lat-27259.htm",
+  "ltckha/giang-ho-ai: content/streets/street_tang_bat_ho.json, docs/research/2026-11-23_pho_that_dia_diem.md (chỉ đọc)"
+ ],
+ "cap_nhat": "25/11/2026"
+}

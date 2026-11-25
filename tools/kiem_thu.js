@@ -55,15 +55,31 @@ const URL = process.env.URL || 'http://localhost:8765/';
   await shot('6_da_lat_gan');
   const nName = await p.locator('text.road-name:not([hidden])').count();
   if (nName < 5) fail(`Phóng gần mà chỉ hiện ${nName} tên đường`);
+  // 4. Trang phố
   await tapEl(p.locator('.pin-body').nth(2));
-  if (!(await p.isVisible('#sheet'))) fail('Bấm ghim phố không ra thẻ');
-  await shot('7_the_pho');
+  if (!(await p.isVisible('#sheet.full'))) fail('Bấm ghim phố không ra trang phố');
+  if (!/^#pho-/.test(await p.evaluate(() => location.hash))) fail('Trang phố không có địa chỉ riêng (#pho-…)');
+  const nPlace = await p.locator('.places li').count();
+  if (nPlace < 1) fail('Trang phố không có nơi tiêu biểu nào');
+  const imgOk = await p.evaluate(() => { const i = document.querySelector('.banner'); return i && i.complete && i.naturalWidth > 0; });
+  if (!imgOk) fail('Tranh đầu phố không hiện');
+  await shot('7_trang_pho');
+  await p.locator('#sheet').evaluate((e) => e.scrollTo(0, e.scrollHeight)); await p.waitForTimeout(200);
+  await shot('8_trang_pho_cuoi');
+  await p.click('#seeMap'); await p.waitForTimeout(500);
+  if (await p.isVisible('#sheet')) fail('Bấm "Xem cả phố trên bản đồ" mà trang không đóng');
+  if ((await p.locator('#hl path').count()) < 1) fail('Không tô sáng đường của phố');
+  await shot('9_pho_tren_ban_do');
 
-  // 4. Quay lại bằng nút quay lại
+  // 5. Mở thẳng link trang phố, rồi nút quay lại
+  await p.goto(URL + '#pho-hoang-dieu'); await p.waitForTimeout(2500);
+  if (!(await p.isVisible('#sheet.full'))) fail('Mở link #pho-hoang-dieu không ra trang phố');
+  await p.goto(URL + '#lam-dong'); await p.waitForTimeout(1200);
+  await p.goto(URL + '#pho-tran-phu'); await p.waitForTimeout(2500);
   await p.goBack(); await p.waitForTimeout(1200);
   if ((await p.locator('#land path.prov:not(.ctx)').count()) !== 124) fail('Nút quay lại không về tầng Lâm Đồng');
 
   await b.close();
   if (errs.length) { console.log('CÓ LỖI:\n- ' + errs.join('\n- ')); process.exit(1); }
-  console.log('Ổn: 34 tỉnh, 124 xã/phường, ' + nPin + ' ghim, ' + nName + ' tên đường hiện khi phóng gần. Ảnh ở ' + OUT);
+  console.log('Ổn: 34 tỉnh, 124 xã/phường, ' + nPin + ' ghim, ' + nName + ' tên đường hiện khi phóng gần, trang phố ' + nPlace + ' nơi. Ảnh ở ' + OUT);
 })();

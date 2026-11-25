@@ -16,7 +16,8 @@ Người dùng: anh Kha. Lộ trình (Artifact): https://claude.ai/artifact/U8sJ
 
 ## Cấu trúc
 - `index.html`, `style.css`, `app.js` — trang tĩnh, không thư viện ngoài. Mỗi tầng khai báo trong `LAYERS` của `app.js`; địa chỉ `#lam-dong`, `#da-lat` để nút quay lại điện thoại dùng được.
-- `data/viet-nam.json` · `data/lam-dong/phuong.json` · `data/lam-dong/nq1671.json` · `data/lam-dong/da-lat/duong.json`
+- `data/viet-nam.json` · `data/lam-dong/phuong.json` · `data/lam-dong/nq1671.json` · `data/lam-dong/da-lat/duong.json` · `data/lam-dong/da-lat/pho.json` (trang phố, `#pho-hoang-dieu`…)
+- `assets/dau_pho/*.webp` — tranh đầu phố (Spark, của anh Kha), chép từ kho game.
 - `tools/` — dựng dữ liệu, tải OSM, kiểm thử, gom bản xem thử. `docs/research/` — nghiên cứu, biên bản đối chiếu.
 
 ## Dựng lại dữ liệu
@@ -27,6 +28,8 @@ python3 tools/build_data.py /tmp/vpd/json/geojson          # viet-nam.json + lam
 # 2. Đường thật (OSM) cho phường cần vẽ
 python3 tools/tai_osm.py /tmp/vpd/json/geojson /tmp/osm '68_lam_dong/wards/*_xuan_huong_da_lat' '68_lam_dong/wards/*_cam_ly_da_lat'
 python3 tools/build_streets.py /tmp/osm /tmp/vpd/json/geojson
+# 3. Trang phố (đọc kho game, chỉ đọc)
+python3 tools/build_pho.py /home/user/ltckha/giang-ho-ai
 ```
 `build_data.py` dừng báo lỗi nếu tên xã/phường không khớp văn bản NQ — đừng tắt kiểm tra đó, sửa đúng gốc.
 
@@ -41,6 +44,8 @@ python3 tools/build_streets.py /tmp/osm /tmp/vpd/json/geojson
 - Trang web đứng riêng không có sẵn `[hidden]{display:none}` → thẻ đóng vẫn che bản đồ. Đã thêm vào `style.css`, đừng xoá.
 - Toạ độ tầng đường cần 4 số lẻ (`prec: 4`), 1 số lẻ thì đường lệch cả trăm mét.
 - Tên đường: OSM chia đường thành nhiều đoạn ngắn → nối đoạn cùng tên (`ten_duong`) để đặt chữ; chữ chỉ hiện khi đủ chỗ và không đè (hàm `layout()`).
+- **Tên quán trong nghiên cứu của game là tên đặt lại** (game không dùng tên quán thật). Không đưa các tên đó lên bản đồ như tên thật; `build_pho.py` chỉ lấy loại quán, đặc trưng, nguồn.
+- OSM ở Đà Lạt ghi tiệm rất thiếu; dò tên quán trong OSM ra toàn trùng nhầm — đừng dùng làm vị trí quán.
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
 ## Agent có sẵn (`.claude/agents/`)

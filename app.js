@@ -1,4 +1,5 @@
-/* Gọn Phố Việt — bản đồ nhiều tầng: Việt Nam (chặng 1) → Lâm Đồng (chặng 2) → đường Đà Lạt (chặng 3) → …
+/* Gọn Phố Việt — bản đồ nhiều tầng: Việt Nam (chặng 1) → Lâm Đồng (chặng 2) → đường Đà Lạt (chặng 3) → trang phố (chặng 4).
+   Trang phố có địa chỉ riêng (#pho-hoang-dieu…) để gửi link và để nút quay lại đóng trang.
    Mỗi tầng là một file JSON trong data/. Vẽ bằng SVG; kéo 1 ngón, phóng 2 ngón; bấm vùng ra thẻ thông tin.
    Địa chỉ trang đổi theo tầng (#lam-dong) nên nút quay lại của điện thoại dùng được. Không dùng thư viện ngoài. */
 (function () {
@@ -40,6 +41,7 @@
       kind: 'duong', file: 'data/lam-dong/da-lat/duong.json', prec: 4,
       crumb: [['Việt Nam', ''], ['Lâm Đồng', 'lam-dong'], ['Đà Lạt', 'da-lat']],
       context: { layer: 'lam-dong' },
+      extra: { key: 'pho', file: 'data/lam-dong/da-lat/pho.json' },
       legend: [['pin', 'Phố đã nghiên cứu'], ['road', 'Đường thật (OpenStreetMap)'], ['water', 'Hồ']],
       card: cardPho
     }
@@ -405,6 +407,10 @@
       picked = target; picked.classList.add('picked');
       land.appendChild(target);   // đưa lên trên để viền không bị che
     }
+    if (layer.kind === 'duong') {          // ghim phố → mở trang phố
+      var ph = phoById(data.pho[Number(i)].id);
+      if (ph) { location.hash = 'pho-' + ph.slug; return; }
+    }
     sheetBody.innerHTML = layer.card(data[layer.kind === 'duong' ? 'pho' : layer.list][Number(i)]);
     var btn = sheetBody.querySelector('[data-go]');
     if (btn) btn.addEventListener('click', function () { location.hash = btn.getAttribute('data-go'); });
@@ -451,7 +457,73 @@
       '<p class="note">Vị trí ghim: giữa đường ' + esc(p.road) + ' trên OpenStreetMap. Giới thiệu theo nghiên cứu phố của game Gọn Phố.</p>';
   }
 
+  /* ---------- trang phố ---------- */
+  function phoById(id) {
+    var list = (cache.pho && cache.pho.pho) || [];
+    for (var k = 0; k < list.length; k++) if (list[k].id === id || list[k].slug === id) return list[k];
+    return null;
+  }
+
+  // Tô sáng các đường của phố; trả về khung bao để phóng tới
+  function highlight(names) {
+    var old = document.getElementById('hl');
+    if (old) old.remove();
+    var g = el('g', { id: 'hl', 'class': 'hl' });
+    var b = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
+    data.duong.forEach(function (r) {
+      if (!r.ten || names.indexOf(r.ten) < 0) return;
+      g.appendChild(el('path', { d: lineOf(r.pts) }));
+      r.pts.forEach(function (q) {
+        var x = px(q[0]), y = py(q[1]);
+        b.minX = Math.min(b.minX, x); b.maxX = Math.max(b.maxX, x); b.minY = Math.min(b.minY, y); b.maxY = Math.max(b.maxY, y);
+      });
+    });
+    var fillG = land.querySelector('.road-fill');
+    land.insertBefore(g, fillG ? fillG.nextSibling : null);
+    return b;
+  }
+
+  function zoomTo(b) {
+    var r = svg.getBoundingClientRect(), top = 70, pad = 40, bottom = 140;  // chừa chỗ ô chú thích phía dưới
+    var w = r.width - pad * 2, h = r.height - top - pad - bottom;
+    var s = Math.min(w / Math.max(b.maxX - b.minX, 0.01), h / Math.max(b.maxY - b.minY, 0.01));
+    s = Math.min(s, fit.s * 120);
+    view = { s: s, x: pad + (w - (b.maxX - b.minX) * s) / 2 - b.minX * s, y: top + pad + (h - (b.maxY - b.minY) * s) / 2 - b.minY * s };
+    apply();
+  }
+
+  var phoBox = null;
+  function showPho(ph) {
+    phoBox = highlight(ph.duong);
+    var h = '<img class="banner" src="' + esc(ph.anh) + '" alt="Tranh đầu ' + esc(ph.ten_pho) + '">' +
+      '<h2>' + esc(ph.ten_pho) + '</h2>' +
+      '<div>' + ph.duong.map(function (d) { return '<span class="tag open">' + esc(d) + '</span>'; }).join(' ') +
+      ' <span class="tag">' + esc('Phường ' + ph.ward) + '</span></div>' +
+      '<p>' + esc(ph.gioi_thieu) + '</p>' +
+      '<button class="go" type="button" id="seeMap">Xem cả phố trên bản đồ</button>' +
+      '<h3>Nơi tiêu biểu <span class="muted">(' + ph.dia_diem.length + ' nơi, mỗi nơi ≥ 2 nguồn)</span></h3><ol class="places">';
+    ph.dia_diem.forEach(function (d) {
+      h += '<li><b>' + esc(d.loai) + '</b><span>' + esc(d.dac_trung) + '</span><span class="src">Nguồn: ' +
+        d.nguon.map(function (n, k) {
+          var dup = d.nguon.filter(function (m) { return m.trang === n.trang; }).length > 1;
+          return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + (dup ? ' (bài ' + (k + 1) + ')' : '') + '</a>';
+        }).join(' · ') +
+        '</span></li>';
+    });
+    h += '</ol>';
+    if (ph.can_kiem_them) h += '<p class="note">Còn ' + ph.can_kiem_them + ' nơi khác chưa đủ 2 nguồn nên chưa đưa lên.</p>';
+    h += '<p class="note">Chưa ghi tên quán và vị trí từng quán. Theo <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">nghiên cứu phố</a> của game Gọn Phố.</p>';
+    sheetBody.innerHTML = h;
+    sheet.classList.add('full');
+    sheet.scrollTop = 0;
+    srcSheet.hidden = true;
+    sheet.hidden = false;
+    document.getElementById('seeMap').addEventListener('click', function () { closeSheet(); zoomTo(phoBox); });
+  }
+
   function closeSheet() {
+    sheet.classList.remove('full');
+    if (/^#pho-/.test(location.hash)) location.replace('#da-lat');   // đóng trang phố = về bản đồ đường
     sheet.hidden = true;
     if (picked) { picked.classList.remove('picked'); picked = null; }
   }
@@ -480,8 +552,14 @@
   /* ---------- tải tầng ---------- */
   function go() {
     var id = location.hash.replace('#', '') || 'viet-nam';
+    var phoSlug = null;
+    if (/^pho-/.test(id)) { phoSlug = id.slice(4); id = 'da-lat'; }
     if (!LAYERS[id]) id = 'viet-nam';
-    if (id === layerId) return;
+    if (id === layerId) {
+      if (phoSlug && phoById(phoSlug)) showPho(phoById(phoSlug));
+      else if (!phoSlug && sheet.classList.contains('full')) { sheet.classList.remove('full'); sheet.hidden = true; }
+      return;
+    }
     closeSheet(); srcSheet.hidden = true;
     loading.hidden = false; loading.textContent = 'Đang tải bản đồ…';
     var L = LAYERS[id];
@@ -491,12 +569,19 @@
         return r.json();
       }).then(function (d) { cache[k] = d; return d; });
     }
-    Promise.all([load(id), L.context ? load(L.context.layer) : null]).then(function (res) {
+    function loadExtra(x) {
+      return cache[x.key] ? Promise.resolve(cache[x.key]) : fetch(x.file).then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      }).then(function (d) { cache[x.key] = d; return d; });
+    }
+    Promise.all([load(id), L.context ? load(L.context.layer) : null, L.extra ? loadExtra(L.extra) : null]).then(function (res) {
       var d = res[0];
       data = d; layer = L; layerId = id;
       renderChrome();
       draw();
       loading.hidden = true;
+      if (phoSlug && phoById(phoSlug)) showPho(phoById(phoSlug));
     }).catch(function () {
       loading.textContent = 'Chưa tải được bản đồ. Anh tải lại trang thử nhé.';
     });

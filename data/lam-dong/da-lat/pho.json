@@ -1,0 +1,425 @@
+{
+ "cap_nhat": "25/11/2026",
+ "ghi_chu": "Chưa ghi tên quán: nghiên cứu của game dùng tên đặt lại. Chỉ giữ nơi có ≥ 2 nguồn và game ghi \"chắc\".",
+ "nguon": [
+  {
+   "ten": "Nghiên cứu phố của game Gọn Phố (kho ltckha/giang-ho-ai)",
+   "link": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research"
+  },
+  {
+   "ten": "Tranh đầu phố: Spark vẽ cho anh Kha (đợt 35)",
+   "link": "https://github.com/ltckha/giang-ho-ai/blob/main/art/ban_do"
+  }
+ ],
+ "pho": [
+  {
+   "id": "street_tang_bat_ho",
+   "slug": "tang-bat-ho",
+   "ten_pho": "Phố Ăn Đêm",
+   "duong": [
+    "Tăng Bạt Hổ",
+    "Trương Công Định"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Phố ăn đêm sau chợ và dốc phố Tây: bánh căn, sữa nóng, hostel, bar dưới hầm",
+   "anh": "assets/dau_pho/dau_pho_tang_bat_ho.webp",
+   "dia_diem": [
+    {
+     "loai": "Quán sữa đậu nành đêm",
+     "dac_trung": "ly sữa nóng, đông khách buổi tối",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/sua-dau-nanh-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/thuong-thuc-sua-dau-nanh-nong-thom-giua-tiet-troi-da-lat-se-lanh-1299",
+       "trang": "mia.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Quán bánh căn",
+     "dac_trung": "khuôn đất nung, trứng cút",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-khot-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/12-quan-banh-can-da-lat-sieu-ngon/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/banh-can-da-lat-top-nhung-quan-ngon-nhat-tai-thanh-pho-suong-mu-1343",
+       "trang": "mia.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Quán ăn sáng dưới gốc cây",
+     "dac_trung": "ngồi dưới gốc cây lớn",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/banh-khot-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/12-quan-banh-can-da-lat-sieu-ngon/",
+       "trang": "vinwonders.com"
+      }
+     ]
+    },
+    {
+     "loai": "Quán cà phê trong nhà cũ, trang trí xe đạp",
+     "dac_trung": "xe đạp cũ treo tường",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/review-bicyle-up-cafe-quan-cafe-voi-khong-gian-retro-dac-biet-giua-long-da-lat-2693",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-ca-phe-co-kinh-don-tim-du-khach-o-da-lat-31672.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://znews.vn/nhung-tiem-ca-phe-phong-cach-retro-o-da-lat-post1008585.html",
+       "trang": "znews.vn"
+      }
+     ]
+    }
+   ],
+   "can_kiem_them": 6,
+   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-23_pho_that_dia_diem.md"
+  },
+  {
+   "id": "street_pho_ca_phe",
+   "slug": "pho-ca-phe",
+   "ten_pho": "Phố Cà Phê",
+   "duong": [
+    "Nguyễn Chí Thanh",
+    "Lê Đại Hành"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Con đường cà phê lên Khu Hoà Bình: quán xưa cạnh quán mới, kem bơ, sân thượng nhìn phố",
+   "anh": "assets/dau_pho/dau_pho_ca_phe.webp",
+   "dia_diem": [
+    {
+     "loai": "Quán cà phê truyền thống mở từ 5 giờ",
+     "dac_trung": "vài bàn nhỏ, phin nhôm",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/4-quan-cafe-xua-cu-o-da-lat-cho-ngay-song-cham-giua-long-pho-thi-7861",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/tim-hieu-ve-van-hoa-ca-phe-sang-o-da-lat-binh-di-giua-doi-thuong-10354",
+       "trang": "mia.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Quán cà phê xưa, ghế gỗ, nhạc Trịnh",
+     "dac_trung": "ghế gỗ cũ, nhạc Trịnh",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/4-quan-cafe-xua-cu-o-da-lat-cho-ngay-song-cham-giua-long-pho-thi-7861",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/cafe-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://toplist.vn/top-list/quan-ca-phe-co-kinh-don-tim-du-khach-o-da-lat-31672.htm",
+       "trang": "toplist.vn"
+      }
+     ]
+    }
+   ],
+   "can_kiem_them": 6,
+   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-23_pho_that_dia_diem.md"
+  },
+  {
+   "id": "street_phan_dinh_phung",
+   "slug": "phan-dinh-phung",
+   "ten_pho": "Phố Dân Sinh",
+   "duong": [
+    "Phan Đình Phùng"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Phố cũ của dân phố núi: nhà thuốc, tiệm tóc, nhà sách, studio ảnh cưới, phở sáng, tiệm xe máy",
+   "anh": "assets/dau_pho/dau_pho_phan_dinh_phung.webp",
+   "dia_diem": [
+    {
+     "loai": "Nhà thuốc mở từ sáng tới khuya",
+     "dac_trung": "tủ thuốc nam, dầu gió, thuốc cảm mùa lạnh",
+     "nguon": [
+      {
+       "link": "https://nhathuoclongchau.com.vn/he-thong-cua-hang/204-phan-dinh-phung-p-tp-da-lat-tinh-lam-dong",
+       "trang": "nhathuoclongchau.com.vn"
+      },
+      {
+       "link": "https://nhathuoclongchau.com.vn/he-thong-cua-hang/44-44-a-phan-dinh-phung-p-1-tp-da-lat-tinh-lam-dong",
+       "trang": "nhathuoclongchau.com.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Salon tóc, làm móng",
+     "dac_trung": "kéo bén, tông đơ kêu rè rè",
+     "nguon": [
+      {
+       "link": "https://mytour.vn/vi/blog/xep-hang/top-10-salon-toc-dep-va-noi-tieng-nhat-tai-da-lat-mytour.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/top-12-salon-lam-toc-dep-va-uy-tin-nhat-da-lat.html",
+       "trang": "mytour.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Nhà sách lớn, góc sách thiếu nhi",
+     "dac_trung": "kệ gỗ thông, sách chất cao",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/cac-nha-sach-da-lat-15541",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/top-6-dia-diem-sach-uy-tin-o-lam-dong.html",
+       "trang": "mytour.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Studio chụp ảnh cưới",
+     "dac_trung": "đèn flash, ô phản sáng",
+     "nguon": [
+      {
+       "link": "https://mytour.vn/en/blog/xep-hang/top-10-best-and-most-professional-wedding-photography-studios-in-lam-dong-mytour.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-nhat-tai-da-lat-17292.htm",
+       "trang": "toplist.vn"
+      },
+      {
+       "link": "https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-chuyen-nghiep-nhat-tai-lam-dong-18106.htm",
+       "trang": "toplist.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Tiệm xe máy: cho thuê, mua bán, sửa",
+     "dac_trung": "cờ lê, mỏ lết, máy bơm hơi",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/thue-xe-may-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-dia-diem-thue-xe-may-da-lat-19448",
+       "trang": "mia.vn"
+      }
+     ]
+    }
+   ],
+   "can_kiem_them": 3,
+   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-23_pho3_phan_dinh_phung.md"
+  },
+  {
+   "id": "street_nguyen_van_troi",
+   "slug": "nguyen-van-troi",
+   "ten_pho": "Phố Kem Bơ",
+   "duong": [
+    "Nguyễn Văn Trỗi"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Phố một chiều ăn vặt ngọt: kem bơ lâu năm, chè, bánh tráng nướng, dốc chùa",
+   "anh": "assets/dau_pho/dau_pho_nguyen_van_troi.webp",
+   "dia_diem": [
+    {
+     "loai": "Tiệm kem bơ lâu năm",
+     "dac_trung": "bơ sáp xay sữa đặc, khách xếp hàng dù trời lạnh",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/kem-bo-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/15-quan-kem-da-lat-duoc-review-nhieu-nhat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kem-bo-thanh-thao-da-lat-14041",
+       "trang": "mia.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Quán chè, yaourt phô mai, rau câu",
+     "dac_trung": "ly chè Thái, yaourt phô mai",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/15-quan-kem-da-lat-duoc-review-nhieu-nhat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kem-bo-thanh-thao-da-lat-14041",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vietnamnet.vn/da-lat-lanh-14-do-c-khach-van-xuyt-xoa-xep-hang-o-pho-kem-bo-2080453.html",
+       "trang": "vietnamnet.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Bánh tráng nướng vỉa hè",
+     "dac_trung": "bếp than vỉa hè, bán chiều tối",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/kem-bo-da-lat/",
+       "trang": "vinwonders.com"
+      }
+     ]
+    }
+   ],
+   "can_kiem_them": 6,
+   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-24_pho_moi_da_lat.md"
+  },
+  {
+   "id": "street_hoang_dieu",
+   "slug": "hoang-dieu",
+   "ten_pho": "Phố Lẩu Bò",
+   "duong": [
+    "Hoàng Diệu"
+   ],
+   "ward": "Cam Ly - Đà Lạt",
+   "gioi_thieu": "Phố lẩu bò Ba Toa: hơn 20 quán lẩu, sáng bán bánh mì xíu mại",
+   "anh": "assets/dau_pho/dau_pho_hoang_dieu.webp",
+   "dia_diem": [
+    {
+     "loai": "Quán lẩu bò nhà gỗ",
+     "dac_trung": "nồi lẩu bò bốc hơi, gần như luôn kín khách",
+     "nguon": [
+      {
+       "link": "https://news.tuoitre.vn/over-20-ba-toa-beef-hotpot-restaurants-line-this-300m-street-in-vietnams-da-lat-10326061223565753.htm",
+       "trang": "news.tuoitre.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/moi-ban-vao-team-miavn-de-cung-di-an-quan-lau-bo-ba-toa-nha-go-nuc-tieng-da-lat-1420",
+       "trang": "mia.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Quán lẩu bò trong hẻm",
+     "dac_trung": "khách địa phương, đông 6–8 giờ tối",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/lau-bo-ba-toa-hoang-dieu",
+       "trang": "foody.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Quán bánh mì xíu mại buổi sáng",
+     "dac_trung": "chén xíu mại, ổ bánh nóng, hết hàng lúc 9 giờ",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/top-quan-banh-mi-xiu-mai-hoang-dieu-19607",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/diem-mat-17-quan-banh-mi-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://vietnamnews.vn/life-style/1728243/a-taste-of-mist-discovering-da-lat-through-its-cuisine.html",
+       "trang": "vietnamnews.vn"
+      }
+     ]
+    },
+    {
+     "loai": "Quán cơm gà đầu phố",
+     "dac_trung": "cơm gà xé, nước mắm gừng",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://foody.vn/lam-dong/com-ga-hoang-dieu",
+       "trang": "foody.vn"
+      }
+     ]
+    }
+   ],
+   "can_kiem_them": 5,
+   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-24_pho_moi_da_lat.md"
+  },
+  {
+   "id": "street_tran_phu",
+   "slug": "tran-phu",
+   "ten_pho": "Phố Di Sản",
+   "duong": [
+    "Trần Phú",
+    "Ba Tháng Hai"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Phố di sản: khách sạn thời Pháp bên hồ, tiệm bánh lâu đời, quán phở, cháo đêm",
+   "anh": "assets/dau_pho/dau_pho_tran_phu.webp",
+   "dia_diem": [
+    {
+     "loai": "Khách sạn di sản bên hồ",
+     "dac_trung": "thời Pháp, nhìn ra hồ",
+     "nguon": [
+      {
+       "link": "https://uk.trip.com/hotels/dalat-hotel-detail-993587/dalat-palace-heritage-hotel/review.html",
+       "trang": "uk.trip.com"
+      },
+      {
+       "link": "https://en.wikipedia.com/wiki/Dalat_Palace_Hotel",
+       "trang": "en.wikipedia.com"
+      }
+     ]
+    },
+    {
+     "loai": "Quán phở",
+     "dac_trung": "nước xương bò, bán sáng và chiều tối",
+     "nguon": [
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/pho-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/am-thuc/top-12-quan-pho-ngon-dinh-dam-tai-phuong-cam-ly-da-lat-lam-dong-mytour.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://vinpearl.com/en/pho-da-lat",
+       "trang": "vinpearl.com"
+      }
+     ]
+    }
+   ],
+   "can_kiem_them": 6,
+   "nghien_cuu": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research/2026-11-24_pho_moi_da_lat.md"
+  }
+ ]
+}

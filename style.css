@@ -243,13 +243,22 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .chua-chac { font-style: normal; display: inline-block; width: 16px; height: 16px; line-height: 16px; text-align: center; border-radius: 50%; background: #f1d9a6; color: #8a5a10; font-size: .7rem; margin-left: 4px; }
 .doc-them summary { color: var(--muted); font-size: .88rem; text-decoration: underline; }
 
-/* Tầng Việt Nam nét Spark: nền cỏ, nước, đất từ tranh game; viền nâu đậm kiểu vẽ tay; tên tỉnh vẫn là chữ của trang */
-.map.nen-spark { background: #cfe6ee url(assets/nen/bien.webp) repeat; background-size: 128px 128px; }
-.nen-spark .prov { fill: url(#nenTinh); stroke: #6b4a2e; stroke-width: 1.3; }
-.nen-spark .prov.open { fill: url(#nenMo); stroke: #2f5e3e; stroke-width: 2.2; }
-.nen-spark .prov.ngoai { fill: url(#nenLang); stroke: #cfc9bc; stroke-width: 8; }
+/* Tầng Việt Nam giống bản đồ game Gọn Phố (Spark đợt 36): đất xanh phẳng, bờ biển nâu đậm có quầng trắng, biển xanh có sóng,
+   biểu tượng mốc tỉnh; ranh giới vẫn là dữ liệu thật, tên tỉnh vẫn là chữ của trang */
+.map.nen-spark { background-color: #4ec3cf;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='90'%3E%3Cg fill='none' stroke='%23e9fbfc' stroke-width='2.2' stroke-linecap='round' opacity='.75'%3E%3Cpath d='M10 20q6-6 12 0t12 0'/%3E%3Cpath d='M70 62q6-6 12 0t12 0'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 120px 90px; }
+.nen-spark .bo-hao { fill: #fff; stroke: #fff; stroke-width: 9; vector-effect: non-scaling-stroke; stroke-linejoin: round; pointer-events: none; }
+.nen-spark .bo-net { fill: #2b1a12; stroke: #2b1a12; stroke-width: 4; vector-effect: non-scaling-stroke; stroke-linejoin: round; pointer-events: none; }
+.nen-spark .prov { fill: #bad76e; stroke: #8fae4f; stroke-width: 1; }
+.nen-spark .prov.open { fill: #d9ec8f; stroke: #3f7d2a; stroke-width: 2.4; }
+.nen-spark .prov.ngoai { fill: #efe6cc; stroke: #efe6cc; stroke-width: 8; }
 .nen-spark .prov.picked { fill: var(--pick); }
-.nen-spark .lbl { paint-order: stroke; stroke: #fff8e8; }
-.nen-spark .lbl.sea { fill: #1f5a75; stroke: #e8f4f8; }
-.nen-spark ~ * .sw.open, .nen-spark .sw.open { background: url(assets/nen/mo.webp) center / 40px; }
-.nen-spark .sw.soon { background: url(assets/nen/tinh.webp) center / 40px; }
+.nen-spark .lbl { paint-order: stroke; stroke: #f6fbe6; }
+.nen-spark .lbl.sea { fill: #0f4f5e; stroke: #dff6f8; }
+.nen-spark .lbl.ngoai-name { fill: #a8987c; stroke: #efe6cc; }
+.moc image { filter: drop-shadow(0 2px 2px rgba(0,0,0,.3)); cursor: pointer; }
+.moc-ten { font-family: var(--f-body); font-size: 11px; font-weight: 800; fill: #2b1a12; text-anchor: middle; paint-order: stroke; stroke: #fffaf0; stroke-width: 3.5px; stroke-linejoin: round; cursor: pointer; }
+.moc.mo .moc-ten { fill: #1f5a2c; font-size: 12.5px; }
+.nen-spark .sw.open { background: #d9ec8f; border-color: #3f7d2a; }
+.nen-spark .sw.soon { background: #bad76e; }

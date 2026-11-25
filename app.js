@@ -23,6 +23,9 @@
       },
       label: function (t) { return (t.loai === 'Thành phố' ? '★ ' : '') + t.ten; },
       extraLabels: [['Quần đảo Hoàng Sa', 111.9, 17.25], ['Quần đảo Trường Sa', 113.4, 11.3]],
+      // Biểu tượng mốc tỉnh (Spark đợt 36 của game Gọn Phố): mã tỉnh → hình trong assets/vn/
+      moc: { '01': 'ha_noi', '31': 'hai_phong', '22': 'quang_ninh', '15': 'lao_cai', '37': 'ninh_binh', '44': 'quang_tri',
+             '46': 'hue', '48': 'da_nang', '52': 'gia_lai', '56': 'khanh_hoa', '68': 'lam_dong', '79': 'tp_hcm', '92': 'can_tho', '91': 'an_giang' },
       legend: [['open', 'Có bản đồ phố'], ['soon', 'Sắp có'], ['star', 'Thành phố trực thuộc trung ương']],
       card: cardTinh
     },
@@ -296,7 +299,7 @@
     land.textContent = '';
     labels.textContent = '';
     pinsRoot.textContent = '';
-    pins = []; roadLbl = []; pointLbl = [];
+    pins = []; roadLbl = []; pointLbl = []; mocs = [];
     if (layer.kind === 'duong') return drawStreets();
     var top = [];
     var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
@@ -316,6 +319,12 @@
         labels.appendChild(el('text', { x: px(t.nhan[0]).toFixed(1), y: py(t.nhan[1]).toFixed(1), 'class': 'lbl ctx', 'data-min': 0 }, t.ten));
       });
     }
+    if (layer.moc) {
+      var vien = el('g', { 'class': 'bo-bien' });
+      data[layer.list].forEach(function (t) { vien.appendChild(el('path', { d: pathOf(t.hinh), 'class': 'bo-hao' })); });
+      data[layer.list].forEach(function (t) { vien.appendChild(el('path', { d: pathOf(t.hinh), 'class': 'bo-net' })); });
+      land.appendChild(vien);
+    }
     data[layer.list].forEach(function (t, i) {
       var c = layer.cls(t);
       land.appendChild(el('path', { d: pathOf(t.hinh), 'class': 'prov' + (c ? ' ' + c : ''), 'data-i': i }));
@@ -326,6 +335,22 @@
           if (y < minY) minY = y; if (y > maxY) maxY = y;
         });
       });
+      if (layer.moc && layer.moc[t.ma]) {
+        var g = el('g', { 'class': 'moc' + (c === 'open' ? ' mo' : ''), transform: 'translate(' + px(t.nhan[0]).toFixed(1) + ' ' + py(t.nhan[1]).toFixed(1) + ')' });
+        var inner = el('g', { 'data-i': i });
+        var sz = c === 'open' ? 54 : 40;
+        if (c === 'open') inner.appendChild(el('image', { href: 'assets/vn/bd_ghim_tinh_mo.webp', x: sz * 0.18, y: -sz * 0.8 - 10, width: 22, height: 22, 'data-i': i }));
+        inner.appendChild(el('image', { href: 'assets/vn/moc_' + layer.moc[t.ma] + '.webp', x: -sz / 2, y: -sz * 0.8, width: sz, height: sz * 132 / 150, 'data-i': i }));
+        inner.appendChild(el('text', { x: 0, y: sz * 0.32 + 8, 'class': 'moc-ten', 'data-i': i }, layer.label(t)));
+        g.appendChild(inner); pinsRoot.appendChild(g); pins.push(inner);
+        // chữ tên dự phòng: hiện khi mốc bị ẩn vì chồng lên mốc khác
+        var du = el('text', { x: px(t.nhan[0]).toFixed(1), y: py(t.nhan[1]).toFixed(1), 'class': 'lbl' + (c === 'open' ? ' open' : ''), 'data-min': 0 }, layer.label(t));
+        labels.appendChild(du);
+        inner._x = px(t.nhan[0]); inner._y = py(t.nhan[1]); inner._sz = sz; inner._du = du;
+        inner._uu = c === 'open' ? 0 : (t.loai === 'Thành phố' ? 1 : 2);
+        mocs.push(inner);
+        return;
+      }
       var lb = el('text', {
         x: px(t.nhan[0]).toFixed(1), y: py(t.nhan[1]).toFixed(1),
         'class': 'lbl' + (c === 'open' ? ' open' : ''), 'data-min': layer.minZoom(t)
@@ -340,6 +365,31 @@
     top.forEach(function (lb) { labels.appendChild(lb); });  // tên nổi bật nằm trên cùng
     bounds = { minX: minX, minY: minY, maxX: maxX, maxY: maxY };
     fitAll();
+  }
+
+  // Mốc tỉnh: ưu tiên tỉnh có bản đồ phố, rồi thành phố trực thuộc trung ương; mốc chồng lên mốc khác thì ẩn (phóng to mới hiện)
+  var mocs = [];
+  function layoutMoc() {
+    if (!mocs.length) return;
+    var r = svg.getBoundingClientRect(), boxes = [];
+    mocs.slice().sort(function (a, b) { return a._uu - b._uu; }).forEach(function (g) {
+      var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y, h = g._sz;
+      var b = { x0: sx - h * 0.62, x1: sx + h * 0.62, y0: sy - h * 0.85, y1: sy + h * 0.32 + 14 };
+      var ok = sx > -h && sx < r.width + h && sy > -h && sy < r.height + h &&
+        !boxes.some(function (o) { return b.x1 > o.x0 && b.x0 < o.x1 && b.y1 > o.y0 && b.y0 < o.y1; });
+      if (ok) { boxes.push(b); g.parentNode.removeAttribute('display'); g._du.setAttribute('hidden', ''); }
+      else { g.parentNode.setAttribute('display', 'none'); g._du.removeAttribute('hidden'); }
+    });
+    // chữ tên tỉnh: không đè mốc, không đè chữ khác; ưu tiên tỉnh có bản đồ phố, rồi thành phố (★), rồi tỉnh thường; tên biển, nước bạn giữ nguyên
+    var sr = svg.getBoundingClientRect();
+    var ds = Array.prototype.filter.call(labels.childNodes, function (t) { return !t.hasAttribute('hidden') && !/\b(sea|ngoai-name)\b/.test(t.getAttribute('class')); });
+    function hang(t) { return /\bopen\b/.test(t.getAttribute('class')) ? 0 : (t.textContent.charAt(0) === '★' ? 1 : 2); }
+    ds.sort(function (a, b) { return hang(a) - hang(b); }).forEach(function (t) {
+      var q = t.getBoundingClientRect();
+      var b = { x0: q.left - sr.left, x1: q.right - sr.left, y0: q.top - sr.top, y1: q.bottom - sr.top };
+      if (boxes.some(function (o) { return b.x1 > o.x0 && b.x0 < o.x1 && b.y1 > o.y0 && b.y0 < o.y1; })) t.setAttribute('hidden', '');
+      else boxes.push(b);
+    });
   }
 
   function fitAll() {
@@ -359,9 +409,6 @@
     labels.setAttribute('font-size', (11 / view.s).toFixed(4));
     labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
     for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');
-    // ô nền Spark luôn khoảng 110 điểm trên màn hình dù phóng to hay thu nhỏ (không vỡ hạt, không lấm tấm)
-    var nen = svg.querySelectorAll('pattern.nen');
-    for (var q = 0; q < nen.length; q++) nen[q].setAttribute('patternTransform', 'scale(' + (0.43 / view.s).toFixed(6) + ')');
     queueLayout();
     var list = labels.childNodes;
     for (var i = 0; i < list.length; i++) {
@@ -370,6 +417,7 @@
       var hide = z < Number(list[i].getAttribute('data-min')) || (mx && z >= Number(mx));
       if (hide) list[i].setAttribute('hidden', ''); else list[i].removeAttribute('hidden');
     }
+    layoutMoc();
   }
 
   function zoomAt(f, cx, cy) {
@@ -446,6 +494,8 @@
   function tap(target) {
     var i = target && target.getAttribute && target.getAttribute('data-i');
     if (i === null || i === undefined || i === '') { closeSheet(); return; }
+    // bấm vào hình mốc tỉnh → coi như bấm vào tỉnh đó
+    if (layer.kind !== 'duong' && target.closest && target.closest('.moc')) target = land.querySelector('path.prov[data-i="' + i + '"]') || target;
     if (picked) picked.classList.remove('picked');
     if (layer.kind !== 'duong') {
       picked = target; picked.classList.add('picked');
@@ -947,7 +997,7 @@
       loadExtra({ key: 'ngoai', file: 'data/lang-gieng.json' }).catch(function () { return null; })]).then(function (res) {
       var d = res[0];
       data = d; layer = L; layerId = id;
-      document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam');   // tầng cả nước: nét Spark
+      document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam');   // tầng cả nước: nét bản đồ game Gọn Phố
       document.querySelector('.osm-credit').hidden = L.kind !== 'duong';   // chỉ tầng đường dùng dữ liệu OpenStreetMap
       renderChrome();
       draw();

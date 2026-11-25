@@ -1,0 +1,279 @@
+{
+ "road": "Nguyễn Công Trứ",
+ "duong": [
+  "Nguyễn Công Trứ"
+ ],
+ "ten_osm": [
+  "Nguyễn Công Trứ"
+ ],
+ "ward": "Lâm Viên - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat ghi Nguyễn Công Trứ ở CẢ HAI phường cũ trên cùng một quãng: PHƯỜNG 8 'Từ ngã năm Đại Học - Đến ngã ba Lý Nam Đế' và 'Đoạn còn lại'; PHƯỜNG 2 'Từ nhà số 47 (số cũ 3G) - Đến ngã ba Lý Nam Đế' và 'Từ ngã ba Lý Nam Đế - Đến Xô Viết Nghệ Tĩnh'. Tức là đường làm ranh: một bên Phường 8, một bên Phường 2. Theo NQ 1671: Phường 8 → Lâm Viên - Đà Lạt (mục 101), Phường 2 → Xuân Hương - Đà Lạt (mục 99). Bên nào thuộc phường nào: các trang quán ghi số CHẴN là P8/Lâm Viên (30, 136, 170, 198, 200 trên Foody; Wanderlog, Spinach ghi 198, 200 là 'Lâm Viên - Đà Lạt') và số LẺ từ khoảng 77 trở lên là P2/Xuân Hương (77, 129, 157, 209 trên Foody; mia.vn ghi 209 và trang riêng của Quê Xưa ghi 157 là 'Xuân Hương - Đà Lạt'). Ngoại lệ: số 9 (mia.vn: P8, gần ngã năm, trước nhà số 47) và Foody ghi 65, 129A là P8 → chưa giải thích được. Chọn ward = Lâm Viên - Đà Lạt vì 4/7 nơi trong danh sách chính ở bên P8 và ranh giới phuong.json đặt cả đoạn chính (1.064 m) trong Lâm Viên. Lưu ý: phuong.json (dựng từ sapnhap.bando) vẽ ranh Lâm Viên / Xuân Hương cách mặt đường khoảng 50–100 m về phía nam, không trùng tim đường như bảng giá đất → nhà bên số lẻ trên bản đồ sẽ rơi vào Lâm Viên dù địa chỉ ghi Xuân Hương.",
+ "doan": [
+  {
+   "doan": "Ngã năm Đại học (Bùi Thị Xuân – Phù Đổng Thiên Vương – Đinh Tiên Hoàng) – ngã ba Lý Nam Đế, bên số chẵn",
+   "phuong_cu": "Phường 8",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-8",
+   "ghi_chu": "Khoảng 415 m (đo trên duong.json)."
+  },
+  {
+   "doan": "Nhà số 47 (số cũ 3G) – ngã ba Lý Nam Đế, bên số lẻ",
+   "phuong_cu": "Phường 2",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-2",
+   "ghi_chu": "Bên nào là chẵn/lẻ: suy từ địa chỉ quán (Foody, mia.vn, Wanderlog, trang Quê Xưa) → 'khá chắc'."
+  },
+  {
+   "doan": "Ngã ba Lý Nam Đế – Xô Viết Nghệ Tĩnh, bên số lẻ",
+   "phuong_cu": "Phường 2",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-2"
+  },
+  {
+   "doan": "Đoạn còn lại (bảng giá không ghi mốc; hiểu là Lý Nam Đế – Xô Viết Nghệ Tĩnh, bên số chẵn)",
+   "phuong_cu": "Phường 8",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "khá chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-8",
+   "ghi_chu": "Bảng giá chỉ ghi 'Đoạn còn lại', không ghi từ đâu đến đâu."
+  },
+  {
+   "doan": "Nhánh qua Xô Viết Nghệ Tĩnh xuống phía Phan Đình Phùng (3 đoạn OSM 473540517, 473540527, 473540530, tổng khoảng 800 m)",
+   "phuong_cu": "chưa rõ",
+   "phuong_moi": "Xuân Hương - Đà Lạt (theo phuong.json)",
+   "do_chac": "chưa rõ",
+   "nguon": "data/lam-dong/phuong.json",
+   "ghi_chu": "Bảng giá đất không nhắc đoạn này; chỉ có ranh giới phuong.json."
+  }
+ ],
+ "ten_pho": "Phố Quán Ăn Ngã Năm",
+ "gioi_thieu": "Phố Quán Ăn Ngã Năm: đường Nguyễn Công Trứ chạy khoảng 1 km từ ngã năm Đại học Đà Lạt tới Xô Viết Nghệ Tĩnh, dọc đường là quán ăn bình dân quen của sinh viên (cơm tấm sáng, mì Quảng, hủ tiếu Nam Vang, cơm quê Quê Xưa) và quán cà phê kiêm xưởng rang Là Việt ở số 200.",
+ "dia_diem": [
+  {
+   "ten": "La Viet Coffee (Là Việt Coffee)",
+   "loai": "cà phê đặc sản, xưởng rang",
+   "dac_trung": "Quán cà phê kiêm xưởng rang, nhà sản xuất cà phê và nơi dạy pha chế (Grantourismo); khách có thể xem khu chế biến miễn phí, có quầy bán cà phê, dụng cụ pha (Vietnam Tourism). Thương hiệu sinh ở Đà Lạt, công ty đăng ký 29/08/2013 (trang Là Việt).",
+   "dia_chi": "200 Nguyễn Công Trứ, phường Lâm Viên - Đà Lạt",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "200",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/la-viet-coffee-nguyen-cong-tru",
+    "https://spinach.guide/venues/la-viet-coffee-191174/",
+    "https://vietnam.travel/things-to-do/cool-cafes-vietnam",
+    "https://rustycompass.com/vietnam-travel-guide-233/dalat-33/eating-16/cafe-54",
+    "https://grantourismotravels.com/dalat-coffee-tours/",
+    "https://www.openstreetmap.org/node/4601279191"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: Spinach ghi địa chỉ phường mới 'Lâm Viên - Đà Lạt' (sau 7/2025), giờ 07:00–22:00; trang laviet.coffee vẫn đăng bài tháng 10–11/2026.",
+   "ghi_chu": "OSM ghi số 198 (addr:housenumber=198); các trang khác đều ghi 200 → dùng 200. Số 198 là Barn House sát bên."
+  },
+  {
+   "ten": "Barn House BBQ & Beer",
+   "loai": "quán nướng, bia",
+   "dac_trung": "Quán nướng kiểu Mỹ trong nhà kho gỗ (VinWonders tiếng Anh), mở 7:00–23:00 theo Wanderlog; Foody ghi 17:00–23:00.",
+   "dia_chi": "198 Nguyễn Công Trứ, phường Lâm Viên - Đà Lạt",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "198",
+   "nguon": [
+    "https://vinwonders.com/en/wonderpedia/news/dalat-restaurants/",
+    "https://wanderlog.com/place/details/1186367/barn-house-bbq-and-beer",
+    "https://www.foody.vn/lam-dong/barn-house-bbq-beer",
+    "https://www.openstreetmap.org/node/7056510985"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: Wanderlog ghi phường mới 'Lâm Viên - Đà Lạt', không ghi đóng cửa; Foody báo 'hơn 3 tháng chưa có tương tác'. Giờ mở lệch giữa các trang.",
+   "ghi_chu": "OSM có 2 điểm: '198 Nguyễn Công Trứ BBQ & Beer Barn House' (node 7056510985) và 'Barn House' (node 13590795101)."
+  },
+  {
+   "ten": "Mì Quảng Nhà Shin",
+   "loai": "mì Quảng",
+   "dac_trung": "Chủ quán có ba mẹ người xứ Quảng, nấu đúng vị Quảng; có mì gà, bò, lươn, cá lóc, ếch; tô lớn (mia.vn). Giá 25.000–55.000 đồng (VinWonders).",
+   "dia_chi": "209 Nguyễn Công Trứ, phường Xuân Hương - Đà Lạt",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "209",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/san-lung-top-5-quan-mi-quang-ngon-me-ly-tai-da-lat-1291",
+    "https://vinwonders.com/vi/wonderpedia/news/mi-quang-da-lat/",
+    "https://toplist.vn/top-list/dia-chi-an-my-quang-ngon-nhat-tai-da-lat-31170.htm",
+    "https://www.foody.vn/lam-dong/mi-quang-nha-shin-nguyen-cong-tru",
+    "https://www.openstreetmap.org/node/13590794901"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: mia.vn sửa bài 10/08/2026, ghi phường mới 'Xuân Hương - Đà Lạt'; VinWonders 03/07/2025. Giờ mở lệch: 6:30–14:00 (VinWonders) / 06:00–20:00 (mia.vn).",
+   "ghi_chu": "OSM ghi tên 'Nha Shin - Pho', không số nhà, nằm phía nam mặt đường (bên số lẻ) — khớp vị trí 209 nhưng cần soát tay trước khi gắn."
+  },
+  {
+   "ten": "Quán Cơm Quê Xưa (chi nhánh 1)",
+   "loai": "cơm quê",
+   "dac_trung": "Cơm nhà kiểu quê bày trên mẹt, thực đơn đổi hằng ngày: thịt kho tàu, cá kho tộ, kho quẹt, canh chua (VinWonders, trang của quán).",
+   "dia_chi": "157 Nguyễn Công Trứ, phường Xuân Hương - Đà Lạt",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "157",
+   "nguon": [
+    "http://quanquexua.com/",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/",
+    "https://wanderlog.com/place/details/4754502",
+    "https://www.foody.vn/lam-dong/quan-que-xua-mon-an-thanh-dam"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: trang quanquexua.com ghi 'CN1: 157 Nguyễn Công Trứ, phường Xuân Hương' (tên phường mới), giờ 9:00–20:00; Wanderlog cũng ghi phường mới.",
+   "ghi_chu": "Quán có chi nhánh 2 ở 05 Lê Hồng Phong (không thuộc đường này)."
+  },
+  {
+   "ten": "Hủ Tiếu Nam Vang Thuận Phát",
+   "loai": "hủ tiếu Nam Vang",
+   "dac_trung": "Nước lèo ninh xương heo, có cả hủ tiếu khô; tô nhiều tôm, thịt, gan, trứng cút (VinWonders). Giá 35.000–45.000 đồng, mở 07:00–21:30 (VinWonders).",
+   "dia_chi": "136 Nguyễn Công Trứ, phường Lâm Viên - Đà Lạt",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "136",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/hu-tieu-nam-vang-da-lat/",
+    "https://toplist.vn/top-list/dia-chi-an-hu-tieu-nam-vang-chat-luong-nhat-da-lat-31751.htm"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: nguồn mới nhất VinWonders 20/07/2025; Toplist ghi 2019.",
+   "ghi_chu": "Mytour chép gần nguyên bài Toplist → không tính riêng. Foody có trang 'Nem Nướng Hạnh' cũng ghi 136 Nguyễn Công Trứ (cũ) → số 136 có thể đã đổi quán; chưa rõ."
+  },
+  {
+   "ten": "Cơm tấm Hồng Thủy (Foody ghi 'Quán Thủy - Cơm Tấm')",
+   "loai": "cơm tấm sáng",
+   "dac_trung": "Cơm sườn bì, bán buổi sáng tới trưa 06:45–14:00, 27.000–45.000 đồng/dĩa (mia.vn).",
+   "dia_chi": "9 Nguyễn Công Trứ, phường Lâm Viên - Đà Lạt (mia.vn ghi P. 8)",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "9",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/bo-tui-top-10-quan-com-tam-da-lat-ngon-nuc-tieng-ma-ban-phai-thu-1327",
+    "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: VinWonders 13/07/2025 còn liệt kê; mia.vn sửa bài 11/07/2024.",
+   "ghi_chu": "Tên lệch: mia.vn, VinWonders, Mytour gọi 'Cơm tấm Hồng Thủy'; trang danh mục Foody gọi 'Quán Thủy - Cơm Tấm' cùng số 9. Mytour chép bài mia → không tính riêng."
+  },
+  {
+   "ten": "Hồng Tùng Hotel",
+   "loai": "khách sạn 2 sao",
+   "dac_trung": "27 phòng, gần ngã năm Đại học Đà Lạt (mia.vn); có chỗ đậu xe miễn phí (Travelated).",
+   "dia_chi": "85–87 Nguyễn Công Trứ, phường Xuân Hương - Đà Lạt (mia.vn ghi phường 2)",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "85",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/hong-tung-hotel-diem-dung-chan-sang-chanh-tai-pho-hoa-xinh-dep-5917",
+    "https://www.travelated.com/vietnam/da-lat/hong-tung-hotel"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: Travelated vẫn bán phòng khi em xem 25/11/2026; bài mia.vn 26/09/2023.",
+   "ghi_chu": "mia.vn ghi 85–87, Travelated và các trang đặt phòng ghi 85 → so_nha để 85."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Vị Cay - Quán Nướng Ngói",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "129A",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/vi-cay-quan-nuong-ngoi"
+   ],
+   "ly_do": "1 nguồn; Foody 'hơn 3 tháng chưa có tương tác', bình luận nói quán chuyển về 129A, khách khen giá hợp sinh viên."
+  },
+  {
+   "ten": "Lương Sơn Quán - Gà Nướng Cơm Lam",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "129",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/luong-son-quan-ga-nuong-com-lam-nguyen-cong-tru"
+   ],
+   "ly_do": "1 nguồn (Foody)."
+  },
+  {
+   "ten": "Tây Nguyên Quán",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "170",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/tay-nguyen-quan-nguyen-cong-tru"
+   ],
+   "ly_do": "1 nguồn (Foody). Foody còn có 'Cu Đức - Quán Nướng Ngói' cùng số 170 (https://www.foody.vn/lam-dong/cu-duc-quan-nuong-ngoi-nguyen-cong-tru) → có thể quán đổi tên."
+  },
+  {
+   "ten": "Tony Restaurant (lẩu, nướng)",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "156",
+   "nguon": [
+    "https://mytour.vn/en/blog/xep-hang/top-16-most-popular-and-beloved-restaurants-and-eateries-in-da-lat-mytour.html"
+   ],
+   "ly_do": "1 nguồn (Mytour)."
+  },
+  {
+   "ten": "Chay Nhà Tâm",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "241",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13857139501"
+   ],
+   "ly_do": "chỉ có trên OSM."
+  },
+  {
+   "ten": "Mì Quảng/Quán Nhậu Út Vân",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "65",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/quan-nhau-ut-van-nguyen-cong-tru"
+   ],
+   "ly_do": "1 nguồn; Foody 'hơn 3 tháng chưa có tương tác'."
+  },
+  {
+   "ten": "Khách sạn Hoàng Nguyên (Hoang Nguyen Hotel)",
+   "duong": "Nguyễn Công Trứ",
+   "so_nha": "68A hoặc 5",
+   "nguon": [
+    "https://www.vietnambooking.com/hotel/vietnam/khach-san-hoang-nguyen-da-lat.html",
+    "https://in.hotels.com/ho740201248"
+   ],
+   "ly_do": "2 trang nhưng số nhà lệch (Vietnambooking 68A, Hotels.com 5) → chưa đưa vào."
+  },
+  {
+   "ten": "Fujiya Sushi Đà Lạt",
+   "duong": "KQH Nguyễn Công Trứ (khu quy hoạch, không phải mặt đường)",
+   "so_nha": "Lô 34 hoặc Lô 38",
+   "nguon": [
+    "https://vinwonders.com/en/wonderpedia/news/dalat-restaurants/",
+    "https://toplist.vn/top-list/dia-chi-thuong-thuc-sushi-ngon-nhat-tinh-lam-dong-50310.htm"
+   ],
+   "ly_do": "nằm trong khu quy hoạch Phan Đình Phùng – Nguyễn Công Trứ, không trên mặt đường; số lô lệch (VinWonders: Lot 38, Toplist: Lô 34)."
+  },
+  {
+   "ten": "Bánh canh cua (VinWonders mục 5)",
+   "duong": "KQH Nguyễn Công Trứ",
+   "so_nha": "Lô 29",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/banh-canh-da-lat/"
+   ],
+   "ly_do": "1 nguồn; ở khu quy hoạch, không trên mặt đường."
+  }
+ ],
+ "da_dong": [
+  {
+   "ten": "Com Chay (quán cơm chay nhỏ)",
+   "so_nha": "70",
+   "nguon": [
+    "https://www.happycow.net/reviews/com-chay-da-lat-78695"
+   ],
+   "ly_do": "HappyCow ghi 'Reported closed December 2016'."
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-2",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/nguyen-cong-tru-phuong-8",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-quy-hoach-phan-dinh-phung-nguyen-cong-tru-phuong-2",
+  "data/lam-dong/nq1671.json (mục 99, 101)",
+  "data/lam-dong/da-lat/duong.json (6 đoạn 'Nguyễn Công Trứ', đoạn chính 99660915 dài khoảng 1.064 m từ Bùi Thị Xuân tới Xô Viết Nghệ Tĩnh; tổng khoảng 1,9 km kể cả nhánh)",
+  "data/lam-dong/phuong.json (ranh Lâm Viên / Xuân Hương)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.4310,11.9525,108.4440,11.9590 (tải 25/11/2026, tìm quán trong 45 m quanh đường)",
+  "https://mia.vn/cam-nang-du-lich/hong-tung-hotel-diem-dung-chan-sang-chanh-tai-pho-hoa-xinh-dep-5917 (khu ngã năm Đại học Đà Lạt là 'thiên đường ăn uống quen thuộc của các bạn sinh viên')"
+ ],
+ "cap_nhat": "2026-11-25"
+}

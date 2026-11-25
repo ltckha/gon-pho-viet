@@ -10,6 +10,7 @@ Cách chạy:
 Lưu ý quan trọng: tên quán trong content/streets/*.json của game là TÊN ĐẶT LẠI (game không dùng tên quán thật),
 nên khi lấy từ game KHÔNG lấy tên quán — chỉ lấy loại quán, đặc trưng và nguồn ("chac" và ≥ 2 nguồn).
 """
+import glob
 import json
 import os
 import shutil
@@ -57,9 +58,43 @@ def main(game):
             'gioi_thieu': gioi_thieu,
             'anh': 'assets/dau_pho/' + ANH[p['id']] + '.webp',
             'ten_that': os.path.exists(mine),
+            'lon': p['lon'], 'lat': p['lat'],
             'dia_diem': places,
             'can_kiem_them': can_kiem,
             'nghien_cuu': nghien_cuu,
+        })
+    # Phố mới (không có trong game): data/pho/<slug>.json có ten_pho, duong[], ward, gioi_thieu
+    done = {o['slug'] for o in out}
+    for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'pho', '*.json'))):
+        slug = os.path.basename(f)[:-5]
+        if slug in done:
+            continue
+        r = json.load(open(f, encoding='utf-8'))
+        roads = r.get('duong') or [r.get('road')]
+        if isinstance(roads, str):
+            roads = [roads]
+        for rd in roads:
+            if rd not in names:
+                raise SystemExit('Phố mới %s: đường "%s" không có trong dữ liệu OSM' % (slug, rd))
+        # ghim: điểm giữa các điểm của đường chính (đường đầu danh sách)
+        pts = sorted(pt for d in duong['duong'] if d.get('ten') == roads[0] for pt in d['pts'])
+        mid = pts[len(pts) // 2]
+        places, can_kiem, intro, note = from_research(r)
+        anh = 'assets/dau_pho/dau_pho_' + slug.replace('-', '_') + '.webp'
+        out.append({
+            'id': 'pho_' + slug.replace('-', '_'),
+            'slug': slug,
+            'ten_pho': r['ten_pho'],
+            'duong': roads,
+            'ward': r.get('ward', ''),
+            'gioi_thieu': intro or '',
+            'anh': anh if os.path.exists(os.path.join(ROOT, anh)) else None,   # chưa có tranh Spark thì để trống
+            'ten_that': True,
+            'moi': True,
+            'lon': mid[0], 'lat': mid[1],
+            'dia_diem': places,
+            'can_kiem_them': can_kiem,
+            'nghien_cuu': REPO_URL + 'docs/research/pho_' + slug + '.md',
         })
     write(out)
 

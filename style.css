@@ -118,6 +118,7 @@ button:focus-visible { outline: 3px solid var(--pick); outline-offset: 2px; }
   .sheet { left: auto; right: 16px; bottom: 16px; width: 380px; border: 2px solid var(--edge); border-radius: 16px; }
 }
 .sheet.full { max-height: 88vh; }
+.sheet .banner.none { aspect-ratio: 2 / 1; display: grid; place-items: center; color: var(--muted); background: #efe6cf; font-size: .9rem; }
 .sheet .banner { width: 100%; border-radius: 12px; border: 2px solid var(--edge); display: block; }
 .sheet h3 { margin: 6px 0 0; font-size: 1.02rem; }
 .sheet .muted { color: var(--muted); font-weight: 500; font-size: .85rem; }

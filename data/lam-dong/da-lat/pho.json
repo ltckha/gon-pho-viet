@@ -28,6 +28,8 @@
    "gioi_thieu": "Phố Ăn Đêm sau chợ Đà Lạt: dốc Tăng Bạt Hổ sáng bánh căn, bánh ướt lòng gà, tối sữa đậu nành nóng; rẽ sang Trương Công Định là hostel, cà phê đồ cũ và bar dưới tầng hầm.",
    "anh": "assets/dau_pho/dau_pho_tang_bat_ho.webp",
    "ten_that": true,
+   "lon": 108.43508,
+   "lat": 11.94411,
    "dia_diem": [
     {
      "ten": "Bánh căn Cây Bơ",
@@ -467,6 +469,8 @@
    "gioi_thieu": "Phố Cà Phê: con dốc Nguyễn Chí Thanh lên Khu Hòa Bình, có Café Nga mở từ 5 giờ sáng đã hơn 20 năm, bên cạnh tiệm trà chuỗi mới Phê La.",
    "anh": "assets/dau_pho/dau_pho_ca_phe.webp",
    "ten_that": true,
+   "lon": 108.43587,
+   "lat": 11.94286,
    "dia_diem": [
     {
      "ten": "Café Nga",
@@ -607,6 +611,8 @@
    "gioi_thieu": "Phố Dân Sinh: phố cũ của dân phố núi — sáng có bánh bèo, mì hoành thánh, bún bò, phở thố đá; dọc phố có nhà sách lớn, nhà thuốc, quán nem nướng và chỗ thuê xe máy.",
    "anh": "assets/dau_pho/dau_pho_phan_dinh_phung.webp",
    "ten_that": true,
+   "lon": 108.43416,
+   "lat": 11.94466,
    "dia_diem": [
     {
      "ten": "Nhà sách Phương Nam Đà Lạt",
@@ -895,6 +901,8 @@
    "gioi_thieu": "Phố Kem Bơ: đường một chiều có những hàng kem bơ 30–40 năm tuổi, chiều tối có bánh tráng nướng bếp than, cuối dốc là chùa Linh Sơn.",
    "anh": "assets/dau_pho/dau_pho_nguyen_van_troi.webp",
    "ten_that": true,
+   "lon": 108.43668,
+   "lat": 11.94938,
    "dia_diem": [
     {
      "ten": "Kem Phụng",
@@ -1322,6 +1330,8 @@
    "gioi_thieu": "Phố lẩu bò Ba Toa: hơn 20 quán lẩu bò trên đoạn dưới 300 m (cùng Nguyễn Thị Định, Tô Ngọc Vân), sáng bán bánh mì xíu mại",
    "anh": "assets/dau_pho/dau_pho_hoang_dieu.webp",
    "ten_that": true,
+   "lon": 108.42732,
+   "lat": 11.94281,
    "dia_diem": [
     {
      "ten": "Lẩu Bò Quán Gỗ (Lẩu Bò ABa Toa)",
@@ -1569,6 +1579,8 @@
    "gioi_thieu": "Phố Di Sản: khách sạn Lang-Bian Palace xây xong năm 1922 bên hồ Xuân Hương, nhà thờ Con Gà xây 1931–1942, tiệm bánh Liên Hoa mở từ 5 giờ sáng tới nửa đêm.",
    "anh": "assets/dau_pho/dau_pho_tran_phu.webp",
    "ten_that": true,
+   "lon": 108.43433,
+   "lat": 11.93647,
    "dia_diem": [
     {
      "ten": "Dalat Palace Heritage Hotel",

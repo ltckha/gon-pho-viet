@@ -242,7 +242,8 @@
     // ghim phố: giữ cỡ cố định trên màn hình
     pins = [];
     var pinLayer = el('g', {});
-    data.pho.forEach(function (p, i) {
+    var phoList = (cache.pho && cache.pho.pho) || data.pho;   // ghim lấy từ pho.json (có cả phố mới)
+    phoList.forEach(function (p, i) {
       var g = el('g', { 'class': 'pin', transform: 'translate(' + px(p.lon).toFixed(4) + ' ' + py(p.lat).toFixed(4) + ')' });
       var inner = el('g', { 'data-i': i });
       inner._x = px(p.lon); inner._y = py(p.lat); inner._n = p.ten_pho.length;
@@ -416,7 +417,7 @@
       land.appendChild(target);   // đưa lên trên để viền không bị che
     }
     if (layer.kind === 'duong') {          // ghim phố → mở trang phố
-      var ph = phoById(data.pho[Number(i)].id);
+      var ph = phoById(((cache.pho && cache.pho.pho) || data.pho)[Number(i)].id);
       if (ph) { location.hash = 'pho-' + ph.slug; return; }
     }
     sheetBody.innerHTML = layer.card(data[layer.kind === 'duong' ? 'pho' : layer.list][Number(i)]);
@@ -516,7 +517,8 @@
   }
   function showPho(ph) {
     phoBox = highlight(ph.duong);
-    var h = '<img class="banner" src="' + esc(ph.anh) + '" alt="Tranh đầu ' + esc(ph.ten_pho) + '">' +
+    var h = (ph.anh ? '<img class="banner" src="' + esc(ph.anh) + '" alt="Tranh đầu ' + esc(ph.ten_pho) + '">'
+                    : '<div class="banner none">Tranh đầu phố: đang chờ vẽ</div>') +
       '<h2>' + esc(ph.ten_pho) + '</h2>' +
       '<div>' + ph.duong.map(function (d) { return '<span class="tag open">' + esc(d) + '</span>'; }).join(' ') +
       ' <span class="tag">' + esc('Phường ' + ph.ward) + '</span></div>' +

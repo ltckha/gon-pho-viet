@@ -137,6 +137,7 @@
       boxes.push({ x0: sx - 11, x1: sx + 11, y0: sy - 28, y1: sy });
     });
     pins.forEach(function (g) {
+      if (g._fixed) return;
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
       var w = g._n * 13 * 0.6 + 6, lb = g.lastChild;
       var right = { x0: sx + 12, x1: sx + 14 + w, y0: sy - 26, y1: sy - 6 };
@@ -493,6 +494,19 @@
   }
 
   var phoBox = null;
+  // Đánh dấu một quán: chấm vàng có tên, cỡ cố định trên màn hình
+  function markPlace(d) {
+    var old = document.getElementById('placeMark');
+    if (old) old.remove();
+    var g = el('g', { id: 'placeMark', 'class': 'pin place', transform: 'translate(' + px(d.vi_tri.lon).toFixed(4) + ' ' + py(d.vi_tri.lat).toFixed(4) + ')' });
+    var inner = el('g', {});
+    inner.appendChild(el('circle', { r: 9, 'class': 'place-dot' }));
+    inner.appendChild(el('text', { x: 0, y: -16, 'class': 'pin-label', 'text-anchor': 'middle' }, d.ten));
+    inner._x = px(d.vi_tri.lon); inner._y = py(d.vi_tri.lat); inner._n = 0; inner._fixed = true;
+    g.appendChild(inner);
+    pinsRoot.appendChild(g);
+    pins.push(inner);
+  }
   function showPho(ph) {
     phoBox = highlight(ph.duong);
     var h = '<img class="banner" src="' + esc(ph.anh) + '" alt="Tranh đầu ' + esc(ph.ten_pho) + '">' +
@@ -502,8 +516,15 @@
       '<p>' + esc(ph.gioi_thieu) + '</p>' +
       '<button class="go" type="button" id="seeMap">Xem cả phố trên bản đồ</button>' +
       '<h3>Nơi tiêu biểu <span class="muted">(' + ph.dia_diem.length + ' nơi, mỗi nơi ≥ 2 nguồn)</span></h3><ol class="places">';
-    ph.dia_diem.forEach(function (d) {
-      h += '<li><b>' + esc(d.loai) + '</b><span>' + esc(d.dac_trung) + '</span><span class="src">Nguồn: ' +
+    ph.dia_diem.forEach(function (d, k) {
+      h += '<li>' + (d.ten
+        ? '<b>' + esc(d.ten) + '</b><span class="addr">' + esc(d.dia_chi) + ' · ' + esc(d.loai) + '</span>'
+        : '<b>' + esc(d.loai) + '</b>') +
+        '<span>' + esc(d.dac_trung) + '</span>' +
+        (d.ten ? (d.vi_tri
+          ? '<button class="mini" type="button" data-place="' + k + '">Xem chỗ quán trên bản đồ</button>'
+          : '<button class="mini" type="button" data-place="' + k + '">Xem đường ' + esc(d.duong) + '</button><span class="src">Chưa có vị trí chính xác trên bản đồ</span>') : '') +
+        '<span class="src">Nguồn: ' +
         d.nguon.map(function (n, k) {
           var dup = d.nguon.filter(function (m) { return m.trang === n.trang; }).length > 1;
           return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + (dup ? ' (bài ' + (k + 1) + ')' : '') + '</a>';
@@ -512,13 +533,28 @@
     });
     h += '</ol>';
     if (ph.can_kiem_them) h += '<p class="note">Còn ' + ph.can_kiem_them + ' nơi khác chưa đủ 2 nguồn nên chưa đưa lên.</p>';
-    h += '<p class="note">Chưa ghi tên quán và vị trí từng quán. Theo <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">nghiên cứu phố</a> của game Gọn Phố.</p>';
+    h += ph.ten_that
+      ? '<p class="note">Tên quán thật, mỗi nơi có nguồn ở ít nhất 2 trang khác nhau. Vị trí chỉ ghi khi OpenStreetMap có đúng tên quán hoặc đúng số nhà. <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">Xem nghiên cứu</a>.</p>'
+      : '<p class="note">Chưa ghi tên quán và vị trí từng quán. Theo <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">nghiên cứu phố</a> của game Gọn Phố.</p>';
     sheetBody.innerHTML = h;
     sheet.classList.add('full');
     sheet.scrollTop = 0;
     srcSheet.hidden = true;
     sheet.hidden = false;
     document.getElementById('seeMap').addEventListener('click', function () { closeSheet(); zoomTo(phoBox); });
+    Array.prototype.forEach.call(sheetBody.querySelectorAll('[data-place]'), function (btn) {
+      btn.addEventListener('click', function () {
+        var d = ph.dia_diem[Number(btn.getAttribute('data-place'))];
+        closeSheet();
+        if (d.vi_tri) {
+          markPlace(d);
+          var x = px(d.vi_tri.lon), y = py(d.vi_tri.lat), m = 0.0012 * K;   // khung ~130 m quanh quán
+          zoomTo({ minX: x - m, maxX: x + m, minY: y - m, maxY: y + m });
+        } else {
+          zoomTo(highlight([d.duong]));
+        }
+      });
+    });
   }
 
   function closeSheet() {

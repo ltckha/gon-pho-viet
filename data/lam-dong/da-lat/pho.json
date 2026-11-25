@@ -1,7 +1,11 @@
 {
  "cap_nhat": "25/11/2026",
- "ghi_chu": "Chưa ghi tên quán: nghiên cứu của game dùng tên đặt lại. Chỉ giữ nơi có ≥ 2 nguồn và game ghi \"chắc\".",
+ "ghi_chu": "Phố có ten_that=true: tên quán thật, ≥ 2 nguồn ở 2 trang khác nhau. Phố còn lại: chỉ loại quán (tên trong game là tên đặt lại).",
  "nguon": [
+  {
+   "ten": "Nghiên cứu phố của Gọn Phố Việt (docs/research/pho_*.md)",
+   "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research"
+  },
   {
    "ten": "Nghiên cứu phố của game Gọn Phố (kho ltckha/giang-ho-ai)",
    "link": "https://github.com/ltckha/giang-ho-ai/blob/main/docs/research"
@@ -23,6 +27,7 @@
    "ward": "Xuân Hương - Đà Lạt",
    "gioi_thieu": "Phố ăn đêm sau chợ và dốc phố Tây: bánh căn, sữa nóng, hostel, bar dưới hầm",
    "anh": "assets/dau_pho/dau_pho_tang_bat_ho.webp",
+   "ten_that": false,
    "dia_diem": [
     {
      "loai": "Quán sữa đậu nành đêm",
@@ -103,6 +108,7 @@
    "ward": "Xuân Hương - Đà Lạt",
    "gioi_thieu": "Con đường cà phê lên Khu Hoà Bình: quán xưa cạnh quán mới, kem bơ, sân thượng nhìn phố",
    "anh": "assets/dau_pho/dau_pho_ca_phe.webp",
+   "ten_that": false,
    "dia_diem": [
     {
      "loai": "Quán cà phê truyền thống mở từ 5 giờ",
@@ -150,6 +156,7 @@
    "ward": "Xuân Hương - Đà Lạt",
    "gioi_thieu": "Phố cũ của dân phố núi: nhà thuốc, tiệm tóc, nhà sách, studio ảnh cưới, phở sáng, tiệm xe máy",
    "anh": "assets/dau_pho/dau_pho_phan_dinh_phung.webp",
+   "ten_that": false,
    "dia_diem": [
     {
      "loai": "Nhà thuốc mở từ sáng tới khuya",
@@ -239,6 +246,7 @@
    "ward": "Xuân Hương - Đà Lạt",
    "gioi_thieu": "Phố một chiều ăn vặt ngọt: kem bơ lâu năm, chè, bánh tráng nướng, dốc chùa",
    "anh": "assets/dau_pho/dau_pho_nguyen_van_troi.webp",
+   "ten_that": false,
    "dia_diem": [
     {
      "loai": "Tiệm kem bơ lâu năm",
@@ -304,6 +312,7 @@
    "ward": "Cam Ly - Đà Lạt",
    "gioi_thieu": "Phố lẩu bò Ba Toa: hơn 20 quán lẩu, sáng bán bánh mì xíu mại",
    "anh": "assets/dau_pho/dau_pho_hoang_dieu.webp",
+   "ten_that": false,
    "dia_diem": [
     {
      "loai": "Quán lẩu bò nhà gỗ",
@@ -384,6 +393,7 @@
    "ward": "Xuân Hương - Đà Lạt",
    "gioi_thieu": "Phố di sản: khách sạn thời Pháp bên hồ, tiệm bánh lâu đời, quán phở, cháo đêm",
    "anh": "assets/dau_pho/dau_pho_tran_phu.webp",
+   "ten_that": false,
    "dia_diem": [
     {
      "loai": "Khách sạn di sản bên hồ",

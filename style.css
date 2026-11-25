@@ -120,6 +120,9 @@ button:focus-visible { outline: 3px solid var(--pick); outline-offset: 2px; }
 .sheet .muted { color: var(--muted); font-weight: 500; font-size: .85rem; }
 .places { margin: 0; padding-left: 1.3em; display: grid; gap: 12px; }
 .places li { display: grid; gap: 2px; line-height: 1.45; }
+.places .addr { font-size: .85rem; color: var(--muted); }
+.mini { font: inherit; font-size: .82rem; font-weight: 600; color: var(--accent); background: none; border: 1.5px solid var(--edge); border-radius: 8px; padding: 4px 10px; justify-self: start; cursor: pointer; margin-top: 2px; }
+.place-dot { fill: #e9b44c; stroke: #8a2f2c; stroke-width: 3; }
 .places .src { font-size: .8rem; color: var(--muted); }
 .sheet h2 { margin: 0; font-size: 1.3rem; line-height: 1.25; padding-right: 36px; text-wrap: balance; }
 .sheet p { margin: 0; line-height: 1.5; }

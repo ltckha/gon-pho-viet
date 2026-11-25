@@ -53,6 +53,10 @@ python3 tools/lich_trinh.py /tmp/osm
 - **Tên quán trong nghiên cứu của game là tên đặt lại** (game không dùng tên quán thật). Không đưa các tên đó lên bản đồ như tên thật; `build_pho.py` chỉ lấy loại quán, đặc trưng, nguồn.
 - OSM ở Đà Lạt ghi tiệm thiếu; so tên lỏng ra trùng nhầm ("Café Nga" ≠ "Miến gà Nga"). `vi_tri_quan.py` so tên hai chiều + số, số nhà đúng y tên đường; tên viết khác thì soát tay rồi thêm vào `ALIAS`. Không khớp thì để trống, không đoán.
 - Điều khoản Google không cho máy tự lấy dữ liệu Google Maps (kể cả toạ độ) đưa sang bản đồ khác → không chép toạ độ từ Google Maps vào kho.
+- Đường dài (Huỳnh Tấn Phát 6 km, quốc lộ) → ghim phố không lấy điểm giữa đường mà lấy điểm đường gần tâm các quán (`build_pho.py`); đường của phố lọc theo khoảng cách 2,2 km (`roadsOf` trong `app.js`) vì OSM có đoạn trùng tên ở xa.
+- Khung bản đồ phố không được lớn hơn tấm tranh khu (tranh vùng ven nằm ngang) — kẻo lòi nền trống. Khu trung tâm = phố trong 2,5 km quanh Chợ Đà Lạt; xa hơn mỗi khu một tấm `assets/ban_do_<slug>.webp`.
+- So số nhà: điểm OSM đã mang tên một nơi khác trong cùng phố thì không lấy (La Viet Coffee ghi số 198 ≠ Barn House).
+- Số phố mỗi phường (`so_pho` trong `phuong.json`) do `build_pho.py` tự đếm, đừng gõ tay.
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
 ## Anh Kha đã chốt (25/11/2026)

@@ -1,0 +1,302 @@
+{
+ "road": "Quốc lộ 20",
+ "duong": [
+  "Quốc lộ 20"
+ ],
+ "ten_osm": [
+  "Quốc lộ 20"
+ ],
+ "ward": "Xuân Trường - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021; thuviennhadat ghi đã hết hiệu lực từ 01/01/2026) có 'Mặt tiền quốc lộ 20 - Xã Xuân Trường' 5 đoạn (giáp Xuân Thọ – ngã ba Đất Làng – trạm y tế xã – đầu cầu – ngã ba Trường Sơn – giáp Trạm Hành) và 'Mặt tiền quốc lộ 20 - Xã Trạm Hành' 4 đoạn (giáp Xuân Trường – ngã ba thôn Trường Thọ – hết điểm công nghiệp Phát Chi – đoạn còn lại). Khúc phía bắc qua xã Xuân Thọ và Phường 11. Theo NQ 1671 mục 102: Phường 11 + xã Xuân Thọ, Xuân Trường, Trạm Hành → phường Xuân Trường - Đà Lạt, nên cả khu Cầu Đất (dù trang du lịch ghi 'xã Trạm Hành' hay 'xã Xuân Trường') đều về một phường. Kiểm chéo ranh giới phuong.json: 394/409 điểm của 'Quốc lộ 20' trong duong.json (khoảng 20,6 km có tên này) nằm trong Xuân Trường - Đà Lạt; 15 điểm còn lại ở đầu Đà Lạt (Xuân Hương) và khúc Hiệp Thạnh (đoạn khác cùng tên). Điểm OSM 'Đồi trà cầu đất', 'Phát Chi', hầm số 5, Cloud9 đều nằm trong phường. Đường nhánh vào đồi chè, Phát Chi, Trường Thọ trên OSM không có tên → chỉ ghi Quốc lộ 20.",
+ "doan": [
+  {
+   "doan": "QL20: giáp xã Xuân Thọ – ngã ba Đất Làng – trạm y tế xã – đầu cầu – ngã ba Trường Sơn – giáp xã Trạm Hành",
+   "phuong_cu": "xã Xuân Trường",
+   "phuong_moi": "Xuân Trường - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-xuan-truong"
+  },
+  {
+   "doan": "QL20: giáp xã Xuân Trường – ngã ba thôn Trường Thọ – hết điểm công nghiệp Phát Chi – đoạn còn lại (tới đèo D'Ran)",
+   "phuong_cu": "xã Trạm Hành",
+   "phuong_moi": "Xuân Trường - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-tram-hanh",
+   "ghi_chu": "Khúc cuối 'Đèo D'Ran' trên OSM sang xã D'Ran theo phuong.json."
+  },
+  {
+   "doan": "QL20 qua xã Xuân Thọ (bảng giá chỉ có 1 đoạn tên: ngã ba cây mai Lộc Quý – ngã ba đường tổ 7, hội trường thôn Đa Lộc)",
+   "phuong_cu": "xã Xuân Thọ",
+   "phuong_moi": "Xuân Trường - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-xuan-tho"
+  },
+  {
+   "doan": "Khúc đầu từ Trại Mát (bảng giá gọi 'Hùng Vương (Quốc lộ 20)')",
+   "phuong_cu": "Phường 11",
+   "phuong_moi": "Xuân Trường - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-quoc-lo-20-phuong-11"
+  }
+ ],
+ "ten_pho": "Phố Đồi Chè Cầu Đất",
+ "gioi_thieu": "Phố Đồi Chè Cầu Đất: theo Quốc lộ 20 chừng 22–25 km về phía đông nam Đà Lạt, tới sở trà người Pháp lập năm 1927 ở độ cao khoảng 1.600–1.650 m; nay còn khoảng 200 ha chè, xưởng chè cũ thành bảo tàng, sáng sớm săn mây trên đồi, xa xa hàng tuabin gió.",
+ "gioi_thieu_nguon": {
+  "22–25 km": [
+   "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
+   "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/",
+   "https://vnexpress.net/bao-tang-tra-da-lat-4427714.html",
+   "https://www.sggp.org.vn/so-tra-dau-tien-cua-xu-dong-duong-post850083.html",
+   "https://mia.vn/cam-nang-du-lich/kham-pha-cau-dat-farm-14120"
+  ],
+  "1927": [
+   "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html",
+   "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
+   "https://www.sggp.org.vn/so-tra-dau-tien-cua-xu-dong-duong-post850083.html"
+  ],
+  "1.600–1.650 m": [
+   "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html",
+   "https://nhandan.vn/ocop/bao-tang-tra-dau-tien-o-viet-nam-post641126.html",
+   "https://www.sggp.org.vn/so-tra-dau-tien-cua-xu-dong-duong-post850083.html",
+   "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/"
+  ],
+  "khoảng 200 ha": [
+   "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
+   "https://mia.vn/cam-nang-du-lich/kham-pha-cau-dat-farm-14120",
+   "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/"
+  ],
+  "xưởng chè cũ thành bảo tàng": [
+   "https://vnexpress.net/bao-tang-tra-da-lat-4427714.html",
+   "https://doanhnghiephoinhap.vn/bao-tang-tra-cau-dat-khong-gian-van-hoa-dac-sac-76562.html",
+   "https://nhandan.vn/ocop/bao-tang-tra-dau-tien-o-viet-nam-post641126.html"
+  ],
+  "săn mây": [
+   "https://mia.vn/cam-nang-du-lich/san-may-doi-che-cau-dat-19414",
+   "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/"
+  ],
+  "tuabin gió": [
+   "https://baolamdong.vn/nhieu-du-an-dien-gio-cham-tien-do-272408.html",
+   "https://mia.vn/cam-nang-du-lich/muon-co-anh-xinh-den-ngay-dien-gio-cau-dat-da-lat-4942",
+   "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/"
+  ]
+ },
+ "gioi_thieu_ghi_chu": "Khoảng cách các trang ghi 22 (Vietnam+), 23 (VinWonders), 25 km (VnExpress 2022, SGGP 2026, mia). Diện tích chè: Vietnam+ 2019 'còn khoảng 200 ha', mia 220 ha, VinWonders 230 ha, một bài mia khác 250 ha → em ghi 'khoảng 200 ha'. Độ cao: VnExpress 2018 'trên 1.650 m', Nhân Dân, VinWonders 1.650 m, SGGP 1.600–1.650 m.",
+ "dia_diem": [
+  {
+   "ten": "Cầu Đất Farm – Đồi chè Cầu Đất",
+   "loai": "đồi chè, nông trại tham quan",
+   "dac_trung": "Vùng chè của Sở trà Cầu Đất người Pháp lập năm 1927; đến 1931 trồng trên 600 ha, nay còn khoảng 200 ha, trong đó khoảng 3 ha chè cổ từ thời lập sở (Vietnam+). Vào cổng miễn phí, mở 7:30–17:00; có tour trà (thăm xưởng chè), tour nông trại, quán cà phê nhìn 360 độ giữa đồi, cầu gỗ săn mây (nên tới khoảng 5:30–6:15 sáng), vườn hồng mùa thu.",
+   "dia_chi": "thôn Trường Thọ (mia ghi xã Trạm Hành cũ), rẽ từ Quốc lộ 20, phường Xuân Trường - Đà Lạt",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
+    "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html",
+    "https://mia.vn/cam-nang-du-lich/kham-pha-cau-dat-farm-14120",
+    "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/",
+    "https://www.foody.vn/lam-dong/doi-che-cau-dat",
+    "https://mia.vn/cam-nang-du-lich/san-may-doi-che-cau-dat-19414",
+    "https://www.openstreetmap.org/node/11916396494"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; mia 07/01/2026 và VinWonders cùng ghi giờ 7:30–17:00, vào cổng miễn phí, tour 90.000 đồng/người (giá tham khảo).",
+   "vi_tri": null,
+   "ghi_chu": "OSM có điểm 'Đồi trà cầu đất' (leisure=park, node 11916396494, addr:street Quốc lộ 20) và tác phẩm 'đồi chè cầu đất' (node 6546337786). Foody ghi giờ 7:00–19:00 nhưng bình luận mới nhất 2020 → không dùng. Hai bài mia tính 1 trang."
+  },
+  {
+   "ten": "Bảo tàng trà cổ Cầu Đất Farm (xưởng chè cũ)",
+   "loai": "bảo tàng, quán trà",
+   "dac_trung": "Xưởng chè người Pháp xây năm 1929, khuôn viên 1,2 ha, sửa lại năm 2020 và đón khách từ đầu năm 2021; còn trưng máy làm chè chạy gần 100 năm. Có tranh vẽ bằng đất và lá chè Cầu Đất, khối treo dùng 350 kg chè (VnExpress).",
+   "dia_chi": "trong Cầu Đất Farm, thôn Trường Thọ, phường Xuân Trường - Đà Lạt",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://vnexpress.net/bao-tang-tra-da-lat-4427714.html",
+    "https://doanhnghiephoinhap.vn/bao-tang-tra-cau-dat-khong-gian-van-hoa-dac-sac-76562.html",
+    "https://nhandan.vn/ocop/bao-tang-tra-dau-tien-o-viet-nam-post641126.html",
+    "https://mia.vn/cam-nang-du-lich/kham-pha-cau-dat-farm-14120"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; mia 12/2023 còn tả tour trà có thăm nhà máy trà cổ. Chưa có nguồn 2026 riêng cho bảo tàng.",
+   "vi_tri": null,
+   "ghi_chu": "Năm 1929 có ở VnExpress 2022 và Doanh nghiệp Hội nhập; máy 'nhập nguyên kiện từ châu Âu năm 1931' chỉ có ở Doanh nghiệp Hội nhập. Số phòng lệch: VnExpress 5 phòng, Nhân Dân 6 không gian → không ghi. Lượt khách 'khoảng 300 người/ngày' là số lúc mới mở (2021–2022), không đưa vào câu chính."
+  },
+  {
+   "ten": "Bảo tàng trà Long Đỉnh",
+   "loai": "bảo tàng trà",
+   "dac_trung": "Bảo tàng tư nhân của Công ty CP trà Long Đỉnh, trưng hàng trăm hiện vật, bản đồ trà, dụng cụ, máy chế biến chè cũ; trong vườn có cây chè gần trăm năm tuổi người Pháp trồng thử. Có chỗ uống trà, món ăn từ trà.",
+   "dia_chi": "thôn Phát Chi (xã Trạm Hành cũ), cạnh Sở trà Cầu Đất, phường Xuân Trường - Đà Lạt",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://baolaocai.vn/an-tuong-bao-tang-tra-tai-da-lat-post380061.html",
+    "https://baolamdong.vn/doc-dao-khong-gian-van-hoa-am-thuc-tra-382999.html",
+    "https://mia.vn/cam-nang-du-lich/bao-tang-tra-long-dinh-da-lat-18679",
+    "https://www.klook.com/activity/114867-da-lat-long-dinh-tea-museum-ticket"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; Báo Lâm Đồng 21/07/2025 và mia 16/06/2025 viết đang đón khách. Giờ 8:00–17:00, vé trên 100.000 đồng chỉ có ở mia → chưa ghi.",
+   "vi_tri": null,
+   "ghi_chu": "Diện tích lệch: Báo Lào Cai (lấy từ QĐND, 20/02/2024) ghi 3,4 ha; Báo Lâm Đồng ghi khoảng 3.500 m² → không ghi. OSM chưa có điểm này."
+  },
+  {
+   "ten": "Điện gió Cầu Đất",
+   "loai": "cánh đồng tuabin gió (cảnh)",
+   "dac_trung": "Hàng tuabin gió trên đồi, khách hay ghé chụp ảnh sau đồi chè (vào xem miễn phí theo mia). Dự án của Công ty CP Năng lượng tái tạo Đại Dương trên hơn 27,5 ha, giai đoạn 1 công suất 68,9 MW, đã hoà lưới; tháng 12/2023 được nghiệm thu và cấp giấy phép hoạt động điện lực (Báo Lâm Đồng). GE ký cung cấp 15 tuabin loại 4 MW (2021).",
+   "dia_chi": "Báo Lâm Đồng ghi xã Trạm Hành, mia ghi thôn Trường Thọ, xã Xuân Trường — nay đều thuộc phường Xuân Trường - Đà Lạt",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://baolamdong.vn/nhieu-du-an-dien-gio-cham-tien-do-272408.html",
+    "https://www.ge.com/news/press-releases/ge-renewable-energy-to-build-the-first-wind-farm-in-lam-dong-province-in-vietnam",
+    "https://mia.vn/cam-nang-du-lich/muon-co-anh-xinh-den-ngay-dien-gio-cau-dat-da-lat-4942",
+    "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/",
+    "https://gem.wiki/Cau_Dat_wind_farm"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đang chạy (Báo Lâm Đồng 27/05/2024: đã hoà lưới).",
+   "vi_tri": null,
+   "ghi_chu": "15 tuabin × 4 MW = 60 MW, lệch với 68,9 MW giai đoạn 1 → em không ghi số tuabin đang đứng là 15, chỉ ghi đây là hợp đồng GE công bố 23/02/2021. GEM wiki ghi 68 MW."
+  },
+  {
+   "ten": "Ladora Winery",
+   "loai": "nhà làm rượu vang, hầm rượu",
+   "dac_trung": "Nhà làm rượu vang của Ladofoods (Vang Đà Lạt) trên khuôn viên 6 ha ở Phát Chi, khánh thành năm 2016; khách xem hầm rượu dưới đất và nếm vang.",
+   "dia_chi": "Quốc lộ 20, Phát Chi (xã Trạm Hành cũ), phường Xuân Trường - Đà Lạt",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://doanhnhanplus.vn/ladofoods-khanh-thanh-nha-lam-ruou-vang-va-ra-mat-san-pham-moi-206787.html",
+    "https://www.winetourism.com/winery/ladora-winery/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có lẽ mở; winetourism ghi giờ thứ Ba–Chủ nhật 8:30–15:30 và có nhận xét 2023 — chưa thấy nguồn 2026.",
+   "vi_tri": null,
+   "ghi_chu": "Doanh nhân Plus 05/10/2016 ghi '6ha tại Phát Chi (Đà Lạt)'; winetourism ghi địa chỉ 'Quốc lộ 20, Tram Hanh, Xuan Truong - Da Lat'. Chi tiết 'hầm sâu 10 m', giá nếm vang chỉ có ở winetourism → không đưa vào đặc trưng. Hầm rượu vang mia nhắc ở Trạm Hành có thể là nơi này nhưng mia không ghi tên."
+  },
+  {
+   "ten": "Đường hầm hỏa xa (hầm xe lửa cổ)",
+   "loai": "di tích đường sắt bỏ hoang",
+   "dac_trung": "Hầm của tuyến răng cưa Tháp Chàm – Đà Lạt dài 84 km (người Pháp làm từ 1908, hơn 24 năm mới xong), nay bỏ hoang, khách đi xe máy xuống chụp ảnh hai đầu hầm. Nằm trên đường từ Đà Lạt xuống Cầu Đất, khoảng 3 km qua khu rau Organik thì rẽ dốc xuống.",
+   "dia_chi": "QL20, thôn Đa Thọ (xã Xuân Thọ cũ), phường Xuân Trường - Đà Lạt",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/duong-ham-xe-lua-co-da-lat-dia-diem-check-in-noi-tieng-tai-da-lat-1377",
+    "https://vinwonders.com/vi/wonderpedia/news/duong-ham-hoa-xa-da-lat/",
+    "https://www.openstreetmap.org/node/4380328291"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "bỏ hoang, vẫn vào được (mia 10/06/2025).",
+   "vi_tri": null,
+   "ghi_chu": "Không thuộc khu Cầu Đất mà ở Đa Thọ, trên đường lên Cầu Đất. OSM có 'hầm số 5, gần ga Đa Thọ' (node 4380328291) và 'hầm số 4, hầm Suối Dục gần ga Cầu Đất' (node 4380328692); em chưa chắc hầm báo tả là hầm số 5 (khớp thôn Đa Thọ và gần đường Organik trên OSM) nên chưa gắn điểm. Chiều dài hầm: không nguồn nào ghi."
+  },
+  {
+   "ten": "Cloud9 & Cloud View Glamping",
+   "loai": "cắm trại, cà phê săn mây",
+   "dac_trung": "Khu lều cắm trại có quán cà phê trên đỉnh đồi gần đồi chè, đón mây sáng sớm; có lửa trại, ăn tối nướng.",
+   "dia_chi": "khu săn mây Trường Thọ, phường Xuân Trường - Đà Lạt",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1391378373",
+    "https://uk.trip.com/hotels/tram-hanh-hotel-detail-119237139/cloud9-and-cloud-view-glamping"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có trên Trip.com/Hotels.com (đang nhận đặt phòng); chưa có bài báo.",
+   "vi_tri": null,
+   "ghi_chu": "OSM: 'Cloud9 Glamping' (way 1391378373), 'Cloud9' cafe (way 1391378372), 'Cloud View Glamping' (way 1391378365), cạnh hai điểm bán vé 'Entrance 100k vnd'. Hotels.com/Expedia cùng một tập đoàn, chỉ tính Trip.com. Không có địa chỉ số nhà."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Ga Cầu Đất (ga cũ, tên Pháp Entrerays)",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Da_Lat%E2%80%93Thap_Cham_railway",
+    "https://www.sggp.org.vn/theo-dau-tich-duong-sat-co-da-lat-phan-rang-post435805.html",
+    "https://www.openstreetmap.org/node/4380328692"
+   ],
+   "ly_do": "Có ở Wikipedia (km 66, khoảng 1.466 m) và SGGP 2017 (cách Đà Lạt 25 km, khoảng 1.600 m) — độ cao lệch nhau; không nguồn nào tả hiện trạng hay vị trí nhà ga, OSM không có điểm ga → chưa đặt lên bản đồ."
+  },
+  {
+   "ten": "The Diff House's (cà phê săn mây, homestay)",
+   "duong": "Đường Đất Làng (không có trên OSM)",
+   "so_nha": "066/3",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/the-diff-houses-da-lat-20950"
+   ],
+   "ly_do": "chỉ mia.vn (29/06/2026), địa chỉ 066/3 Đường Đất Làng, Trường Xuân; giờ 5:00–21:30."
+  },
+  {
+   "ten": "Mộc Trà Farm (cà phê, homestay, vườn hồng)",
+   "duong": "",
+   "so_nha": "073/4 Trường An",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/moc-tra-farm-quan-ca-phe-voi-con-duong-dep-nhu-phim-han-quoc-1542"
+   ],
+   "ly_do": "chỉ mia.vn."
+  },
+  {
+   "ten": "Nơi Này Có Mây / Hiên Nhà Có Mây / San Mây Nhà Gỗ / Ôlong Châu (cà phê)",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1391378363",
+    "https://www.openstreetmap.org/node/12879151469",
+    "https://www.openstreetmap.org/node/12856675001",
+    "https://www.openstreetmap.org/node/13629408301"
+   ],
+   "ly_do": "chỉ có trên OSM (tên viết không dấu), chưa tìm thấy bài nào."
+  },
+  {
+   "ten": "Chợ Trạm Hành",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/mot-ngay-o-tram-hanh-khong-gian-chua-lanh-day-nhe-nhang-9734"
+   ],
+   "ly_do": "chỉ mia.vn nhắc tên, không địa chỉ."
+  },
+  {
+   "ten": "Hồ Suối Cái",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/mot-ngay-o-tram-hanh-khong-gian-chua-lanh-day-nhe-nhang-9734"
+   ],
+   "ly_do": "chỉ mia.vn nhắc tên."
+  },
+  {
+   "ten": "Quán ăn quanh đồi chè: Phở hủ tiếu gà Út, Quán ăn Hải Yến, Quán ăn Gia Huy, Quán cô Thảo",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/san-may-doi-che-cau-dat-19414"
+   ],
+   "ly_do": "chỉ mia.vn nhắc tên, không địa chỉ."
+  },
+  {
+   "ten": "Nhà thờ, chùa trong vùng Cầu Đất – Trạm Hành",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [],
+   "ly_do": "em chưa tìm được bài nào về nhà thờ/chùa cụ thể ở Cầu Đất, Trạm Hành; chùa gần nhất có nguồn là chùa Linh Phước (đã nằm trong phố Trại Mát)."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-xuan-truong",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-tram-hanh",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-xuan-tho",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-quoc-lo-20-phuong-11",
+  "data/lam-dong/nq1671.json (mục 102: Phường 11, xã Xuân Thọ, Xuân Trường, Trạm Hành → Xuân Trường - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json ('Quốc lộ 20' khoảng 20,6 km; đường nhánh quanh đồi chè không có tên)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.53,11.86,108.59,11.92 (4 ô, tải 25/11/2026, tìm điểm có tên quanh Cầu Đất)",
+  "https://vi.wikipedia.org/wiki/Xu%C3%A2n_Tr%C6%B0%E1%BB%9Dng_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t"
+ ],
+ "cap_nhat": "2026-11-25"
+}

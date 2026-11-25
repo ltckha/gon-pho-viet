@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gọn Phố Việt</title>
+<meta name="description" content="Bản đồ phố Việt Nam theo địa giới mới, ghi đúng tên đường thật.">
+<meta name="theme-color" content="#cfe6ee">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--NOI-DUNG-->
+<header class="bar">
+  <div class="brand">Gọn Phố Việt</div>
+  <nav class="crumb" id="crumb" aria-label="Đang xem"><span>Việt Nam</span></nav>
+</header>
+
+<main id="map" class="map" aria-label="Bản đồ Việt Nam">
+  <svg id="svg" role="img" aria-label="Bản đồ 34 tỉnh, thành phố Việt Nam">
+    <g id="world"><g id="land"></g><g id="labels"></g></g>
+  </svg>
+  <div class="legend" aria-hidden="true">
+    <span><i class="sw open"></i>Có bản đồ phố</span>
+    <span><i class="sw soon"></i>Sắp có</span>
+    <span><i class="star">★</i>Thành phố trực thuộc trung ương</span>
+  </div>
+  <div class="zoom">
+    <button id="zin" type="button" aria-label="Phóng to">+</button>
+    <button id="zout" type="button" aria-label="Thu nhỏ">−</button>
+    <button id="zfit" type="button" aria-label="Xem cả nước">⤢</button>
+  </div>
+  <button class="src-btn" id="srcBtn" type="button">Nguồn dữ liệu</button>
+  <p class="loading" id="loading">Đang tải bản đồ…</p>
+</main>
+
+<section class="sheet" id="sheet" hidden aria-live="polite">
+  <button class="close" id="close" type="button" aria-label="Đóng">×</button>
+  <div id="sheetBody"></div>
+</section>
+
+<section class="sheet" id="srcSheet" hidden>
+  <button class="close" id="srcClose" type="button" aria-label="Đóng">×</button>
+  <h2>Nguồn dữ liệu</h2>
+  <ul id="srcList"></ul>
+</section>
+<script src="app.js"></script>
+<!--/NOI-DUNG-->
+</body>
+</html>

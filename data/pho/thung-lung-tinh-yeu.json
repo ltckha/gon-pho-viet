@@ -1,0 +1,364 @@
+{
+ "road": "Phù Đổng Thiên Vương",
+ "duong": [
+  "Phù Đổng Thiên Vương",
+  "Mai Anh Đào"
+ ],
+ "ten_osm": [
+  "Phù Đổng Thiên Vương",
+  "Mai Anh Đào"
+ ],
+ "ward": "Lâm Viên - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat: 'Phù Đổng Thiên Vương - PHƯỜNG 8' gồm 2 đoạn 'Từ Ngã năm Đại học - Đến đầu đường Nguyễn Hữu Cảnh (cũ là cổng xí nghiệp may xuất khẩu nhà số 237)' và 'Đoạn còn lại'; 'Mai Anh Đào - PHƯỜNG 8': 'Trọn đường'. Theo NQ 1671 mục 101: Phường 8, 9, 12 → Lâm Viên - Đà Lạt. Kiểm chéo bằng ranh giới phuong.json: mọi điểm của 'Phù Đổng Thiên Vương' (4 đoạn, khoảng 2,5 km) và đoạn chính 'Mai Anh Đào' (way 308445212, khoảng 1,35 km), cùng khu Thung Lũng Tình Yêu và hồ Đa Thiện trên OSM, đều nằm trong Lâm Viên - Đà Lạt. Lưu ý: duong.json có thêm 1 đoạn ngắn tên 'Mai Anh Đào' (way 542466482, khoảng 130 m) ở tận phía nam (11.894, 108.439), thuộc Xuân Hương - Đà Lạt — không phải đường này, đừng nối vào.",
+ "doan": [
+  {
+   "doan": "Phù Đổng Thiên Vương: Ngã năm Đại học – đầu đường Nguyễn Hữu Cảnh (nhà số 237 cũ)",
+   "phuong_cu": "Phường 8",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/phu-dong-thien-vuong-phuong-8"
+  },
+  {
+   "doan": "Phù Đổng Thiên Vương: đoạn còn lại (tới đầu đường Mai Anh Đào)",
+   "phuong_cu": "Phường 8",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/phu-dong-thien-vuong-phuong-8"
+  },
+  {
+   "doan": "Mai Anh Đào: trọn đường",
+   "phuong_cu": "Phường 8",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mai-anh-dao-phuong-8"
+  }
+ ],
+ "ten_pho": "Phố Thung Lũng Tình Yêu",
+ "gioi_thieu": "Phố Thung Lũng Tình Yêu: từ Ngã năm Đại học, đường Phù Đổng Thiên Vương đi ngang Trường Đại học Đà Lạt (tiền thân Viện Đại học Đà Lạt, khóa đầu năm 1958) và các quán gà nướng cơm lam, lẩu gà lá é, rồi nối sang đường Mai Anh Đào tới Thung lũng Tình Yêu rộng gần 140 ha, có hồ Đa Thiện đắp đập năm 1972, kề bên là Đồi Mộng Mơ và làng tranh thêu XQ.",
+ "gioi_thieu_nguon": [
+  "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
+  "https://tuoitre.vn/truong-dai-hoc-da-lat-hanh-trinh-65-nam-thu-nhan-khai-phong-ban-sac-2023111610494645.htm",
+  "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+  "https://vietnam.vnanet.vn/english/the-valley-of-love/220372.html",
+  "https://vietnamnet.vn/en/the-valley-of-love-vietnams-most-romantic-sight-E166025.html",
+  "https://baonghean.vn/en/thung-lung-tinh-yeu-noi-tieng-nhat-viet-nam-10118140.html",
+  "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/phu-dong-thien-vuong-phuong-8"
+ ],
+ "dia_diem": [
+  {
+   "ten": "Khu du lịch Thung Lũng Tình Yêu (TTC World – Thung Lũng Tình Yêu)",
+   "loai": "điểm tham quan, khu du lịch",
+   "dac_trung": "Thung lũng rộng gần 140 ha giữa rừng thông, người Pháp gọi Vallée d'Amour từ những năm 1930, đổi tên tiếng Việt năm 1953; đáy thung lũng là hồ Đa Thiện. Có xe lửa gỗ, đạp vịt trên hồ, cầu khóa tình yêu, đồi Vọng Cảnh; khu du lịch quốc gia từ năm 1998. Nay do TTC vận hành, gộp cả Đồi Mộng Mơ.",
+   "dia_chi": "3-5-7 Mai Anh Đào, phường Lâm Viên - Đà Lạt",
+   "duong": "Mai Anh Đào",
+   "so_nha": "3-5-7",
+   "nguon": [
+    "https://vietnam.vnanet.vn/english/the-valley-of-love/220372.html",
+    "https://vietnamnet.vn/en/the-valley-of-love-vietnams-most-romantic-sight-E166025.html",
+    "https://baonghean.vn/en/thung-lung-tinh-yeu-noi-tieng-nhat-viet-nam-10118140.html",
+    "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu",
+    "https://mia.vn/cam-nang-du-lich/thung-lung-tinh-yeu-co-gi-18817",
+    "https://www.ttcgroup.vn/en-US/business-sectors/hospitality/other-news-3/ttc-world-valley-of-love-launches-dalazoo-expanding-its-ecosystem-of-experiences",
+    "https://index.vn/en/news/love-valley-concert-2026-attendees-eligible-for-free-admission-to-thung-lung-tinh-yeu-on-may-1-2026",
+    "https://www.foody.vn/lam-dong/khu-du-lich-thung-lung-tinh-yeu",
+    "https://www.openstreetmap.org/way/473771564"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; TTC (12/08/2026) báo đầu tháng 8/2026 mở thêm vườn thú DalaZoo; index.vn (27/04/2026) đưa tin khuyến mãi 1/5/2026 (vé 250.000 đồng). OSM ghi giờ mở 07:30-17:15; Vietnam Airlines ghi vé năm 2025 từ 100.000 đến 510.000 đồng tùy gói.",
+   "vi_tri": null,
+   "ghi_chu": "Số nhà: '3-5-7' (TTC, Wikipedia, mia.vn, Vietnam Airlines, index.vn); Foody ghi 7; Mytour ghi 05-07; một bài mia cũ ghi '357' (gộp nhầm). Diện tích: 'gần 140 ha' (VNA/Vietnam Pictorial, VietNamNet, Báo Nghệ An); Wikipedia ghi khu gộp với Đồi Mộng Mơ là 137 ha."
+  },
+  {
+   "ten": "Hồ Đa Thiện",
+   "loai": "hồ, điểm tham quan",
+   "dac_trung": "Hồ nằm dưới đáy Thung lũng Tình Yêu, thành hình khi đắp đập ngang thung lũng năm 1972; Wikipedia ghi còn gọi là đập 3 / hồ Đa Thiện 3. Có đạp vịt, thuyền, vòi nước 'treo lơ lửng'.",
+   "dia_chi": "trong Khu du lịch Thung Lũng Tình Yêu, đường Mai Anh Đào, phường Lâm Viên - Đà Lạt",
+   "duong": "Mai Anh Đào",
+   "so_nha": "",
+   "nguon": [
+    "https://vietnam.vnanet.vn/english/the-valley-of-love/220372.html",
+    "https://baonghean.vn/en/thung-lung-tinh-yeu-noi-tieng-nhat-viet-nam-10118140.html",
+    "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu",
+    "https://www.openstreetmap.org/way/141724748"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "vào bằng vé Thung lũng Tình Yêu (đang mở, xem dòng trên).",
+   "vi_tri": null,
+   "ghi_chu": "OSM có mặt hồ 'Hồ Đa Thiện' (way/141724748) nằm trong khu Thung Lũng Tình Yêu, cách đường Mai Anh Đào vài trăm mét về phía bắc."
+  },
+  {
+   "ten": "Đồi Mộng Mơ (nay là Khu nghỉ dưỡng TTC Đồi Mộng Mơ – TTC Dreamy Hill Resort)",
+   "loai": "điểm tham quan, khu nghỉ dưỡng",
+   "dac_trung": "Đồi sát Thung lũng Tình Yêu, trước gọi là Khu du lịch Hồ Rồng; có tiểu Vạn Lý Trường Thành dài hơn 2 km, ngôi nhà rường hơn 300 năm dựng lại từ Bình Định, vườn hoa, nhà nghỉ mang tên các loài hoa. Nay gộp vào khu TTC World – Thung Lũng Tình Yêu.",
+   "dia_chi": "5 Mai Anh Đào, phường Lâm Viên - Đà Lạt",
+   "duong": "Mai Anh Đào",
+   "so_nha": "5",
+   "nguon": [
+    "https://vnexpress.net/nhung-dieu-chua-biet-ve-doi-mong-mo-3178612.html",
+    "https://mia.vn/cam-nang-du-lich/doi-mong-mo-da-lat-ve-dep-tru-tinh-xu-so-ngan-hoa-1432",
+    "https://mytour.vn/vi/blog/bai-viet/doi-mong-mo-da-lat-ve-dep-tho-mong-cua-xu-so-ngan-hoa.html",
+    "https://vinwonders.com/vi/wonderpedia/news/doi-mong-mo-da-lat/",
+    "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu",
+    "https://uk.trip.com/hotels/dalat-hotel-detail-2550571/mong-mo-resort",
+    "https://www.vietnambooking.com/hotel/vietnam/ttc-resort-doi-mong-mo.html",
+    "https://www.foody.vn/lam-dong/khu-du-lich-doi-mong-mo",
+    "https://www.openstreetmap.org/way/473551454"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "khu nghỉ dưỡng còn nhận đặt phòng trên trip.com và vietnambooking (xem 25/11/2026); vé tham quan đi chung với Thung lũng Tình Yêu (Wikipedia: hai khu đã gộp). Chưa có bài báo 2026 riêng về Đồi Mộng Mơ.",
+   "vi_tri": null,
+   "ghi_chu": "Số nhà lệch: Foody và vietnambooking ghi 5 (05); mia.vn ghi 05-07; trip.com ghi 3-5-7 (trùng địa chỉ TTC). Mốc 1978 / 1992 / 2003 chỉ có ở VinWonders (để trong file chuyện, mot_nguon). 'Hồ Rồng': VinWonders và Mytour."
+  },
+  {
+   "ten": "XQ Đà Lạt Sử Quán (làng tranh thêu XQ)",
+   "loai": "điểm tham quan, bảo tàng tranh thêu",
+   "dac_trung": "Làng tranh thêu tay của XQ (tên ghép từ hai nghệ nhân Hoàng Lệ Xuân và Võ Văn Quân), nhà gỗ mái ngói kiểu cổ, khuôn viên khoảng 12.000 m² cạnh Thung lũng Tình Yêu, có khu trưng bày tranh thêu và lịch sử nghề thêu.",
+   "dia_chi": "80A Mai Anh Đào, phường Lâm Viên - Đà Lạt",
+   "duong": "Mai Anh Đào",
+   "so_nha": "80A",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/xq-su-quan-chiem-nguong-nghe-thuat-theu-tranh-truyen-thong-dinh-cao-1543",
+    "https://wanderlog.com/place/details/1641619",
+    "https://www.vietnambooking.com/du-lich/blog-du-lich/co-mot-nhat-ban-dep-me-man-giua-long-da-lat.html",
+    "https://www.aaa.com/tripcanvas/attraction/xq-historical-village-VA21332",
+    "https://www.openstreetmap.org/node/4135863789"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu mở: mia.vn sửa bài 23/07/2026 ghi phường mới; Wanderlog ghi 8:00-17:30 hằng ngày (OSM cũng ghi Mo-Su 08:00-17:30). Vé 20.000-200.000 đồng tùy khu (mia).",
+   "vi_tri": null,
+   "ghi_chu": "Số nhà lệch: mia.vn, Wanderlog (và Mytour, chép bài mia) ghi 80A; OSM và AAA TripCanvas ghi 258 Mai Anh Đào. Em dùng 80A; muốn gắn vị trí theo OSM thì phải soát tay (OSM node/4135863789 ghi 258)."
+  },
+  {
+   "ten": "Khách sạn Ladalat (LADALAT Hotel)",
+   "loai": "khách sạn",
+   "dac_trung": "Khách sạn lớn kiểu tân cổ điển nằm đối diện Thung lũng Tình Yêu; vietnambooking ghi 200 phòng, có hồ bơi, quầy bar La Rose và cà phê sân thượng Lavande Sky Lounge.",
+   "dia_chi": "106A Mai Anh Đào, phường Lâm Viên - Đà Lạt",
+   "duong": "Mai Anh Đào",
+   "so_nha": "106A",
+   "nguon": [
+    "https://ladalathotel.com.vn/",
+    "https://mia.vn/cam-nang-du-lich/ladalat-hotel-dam-chim-trong-cung-dien-long-lay-sang-trong-5887",
+    "https://www.vietnambooking.com/hotel/vietnam/khach-san-ladalat.html",
+    "https://www.openstreetmap.org/node/5447660821"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; trang chính thức ghi phường mới (Lâm Viên - Đà Lạt), vietnambooking còn bán phòng (xem 25/11/2026).",
+   "vi_tri": null,
+   "ghi_chu": "vietnambooking ghi '106' (không có A). Số 200 phòng chỉ có ở vietnambooking."
+  },
+  {
+   "ten": "Trường Đại học Đà Lạt",
+   "loai": "trường đại học, kiến trúc",
+   "dac_trung": "Trường đại học lâu đời nhất Tây Nguyên; tiền thân là Viện Đại học Đà Lạt (lập 1957, khóa đầu 1958), khuôn viên trên đồi thông. Trường hiện nay lập ngày 27/10/1976 (Quyết định 426). Đầu đường là Ngã năm Đại học.",
+   "dia_chi": "1 Phù Đổng Thiên Vương, phường Lâm Viên - Đà Lạt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "1",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
+    "https://tuoitre.vn/truong-dai-hoc-da-lat-hanh-trinh-65-nam-thu-nhan-khai-phong-ban-sac-2023111610494645.htm",
+    "https://www.openstreetmap.org/way/969458761"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đang là trường học. Vào tham quan khuôn viên: chưa có nguồn ghi giờ cho khách.",
+   "vi_tri": null,
+   "ghi_chu": "Năm thành lập lệch: Wikipedia ghi Viện Đại học lập 1957, hoạt động từ 1958; SGGP ghi 'thành lập năm 1958'; Tuổi Trẻ (16/11/2023) nói '65 năm kể từ đợt tuyển sinh đầu tiên'. Khuôn viên 38 ha chỉ có ở Wikipedia, chưa đưa vào câu giới thiệu."
+  },
+  {
+   "ten": "Bún Bò Huế Công",
+   "loai": "quán bún bò Huế",
+   "dac_trung": "Quán bún bò Huế lâu năm gần Ngã năm Đại học, nước dùng hầm xương và thịt bò tươi (Mytour).",
+   "dia_chi": "14 Phù Đổng Thiên Vương, phường Lâm Viên - Đà Lạt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "14",
+   "nguon": [
+    "https://mytour.vn/en/blog/xep-hang/top-10-must-visit-long-established-restaurants-in-da-lat-mytour.html",
+    "https://www.openstreetmap.org/node/11921362053",
+    "https://www.foody.vn/lam-dong/bun-bo-hue-cong",
+    "https://vinwonders.com/vi/wonderpedia/news/mon-ngon-da-lat/",
+    "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: Mytour (11/01/2025) ghi mở 5:30-21:00; VinWonders (03/07/2025, 13/07/2025) còn giới thiệu. Chưa có nguồn 2026.",
+   "vi_tri": null,
+   "ghi_chu": "Số nhà lệch: Mytour và OSM ghi 14; Foody và VinWonders (món ngon) ghi 1/1B; VinWonders (ăn trưa) ghi 1A. Em để 14 (2 nguồn khớp, có điểm OSM)."
+  },
+  {
+   "ten": "Gà nướng cơm lam Chiêng (Quán ăn Chiêng)",
+   "loai": "quán gà nướng cơm lam",
+   "dac_trung": "Quán gà nướng cơm lam rộng rãi, thoáng; giá khoảng 70.000-150.000 đồng (VinWonders).",
+   "dia_chi": "232 Phù Đổng Thiên Vương, phường Lâm Viên - Đà Lạt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "232",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/ga-nuong-com-lam-da-lat-20029",
+    "https://mia.vn/cam-nang-du-lich/ga-nuong-com-lam-mon-an-dan-da-khong-the-bo-qua-khi-du-lich-da-lat-1277",
+    "https://vinwonders.com/vi/wonderpedia/news/ga-nuong-com-lam-da-lat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: mia.vn (23/02/2026) ghi mở 10:00-22:30; VinWonders (08/07/2025) cùng giờ.",
+   "vi_tri": null,
+   "ghi_chu": "Hai bài mia.vn tính 1 nguồn. Không có điểm trên OSM."
+  },
+  {
+   "ten": "Cơm lam gà nướng Tửu Lầu",
+   "loai": "quán gà nướng cơm lam",
+   "dac_trung": "Quán gà nướng cơm lam trang trí kiểu Trung Hoa, ăn kèm rau răm, dưa leo (mia.vn); giá 89.000-250.000 đồng (VinWonders). Có thêm chi nhánh ở Lữ Gia và Nguyễn Đình Chiểu.",
+   "dia_chi": "Phù Đổng Thiên Vương (số 108 hoặc 125 — các trang ghi lệch), phường Lâm Viên - Đà Lạt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/ga-nuong-com-lam-da-lat-20029",
+    "https://mia.vn/cam-nang-du-lich/ga-nuong-com-lam-mon-an-dan-da-khong-the-bo-qua-khi-du-lich-da-lat-1277",
+    "https://vinwonders.com/vi/wonderpedia/news/ga-nuong-com-lam-da-lat/",
+    "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: mia.vn (23/02/2026) ghi mở 09:00-21:00; VinWonders (07/2025) ghi 9:00-22:00.",
+   "vi_tri": null,
+   "ghi_chu": "Số nhà lệch: mia.vn ghi 108, VinWonders ghi 125 → để trống so_nha, không đoán."
+  },
+  {
+   "ten": "Lẩu Gà Lá É Phú Yên",
+   "loai": "quán lẩu gà lá é",
+   "dac_trung": "Quán lẩu gà lá é kiểu Phú Yên, đầu bếp người Phú Yên; nồi lẩu khoảng 200.000-300.000 đồng (VinWonders). Bình luận Foody tả quán đối diện cây xăng trên đường Phù Đổng Thiên Vương.",
+   "dia_chi": "178 Phù Đổng Thiên Vương, phường Lâm Viên - Đà Lạt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "178",
+   "nguon": [
+    "https://foody.vn/lam-dong/lau-ga-la-e-phu-yen",
+    "https://vinwonders.com/vi/bai-viet-du-lich/quan-lau-ga-la-e-da-lat-ngon-nhat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: VinWonders (30/07/2025) ghi mở 9:00-22:00; bình luận Foody cũ (2018-2019). Chưa có nguồn 2026.",
+   "vi_tri": null,
+   "ghi_chu": "Không có điểm OSM đúng tên. OSM có 'Quán lẩu gà lá é Tao ngộ' ghi 99 Phù Đổng Thiên Vương — quán khác, để ở mục cần kiểm thêm."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Quán cơm lam gà nướng Thống Nhất",
+   "loai": "quán gà nướng cơm lam",
+   "duong": "Mai Anh Đào",
+   "so_nha": "10",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/ga-nuong-com-lam-mon-an-dan-da-khong-the-bo-qua-khi-du-lich-da-lat-1277",
+    "https://vinpearl.com/vi/top-quan-ga-nuong-com-lam-da-lat-ngon-dam-vi"
+   ],
+   "ly_do": "mia.vn ghi 10 Mai Anh Đào, mở 07:00-21:00; bài Vinpearl em không mở được (403), chỉ thấy qua kết quả tìm kiếm → chưa đủ 2 nguồn đã đọc."
+  },
+  {
+   "ten": "German House / German Beer House Dalat",
+   "loai": "nhà hàng Đức",
+   "duong": "Mai Anh Đào",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/9643408087",
+    "https://wanderlog.com/place/details/1476035"
+   ],
+   "ly_do": "tên và số nhà lệch: OSM 'German House' 223/4 Mai Anh Đào; Wanderlog 'German Beer House Dalat' 72 Mai Anh Đào, 'đối diện Thung lũng Tình Yêu'. Chưa chắc là một quán."
+  },
+  {
+   "ten": "La Mappa (cà phê sân vườn, có phòng ở)",
+   "loai": "quán cà phê",
+   "duong": "Mai Anh Đào",
+   "so_nha": "",
+   "nguon": [
+    "https://znews.vn/quan-ca-phe-an-giau-trong-khu-vuon-nho-an-yen-o-da-lat-post952131.html"
+   ],
+   "ly_do": "1 nguồn (Znews 10/6/2019), không số nhà, chưa rõ còn mở."
+  },
+  {
+   "ten": "Onion Coffee and Pastry Da Lat",
+   "loai": "cà phê, tiệm bánh",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "278",
+   "nguon": [
+    "https://www.openstreetmap.org/node/12534048559"
+   ],
+   "ly_do": "chỉ OSM (ghi mở 07:00-22:00)."
+  },
+  {
+   "ten": "Lài (cà phê nhỏ)",
+   "loai": "quán cà phê",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "hẻm 12",
+   "nguon": [
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cafe-da-lat"
+   ],
+   "ly_do": "1 nguồn (Vietnam Airlines: hẻm 12, 08:00-20:00, 29.000-35.000 đồng)."
+  },
+  {
+   "ten": "Quán Tơ (mì Quảng)",
+   "loai": "quán mì Quảng",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "165",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/mon-ngon-da-lat/"
+   ],
+   "ly_do": "1 nguồn (VinWonders)."
+  },
+  {
+   "ten": "Tao Ngộ 8 – Lẩu gà lá é",
+   "loai": "quán lẩu gà lá é",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "33",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/quan-lau-ga-la-e-tao-ngo-da-lat-16331",
+    "https://www.openstreetmap.org/node/11921431577"
+   ],
+   "ly_do": "mia.vn ghi 33 Phù Đổng Thiên Vương; OSM có 'Quán lẩu gà lá é Tao ngộ' ghi 99 → số nhà lệch, chưa chắc cùng quán."
+  },
+  {
+   "ten": "Xiên nướng than",
+   "loai": "quán xiên nướng",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "15",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/mon-ngon-da-lat/"
+   ],
+   "ly_do": "1 nguồn (VinWonders)."
+  },
+  {
+   "ten": "Bánh Tráng Trộn, Gỏi Xoài & Xắp Xắp",
+   "loai": "ăn vặt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "54",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/mon-ngon-da-lat/"
+   ],
+   "ly_do": "1 nguồn (VinWonders)."
+  },
+  {
+   "ten": "An Lac Tam 3",
+   "loai": "quán cơm Việt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "68",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13953856801"
+   ],
+   "ly_do": "chỉ OSM."
+  },
+  {
+   "ten": "Memories +84 Gallery",
+   "loai": "phòng tranh",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "17",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13953793101"
+   ],
+   "ly_do": "chỉ OSM (ghi mở 07:30-22:00)."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/phu-dong-thien-vuong-phuong-8",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mai-anh-dao-phuong-8",
+  "data/lam-dong/nq1671.json (mục 101)",
+  "data/lam-dong/da-lat/duong.json ('Phù Đổng Thiên Vương' 4 đoạn khoảng 2,5 km; 'Mai Anh Đào' đoạn chính khoảng 1,35 km)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.437,11.952,108.457,11.986 (tải 25/11/2026, 2 ô)"
+ ],
+ "cap_nhat": "2026-11-25"
+}

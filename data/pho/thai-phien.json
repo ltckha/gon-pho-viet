@@ -1,0 +1,200 @@
+{
+ "road": "Thái Phiên",
+ "duong": [
+  "Thái Phiên"
+ ],
+ "ten_osm": [
+  "Thái Phiên"
+ ],
+ "ward": "Lâm Viên - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat ghi cả đường Thái Phiên thuộc PHƯỜNG 12, 2 đoạn: 'Từ đầu đường - Đến Nguyễn Hữu Cầu' và 'Từ Nguyễn Hữu Cầu - Đến Đập nước'. Theo NQ 1671 mục 101: Phường 8, 9, 12 → Lâm Viên - Đà Lạt. Kiểm chéo bằng ranh giới phuong.json: mọi điểm của 3 đoạn OSM 'Thái Phiên' đều nằm trong Lâm Viên - Đà Lạt. Báo Lâm Đồng 12/10/2026 cũng viết 'Thái Phiên, phường Lâm Viên - Đà Lạt'.",
+ "doan": [
+  {
+   "doan": "Đầu đường (ngã ba Ngô Gia Tự) – Nguyễn Hữu Cầu",
+   "phuong_cu": "Phường 12",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thai-phien-phuong-12"
+  },
+  {
+   "doan": "Nguyễn Hữu Cầu – đập nước (hồ Thái Phiên)",
+   "phuong_cu": "Phường 12",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thai-phien-phuong-12"
+  },
+  {
+   "doan": "Qua đập tới đầu phía bắc (đoạn OSM 1553770002, khoảng 570 m)",
+   "phuong_cu": "chưa rõ (bảng giá chỉ ghi tới đập)",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "khá chắc",
+   "nguon": "data/lam-dong/phuong.json (ranh giới)",
+   "ghi_chu": "Bảng giá đất không có đoạn này; ranh giới phuong.json cho thấy nằm trong Lâm Viên."
+  }
+ ],
+ "ten_pho": "Làng Hoa Thái Phiên",
+ "gioi_thieu": "Làng Hoa Thái Phiên: ấp do khoảng 40 hộ người Việt từ Lào hồi hương lập năm 1956 trên vùng đồi từng là nơi vua Bảo Đại săn bắn, nay là làng nghề trồng hoa truyền thống (tỉnh công nhận cuối năm 2009) với khoảng 150 ha hoa, phần lớn trong nhà kính, chủ lực là hoa cúc; đêm xuống đèn nhà kính sáng cả triền đồi.",
+ "dia_diem": [
+  {
+   "ten": "Đình Thái Phiên (đình ấp Thái Phiên)",
+   "loai": "đình làng, di tích lịch sử văn hóa cấp tỉnh",
+   "dac_trung": "Đình của ấp lập năm 1956; được công nhận di tích lịch sử văn hóa cấp tỉnh (Sức khỏe & Đời sống 2013). Năm 2013 TP Đà Lạt hỗ trợ 100 triệu đồng, phường 12 vận động dân góp thêm 100 triệu để tu sửa khuôn viên đình làm nơi đón khách thăm làng hoa. Hiệp hội Hoa Đà Lạt viết từ khu vực đình có thể nhìn bao quát toàn vùng trồng hoa. Cổng thông tin tỉnh (trang Đường phố Đà Lạt) ghi đình khánh thành năm 1958, xây lại năm 1964 và nằm dọc đường Thái Phiên — em chỉ đọc được qua đoạn trích của công cụ tìm kiếm, trang gốc trả lỗi 503.",
+   "dia_chi": "đường Thái Phiên, phường Lâm Viên - Đà Lạt (chưa rõ số nhà)",
+   "duong": "Thái Phiên",
+   "so_nha": null,
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/thai-phien.aspx"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "còn (di tích cấp tỉnh). Nguồn mới nhất nói về đình là bài 2013; chưa có nguồn ghi giờ mở cửa cho khách.",
+   "ghi_chu": "Chưa có số nhà và chưa thấy trên OSM nên chưa có vị trí. Năm 1958/1964 chỉ có ở cổng thông tin tỉnh.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Chợ Thái Phiên",
+   "loai": "chợ dân sinh",
+   "dac_trung": "Chợ của khu làng hoa, gần đầu đường Thái Phiên phía ngã ba Ngô Gia Tự (OSM vẽ cách mép đường khoảng 20 m). Là mốc đầu tiên trên lối đi theo đường Thái Phiên lên Hòn Bồ (mia.vn). Quanh chợ có vườn ươm giống cúc của nông dân (Farmvina).",
+   "dia_chi": "đường Thái Phiên, phường Lâm Viên - Đà Lạt (chưa rõ số nhà)",
+   "duong": "Thái Phiên",
+   "so_nha": null,
+   "nguon": [
+    "https://www.openstreetmap.org/way/1362459080",
+    "https://mia.vn/cam-nang-du-lich/trekking-dinh-hon-bo-da-lat-san-bien-may-benh-bong-1478",
+    "https://caykieng.farmvina.com/cay-mo-hoa-cuc/",
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/thai-phien.aspx"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "còn: OSM vẽ tháng 02/2025; mia.vn 24/06/2026 vẫn nhắc chợ trên đường đi. Chưa có nguồn ghi giờ họp chợ.",
+   "vi_tri": {
+    "lon": 108.476979,
+    "lat": 11.968685,
+    "cach": "tên trên OpenStreetMap: Chợ Thái Phiên",
+    "osm": "way/1362459080"
+   }
+  },
+  {
+   "ten": "Trường Tiểu học Thái Phiên",
+   "loai": "trường học (mốc đường)",
+   "dac_trung": "Mốc chỉ đường quen thuộc: muốn lên đỉnh Hòn Bồ thì đi theo đường Thái Phiên tới trường rồi rẽ vào hông trường (VinWonders, mia.vn).",
+   "dia_chi": "đường Thái Phiên, phường Lâm Viên - Đà Lạt (chưa rõ số nhà)",
+   "duong": "Thái Phiên",
+   "so_nha": null,
+   "nguon": [
+    "https://www.openstreetmap.org/way/1362459079",
+    "https://vinwonders.com/vi/wonderpedia/news/hon-bo-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/trekking-dinh-hon-bo-da-lat-san-bien-may-benh-bong-1478"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "còn là trường học (OSM 02/2025, mia.vn 06/2026). Không phải điểm tham quan.",
+   "vi_tri": {
+    "lon": 108.479849,
+    "lat": 11.968346,
+    "cach": "tên trên OpenStreetMap: Trường Tiểu học Thái Phiên",
+    "osm": "way/1362459079"
+   }
+  },
+  {
+   "ten": "Hồ Thái Phiên (đập Thái Phiên)",
+   "loai": "hồ chứa nước tưới",
+   "dac_trung": "Hồ ở cuối đoạn chính của đường: bảng giá đất ghi đoạn 'Từ Nguyễn Hữu Cầu - Đến Đập nước', cổng tỉnh ghi đường đi 'từ đường Ngô Gia Tự đến đập Thái Phiên'. Báo Lâm Đồng (01/2011) viết nước tưới là nỗi lo lớn nhất của làng hoa mùa khô; từng có dự án nâng đập cao thêm 6 m để đủ nước tưới 436 ha rau hoa (chưa rõ đã làm chưa).",
+   "dia_chi": "cuối đường Thái Phiên, phường Lâm Viên - Đà Lạt",
+   "duong": "Thái Phiên",
+   "so_nha": null,
+   "nguon": [
+    "https://www.openstreetmap.org/way/294905687",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thai-phien-phuong-12",
+    "https://baophapluat.vn/thai-phien-lang-hoa-thai-binh-post85877.html",
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/thai-phien.aspx"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "hồ chứa đang dùng (OSM sửa 01/2024). Là công trình thủy lợi, chưa có nguồn nói có lối tham quan.",
+   "vi_tri": null,
+   "ghi_chu": "Bài Báo Lâm Đồng 'Thái Phiên – làng hoa thái bình' (LĐ online 31/01/2011) em đọc qua bản đăng lại trên Báo Pháp luật Việt Nam."
+  },
+  {
+   "ten": "Đỉnh Hòn Bồ (Hòn Người Thương)",
+   "loai": "núi, điểm săn mây, cắm trại",
+   "dac_trung": "Núi cao 1.709 m (mia.vn), cách trung tâm khoảng 9 km (VinWonders); săn mây sáng sớm, cắm trại, đêm nhìn xuống nhà kính làng hoa sáng đèn. Lối lên: từ ngã ba làng hoa đi đường Thái Phiên qua chợ, trường tiểu học, rẽ hông trường tới cổng 'Tổ dân phố Hòn Bồ'. Người lập ấp chọn đất 'sát khe suối cạnh núi Hòn Bồ' (Thanh Niên 2010).",
+   "dia_chi": "lối lên rẽ từ đường Thái Phiên (hông Trường Tiểu học Thái Phiên), phường Lâm Viên - Đà Lạt",
+   "duong": "Thái Phiên",
+   "so_nha": null,
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/hon-bo-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/trekking-dinh-hon-bo-da-lat-san-bien-may-benh-bong-1478",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở tự do, miễn phí (mia.vn 24/06/2026). mia.vn nhắc trên đỉnh có hầm thiếc bỏ hoang, cỏ che, cần cẩn thận; tránh cắm trại tháng 10–12 vì gió mạnh.",
+   "ghi_chu": "Đỉnh không nằm trên đường Thái Phiên; OSM chưa có đỉnh Hòn Bồ và lối lên mang tên, nên ghi duong = Thái Phiên (chỗ rẽ) và chưa có vị trí. Mytour chép gần nguyên bài mia nên không tính riêng.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Chùa Thiền Lâm",
+   "duong": "Thái Phiên",
+   "so_nha": null,
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/trekking-dinh-hon-bo-da-lat-san-bien-may-benh-bong-1478",
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/thai-phien.aspx"
+   ],
+   "ly_do": "mia.vn viết đường Thái Phiên đi qua 'chợ Thái Phiên, chùa Thiền Lâm và trường tiểu học Thái Phiên'; cổng tỉnh cũng liệt kê chùa Thiền Lâm dọc đường nhưng em chỉ đọc được qua đoạn trích tìm kiếm (trang gốc lỗi 503). OSM có một chùa Phật giáo CHƯA ghi tên ở giữa chợ và trường (way/1450009877, cách đường khoảng 60 m) — khớp thứ tự nhưng không có tên nên không gắn. Cần mở được trang tỉnh hoặc nguồn thứ hai."
+  },
+  {
+   "ten": "Farm House Villa",
+   "duong": "Thái Phiên",
+   "so_nha": "36 Hòn Bồ",
+   "nguon": [
+    "https://hoadalattravel.vn/dia-diem-du-lich/phuong-12-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn (hoadalattravel, bảng lưu trú: '36 Hòn Bồ, Đường Thái Phiên, Phường 12')."
+  },
+  {
+   "ten": "Lãng Villa",
+   "duong": "Thái Phiên",
+   "so_nha": "Hẻm 1",
+   "nguon": [
+    "https://hoadalattravel.vn/dia-diem-du-lich/phuong-12-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn (hoadalattravel: 'Hẻm 1 Thái Phiên, Phường 12'); tìm thêm không ra."
+  },
+  {
+   "ten": "Hoa Anh Hùng Coffee",
+   "duong": "chưa rõ",
+   "so_nha": null,
+   "nguon": [
+    "https://hoadalattravel.vn/dia-diem-du-lich/phuong-12-da-lat/"
+   ],
+   "ly_do": "chỉ 1 nguồn, địa chỉ chỉ ghi 'Tổ Hòn Bồ, Phường 12'."
+  },
+  {
+   "ten": "Quán nướng Tây Bắc",
+   "duong": "Ngô Gia Tự",
+   "so_nha": "76",
+   "nguon": [
+    "https://halotravel.vn/lang-hoa-thai-phien/"
+   ],
+   "ly_do": "chỉ 1 nguồn (halotravel, bảng quán ăn gần làng hoa: '76 Ngô Gia Tự, Phường 12'); không rõ còn mở."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thai-phien-phuong-12",
+  "data/lam-dong/nq1671.json (mục 101)",
+  "data/lam-dong/da-lat/duong.json (3 đoạn 'Thái Phiên', tổng khoảng 3,5 km theo OSM, từ ngã ba Ngô Gia Tự qua đập tới đầu phía bắc)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.474,11.964,108.492,11.992 (tải 25/11/2026 theo 3 ô; chỉ có chợ, trường, hồ, 1 chùa chưa tên, cây xăng)",
+  "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/thai-phien.aspx",
+  "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+  "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
+  "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+  "https://baolamdong.vn/lang-hoa-thai-phien-truoc-them-festival-468966.html",
+  "https://baolamdong.vn/lam-vien-da-lat-noi-hoi-tu-cac-lang-hoa-noi-tieng-384040.html",
+  "https://baophapluat.vn/thai-phien-lang-hoa-thai-binh-post85877.html",
+  "https://vnexpress.net/ba-lang-hoa-noi-tieng-da-lat-2919943.html"
+ ],
+ "ghi_chu": "1) Dọc đường Thái Phiên em không tìm được quán ăn, cà phê, homestay nào có ≥ 2 nguồn: các bài du lịch về 'làng hoa Thái Phiên' gần như chỉ nói chung về vườn hoa. 2) Các quán 'view làng hoa Thái Phiên' mà blog hay nhắc (Panorama Café ở Vòng xoay 723 Trại Mát; Túi Mơ To ở Hẻm 31 Sào Nam) nằm phía Trại Mát, phường Xuân Trường - Đà Lạt, cách đầu đường Thái Phiên khoảng 3 km — không đưa vào phố này. 3) Chiều dài lệch: cổng tỉnh ghi 1.830 m (Ngô Gia Tự → đập), tinbds ghi khoảng 3,5 km (tới Huỳnh Tấn Phát); OSM: 2,9 km tới đập + 0,57 km qua đập — khớp số 3,5 km nếu tính cả đoạn qua đập; số 1.830 m có thể là số cũ. 4) Khoảng cách tới trung tâm: 7 km (VnExpress, Hiệp hội Hoa, Thanh Niên) hay 12 km (halotravel, mia chép halo) — em dùng 7 km.",
+ "cap_nhat": "2026-11-25"
+}

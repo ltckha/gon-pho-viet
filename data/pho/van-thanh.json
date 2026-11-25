@@ -1,0 +1,267 @@
+{
+ "road": "Vạn Thành",
+ "duong": [
+  "Vạn Thành",
+  "Hoàng Văn Thụ",
+  "Long Mỹ Quận công",
+  "Phi trường Cam Ly"
+ ],
+ "ten_osm": [
+  "Vạn Thành",
+  "Hoàng Văn Thụ",
+  "Long Mỹ Quận công",
+  "Phi trường Cam Ly"
+ ],
+ "ward": "Cam Ly - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020/QĐ-UBND (sửa bởi QĐ 16/2021) trên thuviennhadat KHÔNG có dòng nào tên 'Vạn Thành'. Đường Vạn Thành trên OSM (way 172307603, khoảng 1,76 km) chạy từ cuối đường Hoàng Văn Thụ tới ngã ba Đường tỉnh 725 / Cam Ly - Phước Thành (ngã ba Tà Nung). Bảng giá đất ghi đoạn này dưới tên khác: 'Hoàng Văn Thụ - PHƯỜNG 5: Từ giáp thác Cam Ly, nhà số 58, nhà số 02 - Đến hết ngã ba Tà Nung', và 'Cam Ly - PHƯỜNG 5' bắt đầu 'Từ Ngã 3 Tà Nung'. Cả hai đều Phường 5. Báo Lâm Đồng 06/01/2022 viết 'làng hoa Vạn Thành (Phường 5)'; VnExpress 2011 nhắc đại biểu HĐND Phường 5 ở làng; Vietnam Airlines ghi '81A1 Van Thanh Street, Ward 5'. Theo NQ 1671 mục 100: Phường 5, Phường 6 và xã Tà Nung → Cam Ly - Đà Lạt. Kiểm chéo ranh giới phuong.json: mọi điểm của Vạn Thành, Phi trường Cam Ly, cùng vị trí thác Cam Ly, lăng Nguyễn Hữu Hào, Làng Cổ Tích đều nằm trong Cam Ly - Đà Lạt.",
+ "doan": [
+  {
+   "doan": "Vạn Thành: cuối Hoàng Văn Thụ – ngã ba Tà Nung (ĐT 725)",
+   "phuong_cu": "Phường 5",
+   "phuong_moi": "Cam Ly - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-van-thu-phuong-5",
+   "ghi_chu": "bảng giá đất ghi đoạn này dưới tên Hoàng Văn Thụ; khớp qua điểm đầu–cuối trên OSM, cộng Báo Lâm Đồng 2022 ghi làng hoa Vạn Thành thuộc Phường 5"
+  },
+  {
+   "doan": "Hoàng Văn Thụ: Huyền Trân Công Chúa – thác Cam Ly – cuối đường",
+   "phuong_cu": "Phường 5",
+   "phuong_moi": "Cam Ly - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-van-thu-phuong-5"
+  },
+  {
+   "doan": "Phi trường Cam Ly (đường trên nền đường băng cũ)",
+   "phuong_cu": "Phường 5 (theo ranh giới)",
+   "phuong_moi": "Cam Ly - Đà Lạt",
+   "do_chac": "khá chắc",
+   "nguon": "data/lam-dong/phuong.json (ranh giới); bảng giá đất 2020 không có dòng tên này"
+  },
+  {
+   "doan": "Long Mỹ Quận công (đường lên lăng Nguyễn Hữu Hào)",
+   "phuong_cu": "Phường 5 (theo ranh giới)",
+   "phuong_moi": "Cam Ly - Đà Lạt",
+   "do_chac": "khá chắc",
+   "nguon": "data/lam-dong/phuong.json (ranh giới); bảng giá đất 2020 không có dòng tên này"
+  }
+ ],
+ "ten_pho": "Làng Hoa Vạn Thành",
+ "gioi_thieu": "Làng Hoa Vạn Thành: đường Vạn Thành chạy giữa thung lũng nhà kính của làng hoa do người gốc Bắc (nhiều nhà quê Hà Nam) lập từ cuối thập niên 1950, nay gần 300 hộ chuyên trồng ly, cúc, hồng, đồng tiền; dọc đường có Làng Cổ Tích nhà hobbit và vườn Fresh Garden, đi về phía phố là thác Cam Ly và lăng Nguyễn Hữu Hào.",
+ "dia_diem": [
+  {
+   "ten": "Làng hoa Vạn Thành",
+   "loai": "làng hoa, nhà kính",
+   "dac_trung": "Làng trồng hoa trong nhà kính ở thung lũng phía tây Đà Lạt; hoa ly, cúc, hồng, đồng tiền, cẩm chướng, lay ơn. Báo Văn Hoá 2018: gần 300 hộ chuyên trồng hoa, 220 ha, trên 400 triệu cành/năm; được UBND tỉnh công nhận làng nghề truyền thống. Có khu tham quan bán vé cho khách.",
+   "dia_chi": "đường Vạn Thành, phường Cam Ly - Đà Lạt (số nhà điểm bán vé các trang ghi khác nhau)",
+   "duong": "Vạn Thành",
+   "so_nha": "",
+   "nguon": [
+    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html",
+    "https://baovanhoa.vn/du-lich/lang-hoa-vao-mua-tat-bat-75941.html",
+    "https://baolamdong.vn/phat-trien-cac-lang-hoa-da-lat-nhin-tu-nghi-quyet-07-282319.html",
+    "https://mia.vn/cam-nang-du-lich/lang-hoa-van-thanh-lac-vao-vuon-dia-duong-chon-da-lat-mong-mo-1355",
+    "https://www.vietnamairlines.com/en/useful-information/travel-guide/vuon-hoa-da-lat",
+    "https://www.openstreetmap.org/node/4444199589"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "còn là làng trồng hoa; mia 24/07/2026 ghi khu tham quan mở 7:00–17:00, VinWonders 17/07/2025 cũng còn ghi giờ mở. Giá vé các trang lệch (40.000 / 100.000 đồng).",
+   "ghi_chu": "Số nhà lệch: Vietnam Airlines '81A1 Van Thanh'; mia '40 Vạn Thành'; VinWonders '43 Đường Vạn Hạnh' (gần như chắc gõ nhầm Vạn Thành). Để trống số nhà. OSM có điểm 'Làng Hoa Van Thành' (shop=florist) sát Hoàng Văn Thụ gần đầu đường Vạn Thành.",
+   "vi_tri": {
+    "lon": 108.414473,
+    "lat": 11.947342,
+    "cach": "tên trên OpenStreetMap: Làng Hoa Van Thành",
+    "osm": "node/4444199589"
+   }
+  },
+  {
+   "ten": "Fresh Garden Dalat",
+   "loai": "khu vườn hoa tham quan",
+   "dac_trung": "Vườn hoa có cối xay gió phủ hoa, nhà hoa, hồ nhìn ra rừng thông, thác nước nhân tạo, cổng trời kiểu châu Âu, động băng khoảng 100 m²; có quán cà phê và nhà hàng cơm niêu trong khuôn viên. mia ghi đón khách từ 2019.",
+   "dia_chi": "90B Vạn Thành, phường Cam Ly - Đà Lạt",
+   "duong": "Vạn Thành",
+   "so_nha": "90B",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/fresh-garden-dalat-vuon-hoa-khong-lo-khoe-sac-ruc-ro-giua-long-da-lat-1454",
+    "https://www.vietnamairlines.com/en/useful-information/travel-guide/vuon-hoa-da-lat",
+    "https://www.vietnambooking.com/du-lich/blog-du-lich/fresh-garden-da-lat.html",
+    "https://vinwonders.com/vi/wonderpedia/news/lang-hoa-van-thanh/"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: mia 24/07/2026 ghi 7:30–17:30, vé 150.000 đồng người lớn (các trang cũ hơn ghi 100.000–120.000).",
+   "ghi_chu": "Vietnam Airlines ghi 'No. 90 Van Thanh'; mia, VinWonders, Vietnambooking ghi 90B. VinWonders còn ghi 'Nhà hàng Cơm Niêu Fresh – 90 Vạn Thành' (có lẽ là nhà hàng trong khuôn viên). OSM có điểm cà phê 'Fresh Dalat' trên đường Vạn Thành (node 7106039085) — chưa chắc là cùng nơi.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Làng Cổ Tích (Dalat Fairytale Land)",
+   "loai": "khu vui chơi, nhà hobbit, hầm rượu vang",
+   "dac_trung": "Đồi thông dựng các ngôi nhà nhỏ kiểu nhà hobbit trong phim Chúa tể những chiếc nhẫn; cũng là trụ sở rượu vang Vĩnh Tiến, có hầm rượu cho khách xem.",
+   "dia_chi": "các trang ghi 81D Hoàng Văn Thụ (mia: '81D Hoàng Văn Thụ (Vạn Thành)'); vị trí trên OSM nằm sát đường Vạn Thành",
+   "duong": "Vạn Thành",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/bo-tui-kinh-nghiem-vui-choi-tai-dalat-fairytale-land-chi-tiet-nhat-1665",
+    "https://www.foody.vn/lam-dong/dalat-fairytale-land",
+    "https://www.travelbinger.com/fairytale-land-dalat",
+    "https://vietnamnet.vn/en/da-lat-city-s-attractive-tourist-destinations-2043060.html",
+    "https://www.openstreetmap.org/node/13072770501"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: mia 23/07/2026 (7:30–17:00, vé 90.000 đồng), Travelbinger 20/08/2026; OSM ghi Mo-Su 07:30-17:00.",
+   "ghi_chu": "Số nhà 81D được ghi theo tên Hoàng Văn Thụ (mia, Foody, VinWonders). Điểm OSM 'Làng Cổ Tích' cách đường Vạn Thành khoảng 20 m → em ghi duong = Vạn Thành, để trống số nhà vì không có nguồn nào ghi '81D Vạn Thành'. Số nhà hobbit: VietNamNet 2022 ghi 18; Travelbinger ghi 'hàng chục' → không dùng số.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Thác Cam Ly",
+   "loai": "thác nước, thắng cảnh",
+   "dac_trung": "Thác trên suối Cam Ly, cách trung tâm khoảng 2 km về phía tây; tên gọi theo truyền thuyết gắn với tù trưởng người Cơ Ho K'Mly. Nhiều năm bị ô nhiễm do nước thải thành phố đổ về.",
+   "dia_chi": "đường Hoàng Văn Thụ, phường Cam Ly - Đà Lạt",
+   "duong": "Hoàng Văn Thụ",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html",
+    "https://vinwonders.com/en/wonderpedia/news/cam-ly-waterfall-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/thac-cam-ly-da-lat-truyen-thuyet-cua-su-tuong-nho-1295",
+    "https://www.openstreetmap.org/node/4097464935",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-van-thu-phuong-5"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "chưa rõ cho 2026; VinWonders 17/06/2025 ghi mở 7:00–17:00, vé 40.000 đồng. Wikipedia: nước ô nhiễm, tới 2021 chưa khắc phục.",
+   "ghi_chu": "Chiều cao thác lệch (Kiến Thức ~10 m, VinWonders ~30 m) → không ghi. Bảng giá đất lấy thác làm mốc ('đến hết thác Cam Ly, nhà số 58'). Thác cách đầu đường Vạn Thành khoảng 1 km theo Hoàng Văn Thụ.",
+   "vi_tri": {
+    "lon": 108.420476,
+    "lat": 11.941852,
+    "cach": "tên trên OpenStreetMap: Thác Cam Ly",
+    "osm": "node/4097464935"
+   }
+  },
+  {
+   "ten": "Lăng Nguyễn Hữu Hào",
+   "loai": "lăng mộ cổ, di tích",
+   "dac_trung": "Lăng của cha mẹ Nam Phương hoàng hậu trên đồi gần thác Cam Ly; khởi công 1939, lễ quy lăng 10/9/1941 (Wikipedia). Kiến trúc kiểu cung đình Huế, mái ngói lưu ly xanh, hai ngôi mộ đá xanh. Nhiều năm hoang phế, chưa khai thác du lịch.",
+   "dia_chi": "đường lên lăng (OSM: Long Mỹ Quận công), rẽ từ Hoàng Văn Thụ gần thác Cam Ly, phường Cam Ly - Đà Lạt",
+   "duong": "Long Mỹ Quận công",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/L%C4%83ng_Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o",
+    "https://mia.vn/cam-nang-du-lich/an-tuong-lang-nguyen-huu-hao-da-lat-voi-kien-truc-cung-dinh-hue-dac-trung-5012",
+    "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html",
+    "https://www.openstreetmap.org/way/1244767000"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "không có giờ mở chính thức; Kiến Thức 10/2023 viết lăng chưa được khai thác du lịch, hoang phế; mia 09/2023 nói đã trùng tu, đường lên là đường đá, ô tô đậu ở cổng.",
+   "ghi_chu": "Địa chỉ các trang lệch: Wikipedia 'Ngã ba đường Hoàng Văn Thụ - Vạn Thành', mia 'đường Vạn Thành, Tà Nùng'. Toạ độ Wikipedia (11°56′34″B, 108°24′55″Đ) khớp vị trí OSM way 1244767000, nằm sát đường OSM 'Long Mỹ Quận công' (14 m), cách Hoàng Văn Thụ khoảng 170 m. Mytour chép Wikipedia → không tính. VinWonders ghi lăng là di tích quốc gia năm 1998 — chỉ 1 nguồn, Wikipedia không ghi xếp hạng.",
+   "vi_tri": {
+    "lon": 108.415128,
+    "lat": 11.942989,
+    "cach": "tên trên OpenStreetMap: Lăng Nguyễn Hữu Hào",
+    "osm": "way/1244767000"
+   }
+  },
+  {
+   "ten": "Sân bay Cam Ly (đường băng cũ)",
+   "loai": "di tích sân bay cũ, đường băng thành đường đi",
+   "dac_trung": "Sân bay nhỏ dựng thời chiến tranh, đường băng dài 1.390 m; sau 1975 thuộc Học viện Lục quân, khoảng năm 1995 được sửa để bay máy bay cánh quạt TP.HCM – Đà Lạt rồi ngừng; cuối 2010 giao cho Quân chủng Phòng không – Không quân. Nay dân dùng đường băng làm đường đi lại.",
+   "dia_chi": "đường Phi trường Cam Ly, phường Cam Ly - Đà Lạt",
+   "duong": "Phi trường Cam Ly",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html",
+    "https://www.openstreetmap.org/node/13122726423"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "không còn bay thương mại (Wikipedia); đường băng là đường đi của dân, không phải điểm tham quan có cổng vé.",
+   "ghi_chu": "Năm xây lệch: Kiến Thức 2023 ghi 'khoảng cuối thập niên 1960'; Wikipedia chỉ ghi 'thời chiến tranh Việt Nam' → không ghi năm. Hai đoạn OSM 'Phi trường Cam Ly' dài khoảng 1,3 km (đo trên duong.json), song song nhau như hai mép đường băng.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Vạn Thành Hill",
+   "loai": "đồi check-in, cà phê",
+   "dac_trung": "Đồi có vườn hoa, hồ vô cực, quán cà phê, chỗ cắm trại; nhìn xuống thung lũng nhà kính làng hoa. Znews 2021 và VinWonders cùng ghi vé 80.000 đồng người lớn.",
+   "dia_chi": "đường Vạn Thành, phường Cam Ly - Đà Lạt (chưa có số nhà)",
+   "duong": "Vạn Thành",
+   "so_nha": "",
+   "nguon": [
+    "https://znews.vn/ngon-doi-song-ao-moi-noi-o-da-lat-post1203440.html",
+    "https://vinwonders.com/vi/wonderpedia/news/dia-diem-check-in-moi-o-da-lat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: Znews 12/04/2021; bài VinWonders không có ngày. Chưa thấy nguồn 2025–2026.",
+   "ghi_chu": "Chỉ Znews ghi rõ 'nằm trên đường Vạn Thành'; VinWonders chỉ ghi 'phường Cam Ly'. Không có trên OSM.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Nhà thờ Giáo xứ Vạn Thành",
+   "duong": "Vạn Thành",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/kham-pha-10-nha-tho-da-lat-13967",
+    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html"
+   ],
+   "ly_do": "mia (09/12/2023) chỉ ghi 'Phường 5', cách trung tâm khoảng 3 km, không tên đường, không số nhà; Mytour chép cùng đoạn. VnExpress 2011 chỉ nói làng 'gói gọn trong xứ đạo Vạn Thành với gần 200 gia đình', không tả nhà thờ. Không có trên OSM vùng em tải."
+  },
+  {
+   "ten": "Sơn Roastery & Café by Sơn Pacamara",
+   "duong": "Hoàng Văn Thụ",
+   "so_nha": "20C",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/lang-hoa-van-thanh/",
+    "https://wanderlog.com/place/details/2666622",
+    "https://saigoneer.com/saigon-food-culture/15538-da-lat,-the-unlikely-home-of-el-salvador-s-rare-pacamara-coffee-beans"
+   ],
+   "ly_do": "lệch đường: VinWonders 07/2025 và Wanderlog ghi '20C Hoàng Văn Thụ'; Saigoneer 01/2019 ghi '20C Van Thanh, Ward 5'. Theo bảng giá đất, số 20 Hoàng Văn Thụ nằm đoạn trước thác Cam Ly (xa đường Vạn Thành). Cần xem tận nơi."
+  },
+  {
+   "ten": "Rừng Đom Đóm Cafe",
+   "duong": "Vạn Thành",
+   "so_nha": "76",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/lang-hoa-van-thanh/"
+   ],
+   "ly_do": "chỉ 1 nguồn (VinWonders 17/07/2025, giá 35.000–50.000 đồng)."
+  },
+  {
+   "ten": "Bánh cuốn Duy Tân",
+   "duong": "Hoàng Văn Thụ",
+   "so_nha": "41",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/lang-hoa-van-thanh/"
+   ],
+   "ly_do": "chỉ 1 nguồn (VinWonders). OSM lại có quán cà phê 'Camly 9' ghi cùng số 41 Hoàng Văn Thụ."
+  },
+  {
+   "ten": "Langfarm Center (nông trại cổ tích)",
+   "duong": "Hoàng Văn Thụ",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/langfarm-center-nong-trai-co-tich-21204",
+    "https://www.openstreetmap.org/way/1381319196"
+   ],
+   "ly_do": "lệch số nhà: mia ghi 1B Hoàng Văn Thụ (mở cuối 12/2024), OSM ghi 5 Hoàng Văn Thụ. Nằm gần thác Cam Ly, xa đường Vạn Thành."
+  }
+ ],
+ "da_dong": [],
+ "khong_dua_vao": [
+  {
+   "ten": "Nông trại cún Puppy Farm",
+   "ly_do": "không nằm ở Vạn Thành: Traveloka/Mytour ghi Phường 7 cũ (thôn Măng Lin), mia ghi cách làng hoa Vạn Thành khoảng 4,2 km."
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-van-thu-phuong-5",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/cam-ly-phuong-5",
+  "data/lam-dong/nq1671.json (mục 100: Phường 5, Phường 6, xã Tà Nung → Cam Ly - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm ranh giới bằng toạ độ OSM)",
+  "data/lam-dong/da-lat/duong.json ('Vạn Thành' 1 đoạn khoảng 1,76 km; 'Phi trường Cam Ly' 2 đoạn; 'Long Mỹ Quận công' 7 đoạn ngắn; 'Hoàng Văn Thụ')",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.396,11.943,108.414,11.954 và bbox=108.414,11.937,108.424,11.948 (tải 25/11/2026)",
+  "https://baolamdong.vn/phat-trien-cac-lang-hoa-da-lat-nhin-tu-nghi-quyet-07-282319.html",
+  "https://baovanhoa.vn/du-lich/lang-hoa-vao-mua-tat-bat-75941.html",
+  "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html",
+  "https://vnexpress.net/ba-lang-hoa-noi-tieng-da-lat-2919943.html"
+ ],
+ "cap_nhat": "2026-11-25"
+}

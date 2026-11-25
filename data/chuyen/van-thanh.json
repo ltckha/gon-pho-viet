@@ -1,0 +1,233 @@
+{
+ "slug": "van-thanh",
+ "ten_cu": [
+  {
+   "ten": "ấp Vạn Thành",
+   "thoi_gian": "từ cuối thập niên 1950",
+   "ghi_chu": "Tên khu dân cư (ấp) của người gốc Bắc lập nghiệp; làng hoa và con đường sau này mang tên ấp. Chữ 'ấp Vạn Thành' em chỉ thấy ở VnExpress 2011.",
+   "nguon": [
+    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Hoàng Văn Thụ (đoạn cuối)",
+   "thoi_gian": "ít nhất tới bảng giá đất 2020–2021; chưa rõ năm đổi",
+   "ghi_chu": "Bảng giá đất (QĐ 02/2020, sửa QĐ 16/2021) không có đường Vạn Thành; đoạn 'Hoàng Văn Thụ - Phường 5: từ giáp thác Cam Ly … đến hết ngã ba Tà Nung' trùng đoạn OSM nay gọi Vạn Thành (em khớp qua điểm đầu–cuối, không phải văn bản ghi thẳng). Các trang du lịch vẫn ghi Làng Cổ Tích là '81D Hoàng Văn Thụ'; mia ghi '81D Hoàng Văn Thụ (Vạn Thành)'. Em chưa tìm được văn bản đặt tên đường Vạn Thành (NQ 26/2021/NQ-HĐND đặt tên đường Đà Lạt không có Vạn Thành).",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-van-thu-phuong-5",
+    "https://mia.vn/cam-nang-du-lich/bo-tui-kinh-nghiem-vui-choi-tai-dalat-fairytale-land-chi-tiet-nhat-1665",
+    "https://www.foody.vn/lam-dong/dalat-fairytale-land"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Vạn Thành",
+   "thoi_gian": "tên đường hiện nay; năm đặt chưa rõ",
+   "ghi_chu": "Có trên OSM; Saigoneer 01/2019 đã ghi '20C Van Thanh', Znews 04/2021 ghi 'đường Vạn Thành', Vietnam Airlines ghi '81A1 Van Thanh Street'.",
+   "nguon": [
+    "https://saigoneer.com/saigon-food-culture/15538-da-lat,-the-unlikely-home-of-el-salvador-s-rare-pacamara-coffee-beans",
+    "https://znews.vn/ngon-doi-song-ao-moi-noi-o-da-lat-post1203440.html",
+    "https://www.vietnamairlines.com/en/useful-information/travel-guide/vuon-hoa-da-lat"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "moc": [
+  {
+   "nam": "cuối thập niên 1950",
+   "su_kien": "Ấp Vạn Thành hình thành, phần lớn là người gốc Bắc di cư (VnExpress 2011: trên 70%); ban đầu trồng rau, sau chuyển sang hoa.",
+   "nguon": [
+    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html",
+    "https://mia.vn/cam-nang-du-lich/lang-hoa-van-thanh-lac-vao-vuon-dia-duong-chon-da-lat-mong-mo-1355"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "mia ghi 'những năm 1950', người từ Hà Nam; VnExpress 2013 cũng ghi người Hà Nam lập làng nhưng không có năm."
+  },
+  {
+   "nam": "1939–1941",
+   "su_kien": "Nam Phương hoàng hậu cho xây lăng cha mẹ (ông Nguyễn Hữu Hào) trên đồi gần thác Cam Ly; khởi công 1939, lễ quy lăng 10/9/1941 (Wikipedia).",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/L%C4%83ng_Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o",
+    "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Ngày 10/9/1941 chỉ có ở Wikipedia; Kiến Thức chỉ ghi năm 1939. mia ghi việc xây kéo dài khoảng 4 năm."
+  },
+  {
+   "nam": "thời chiến tranh (Kiến Thức: khoảng cuối thập niên 1960)",
+   "su_kien": "Sân bay Cam Ly được dựng, đường băng dài 1.390 m.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Năm xây chỉ Kiến Thức ghi (ước 'cuối thập niên 1960'); chiều dài 1.390 m có ở cả hai."
+  },
+  {
+   "nam": "1995",
+   "su_kien": "Công ty Đà Lạt Hasfarm (trồng hoa theo công nghệ Hà Lan) đầu tư, Báo Văn Hoá gọi là mốc làm hoa Vạn Thành 'cất cánh'.",
+   "nguon": [
+    "https://baovanhoa.vn/du-lich/lang-hoa-vao-mua-tat-bat-75941.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "1995",
+   "su_kien": "Sân bay Cam Ly được sửa để bay máy bay cánh quạt TP.HCM – Đà Lạt; sau đó ngừng vì đường băng ngắn.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Năm 1995 chỉ có ở Wikipedia; Kiến Thức ghi 'thập niên 1990'."
+  },
+  {
+   "nam": "1998",
+   "su_kien": "Thác Cam Ly được công nhận thắng cảnh quốc gia (VinWonders).",
+   "nguon": [
+    "https://vinwonders.com/en/wonderpedia/news/cam-ly-waterfall-da-lat/"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Wikipedia có nhắc bài SGGP 2008 về '2 di tích quốc gia ở Lâm Đồng' liên quan thác, nhưng không ghi năm."
+  },
+  {
+   "nam": "cuối 2010",
+   "su_kien": "Sân bay Cam Ly được Cục Hàng không bàn giao cho Quân chủng Phòng không – Không quân; đường băng thành đường đi lại của dân.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "2011",
+   "su_kien": "VnExpress: làng có 170 ha đất nông nghiệp, 95% làm nhà kính; gần 80 ô tô, khoảng 2,5 gia đình một xe.",
+   "nguon": [
+    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "2018",
+   "su_kien": "Báo Văn Hoá: gần 300 hộ chuyên trồng hoa, 220 ha, sản lượng từ 40 triệu lên trên 400 triệu cành/năm; làng được UBND tỉnh công nhận đạt tiêu chí làng nghề truyền thống.",
+   "nguon": [
+    "https://baovanhoa.vn/du-lich/lang-hoa-vao-mua-tat-bat-75941.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Số hộ khớp mia 2026 ('300 hộ'); diện tích mia ghi 200 ha. Năm công nhận làng nghề chưa rõ."
+  },
+  {
+   "nam": "trước 01/2022",
+   "su_kien": "Làng hoa Vạn Thành (Phường 5) được công nhận đạt tiêu chí vùng nông nghiệp ứng dụng công nghệ cao; lập mới hợp tác xã rau, hoa ở làng.",
+   "nguon": [
+    "https://baolamdong.vn/phat-trien-cac-lang-hoa-da-lat-nhin-tu-nghi-quyet-07-282319.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Báo Lâm Đồng 06/01/2022 không ghi năm công nhận."
+  },
+  {
+   "nam": "2019",
+   "su_kien": "Fresh Garden (90B Vạn Thành) bắt đầu đón khách; Làng Cổ Tích 'gây sốt' đầu 2019.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/fresh-garden-dalat-vuon-hoa-khong-lo-khoe-sac-ruc-ro-giua-long-da-lat-1454"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Cả hai ý đều chỉ từ mia (2 bài cùng trang tính 1)."
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Làng của người gốc Bắc",
+   "noi_dung": "Ấp Vạn Thành lập từ cuối thập niên 1950, phần đông là người gốc Bắc vào lập nghiệp, nhiều nhà quê Hà Nam. Ban đầu họ trồng rau — cà rốt, su su, củ cải — rồi mới chuyển dần sang hoa. Làng gần như gói trong xứ đạo Vạn Thành.",
+   "nguon": [
+    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html",
+    "https://vnexpress.net/ba-lang-hoa-noi-tieng-da-lat-2919943.html",
+    "https://mia.vn/cam-nang-du-lich/lang-hoa-van-thanh-lac-vao-vuon-dia-duong-chon-da-lat-mong-mo-1355"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Hai bài VnExpress tính 1 trang; ý 'quê Hà Nam' có ở VnExpress 2013 và mia. Tên các loại rau chỉ có ở VnExpress 2011."
+  },
+  {
+   "tieu_de": "Nông dân lái ô tô ra vườn",
+   "noi_dung": "Năm 2011 VnExpress đếm được gần 80 chiếc ô tô bốn, bảy chỗ trong làng, cứ khoảng hai gia đình rưỡi có một xe. Gần hết đất nông nghiệp của làng đã phủ nhà kính.",
+   "nguon": [
+    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "tieu_de": "Con đường mang tên làng",
+   "noi_dung": "Đường Vạn Thành nối cuối đường Hoàng Văn Thụ với ngã ba Tà Nung. Bảng giá đất năm 2020 vẫn gộp đoạn này vào Hoàng Văn Thụ, nên nhiều nơi tới giờ còn ghi địa chỉ theo tên cũ, như Làng Cổ Tích '81D Hoàng Văn Thụ'.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-van-thu-phuong-5",
+    "https://mia.vn/cam-nang-du-lich/bo-tui-kinh-nghiem-vui-choi-tai-dalat-fairytale-land-chi-tiet-nhat-1665",
+    "https://www.foody.vn/lam-dong/dalat-fairytale-land"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Việc đoạn Hoàng Văn Thụ cũ chính là đường Vạn Thành là em khớp qua điểm đầu–cuối trên OSM, chưa có văn bản đặt tên."
+  },
+  {
+   "tieu_de": "Đường băng thành đường làng",
+   "noi_dung": "Gần làng hoa là sân bay Cam Ly cũ, đường băng dài 1.390 m. Sân bay ngừng bay từ lâu; người dân lấy đường băng làm đường đi, bò gặm cỏ hai bên. Trên bản đồ OSM, con đường ấy mang tên Phi trường Cam Ly.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Chi tiết bò gặm cỏ chỉ có ở Wikipedia."
+  },
+  {
+   "tieu_de": "Lăng của cha Nam Phương hoàng hậu",
+   "noi_dung": "Trên đồi cạnh thác Cam Ly là lăng ông Nguyễn Hữu Hào, cha của Nam Phương hoàng hậu, xây từ năm 1939, mái ngói lưu ly xanh, hai ngôi mộ đá xanh. Lăng nhiều năm bị bỏ quên. Con đường lên lăng trên OSM mang tên Long Mỹ Quận công — Wikipedia gọi ông là 'Long Mỹ Quận công Nguyễn Hữu Hào'.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/L%C4%83ng_Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o",
+    "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html",
+    "https://mia.vn/cam-nang-du-lich/an-tuong-lang-nguyen-huu-hao-da-lat-voi-kien-truc-cung-dinh-hue-dac-trung-5012"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Tước Long Mỹ quận công chỉ có ở Wikipedia (bài 'Nguyễn Hữu Hào (điền chủ)', chính bài cũng ghi chưa hoàn toàn chắc)."
+  },
+  {
+   "tieu_de": "Thác mang tên tù trưởng",
+   "noi_dung": "Thác Cam Ly được cho là mang tên một tù trưởng người Cơ Ho tên K'Mly, người Việt đọc trại thành Cam Ly.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Cả hai trang đều nói đây là một giả thuyết/lời kể."
+  }
+ ],
+ "mon": [
+  {
+   "ten": "Hoa hồng",
+   "ghi_chu": "VnExpress 2013: làng cung cấp 80% hoa hồng cho Đà Lạt (chú thích ảnh).",
+   "nguon": [
+    "https://vnexpress.net/ba-lang-hoa-noi-tieng-da-lat-2919943.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Hoa ly (ly ly)",
+   "ghi_chu": "Có ở mọi bài; Báo Văn Hoá 2018 ghi trước Tết ly 80.000–120.000 đồng/bó.",
+   "nguon": [
+    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html",
+    "https://baovanhoa.vn/du-lich/lang-hoa-vao-mua-tat-bat-75941.html",
+    "https://mia.vn/cam-nang-du-lich/lang-hoa-van-thanh-lac-vao-vuon-dia-duong-chon-da-lat-mong-mo-1355"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Cúc, đồng tiền, cẩm chướng, lay ơn",
+   "ghi_chu": "Các loại hoa cắt cành trồng trong nhà kính.",
+   "nguon": [
+    "https://baovanhoa.vn/du-lich/lang-hoa-vao-mua-tat-bat-75941.html",
+    "https://vnexpress.net/ba-lang-hoa-noi-tieng-da-lat-2919943.html",
+    "https://vinwonders.com/vi/wonderpedia/news/lang-hoa-van-thanh/"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ghi_chu": "1) Diện tích làng lệch theo năm và trang: 170 ha đất nông nghiệp (VnExpress 2011), 220 ha trồng hoa (Báo Văn Hoá 2018), 200 ha (mia, VinWonders). Em không đưa diện tích vào câu giới thiệu. 2) Chưa tìm được văn bản đặt tên đường Vạn Thành; tên cũ 'Hoàng Văn Thụ' cho đoạn này là em suy từ bảng giá đất + toạ độ OSM. 3) Nông trại cún Puppy Farm hay được nhắc 'gần làng hoa' nhưng ở Phường 7 cũ, cách khoảng 4,2 km (mia) — không tính vào phố. 4) Không tìm được nguồn về chùa nằm trên đường Vạn Thành; các bài chỉ nhắc chùa Linh Ẩn trong danh sách 'điểm gần đó', không ghi địa chỉ — em không đưa vào."
+}

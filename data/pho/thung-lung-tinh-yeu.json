@@ -145,7 +145,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "mở; trang chính thức ghi phường mới (Lâm Viên - Đà Lạt), vietnambooking còn bán phòng (xem 25/11/2026).",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.450553,
+    "lat": 11.97743,
+    "cach": "số nhà trên OpenStreetMap: 106A Mai Anh Đào",
+    "osm": "node/5447660821"
+   },
    "ghi_chu": "vietnambooking ghi '106' (không có A). Số 200 phòng chỉ có ở vietnambooking."
   },
   {
@@ -163,7 +168,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "đang là trường học. Vào tham quan khuôn viên: chưa có nguồn ghi giờ cho khách.",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.445569,
+    "lat": 11.956539,
+    "cach": "tên trên OpenStreetMap: Trường Đại học Đà Lạt",
+    "osm": "way/969458761"
+   },
    "ghi_chu": "Năm thành lập lệch: Wikipedia ghi Viện Đại học lập 1957, hoạt động từ 1958; SGGP ghi 'thành lập năm 1958'; Tuổi Trẻ (16/11/2023) nói '65 năm kể từ đợt tuyển sinh đầu tiên'. Khuôn viên 38 ha chỉ có ở Wikipedia, chưa đưa vào câu giới thiệu."
   },
   {
@@ -182,7 +192,12 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "có dấu hiệu: Mytour (11/01/2025) ghi mở 5:30-21:00; VinWonders (03/07/2025, 13/07/2025) còn giới thiệu. Chưa có nguồn 2026.",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.442667,
+    "lat": 11.958096,
+    "cach": "tên trên OpenStreetMap: Bún Bò Huế Công",
+    "osm": "node/11921362053"
+   },
    "ghi_chu": "Số nhà lệch: Mytour và OSM ghi 14; Foody và VinWonders (món ngon) ghi 1/1B; VinWonders (ăn trưa) ghi 1A. Em để 14 (2 nguồn khớp, có điểm OSM)."
   },
   {

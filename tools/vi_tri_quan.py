@@ -208,7 +208,9 @@ def main(osm_dir):
                 name = t.get('name')
                 if name and (same_name(p['ten'], name) or (p['ten'] in ALIAS and same_name(ALIAS[p['ten']], name))):
                     d = near_road(pt, road)
-                    if d <= 80:
+                    # nơi rộng (chùa, thác, khu du lịch, hồ, trường…) nằm sâu trong khuôn viên: cho xa đường tới 600 m, vẫn phải đúng tên
+                    rong = re.search(r'(?i)thiền viện|chùa|thác|khu du lịch|hồ |cáp treo|trường|đồi|thung lũng|dinh|nhà thờ|làng|vườn|công viên|ga ', p['ten'] + ' ' + p.get('loai', ''))
+                    if d <= (600 if rong else 80):
                         how = 'tên trên OpenStreetMap: ' + name + (' (ghép tay)' if p['ten'] in ALIAS else '')
                         cands.append((d, oid, pt, how))
             if not cands and p.get('so_nha'):

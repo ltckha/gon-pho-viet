@@ -52,7 +52,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "mở hạn chế: là nhà khách, nơi hội nghị của UBND tỉnh. mia.vn (23/07/2026) ghi 7:30–17:00, vé 30.000 đ/người, nên hỏi trước; VinWonders (09/12/2025) ghi không mở cửa thường xuyên.",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.447962,
+    "lat": 11.93563,
+    "cach": "tên trên OpenStreetMap: Dinh Toàn Quyền (ghép tay)",
+    "osm": "way/777438901"
+   },
    "ghi_chu": "Số 12: mia.vn và VinWonders. Tuổi Trẻ News (12/02/2018) xác nhận năm 1933–1937 và kiến trúc sư nhưng không ghi số nhà; OSM ghi year_of_construction=1937, alt_name 'Dinh 2'. tatinta gọi đây là dinh của vua Bảo Đại — sai lẫn với Dinh 1/Dinh 3, không dùng ý đó. Decoux làm Toàn quyền từ 1940, sau năm dinh xây xong, nên 'dinh của Decoux' là dinh ông dùng, không phải ông cho xây (Tuổi Trẻ News lại viết Decoux ra lệnh xây — hai ý vênh nhau, em không ghi ai cho xây). Toà dinh nằm trong khuôn viên, cách mặt đường khoảng 120 m (đo trên OSM)."
   },
   {
@@ -248,7 +253,12 @@
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: Trip.com (xem 25/11/2026) ghi địa chỉ theo phường mới 'Xuân Hương - Đà Lạt', mở 10:30–19:00; Mytour cập nhật 1/11/2026; VinWonders 08/07/2025 ghi 9:30–21:00. Giờ mở mỗi trang một khác.",
    "ghi_chu": "Vinpearl (cùng tập đoàn VinWonders, không tính) ghi 'hẻm 02 Trần Hưng Đạo' và nghỉ thứ Năm, Chủ nhật. Số 2 trùng trụ sở HĐND tỉnh → nhiều khả năng quán ở đầu hẻm 2; khi gắn vị trí cần soát tay.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.441658,
+    "lat": 11.936351,
+    "cach": "số nhà trên OpenStreetMap: 2 Trần Hưng Đạo",
+    "osm": "way/475362776"
+   }
   },
   {
    "ten": "Nem nướng Bà Hùng (cơ sở Trần Hưng Đạo)",

@@ -85,7 +85,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "mở cho khách viếng (vietnamtourism.com cập nhật 23/10/2026: khoảng 07:00–17:00). Giờ lệch giữa các trang: OSM 07:00–11:30, 13:30–17:00; mia 07/2026 và VOH 2019 ghi 5:00–21:00.",
-   "ghi_chu": "Tên đường lệch: mia 07/2026 ghi 'Trúc Lâm Yên Tử', bài mia cũ và VOH ghi 'đường Trần Thánh Tông'. Bảng giá đất cho thấy Trần Thánh Tông chạy tới thiền viện, Trúc Lâm Yên Tử nối từ Đèo Prenn vào. Em để 'Trúc Lâm Yên Tử' vì cổng gần cuối đường này nhất trên OSM. Tâm khuôn viên trên OSM cách đường khoảng 190 m nên chưa ghim tự động."
+   "ghi_chu": "Tên đường lệch: mia 07/2026 ghi 'Trúc Lâm Yên Tử', bài mia cũ và VOH ghi 'đường Trần Thánh Tông'. Bảng giá đất cho thấy Trần Thánh Tông chạy tới thiền viện, Trúc Lâm Yên Tử nối từ Đèo Prenn vào. Em để 'Trúc Lâm Yên Tử' vì cổng gần cuối đường này nhất trên OSM. Tâm khuôn viên trên OSM cách đường khoảng 190 m nên chưa ghim tự động.",
+   "vi_tri": {
+    "lon": 108.434562,
+    "lat": 11.903878,
+    "cach": "tên trên OpenStreetMap: Thiền Viện Trúc Lâm",
+    "osm": "way/1356287796"
+   }
   },
   {
    "ten": "Cáp treo Đà Lạt (ga đồi Robin)",
@@ -103,7 +109,8 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn chạy (mia 31/10/2025 ghi giờ: T2–T6 7:30–11:30, 13:00–17:00; T7–CN 7:30–17:00; vietnamtourism.com 10/2026 vẫn hướng dẫn đi cáp). OSM ghi 08:00–17:00.",
-   "ghi_chu": "Không ghi số nhà: mia ghi '01 Đống Đa' nhưng điểm ga trên OSM cách đầu đường Đống Đa khoảng 450 m, cách Đèo Prenn khoảng 110 m — để trống cho khỏi ghim sai."
+   "ghi_chu": "Không ghi số nhà: mia ghi '01 Đống Đa' nhưng điểm ga trên OSM cách đầu đường Đống Đa khoảng 450 m, cách Đèo Prenn khoảng 110 m — để trống cho khỏi ghim sai.",
+   "vi_tri": null
   },
   {
    "ten": "Hồ Tuyền Lâm",
@@ -121,7 +128,13 @@
     "https://www.openstreetmap.org/node/11598941137"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "mặt hồ công cộng, luôn đến được; dịch vụ thuyền/SUP tùy đơn vị (Tuổi Trẻ 2023 nhắc Dalat Discovery)."
+   "con_mo": "mặt hồ công cộng, luôn đến được; dịch vụ thuyền/SUP tùy đơn vị (Tuổi Trẻ 2023 nhắc Dalat Discovery).",
+   "vi_tri": {
+    "lon": 108.437298,
+    "lat": 11.899554,
+    "cach": "tên trên OpenStreetMap: Hồ Tuyền Lâm",
+    "osm": "node/11598941137"
+   }
   },
   {
    "ten": "Khu du lịch thác Datanla",
@@ -139,7 +152,8 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "mở (mia 03/09/2026: 7:00–17:00 hằng ngày; Báo Thanh Tra 06/07/2026: phần lớn công trình đã đưa vào hoạt động, dự án chậm tiến độ). RCDB ghi các đường xe trượt 'Operating'.",
-   "ghi_chu": "Chiều dài xe trượt lệch: Tuổi Trẻ và trang bán vé ghi 2.400 m; RCDB ghi đường mới 5.577,4 ft (khoảng 1.700 m), đường cũ 2.641,1 ft (khoảng 805 m). Tên OSM 'Thác Datanla' cách Đèo Prenn khoảng 120 m nên chưa ghim tự động."
+   "ghi_chu": "Chiều dài xe trượt lệch: Tuổi Trẻ và trang bán vé ghi 2.400 m; RCDB ghi đường mới 5.577,4 ft (khoảng 1.700 m), đường cũ 2.641,1 ft (khoảng 805 m). Tên OSM 'Thác Datanla' cách Đèo Prenn khoảng 120 m nên chưa ghim tự động.",
+   "vi_tri": null
   },
   {
    "ten": "Khu du lịch thác Prenn",
@@ -154,7 +168,8 @@
     "https://www.openstreetmap.org/node/4096525696"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "mở (SGGP 08/10/2026: đông khách cuối tuần, do Công ty CP dịch vụ du lịch Đà Lạt quản lý). Giá vé lệch nhiều giữa các trang (mia 2023: 50.000 đồng; vinpearl/vinwonders: 220.000–250.000 đồng) — không ghi."
+   "con_mo": "mở (SGGP 08/10/2026: đông khách cuối tuần, do Công ty CP dịch vụ du lịch Đà Lạt quản lý). Giá vé lệch nhiều giữa các trang (mia 2023: 50.000 đồng; vinpearl/vinwonders: 220.000–250.000 đồng) — không ghi.",
+   "vi_tri": null
   },
   {
    "ten": "Tiệm cà phê Nhà Bên Suối",
@@ -170,7 +185,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu (mia 05/06/2025: 07:00–18:30; VnExpress 2021: 8h30–17h30).",
-   "ghi_chu": "Số 3: mia và OSM (addr:housenumber=3, addr:street=Trúc Lâm Yên Tử). VnExpress tả 'gần ngã ba đường Hoa Phượng giao với Trúc Lâm Yên Tử'."
+   "ghi_chu": "Số 3: mia và OSM (addr:housenumber=3, addr:street=Trúc Lâm Yên Tử). VnExpress tả 'gần ngã ba đường Hoa Phượng giao với Trúc Lâm Yên Tử'.",
+   "vi_tri": {
+    "lon": 108.444721,
+    "lat": 11.901668,
+    "cach": "số nhà trên OpenStreetMap: 3 Trúc Lâm Yên Tử",
+    "osm": "node/11840673733"
+   }
   },
   {
    "ten": "The Seen House",
@@ -187,7 +208,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu (mia đề ngày 01/07/2026: 06:00–22:00). Trang tổng hợp của Foody hiện 'Chưa mở cửa' — có thể chỉ là ngoài giờ lúc xem.",
-   "ghi_chu": "OSM ghi addr:street 'Tuyền Lâm' — tên này không có trong duong.json; đường gần nhất là Hoa Cẩm Tú Cầu (khoảng 30 m)."
+   "ghi_chu": "OSM ghi addr:street 'Tuyền Lâm' — tên này không có trong duong.json; đường gần nhất là Hoa Cẩm Tú Cầu (khoảng 30 m).",
+   "vi_tri": {
+    "lon": 108.434196,
+    "lat": 11.900699,
+    "cach": "tên trên OpenStreetMap: The Seen House",
+    "osm": "node/8310652209"
+   }
   },
   {
    "ten": "Đường hầm điêu khắc (Clay Tunnels - Dalat Star)",
@@ -202,7 +229,8 @@
     "https://www.openstreetmap.org/node/4368051989"
    ],
    "do_tin_cay": "cao",
-   "con_mo": "có dấu hiệu (mia 07/07/2026: 7h–17h, vé người lớn 120.000 đồng tham khảo 2026)."
+   "con_mo": "có dấu hiệu (mia 07/07/2026: 7h–17h, vé người lớn 120.000 đồng tham khảo 2026).",
+   "vi_tri": null
   },
   {
    "ten": "Lululola Coffee+",
@@ -218,7 +246,8 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "chưa rõ (mia 11/09/2023: 8h–22h; Foody có 9 bình luận, ghi đã lâu không có tương tác mới). Chưa có nguồn 2025–2026.",
-   "ghi_chu": "Địa chỉ các trang ghi 'Đường 3/4' nhưng điểm OSM 'LululoLa Coffee+' cách 'Đường Ba Tháng Tư' khoảng 710 m, cách Đèo Prenn khoảng 210 m (trong lối mòn trên đồi) — em ghi Đèo Prenn, không ghim."
+   "ghi_chu": "Địa chỉ các trang ghi 'Đường 3/4' nhưng điểm OSM 'LululoLa Coffee+' cách 'Đường Ba Tháng Tư' khoảng 710 m, cách Đèo Prenn khoảng 210 m (trong lối mòn trên đồi) — em ghi Đèo Prenn, không ghim.",
+   "vi_tri": null
   }
  ],
  "can_kiem_them": [

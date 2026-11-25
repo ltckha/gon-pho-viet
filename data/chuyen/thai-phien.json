@@ -1,0 +1,236 @@
+{
+ "slug": "thai-phien",
+ "ten_cu": [
+  {
+   "ten": "Vùng săn bắn của vua Bảo Đại",
+   "thoi_gian": "trước 1945 – 1954",
+   "ghi_chu": "Chưa phải tên đất; các nguồn đều viết trước khi lập ấp, đây là vùng đồi hoang dành riêng cho vua Bảo Đại săn bắn (Thanh Niên ghi 1945–1954).",
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Ấp Thái Phiên (xã Xuân Thọ, quận Lạc Dương)",
+   "thoi_gian": "từ năm 1956 tới trước 1975",
+   "ghi_chu": "Năm lập ấp 1956: Hiệp hội Hoa Đà Lạt, Sức khỏe & Đời sống, Thanh Niên. Việc ấp thuộc xã Xuân Thọ, quận Lạc Dương trước 1975 chỉ có ở cổng thông tin tỉnh (đọc qua đoạn trích tìm kiếm).",
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/thai-phien.aspx"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Phường 12, TP Đà Lạt",
+   "thoi_gian": "sau 1975 – 30/6/2025",
+   "ghi_chu": "Sức khỏe & Đời sống: ấp Thái Phiên là cơ sở đầu tiên để hình thành phường 12. Chưa rõ năm lập phường.",
+   "nguon": [
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thai-phien-phuong-12"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Phường Lâm Viên - Đà Lạt",
+   "thoi_gian": "từ 1/7/2025",
+   "ghi_chu": "NQ 1671 mục 101: gộp Phường 8, 9, 12.",
+   "nguon": [
+    "https://baolamdong.vn/lam-vien-da-lat-noi-hoi-tu-cac-lang-hoa-noi-tieng-384040.html",
+    "data/lam-dong/nq1671.json"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "moc": [
+  {
+   "nam": "1954",
+   "su_kien": "Khoảng 40 hộ người Việt sống ở Xiêng Khoảng (Lào) hồi hương về Đà Lạt, chọn vùng đồi thấp, khá bằng phẳng, có khe suối chảy ra hồ Than Thở để lập ấp.",
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Báo viết 'Xuyên Khoảng' / 'Xiêng Khoản'. Báo Lâm Đồng (01/2011) ghi gọn hơn: ấp lập 'những năm 1955–1957' bởi dân du cư từ Xuyên Khoảng (Lào), Quảng Ngãi, Thừa Thiên - Huế."
+  },
+  {
+   "nam": "1956",
+   "su_kien": "Ông Lê Phương Miễn, người được 40 hộ bầu làm đại diện, trình Tỉnh trưởng Lâm Viên Cao Minh Hiệu xin lập ấp và được chấp thuận: ấp Thái Phiên ra đời.",
+   "nguon": [
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Tên ông Lê Phương Miễn có ở Sức khỏe & Đời sống và Thanh Niên; tên tỉnh trưởng Cao Minh Hiệu chỉ có ở Sức khỏe & Đời sống."
+  },
+  {
+   "nam": "1956",
+   "su_kien": "Các hộ từ Cầu Đất (vùng đồn điền Pháp) về Thái Phiên mang theo giống hoa gốc Pháp: lay-ơn, cúc đỏ, cẩm tú cầu, hồng, marguerite, hoàng anh, gerbera — nghề hoa bắt đầu, hoa bán ra Đà Lạt, Sài Gòn.",
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "https://baophapluat.vn/thai-phien-lang-hoa-thai-binh-post85877.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1958",
+   "su_kien": "Đình ấp Thái Phiên khánh thành; năm 1964 xây lại như ngày nay.",
+   "nguon": [
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/thai-phien.aspx"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Chỉ cổng thông tin tỉnh, em đọc qua đoạn trích tìm kiếm (trang gốc lỗi 503)."
+  },
+  {
+   "nam": "sau 1975",
+   "su_kien": "Kinh tế khó khăn, người làng chuyển phần lớn đất hoa sang trồng rau, cây lương thực, atisô; hơn 10 năm chỉ còn trồng hoa quanh nhà, nhờ vậy giữ được giống.",
+   "nguon": [
+    "https://baophapluat.vn/thai-phien-lang-hoa-thai-binh-post85877.html",
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1985–1992",
+   "su_kien": "Nghề hoa hồi lại với cúc Nhật, ly trắng, cẩm chướng; quy mô còn nhỏ lẻ.",
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Báo Lâm Đồng 2011 ghi 'mãi đến gần năm 1990'."
+  },
+  {
+   "nam": "1998",
+   "su_kien": "Bắt đầu trồng hoa trong nhà plastic với giống cúc nhập từ Indonesia, tưới tự động; diện tích hoa trong nhà kính tăng từ 30 ha lên khoảng 250–260 ha.",
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "https://baophapluat.vn/thai-phien-lang-hoa-thai-binh-post85877.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Số sau lệch: Báo Lâm Đồng 2011 ghi 250 ha, Hiệp hội Hoa ghi 260 ha."
+  },
+  {
+   "nam": "2009",
+   "su_kien": "Ngày 16/12/2009 UBND tỉnh Lâm Đồng ra Quyết định 3108/QĐ-UBND công nhận làng hoa Thái Phiên đạt tiêu chí làng nghề truyền thống — làng nghề truyền thống đầu tiên của TP Đà Lạt (Thanh Niên 01/2010).",
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "https://baophapluat.vn/thai-phien-lang-hoa-thai-binh-post85877.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Số và ngày quyết định chỉ ở Hiệp hội Hoa; Thanh Niên (16/01/2010) và Báo Lâm Đồng (01/2011) xác nhận việc công nhận dịp đầu năm 2010."
+  },
+  {
+   "nam": "2026",
+   "su_kien": "Sau sáp nhập, diện tích hoa của làng khoảng 150 ha, phần lớn trong nhà kính, hơn 40 giống cúc cùng cát tường, lily, cẩm chướng, hồng.",
+   "nguon": [
+    "https://baolamdong.vn/lang-hoa-thai-phien-truoc-them-festival-468966.html",
+    "https://hoadalattravel.vn/dia-diem-du-lich/lang-hoa-thai-phien/"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Hơn 40 giống cúc chỉ có ở Báo Lâm Đồng 12/10/2026."
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Từ bãi săn của vua tới ấp của người hồi hương",
+   "noi_dung": "Trước 1945, Thái Phiên là đồi hoang, chỗ vua Bảo Đại đi săn. Khoảng 40 hộ người Việt từ Xiêng Khoảng (Lào) về nước, bầu ông Lê Phương Miễn làm đại diện, chọn đất sát khe suối cạnh núi Hòn Bồ để khai hoang. Năm 1956 ấp Thái Phiên được lập; những năm đầu bà con trồng cây hồng, rau, rồi mới tới hoa.",
+   "nguon": [
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Tên ấp: Thái Phiên là thái bình",
+   "noi_dung": "Cụ Ngô Đàm, một người lập ấp, kể với Thanh Niên: ấp mang tên Thái Phiên để ghi nhớ công ơn một chí sĩ yêu nước, và theo nghĩa khác thì Thái Phiên là thái hòa, thái bình. (Chí sĩ Thái Phiên, 1882–1916, là nhà yêu nước đầu thế kỷ XX.)",
+   "nguon": [
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "https://vi.wikipedia.org/wiki/Th%C3%A1i_Phi%C3%AAn"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Lời kể về cách đặt tên chỉ có ở Thanh Niên; Wikipedia chỉ để xác nhận nhân vật Thái Phiên."
+  },
+  {
+   "tieu_de": "Giống hoa Pháp theo người Cầu Đất về làng",
+   "noi_dung": "Khi một số hộ từ Cầu Đất — nơi có đồn điền của Pháp — xin về Thái Phiên lập nghiệp, họ mang theo giống lay-ơn, cúc đỏ, cẩm tú cầu, hồng, marguerite. Từ đó nghề hoa lớn nhanh, hoa Thái Phiên đi Sài Gòn và cả Campuchia.",
+   "nguon": [
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://baophapluat.vn/thai-phien-lang-hoa-thai-binh-post85877.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Những năm gác hoa trồng rau",
+   "noi_dung": "Sau 1975 ít ai mua hoa, người làng chuyển đất sang rau, atisô; hơn 10 năm chỉ còn vài khóm hoa quanh nhà. Nhờ không bỏ hẳn, giống hoa cũ vẫn còn để nghề hồi lại từ khoảng 1985–1992.",
+   "nguon": [
+    "https://baophapluat.vn/thai-phien-lang-hoa-thai-binh-post85877.html",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Đêm, làng hoa thành 'thành phố ánh sáng'",
+   "noi_dung": "Thanh Niên (2010) tả: đứng trên Hòn Bồ nhìn xuống, mái nhà plastic nối nhau như khu công nghiệp; đêm về vườn cúc thắp hàng ngàn bóng đèn 3U sáng cả vùng đồi. Báo Lâm Đồng (2026) giải thích người trồng chủ động chiếu sáng, điều chỉnh ánh sáng để điều tiết sinh trưởng và thời điểm thu hoạch hoa.",
+   "nguon": [
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "https://baolamdong.vn/lang-hoa-thai-phien-truoc-them-festival-468966.html",
+    "https://mia.vn/cam-nang-du-lich/lang-hoa-thai-phien-thien-duong-quy-tu-cac-loai-hoa-da-lat-1532"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "mon": [
+  {
+   "ten": "Hoa cúc",
+   "ghi_chu": "Hoa chủ lực của làng: năm 2010 hơn 90% sản lượng làng nghề là cúc (Thanh Niên); năm 2026 hơn 40 giống cúc (Báo Lâm Đồng); làng có nhiều cơ sở nhân giống cúc cấp cho trong và ngoài tỉnh (Báo Lâm Đồng 2025).",
+   "nguon": [
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "https://baolamdong.vn/lang-hoa-thai-phien-truoc-them-festival-468966.html",
+    "https://baolamdong.vn/lam-vien-da-lat-noi-hoi-tu-cac-lang-hoa-noi-tieng-384040.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Lily, cát tường, cẩm chướng, hồng",
+   "ghi_chu": "Các loại hoa cắt cành khác trồng trong nhà kính.",
+   "nguon": [
+    "https://baolamdong.vn/lang-hoa-thai-phien-truoc-them-festival-468966.html",
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://vnexpress.net/ba-lang-hoa-noi-tieng-da-lat-2919943.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Atisô và rau",
+   "ghi_chu": "Trước khi chuyển hẳn sang hoa, phần lớn đất Thái Phiên trồng rau và atisô.",
+   "nguon": [
+    "https://baophapluat.vn/thai-phien-lang-hoa-thai-binh-post85877.html",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Cây hồng (quả)",
+   "ghi_chu": "Cây ăn trái của những năm đầu lập ấp.",
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ghi_chu": "1) Năm hồi hương lệch: 1954 (Hiệp hội Hoa, Sức khỏe & Đời sống) và 'những năm 1955–1957' (Báo Lâm Đồng 2011); năm lập ấp 1956 thì các nguồn khớp. 2) Tên người đại diện: 'Lê Phương Miễn' (Thanh Niên, Sức khỏe & Đời sống); một bản tóm tắt tìm kiếm về Địa chí Đà Lạt ghi 'Nguyễn Phương Miễn' — em không mở được Địa chí (lamdong.gov.vn lỗi 503) nên giữ 'Lê'. 3) mia.vn ghi 'người dân Lào' di cư tới — sai ý, thực ra là người Việt ở Lào hồi hương; bài mia ghi nguồn halotravel. 4) Diện tích lệch theo thời điểm và ranh tính: 78 ha làng nghề (2010), 250–260 ha nhà kính (2011), 436 ha đất nông nghiệp phường 12 (2010), khoảng 150 ha hoa (2026)."
+}

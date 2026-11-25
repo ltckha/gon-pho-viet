@@ -37,3 +37,17 @@ Mỗi hình PNG ngang 1024×512, có nền.
 - dau_pho_tran_hung_dao: con đường trên đồi thông, hai bên là biệt thự Pháp mái ngói đỏ tường vàng nhạt, xa xa thấy mặt hồ, vài quán cà phê nhìn ra hồ
 - dau_pho_nguyen_cong_tru: con phố đông vui gần trường đại học, dãy quán ăn bình dân bày bàn ghế nhựa, quán mì Quảng, quán cơm quê, một quán cà phê kiêm xưởng rang có bao cà phê
 ```
+
+## Thêm 6 khu vùng ven (25/11/2026)
+```
+Nét vẽ y hệt đợt trước (tranh đầu phố dau_pho_* đợt 35): hoạt hình ấm, viền nâu đậm, màu ấm,
+cảnh nhìn ngang dọc một con phố Đà Lạt, có nhà, cây thông, sương nhẹ, không có mặt người, KHÔNG có chữ.
+Mỗi hình PNG ngang 1024×512, có nền.
+
+- dau_pho_thung_lung_tinh_yeu: con đường đổ dốc xuống thung lũng thông có hồ nước xanh, ven đường hàng mai anh đào hồng, cổng trường đại học mái ngói đỏ ở đầu dốc
+- dau_pho_truc_lam: con đường đèo rợp thông dẫn lên thiền viện mái cong trên đồi, dưới chân là hồ nước lớn trong sương sớm, xa xa có dây cáp treo
+- dau_pho_thai_phien: con đường chạy giữa triền đồi phủ kín nhà kính trồng hoa cúc, ngôi đình nhỏ mái ngói, chiều tối đèn nhà kính sáng vàng khắp triền đồi
+- dau_pho_van_thanh: thung lũng nhà kính trắng trồng hoa ly, hoa hồng, con đường nhỏ uốn giữa vườn hoa, vài ngôi nhà mái tròn phủ cỏ như nhà trong truyện cổ tích
+- dau_pho_trai_mat: nhà ga nhỏ kiểu Pháp có đầu tàu hơi nước cổ màu đen đỏ, cạnh đó là ngôi chùa có tường khảm mảnh sành nhiều màu và con rồng dài, nhà kính trên đồi xa
+- dau_pho_lang_biang: con đường dẫn tới chân núi cao hai đỉnh trong mây, bãi cỏ có xe jeep, nhà sàn mái tranh của làng người K'Ho, ché rượu cần và cồng chiêng bên hiên
+```

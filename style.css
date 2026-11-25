@@ -263,3 +263,10 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .nen-spark .sw.open { background: #d9ec8f; border-color: #3f7d2a; }
 .nen-spark .sw.soon { background: #bad76e; }
 .deco { pointer-events: none; } .deco image { opacity: .92; }
+/* Tầng tỉnh (Lâm Đồng) cùng nét: tỉnh láng giềng xanh nhạt, phường có phố xanh sáng, phường Đà Lạt khác xanh vừa */
+.nen-spark .prov.ctx { fill: #dfe6c4; stroke: #c3cc9f; }
+.nen-spark .prov.ward { fill: #b3d168; }
+.nen-spark .prov.dalat { fill: #cde486; stroke: #3f7d2a; }
+.nen-spark .lbl.ctx { fill: #8d8f6e; stroke: #eef2dc; }
+.nen-spark .sw.dalat { background: #cde486; border-color: #3f7d2a; }
+.nen-spark .sw.ward { background: #b3d168; }

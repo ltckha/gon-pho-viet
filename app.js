@@ -44,6 +44,12 @@
       label: function (p) { return p.ten; },
       // Tên gom "Đà Lạt" ở tầm cả tỉnh, phóng tới 5 phường thì ẩn đi
       extraLabels: [['Đà Lạt', 108.44, 11.97, 0, 3.2, 'open']],
+      // Mốc (Spark của game, nét bản đồ Việt Nam): [hình, kinh độ, vĩ độ, tên, mã phường]; phóng tới đâu mốc gần đó hiện
+      // phần tử 6, 7: hiện từ mức phóng … tới dưới mức … (1 = vừa khung cả tỉnh); tầm cả tỉnh chỉ một mốc "Đà Lạt"
+      mocDiem: [['ho_xuan_huong', 108.4436, 11.9418, 'Đà Lạt', '24781', 0, 7], ['ho_xuan_huong', 108.4436, 11.9418, 'Hồ Xuân Hương', '24781', 7], ['cho_da_lat', 108.43721, 11.94342, 'Chợ Đà Lạt', '24781', 7],
+                ['nha_tho_con_ga', 108.43775, 11.93632, 'Nhà thờ Con Gà', '24781', 7], ['ga_da_lat', 108.4547, 11.9418, 'Ga Đà Lạt', '24781', 7],
+                ['vuon_hoa', 108.4493, 11.9502, 'Vườn hoa thành phố', '24781', 7], ['quang_truong', 108.44501, 11.93884, 'Quảng trường Lâm Viên', '24781', 7],
+                ['doi_che', 108.5575, 11.8822, 'Đồi chè Cầu Đất', '24805', 2.5], ['rung_thong', 108.4138, 12.0326, 'Núi Lang Biang', '24846', 2.5]],
       legend: [['open', 'Có phố đã nghiên cứu'], ['dalat', 'Phường khác của Đà Lạt (có đường)'], ['ward', 'Phường'], ['soon', 'Xã, đặc khu']],
       card: cardPhuong
     },
@@ -333,7 +339,7 @@
       inner._x = px(d[1]); inner._y = py(d[2]); inner._deco = true;
       g.appendChild(inner); pinsRoot.appendChild(g); pins.push(inner); mocs.push(inner);
     });
-    if (layer.moc) {
+    if (layer.moc || layer.mocDiem) {
       var vien = el('g', { 'class': 'bo-bien' });
       data[layer.list].forEach(function (t) { vien.appendChild(el('path', { d: pathOf(t.hinh), 'class': 'bo-hao' })); });
       data[layer.list].forEach(function (t) { vien.appendChild(el('path', { d: pathOf(t.hinh), 'class': 'bo-net' })); });
@@ -372,6 +378,19 @@
       }, layer.label(t));
       if (c === 'open') top.push(lb); else labels.appendChild(lb);
     });
+    (layer.mocDiem || []).forEach(function (m) {
+      var i = -1;
+      data[layer.list].forEach(function (t, k) { if (t.ma === m[4]) i = k; });
+      var g = el('g', { 'class': 'moc', transform: 'translate(' + px(m[1]).toFixed(1) + ' ' + py(m[2]).toFixed(1) + ')' });
+      var inner = el('g', { 'data-i': i }), sz = 40;
+      inner.appendChild(el('image', { href: 'assets/vn/moc_' + m[0] + '.webp', x: -sz / 2, y: -sz * 0.8, width: sz, height: sz * 132 / 150, 'data-i': i }));
+      inner.appendChild(el('text', { x: 0, y: sz * 0.32 + 8, 'class': 'moc-ten', 'data-i': i }, m[3]));
+      g.appendChild(inner); pinsRoot.appendChild(g); pins.push(inner);
+      var du = el('text', { x: px(m[1]).toFixed(1), y: py(m[2]).toFixed(1), 'class': 'lbl', 'data-min': 99 }, '');   // không có chữ dự phòng
+      inner._x = px(m[1]); inner._y = py(m[2]); inner._sz = sz; inner._du = du; inner._uu = m[5] ? 2 : 1;
+      inner._zmin = m[5] || 0; inner._zmax = m[6] || 1e9;
+      mocs.push(inner);
+    });
     (layer.extraLabels || []).forEach(function (q) {
       var a = { x: px(q[1]), y: py(q[2]), 'class': 'lbl ' + (q[5] || 'sea'), 'data-min': q[3] || 0 };
       if (q[4]) a['data-max'] = q[4];
@@ -399,7 +418,8 @@
         return;
       }
       var b = { x0: sx - h * 0.62, x1: sx + h * 0.62, y0: sy - h * 0.85, y1: sy + h * 0.32 + 14 };
-      var ok = dem < MOC_TOI_DA && sx > h * 0.4 && sx < r.width - h * 0.4 && sy > 70 && sy < r.height - 130 &&   // chừa ô chú thích ở đáy
+      var z = view.s / fit.s;
+      var ok = dem < MOC_TOI_DA && z >= (g._zmin || 0) && z < (g._zmax || 1e9) && sx > h * 0.4 && sx < r.width - h * 0.4 && sy > 70 && sy < r.height - 130 &&   // chừa ô chú thích ở đáy
         
         !boxes.some(function (o) { return b.x1 > o.x0 && b.x0 < o.x1 && b.y1 > o.y0 && b.y0 < o.y1; });
       if (ok) { dem++; boxes.push(b); g.parentNode.removeAttribute('display'); g._du.setAttribute('hidden', ''); }
@@ -1022,7 +1042,7 @@
       loadExtra({ key: 'ngoai', file: 'data/lang-gieng.json' }).catch(function () { return null; })]).then(function (res) {
       var d = res[0];
       data = d; layer = L; layerId = id;
-      document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam');   // tầng cả nước: nét bản đồ game Gọn Phố
+      document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam' || id === 'lam-dong');   // tầng cả nước: nét bản đồ game Gọn Phố
       document.querySelector('.osm-credit').hidden = L.kind !== 'duong';   // chỉ tầng đường dùng dữ liệu OpenStreetMap
       renderChrome();
       draw();

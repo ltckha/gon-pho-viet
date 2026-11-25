@@ -3540,8 +3540,8 @@
    "anh": null,
    "ten_that": true,
    "moi": true,
-   "lon": 108.5413,
-   "lat": 11.89287,
+   "lon": 108.55703,
+   "lat": 11.87603,
    "dia_diem": [
     {
      "ten": "Cầu Đất Farm – Đồi chè Cầu Đất",
@@ -3579,7 +3579,12 @@
        "trang": "openstreetmap.org"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.557478,
+      "lat": 11.882245,
+      "cach": "tên trên OpenStreetMap: Đồi trà cầu đất (ghép tay)",
+      "osm": "node/11916396494"
+     },
      "con_mo": "mở; mia 07/01/2026 và VinWonders cùng ghi giờ 7:30–17:00, vào cổng miễn phí, tour 90.000 đồng/người (giá tham khảo)."
     },
     {
@@ -3633,7 +3638,12 @@
        "trang": "klook.com"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.558406,
+      "lat": 11.871075,
+      "cach": "tên trên OpenStreetMap: Phát Chi (ghép tay)",
+      "osm": "node/12131489283"
+     },
      "con_mo": "mở; Báo Lâm Đồng 21/07/2025 và mia 16/06/2025 viết đang đón khách. Giờ 8:00–17:00, vé trên 100.000 đồng chỉ có ở mia → chưa ghi."
     },
     {
@@ -4090,7 +4100,7 @@
       }
      ],
      "vi_tri": {
-      "lon": 108.45424,
+      "lon": 108.454235,
       "lat": 11.94156,
       "cach": "tên trên OpenStreetMap: Ga Đà Lạt (ghép tay)",
       "osm": "node/5661470624"
@@ -4114,8 +4124,8 @@
       }
      ],
      "vi_tri": {
-      "lon": 108.45481,
-      "lat": 11.94193,
+      "lon": 108.454805,
+      "lat": 11.941928,
       "cach": "tên trên OpenStreetMap: Train Café Đà Lạt Railway Station (ghép tay)",
       "osm": "node/11715800432"
      },
@@ -4150,8 +4160,8 @@
       }
      ],
      "vi_tri": {
-      "lon": 108.45431,
-      "lat": 11.94348,
+      "lon": 108.454308,
+      "lat": 11.943481,
       "cach": "tên trên OpenStreetMap: Dalat Train Cafe (ghép tay)",
       "osm": "node/5547854021"
      },
@@ -4186,9 +4196,9 @@
       }
      ],
      "vi_tri": {
-      "lon": 108.45458,
-      "lat": 11.94433,
-      "cach": "tên trên OpenStreetMap: Still Cafe (ghép tay)",
+      "lon": 108.454585,
+      "lat": 11.944332,
+      "cach": "tên trên OpenStreetMap: Still Cafe",
       "osm": "node/6152524285"
      },
      "con_mo": "có dấu hiệu: bài mia hiện ngày 06/01/2025."
@@ -4209,12 +4219,7 @@
        "trang": "openstreetmap.org"
       }
      ],
-     "vi_tri": {
-      "lon": 108.45284,
-      "lat": 11.94213,
-      "cach": "tên trên OpenStreetMap: Cà phê Dõc Ga (ghép tay)",
-      "osm": "node/6175932386"
-     },
+     "vi_tri": null,
      "con_mo": "chưa rõ: bình luận Foody mới nhất 31/01/2020; Foody ghi hơn 3 tháng không có tương tác."
     },
     {
@@ -4237,12 +4242,7 @@
        "trang": "baolamdong.vn"
       }
      ],
-     "vi_tri": {
-      "lon": 108.45511,
-      "lat": 11.94092,
-      "cach": "tên trên OpenStreetMap: Atispho - Phở Atiso Đà Lạt (ghép tay)",
-      "osm": "node/11840597521"
-     },
+     "vi_tri": null,
      "con_mo": "có dấu hiệu: Báo Lâm Đồng 05/07/2026 còn viết về thương hiệu (không ghi địa chỉ)."
     },
     {
@@ -4266,9 +4266,9 @@
       }
      ],
      "vi_tri": {
-      "lon": 108.4529,
-      "lat": 11.94175,
-      "cach": "tên trên OpenStreetMap: Clivia Hotel (ghép tay)",
+      "lon": 108.452896,
+      "lat": 11.941748,
+      "cach": "tên trên OpenStreetMap: Clivia Hotel",
       "osm": "way/971572472"
      },
      "con_mo": "có dấu hiệu: còn nhận đặt phòng trên trip.com, hotels.com (không thấy ngày)."
@@ -4290,9 +4290,9 @@
       }
      ],
      "vi_tri": {
-      "lon": 108.45526,
-      "lat": 11.94108,
-      "cach": "tên trên OpenStreetMap: Pinus CASA (ghép tay)",
+      "lon": 108.455264,
+      "lat": 11.941083,
+      "cach": "số nhà trên OpenStreetMap: H32 KQH Phạm Hồng Thái",
       "osm": "node/10978202298"
      },
      "con_mo": "chưa rõ: tin Airbnb còn hiển thị, không có ngày."
@@ -4317,12 +4317,7 @@
        "trang": "openstreetmap.org"
       }
      ],
-     "vi_tri": {
-      "lon": 108.4595,
-      "lat": 11.94544,
-      "cach": "tên trên OpenStreetMap: Mercure Dalat Resort (ghép tay)",
-      "osm": "way/542725585"
-     },
+     "vi_tri": null,
      "con_mo": "mở: trang Accor còn nhận đặt phòng dưới tên Grand Mercure Dalat."
     },
     {
@@ -4354,9 +4349,9 @@
       }
      ],
      "vi_tri": {
-      "lon": 108.4599,
-      "lat": 11.94058,
-      "cach": "tên trên OpenStreetMap: Bảo Tàng Lâm Đồng (ghép tay)",
+      "lon": 108.459904,
+      "lat": 11.940576,
+      "cach": "tên trên OpenStreetMap: Bảo Tàng Lâm Đồng",
       "osm": "node/1152350875"
      },
      "con_mo": "mở: Nhân Dân 07/08/2025; giá vé 10.000 đ là giá mia cập nhật 12/2023."
@@ -5159,6 +5154,852 @@
        {
         "link": "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
         "trang": "tapchinghiencuuphathoc.vn"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "pho_ho_xuan_huong",
+   "slug": "ho-xuan-huong",
+   "ten_pho": "Quanh hồ Xuân Hương",
+   "duong": [
+    "Trần Quốc Toản",
+    "Hồ Tùng Mậu",
+    "Trần Nhân Tông"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Quanh hồ Xuân Hương: đường Trần Quốc Toản ôm quanh hồ chừng 5 km (hồ có từ năm 1919, danh thắng quốc gia từ 1988); bờ nam là Quảng trường Lâm Viên với nụ hoa atiso kính cao 15 m, bờ bắc là sân golf Đồi Cù mở năm 1922; ven hồ có Thủy Tạ, Thanh Thủy, bến đạp vịt.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.44489,
+   "lat": 11.94263,
+   "dia_diem": [
+    {
+     "ten": "Hồ Xuân Hương",
+     "loai": "hồ, danh thắng",
+     "dac_trung": "Hồ nhân tạo hình trăng lưỡi liềm giữa Đà Lạt, tạo năm 1919 bằng cách đắp đập ngăn suối Cam Ly (sáng kiến của công sứ Cunhac, kỹ sư Labbé); người Pháp gọi là Grand Lac, đổi tên Xuân Hương năm 1953; xếp hạng danh lam thắng cảnh quốc gia năm 1988. Vòng quanh hồ khoảng 5 km (Wikipedia: khoảng 5 km; mia.vn: khoảng 5,1 km).",
+     "dia_chi": "Trần Quốc Toản",
+     "duong": "Trần Quốc Toản",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://baovanhoa.vn/van-hoa/lam-dong-bo-sung-chinh-sua-ho-so-khoa-hoc-di-tich-danh-thang-ho-xuan-huong-200580.html",
+       "trang": "baovanhoa.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/ho-xuan-huong",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/relation/2390139",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "mặt hồ công cộng"
+    },
+    {
+     "ten": "Quảng trường Lâm Viên",
+     "loai": "quảng trường, điểm tham quan",
+     "dac_trung": "Quảng trường hơn 70.000 m² bờ nam hồ, khởi công 8/2009, hoạt động từ 2016; hai khối kính biểu tượng: nụ hoa atiso cao khoảng 15 m (quán cà phê) và bông hoa dã quỳ (nhà hát, 1.200 m²). Nơi tổ chức Festival Hoa Đà Lạt và các lễ hội lớn. Vào cửa miễn phí.",
+     "dia_chi": "Trần Quốc Toản",
+     "duong": "Trần Quốc Toản",
+     "nguon": [
+      {
+       "link": "https://tuoitre.vn/xay-quang-truong-lam-vien-da-lat-xong-du-111-ti-983047.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://nguoiquansat.vn/quang-truong-gan-700-ty-la-bieu-tuong-cua-thanh-pho-ngan-hoa-co-suc-chua-gap-1-5-lan-san-my-dinh-146050.html",
+       "trang": "nguoiquansat.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/quang-truong-lam-vien-bieu-tuong-cua-thanh-pho-da-lat-tho-mong-1340",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/Lam_Vien_Square",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://www.momo.vn/du-lich-di-lai/diem-den/da-lat/quang-truong-lam-vien-76",
+       "trang": "momo.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/quang-truong-lam-vien",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1303837487",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.445013,
+      "lat": 11.938841,
+      "cach": "tên trên OpenStreetMap: Quảng trường Lâm Viên",
+      "osm": "node/4426128791"
+     },
+     "con_mo": "mở; MoMo ghi 06:00–23:00, miễn phí (chưa rõ ngày cập nhật)."
+    },
+    {
+     "ten": "Highlands Coffee Nụ hoa Atiso (trước là DOHA Café, K'fe House)",
+     "loai": "quán cà phê trong công trình biểu tượng",
+     "dac_trung": "Quán cà phê nằm trong khối kính nụ hoa atiso của Quảng trường Lâm Viên, nhìn ra hồ; Highlands Coffee khai trương ở đây khoảng 11/2024. Trước đó quán mang tên DOHA Café, rồi K'fe House.",
+     "dia_chi": "2 Trần Quốc Toản",
+     "duong": "Trần Quốc Toản",
+     "nguon": [
+      {
+       "link": "https://daibieunhandan.vn/kinh-doanh-kieu-highlands-coffee-nhieu-mat-bang-mo-cua-hang-deu-thuoc-dang-co-tien-cung-kho-thue-10351645.html",
+       "trang": "daibieunhandan.vn"
+      },
+      {
+       "link": "https://tinhte.vn/thread/4040360",
+       "trang": "tinhte.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/5201427721",
+       "trang": "openstreetmap.org"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://caffeinatedexcursions.com/the-complete-guide-to-cafes-in-dalat-vietnam",
+       "trang": "caffeinatedexcursions.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.444437,
+      "lat": 11.938698,
+      "cach": "số nhà trên OpenStreetMap: 2 Trần Quốc Toản",
+      "osm": "node/11882697300"
+     },
+     "con_mo": "có dấu hiệu: Đại Biểu Nhân Dân 11/11/2024 đưa tin vừa khai trương; bài Tinh tế (theo kết quả tìm kiếm) là cảm nhận 7/2025."
+    },
+    {
+     "ten": "GO! Đà Lạt (trước là Big C Đà Lạt)",
+     "loai": "siêu thị",
+     "dac_trung": "Siêu thị nằm dưới khu Quảng trường Lâm Viên (OSM ghi 2 tầng hầm), mở 07:30–22:00 theo OSM.",
+     "dia_chi": "1 Hồ Tùng Mậu",
+     "duong": "Hồ Tùng Mậu",
+     "nguon": [
+      {
+       "link": "https://www.openstreetmap.org/node/3770188796",
+       "trang": "openstreetmap.org"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/Lam_Vien_Square",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/quang-truong-lam-vien-bieu-tuong-cua-thanh-pho-da-lat-tho-mong-1340",
+       "trang": "mia.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.443916,
+      "lat": 11.9384,
+      "cach": "số nhà trên OpenStreetMap: 1 Hồ Tùng Mậu",
+      "osm": "node/3770188796"
+     },
+     "con_mo": "có dấu hiệu: OSM sửa 27/04/2026 ghi giờ mở."
+    },
+    {
+     "ten": "Nhà hàng Thủy Tạ (Thủy Tạ - Nhà Hàng & Cafe)",
+     "loai": "nhà hàng, cà phê, công trình cổ",
+     "dac_trung": "Căn nhà trắng trên ốc đảo nhỏ sát bờ nam hồ; đầu thập niên 1930 người Pháp dựng làm câu lạc bộ thể thao dưới nước có cầu nhảy 3 cấp (gọi là La Grenouillère – Đầm Ếch), sau sửa thành quán giải khát, nhà hàng. Thuộc danh thắng quốc gia hồ Xuân Hương nên không được xây mới hay đổi tên.",
+     "dia_chi": "2-4 Trần Quốc Toản",
+     "duong": "Trần Quốc Toản",
+     "nguon": [
+      {
+       "link": "https://baolamdong.vn/print/388586.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/thuy-ta-nha-hang-cafe",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://tuoitre.vn/khong-duoc-doi-ten-thuy-ta-o-ho-xuan-huong-nguoi-trung-thau-bo-coc-rut-lui-20231123100938959.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/1150940211",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.442085,
+      "lat": 11.940009,
+      "cach": "tên trên OpenStreetMap: Nhà hàng Thủy Tạ (ghép tay)",
+      "osm": "node/1150940211"
+     },
+     "con_mo": "chưa rõ: tháng 10/2023 đấu giá cho thuê, người trúng bỏ cọc; 2024 tỉnh duyệt đấu giá lại (giá khởi điểm hơn 36 tỉ/10 năm), Dalattourist xin tiếp tục thuê. Báo Lâm Đồng 25/08/2025 không nói quán đang mở hay đóng. Chưa thấy tin kết quả đấu giá mới."
+    },
+    {
+     "ten": "Thanh Thủy Cafe (Nhà hàng Thanh Thủy)",
+     "loai": "quán cà phê, nhà hàng ven hồ",
+     "dac_trung": "Quán sát mép nước bờ tây bắc hồ, gần bến đạp vịt; Wikipedia tả là quán đối diện Thủy Tạ, mặt bằng rộng hơn. mia.vn (11/2026) và Vietnam Airlines vẫn gợi ý cùng Thủy Tạ, Bích Câu khi ngồi cà phê ngắm hồ.",
+     "dia_chi": "Trần Quốc Toản",
+     "duong": "Trần Quốc Toản",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/thanh-thuy-cafe",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ho-xuan-huong-da-lat",
+       "trang": "vietnamairlines.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1239012817",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "chưa rõ: mia.vn (12/11/2026) còn gợi ý nhưng không ghi giờ, địa chỉ."
+    },
+    {
+     "ten": "Xuân Hương Garden Coffee",
+     "loai": "quán cà phê sân vườn ven hồ",
+     "dac_trung": "Sân vườn nhiều khu, hai hồ cá Koi, nhìn thẳng ra mặt hồ; hợp ngồi sáng sớm, ngắm bình minh, hoàng hôn. Đi từ chợ qua Cầu Ông Đạo rồi theo Trần Quốc Toản ven hồ.",
+     "dia_chi": "1 Trần Quốc Toản",
+     "duong": "Trần Quốc Toản",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/xuan-huong-garden-coffee-review-19830",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/xuan-huong-garden-coffee",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/1324468/xuân-hương-garden-coffee",
+       "trang": "wanderlog.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu: mia.vn đăng 15/12/2025, ghi mở 07:00–22:00 (Foody ghi 07:00–21:00)."
+    },
+    {
+     "ten": "Bích Câu Coffee",
+     "loai": "quán cà phê trên mỏm đất nhô ra hồ",
+     "dac_trung": "Quán trên 'đảo' Bích Câu, phần đất nhô ra hồ, chỗ nào cũng thấy mặt hồ; lối xuống dốc.",
+     "dia_chi": "Trần Quốc Toản",
+     "duong": "Trần Quốc Toản",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/bich-cau-coffee",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://znews.vn/9-quan-ca-phe-ban-nen-ghe-khi-den-da-lat-post589171.html",
+       "trang": "znews.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ho-xuan-huong-da-lat",
+       "trang": "vietnamairlines.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "chưa rõ: theo kết quả tìm kiếm có bình luận Foody nói quán hiện 'Chưa mở cửa'; mia.vn 11/2026 vẫn nhắc tên."
+    },
+    {
+     "ten": "Bến xe đạp nước (đạp vịt) hồ Xuân Hương",
+     "loai": "bến thuyền, trò chơi trên hồ",
+     "dac_trung": "Đạp vịt trên hồ khoảng 30 năm; trước khi dừng có 3 đơn vị với 95 xe đạp nước và 3 ca nô cứu hộ. Tháng 11/2024 bị dừng vì chưa có giấy phép theo Luật Thủy lợi; tháng 8/2025 phường Xuân Hương cho chạy lại tạm thời chờ đấu thầu. Thuyền nhỏ, thuyền lớn; Vietnam Airlines ghi 60.000–120.000 đ/người/giờ.",
+     "dia_chi": "Trần Quốc Toản",
+     "duong": "Trần Quốc Toản",
+     "nguon": [
+      {
+       "link": "https://voh.com.vn/du-lich/da-lat-cho-phep-dich-vu-xe-dap-nuoc-tren-ho-xuan-huong-hoat-dong-tro-lai-611828.html",
+       "trang": "voh.com.vn"
+      },
+      {
+       "link": "https://dtinews.dantri.com.vn/print/20250821093419355.htm",
+       "trang": "dtinews.dantri.com.vn"
+      },
+      {
+       "link": "https://lifestyle.zingnews.vn/da-lat-dung-dap-vit-tren-ho-xuan-huong-post1508060.html",
+       "trang": "lifestyle.zingnews.vn"
+      },
+      {
+       "link": "https://nguoiquansat.vn/da-lat-cham-dut-hoat-dong-thuyen-dap-vit-tren-ho-xuan-huong-173459.html",
+       "trang": "nguoiquansat.vn"
+      },
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ho-xuan-huong-da-lat",
+       "trang": "vietnamairlines.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/11510015102",
+       "trang": "openstreetmap.org"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/5330468303",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "tạm thời: chạy lại từ 13/8/2025 (VOH) hoặc 20/8/2025 (Dân Trí) trong lúc chờ đấu thầu. Chưa thấy tin năm 2026."
+    },
+    {
+     "ten": "Sân golf Dalat Palace (Đồi Cù)",
+     "loai": "sân golf, đồi cỏ",
+     "dac_trung": "Sân golf trên Đồi Cù sát bờ bắc hồ, khánh thành 1922, được gọi là sân golf đầu tiên của Việt Nam; ban đầu thiết kế bởi H. S. Colt và C. H. Alison. Năm 1990 tỉnh cấp phép nâng lên 18 lỗ (Dalat Palace Golf Club), sửa lớn năm 1994; nay par 72, dài nhất 7.009 yard.",
+     "dia_chi": "Trần Quốc Toản",
+     "duong": "Trần Quốc Toản",
+     "nguon": [
+      {
+       "link": "https://www.golfpass.com/courses/22024-dalat-palace-golf-club/",
+       "trang": "golfpass.com"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93i_C%C3%B9",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/doi-cu.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/99661171",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.44498,
+      "lat": 11.947608,
+      "cach": "tên trên OpenStreetMap: Sân Golf Đà Lạt (ghép tay)",
+      "osm": "way/99661171"
+     },
+     "con_mo": "sân golf tư nhân, khách thường không vào đánh tự do; giá, giờ chưa rõ."
+    },
+    {
+     "ten": "Vườn hoa thành phố Đà Lạt",
+     "loai": "vườn hoa, điểm tham quan (có vé)",
+     "dac_trung": "Vườn hoa ở mút đông bắc hồ, xây từ năm 1966 với tên Vườn hoa Bích Câu / Công viên hoa Đà Lạt, bỏ hoang rồi khôi phục năm 1985; cổng hoa lớn, vườn xương rồng, mô hình xe ngựa; mỗi Tết có Hội hoa xuân. Vé người lớn 100.000 đ (Vietnam Airlines, mytour từ 2023).",
+     "dia_chi": "2 Trần Nhân Tông",
+     "duong": "Trần Nhân Tông",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/vuon-hoa-thanh-pho-da-lat",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://www.vietnamairlines.com/vn/vi/plan-book/travel/travel-guide/vuon-hoa-da-lat",
+       "trang": "vietnamairlines.com"
+      },
+      {
+       "link": "https://mytour.vn/vi/blog/bai-viet/vuon-hoa-da-lat-diem-den-noi-tieng-nhat-trong-xu-so-suong-mu.html",
+       "trang": "mytour.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/vuon-hoa-thanh-pho-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/11916349146",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.449945,
+      "lat": 11.950281,
+      "cach": "tên trên OpenStreetMap: Vườn hoa thành phố Đà Lạt",
+      "osm": "node/11916349146"
+     },
+     "con_mo": "mở; giờ lệch: 07:00–18:00 (Vietnam Airlines, mytour, VinWonders 12/2025; Vietnam Airlines thêm thứ Sáu, thứ Bảy đến 22:00), Foody 08:00–17:00."
+    }
+   ],
+   "can_kiem_them": 5,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_ho-xuan-huong.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Nguyễn Thái Học",
+      "thoi_gian": "tên cũ của một đoạn Trần Quốc Toản (Phường 1 cũ); năm đổi chưa rõ",
+      "nguon": [
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-nguyen-thai-hoc-cu-phuong-1",
+        "trang": "thuviennhadat.vn"
+       },
+       {
+        "link": "https://www.openstreetmap.org/way/361851710",
+        "trang": "openstreetmap.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "ten": "Bà Huyện Thanh Quan",
+      "thoi_gian": "tên cũ của đoạn Trần Quốc Toản từ ngã ba Yersin (Nhà khách Công Đoàn) tới Đinh Tiên Hoàng (Phường 10 cũ); năm đổi chưa rõ",
+      "nguon": [
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-ba-huyen-thanh-quan-cu-phuong-10",
+        "trang": "thuviennhadat.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "ten": "Yersin",
+      "thoi_gian": "tên cũ của đoạn Trần Quốc Toản từ Hồ Tùng Mậu tới ngã ba Yersin (Phường 10 cũ); năm đổi chưa rõ",
+      "nguon": [
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-yersin-cu-phuong-10",
+        "trang": "thuviennhadat.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "ten": "Grand Lac (Hồ Lớn)",
+      "thoi_gian": "tên thời Pháp của hồ, tới năm 1953",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://www.openstreetmap.org/relation/2390139",
+        "trang": "openstreetmap.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "ten": "Đà Lạt Central Square / Quảng trường trung tâm Đà Lạt",
+      "thoi_gian": "tên lúc đang xây, trước 10/11/2011",
+      "nguon": [
+       {
+        "link": "https://en.wikipedia.org/wiki/Lam_Vien_Square",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "ten": "Vườn hoa Bích Câu / Công viên hoa Đà Lạt",
+      "thoi_gian": "tên cũ của Vườn hoa thành phố (từ 1966)",
+      "nguon": [
+       {
+        "link": "https://mytour.vn/vi/blog/bai-viet/vuon-hoa-da-lat-diem-den-noi-tieng-nhat-trong-xu-so-suong-mu.html",
+        "trang": "mytour.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/vuon-hoa-thanh-pho-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1919",
+      "su_kien": "Công sứ Cunhac đề xướng, kỹ sư công chánh Labbé đắp đập ngăn suối Cam Ly, tạo hồ.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1922",
+      "su_kien": "Sân golf trên Đồi Cù khánh thành (H. S. Colt, C. H. Alison thiết kế), được gọi là sân golf đầu tiên của Việt Nam.",
+      "nguon": [
+       {
+        "link": "https://www.golfpass.com/courses/22024-dalat-palace-golf-club/",
+        "trang": "golfpass.com"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93i_C%C3%B9",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1923",
+      "su_kien": "Xây thêm một đập phía dưới, hồ thành hai hồ nối nhau.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "Đầu thập niên 1930",
+      "su_kien": "Người Pháp tạo ốc đảo nhỏ trên hồ, dựng câu lạc bộ thể thao dưới nước (nay là Thủy Tạ).",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/print/388586.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "3/1932",
+      "su_kien": "Bão lớn làm vỡ cả hai đập, ngập vùng dưới hồ.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1934–1935",
+      "su_kien": "Xây đập đá lớn (dân gọi Cầu Ông Đạo), hồ có hình dáng như bây giờ.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1953",
+      "su_kien": "Hồ đổi tên từ Grand Lac thành hồ Xuân Hương.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1966",
+      "su_kien": "Bắt đầu xây Vườn hoa Bích Câu (nay là Vườn hoa thành phố); sau bị bỏ hoang, khôi phục năm 1985.",
+      "nguon": [
+       {
+        "link": "https://mytour.vn/vi/blog/bai-viet/vuon-hoa-da-lat-diem-den-noi-tieng-nhat-trong-xu-so-suong-mu.html",
+        "trang": "mytour.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/vuon-hoa-thanh-pho-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1988",
+      "su_kien": "Hồ Xuân Hương được công nhận danh lam thắng cảnh cấp quốc gia.",
+      "nguon": [
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/van-hoa/lam-dong-bo-sung-chinh-sua-ho-so-khoa-hoc-di-tich-danh-thang-ho-xuan-huong-200580.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "8/8/1990",
+      "su_kien": "Tỉnh Lâm Đồng cấp phép nâng sân golf lên 18 lỗ (Dalat Palace Golf Club), 71,5 ha, thời hạn 50 năm.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93i_C%C3%B9",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mytour.vn/vi/blog/bai-viet/doi-cu.html",
+        "trang": "mytour.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "8/2009 – 2016",
+      "su_kien": "Xây Quảng trường Lâm Viên (khởi công 8/2009, hoạt động 2016).",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/xay-quang-truong-lam-vien-da-lat-xong-du-111-ti-983047.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/quang-truong-lam-vien-bieu-tuong-cua-thanh-pho-da-lat-tho-mong-1340",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://nguoiquansat.vn/quang-truong-gan-700-ty-la-bieu-tuong-cua-thanh-pho-ngan-hoa-co-suc-chua-gap-1-5-lan-san-my-dinh-146050.html",
+        "trang": "nguoiquansat.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "10/2023",
+      "su_kien": "Đấu giá cho thuê Thủy Tạ: giá trúng vượt 15 tỉ đồng/năm, người trúng bỏ cọc vì không được đổi tên.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/khong-duoc-doi-ten-thuy-ta-o-ho-xuan-huong-nguoi-trung-thau-bo-coc-rut-lui-20231123100938959.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/print/388586.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/saigontimes/chuan-bi-dau-gia-nhieu-cong-trinh-noi-tieng-tai-da-lat-106906242.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "8/6/2024",
+      "su_kien": "Khai trương phố đi bộ Trần Quốc Toản bên hồ, 1,6 km, tối thứ Sáu – Chủ nhật.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ocop/them-mot-tuyen-pho-di-bo-lang-man-tai-pho-nui-da-lat-post813400.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vietnamnet.vn/en/da-lat-to-expand-pedestrian-space-along-cu-hill-xuan-huong-lake-2307538.html",
+        "trang": "vietnamnet.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "11/2024",
+      "su_kien": "Dừng đạp vịt trên hồ vì chưa có giấy phép; Highlands Coffee khai trương trong nụ hoa atiso.",
+      "nguon": [
+       {
+        "link": "https://lifestyle.zingnews.vn/da-lat-dung-dap-vit-tren-ho-xuan-huong-post1508060.html",
+        "trang": "lifestyle.zingnews.vn"
+       },
+       {
+        "link": "https://nguoiquansat.vn/da-lat-cham-dut-hoat-dong-thuyen-dap-vit-tren-ho-xuan-huong-173459.html",
+        "trang": "nguoiquansat.vn"
+       },
+       {
+        "link": "https://daibieunhandan.vn/kinh-doanh-kieu-highlands-coffee-nhieu-mat-bang-mo-cua-hang-deu-thuoc-dang-co-tien-cung-kho-thue-10351645.html",
+        "trang": "daibieunhandan.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "31/3/2025",
+      "su_kien": "Ngừng xe ngựa chở khách quanh hồ (22 xe, khoảng 30 hộ).",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/tiep-tuc-cam-xe-ngua-hoat-dong-quanh-ho-xuan-huong-438660.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://nhandan.vn/da-lat-ngung-dich-vu-xe-ngua-cho-khach-quanh-ho-xuan-huong-post861785.html",
+        "trang": "nhandan.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "8/2025",
+      "su_kien": "Phường Xuân Hương cho đạp vịt chạy lại tạm thời chờ đấu thầu.",
+      "nguon": [
+       {
+        "link": "https://voh.com.vn/du-lich/da-lat-cho-phep-dich-vu-xe-dap-nuoc-tren-ho-xuan-huong-hoat-dong-tro-lai-611828.html",
+        "trang": "voh.com.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20250821093419355.htm",
+        "trang": "dtinews.dantri.com.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "10/2025",
+      "su_kien": "Đóng phố đi bộ Trần Quốc Toản sau hơn một năm thí điểm.",
+      "nguon": [
+       {
+        "link": "https://news.tuoitre.vn/vietnams-da-lat-shuts-down-lakeside-pedestrian-street-because-of-congestion-low-foot-traffic-103251024152652755.htm",
+        "trang": "news.tuoitre.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/kinh-te-dem-da-lat-khong-chi-la-nhung-pho-dong-nguoi-468577.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Từ Đầm Ếch thành Thủy Tạ",
+      "noi_dung": "Đầu thập niên 1930, người Pháp tạo một ốc đảo nhỏ trên hồ và dựng câu lạc bộ thể thao dưới nước, có cầu nhảy 3 cấp, chỉ dành cho người Pháp. Họ gọi nơi này là La Grenouillère – Đầm Ếch, theo tên một chốn vui chơi ngoại ô Paris. Về sau căn nhà trắng được sửa thành quán giải khát, nhà hàng Thủy Tạ.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/print/388586.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "tieu_de": "Trả 15 tỉ một năm mà không được đổi tên",
+      "noi_dung": "Cuối năm 2023, phiên đấu giá cho thuê Thủy Tạ lên tới hơn 15 tỉ đồng một năm, gấp năm lần giá khởi điểm khoảng 3 tỉ. Người trúng rồi bỏ cọc, rút lui vì muốn đổi tên nhà hàng mà không được: Thủy Tạ thuộc danh thắng quốc gia hồ Xuân Hương, không được xây mới hay thay tên.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/khong-duoc-doi-ten-thuy-ta-o-ho-xuan-huong-nguoi-trung-thau-bo-coc-rut-lui-20231123100938959.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/print/388586.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/saigontimes/chuan-bi-dau-gia-nhieu-cong-trinh-noi-tieng-tai-da-lat-106906242.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Cái đập thành cây cầu",
+      "noi_dung": "Năm 1932 bão làm vỡ cả hai đập của hồ. Năm 1934–1935 người ta xây lại một đập đá lớn; đập cũng là đường đi nên dân gọi là Cầu Ông Đạo, theo tên 'ông Đạo' – vị quản đạo có dinh trước đập.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Ngựa rời hồ",
+      "noi_dung": "Xe ngựa chở khách quanh hồ đã gắn với Đà Lạt từ những năm 1930. Đến 31/3/2025 thành phố cho dừng: hầu hết hộ chưa có giấy phép, chưa đóng thuế, chất thải ngựa gây mùi, mà Trần Quốc Toản chỉ có một làn một chiều. Đến tháng 4/2026 tỉnh vẫn giữ lệnh cấm; từng tính chuyển xe ngựa sang hồ Tuyền Lâm.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/da-lat-ngung-dich-vu-xe-ngua-cho-khach-quanh-ho-xuan-huong-post861785.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/tiep-tuc-cam-xe-ngua-hoat-dong-quanh-ho-xuan-huong-438660.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Ba mươi năm đạp vịt chưa có giấy phép",
+      "noi_dung": "Đạp vịt trên hồ Xuân Hương chạy khoảng 30 năm, có lúc 95 xe đạp nước và 3 ca nô cứu hộ của 3 đơn vị. Tháng 11/2024 phải dừng vì theo Luật Thủy lợi dịch vụ này phải được cấp phép mà chưa ai có phép. Tháng 8/2025 phường cho chạy lại tạm thời, chờ đấu thầu.",
+      "nguon": [
+       {
+        "link": "https://lifestyle.zingnews.vn/da-lat-dung-dap-vit-tren-ho-xuan-huong-post1508060.html",
+        "trang": "lifestyle.zingnews.vn"
+       },
+       {
+        "link": "https://nguoiquansat.vn/da-lat-cham-dut-hoat-dong-thuyen-dap-vit-tren-ho-xuan-huong-173459.html",
+        "trang": "nguoiquansat.vn"
+       },
+       {
+        "link": "https://voh.com.vn/du-lich/da-lat-cho-phep-dich-vu-xe-dap-nuoc-tren-ho-xuan-huong-hoat-dong-tro-lai-611828.html",
+        "trang": "voh.com.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Phố đi bộ chỉ sống được một năm",
+      "noi_dung": "Ngày 8/6/2024 Đà Lạt mở phố đi bộ 1,6 km trên Trần Quốc Toản, từ nút Đinh Tiên Hoàng tới Vườn hoa thành phố, tối thứ Sáu tới Chủ nhật có nhạc, zumba, patin, ẩm thực đêm, để bớt đông cho khu Hòa Bình và chợ đêm. Sau hơn một năm, phường Xuân Hương - Đà Lạt đóng lại vì ít khách mà đường xung quanh lại kẹt.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/ocop/them-mot-tuyen-pho-di-bo-lang-man-tai-pho-nui-da-lat-post813400.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://news.tuoitre.vn/vietnams-da-lat-shuts-down-lakeside-pedestrian-street-because-of-congestion-low-foot-traffic-103251024152652755.htm",
+        "trang": "news.tuoitre.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Đồi Cù: lưng cừu hay đánh cù",
+      "noi_dung": "Có hai cách giải thích tên Đồi Cù: những quả đồi thoai thoải nhìn xa như lưng cừu; hoặc vì người xưa gọi chơi golf là 'đánh cù'.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93i_C%C3%B9",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mytour.vn/vi/blog/bai-viet/doi-cu.html",
+        "trang": "mytour.vn"
        }
       ],
       "mot_nguon": true

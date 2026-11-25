@@ -24,6 +24,13 @@ STOP = {'quan', 'tiem', 'cafe', 'ca', 'phe', 'coffee', 'cf', 'nha', 'da', 'lat',
 
 # Tên trên OSM viết khác tên quán — em (Claude) đã soát tay từng cặp ngày 25/11/2026; vẫn phải sát đúng đường ≤ 80 m.
 ALIAS = {
+    'Ga Đà Lạt (Ga hỏa xa Đà Lạt)': 'Ga Đà Lạt',                        # node 5661470624
+    'Quán cà phê trong ga Đà Lạt (Train Café)': 'Train Café Đà Lạt Railway Station',
+    'Dalat Train Villa & Cafe (cà phê Xe Lửa)': 'Dalat Train Cafe',     # OSM ghi 1 Quang Trung, đúng địa chỉ nguồn
+    'Nhà hàng Thủy Tạ (Thủy Tạ - Nhà Hàng & Cafe)': 'Nhà hàng Thủy Tạ',
+    'Sân golf Dalat Palace (Đồi Cù)': 'Sân Golf Đà Lạt',                # way 99661171
+    'Cầu Đất Farm – Đồi chè Cầu Đất': 'Đồi trà cầu đất',                # node 11916396494, addr Quốc lộ 20
+    'Bảo tàng trà Long Đỉnh': 'Phát Chi',                               # Long Đỉnh = trà Phát Chi (nghiên cứu)
     'Đồi Ra Đa (đỉnh Radar)': 'Đồi Radar',                              # node natural=peak 2090212777
     'Hồ Đankia – Suối Vàng': 'Hồ Suối Vàng',
     'Ga Trại Mát': 'Trại Mát',                                          # node railway=station 3377406129
@@ -212,6 +219,7 @@ def main(osm_dir):
                 for q in pho.get('dia_diem', []):
                     if same_name(q['ten'], t['name']) or (q['ten'] in ALIAS and same_name(ALIAS[q['ten']], t['name'])):
                         taken[oid] = q['ten']
+        dung = set()   # điểm OSM đã gắn cho một nơi trong phố này: không gắn lại cho nơi khác (khỏi chồng chấm)
         for p in pho.get('dia_diem', []):
             road = p.get('duong') or pho.get('road')
             p['vi_tri'] = None
@@ -219,6 +227,8 @@ def main(osm_dir):
             cands = []
             for oid, t, pt in feats:
                 name = t.get('name')
+                if oid in dung:
+                    continue
                 if name and (same_name(p['ten'], name) or (p['ten'] in ALIAS and same_name(ALIAS[p['ten']], name))):
                     d = near_road(pt, road)
                     # nơi rộng (chùa, thác, khu du lịch, hồ, trường…) nằm sâu trong khuôn viên: cho xa đường tới 600 m, vẫn phải đúng tên
@@ -229,7 +239,7 @@ def main(osm_dir):
             if not cands and p.get('so_nha'):
                 for oid, t, pt in feats:
                     # điểm mang đúng tên một nơi khác trong cùng phố (vd La Viet Coffee ghi số 198) thì không lấy cho quán này
-                    if taken.get(oid, p['ten']) != p['ten']:
+                    if taken.get(oid, p['ten']) != p['ten'] or oid in dung:
                         continue
                     if t.get('addr:housenumber', '').upper() == str(p['so_nha']).upper() and words(t.get('addr:street', '')) == words(road):
                         cands.append((near_road(pt, road), oid, pt, 'số nhà trên OpenStreetMap: ' + t['addr:housenumber'] + ' ' + t['addr:street']))
@@ -237,6 +247,7 @@ def main(osm_dir):
                 cands.sort()
                 d, oid, pt, how = cands[0]
                 p['vi_tri'] = {'lon': round(pt[0], 6), 'lat': round(pt[1], 6), 'cach': how, 'osm': oid}
+                dung.add(oid)
                 found += 1
             elif lead_num(p.get('so_nha')) is not None:
                 num = lead_num(p['so_nha'])

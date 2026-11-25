@@ -101,7 +101,7 @@
    "con_mo": "mở: Nhân Dân 07/03/2026 và 12/06/2026 còn viết về khách tham quan, tàu chạy; VinWonders ghi 07:00–18:00. Giá vé vào ga lệch (mia 2023: 10.000 đ; VinWonders: 5.000 đ) → không ghi giá.",
    "ghi_chu": "Năm xong lệch: 1938 (Nhân Dân 06/2026 dẫn Địa chí Đà Lạt, Wikipedia, VinWonders) / 'đưa vào sử dụng 4 năm sau' tức khoảng 1936 (VnExpress 2018). Năm công nhận di tích lệch: 2001 (Nhân Dân 03/2026 và 06/2026) / 2011 (VinWonders). Kích thước: Nhân Dân 66 x 11,5 x 11 m; Wikipedia 66,5 x 11,4 x 11 m. Ý đồng hồ tưởng nhớ lúc Yersin tìm ra Đà Lạt chỉ có ở Wikipedia → không đưa vào. OSM chỉ có điểm tham quan 'Ga Đà Lạt' (tourism=attraction), không có railway=station; duong.json chưa có mốc ga Đà Lạt.",
    "vi_tri": {
-    "lon": 108.45424,
+    "lon": 108.454235,
     "lat": 11.94156,
     "cach": "tên trên OpenStreetMap: Ga Đà Lạt (ghép tay)",
     "osm": "node/5661470624"
@@ -122,8 +122,8 @@
    "con_mo": "chưa rõ: bài mia đăng 22/09/2023; OSM ghi tên 'Train Café Đà Lạt Railway Station' (không ghi ngày).",
    "ghi_chu": "mia không nêu tên quán; em ghép với điểm OSM vì cùng nằm trong sân ga. Chưa rõ quán này có liên quan với 'Đà Lạt Coffee Train' (King Coffee, từ 15/12/2025) hay không.",
    "vi_tri": {
-    "lon": 108.45481,
-    "lat": 11.94193,
+    "lon": 108.454805,
+    "lat": 11.941928,
     "cach": "tên trên OpenStreetMap: Train Café Đà Lạt Railway Station (ghép tay)",
     "osm": "node/11715800432"
    }
@@ -146,8 +146,8 @@
    "con_mo": "chưa rõ: bài mới nhất em đọc được là vietnambooking (hiện ngày 10/01/2024, siêu dữ liệu 2017) và VnExpress International 19/06/2020; trip.com lúc chụp ghi đang đóng cửa (có thể chỉ ngoài giờ).",
    "ghi_chu": "Trip.com ghi '1 Quang Trung St, Ward 9, Villa #3'. Znews không ghi địa chỉ, chỉ nói 'trong khuôn viên khu biệt thự đường sắt'. Điểm OSM 'Dalat Train Cafe' (addr 1 Quang Trung) lại nằm cách Nguyễn Trãi khoảng 39 m, cách Quang Trung khoảng 110 m, trong Lâm Viên theo phuong.json.",
    "vi_tri": {
-    "lon": 108.45431,
-    "lat": 11.94348,
+    "lon": 108.454308,
+    "lat": 11.943481,
     "cach": "tên trên OpenStreetMap: Dalat Train Cafe (ghép tay)",
     "osm": "node/5547854021"
    }
@@ -170,9 +170,9 @@
    "con_mo": "có dấu hiệu: bài mia hiện ngày 06/01/2025.",
    "ghi_chu": "Giờ mở lệch nhẹ giữa các trang (7–22h mia; 8–21h vài trang khác).",
    "vi_tri": {
-    "lon": 108.45458,
-    "lat": 11.94433,
-    "cach": "tên trên OpenStreetMap: Still Cafe (ghép tay)",
+    "lon": 108.454585,
+    "lat": 11.944332,
+    "cach": "tên trên OpenStreetMap: Still Cafe",
     "osm": "node/6152524285"
    }
   },
@@ -190,12 +190,7 @@
    "do_tin_cay": "thấp",
    "con_mo": "chưa rõ: bình luận Foody mới nhất 31/01/2020; Foody ghi hơn 3 tháng không có tương tác.",
    "ghi_chu": "OSM ghi tên 'Cà phê Dõc Ga' (viết sai dấu), tên tiếng Anh 'GARE de CAFE', cùng số 17/1 Nguyễn Trãi, giờ 07:00–21:00. Điểm cách đường 'Hẻm 17 Nguyễn Trãi' và 'Nguyễn Trãi' khoảng 21–22 m. Nguồn đều cũ → tin cậy thấp, nên kiểm lại trước khi đặt lên bản đồ.",
-   "vi_tri": {
-    "lon": 108.45284,
-    "lat": 11.94213,
-    "cach": "tên trên OpenStreetMap: Cà phê Dõc Ga (ghép tay)",
-    "osm": "node/6175932386"
-   }
+   "vi_tri": null
   },
   {
    "ten": "Atispho – Phở Atiso Đà Lạt",
@@ -212,12 +207,7 @@
    "do_tin_cay": "trung bình",
    "con_mo": "có dấu hiệu: Báo Lâm Đồng 05/07/2026 còn viết về thương hiệu (không ghi địa chỉ).",
    "ghi_chu": "Địa chỉ chỉ có ở wanderlog và OSM (OSM ghi 'Chi nhánh Đà Lạt - Lô H19, 20', Phường 10); Báo Lâm Đồng chỉ xác nhận món và thương hiệu. Điểm OSM nằm trong khu quy hoạch, cách đường 'Phạm Hồng Thái' khoảng 126 m, cách Quang Trung khoảng 170 m.",
-   "vi_tri": {
-    "lon": 108.45511,
-    "lat": 11.94092,
-    "cach": "tên trên OpenStreetMap: Atispho - Phở Atiso Đà Lạt (ghép tay)",
-    "osm": "node/11840597521"
-   }
+   "vi_tri": null
   },
   {
    "ten": "Clivia Hotel",
@@ -235,9 +225,9 @@
    "con_mo": "có dấu hiệu: còn nhận đặt phòng trên trip.com, hotels.com (không thấy ngày).",
    "ghi_chu": "Hotels.com ghi '26 Nguyen Trai' (thiếu A). Số phòng lệch 17/15 → không ghi số trong câu.",
    "vi_tri": {
-    "lon": 108.4529,
-    "lat": 11.94175,
-    "cach": "tên trên OpenStreetMap: Clivia Hotel (ghép tay)",
+    "lon": 108.452896,
+    "lat": 11.941748,
+    "cach": "tên trên OpenStreetMap: Clivia Hotel",
     "osm": "way/971572472"
    }
   },
@@ -256,9 +246,9 @@
    "con_mo": "chưa rõ: tin Airbnb còn hiển thị, không có ngày.",
    "ghi_chu": "Airbnb chỉ hiện vị trí chính xác sau khi đặt; địa chỉ H32 KQH Phạm Hồng Thái chỉ có ở OSM (OSM ghi 5 phòng, Phường 10).",
    "vi_tri": {
-    "lon": 108.45526,
-    "lat": 11.94108,
-    "cach": "tên trên OpenStreetMap: Pinus CASA (ghép tay)",
+    "lon": 108.455264,
+    "lat": 11.941083,
+    "cach": "số nhà trên OpenStreetMap: H32 KQH Phạm Hồng Thái",
     "osm": "node/10978202298"
    }
   },
@@ -277,12 +267,7 @@
    "do_tin_cay": "cao",
    "con_mo": "mở: trang Accor còn nhận đặt phòng dưới tên Grand Mercure Dalat.",
    "ghi_chu": "Hơi xa ga (khoảng 700 m theo đường chim bay từ điểm OSM, Accor ghi 900 m đi bộ). OSM vẫn ghi tên 'Mercure Dalat Resort'; điểm cách 'Ký Con' 43 m, 'Nguyễn Du' 52 m.",
-   "vi_tri": {
-    "lon": 108.4595,
-    "lat": 11.94544,
-    "cach": "tên trên OpenStreetMap: Mercure Dalat Resort (ghép tay)",
-    "osm": "way/542725585"
-   }
+   "vi_tri": null
   },
   {
    "ten": "Bảo tàng Lâm Đồng",
@@ -302,9 +287,9 @@
    "con_mo": "mở: Nhân Dân 07/08/2025; giá vé 10.000 đ là giá mia cập nhật 12/2023.",
    "ghi_chu": "Cách ga khoảng 600 m theo đường chim bay (phía đông nam). Năm thành lập (xây 8/1975, đổi tên Bảo tàng Lâm Đồng 1/1982) chỉ có ở mia → không đưa vào đặc trưng. duong.json có mốc 'Bảo Tàng Lâm Đồng'.",
    "vi_tri": {
-    "lon": 108.4599,
-    "lat": 11.94058,
-    "cach": "tên trên OpenStreetMap: Bảo Tàng Lâm Đồng (ghép tay)",
+    "lon": 108.459904,
+    "lat": 11.940576,
+    "cach": "tên trên OpenStreetMap: Bảo Tàng Lâm Đồng",
     "osm": "node/1152350875"
    }
   }

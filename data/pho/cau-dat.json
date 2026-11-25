@@ -101,7 +101,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "mở; mia 07/01/2026 và VinWonders cùng ghi giờ 7:30–17:00, vào cổng miễn phí, tour 90.000 đồng/người (giá tham khảo).",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.557478,
+    "lat": 11.882245,
+    "cach": "tên trên OpenStreetMap: Đồi trà cầu đất (ghép tay)",
+    "osm": "node/11916396494"
+   },
    "ghi_chu": "OSM có điểm 'Đồi trà cầu đất' (leisure=park, node 11916396494, addr:street Quốc lộ 20) và tác phẩm 'đồi chè cầu đất' (node 6546337786). Foody ghi giờ 7:00–19:00 nhưng bình luận mới nhất 2020 → không dùng. Hai bài mia tính 1 trang."
   },
   {
@@ -137,7 +142,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "mở; Báo Lâm Đồng 21/07/2025 và mia 16/06/2025 viết đang đón khách. Giờ 8:00–17:00, vé trên 100.000 đồng chỉ có ở mia → chưa ghi.",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.558406,
+    "lat": 11.871075,
+    "cach": "tên trên OpenStreetMap: Phát Chi (ghép tay)",
+    "osm": "node/12131489283"
+   },
    "ghi_chu": "Diện tích lệch: Báo Lào Cai (lấy từ QĐND, 20/02/2024) ghi 3,4 ha; Báo Lâm Đồng ghi khoảng 3.500 m² → không ghi. OSM chưa có điểm này."
   },
   {

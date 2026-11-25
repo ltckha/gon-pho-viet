@@ -1,0 +1,399 @@
+{
+ "road": "Trần Quốc Toản",
+ "duong": [
+  "Trần Quốc Toản",
+  "Hồ Tùng Mậu",
+  "Trần Nhân Tông"
+ ],
+ "ten_osm": [
+  "Trần Quốc Toản",
+  "Hồ Tùng Mậu",
+  "Trần Nhân Tông"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020/QĐ-UBND (sửa bởi QĐ 16/2021) trên thuviennhadat chia Trần Quốc Toản làm 4 mục: 'Trần Quốc Toản – PHƯỜNG 3' (trọn đường); 'Trần Quốc Toản (Nguyễn Thái Học cũ) – PHƯỜNG 1' (trọn đường); 'Trần Quốc Toản (Yersin cũ) – PHƯỜNG 10' (từ Hồ Tùng Mậu đến ngã ba Trần Quốc Toản – Yersin, Nhà khách Công Đoàn); 'Trần Quốc Toản (Bà Huyện Thanh Quan cũ) – PHƯỜNG 10' (từ ngã ba Trần Quốc Toản – Yersin đến Đinh Tiên Hoàng). Theo NQ 1671 mục 99: Phường 1, 2, 3, 4, 10 → phường Xuân Hương - Đà Lạt. Kiểm chéo ranh giới phuong.json: 33/40 điểm của đường Trần Quốc Toản trong duong.json nằm trong Xuân Hương; 7 điểm ở mút đông bắc (chỗ gặp Trần Nhân Tông, cạnh Vườn hoa thành phố) nằm trong Lâm Viên - Đà Lạt. Bảng giá không có mục Trần Quốc Toản thuộc Phường 8, nhưng Foody ghi Vườn hoa thành phố 'Trần Quốc Toản, P. 8' → khúc mút đông bắc em để 'chưa rõ'. Hồ Tùng Mậu: bảng giá ghi Phường 3 và Phường 10 → Xuân Hương (chắc). Trần Nhân Tông: bảng giá ghi Phường 8 → Lâm Viên - Đà Lạt (chắc); chỉ có Vườn hoa thành phố gắn với đường này.",
+ "doan": [
+  {
+   "doan": "Trần Quốc Toản (Nguyễn Thái Học cũ): trọn đoạn",
+   "phuong_cu": "Phường 1",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-nguyen-thai-hoc-cu-phuong-1",
+   "ghi_chu": "Giá vị trí 1: 28.800.000 đ/m² (bảng giá 2020–2021, đã hết hiệu lực từ 01/01/2026)."
+  },
+  {
+   "doan": "Trần Quốc Toản: trọn đoạn thuộc Phường 3",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-phuong-3",
+   "ghi_chu": "Giá vị trí 1: 22.000.000 đ/m². Bảng giá không ghi mốc đầu cuối; theo ranh giới cũ đây là bờ nam hồ (phía Quảng trường Lâm Viên, Thủy Tạ)."
+  },
+  {
+   "doan": "Trần Quốc Toản (Yersin cũ): Hồ Tùng Mậu – ngã ba Trần Quốc Toản – Yersin (Nhà khách Công Đoàn, thửa 15 tờ 24)",
+   "phuong_cu": "Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-yersin-cu-phuong-10",
+   "ghi_chu": "Giá vị trí 1: 20.000.000 đ/m²."
+  },
+  {
+   "doan": "Trần Quốc Toản (Bà Huyện Thanh Quan cũ): ngã ba Trần Quốc Toản – Yersin (Nhà khách Công Đoàn) – Đinh Tiên Hoàng",
+   "phuong_cu": "Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-ba-huyen-thanh-quan-cu-phuong-10",
+   "ghi_chu": "Giá vị trí 1: 15.200.000 đ/m². Theo ranh giới phuong.json, khúc cuối gần Vườn hoa thành phố lấn sang Lâm Viên - Đà Lạt (xem đoạn dưới)."
+  },
+  {
+   "doan": "Trần Quốc Toản: mút đông bắc, chỗ gặp Trần Nhân Tông cạnh Vườn hoa thành phố",
+   "phuong_cu": "chưa rõ (Phường 8 hoặc 10)",
+   "phuong_moi": "Lâm Viên - Đà Lạt (theo ranh giới phuong.json) / Xuân Hương - Đà Lạt (theo bảng giá)",
+   "do_chac": "chưa rõ",
+   "nguon": "data/lam-dong/phuong.json; https://www.foody.vn/lam-dong/vuon-hoa-thanh-pho-da-lat",
+   "ghi_chu": "Bảng giá không có Trần Quốc Toản – Phường 8, nhưng Foody, mytour ghi Vườn hoa 'Trần Quốc Toản, Phường 8'."
+  },
+  {
+   "doan": "Hồ Tùng Mậu: trọn đường",
+   "phuong_cu": "Phường 3, Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/ho-tung-mau-phuong-3",
+   "ghi_chu": "Có cả trang https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/ho-tung-mau-phuong-10; giá vị trí 1: 20.800.000 đ/m²."
+  },
+  {
+   "doan": "Trần Nhân Tông: trọn đường",
+   "phuong_cu": "Phường 8",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-nhan-tong-phuong-8",
+   "ghi_chu": "NQ 1671 mục 101: Phường 8, 9, 12 → Lâm Viên - Đà Lạt. Chỉ Vườn hoa thành phố nằm ở đây."
+  }
+ ],
+ "ten_pho": "Quanh hồ Xuân Hương",
+ "gioi_thieu": "Quanh hồ Xuân Hương: đường Trần Quốc Toản ôm quanh hồ chừng 5 km (hồ có từ năm 1919, danh thắng quốc gia từ 1988); bờ nam là Quảng trường Lâm Viên với nụ hoa atiso kính cao 15 m, bờ bắc là sân golf Đồi Cù mở năm 1922; ven hồ có Thủy Tạ, Thanh Thủy, bến đạp vịt.",
+ "dia_diem": [
+  {
+   "ten": "Hồ Xuân Hương",
+   "loai": "hồ, danh thắng",
+   "dac_trung": "Hồ nhân tạo hình trăng lưỡi liềm giữa Đà Lạt, tạo năm 1919 bằng cách đắp đập ngăn suối Cam Ly (sáng kiến của công sứ Cunhac, kỹ sư Labbé); người Pháp gọi là Grand Lac, đổi tên Xuân Hương năm 1953; xếp hạng danh lam thắng cảnh quốc gia năm 1988. Vòng quanh hồ khoảng 5 km (Wikipedia: khoảng 5 km; mia.vn: khoảng 5,1 km).",
+   "dia_chi": "giữa đường Trần Quốc Toản, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+    "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+    "https://baovanhoa.vn/van-hoa/lam-dong-bo-sung-chinh-sua-ho-so-khoa-hoc-di-tich-danh-thang-ho-xuan-huong-200580.html",
+    "https://www.foody.vn/lam-dong/ho-xuan-huong",
+    "https://www.openstreetmap.org/relation/2390139"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mặt hồ công cộng",
+   "ghi_chu": "Diện tích lệch nhiều: Wikipedia 25 ha, mia.vn khoảng 33 ha (theo Bảo tàng Lâm Đồng), báo về đạp vịt ghi 'phạm vi 38 ha' → không ghi diện tích. Chu vi: VietnamNet 2011 ghi 'gần 7 km' (khác hẳn) → em theo Wikipedia + mia. Sở VHTTDL Lâm Đồng đang làm lại hồ sơ khoa học di tích, dự kiến cắm mốc xong 9/2026 (Báo Văn hóa).",
+   "vi_tri": null
+  },
+  {
+   "ten": "Quảng trường Lâm Viên",
+   "loai": "quảng trường, điểm tham quan",
+   "dac_trung": "Quảng trường hơn 70.000 m² bờ nam hồ, khởi công 8/2009, hoạt động từ 2016; hai khối kính biểu tượng: nụ hoa atiso cao khoảng 15 m (quán cà phê) và bông hoa dã quỳ (nhà hát, 1.200 m²). Nơi tổ chức Festival Hoa Đà Lạt và các lễ hội lớn. Vào cửa miễn phí.",
+   "dia_chi": "đường Trần Quốc Toản (bờ nam hồ), phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "",
+   "nguon": [
+    "https://tuoitre.vn/xay-quang-truong-lam-vien-da-lat-xong-du-111-ti-983047.htm",
+    "https://nguoiquansat.vn/quang-truong-gan-700-ty-la-bieu-tuong-cua-thanh-pho-ngan-hoa-co-suc-chua-gap-1-5-lan-san-my-dinh-146050.html",
+    "https://mia.vn/cam-nang-du-lich/quang-truong-lam-vien-bieu-tuong-cua-thanh-pho-da-lat-tho-mong-1340",
+    "https://en.wikipedia.org/wiki/Lam_Vien_Square",
+    "https://www.momo.vn/du-lich-di-lai/diem-den/da-lat/quang-truong-lam-vien-76",
+    "https://www.foody.vn/lam-dong/quang-truong-lam-vien",
+    "https://www.openstreetmap.org/way/1303837487"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; MoMo ghi 06:00–23:00, miễn phí (chưa rõ ngày cập nhật).",
+   "ghi_chu": "Số liệu lệch: diện tích 'hơn 72.000 m²' (Tuổi Trẻ 2015, Wikipedia) / 'hơn 70.000 m²' (mia, nguoiquansat). Bông dã quỳ cao 17 m (Tuổi Trẻ 2015), 18 m (mia, Wikipedia), gần 20 m (nguoiquansat) → em không ghi chiều cao dã quỳ. Vốn: Tuổi Trẻ 2015 ghi tổng khoảng 570 tỉ, dư 111 tỉ so với 681,5 tỉ được duyệt; Wikipedia, nguoiquansat ghi 681 tỉ. Foody ghi địa chỉ 'Hồ Tùng Mậu'; mia, MoMo ghi 'Trần Quốc Toản, phường 1'. Tên chính thức Lâm Viên được HĐND thông qua 10/11/2011 (Wikipedia, chưa có nguồn 2).",
+   "vi_tri": {
+    "lon": 108.445013,
+    "lat": 11.938841,
+    "cach": "tên trên OpenStreetMap: Quảng trường Lâm Viên",
+    "osm": "node/4426128791"
+   }
+  },
+  {
+   "ten": "Highlands Coffee Nụ hoa Atiso (trước là DOHA Café, K'fe House)",
+   "loai": "quán cà phê trong công trình biểu tượng",
+   "dac_trung": "Quán cà phê nằm trong khối kính nụ hoa atiso của Quảng trường Lâm Viên, nhìn ra hồ; Highlands Coffee khai trương ở đây khoảng 11/2024. Trước đó quán mang tên DOHA Café, rồi K'fe House.",
+   "dia_chi": "Khối Nụ Hoa, Quảng trường Lâm Viên, 2 Trần Quốc Toản, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "2",
+   "nguon": [
+    "https://daibieunhandan.vn/kinh-doanh-kieu-highlands-coffee-nhieu-mat-bang-mo-cua-hang-deu-thuoc-dang-co-tien-cung-kho-thue-10351645.html",
+    "https://tinhte.vn/thread/4040360",
+    "https://www.openstreetmap.org/node/5201427721",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+    "https://caffeinatedexcursions.com/the-complete-guide-to-cafes-in-dalat-vietnam"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: Đại Biểu Nhân Dân 11/11/2024 đưa tin vừa khai trương; bài Tinh tế (theo kết quả tìm kiếm) là cảm nhận 7/2025.",
+   "ghi_chu": "Tên lệch theo thời gian: Caffeinated Excursions (2019) ghi 'K'fe House (Formerly DOHA Café)' ở số 2 Trần Quốc Toản; OSM còn điểm K'fe House (node/11882697300, sửa 05/2024); VinWonders (15/07/2025) vẫn ghi 'Doha Coffee'. Em không mở được trang Tinh tế (403), chỉ thấy qua kết quả tìm kiếm. Số nhà '2' lấy theo VinWonders, Caffeinated Excursions; chưa có nguồn ghi số nhà cho Highlands.",
+   "vi_tri": {
+    "lon": 108.444437,
+    "lat": 11.938698,
+    "cach": "số nhà trên OpenStreetMap: 2 Trần Quốc Toản",
+    "osm": "node/11882697300"
+   }
+  },
+  {
+   "ten": "GO! Đà Lạt (trước là Big C Đà Lạt)",
+   "loai": "siêu thị",
+   "dac_trung": "Siêu thị nằm dưới khu Quảng trường Lâm Viên (OSM ghi 2 tầng hầm), mở 07:30–22:00 theo OSM.",
+   "dia_chi": "1 Hồ Tùng Mậu (khu Quảng trường Lâm Viên), phường Xuân Hương - Đà Lạt",
+   "duong": "Hồ Tùng Mậu",
+   "so_nha": "1",
+   "nguon": [
+    "https://www.openstreetmap.org/node/3770188796",
+    "https://en.wikipedia.org/wiki/Lam_Vien_Square",
+    "https://mia.vn/cam-nang-du-lich/quang-truong-lam-vien-bieu-tuong-cua-thanh-pho-da-lat-tho-mong-1340"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: OSM sửa 27/04/2026 ghi giờ mở.",
+   "ghi_chu": "Wikipedia (chú thích ảnh) ghi 'BigC Dalat Supermarket (now is Go!)'; mia ghi 'siêu thị Big C' ở tầng hầm quảng trường. Số nhà '1 Hồ Tùng Mậu' chỉ có ở OSM. Chưa có bài báo về ngày đổi tên.",
+   "vi_tri": {
+    "lon": 108.443916,
+    "lat": 11.9384,
+    "cach": "số nhà trên OpenStreetMap: 1 Hồ Tùng Mậu",
+    "osm": "node/3770188796"
+   }
+  },
+  {
+   "ten": "Nhà hàng Thủy Tạ (Thủy Tạ - Nhà Hàng & Cafe)",
+   "loai": "nhà hàng, cà phê, công trình cổ",
+   "dac_trung": "Căn nhà trắng trên ốc đảo nhỏ sát bờ nam hồ; đầu thập niên 1930 người Pháp dựng làm câu lạc bộ thể thao dưới nước có cầu nhảy 3 cấp (gọi là La Grenouillère – Đầm Ếch), sau sửa thành quán giải khát, nhà hàng. Thuộc danh thắng quốc gia hồ Xuân Hương nên không được xây mới hay đổi tên.",
+   "dia_chi": "2 - 4 Trần Quốc Toản, phường Xuân Hương - Đà Lạt (Foody ghi P. 10 cũ)",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "2-4",
+   "nguon": [
+    "https://baolamdong.vn/print/388586.html",
+    "https://www.foody.vn/lam-dong/thuy-ta-nha-hang-cafe",
+    "https://tuoitre.vn/khong-duoc-doi-ten-thuy-ta-o-ho-xuan-huong-nguoi-trung-thau-bo-coc-rut-lui-20231123100938959.htm",
+    "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+    "https://www.openstreetmap.org/node/1150940211"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "chưa rõ: tháng 10/2023 đấu giá cho thuê, người trúng bỏ cọc; 2024 tỉnh duyệt đấu giá lại (giá khởi điểm hơn 36 tỉ/10 năm), Dalattourist xin tiếp tục thuê. Báo Lâm Đồng 25/08/2025 không nói quán đang mở hay đóng. Chưa thấy tin kết quả đấu giá mới.",
+   "ghi_chu": "Chi tiết câu lạc bộ, cầu nhảy, tên Đầm Ếch chỉ có ở Báo Lâm Đồng 2025. Năm xây cụ thể chưa có nguồn. Số nhà 2 - 4 chỉ có ở Foody (trùng số 2 với khối nụ atiso → có thể là số chung của khu).",
+   "vi_tri": {
+    "lon": 108.442085,
+    "lat": 11.940009,
+    "cach": "tên trên OpenStreetMap: Nhà hàng Thủy Tạ (ghép tay)",
+    "osm": "node/1150940211"
+   }
+  },
+  {
+   "ten": "Thanh Thủy Cafe (Nhà hàng Thanh Thủy)",
+   "loai": "quán cà phê, nhà hàng ven hồ",
+   "dac_trung": "Quán sát mép nước bờ tây bắc hồ, gần bến đạp vịt; Wikipedia tả là quán đối diện Thủy Tạ, mặt bằng rộng hơn. mia.vn (11/2026) và Vietnam Airlines vẫn gợi ý cùng Thủy Tạ, Bích Câu khi ngồi cà phê ngắm hồ.",
+   "dia_chi": "đường Trần Quốc Toản (bờ tây bắc hồ, gần bùng binh Ba Đình theo OSM), phường Xuân Hương - Đà Lạt; chưa rõ số nhà",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/thanh-thuy-cafe",
+    "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+    "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ho-xuan-huong-da-lat",
+    "https://www.openstreetmap.org/way/1239012817"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: mia.vn (12/11/2026) còn gợi ý nhưng không ghi giờ, địa chỉ.",
+   "ghi_chu": "OSM ghi name:en 'Blue water', start_date 2005. Không nguồn nào ghi số nhà. Bình luận Foody hiện trên trang chê giá cao, đồ uống kém.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Xuân Hương Garden Coffee",
+   "loai": "quán cà phê sân vườn ven hồ",
+   "dac_trung": "Sân vườn nhiều khu, hai hồ cá Koi, nhìn thẳng ra mặt hồ; hợp ngồi sáng sớm, ngắm bình minh, hoàng hôn. Đi từ chợ qua Cầu Ông Đạo rồi theo Trần Quốc Toản ven hồ.",
+   "dia_chi": "1 Trần Quốc Toản, phường Xuân Hương - Đà Lạt (mia, Foody ghi phường 10 cũ)",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "1",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/xuan-huong-garden-coffee-review-19830",
+    "https://www.foody.vn/lam-dong/xuan-huong-garden-coffee",
+    "https://wanderlog.com/place/details/1324468/xuân-hương-garden-coffee"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: mia.vn đăng 15/12/2025, ghi mở 07:00–22:00 (Foody ghi 07:00–21:00).",
+   "ghi_chu": "Không có trên OSM. Giá mia: 20.000–90.000 đ/món.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Bích Câu Coffee",
+   "loai": "quán cà phê trên mỏm đất nhô ra hồ",
+   "dac_trung": "Quán trên 'đảo' Bích Câu, phần đất nhô ra hồ, chỗ nào cũng thấy mặt hồ; lối xuống dốc.",
+   "dia_chi": "ven hồ Xuân Hương (bờ đông, đường Trần Quốc Toản), phường Xuân Hương - Đà Lạt; chưa rõ số nhà",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/bich-cau-coffee",
+    "https://znews.vn/9-quan-ca-phe-ban-nen-ghe-khi-den-da-lat-post589171.html",
+    "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ho-xuan-huong-da-lat"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: theo kết quả tìm kiếm có bình luận Foody nói quán hiện 'Chưa mở cửa'; mia.vn 11/2026 vẫn nhắc tên.",
+   "ghi_chu": "Foody chỉ ghi địa chỉ 'Hồ Xuân Hương'. 'Bờ đông' em suy từ vị trí trên Foody (không chép toạ độ). Zing 2015 là bài cũ. Không có trên OSM. Vietnam Airlines viết 'Bích Cầu'.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Bến xe đạp nước (đạp vịt) hồ Xuân Hương",
+   "loai": "bến thuyền, trò chơi trên hồ",
+   "dac_trung": "Đạp vịt trên hồ khoảng 30 năm; trước khi dừng có 3 đơn vị với 95 xe đạp nước và 3 ca nô cứu hộ. Tháng 11/2024 bị dừng vì chưa có giấy phép theo Luật Thủy lợi; tháng 8/2025 phường Xuân Hương cho chạy lại tạm thời chờ đấu thầu. Thuyền nhỏ, thuyền lớn; Vietnam Airlines ghi 60.000–120.000 đ/người/giờ.",
+   "dia_chi": "bãi thuyền ở chỗ giao Trần Quốc Toản – Đinh Tiên Hoàng (bờ tây bắc hồ), phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "",
+   "nguon": [
+    "https://voh.com.vn/du-lich/da-lat-cho-phep-dich-vu-xe-dap-nuoc-tren-ho-xuan-huong-hoat-dong-tro-lai-611828.html",
+    "https://dtinews.dantri.com.vn/print/20250821093419355.htm",
+    "https://lifestyle.zingnews.vn/da-lat-dung-dap-vit-tren-ho-xuan-huong-post1508060.html",
+    "https://nguoiquansat.vn/da-lat-cham-dut-hoat-dong-thuyen-dap-vit-tren-ho-xuan-huong-173459.html",
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ho-xuan-huong-da-lat",
+    "https://www.openstreetmap.org/node/11510015102",
+    "https://www.openstreetmap.org/node/5330468303"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "tạm thời: chạy lại từ 13/8/2025 (VOH) hoặc 20/8/2025 (Dân Trí) trong lúc chờ đấu thầu. Chưa thấy tin năm 2026.",
+   "ghi_chu": "Số năm lệch: Zing ghi 'sau gần 30 năm', Người Quan Sát ghi 'hơn 30 năm'. Ngày chạy lại lệch (13/8 VOH, 20/8 Dân Trí). Giá thuê chỉ Vietnam Airlines ghi, không rõ năm. Vị trí bến theo Vietnam Airlines và 2 điểm OSM 'Paddle Boat Rental' nằm cách Trần Quốc Toản 15–30 m.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Sân golf Dalat Palace (Đồi Cù)",
+   "loai": "sân golf, đồi cỏ",
+   "dac_trung": "Sân golf trên Đồi Cù sát bờ bắc hồ, khánh thành 1922, được gọi là sân golf đầu tiên của Việt Nam; ban đầu thiết kế bởi H. S. Colt và C. H. Alison. Năm 1990 tỉnh cấp phép nâng lên 18 lỗ (Dalat Palace Golf Club), sửa lớn năm 1994; nay par 72, dài nhất 7.009 yard.",
+   "dia_chi": "Phù Đổng Thiên Vương (cổng), sân trải dọc Trần Quốc Toản và Đinh Tiên Hoàng, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "",
+   "nguon": [
+    "https://www.golfpass.com/courses/22024-dalat-palace-golf-club/",
+    "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93i_C%C3%B9",
+    "https://mytour.vn/vi/blog/bai-viet/doi-cu.html",
+    "https://www.openstreetmap.org/way/99661171"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "sân golf tư nhân, khách thường không vào đánh tự do; giá, giờ chưa rõ.",
+   "ghi_chu": "Wikipedia và mytour viết gần như cùng câu chữ (có thể chép nhau) nên em tính chung 1; golfpass là nguồn độc lập. Câu 'Bảo Đại yêu cầu cải tạo năm 1920' (Wikipedia, mytour) đáng nghi vì năm 1920 Bảo Đại mới 7 tuổi → không dùng. Các nguồn tiếng Anh lệch về năm lên 18 lỗ và năm hồi phục (1959/1993). 'duong' đặt Trần Quốc Toản vì ranh sân (OSM way/99661171) sát đường này 6 m; theo phuong.json gần hết sân nằm trong Xuân Hương - Đà Lạt, dù cổng ở Phù Đổng Thiên Vương (Phường 8 cũ, nay Lâm Viên).",
+   "vi_tri": {
+    "lon": 108.44498,
+    "lat": 11.947608,
+    "cach": "tên trên OpenStreetMap: Sân Golf Đà Lạt (ghép tay)",
+    "osm": "way/99661171"
+   }
+  },
+  {
+   "ten": "Vườn hoa thành phố Đà Lạt",
+   "loai": "vườn hoa, điểm tham quan (có vé)",
+   "dac_trung": "Vườn hoa ở mút đông bắc hồ, xây từ năm 1966 với tên Vườn hoa Bích Câu / Công viên hoa Đà Lạt, bỏ hoang rồi khôi phục năm 1985; cổng hoa lớn, vườn xương rồng, mô hình xe ngựa; mỗi Tết có Hội hoa xuân. Vé người lớn 100.000 đ (Vietnam Airlines, mytour từ 2023).",
+   "dia_chi": "2 Trần Nhân Tông (góc Trần Quốc Toản), phường Lâm Viên - Đà Lạt (Phường 8 cũ)",
+   "duong": "Trần Nhân Tông",
+   "so_nha": "2",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/vuon-hoa-thanh-pho-da-lat",
+    "https://www.vietnamairlines.com/vn/vi/plan-book/travel/travel-guide/vuon-hoa-da-lat",
+    "https://mytour.vn/vi/blog/bai-viet/vuon-hoa-da-lat-diem-den-noi-tieng-nhat-trong-xu-so-suong-mu.html",
+    "https://vinwonders.com/vi/wonderpedia/news/vuon-hoa-thanh-pho-da-lat/",
+    "https://www.openstreetmap.org/node/11916349146"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; giờ lệch: 07:00–18:00 (Vietnam Airlines, mytour, VinWonders 12/2025; Vietnam Airlines thêm thứ Sáu, thứ Bảy đến 22:00), Foody 08:00–17:00.",
+   "ghi_chu": "Địa chỉ ghi 2 kiểu: '02 Trần Nhân Tông, Phường 8' (Vietnam Airlines, OSM) và 'Trần Quốc Toản, P. 8' (Foody, mytour, VinWonders). Diện tích lệch (7.000 m² / 700 m²) → không ghi. VinWonders ghi '1996' là lỗi đánh máy so với 1966. Giá vé lệch (VinWonders 40.000 đ). Phường: phuong.json đặt vườn trong Lâm Viên - Đà Lạt; bảng giá Trần Nhân Tông là Phường 8 → Lâm Viên.",
+   "vi_tri": {
+    "lon": 108.449945,
+    "lat": 11.950281,
+    "cach": "tên trên OpenStreetMap: Vườn hoa thành phố Đà Lạt",
+    "osm": "node/11916349146"
+   }
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Cầu Ông Đạo (đập đá cuối hồ)",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/H%E1%BB%93_Xu%C3%A2n_H%C6%B0%C6%A1ng_(h%E1%BB%93_n%C6%B0%E1%BB%9Bc)",
+    "https://mia.vn/cam-nang-du-lich/ho-xuan-huong-diem-den-chua-bao-gio-cu-cua-thanh-pho-mong-mo-1329",
+    "https://mia.vn/cam-nang-du-lich/xuan-huong-garden-coffee-review-19830"
+   ],
+   "ly_do": "đủ 2 trang nhắc (đập đá 1934–1935, vừa là cầu), nhưng không nguồn nào ghi rõ vị trí trên đường nào; OSM không có điểm tên Cầu Ông Đạo → chưa đặt lên bản đồ, đưa vào chuyện của phố."
+  },
+  {
+   "ten": "Coffee One Day",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "05",
+   "nguon": [
+    "https://www.openstreetmap.org/node/4394491091"
+   ],
+   "ly_do": "chỉ OSM (sửa 27/04/2026, ghi mở 06:00–24:00); không tìm thấy trang nào khác."
+  },
+  {
+   "ten": "Cafe Bồ Công Anh",
+   "duong": "Yersin",
+   "so_nha": "1",
+   "nguon": [
+    "https://www.openstreetmap.org/way/777438259"
+   ],
+   "ly_do": "chỉ OSM; nằm trong khuôn viên Công Đoàn (1 Yersin) — gần Công viên Yersin của phố Yersin, nên nếu đủ nguồn có lẽ hợp phố Yersin hơn."
+  },
+  {
+   "ten": "Cà Fê Đồi Cù (OSM ghi 'Cà Fê Dồi Cù')",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13838617601"
+   ],
+   "ly_do": "chỉ OSM (check_date 17/05/2026), tên viết sai dấu."
+  },
+  {
+   "ten": "Ar Ti So / K'fe House (điểm cũ trên OSM)",
+   "duong": "Trần Quốc Toản",
+   "so_nha": "2",
+   "nguon": [
+    "https://www.openstreetmap.org/node/11882697300",
+    "https://www.openstreetmap.org/node/9633116697"
+   ],
+   "ly_do": "điểm cũ trong khối nụ atiso; nay là Highlands Coffee (đã gộp vào danh sách chính). Cần sửa OSM."
+  }
+ ],
+ "da_dong": [
+  {
+   "ten": "Xe ngựa chở khách quanh hồ Xuân Hương",
+   "nguon": [
+    "https://nhandan.vn/da-lat-ngung-dich-vu-xe-ngua-cho-khach-quanh-ho-xuan-huong-post861785.html",
+    "https://baolamdong.vn/tiep-tuc-cam-xe-ngua-hoat-dong-quanh-ho-xuan-huong-438660.html"
+   ],
+   "ly_do": "Ngừng từ 31/3/2025 (Nhân Dân 26/02/2025 ghi dự kiến 25/2, sau lùi tới 31/3); Báo Lâm Đồng 28/04/2026: tỉnh tiếp tục không cho xe ngựa chở khách quanh hồ."
+  },
+  {
+   "ten": "Phố đi bộ Trần Quốc Toản (Trần Quốc Toản – Đinh Tiên Hoàng tới Vườn hoa thành phố, 1,6 km)",
+   "nguon": [
+    "https://nhandan.vn/ocop/them-mot-tuyen-pho-di-bo-lang-man-tai-pho-nui-da-lat-post813400.html",
+    "https://news.tuoitre.vn/vietnams-da-lat-shuts-down-lakeside-pedestrian-street-because-of-congestion-low-foot-traffic-103251024152652755.htm",
+    "https://baolamdong.vn/kinh-te-dem-da-lat-khong-chi-la-nhung-pho-dong-nguoi-468577.html"
+   ],
+   "ly_do": "Mở 8/6/2024 (tối thứ Sáu–Chủ nhật 18:00–22:00); phường Xuân Hương - Đà Lạt đóng sau hơn 1 năm vì ít khách, gây kẹt đường xung quanh (Tuổi Trẻ 24/10/2025)."
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-phuong-3",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-nguyen-thai-hoc-cu-phuong-1",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-yersin-cu-phuong-10",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-ba-huyen-thanh-quan-cu-phuong-10",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/ho-tung-mau-phuong-3",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/ho-tung-mau-phuong-10",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-nhan-tong-phuong-8",
+  "data/lam-dong/nq1671.json (mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt; mục 101: Phường 8, 9, 12 → Lâm Viên - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json ('Trần Quốc Toản' 8 đoạn, tổng khoảng 4,9 km, ôm gần trọn hồ; 'Hồ Tùng Mậu'; 'Trần Nhân Tông'; mặt nước 'Hồ Xuân Hương'; mốc 'Vườn hoa thành phố Đà Lạt')",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.437,11.937,108.454,11.952 (tải 25/11/2026 theo 4 ô, tìm điểm có tên quanh hồ)",
+  "https://www.foody.vn/lam-dong/khu-vuc-ho-xuan-huong"
+ ],
+ "cap_nhat": "2026-11-25"
+}

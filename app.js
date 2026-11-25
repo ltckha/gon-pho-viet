@@ -359,6 +359,9 @@
     labels.setAttribute('font-size', (11 / view.s).toFixed(4));
     labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
     for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');
+    // ô nền Spark luôn khoảng 110 điểm trên màn hình dù phóng to hay thu nhỏ (không vỡ hạt, không lấm tấm)
+    var nen = svg.querySelectorAll('pattern.nen');
+    for (var q = 0; q < nen.length; q++) nen[q].setAttribute('patternTransform', 'scale(' + (0.43 / view.s).toFixed(6) + ')');
     queueLayout();
     var list = labels.childNodes;
     for (var i = 0; i < list.length; i++) {
@@ -944,6 +947,8 @@
       loadExtra({ key: 'ngoai', file: 'data/lang-gieng.json' }).catch(function () { return null; })]).then(function (res) {
       var d = res[0];
       data = d; layer = L; layerId = id;
+      document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam');   // tầng cả nước: nét Spark
+      document.querySelector('.osm-credit').hidden = L.kind !== 'duong';   // chỉ tầng đường dùng dữ liệu OpenStreetMap
       renderChrome();
       draw();
       loading.hidden = true;

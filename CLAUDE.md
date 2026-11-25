@@ -33,6 +33,8 @@ curl -sL -o /tmp/c10.json https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countri
 # 3. Trang phố (đọc kho game, chỉ đọc) — dò vị trí quán trước
 python3 tools/vi_tri_quan.py /tmp/osm
 python3 tools/build_pho.py /home/user/ltckha/giang-ho-ai   # gắn cả data/chuyen/<slug>.json (chuyện của phố)
+# 3b. Nền Spark cho bản đồ Việt Nam (tầng đầu, ~40 KB)
+python3 tools/nen_spark.py /home/user/ltckha/giang-ho-ai
 # 4. Bản đồ minh hoạ nét Spark (nền trang phố) và lịch trình đi bộ
 python3 tools/ve_ban_do_dalat.py /home/user/ltckha/giang-ho-ai
 python3 tools/lich_trinh.py /tmp/osm
@@ -57,6 +59,7 @@ python3 tools/lich_trinh.py /tmp/osm
 - Khung bản đồ phố không được lớn hơn tấm tranh khu (tranh vùng ven nằm ngang) — kẻo lòi nền trống. Khu trung tâm = phố trong 2,5 km quanh Chợ Đà Lạt; xa hơn mỗi khu một tấm `assets/ban_do_<slug>.webp`.
 - So số nhà: điểm OSM đã mang tên một nơi khác trong cùng phố thì không lấy (La Viet Coffee ghi số 198 ≠ Barn House).
 - Số phố mỗi phường (`so_pho` trong `phuong.json`) do `build_pho.py` tự đếm, đừng gõ tay.
+- Bản đồ Việt Nam nét Spark: nền cỏ/nước/đất (`assets/nen/`) trải vào trong ranh giới thật bằng `<pattern>`; ô nền giữ cỡ cố định trên màn hình (`patternTransform` trong `apply()`). Đừng vẽ thành một ảnh lớn (nặng, mờ khi phóng). Tấm `nen_bd_suong` của game có lỗi lấm tấm đen — không dùng.
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
 ## Anh Kha đã chốt hướng mới (sau đánh giá khả thi `docs/danh_gia_kha_thi.md`, nhánh `claude/danh-gia-kha-thi`)

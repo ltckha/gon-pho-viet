@@ -19,6 +19,11 @@
 
 <main id="map" class="map" aria-label="Bản đồ Việt Nam">
   <svg id="svg" role="img" aria-label="Bản đồ 34 tỉnh, thành phố Việt Nam">
+    <defs><!-- nền Spark (tools/nen_spark.py): trải vào trong ranh giới thật, cỡ ô giữ cố định trên màn hình -->
+      <pattern id="nenTinh" class="nen" patternUnits="userSpaceOnUse" width="256" height="256"><image href="assets/nen/tinh.webp" width="256" height="256"/></pattern>
+      <pattern id="nenMo" class="nen" patternUnits="userSpaceOnUse" width="256" height="256"><image href="assets/nen/mo.webp" width="256" height="256"/></pattern>
+      <pattern id="nenLang" class="nen" patternUnits="userSpaceOnUse" width="256" height="256"><image href="assets/nen/lang_gieng.webp" width="256" height="256"/></pattern>
+    </defs>
     <g id="world"><g id="land"></g><g id="labels"></g><g id="pins"></g></g>
   </svg>
   <div class="legend" id="legend" aria-hidden="true"></div>

@@ -1,0 +1,223 @@
+{
+ "road": "Huỳnh Thúc Kháng",
+ "duong": [
+  "Huỳnh Thúc Kháng",
+  "Lê Hồng Phong",
+  "Trần Phú",
+  "Huyền Trân Công Chúa"
+ ],
+ "ten_osm": [
+  "Huỳnh Thúc Kháng",
+  "Lê Hồng Phong",
+  "Trần Phú",
+  "Huyền Trân Công Chúa"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020/QĐ-UBND (sửa bởi QĐ 16/2021, hết hiệu lực 01/01/2026) trên thuviennhadat ghi 'Huỳnh Thúc Kháng - PHƯỜNG 4' trọn đường, 'Lê Hồng Phong - PHƯỜNG 4' trọn đường, 'Trần Phú - PHƯỜNG 4' (đoạn từ giáp Công ty CP Địa ốc Đà Lạt đến vòng xoay Hoàng Văn Thụ - Trần Lê). Theo NQ 1671 mục 99: Phường 3, Phường 4 → Xuân Hương - Đà Lạt. Wikipedia tiếng Việt cũng ghi biệt thự ở 'phường Xuân Hương'. Kiểm bằng phuong.json: điểm OSM 'Biệt Thự Hằng Nga' nằm trong Xuân Hương, cách ranh khoảng 630 m. Riêng đường Huyền Trân Công Chúa (Couvent des Oiseaux, nhà thờ Du Sinh, cách biệt thự khoảng 1–1,4 km về phía tây) thuộc Phường 5 → Cam Ly - Đà Lạt (mục 100).",
+ "doan": [
+  {
+   "doan": "Huỳnh Thúc Kháng: trọn đường (Biệt thự Hằng Nga số 3)",
+   "phuong_cu": "Phường 4",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-thuc-khang-phuong-4"
+  },
+  {
+   "doan": "Lê Hồng Phong: trọn đường (Viện Pasteur Đà Lạt số 18)",
+   "phuong_cu": "Phường 4",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/le-hong-phong-phuong-4"
+  },
+  {
+   "doan": "Trần Phú: đoạn từ giáp Công ty CP Địa ốc Đà Lạt đến vòng xoay Hoàng Văn Thụ - Trần Lê (nhà thờ Thánh Tâm số 40)",
+   "phuong_cu": "Phường 4",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-phu-phuong-4"
+  },
+  {
+   "doan": "Huyền Trân Công Chúa: từ Hoàng Văn Thụ đến hết Trường Dân tộc Nội trú, và đoạn còn lại",
+   "phuong_cu": "Phường 5",
+   "phuong_moi": "Cam Ly - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huyen-tran-cong-chua-phuong-5",
+   "ghi_chu": "Wikipedia tiếng Việt cũng ghi Trường PT Dân tộc Nội trú Lâm Đồng ở 'phường Cam Ly'. phuong.json: Cam Ly."
+  }
+ ],
+ "ten_pho": "Biệt thự Hằng Nga",
+ "gioi_thieu": "Biệt thự Hằng Nga (Crazy House): ngôi nhà bê tông hình gốc cây, hang động do kiến trúc sư Đặng Việt Nga xây từ năm 1990 trên đường Huỳnh Thúc Kháng, từng suýt bị phá, năm 2008 mới được tỉnh công nhận quyền sở hữu; quanh đó là Viện Pasteur Đà Lạt mở năm 1936 và trường dòng Couvent des Oiseaux thập niên 1930.",
+ "dia_diem": [
+  {
+   "ten": "Biệt thự Hằng Nga (Crazy House)",
+   "loai": "công trình kiến trúc, điểm tham quan, nhà nghỉ",
+   "dac_trung": "Nhà của kiến trúc sư Đặng Việt Nga (con gái cố Tổng Bí thư Trường Chinh, học kiến trúc ở Mátxcơva), xây từ năm 1990 bằng xi măng cốt thép theo lối biểu hiện, hình gốc cây, hang động, mạng nhện. Vừa là nhà ở, vừa bán vé tham quan và cho thuê phòng theo chủ đề (Con Gấu, Cây Tre, Con Hổ, Con Kiến…). Năm 2008 UBND tỉnh Lâm Đồng cấp quyền sở hữu sau khoảng 18 năm tranh cãi. Năm 2009 People's Daily (Trung Quốc) xếp vào nhóm 10 công trình kỳ dị nhất thế giới. Khoảng 100.000 lượt khách mỗi năm, phần lớn khách nước ngoài.",
+   "dia_chi": "3 Huỳnh Thúc Kháng, phường Xuân Hương - Đà Lạt",
+   "duong": "Huỳnh Thúc Kháng",
+   "so_nha": "3",
+   "nguon": [
+    "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
+    "https://tienphong.vn/Phong-Su/549292/Nu-nghe-si-doc-lap-va-%E2%80%9CNgoi-nha-ky-di%E2%80%9D-tpp.html",
+    "https://vietnamnet.vn/en/da-lat-s-bizarre-crazy-house-still-draws-crowds-decades-later-2548773.html",
+    "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
+    "https://vi.wikipedia.org/wiki/Bi%E1%BB%87t_th%E1%BB%B1_H%E1%BA%B1ng_Nga",
+    "https://en.wikipedia.org/wiki/H%E1%BA%B1ng_Nga_Guesthouse",
+    "https://www.crazyhouse.vn/",
+    "https://vinwonders.com/vi/wonderpedia/news/biet-thu-hang-nga/",
+    "https://www.openstreetmap.org/node/1152347338"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở: VietNamNet 26/08/2026 và Người Quan Sát 20/09/2026 còn viết về khách tham quan; OSM (kiểm 05/2026) ghi giờ mở 08:30–19:00, VinWonders ghi 08:30–18:00 → không ghi giờ, không ghi giá vé.",
+   "ghi_chu": "Lệch: số phòng 10 (VnExpress 2008, Wikipedia tiếng Việt) / 11 (VietNamNet 2026, crazyhouse.vn, VinWonders) — có thể do xây thêm; diện tích khuôn viên 'gần 4.000 m²' (Wikipedia tiếng Việt) / 'ban đầu gần 1.900 m²' (Người Quan Sát); 'hoàn thành năm 2010' chỉ Người Quan Sát ghi, Tiền Phong 2011 và VietNamNet 2026 kể bà vẫn xây thêm. 'Lonely Planet xếp thứ 11 trong 15 kỳ quan' chỉ Người Quan Sát → không đưa vào đặc trưng. OSM: điểm 'Biệt Thự Hằng Nga' (node/1152347338, tourism=hotel) và khối nhà 'Crazy House' (relation/20657435, tourism=museum, wikidata Q1171693).",
+   "vi_tri": {
+    "lon": 108.430897,
+    "lat": 11.934707,
+    "cach": "tên trên OpenStreetMap: Biệt Thự Hằng Nga (ghép tay)",
+    "osm": "node/1152347338"
+   }
+  },
+  {
+   "ten": "Viện Pasteur Đà Lạt (nay Công ty Vắc xin Pasteur Đà Lạt)",
+   "loai": "công trình thời Pháp, cơ sở sản xuất vắc xin",
+   "dac_trung": "Xây bằng tiền trợ cấp của Phủ Toàn quyền trong các năm 1933–1934, trang bị bên trong năm 1935, mở cửa ngày 1/1/1936 theo đề xuất của bác sĩ Alexandre Yersin; kiến trúc sư Paul Veysseyre cùng một đồng nghiệp người Việt. Phòng vắc xin trước thuộc Viện Pasteur Sài Gòn được chuyển lên Đà Lạt vì khí hậu hợp hơn để làm và giữ vắc xin. Năm 2010 thành Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC); nay làm vắc xin thương hàn là chính.",
+   "dia_chi": "18 Lê Hồng Phong, phường Xuân Hương - Đà Lạt",
+   "duong": "Lê Hồng Phong",
+   "so_nha": "18",
+   "nguon": [
+    "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+    "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+    "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
+    "https://trungtamthuoc.com/thuong-hieu/davac",
+    "https://www.openstreetmap.org/way/1305208733"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đang hoạt động như công ty vắc xin (Báo Lâm Đồng, trungtamthuoc); là cơ sở sản xuất, không phải điểm tham quan — chưa thấy nguồn nói có mở cho khách vào.",
+   "ghi_chu": "Năm xây 1933–1934 và ngày mở 1/1/1936 lấy từ báo L'Avenir du Tonkin 21/9/1936 (chép lại trên entreprises-coloniales.fr, dẫn ghi chú của Dr L. Souchard, giám đốc đầu tiên theo danh sách bổ nhiệm 22/8/1936). Wikipedia tiếng Anh ghi Yersin lập và đứng đầu viện năm 1936 — lệch với báo 1936 ghi giám đốc là Souchard; Báo Lâm Đồng chỉ ghi 'thành lập năm 1936 theo đề xuất của bác sĩ Alexandre Yersin' → em ghi theo Báo Lâm Đồng. Một trang du lịch (wander-lush) ghi 'xây 1930–1936' → không dùng. Địa chỉ 18 Lê Hồng Phong theo trungtamthuoc và vnras; khối nhà OSM gần đường Pasteur và Nguyễn Viết Xuân hơn (khoảng 45 m), cách Lê Hồng Phong khoảng 70 m. Cách Biệt thự Hằng Nga khoảng 430 m chim bay.",
+   "vi_tri": {
+    "lon": 108.427305,
+    "lat": 11.933307,
+    "cach": "tên trên OpenStreetMap: Công ty Vắc xin Pasteur Đà Lạt (name:fr Institut Pasteur de Dalat), tâm khối nhà (ghép tay)",
+    "osm": "way/1305208733"
+   }
+  },
+  {
+   "ten": "Couvent des Oiseaux (Tu viện Đức Bà Lâm Viên, nay Trường PT Dân tộc Nội trú Lâm Đồng)",
+   "loai": "công trình thời Pháp, trường học",
+   "dac_trung": "Trường nữ tu của dòng Đức Bà: 12 nữ tu đến Đà Lạt ngày 3/10/1935 theo lời kêu gọi của Giáo hoàng Piô XI và mong muốn của Hoàng hậu Nam Phương; khai giảng 26/10/1936 với 110 nữ sinh, dạy con gái nhà khá giả đến năm 1975. VIR ghi tu viện xây năm 1935, có hỗ trợ của Hoàng hậu Nam Phương; Wikipedia ghi bà hiến đất. Sau 1975 khu trường bị chia ra, toà chính nay là Trường Phổ thông Dân tộc Nội trú tỉnh Lâm Đồng. Trước trường có đồi thông nhìn xuống thành phố.",
+   "dia_chi": "2 Huyền Trân Công Chúa, phường Cam Ly - Đà Lạt",
+   "duong": "Huyền Trân Công Chúa",
+   "so_nha": "2",
+   "nguon": [
+    "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html",
+    "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
+    "https://www.openstreetmap.org/way/542486117"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đang là trường học (Wikipedia tiếng Việt, VIR 2016); không phải điểm tham quan mở cửa tự do — chưa thấy nguồn nói giờ cho khách vào.",
+   "ghi_chu": "Ngày 3/10/1935, 26/10/1936, 110 nữ sinh chỉ Wikipedia tiếng Việt ghi; VIR (05/07/2016) gọi tên 'Notre-Dame du Langbian Monastery', xây 1935, trường Couvent des Oiseaux hoạt động 1940–1975 (lệch với Wikipedia khai giảng 1936). Kiến trúc sư: chưa rõ. Catalogue triển lãm EFEO về kiến trúc Đà Lạt có dùng lưu trữ của Congrégation Notre-Dame (Couvent des Oiseaux) nhưng em không đọc được nội dung riêng về toà nhà. Cách Biệt thự Hằng Nga khoảng 1 km chim bay về phía tây; phường khác (Cam Ly).",
+   "vi_tri": {
+    "lon": 108.422346,
+    "lat": 11.938366,
+    "cach": "tên trên OpenStreetMap: Couvent des Oiseaux, tâm khối nhà (ghép tay)",
+    "osm": "way/542486117"
+   }
+  },
+  {
+   "ten": "Nhà thờ Du Sinh",
+   "loai": "nhà thờ Công giáo",
+   "dac_trung": "Linh mục Thiên Phong Bửu Dưỡng (dòng dõi nhà Nguyễn) cho xây từ năm 1955 trên một ngọn đồi phía nam thành phố, cho giáo dân di cư từ miền Bắc; nhà thờ theo lối kiến trúc Á Đông, dáng đình chùa, khác hẳn các nhà thờ kiểu phương Tây ở Đà Lạt. Theo cách phiên âm của cha Bửu Dưỡng, 'Du Sinh' là Giu-se.",
+   "dia_chi": "Huyền Trân Công Chúa (toplist ghi 12B, OSM ghi 40/8), phường Cam Ly - Đà Lạt",
+   "duong": "Huyền Trân Công Chúa",
+   "so_nha": "",
+   "nguon": [
+    "https://kienthuc.net.vn/kho-tri-thuc/top-nha-tho-hot-nhat-da-lat-mua-giang-sinh-793237.html",
+    "https://toplist.vn/top-list/nha-tho-dep-nhat-o-da-lat-5945.htm",
+    "https://dalat.app/blog/news/du-sinh-church-unique-architecture-da-lat",
+    "https://www.openstreetmap.org/way/542486128"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ ngày mới nhất: Kiến Thức 21/12/2016; là nhà thờ giáo xứ đang sinh hoạt (OSM có 'Giáo Xứ Du Sinh').",
+   "ghi_chu": "Khánh thành Giáng sinh 1957, tháp chuông xong 1962, cho giáo dân di cư: chỉ toplist ghi → không đưa vào mốc chính. Bài Thanh Niên 'nhà thờ mang dáng dấp đình, chùa' em chỉ thấy tiêu đề được dalat.app dẫn lại, chưa đọc được bài gốc. Địa chỉ lệch (12B / 40/8 Huyền Trân Công Chúa) → để trống số nhà. Xa nhất trong danh sách: khoảng 1,4 km chim bay về phía tây Biệt thự Hằng Nga; thuộc Cam Ly.",
+   "vi_tri": {
+    "lon": 108.418371,
+    "lat": 11.933664,
+    "cach": "tên trên OpenStreetMap: Nhà thờ Giáo xứ Du Sinh, tâm khối nhà (ghép tay)",
+    "osm": "way/542486128"
+   }
+  },
+  {
+   "ten": "Nhà thờ Thánh Tâm",
+   "loai": "nhà thờ Công giáo",
+   "dac_trung": "Nhà thờ kiến trúc kiểu châu Âu, màu trắng chủ đạo, trên đường Trần Phú, cách Biệt thự Hằng Nga khoảng 300 m.",
+   "dia_chi": "40 Trần Phú, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Phú",
+   "so_nha": "40",
+   "nguon": [
+    "https://toplist.vn/top-list/nha-tho-dep-nhat-o-da-lat-5945.htm",
+    "https://mia.vn/cam-nang-du-lich/kham-pha-10-nha-tho-da-lat-13967",
+    "https://www.openstreetmap.org/way/361851889"
+   ],
+   "do_tin_cay": "thấp",
+   "con_mo": "chưa rõ (nguồn là trang du lịch, không ngày rõ).",
+   "ghi_chu": "Đạt 2 nguồn cho tên và địa chỉ, nhưng KHÔNG có nguồn nào cho năm xây, người xây → chưa phải 'mốc lâu đời'. Đề nghị không chọn làm mốc trên trang cho tới khi có nguồn lịch sử. Không nhầm với nhà thờ Chính toà (Con Gà, 15 Trần Phú, thuộc trang Trần Phú).",
+   "vi_tri": {
+    "lon": 108.430666,
+    "lat": 11.937461,
+    "cach": "tên trên OpenStreetMap: Nhà thờ Thánh Tâm, tâm khối nhà (ghép tay)",
+    "osm": "way/361851889"
+   }
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Biệt thự Hoa Hồng (nay số 17 Huỳnh Thúc Kháng)",
+   "duong": "Huỳnh Thúc Kháng",
+   "so_nha": "17",
+   "nguon": [
+    "https://baolamdong.vn/dai-tuong-niem-cam-ly-noi-mau-da-do-giua-ngan-hoa-388961.html"
+   ],
+   "ly_do": "1 nguồn (Báo Lâm Đồng 01/09/2025): ngày 11/5/1951 đội cảm tử Phan Như Thạch đột nhập nhà Haasz, Chánh Thanh tra mật thám Đà Lạt, ở đây. Chưa tìm được nguồn thứ hai; chưa biết toà nhà cũ còn hay không. Đã ghi vào chuyện (mot_nguon)."
+  },
+  {
+   "ten": "Chùa Lộc Uyển",
+   "duong": "Đào Duy Từ",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/515193537"
+   ],
+   "ly_do": "Chỉ OSM (ghi tên tiếng Nga 'Храм Друкпа Кагью', tức dòng Drukpa Kagyu). Tìm báo, trang du lịch không ra; cách biệt thự khoảng 490 m."
+  },
+  {
+   "ten": "Toà nhà 'Điện lực Đà Lạt thời Pháp thuộc'",
+   "duong": "Ba Tháng Hai",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/361851837"
+   ],
+   "ly_do": "Chỉ tên trên OSM; không tìm được nguồn nào về năm xây. Cách biệt thự khoảng 570 m."
+  },
+  {
+   "ten": "Trường THPT chuyên Thăng Long",
+   "duong": "Trần Phú",
+   "so_nha": "10",
+   "nguon": [
+    "https://diemthi.tuyensinh247.com/tuyen-sinh-lop10-truong/thpt-chuyen-thang-long-da-lat-1301.html"
+   ],
+   "ly_do": "Năm thành lập lệch (1975 theo trang tuyển sinh, 1991 theo danh sách trường chuyên của Wikipedia tiếng Anh); chưa có nguồn về toà nhà; nằm sát nhà thờ Con Gà (thuộc trang Trần Phú)."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-thuc-khang-phuong-4",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/le-hong-phong-phuong-4",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-phu-phuong-4",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huyen-tran-cong-chua-phuong-5",
+  "data/lam-dong/nq1671.json (mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt; mục 100: Phường 5, 6, xã Tà Nung → Cam Ly - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json (tên đường: Huỳnh Thúc Kháng, Lê Hồng Phong, Trần Phú, Huyền Trân Công Chúa)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.424,11.928,108.438,11.940",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.416,11.930,108.424,11.944"
+ ],
+ "cap_nhat": "2026-11-25"
+}

@@ -25,6 +25,7 @@ def main(out):
     open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(HEAD + body)
     files = ['style.css', 'app.js'] + [os.path.relpath(f, ROOT) for f in glob.glob(os.path.join(ROOT, 'data', '**', '*.json'), recursive=True)
                                        if not f.endswith('nq1671.json')]
+    files += [os.path.relpath(f, ROOT) for f in glob.glob(os.path.join(ROOT, 'assets', '**', '*.*'), recursive=True)]
     for f in files:
         os.makedirs(os.path.dirname(os.path.join(out, f)) or out, exist_ok=True)
         shutil.copy(os.path.join(ROOT, f), os.path.join(out, f))

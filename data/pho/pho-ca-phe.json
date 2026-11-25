@@ -1,0 +1,168 @@
+{
+ "road": "Nguyễn Chí Thanh; Lê Đại Hành",
+ "duong_osm": ["Nguyễn Chí Thanh", "Lê Đại Hành"],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Cả 2 đường thuộc Phường 1 cũ → Xuân Hương - Đà Lạt (nq1671 mục 99, đã kiểm ở phiên trước). Các nguồn cũ ghi 'Phường 1' (mia.vn, toplist, foody, vietnamairlines); nguồn mới ghi 'phường Xuân Hương – Đà Lạt' (phela.vn, vinwonders, wanderlog). Tên OSM 'Nguyễn Chí Thanh', 'Lê Đại Hành' (và 'Khu Hòa Bình') có đúng như vậy trong data/lam-dong/da-lat/duong.json.",
+ "ten_pho": "Phố Cà Phê",
+ "gioi_thieu": "Phố Cà Phê: con dốc Nguyễn Chí Thanh lên Khu Hòa Bình, có Café Nga mở từ 5 giờ sáng đã hơn 20 năm, bên cạnh tiệm trà chuỗi mới Phê La.",
+ "gioi_thieu_nguon": [
+  "https://www.airbnb.com/things-to-do/places/2994762",
+  "https://mia.vn/cam-nang-du-lich/4-quan-cafe-xua-cu-o-da-lat-cho-ngay-song-cham-giua-long-pho-thi-7861",
+  "https://phela.vn/"
+ ],
+ "dia_diem": [
+  {
+   "ten": "Café Nga",
+   "loai": "quán cà phê truyền thống",
+   "dac_trung": "Quán cũ hơn 20 năm giữa Khu Hòa Bình, mở từ 5 giờ sáng, khách quen là người địa phương lớn tuổi; 20.000–40.000đ.",
+   "duong": "Nguyễn Chí Thanh",
+   "so_nha": "2A",
+   "dia_chi": "2A Nguyễn Chí Thanh",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/4-quan-cafe-xua-cu-o-da-lat-cho-ngay-song-cham-giua-long-pho-thi-7861",
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cafe-da-lat",
+    "https://mia.vn/cam-nang-du-lich/tim-hieu-ve-van-hoa-ca-phe-sang-o-da-lat-binh-di-giua-doi-thuong-10354"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025 (bài mia.vn ngày 06/06/2025 ghi giờ mở 5h–22h30); chưa thấy nguồn 2026"
+  },
+  {
+   "ten": "Phê La Đà Lạt",
+   "loai": "tiệm trà ô long (chuỗi)",
+   "dac_trung": "Chuỗi trà ô long, không gian rộng nhiều hoa; mở khoảng 7–8h tới 22h30–23h.",
+   "duong": "Nguyễn Chí Thanh",
+   "so_nha": "7",
+   "dia_chi": "7 Nguyễn Chí Thanh",
+   "nguon": [
+    "https://phela.vn/",
+    "https://vinwonders.com/vi/wonderpedia/news/review-20-quan-tra-sua-da-lat-ngon-quen-sau/",
+    "https://wanderlog.com/place/details/5146217/ph%C3%AA-la-%C4%91%C3%A0-l%E1%BA%A1t"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026 (phela.vn ghi 'Phường Xuân Hương - Đà Lạt' = tên phường sau 1/7/2025; wanderlog có giờ mở, không ghi đóng)"
+  },
+  {
+   "ten": "Retro 1992",
+   "loai": "quán cà phê hoài cổ",
+   "dac_trung": "Quán đồ gỗ cũ, đèn vàng, lối lên là bậc thang nhiều màu trên một con dốc nhỏ.",
+   "duong": "Nguyễn Chí Thanh",
+   "so_nha": "23",
+   "dia_chi": "23 Nguyễn Chí Thanh",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-ca-phe-co-kinh-don-tim-du-khach-o-da-lat-31672.htm",
+    "https://znews.vn/nhung-tiem-ca-phe-phong-cach-retro-o-da-lat-post1008585.html",
+    "https://mytour.vn/en/blog/bai-viet/top-11-charming-vintage-cafes-that-capture-the-hearts-of-visitors-in-da-lat-lam-dong-mytour.html"
+   ],
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "Znews (4/11/2019) chỉ ghi 'ngay khu trung tâm', không có số nhà; số 23 chỉ từ toplist, bài mytour tiếng Anh có vẻ dịch lại đúng bài toplist nên không tính là nguồn độc lập cho số nhà.",
+   "con_mo": "không rõ (nguồn có ngày mới nhất là Znews 2019)"
+  },
+  {
+   "ten": "Artista - Cafe Nghệ Sỹ",
+   "loai": "quán cà phê kiểu Âu",
+   "dac_trung": "Quán trang trí kiểu châu Âu, có lò sưởi củi, ngồi nhìn phố trung tâm; có món ăn sáng, tối.",
+   "duong": "Nguyễn Chí Thanh",
+   "so_nha": "9",
+   "dia_chi": "9 Nguyễn Chí Thanh",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/cafe-nghe-sy",
+    "https://www.airbnb.com/things-to-do/places/2994762"
+   ],
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "Số 9 chỉ foody ghi; Airbnb (gợi ý của người địa phương 9/2018) chỉ nói quán nằm trên 'Coffee Street' đường Nguyễn Chí Thanh.",
+   "con_mo": "không rõ (bình luận foody mới nhất 10/12/2020; Airbnb không ghi đóng)"
+  },
+  {
+   "ten": "Tiệm bánh Cối Xay Gió - Nguyễn Chí Thanh",
+   "loai": "tiệm bánh, cà phê",
+   "dac_trung": "Chi nhánh 'tường vàng đồ si' treo hơn 1.300 áo thun vàng, nhìn ra phố trung tâm; mỗi lượt check-in góp 1.000đ cho học sinh khó khăn.",
+   "duong": "Nguyễn Chí Thanh",
+   "so_nha": "11A",
+   "dia_chi": "11A Nguyễn Chí Thanh (foody ghi 11)",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/co-gi-dac-biet-o-tiem-banh-coi-xay-gio-noi-tieng-nhat-xu-so-suong-mu-da-lat-1369",
+    "https://www.foody.vn/lam-dong/khu-vuc-hoa-binh"
+   ],
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "mia.vn ghi 11A, foody ghi 11; foody cũng có 'Phượng Tím Cafe' ở số 11 (xem cần kiểm thêm). Tường vàng gốc của Cối Xay Gió là chi nhánh khác (Tăng Bạt Hổ / Ba Tháng Hai), báo 2020 đưa tin bị xoá.",
+   "con_mo": "không rõ (bình luận foody mới nhất 5/3/2021)"
+  },
+  {
+   "ten": "Windmills – Nhà 9 Cánh",
+   "loai": "quán cà phê sân thượng",
+   "dac_trung": "Quán cổ điển trên sân thượng một khách sạn lâu đời, nhìn hồ Xuân Hương và chợ Đà Lạt; cappuccino, bánh Pháp.",
+   "duong": "Lê Đại Hành",
+   "so_nha": "1",
+   "dia_chi": "1 Lê Đại Hành (bên phải đường lên Hòa Bình)",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+    "https://mytour.vn/vi/blog/bai-viet/dl-kham-pha-da-lat-ghe-tham-windmills.html"
+   ],
+   "do_tin_cay": "thấp",
+   "ghi_chu": "Đủ 2 nguồn cho tên và số nhà nhưng nghi đã đóng hoặc đổi tên: 2 chi nhánh Windmills khác (133A Phan Đình Phùng, 7A Ba Tháng Hai) Google ghi 'đóng hẳn' (wanderlog); Airbnb 'Windmills Cafe' cũng ghi đóng hẳn (không rõ chi nhánh nào); cùng bài vinwonders lại ghi 'Little Paris Coffee Dalat' cũng ở số 1 Lê Đại Hành. Nên kiểm Google Maps trước khi đưa lên bản đồ.",
+   "con_mo": "không rõ (nghi đã đóng — xem ghi_chu)"
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Phượng Tím Cafe",
+   "loai": "quán cà phê nhìn chợ đêm",
+   "dac_trung": "Quán lâu đời, chỗ ngồi sát lan can nhìn xuống chợ đêm; foody ghi 7h–22h, 30.000–55.000đ.",
+   "duong": "Nguyễn Chí Thanh",
+   "so_nha": "11",
+   "dia_chi": "11 Nguyễn Chí Thanh",
+   "nguon": ["https://www.foody.vn/lam-dong/phuong-tim-cafe"],
+   "ly_do": "Chỉ 1 nguồn (foody, bình luận mới nhất 10/12/2020); trùng số 11 với Tiệm bánh Cối Xay Gió nên có thể cùng một chỗ đã đổi chủ.",
+   "con_mo": "không rõ"
+  },
+  {
+   "ten": "Little Paris Coffee Dalat",
+   "loai": "quán cà phê kiểu Paris",
+   "dac_trung": "Trang trí cổ điển như Paris thu nhỏ, hay được chụp ảnh cưới.",
+   "duong": "Lê Đại Hành",
+   "so_nha": "1",
+   "dia_chi": "1 Lê Đại Hành",
+   "nguon": ["https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/"],
+   "ly_do": "Chỉ 1 nguồn (vinwonders); trùng số nhà với Windmills – Nhà 9 Cánh, có thể là quán thay thế.",
+   "con_mo": "không rõ"
+  },
+  {
+   "ten": "Veronica Cafe - Lê Đại Hành",
+   "loai": "quán cà phê, chè",
+   "dac_trung": "Quán sát chợ và hồ Xuân Hương, từng bán chè khúc bạch.",
+   "duong": "Lê Đại Hành",
+   "so_nha": "2",
+   "dia_chi": "2 Lê Đại Hành",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/veronica-cafe-le-dai-hanh",
+    "https://wanderlog.com/place/details/1781633/veronica-cafe"
+   ],
+   "ly_do": "Đủ 2 nguồn nhưng Google (qua wanderlog) ghi 'đóng hẳn' → không đưa lên bản đồ.",
+   "con_mo": "đã đóng (wanderlog/Google)"
+  },
+  {
+   "ten": "Len's Cafe & Restaurant",
+   "loai": "quán cà phê, nhà hàng",
+   "dac_trung": "Quán cà phê kèm món ăn ở đầu đường.",
+   "duong": "Nguyễn Chí Thanh",
+   "so_nha": "5-7",
+   "dia_chi": "5-7 Nguyễn Chí Thanh",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/cafe-phuc-vu-cafe-kem",
+    "https://wanderlog.com/place/details/1507360/lens-coffee"
+   ],
+   "ly_do": "Google (qua wanderlog) ghi 'đóng hẳn'; số 7 nay là Phê La.",
+   "con_mo": "đã đóng (wanderlog/Google)"
+  }
+ ],
+ "nguon_chung": [
+  "https://www.airbnb.com/things-to-do/places/2994762",
+  "https://vnexpress.net/hoai-niem-pho-o-ca-phe-da-lat-3081445.html",
+  "https://mytour.vn/vi/blog/bai-viet/hoi-uc-ve-thanh-pho-hoa-gui-den-tung-da-lat.html",
+  "https://znews.vn/dien-mao-moi-cua-ca-phe-khu-hoa-binh-da-lat-post1596644.html",
+  "data/lam-dong/nq1671.json",
+  "data/lam-dong/da-lat/duong.json"
+ ],
+ "ngay_nghien_cuu": "2026-11-25"
+}

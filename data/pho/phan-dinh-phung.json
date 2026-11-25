@@ -1,0 +1,175 @@
+{
+  "road": "Phan Đình Phùng",
+  "ward": "Xuân Hương - Đà Lạt",
+  "ward_check": "chắc",
+  "ward_ghi_chu": "Đường nằm ở Phường 1 và Phường 2 cũ (nhiều trang ghi 'P. 1' / 'P. 2'); NQ 1671 mục 99: phường Xuân Hương - Đà Lạt gộp từ Phường 1, Phường 2, Phường 3, Phường 4, Phường 10 → cả đường thuộc Xuân Hương - Đà Lạt. Tên OSM trong duong.json: 'Phan Đình Phùng' (khớp).",
+  "ten_pho": "Phố Dân Sinh",
+  "gioi_thieu": "Phố Dân Sinh: phố cũ của dân phố núi — sáng có bánh bèo, mì hoành thánh, bún bò, phở thố đá; dọc phố có nhà sách lớn, nhà thuốc, quán nem nướng và chỗ thuê xe máy.",
+  "dia_diem": [
+    {
+      "ten": "Nhà sách Phương Nam Đà Lạt",
+      "loai": "nhà sách",
+      "dac_trung": "nhà sách nhiều tầng, có khu sách thiếu nhi, bán cả văn phòng phẩm và quà lưu niệm",
+      "dia_chi": "279 Phan Đình Phùng (P. 2 cũ), phường Xuân Hương - Đà Lạt",
+      "so_nha": "279",
+      "nguon": [
+        "https://mia.vn/cam-nang-du-lich/cac-nha-sach-da-lat-15541",
+        "https://mytour.vn/vi/blog/bai-viet/top-6-dia-diem-sach-uy-tin-o-lam-dong.html",
+        "https://toplist.vn/top-list/nha-sach-uy-tin-nhat-tinh-lam-dong-47306.htm"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn sửa bài 25/08/2026 vẫn ghi địa chỉ này"
+    },
+    {
+      "ten": "Nhà thuốc Long Châu (44-44A Phan Đình Phùng)",
+      "loai": "nhà thuốc",
+      "dac_trung": "nhà thuốc chuỗi, cùng chỗ có Trung tâm Tiêm chủng FPT Long Châu chi nhánh Phan Đình Phùng",
+      "dia_chi": "44-44A Phan Đình Phùng (P. 1 cũ), phường Xuân Hương - Đà Lạt",
+      "so_nha": "44-44A",
+      "nguon": [
+        "https://nhathuoclongchau.com.vn/he-thong-cua-hang/44-44-a-phan-dinh-phung-p-1-tp-da-lat-tinh-lam-dong",
+        "https://hellobacsi.com/care/benh-vien/trung-tam-tiem-chung-fpt-long-chau-chi-nhanh-phan-dinh-phung-tp-da-lat-lam-dong-5548/"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "không rõ (trang Long Châu chặn đọc trực tiếp, chỉ thấy qua kết quả tìm kiếm)"
+    },
+    {
+      "ten": "Bánh bèo Bà Hường",
+      "loai": "quán bánh bèo",
+      "dac_trung": "bánh bèo hấp chén kiểu Quảng Nam, nhân thịt nạc và tôm băm, bán tới tối",
+      "dia_chi": "402 Phan Đình Phùng (P. 2 cũ), phường Xuân Hương - Đà Lạt",
+      "so_nha": "402",
+      "nguon": [
+        "https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352",
+        "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/an-sang-da-lat",
+        "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/",
+        "https://www.grab.com/vn/food-blog/talk-of-the-town/tphcm-goi-y-5-quan-an-kham-pha-tron-mot-ngay-o-da-lat/"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn sửa bài 06/08/2026, ghi phường Xuân Hương (tên sau 1/7/2025)"
+    },
+    {
+      "ten": "Mì hoành thánh Tàu Cao",
+      "loai": "quán mì hoành thánh",
+      "dac_trung": "mì hoành thánh nước trong, bán từ sáng sớm",
+      "dia_chi": "217 Phan Đình Phùng (P. 2 cũ), phường Xuân Hương - Đà Lạt",
+      "so_nha": "217",
+      "nguon": [
+        "https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352",
+        "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/an-sang-da-lat",
+        "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn sửa bài 06/08/2026 ghi phường Xuân Hương"
+    },
+    {
+      "ten": "Phở Thố Đá Chu Gia",
+      "loai": "quán phở",
+      "dac_trung": "phở bò đựng trong thố đá nóng, nước dùng hầm xương bò lâu giờ",
+      "dia_chi": "1 Bis Phan Đình Phùng (P. 1 cũ), phường Xuân Hương - Đà Lạt",
+      "so_nha": "1 Bis",
+      "nguon": [
+        "https://vinwonders.com/vi/wonderpedia/news/pho-da-lat/",
+        "https://www.foody.vn/lam-dong/dia-diem-phuc-vu-pho"
+      ],
+      "do_tin_cay": "vừa",
+      "ghi_chu": "Địa chỉ còn vênh: mia.vn (2023) ghi 09 Thông Thiên Học, vài trang khác ghi 29 Thông Thiên Học. Có thể quán có 2 chỗ hoặc đã dời.",
+      "con_mo": "có dấu hiệu còn mở 2025: vinwonders đăng 05/07/2025 ghi 1Bis Phan Đình Phùng, phường Xuân Hương"
+    },
+    {
+      "ten": "Nem nướng Bà Hùng",
+      "loai": "quán nem nướng",
+      "dac_trung": "quán nem nướng lâu năm, chỉ chuyên một món, nổi tiếng nhờ nước chấm",
+      "dia_chi": "328 Phan Đình Phùng (P. 2 cũ), phường Xuân Hương - Đà Lạt",
+      "so_nha": "328",
+      "nguon": [
+        "https://foody.vn/lam-dong/nem-nuong-ba-hung-phan-dinh-phung",
+        "https://mia.vn/cam-nang-du-lich/fan-cha-ram-nem-nuong-nhat-dinh-khong-duoc-bo-qua-top4-quan-ngon-tuyet-dinh-tai-da-lat-1308",
+        "https://toplist.vn/top-list/quan-an-dem-ngon-nhat-tai-da-lat-37718.htm",
+        "https://mytour.vn/vi/blog/bai-viet/nhat-dinh-phai-thu-fan-cha-ram-nem-nuong-tai-da-lat.html",
+        "https://vinwonders.com/vi/bai-viet-du-lich/quan-an-ngon-da-lat/"
+      ],
+      "do_tin_cay": "cao",
+      "ghi_chu": "Kết quả tìm kiếm cho thấy trang Airbnb (things-to-do/places/1158237) ghi 'Permanently closed', em mở trang đó không đọc được để xác nhận. Foody có bình luận chê phục vụ.",
+      "con_mo": "có dấu hiệu còn mở 2026: mia.vn sửa bài 21/02/2026 vẫn ghi cơ sở 328 Phan Đình Phùng; vinwonders ghi phường Xuân Hương. Riêng Airbnb ghi đã đóng — còn nghi"
+    },
+    {
+      "ten": "Trang's Cookery Restaurant",
+      "loai": "nhà hàng món Âu",
+      "dac_trung": "nhà hàng món Âu hai tầng sàn gỗ, có ban công nhìn ra phố, nhiều khách nước ngoài",
+      "dia_chi": "211 Phan Đình Phùng, phường Xuân Hương - Đà Lạt",
+      "so_nha": "211",
+      "nguon": [
+        "https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352",
+        "https://wanderlog.com/place/details/1143602",
+        "https://www.bestpricetravel.com/travel-guide/best-restaurants-in-da-lat-2749.html"
+      ],
+      "do_tin_cay": "cao",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (sửa 06/08/2026) và Wanderlog đều ghi phường Xuân Hương - Đà Lạt"
+    },
+    {
+      "ten": "Bánh ướt lòng gà Long",
+      "loai": "quán bánh ướt lòng gà",
+      "dac_trung": "bánh ướt ăn với lòng gà, thịt gà, trứng non bóp gỏi, nước chấm chua ngọt",
+      "dia_chi": "202/2/5 Phan Đình Phùng (trong hẻm), phường Xuân Hương - Đà Lạt",
+      "so_nha": "202/2/5",
+      "nguon": [
+        "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/an-sang-da-lat",
+        "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/"
+      ],
+      "do_tin_cay": "vừa",
+      "ghi_chu": "Nằm trong hẻm, không ở mặt đường.",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders ghi phường Xuân Hương (tên sau 1/7/2025)"
+    },
+    {
+      "ten": "Bún bò Bà Sồi",
+      "loai": "quán bún bò Huế",
+      "dac_trung": "quán bún bò Huế nhỏ chỉ bán buổi sáng (6h–11h); mytour ghi đã mở khoảng 20 năm",
+      "dia_chi": "51/6 Phan Đình Phùng (trong hẻm), phường Xuân Hương - Đà Lạt",
+      "so_nha": "51/6",
+      "nguon": [
+        "https://vinwonders.com/vi/bai-viet-du-lich/quan-an-ngon-da-lat/",
+        "https://mytour.vn/en/blog/bai-viet/discover-11-irresistible-bun-bo-restaurants-in-da-lat-mytour.html"
+      ],
+      "do_tin_cay": "vừa",
+      "ghi_chu": "Nằm trong hẻm. Con số '20 năm' chỉ có 1 nguồn (mytour), không đưa lên câu giới thiệu.",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders ghi phường Xuân Hương; mytour cập nhật 01/11/2026"
+    },
+    {
+      "ten": "Thuê xe Cub 50 Đà Lạt",
+      "loai": "cho thuê xe máy",
+      "dac_trung": "cho thuê xe Cub 50 phân khối, đi không cần bằng lái",
+      "dia_chi": "340 Phan Đình Phùng (P. 2 cũ), phường Xuân Hương - Đà Lạt",
+      "so_nha": "340",
+      "nguon": [
+        "https://vinwonders.com/vi/wonderpedia/news/thue-xe-may-da-lat/",
+        "https://mia.vn/cam-nang-du-lich/tong-hop-7-dia-chi-thue-xe-may-tai-da-lat-uy-tin-nhat-1426"
+      ],
+      "do_tin_cay": "vừa",
+      "ghi_chu": "Hai bài ghi cùng số điện thoại; tên tiệm chỉ là 'Thuê xe Cub 50', không thấy tên biển hiệu riêng.",
+      "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders ghi phường Xuân Hương (bài mia.vn cũ hơn, sửa 20/09/2023)"
+    }
+  ],
+  "can_kiem_them": [
+    {"ten": "Traky Hair Salon", "loai": "salon tóc", "dia_chi": "289 Phan Đình Phùng (mytour 06/01/2026); bài mytour khác ghi 425 Phan Đình Phùng", "so_nha": null, "nguon": ["https://mytour.vn/vi/blog/xep-hang/top-10-salon-toc-dep-va-noi-tieng-nhat-tai-da-lat-mytour.html", "https://mytour.vn/vi/blog/bai-viet/top-12-salon-lam-toc-dep-va-uy-tin-nhat-da-lat.html"], "ly_do": "2 bài cùng 1 trang (mytour.vn), số nhà vênh 289/425"},
+    {"ten": "Jolie Hair Studio", "loai": "salon tóc", "dia_chi": "1/4 Phan Đình Phùng", "so_nha": "1/4", "nguon": ["https://mytour.vn/vi/blog/xep-hang/top-10-salon-toc-dep-va-noi-tieng-nhat-tai-da-lat-mytour.html"], "ly_do": "chỉ 1 nguồn"},
+    {"ten": "Áo cưới Sunny Tuyết (Sunny Tuyết Bridal Studio)", "loai": "studio ảnh cưới", "dia_chi": "140-142 Phan Đình Phùng", "so_nha": "140-142", "nguon": ["https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-chuyen-nghiep-nhat-tai-lam-dong-18106.htm", "https://mytour.vn/en/blog/xep-hang/top-10-best-and-most-professional-wedding-photography-studios-in-lam-dong-mytour.html"], "ly_do": "bài mytour (tiếng Anh) là bản dịch gần nguyên văn bài toplist → không độc lập"},
+    {"ten": "Bonheaur Studio", "loai": "studio ảnh cưới, cho thuê váy cưới/áo dài", "dia_chi": "287/22/10 Phan Đình Phùng (hẻm)", "so_nha": "287/22/10", "nguon": ["https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-chuyen-nghiep-nhat-tai-lam-dong-18106.htm", "https://mytour.vn/en/blog/xep-hang/top-10-best-and-most-professional-wedding-photography-studios-in-lam-dong-mytour.html"], "ly_do": "như trên, mytour dịch lại toplist; tên viết lúc Bonheaur lúc Boheur"},
+    {"ten": "Thuyết Nguyễn Wedding House", "loai": "studio ảnh cưới", "dia_chi": "toplist 18106 + mytour ghi 'Lô 703 KQH Phan Đình Phùng'; toplist 17292 ghi '213A Phan Đình Phùng'", "so_nha": null, "nguon": ["https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-nhat-tai-da-lat-17292.htm", "https://toplist.vn/top-list/studio-chup-anh-cuoi-dep-chuyen-nghiep-nhat-tai-lam-dong-18106.htm", "https://mytour.vn/en/blog/xep-hang/top-10-best-and-most-professional-wedding-photography-studios-in-lam-dong-mytour.html"], "ly_do": "địa chỉ vênh; nguồn cùng một họ trang"},
+    {"ten": "Nhà thuốc Long Châu (204 Phan Đình Phùng, Ngã Ba Chùa)", "loai": "nhà thuốc", "dia_chi": "204 Phan Đình Phùng", "so_nha": "204", "nguon": ["https://nhathuoclongchau.com.vn/he-thong-cua-hang/204-phan-dinh-phung-p-tp-da-lat-tinh-lam-dong"], "ly_do": "chỉ trang Long Châu (đọc qua kết quả tìm kiếm); toplist lại ghi Long Châu ở 356 Phan Đình Phùng"},
+    {"ten": "Nhà thuốc Kim Hằng - Kim Thái - Kim Cương", "loai": "nhà thuốc", "dia_chi": "109 Phan Đình Phùng", "so_nha": "109", "nguon": ["https://toplist.vn/top-list/tiem-thuoc-tay-uy-tin-nhat-da-lat-39270.htm"], "ly_do": "chỉ 1 nguồn"},
+    {"ten": "Pharmacity", "loai": "nhà thuốc", "dia_chi": "42 Phan Đình Phùng", "so_nha": "42", "nguon": ["https://toplist.vn/top-list/tiem-thuoc-tay-uy-tin-nhat-da-lat-39270.htm"], "ly_do": "chỉ 1 nguồn, không thấy trên trang Pharmacity"},
+    {"ten": "Phở Phi Thuyền", "loai": "quán phở", "dia_chi": "78 Phan Đình Phùng", "so_nha": "78", "nguon": ["https://vinwonders.com/vi/wonderpedia/news/pho-da-lat/"], "ly_do": "chỉ 1 nguồn, tìm không ra trang khác"},
+    {"ten": "Bún thịt nướng Liên", "loai": "quán bún thịt nướng", "dia_chi": "287/7 Phan Đình Phùng (mia, vinwonders ăn sáng) hoặc 272 Phan Đình Phùng (vinwonders quán ăn ngon)", "so_nha": null, "nguon": ["https://mia.vn/cam-nang-du-lich/an-sang-tai-da-lat-top-10-dia-diem-ngon-lac-loi-nhat-dinh-phai-den-1352", "https://vinwonders.com/vi/bai-viet-du-lich/an-sang-da-lat/", "https://vinwonders.com/vi/bai-viet-du-lich/quan-an-ngon-da-lat/"], "ly_do": "có 2 trang nhưng số nhà vênh (287/7 hay 272) — cần xem Google Maps"},
+    {"ten": "Hoàn Vũ Motorbike Rental", "loai": "cho thuê xe máy", "dia_chi": "377 Phan Đình Phùng", "so_nha": "377", "nguon": ["https://mia.vn/cam-nang-du-lich/top-dia-diem-thue-xe-may-da-lat-19448"], "ly_do": "chỉ 1 nguồn"},
+    {"ten": "Thuê xe máy Phan Đình Phùng", "loai": "cho thuê xe máy", "dia_chi": "281 Phan Đình Phùng", "so_nha": "281", "nguon": ["https://muaban.net/blog/cho-thue-xe-may-da-lat-364430/"], "ly_do": "chỉ 1 nguồn"},
+    {"ten": "Style Motorbikes / Minh Long Rental", "loai": "cho thuê xe máy", "dia_chi": "56 và 102 Phan Đình Phùng", "so_nha": null, "nguon": ["https://www.vietnamtourism.com/vi/thue-xe-may-a-lat-huong-dan-toan-dien-cho-du-khach"], "ly_do": "chỉ 1 nguồn (vietnamtourism.com là trang tư nhân, không phải trang của Tổng cục)"},
+    {"ten": "Bánh Căn Bình Dân - Phan Đình Phùng", "loai": "quán bánh căn", "dia_chi": "đối diện 62 Phan Đình Phùng", "so_nha": null, "nguon": ["https://www.foody.vn/lam-dong/banh-can-binh-dan-phan-dinh-phung"], "ly_do": "chỉ 1 nguồn, bình luận cũ (2014–2017)"}
+  ],
+  "nguon_chung": [
+    "data/lam-dong/nq1671.json mục 99 (phường Xuân Hương - Đà Lạt gộp Phường 1, 2, 3, 4, 10)",
+    "data/lam-dong/da-lat/duong.json — tên OSM 'Phan Đình Phùng'",
+    "https://www.vietnamtourism.com/vi/thue-xe-may-a-lat-huong-dan-toan-dien-cho-du-khach (ghi tiệm thuê xe tập trung ở Nguyễn Văn Trỗi và dọc Phan Đình Phùng)",
+    "Kho game ltckha/giang-ho-ai: content/streets/street_phan_dinh_phung.json, docs/research/2026-11-23_pho3_phan_dinh_phung.md (chỉ lấy link nguồn, không lấy tên quán đặt lại)"
+  ]
+}

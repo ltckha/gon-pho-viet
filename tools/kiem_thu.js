@@ -23,7 +23,7 @@ const URL = process.env.URL || 'http://localhost:8765/';
 
   // 1. Việt Nam
   await p.goto(URL); await p.waitForTimeout(1500);
-  const nTinh = await p.locator('#land path.prov').count();
+  const nTinh = await p.locator('#land path.prov:not(.ngoai)').count();
   if (nTinh !== 34) fail(`Tầng Việt Nam có ${nTinh} tỉnh, phải là 34`);
   await shot('1_viet_nam');
   // kéo không được tính là bấm
@@ -36,7 +36,7 @@ const URL = process.env.URL || 'http://localhost:8765/';
 
   // 2. Lâm Đồng
   await p.click('[data-go]'); await p.waitForTimeout(1500);
-  const nXa = await p.locator('#land path.prov:not(.ctx)').count();
+  const nXa = await p.locator('#land path.prov:not(.ctx):not(.ngoai)').count();
   if (nXa !== 124) fail(`Tầng Lâm Đồng có ${nXa} xã/phường, phải là 124`);
   await shot('3_lam_dong');
   await zoomOn(p.locator('path.prov.open').first(), 4);
@@ -85,7 +85,7 @@ const URL = process.env.URL || 'http://localhost:8765/';
   await p.goto(URL + '#lam-dong'); await p.waitForTimeout(1200);
   await p.goto(URL + '#pho-tran-phu'); await p.waitForTimeout(2500);
   await p.goBack(); await p.waitForTimeout(1200);
-  if ((await p.locator('#land path.prov:not(.ctx)').count()) !== 124) fail('Nút quay lại không về tầng Lâm Đồng');
+  if ((await p.locator('#land path.prov:not(.ctx):not(.ngoai)').count()) !== 124) fail('Nút quay lại không về tầng Lâm Đồng');
 
   await b.close();
   if (errs.length) { console.log('CÓ LỖI:\n- ' + errs.join('\n- ')); process.exit(1); }

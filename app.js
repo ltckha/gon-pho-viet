@@ -268,6 +268,13 @@
     var top = [];
     var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
     var lonMax = layer.lonMax || 999;
+    // nước láng giềng vẽ mờ dưới cùng, để đất nước bạn không bị tô màu biển
+    if (cache.ngoai) {
+      cache.ngoai.nuoc.forEach(function (n) {
+        land.appendChild(el('path', { d: pathOf(n.hinh, 2), 'class': 'prov ngoai' }));
+        labels.appendChild(el('text', { x: px(n.nhan[0]).toFixed(1), y: py(n.nhan[1]).toFixed(1), 'class': 'lbl ngoai-name', 'data-min': 0 }, n.ten));
+      });
+    }
     if (layer.context && cache[layer.context.layer]) {
       var ctx = cache[layer.context.layer];
       ctx[LAYERS[layer.context.layer].list].forEach(function (t) {
@@ -579,7 +586,8 @@
       var sw = l[0] === 'star' ? '<i class="star">★</i>' : l[0] === 'pin' ? '<i class="star pin-ico">⬤</i>' : '<i class="sw ' + l[0] + '"></i>';
       return '<span>' + sw + esc(l[1]) + '</span>';
     }).join('');
-    document.getElementById('srcList').innerHTML = data.nguon.map(function (n) {
+    var nguon = data.nguon.concat(cache.ngoai && layer.kind !== 'duong' ? [cache.ngoai.nguon] : []);
+    document.getElementById('srcList').innerHTML = nguon.map(function (n) {
       return '<li>' + esc(n.ten) + '<br><a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.link) + '</a></li>';
     }).join('');
     var name = layer.crumb[layer.crumb.length - 1][0];
@@ -612,7 +620,8 @@
         return r.json();
       }).then(function (d) { cache[x.key] = d; return d; });
     }
-    Promise.all([load(id), L.context ? load(L.context.layer) : null, L.extra ? loadExtra(L.extra) : null]).then(function (res) {
+    Promise.all([load(id), L.context ? load(L.context.layer) : null, L.extra ? loadExtra(L.extra) : null,
+      loadExtra({ key: 'ngoai', file: 'data/lang-gieng.json' }).catch(function () { return null; })]).then(function (res) {
       var d = res[0];
       data = d; layer = L; layerId = id;
       renderChrome();

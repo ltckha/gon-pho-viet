@@ -44,6 +44,9 @@ body {
 #svg:active { cursor: grabbing; }
 .prov { fill: var(--land); stroke: var(--edge); stroke-width: 1; vector-effect: non-scaling-stroke; stroke-linejoin: round; cursor: pointer; }
 .prov.open { fill: var(--open); stroke: var(--open-edge); stroke-width: 1.6; }
+/* nét dày cùng màu để lấp khe hở giữa ranh giới Natural Earth và ranh giới Việt Nam (hai nguồn lệch nhau vài trăm mét) */
+.prov.ngoai { fill: #dcd8cf; stroke: #dcd8cf; stroke-width: 10; stroke-linejoin: round; pointer-events: none; }
+.lbl.ngoai-name { fill: #8a7f70; font-weight: 600; letter-spacing: .08em; }
 .prov.ctx { fill: #e6e1d6; stroke: #c4b7a4; pointer-events: none; }
 .prov.dalat { fill: #c9e2cf; stroke: var(--open-edge); }
 .prov.ward { fill: #ead9b4; }

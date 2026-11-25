@@ -45,6 +45,11 @@ PHO = [
      'ten_pho': 'Phố Di Sản', 'gioi_thieu': 'Phố di sản: khách sạn thời Pháp bên hồ, tiệm bánh lâu đời, quán phở, cháo đêm'},
 ]
 
+# Tên mốc trên OSM viết sai/không dấu → sửa (đã soát 25/11/2026); mốc là quán xá, trùng chỗ, tên tạm → bỏ
+MOC_SUA = {'Chợ đêm Da Lat': 'Chợ đêm Đà Lạt', 'Chùa Vạn Dừc': 'Chùa Vạn Đức'}
+MOC_BO = {'Reo 20° Chill in Dalat', 'Clay Tunnels - Dalat Star', 'French Quarter', 'Giọt Sương Bay Lên Home Garden',
+          'Nhà Pháp gần tu viện bỏ hoang', '3D World', 'Ngộ quán', 'Museum Madam De Dalat'}
+
 # Mốc có tên muốn hiện (lọc theo thẻ OSM)
 MOC_TAGS = [('amenity', 'marketplace', 'chợ'), ('railway', 'station', 'ga'), ('tourism', 'attraction', 'điểm tham quan'),
             ('amenity', 'place_of_worship', 'nhà thờ, chùa'), ('leisure', 'park', 'công viên'), ('tourism', 'museum', 'bảo tàng')]
@@ -211,6 +216,11 @@ def main(osm_dir, vpd_dir):
     KEEP_ATTR = ('Thác', 'Dinh', 'Quảng trường', 'Vườn', 'Làng', 'Đường hầm', 'KDL', 'Khu du lịch', 'Thung lũng', 'Đồi', 'Nhà thờ', 'Hồ')
 
     def add_moc(name, kind, pt):
+        if name in MOC_BO:
+            return
+        name = MOC_SUA.get(name, name)
+        if name.startswith('KDL '):
+            name = 'Khu du lịch ' + name[4:]   # viết đầy đủ, không viết tắt
         if name in seen or not inside(pt):
             return
         if kind == 'điểm tham quan' and not name.startswith(KEEP_ATTR):

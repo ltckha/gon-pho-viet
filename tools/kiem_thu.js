@@ -59,7 +59,7 @@ const URL = process.env.URL || 'http://localhost:8765/';
   await tapEl(p.locator('.pin-body').nth(2));
   if (!(await p.isVisible('#sheet.full'))) fail('Bấm ghim phố không ra trang phố');
   if (!/^#pho-/.test(await p.evaluate(() => location.hash))) fail('Trang phố không có địa chỉ riêng (#pho-…)');
-  const nPlace = await p.locator('.places li').count();
+  const nPlace = await p.locator('.bd-list li').count();
   if (nPlace < 1) fail('Trang phố không có nơi tiêu biểu nào');
   const imgOk = await p.evaluate(() => { const i = document.querySelector('.banner'); return i && i.complete && i.naturalWidth > 0; });
   if (!imgOk) fail('Tranh đầu phố không hiện');
@@ -74,15 +74,15 @@ const URL = process.env.URL || 'http://localhost:8765/';
   // 5. Mở thẳng link trang phố, rồi nút quay lại
   await p.goto(URL + '#pho-hoang-dieu'); await p.waitForTimeout(2500);
   if (!(await p.isVisible('#sheet.full'))) fail('Mở link #pho-hoang-dieu không ra trang phố');
-  const nTen = await p.locator('.places li b').count();
-  await p.locator('details.all summary').click();            // danh sách quán nằm trong mục gập
-  const btnQuan = p.locator('text=Xem chỗ quán trên bản đồ');
-  if (await btnQuan.count()) {
-    await btnQuan.first().click(); await p.waitForTimeout(600);
-    if ((await p.locator('#placeMark').count()) !== 1) fail('Bấm "Xem chỗ quán" mà không có chấm quán');
-    await shot('10_cho_quan');
-  } else fail('Trang phố Lẩu Bò không có quán nào có vị trí');
-  if (nTen < 1) fail('Trang phố không có tên quán');
+  const nTen = await p.locator('.bd-list li').count();
+  if ((await p.locator('.bd-cham').count()) < 1) fail('Bản đồ phố không có chấm quán nào');
+  await shot('10_ban_do_pho');
+  await p.locator('.bd-list button').first().click(); await p.waitForTimeout(400);
+  if (!(await p.isVisible('#quanCard'))) fail('Bấm quán trong danh sách không ra thẻ quán');
+  await p.click('#quanGo'); await p.waitForTimeout(600);
+  if (await p.isVisible('#sheet')) fail('Bấm "Xem trên bản đồ thật" mà trang phố không đóng');
+  await shot('11_quan_tren_ban_do');
+  if (nTen < 1) fail('Trang phố không có quán');
   await p.goto(URL + '#lam-dong'); await p.waitForTimeout(1200);
   await p.goto(URL + '#pho-tran-phu'); await p.waitForTimeout(2500);
   await p.goBack(); await p.waitForTimeout(1200);

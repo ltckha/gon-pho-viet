@@ -526,28 +526,10 @@
       '<div id="soDo" class="so-do" aria-label="Sơ đồ phố ' + esc(ph.ten_pho) + '"><p class="note">Đang vẽ phố…</p></div>' +
       '<div id="quanCard" class="quan-card" hidden></div>' +
       '<button class="go" type="button" id="seeMap">Xem cả phố trên bản đồ thật</button>' +
-      '<details class="all"><summary>Danh sách ' + ph.dia_diem.length + ' nơi (mỗi nơi ≥ 2 nguồn)</summary><ol class="places">';
-    ph.dia_diem.forEach(function (d, k) {
-      h += '<li>' + (d.ten
-        ? '<b>' + esc(d.ten) + '</b><span class="addr">' + esc(d.dia_chi) + ' · ' + esc(d.loai) + '</span>'
-        : '<b>' + esc(d.loai) + '</b>') +
-        '<span>' + esc(d.dac_trung) + '</span>' +
-        (d.ten && /^không rõ/i.test(d.con_mo || '') ? '<span class="src warn">Chưa rõ còn mở (nguồn mới nhất chưa xác nhận)</span>' : '') +
-        (d.ten ? (d.vi_tri
-          ? '<button class="mini" type="button" data-place="' + k + '">Xem chỗ quán trên bản đồ</button>' +
-            (d.vi_tri.uoc ? '<span class="src">Vị trí ước theo số nhà, có thể lệch khoảng ' + d.vi_tri.lech_m + ' m</span>' : '')
-          : '<button class="mini" type="button" data-place="' + k + '">Xem đường ' + esc(d.duong) + '</button><span class="src">Chưa có vị trí chính xác trên bản đồ</span>') : '') +
-        '<span class="src">Nguồn: ' +
-        d.nguon.map(function (n, k) {
-          var dup = d.nguon.filter(function (m) { return m.trang === n.trang; }).length > 1;
-          return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + (dup ? ' (bài ' + (k + 1) + ')' : '') + '</a>';
-        }).join(' · ') +
-        '</span></li>';
-    });
-    h += '</ol></details>';
+      '';
     if (ph.can_kiem_them) h += '<p class="note">Còn ' + ph.can_kiem_them + ' nơi khác chưa đủ 2 nguồn nên chưa đưa lên.</p>';
     h += ph.ten_that
-      ? '<p class="note">Tên quán thật, mỗi nơi có nguồn ở ít nhất 2 trang khác nhau. Vị trí chỉ ghi khi OpenStreetMap có đúng tên quán hoặc đúng số nhà. <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">Xem nghiên cứu</a>.</p>'
+      ? '<p class="note">Tên quán thật, mỗi nơi có nguồn ở ít nhất 2 trang khác nhau. Vị trí lấy từ OpenStreetMap (đúng tên quán hoặc đúng số nhà), hoặc ước theo số nhà khi ghi rõ. <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">Xem nghiên cứu</a>.</p>'
       : '<p class="note">Chưa ghi tên quán và vị trí từng quán. Theo <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">nghiên cứu phố</a> của game Gọn Phố.</p>';
     sheetBody.innerHTML = h;
     sheet.classList.add('full');
@@ -578,57 +560,81 @@
     }
   }
 
-  /* ---------- sơ đồ phố kiểu game ---------- */
-  var atlas = null;
+  /* ---------- bản đồ phố minh hoạ (nền: bản đồ Đà Lạt nét Spark, hướng Bắc ở trên, đúng tỉ lệ) ---------- */
   function loadJSON(url) { return fetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  var banDo = null;
 
   function renderSoDo(ph) {
     var host = document.getElementById('soDo');
-    Promise.all([loadJSON('data/lam-dong/da-lat/so_do/' + ph.slug + '.json'),
-                 atlas ? atlas : loadJSON('assets/so_do/facade_atlas.json')]).then(function (res) {
-      var sd = res[0]; atlas = res[1];
+    (banDo ? Promise.resolve(banDo) : loadJSON('data/lam-dong/da-lat/ban_do.json')).then(function (bd) {
+      banDo = bd;
       if (!document.getElementById('soDo')) return;
-      var g = '<svg viewBox="0 0 ' + sd.w + ' ' + sd.h + '" class="so-do-svg" role="img" aria-label="Sơ đồ ' + esc(ph.ten_pho) + '">' +
-        '<defs><pattern id="co" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#93c26c"/>' +
-        '<path d="M4 18l2-5 2 5M15 9l2-5 2 5" stroke="#6fa34f" stroke-width="1.4" fill="none"/></pattern></defs>' +
-        '<rect width="' + sd.w + '" height="' + sd.h + '" fill="url(#co)"/>';
-      function line(pts) { return pts.map(function (p, i) { return (i ? 'L' : 'M') + p[0] + ' ' + p[1]; }).join(''); }
-      sd.cat.forEach(function (c) { g += '<path d="' + line(c.pts) + '" class="sd-cat"/>'; });
-      sd.duong.forEach(function (r) { g += '<path d="' + line(r) + '" class="sd-le"/>'; });
-      sd.duong.forEach(function (r) { g += '<path d="' + line(r) + '" class="sd-nhua"/>'; });
-      sd.duong.forEach(function (r) { g += '<path d="' + line(r) + '" class="sd-vach"/>'; });
-      sd.cat.forEach(function (c) {
-        if (!c.ten) return;
-        var p = c.nhan || c.pts[c.pts.length - 1], tx = Math.max(44, Math.min(sd.w - 44, p[0])), ty = Math.max(12, Math.min(sd.h - 10, p[1]));
-        g += '<text x="' + tx + '" y="' + ty + '" class="sd-ten-cat">' + esc(c.ten) + '</text>';
+      function B(lon, lat) { return [(lon - bd.lon0) * bd.kx * bd.M * bd.px_per_m, (bd.lat1 - lat) * bd.M * bd.px_per_m]; }
+      var lines = data.duong.filter(function (r) { return r.ten && ph.duong.indexOf(r.ten) >= 0; })
+        .map(function (r) { return r.pts.map(function (q) { return B(q[0], q[1]); }); });
+      var xs = [], ys = [];
+      lines.forEach(function (l) { l.forEach(function (p) { xs.push(p[0]); ys.push(p[1]); }); });
+      var x0 = Math.min.apply(null, xs), x1 = Math.max.apply(null, xs), y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys);
+      var cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+      // mốc quen gần nhất (để luôn thấy ít nhất 1 mốc trong khung) và khoảng cách tới Chợ Đà Lạt
+      var cLon = ph.lon, cLat = ph.lat;
+      function met(a, b) { return Math.hypot((a.lon - b.lon) * 108900, (a.lat - b.lat) * 110540); }
+      var near = bd.moc.slice().sort(function (a, b) { return met(a, { lon: cLon, lat: cLat }) - met(b, { lon: cLon, lat: cLat }); })[0];
+      var nb = B(near.lon, near.lat);
+      if (met(near, { lon: cLon, lat: cLat }) < 900) {
+        x0 = Math.min(x0, nb[0]); x1 = Math.max(x1, nb[0]); y0 = Math.min(y0, nb[1] - 40); y1 = Math.max(y1, nb[1] + 30);
+      }
+      // khung đủ rộng để thấy cả xóm xung quanh (≥ 1,3 km ngang), không quá cao so với bề ngang
+      var pad = 80, w = Math.max(x1 - x0 + pad * 2, 520), h = Math.max(y1 - y0 + pad * 2, w * 1.1);
+      w = Math.max(w, h * 0.78);
+      cx = (x0 + x1) / 2; cy = (y0 + y1) / 2;
+      var vx = Math.max(0, Math.min(bd.w - w, cx - w / 2)), vy = Math.max(0, Math.min(bd.h - h, cy - h / 2));
+      var k = w / 360;   // cỡ chấm, chữ theo khung
+      function path(l) { return l.map(function (p, i) { return (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1); }).join(''); }
+      var g = '<svg viewBox="' + vx.toFixed(1) + ' ' + vy.toFixed(1) + ' ' + w.toFixed(1) + ' ' + h.toFixed(1) + '" class="so-do-svg" role="img" aria-label="Bản đồ ' + esc(ph.ten_pho) + '">' +
+        '<image href="' + esc(bd.anh) + '" width="' + bd.w + '" height="' + bd.h + '"/>';
+      lines.forEach(function (l) { g += '<path d="' + path(l) + '" class="bd-pho-vien" style="stroke-width:' + (16 * k) + '"/>'; });
+      lines.forEach(function (l) { g += '<path d="' + path(l) + '" class="bd-pho" style="stroke-width:' + (8 * k) + '"/>'; });
+      // tên mốc thật trong khung (chùa, chợ, dinh, công viên…) để định hướng; tối đa 4 mốc gần phố nhất
+      var tenQuan = ph.dia_diem.map(function (d) { return d.ten; }).join('|');
+      data.moc.map(function (m) { return { m: m, p: B(m.lon, m.lat) }; })
+        .filter(function (o) { return o.p[0] > vx + 30 && o.p[0] < vx + w - 30 && o.p[1] > vy + 20 && o.p[1] < vy + h - 20 && tenQuan.indexOf(o.m.ten) < 0; })
+        .sort(function (a, b) { return Math.hypot(a.p[0] - cx, a.p[1] - cy) - Math.hypot(b.p[0] - cx, b.p[1] - cy); })
+        .filter(function (o) {      // bỏ mốc trùng chỗ một quán đã có chấm (vd Dinh III)
+          return !ph.dia_diem.some(function (d) { if (!d.vi_tri) return false; var q = B(d.vi_tri.lon, d.vi_tri.lat); return Math.hypot(q[0] - o.p[0], q[1] - o.p[1]) < 25 * k; });
+        })
+        .slice(0, 4).forEach(function (o) {
+          var phai = o.p[0] > vx + w * 0.6;     // gần mép phải thì viết chữ sang trái
+          g += '<circle cx="' + o.p[0].toFixed(1) + '" cy="' + o.p[1].toFixed(1) + '" r="' + (4 * k) + '" class="bd-moc-cham"/>' +
+            '<text x="' + (o.p[0] + (phai ? -7 : 7) * k).toFixed(1) + '" y="' + o.p[1].toFixed(1) + '" class="bd-moc" text-anchor="' + (phai ? 'end' : 'start') + '" style="font-size:' + (12 * k) + 'px;stroke-width:' + (4 * k) + 'px">' + esc(o.m.ten) + '</text>';
+        });
+      var so = 0;
+      ph.dia_diem.forEach(function (d, i) {
+        if (!d.vi_tri) return;
+        so++;
+        var p = B(d.vi_tri.lon, d.vi_tri.lat), r = 11 * k;
+        g += '<g class="bd-cham" data-q="' + i + '" tabindex="0" role="button" aria-label="' + so + '. ' + esc(d.ten) + '">' +
+          '<circle cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="' + r + '" class="' + (d.vi_tri.uoc ? 'uoc' : '') + '" style="stroke-width:' + (2.5 * k) + '"/>' +
+          '<text x="' + p[0].toFixed(1) + '" y="' + p[1].toFixed(1) + '" style="font-size:' + (12 * k) + 'px">' + so + '</text></g>';
+        d._so = so;
       });
-      sd.moc.forEach(function (m) { g += '<text x="' + m.x + '" y="' + m.y + '" class="sd-moc">• ' + esc(m.ten) + '</text>'; });
-      var A = atlas.frames, fw = atlas.meta && atlas.meta.size ? atlas.meta.size.w : 1600, fh = atlas.meta && atlas.meta.size ? atlas.meta.size.h : 1440;
-      sd.nha.forEach(function (n) {
-        var ten = n.ten.replace(/\s*\(.*\)$/, '');
-        if (ten.length > 22) ten = ten.slice(0, 21).replace(/\s+\S*$/, '') + '…';   // tên đầy đủ trong thẻ quán
-        var hinh = n.moc
-          ? '<circle cx="' + n.x + '" cy="' + (n.y - 6) + '" r="14" class="sd-moc-dot"/><text x="' + n.x + '" y="' + (n.y - 1) + '" class="sd-moc-ico">✦</text>'
-          : (function () {
-              var f = (A[n.f] || A.mat_tien_quay_an).frame;
-              return '<svg x="' + (n.x - 32) + '" y="' + (n.y - 36) + '" width="64" height="64" viewBox="' + f.x + ' ' + f.y + ' ' + f.w + ' ' + f.h + '">' +
-                '<image href="assets/so_do/facade_atlas.webp" width="' + fw + '" height="' + fh + '"/></svg>';
-            })();
-        g += '<g class="sd-nha" data-q="' + n.i + '" tabindex="0" role="button" aria-label="' + esc(n.ten) + '">' +
-          '<rect x="' + (n.x - 34) + '" y="' + (n.y - 38) + '" width="68" height="88" fill="transparent"/>' +
-          '<line x1="' + n.x + '" y1="' + n.y + '" x2="' + n.rx + '" y2="' + n.ry + '" class="sd-loi"/>' + hinh +
-          (n.uoc ? '<rect x="' + (n.x - 33) + '" y="' + (n.y - 37) + '" width="66" height="66" rx="8" class="sd-uoc"/>' : '') +
-          '<text x="' + n.x + '" y="' + (n.y + 38) + '" class="sd-ten">' + esc(ten) + '</text></g>';
+      g += '</svg>';
+      var cho = bd.moc[0], kc = Math.round(met(cho, { lon: cLon, lat: cLat }) / 50) * 50;
+      var list = '<ol class="bd-list">';
+      ph.dia_diem.forEach(function (d, i) {
+        list += '<li><button type="button" data-q="' + i + '"><span class="so' + (d._so ? '' : ' none') + '">' + (d._so || '–') + '</span>' +
+          '<b>' + esc(d.ten.replace(/\s*\(.*\)$/, '')) + '</b><small>' + esc(d.dia_chi) + '</small></button></li>';
       });
-      g += '<text x="' + (sd.w - 6) + '" y="' + (sd.h - 6) + '" class="sd-nguon">© OpenStreetMap · hình: Gọn Phố</text></svg>';
-      var thieu = ph.dia_diem.length - sd.nha.length;
-      host.innerHTML = g + (thieu > 0 ? '<p class="note">' + thieu + ' nơi chưa có vị trí nên chưa vẽ lên phố (xem trong danh sách).</p>' : '');
-      Array.prototype.forEach.call(host.querySelectorAll('.sd-nha'), function (el2) {
+      list += '</ol>';
+      host.innerHTML = g +
+        '<p class="bd-ghichu">' + (kc > 100 ? 'Cách Chợ Đà Lạt khoảng ' + fmt(kc) + ' m (đường chim bay). ' : 'Ngay cạnh Chợ Đà Lạt. ') +
+        'Chấm số là quán; chấm viền đứt là vị trí ước theo số nhà; "–" là chưa có vị trí.</p>' + list;
+      Array.prototype.forEach.call(host.querySelectorAll('[data-q]'), function (el2) {
         function open() { showQuan(ph, ph.dia_diem[Number(el2.getAttribute('data-q'))]); }
         el2.addEventListener('click', open);
         el2.addEventListener('keydown', function (e) { if (e.key === 'Enter') open(); });
       });
-    }).catch(function () { host.innerHTML = '<p class="note">Chưa vẽ được sơ đồ phố này.</p>'; });
+    }).catch(function () { host.innerHTML = '<p class="note">Chưa vẽ được bản đồ phố này.</p>'; });
   }
 
   function showQuan(ph, d) {

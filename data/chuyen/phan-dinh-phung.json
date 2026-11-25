@@ -1,0 +1,109 @@
+{
+ "slug": "phan-dinh-phung",
+ "ten_cu": [
+  {
+   "ten": "Cầu Quẹo (đường Cầu Quẹo)",
+   "thoi_gian": "thời Pháp đến năm 1953",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-phan-dinh-phung",
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
+    "https://znews.vn/anh-da-lat-xua-post1602502.html",
+    "https://www.muctimsonden.com/2026/08/cau-queo-lat-xua.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Trang Đường phố Đà Lạt của tỉnh (lamdong.gov.vn, qua bản chép trên tinbds) ghi đổi tên năm 1953."
+  },
+  {
+   "ten": "Rue des Jardins",
+   "thoi_gian": "thời Pháp — chỉ blog Mực Tím Sơn Đen ghi",
+   "nguon": [
+    "https://www.muctimsonden.com/2026/08/cau-queo-lat-xua.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Nghi: bảng tên đường của trangdulichdalat ghi đường Jardins (vườn rau) nay là La Sơn Phu Tử, không phải Phan Đình Phùng."
+  }
+ ],
+ "moc": [
+  {
+   "nam": "trước 1953",
+   "su_kien": "Gần khúc cua từ dốc Minh Mạng (Trương Công Định) xuống có một chiếc cầu gỗ, nên dân gọi là đường Cầu Quẹo.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-phan-dinh-phung",
+    "https://www.muctimsonden.com/2026/08/cau-queo-lat-xua.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1953",
+   "su_kien": "Đổi tên thành đường Phan Đình Phùng, thuộc khu phố I.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-phan-dinh-phung",
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "khoảng 1955–1963",
+   "su_kien": "Cầu ở Cầu Quẹo chuyển từ cầu gỗ sang cầu xi-măng cốt sắt, bên dưới đặt ống cống lớn (theo hồi ức tác giả blog).",
+   "nguon": [
+    "https://www.muctimsonden.com/2026/08/cau-queo-lat-xua.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "1961",
+   "su_kien": "Ảnh của John Dominis (tạp chí LIFE) chụp dốc Minh Mạng nhìn ra đường Cầu Quẹo — khu phố sầm uất có hiệu hớt tóc, hiệu ảnh, giày dép, khách sạn.",
+   "nguon": [
+    "https://znews.vn/anh-da-lat-xua-post1602502.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "trước 1975",
+   "su_kien": "Cây xăng Esso ở ngã ba đầu đường, người Đà Lạt gọi là 'cây xăng Ngã Ba Chùa'.",
+   "nguon": [
+    "https://www.muctimsonden.com/2026/08/cau-queo-lat-xua.html"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Vì sao gọi Cầu Quẹo",
+   "noi_dung": "Trang đường phố của tỉnh giải thích: có chiếc cầu gỗ ngay khúc quẹo từ Trương Công Định xuống. Blog Mực Tím Sơn Đen kể khác: cầu nằm gần cây xăng Ngã Ba Chùa, xe chạy vòng một chiều tới đó phải 'quẹo lại'.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-phan-dinh-phung",
+    "https://www.muctimsonden.com/2026/08/cau-queo-lat-xua.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Hủ tiếu hoành thánh nhà ông Tàu Cao",
+   "noi_dung": "Người Đô Thị kể con trai ông Tàu Cao (người Hoa) mở tiệm hủ tiếu xương, hủ tiếu hoành thánh trên Phan Đình Phùng, vẫn còn bán; quán của chính ông Tàu Cao ở đầu đường Nguyễn Văn Trỗi tồn tại tới đầu những năm 2000.",
+   "nguon": [
+    "https://nguoidothi.net.vn/am-thuc-goc-hoa-o-da-lat-31317.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "tieu_de": "Rạp LangBian",
+   "noi_dung": "Theo hồi ức trên blog Mực Tím Sơn Đen, trước 1975 đường Phan Đình Phùng có rạp xi-nê LangBian.",
+   "nguon": [
+    "https://www.muctimsonden.com/2021/09/rap-xi-ne-ngoc-lan.html"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "mon": [
+  {
+   "ten": "Hủ tiếu / mì hoành thánh gốc Hoa",
+   "ghi_chu": "Món của người Hoa ở Đà Lạt; tiệm nhà Tàu Cao trên Phan Đình Phùng.",
+   "nguon": [
+    "https://nguoidothi.net.vn/am-thuc-goc-hoa-o-da-lat-31317.html"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "ghi_chu": "Tên Cầu Quẹo chắc (5 nguồn). 'Rue des Jardins' chỉ một blog ghi và mâu thuẫn bảng tên đường khác — không nên đưa lên bản đồ. Vị trí đúng của cây cầu vênh giữa hai nguồn (khúc cua Trương Công Định hay gần Ngã Ba Chùa). Em không mở được trang lamdong.gov.vn (máy chủ ngắt kết nối); nội dung lấy qua bản chép trên tinbds.com và đoạn trích của máy tìm kiếm. Kết quả tìm kiếm cho thấy trang tỉnh ghi đường có 369 số nhà, nhiều nhất Đà Lạt, và có hộ người Hoa — em chưa đọc tận mắt nên không đưa vào. Chưa tìm được năm cụ thể quán nào lâu đời nhất trên đường."
+}

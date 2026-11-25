@@ -1,0 +1,205 @@
+{
+ "slug": "pho-ca-phe",
+ "ten_cu": [
+  {
+   "ten": "Đồng Khánh → Thành Thái (đường Nguyễn Chí Thanh bây giờ)",
+   "thoi_gian": "Đồng Khánh thời Pháp; 1953 đổi Thành Thái; 1975/1976 đổi Nguyễn Chí Thanh (tinbds ghi 1976, trangdulichdalat ghi 1975)",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-nguyen-chi-thanh",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+    "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Gia Long (đường Lê Đại Hành bây giờ)",
+   "thoi_gian": "thời Pháp đến năm 1953",
+   "nguon": [
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/le-dai-hanh.aspx",
+    "https://tinbds.com/lam-dong/da-lat/duong-le-dai-hanh",
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Place du Marché / Quảng trường Chợ (Khu Hòa Bình bây giờ)",
+   "thoi_gian": "thời Pháp đến năm 1953",
+   "nguon": [
+    "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html",
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "moc": [
+  {
+   "nam": "1929",
+   "su_kien": "Chợ Cây (vách ván, mái tôn) dựng trên ngọn đồi nay là Khu Hòa Bình, đúng nền rạp Hòa Bình/rạp 3 Tháng 4 bây giờ — đầu dốc của phố.",
+   "nguon": [
+    "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+    "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
+    "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1931",
+   "su_kien": "Một trận cháy lớn thiêu rụi Chợ Cây.",
+   "nguon": [
+    "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "1934 hoặc 1937",
+   "su_kien": "Chợ được xây lại bằng gạch, có tháp khối chữ nhật giật cấp, nhà thầu SIDEC. Nguồn vênh năm: Người Đô Thị ghi 1934 (Louis-Georges-Anatole Pineau thiết kế); Thanh Niên và Wikipedia ghi 1937.",
+   "nguon": [
+    "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html",
+    "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+    "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1953",
+   "su_kien": "Quảng trường Chợ (Place du Marché) đổi tên thành Khu Hòa Bình.",
+   "nguon": [
+    "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html",
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1958–1960",
+   "su_kien": "Chợ Mới (chợ Đà Lạt bây giờ) xây dưới thung lũng cạnh Chợ Cây, xong năm 1960; Chợ Cây cũ được sửa thành rạp chiếu bóng Hòa Bình khoảng 800 chỗ.",
+   "nguon": [
+    "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+    "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
+    "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1955",
+   "su_kien": "Ngày 23/10/1955 quảng trường Khu Hòa Bình là nơi diễn ra cuộc trưng cầu dân ý truất phế Quốc trưởng Bảo Đại.",
+   "nguon": [
+    "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "1960",
+   "su_kien": "Cafe Tùng dời về số 6 Khu Hòa Bình khi chợ Mới khai trương (trước đó quán mở trên đường Thành Thái, nay là Nguyễn Chí Thanh).",
+   "nguon": [
+    "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html",
+    "https://mytour.vn/vi/blog/bai-viet/hoi-uc-ve-thanh-pho-hoa-gui-den-tung-da-lat.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1976",
+   "su_kien": "Đường Thành Thái đổi tên thành Nguyễn Chí Thanh (trangdulichdalat ghi 1975).",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-nguyen-chi-thanh",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1981",
+   "su_kien": "Rạp chiếu bóng Ngọc Lan (có trước 1975) sửa thành khách sạn Ngọc Lan, nay là 42 Nguyễn Chí Thanh; năm 2007 nâng lên 4 sao.",
+   "nguon": [
+    "https://2trip.vn/review/khach-san-ttc-ngoc-lan-da-lat",
+    "https://www.bestprice.vn/blog/diem-den-8/da-lat-13/review-kinh-nghiem-nghi-duong-tai-khach-san-ttc-hotel-premium-ngoc-lan-da-lat_2-3379.html",
+    "https://ticotravel.com.vn/hotel/ttc-ngoc-lan/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "2019",
+   "su_kien": "Tỉnh công bố quy hoạch 1/500 khu trung tâm Hòa Bình (30 ha, tới đầu đường Nguyễn Chí Thanh và đường xuống Lê Đại Hành); rạp Hòa Bình nằm trong diện có thể bị đập bỏ.",
+   "nguon": [
+    "https://vnexpress.net/rap-hat-hoa-binh-va-dinh-tinh-truong-da-lat-se-bi-dap-bo-di-doi-3895565.html",
+    "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "2025",
+   "su_kien": "Từ 10/9/2025 phường Xuân Hương - Đà Lạt tháo 7 ki-ốt Phong Lan cạnh chợ; các quán cà phê ki-ốt dời đi, cà phê Lan còn bán.",
+   "nguon": [
+    "https://znews.vn/dien-mao-moi-cua-ca-phe-khu-hoa-binh-da-lat-post1596644.html",
+    "https://dtinews.dantri.com.vn/print/20250927051104168.htm"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Cafe Tùng bắt đầu trên dốc này",
+   "noi_dung": "Ông Tùng (người Bắc) mở tiệm đầu tiên trên đường Thành Thái cũ, nay là Nguyễn Chí Thanh; vài năm sau dời sang ki-ốt bên hông chợ cũ, rồi năm 1960 dời về số 6 Khu Hòa Bình.",
+   "nguon": [
+    "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html",
+    "https://mytour.vn/vi/blog/bai-viet/hoi-uc-ve-thanh-pho-hoa-gui-den-tung-da-lat.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Vì sao tên 'Hòa Bình'",
+   "noi_dung": "Khu này đổi tên từ Place du Marché năm 1953; còn rạp Hòa Bình lấy tên công ty Hòa Bình của các nghiệp chủ người Hoa đã nhận thầu sửa chợ cũ thành rạp. Sau 1975 rạp đổi tên 3 Tháng 4 nhưng tên Khu Hòa Bình vẫn giữ.",
+   "nguon": [
+    "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html",
+    "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+    "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Ba ngọn tháp của Đà Lạt 1960",
+   "noi_dung": "VnExpress viết thập niên 1960 khách nhìn Đà Lạt qua ba ngọn tháp: trường Lycée Yersin, nhà thờ Chánh tòa và tháp rạp Hòa Bình.",
+   "nguon": [
+    "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "tieu_de": "Rạp Eden thành Ngọc Lan",
+   "noi_dung": "Blog Mực Tím Sơn Đen kể rạp Ngọc Lan thời Pháp tên là Eden; muốn vào rạp thì đi từ đường Thành Thái lên một con dốc xi-măng.",
+   "nguon": [
+    "https://www.muctimsonden.com/2021/09/rap-xi-ne-ngoc-lan.html"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "mon": [
+  {
+   "ten": "Cà phê vợt (cà phê bít tất)",
+   "ghi_chu": "Người Đô Thị: món có mặt cùng người Hoa buôn bán quanh chợ Hòa Bình, thường kèm nồi bánh bao, bánh mì xíu mại.",
+   "nguon": [
+    "https://nguoidothi.net.vn/am-thuc-goc-hoa-o-da-lat-31317.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Cà phê sáng ngắm chợ",
+   "ghi_chu": "Cà phê Lan (quán cóc) mở 5–10 giờ sáng, 20.000 đồng/ly (Znews, 10/2025).",
+   "nguon": [
+    "https://znews.vn/dien-mao-moi-cua-ca-phe-khu-hoa-binh-da-lat-post1596644.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Bánh mì xíu mại",
+   "ghi_chu": "Bữa sáng khu Hòa Bình, gốc từ món xíu mại của người Hoa.",
+   "nguon": [
+    "https://nguoidothi.net.vn/am-thuc-goc-hoa-o-da-lat-31317.html"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "ghi_chu": "Cafe Tùng và cà phê Lan nằm ở Khu Hòa Bình, không nằm trên Nguyễn Chí Thanh/Lê Đại Hành — chỉ dùng làm chuyện của khu. Năm Thành Thái đổi thành Nguyễn Chí Thanh vênh 1975/1976. Người thiết kế chợ Đà Lạt vênh: Wikipedia và Thanh Niên ghi KTS Nguyễn Duy Đức, Znews ghi KTS Ngô Viết Thụ (Người Đô Thị: Ngô Viết Thụ làm hoạ đồ phân lô năm 1959 và cầu thang nối hai chợ). Cùng một sự kiện, Znews ghi 'Đại sứ Lucien Auger' cho xây lại chợ gạch — không khớp nguồn khác, em không dùng. Mốc 1981 khách sạn Ngọc Lan chỉ có trang du lịch/đặt phòng (3 trang, không có báo). Chuyện rạp Eden là hồi ức blog. Chuyện trưng cầu dân ý 1955 chỉ có 1 nguồn."
+}

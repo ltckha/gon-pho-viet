@@ -10,7 +10,7 @@ Người dùng: anh Kha. Lộ trình (Artifact): https://claude.ai/artifact/U8sJ
 - Số liệu phải thật, có nguồn; không biết thì nói không biết.
 - Tự kiểm trước khi báo xong (`tools/kiem_thu.js`), báo đúng sự thật kể cả khi sai.
 - Không đưa khoá, mật khẩu, token vào kho. Đưa lên mạng: Cloudflare Pages, tài khoản "Gọn" (anh tự đăng nhập).
-- Nhờ Spark (Gemini) vẽ: soạn 1 khối để anh dán, mở đầu "nét vẽ y hệt đợt trước"; không bắt Spark mở Drive.
+- Nhờ Spark (Gemini) vẽ: soạn 1 khối để anh dán theo mẫu của game: "Vẽ tiếp đợt N… nét vẽ y hệt <đợt trước>" · quy cách (cỡ, nền, không chữ) · danh sách đánh số `tên_file: mô tả` · dòng cuối "Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dotN_<tên>/, đúng tên file trên (.png)." (Spark tự lưu được; không bắt Spark mở Drive xem mẫu). Số đợt đánh chung với game.
 - Kho game `ltckha/giang-ho-ai` chỉ đọc, không sửa. Thấy game ghi sai thì báo anh để phiên game sửa.
 - Tên brand viết đầy đủ. Không dùng chữ "ASMR".
 

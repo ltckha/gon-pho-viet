@@ -1,0 +1,238 @@
+{
+ "road": "Khu Hòa Bình",
+ "duong": [
+  "Khu Hòa Bình"
+ ],
+ "ten_osm": [
+  "Khu Hòa Bình"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat ghi 'Khu Hòa Bình - PHƯỜNG 1', đoạn 'Trọn đường kể cả khu vực bến xe nội thành'. Theo NQ 1671 mục 99: Phường 1 → Xuân Hương - Đà Lạt. Kiểm chéo bằng ranh giới phuong.json: cả 4 góc vòng Khu Hòa Bình trên OSM (và điểm số 50-52 phía nam) đều nằm trong Xuân Hương - Đà Lạt. Báo 2025–2026 (Znews, Tuổi Trẻ, Báo Lâm Đồng) cũng ghi 'khu Hòa Bình, phường Xuân Hương - Đà Lạt'. Trên OSM, 'Khu Hòa Bình' là vòng một chiều khoảng 250 m quanh khối rạp Hòa Bình (4 đoạn trong duong.json); số nhà mang tên Khu Hòa Bình còn trải xuống phía nam (OSM có số 39, 50-52 cách vòng khoảng 50 m).",
+ "doan": [
+  {
+   "doan": "Trọn đường, kể cả khu vực bến xe nội thành",
+   "phuong_cu": "Phường 1",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-hoa-binh-phuong-1"
+  }
+ ],
+ "ten_pho": "Phố Chợ Cũ",
+ "gioi_thieu": "Phố Chợ Cũ: Khu Hòa Bình là quảng trường trên nền Chợ Cây dựng năm 1929; năm 1960 Chợ Mới mở dưới thung lũng, chợ cũ thành rạp Hòa Bình 800 chỗ (ngừng chiếu phim từ 2018), quanh đó có Cafe Tùng ở số 6 và quán cóc cà phê Lan đầu cầu thang xuống chợ, bán từ tờ mờ sáng.",
+ "gioi_thieu_nguon": [
+  "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+  "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
+  "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+  "https://tuoitre.vn/rap-hoa-binh-da-lat-va-nhieu-biet-thu-cong-dang-bi-hu-hai-20260326164128795.htm",
+  "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html",
+  "https://znews.vn/dien-mao-moi-cua-ca-phe-khu-hoa-binh-da-lat-post1596644.html",
+  "https://vietnamnet.vn/da-lat-14-do-c-du-khach-co-ro-thuong-thuc-ca-phe-vot-ngam-thanh-pho-thuc-giac-2075896.html"
+ ],
+ "dia_diem": [
+  {
+   "ten": "Rạp Hòa Bình (Rạp 3 Tháng 4)",
+   "loai": "công trình lịch sử, rạp chiếu bóng cũ",
+   "dac_trung": "Dựng trên nền Chợ Cây cũ; sau khi Chợ Mới mở năm 1960, công ty Hòa Bình của các nghiệp chủ người Hoa nhận thầu sửa chợ thành rạp khoảng 800 chỗ. Sau 1975 đổi tên rạp 3 Tháng 4 nhưng người Đà Lạt vẫn gọi rạp Hòa Bình; là mốc giữa vòng Khu Hòa Bình.",
+   "dia_chi": "Khu Hòa Bình, phường Xuân Hương - Đà Lạt (Foody ghi số 5)",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "",
+   "nguon": [
+    "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+    "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
+    "https://tuoitre.vn/rap-hoa-binh-da-lat-va-nhieu-biet-thu-cong-dang-bi-hu-hai-20260326164128795.htm",
+    "https://nguoiquansat.vn/chinh-thuc-thao-do-rap-chieu-phim-hon-70-nam-cua-viet-nam-317761.html",
+    "https://baolamdong.vn/print/473411.html",
+    "https://www.foody.vn/lam-dong/rap-hoa-binh-3-4-khu-hoa-binh",
+    "https://www.openstreetmap.org/way/308446691"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "không còn chiếu phim từ 2018 (Tuổi Trẻ 26/03/2026, theo kết luận thanh tra tỉnh). 21/3/2026 còn có đêm nhạc Đà Lạt – Daegu trong rạp (Báo Lâm Đồng). Từ 17/9/2026 đang tháo dỡ bên trong, mặt tiền và trần vòm giữ lại; khu đất đưa ra cho thuê kinh doanh 10 năm (Người Quan Sát 22/09/2026, dẫn Tuổi Trẻ). Tối 7/11/2026 sân trước rạp vẫn làm sân khấu Lễ hội Nhạc Jazz (Báo Lâm Đồng). Xem từ bên ngoài được, không vào trong.",
+   "vi_tri": null,
+   "ghi_chu": "Năm dựng lệch: Tuổi Trẻ/Người Quan Sát ghi 'xây dựng từ năm 1952'; Thanh Niên, VnExpress, Wikipedia ghi chợ gạch có từ 1934/1937 và thành rạp sau 1960. Số nhà 5 chỉ có ở Foody → để so_nha trống. OSM tên 'Rạp hát Hòa Bình'."
+  },
+  {
+   "ten": "Cafe Tùng",
+   "loai": "quán cà phê lâu đời",
+   "dac_trung": "Quán cà phê kiểu cũ của ông Tùng, người Bắc vào Đà Lạt; mở đầu tiên trên đường Thành Thái (nay Nguyễn Chí Thanh), dời sang ki-ốt hông chợ cũ, rồi về số 6 Khu Hòa Bình. Bàn mặt đá, ghế bọc da cũ, nhạc Pháp và nhạc Trịnh; khách được hút thuốc trong quán.",
+   "dia_chi": "6 Khu Hòa Bình, phường Xuân Hương - Đà Lạt",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "6",
+   "nguon": [
+    "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html",
+    "https://mytour.vn/vi/blog/bai-viet/hoi-uc-ve-thanh-pho-hoa-gui-den-tung-da-lat.html",
+    "https://vinwonders.com/vi/bai-viet-du-lich/cafe-da-lat/",
+    "https://www.foody.vn/lam-dong/khu-vuc-hoa-binh",
+    "https://www.openstreetmap.org/node/4070796725"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: VinWonders ghi địa chỉ phường mới (sau 7/2025), giờ 7:30–22:00, giá 15.000–55.000 đồng; Foody ghi 'Đang mở cửa'. Chưa thấy bài báo 2026 nói về quán.",
+   "vi_tri": {
+    "lon": 108.435851,
+    "lat": 11.943865,
+    "cach": "tên trên OpenStreetMap: Tùng Coffee",
+    "osm": "node/6152520385"
+   },
+   "ghi_chu": "OSM có 2 điểm: 'Cafe Tùng' (node 4070796725, ghi số 6 Khu Hòa Bình, nằm cách vòng đường khoảng 40 m về phía bắc) và 'Tùng Coffee' (node 6152520385, ngay trên vòng đường, không số nhà) — có thể là cùng quán ghi hai lần. Năm 1960 dời về số 6 chỉ có ở Thương Gia; tên đầy đủ ông Trần Đình Tùng cũng chỉ ở Thương Gia."
+  },
+  {
+   "ten": "Cà phê cô Lan (quán cóc)",
+   "loai": "cà phê cóc vỉa hè buổi sáng",
+   "dac_trung": "Một bàn gỗ, bếp than đun nước pha phin, ghế nhựa thấp ở đầu cầu thang xuống chợ Đà Lạt; ngồi ngắm chợ lúc sương sớm. Khách sớm nhất thường là người vừa xuống xe đò chờ trời sáng (VietnamNet). Sau khi tháo 7 ki-ốt Phong Lan (9/2025), quán là một trong số ít quán ở lại.",
+   "dia_chi": "đầu cầu thang xuống chợ Đà Lạt, mặt phía đường Nguyễn Thị Minh Khai, bên trái rạp Hòa Bình (không số nhà)",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "",
+   "nguon": [
+    "https://znews.vn/dien-mao-moi-cua-ca-phe-khu-hoa-binh-da-lat-post1596644.html",
+    "https://znews.vn/nguoi-ban-ca-phe-khu-hoa-binh-da-lat-doi-di-dau-khi-ki-ot-thao-do-post1589843.html",
+    "https://vietnamnet.vn/da-lat-14-do-c-du-khach-co-ro-thuong-thuc-ca-phe-vot-ngam-thanh-pho-thuc-giac-2075896.html"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn bán: Znews 25/10/2025 ghi bà Lan vẫn bán, 5:00–10:00 (dọn hàng từ 4:30), cà phê đen/sữa, cacao 20.000 đồng/ly. VietnamNet 17/11/2022 ghi giờ 3:30 đến 12–13 giờ, 12.000 đồng/ly. Quán cóc, có thể dời khi khu này xây dựng (bà Lan nói với Znews).",
+   "vi_tri": null,
+   "ghi_chu": "Hai bài Znews tính 1 nguồn. Vị trí là quán cóc không số nhà; Znews tả 'du khách chạy xe trên đường Nguyễn Thị Minh Khai… bên trái rạp Hòa Bình có thể tấp xe vào' — nên chấm ở góc chợ phía Nguyễn Thị Minh Khai, không chấm giữa vòng Khu Hòa Bình. OSM có điểm 'Cô Lan' (node 11500000569) nhưng cách vòng đường khoảng 125 m về phía bắc, không khớp vị trí báo tả → không dùng."
+  },
+  {
+   "ten": "Chạm Cafe & Kem Bơ - Khu Hòa Bình",
+   "loai": "tiệm kem bơ, cà phê",
+   "dac_trung": "Chi nhánh Khu Hòa Bình của chuỗi kem bơ Chạm (chuỗi có 3 tiệm ở Đà Lạt, thêm tiệm ở TP.HCM, Nha Trang); nổi tiếng kem bơ và cà phê kem bơ.",
+   "dia_chi": "08 Khu Hòa Bình, phường Xuân Hương - Đà Lạt",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "8",
+   "nguon": [
+    "https://chamdalat.vn/",
+    "https://wanderlog.com/place/details/7490119",
+    "https://uk.trip.com/restaurant/vietnam/dalat/detail/CH%E1%BA%A0M%20Cafe%20%26%20Kem%20B%C6%A1%20%C4%90%C3%A0%20L%E1%BA%A1t-151080579"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: trang chính thức chamdalat.vn còn liệt kê 'Chạm Khu Hoà Bình: 08 Khu Hòa Bình, P. Xuân Hương – Đà Lạt' (phường mới). Wanderlog, Trip.com ghi 7:30–22:00 hằng ngày.",
+   "vi_tri": null,
+   "ghi_chu": "Đây là chuỗi, không phải quán lâu đời. Bài VinWonders '15 quán kem' chỉ ghi chi nhánh 27 Nguyễn Trãi, không phải Khu Hòa Bình. OSM chưa có điểm này."
+  },
+  {
+   "ten": "Diamond Hotel (Dimond)",
+   "loai": "khách sạn",
+   "dac_trung": "Khách sạn nhỏ 2 sao ngay trung tâm Hòa Bình; Vietnam Booking (2017) tả cách chợ Đà Lạt khoảng 80 m, 25 phòng, nhìn ra phố.",
+   "dia_chi": "14-16 Khu Hòa Bình, phường Xuân Hương - Đà Lạt",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "14-16",
+   "nguon": [
+    "https://ostrovok.ru/hotel/vietnam/da_lat/mid6947722/diamond_hotel_18",
+    "https://momondo.com/hotels/da-lat/Diamond-Hotel.mhd849975.ksp",
+    "https://www.vietnambooking.com/khach-san/tin-tuc-khach-san/diem-qua-3-khach-san-nen-o-ngay-khu-trung-tam-hoa-binh-da-lat.html"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn nhận khách: Momondo còn chào giá phòng tháng 11/2026. Chưa có nguồn báo chí.",
+   "vi_tri": null,
+   "ghi_chu": "Số 14-16 có ở Ostrovok và Momondo (Momondo thuộc cùng tập đoàn với Kayak). Vietnam Booking viết 'Dimond', 3 sao (2017); Ostrovok, Momondo ghi 2 sao. Số phòng 25 chỉ có ở Vietnam Booking."
+  },
+  {
+   "ten": "Anh Đào Hotel",
+   "loai": "khách sạn",
+   "dac_trung": "Khách sạn ở Khu Hòa Bình, vài bước đi bộ tới chợ Đà Lạt (Vietnam Booking).",
+   "dia_chi": "50-52 Khu Hòa Bình, phường Xuân Hương - Đà Lạt",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "50-52",
+   "nguon": [
+    "https://www.viamichelin.de/karten-stadtplan/hotels/poi/dalat-_-20506b60",
+    "https://www.vn.kayak.com/Dalat-Hotels-Anh-Dao-Hotel-Dalat.658758.ksp",
+    "https://www.vietnambooking.com/khach-san/tin-tuc-khach-san/diem-qua-3-khach-san-nen-o-ngay-khu-trung-tam-hoa-binh-da-lat.html"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: Kayak, ViaMichelin còn trang đặt phòng nhưng không có ngày cập nhật; chưa có nguồn 2025–2026.",
+   "vi_tri": {
+    "lon": 108.435837,
+    "lat": 11.942502,
+    "cach": "số nhà trên OpenStreetMap: 50-52 Khu Hòa Bình",
+    "osm": "node/14305140754"
+   },
+   "ghi_chu": "Số nhà lệch: ViaMichelin '50-52 Khu Hoà Bình'; Kayak '52-54 Hoa Binh Area'. Kayak tính khoảng cách tới Trickland 228 m — có vẻ ghim sai chỗ. OSM có tiệm 'Hồng Trà Hòa Bình' cũng ghi 50-52 Khu Hòa Bình (cách vòng đường khoảng 55 m về phía nam), có thể cùng toà nhà."
+  },
+  {
+   "ten": "Điểm xe buýt Khu Hòa Bình",
+   "loai": "điểm đón xe buýt nội tỉnh",
+   "dac_trung": "Chỗ đón xe buýt đi Lạc Dương (Langbiang), Đức Trọng, Đơn Dương, Bảo Lộc…, sau lưng rạp Hòa Bình. Bảng giá đất cũng tính 'khu vực bến xe nội thành' vào Khu Hòa Bình.",
+   "dia_chi": "Khu Hòa Bình, phía sau rạp Hòa Bình (không số nhà)",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "",
+   "nguon": [
+    "https://en.wikivoyage.org/wiki/Da_Lat",
+    "https://www.dalattrip.com/the-round-dalat-bus/",
+    "https://www.openstreetmap.org/node/5147395022"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: Dalat Trip (không ghi ngày) viết bến xe buýt đã dời ra đường Mai Anh Đào nhưng các tuyến vẫn ghé khu Hòa Bình đón khách, 5:30–19:00; Wikivoyage ghi chuyến cuối khoảng 19:00. Chưa có nguồn 2025–2026 của nhà xe hay báo.",
+   "vi_tri": null,
+   "ghi_chu": "OSM: 'Trạm xe buýt tuyến ngoại thành' (node 5147395022), cách vòng đường khoảng 50 m về phía đông bắc."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Hồng Trà Hòa Bình",
+   "loai": "tiệm trà mang đi",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "50-52",
+   "nguon": [
+    "https://www.openstreetmap.org/node/14305140754"
+   ],
+   "ly_do": "chỉ có trên OSM (sửa 24/10/2026, có Facebook hongtrahoabinh). Bài uni.xyz về thiết kế quán ghi chi nhánh Bùi Thị Xuân, không xác nhận số 50-52."
+  },
+  {
+   "ten": "Là Việt Coffee Kiosk",
+   "loai": "ki-ốt cà phê",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/12770400401"
+   ],
+   "ly_do": "chỉ có OSM (4/2025); trang pulled.coffee chép lại từ OSM. Ki-ốt có thể nằm trong dãy ki-ốt đã tháo 9/2025 — chưa rõ."
+  },
+  {
+   "ten": "Quán bánh tráng nướng, sữa đậu nành nóng Cô Mén",
+   "loai": "hàng ăn tối vỉa hè",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "",
+   "nguon": [
+    "https://znews.vn/nguoi-ban-ca-phe-khu-hoa-binh-da-lat-doi-di-dau-khi-ki-ot-thao-do-post1589843.html"
+   ],
+   "ly_do": "1 nguồn (Znews 1/10/2025: từ sau khi tháo ki-ốt chuyển sang bán tối, 17:00 đến khi hết khách)."
+  },
+  {
+   "ten": "Bún bò Bình",
+   "loai": "quán bún bò",
+   "duong": "Khu Hòa Bình",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/5231659322"
+   ],
+   "ly_do": "chỉ có trên OSM (ghi năm 2017), không số nhà, chưa thấy trang nào khác."
+  }
+ ],
+ "da_dong": [
+  {
+   "ten": "Cà phê Phố (ki-ốt số 4)",
+   "ly_do": "ki-ốt bị thu hồi; tháng 6/2025 dời về đường Hai Bà Trưng (phường Cam Ly - Đà Lạt), cách Khu Hòa Bình khoảng 2,5 km.",
+   "nguon": [
+    "https://znews.vn/nguoi-ban-ca-phe-khu-hoa-binh-da-lat-doi-di-dau-khi-ki-ot-thao-do-post1589843.html"
+   ]
+  },
+  {
+   "ten": "Cà phê Khói và các ki-ốt Phong Lan",
+   "ly_do": "7 ki-ốt Phong Lan cạnh chợ tháo từ 10/9/2025, chỗ cũ xây bồn hoa (khoảng 165 triệu đồng); cà phê Khói đã giao mặt bằng/dời đi.",
+   "nguon": [
+    "https://znews.vn/dien-mao-moi-cua-ca-phe-khu-hoa-binh-da-lat-post1596644.html",
+    "https://znews.vn/nguoi-ban-ca-phe-khu-hoa-binh-da-lat-doi-di-dau-khi-ki-ot-thao-do-post1589843.html"
+   ]
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-hoa-binh-phuong-1",
+  "data/lam-dong/nq1671.json (mục 99)",
+  "data/lam-dong/da-lat/duong.json (4 đoạn 'Khu Hòa Bình', vòng một chiều khoảng 250 m)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.4340,11.9418,108.4380,11.9452 (tải 25/11/2026)",
+  "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+  "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
+  "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html"
+ ],
+ "cap_nhat": "2026-11-25"
+}

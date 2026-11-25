@@ -3529,6 +3529,1086 @@
    }
   },
   {
+   "id": "pho_cau_dat",
+   "slug": "cau-dat",
+   "ten_pho": "Đồi chè Cầu Đất",
+   "duong": [
+    "Quốc lộ 20"
+   ],
+   "ward": "Xuân Trường - Đà Lạt",
+   "gioi_thieu": "Đồi chè Cầu Đất: theo Quốc lộ 20 chừng 22–25 km về phía đông nam Đà Lạt, tới sở trà người Pháp lập năm 1927 ở độ cao khoảng 1.600–1.650 m; nay còn khoảng 200 ha chè, xưởng chè cũ thành bảo tàng, sáng sớm săn mây trên đồi, xa xa hàng tuabin gió.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.5413,
+   "lat": 11.89287,
+   "dia_diem": [
+    {
+     "ten": "Cầu Đất Farm – Đồi chè Cầu Đất",
+     "loai": "đồi chè, nông trại tham quan",
+     "dac_trung": "Vùng chè của Sở trà Cầu Đất người Pháp lập năm 1927; đến 1931 trồng trên 600 ha, nay còn khoảng 200 ha, trong đó khoảng 3 ha chè cổ từ thời lập sở (Vietnam+). Vào cổng miễn phí, mở 7:30–17:00; có tour trà (thăm xưởng chè), tour nông trại, quán cà phê nhìn 360 độ giữa đồi, cầu gỗ săn mây (nên tới khoảng 5:30–6:15 sáng), vườn hồng mùa thu.",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
+       "trang": "vietnamplus.vn"
+      },
+      {
+       "link": "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kham-pha-cau-dat-farm-14120",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/doi-che-cau-dat",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/san-may-doi-che-cau-dat-19414",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/11916396494",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "mở; mia 07/01/2026 và VinWonders cùng ghi giờ 7:30–17:00, vào cổng miễn phí, tour 90.000 đồng/người (giá tham khảo)."
+    },
+    {
+     "ten": "Bảo tàng trà cổ Cầu Đất Farm (xưởng chè cũ)",
+     "loai": "bảo tàng, quán trà",
+     "dac_trung": "Xưởng chè người Pháp xây năm 1929, khuôn viên 1,2 ha, sửa lại năm 2020 và đón khách từ đầu năm 2021; còn trưng máy làm chè chạy gần 100 năm. Có tranh vẽ bằng đất và lá chè Cầu Đất, khối treo dùng 350 kg chè (VnExpress).",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://vnexpress.net/bao-tang-tra-da-lat-4427714.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://doanhnghiephoinhap.vn/bao-tang-tra-cau-dat-khong-gian-van-hoa-dac-sac-76562.html",
+       "trang": "doanhnghiephoinhap.vn"
+      },
+      {
+       "link": "https://nhandan.vn/ocop/bao-tang-tra-dau-tien-o-viet-nam-post641126.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kham-pha-cau-dat-farm-14120",
+       "trang": "mia.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "mở; mia 12/2023 còn tả tour trà có thăm nhà máy trà cổ. Chưa có nguồn 2026 riêng cho bảo tàng."
+    },
+    {
+     "ten": "Bảo tàng trà Long Đỉnh",
+     "loai": "bảo tàng trà",
+     "dac_trung": "Bảo tàng tư nhân của Công ty CP trà Long Đỉnh, trưng hàng trăm hiện vật, bản đồ trà, dụng cụ, máy chế biến chè cũ; trong vườn có cây chè gần trăm năm tuổi người Pháp trồng thử. Có chỗ uống trà, món ăn từ trà.",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://baolaocai.vn/an-tuong-bao-tang-tra-tai-da-lat-post380061.html",
+       "trang": "baolaocai.vn"
+      },
+      {
+       "link": "https://baolamdong.vn/doc-dao-khong-gian-van-hoa-am-thuc-tra-382999.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/bao-tang-tra-long-dinh-da-lat-18679",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.klook.com/activity/114867-da-lat-long-dinh-tea-museum-ticket",
+       "trang": "klook.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "mở; Báo Lâm Đồng 21/07/2025 và mia 16/06/2025 viết đang đón khách. Giờ 8:00–17:00, vé trên 100.000 đồng chỉ có ở mia → chưa ghi."
+    },
+    {
+     "ten": "Điện gió Cầu Đất",
+     "loai": "cánh đồng tuabin gió (cảnh)",
+     "dac_trung": "Hàng tuabin gió trên đồi, khách hay ghé chụp ảnh sau đồi chè (vào xem miễn phí theo mia). Dự án của Công ty CP Năng lượng tái tạo Đại Dương trên hơn 27,5 ha, giai đoạn 1 công suất 68,9 MW, đã hoà lưới; tháng 12/2023 được nghiệm thu và cấp giấy phép hoạt động điện lực (Báo Lâm Đồng). GE ký cung cấp 15 tuabin loại 4 MW (2021).",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://baolamdong.vn/nhieu-du-an-dien-gio-cham-tien-do-272408.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://www.ge.com/news/press-releases/ge-renewable-energy-to-build-the-first-wind-farm-in-lam-dong-province-in-vietnam",
+       "trang": "ge.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/muon-co-anh-xinh-den-ngay-dien-gio-cau-dat-da-lat-4942",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://gem.wiki/Cau_Dat_wind_farm",
+       "trang": "gem.wiki"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "đang chạy (Báo Lâm Đồng 27/05/2024: đã hoà lưới)."
+    },
+    {
+     "ten": "Ladora Winery",
+     "loai": "nhà làm rượu vang, hầm rượu",
+     "dac_trung": "Nhà làm rượu vang của Ladofoods (Vang Đà Lạt) trên khuôn viên 6 ha ở Phát Chi, khánh thành năm 2016; khách xem hầm rượu dưới đất và nếm vang.",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://doanhnhanplus.vn/ladofoods-khanh-thanh-nha-lam-ruou-vang-va-ra-mat-san-pham-moi-206787.html",
+       "trang": "doanhnhanplus.vn"
+      },
+      {
+       "link": "https://www.winetourism.com/winery/ladora-winery/",
+       "trang": "winetourism.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có lẽ mở; winetourism ghi giờ thứ Ba–Chủ nhật 8:30–15:30 và có nhận xét 2023 — chưa thấy nguồn 2026."
+    },
+    {
+     "ten": "Đường hầm hỏa xa (hầm xe lửa cổ)",
+     "loai": "di tích đường sắt bỏ hoang",
+     "dac_trung": "Hầm của tuyến răng cưa Tháp Chàm – Đà Lạt dài 84 km (người Pháp làm từ 1908, hơn 24 năm mới xong), nay bỏ hoang, khách đi xe máy xuống chụp ảnh hai đầu hầm. Nằm trên đường từ Đà Lạt xuống Cầu Đất, khoảng 3 km qua khu rau Organik thì rẽ dốc xuống.",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/duong-ham-xe-lua-co-da-lat-dia-diem-check-in-noi-tieng-tai-da-lat-1377",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/duong-ham-hoa-xa-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/4380328291",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "bỏ hoang, vẫn vào được (mia 10/06/2025)."
+    },
+    {
+     "ten": "Cloud9 & Cloud View Glamping",
+     "loai": "cắm trại, cà phê săn mây",
+     "dac_trung": "Khu lều cắm trại có quán cà phê trên đỉnh đồi gần đồi chè, đón mây sáng sớm; có lửa trại, ăn tối nướng.",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://www.openstreetmap.org/way/1391378373",
+       "trang": "openstreetmap.org"
+      },
+      {
+       "link": "https://uk.trip.com/hotels/tram-hanh-hotel-detail-119237139/cloud9-and-cloud-view-glamping",
+       "trang": "uk.trip.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có trên Trip.com/Hotels.com (đang nhận đặt phòng); chưa có bài báo."
+    }
+   ],
+   "can_kiem_them": 8,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_cau-dat.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Quốc lộ 20 - xã Xuân Trường / xã Trạm Hành",
+      "thoi_gian": "trước 1/7/2025",
+      "nguon": [
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-xuan-truong",
+        "trang": "thuviennhadat.vn"
+       },
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-tram-hanh",
+        "trang": "thuviennhadat.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Xu%C3%A2n_Tr%C6%B0%E1%BB%9Dng_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "ten": "L'Arbre Broyé (tên đầu của Sở trà Cầu Đất)",
+      "thoi_gian": "thời Pháp",
+      "nguon": [
+       {
+        "link": "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
+        "trang": "vietnamplus.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "ten": "Entrerays (tên Pháp của ga Cầu Đất)",
+      "thoi_gian": "thời Pháp",
+      "nguon": [
+       {
+        "link": "https://en.wikipedia.org/wiki/Da_Lat%E2%80%93Thap_Cham_railway",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "ten": "Cầu Đất (tên vùng)",
+      "thoi_gian": "chưa rõ",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html",
+        "trang": "vnexpress.net"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1908–1932",
+      "su_kien": "Người Pháp làm tuyến đường sắt Tháp Chàm – Đà Lạt dài 84 km, khởi công 1908, hơn 24 năm mới thông; ga Cầu Đất ở km 66.",
+      "nguon": [
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/duong-ham-xe-lua-co-da-lat-dia-diem-check-in-noi-tieng-tai-da-lat-1377",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/duong-ham-hoa-xa-da-lat/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Da_Lat%E2%80%93Thap_Cham_railway",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1927",
+      "su_kien": "Sở trà Cầu Đất thành lập, nhà máy chè đầu tiên ở Lâm Đồng, làm chè đen đưa về Pháp và bán sang châu Âu.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
+        "trang": "vietnamplus.vn"
+       },
+       {
+        "link": "https://www.sggp.org.vn/so-tra-dau-tien-cua-xu-dong-duong-post850083.html",
+        "trang": "sggp.org.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1929",
+      "su_kien": "Người Pháp xây xưởng chè Cầu Đất (khuôn viên 1,2 ha) — nay là Bảo tàng trà cổ Cầu Đất Farm.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/bao-tang-tra-da-lat-4427714.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://doanhnghiephoinhap.vn/bao-tang-tra-cau-dat-khong-gian-van-hoa-dac-sac-76562.html",
+        "trang": "doanhnghiephoinhap.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1931",
+      "su_kien": "Sở trà Cầu Đất trồng và khai thác trên 600 ha.",
+      "nguon": [
+       {
+        "link": "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
+        "trang": "vietnamplus.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "1931",
+      "su_kien": "Máy chế biến chè nhập nguyên kiện từ châu Âu về xưởng.",
+      "nguon": [
+       {
+        "link": "https://doanhnghiephoinhap.vn/bao-tang-tra-cau-dat-khong-gian-van-hoa-dac-sac-76562.html",
+        "trang": "doanhnghiephoinhap.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "1977",
+      "su_kien": "Xã Xuân Trường và Xuân Thọ (huyện Đơn Dương) nhập về thành phố Đà Lạt (Quyết định 51-CP ngày 10/3/1977).",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Xu%C3%A2n_Tr%C6%B0%E1%BB%9Dng_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "2009",
+      "su_kien": "Lập xã Trạm Hành từ một phần xã Xuân Trường (Nghị định 10/NĐ-CP ngày 6/3/2009): 5.431,38 ha, 5.086 người.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Xu%C3%A2n_Tr%C6%B0%E1%BB%9Dng_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://luatvietnam.vn/dia-gioi-hanh-chinh/nghi-dinh-10-nd-cp-chinh-phu-40677-d1.html",
+        "trang": "luatvietnam.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2016",
+      "su_kien": "Ladofoods khánh thành nhà làm rượu vang Ladora Winery trên 6 ha ở Phát Chi.",
+      "nguon": [
+       {
+        "link": "https://doanhnhanplus.vn/ladofoods-khanh-thanh-nha-lam-ruou-vang-va-ra-mat-san-pham-moi-206787.html",
+        "trang": "doanhnhanplus.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "2017",
+      "su_kien": "Đà Lạt trao quyền dùng nhãn hiệu chứng nhận 'Cà phê Cầu Đất Đà Lạt' đợt đầu cho 10 đơn vị.",
+      "nguon": [
+       {
+        "link": "https://tienphong.vn/cai-lao-hoan-dong-nhung-giong-ca-phe-dac-san-post989434.tpo",
+        "trang": "tienphong.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "2021",
+      "su_kien": "Xưởng chè cũ thành Bảo tàng trà cổ Cầu Đất Farm, đón khách từ đầu năm 2021.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/bao-tang-tra-da-lat-4427714.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://nhandan.vn/ocop/bao-tang-tra-dau-tien-o-viet-nam-post641126.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://doanhnghiephoinhap.vn/bao-tang-tra-cau-dat-khong-gian-van-hoa-dac-sac-76562.html",
+        "trang": "doanhnghiephoinhap.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2023",
+      "su_kien": "Điện gió Cầu Đất (giai đoạn 1: 68,9 MW) được nghiệm thu, cấp giấy phép hoạt động điện lực tháng 12/2023.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/nhieu-du-an-dien-gio-cham-tien-do-272408.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Từ 1/7/2025, Phường 11, xã Xuân Thọ, Xuân Trường, Trạm Hành nhập thành phường Xuân Trường - Đà Lạt (NQ 1671/NQ-UBTVQH15, mục 102).",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Xu%C3%A2n_Tr%C6%B0%E1%BB%9Dng_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Trà và cà phê người Pháp mang lên",
+      "noi_dung": "Cầu Đất là nơi người Pháp thử trồng trà và cà phê thành công đầu tiên trên cao nguyên (SGGP 2026). Sở trà lập năm 1927, làm chè đen gửi về Pháp. Cũng từ những thập niên đầu thế kỷ 20, họ đưa cà phê Arabica Moka, Bourbon lên trồng; năm 2017 Cầu Đất – Xuân Trường có gần 1.300 ha cà phê (Tiền Phong). Hợp tác xã Cầu Đất lập năm 2015–2016 với 30 hộ, khoảng 45–46 ha cà phê, bán chủ yếu cho Cầu Đất Farm.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/so-tra-dau-tien-cua-xu-dong-duong-post850083.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://tienphong.vn/cai-lao-hoan-dong-nhung-giong-ca-phe-dac-san-post989434.tpo",
+        "trang": "tienphong.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/ve-xu-so-ca-phe-cau-dat-276326.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Tàu răng cưa từng chạy qua Cầu Đất",
+      "noi_dung": "Tuyến Tháp Chàm – Đà Lạt có ga Cầu Đất; nay chỉ còn đoạn Đà Lạt – Trại Mát chạy tàu du lịch, các ga phía dưới bỏ hoang. Quanh Cầu Đất và Đa Thọ còn các hầm cũ; Wikipedia ghi hầm dài nhất tuyến (630 m) nằm giữa Trạm Hành và Cầu Đất.",
+      "nguon": [
+       {
+        "link": "https://en.wikipedia.org/wiki/Da_Lat%E2%80%93Thap_Cham_railway",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://www.sggp.org.vn/theo-dau-tich-duong-sat-co-da-lat-phan-rang-post435805.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/duong-ham-xe-lua-co-da-lat-dia-diem-check-in-noi-tieng-tai-da-lat-1377",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Săn mây trên đồi chè",
+      "noi_dung": "Sáng sớm, mây phủ thung lũng dưới đồi chè; các trang du lịch khuyên tới cầu gỗ trên đồi khoảng 5:30–6:15 sáng. Quanh Trường Thọ mọc thêm nhiều quán cà phê, khu cắm trại săn mây.",
+      "nguon": [
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/san-may-doi-che-cau-dat-19414",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/doi-che-cau-dat/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/kham-pha-cau-dat-farm-14120",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ]
+   }
+  },
+  {
+   "id": "pho_ga_da_lat",
+   "slug": "ga-da-lat",
+   "ten_pho": "Phố Ga Đà Lạt",
+   "duong": [
+    "Quang Trung",
+    "Nguyễn Trãi",
+    "Hẻm 17 Nguyễn Trãi",
+    "Phạm Hồng Thái",
+    "Hùng Vương",
+    "Nguyễn Du"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Phố Ga Đà Lạt: nhà ga ba chóp mái người Pháp xây 1932–1938, đầu đoạn đường sắt gần 7 km còn chạy tàu du lịch đi Trại Mát; quanh ga có quán cà phê trong toa tàu cũ, phở atisô sợi hồng và khách sạn nhỏ trong khu quy hoạch Phạm Hồng Thái.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.454,
+   "lat": 11.94203,
+   "dia_diem": [
+    {
+     "ten": "Ga Đà Lạt (Ga hỏa xa Đà Lạt)",
+     "loai": "nhà ga, di tích kiến trúc, điểm tham quan",
+     "dac_trung": "Khởi công 1932, xong 1938; hai kiến trúc sư Pháp Moncet và Reveron. Mặt tiền có ba chóp mái nhọn (được cho là cách điệu ba đỉnh Lang Biang hoặc nhà rông Tây Nguyên) và đồng hồ lớn ở giữa. Nhà ga dài khoảng 66 m, rộng khoảng 11,5 m, đại sảnh cao 11 m. Di tích quốc gia. Trong sân có đầu máy hơi nước, toa gỗ cũ; có phòng chiếu phim tài liệu về tuyến răng cưa (từ 4/2024). Nơi xuất phát tàu du lịch Đà Lạt – Trại Mát (gần 7 km), có chuyến tối. Nhân Dân: năm 2025 khoảng 500 nghìn lượt khách vào ga, hơn 1/4 đi tàu Trại Mát.",
+     "dia_chi": "1 Quang Trung",
+     "duong": "Quang Trung",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://nhandan.vn/mang-lai-trai-nghiem-thu-vi-cho-du-khach-post946628.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://vnexpress.net/nha-ga-xe-lua-co-nhat-dong-duong-o-da-lat-3824481.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://tuoitre.vn/saigontimes/tuyen-tau-co-da-lat-trai-mat-chay-them-buoi-toi-tu-giua-thang-4-106908518.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/ga-xe-lua-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/review-toan-canh-ga-da-lat-nha-ga-co-nhat-viet-nam-2655",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.vietnambooking.com/du-lich/blog-du-lich/ga-da-lat.html",
+       "trang": "vietnambooking.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/5661470624",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.45424,
+      "lat": 11.94156,
+      "cach": "tên trên OpenStreetMap: Ga Đà Lạt (ghép tay)",
+      "osm": "node/5661470624"
+     },
+     "con_mo": "mở: Nhân Dân 07/03/2026 và 12/06/2026 còn viết về khách tham quan, tàu chạy; VinWonders ghi 07:00–18:00. Giá vé vào ga lệch (mia 2023: 10.000 đ; VinWonders: 5.000 đ) → không ghi giá."
+    },
+    {
+     "ten": "Quán cà phê trong ga Đà Lạt (Train Café)",
+     "loai": "cà phê trong sân ga",
+     "dac_trung": "Quán nằm trong khuôn viên nhà ga, quầy gọi món đặt trong phòng điều hành cũ của ga; bán cà phê rang xay, cà phê sữa, nước giải khát, có góc trưng bày sản phẩm cà phê (mia 2023).",
+     "dia_chi": "1 Quang Trung",
+     "duong": "Quang Trung",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/review-toan-canh-ga-da-lat-nha-ga-co-nhat-viet-nam-2655",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/11715800432",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.45481,
+      "lat": 11.94193,
+      "cach": "tên trên OpenStreetMap: Train Café Đà Lạt Railway Station (ghép tay)",
+      "osm": "node/11715800432"
+     },
+     "con_mo": "chưa rõ: bài mia đăng 22/09/2023; OSM ghi tên 'Train Café Đà Lạt Railway Station' (không ghi ngày)."
+    },
+    {
+     "ten": "Dalat Train Villa & Cafe (cà phê Xe Lửa)",
+     "loai": "cà phê trong toa tàu cũ, biệt thự cho thuê",
+     "dac_trung": "Quán đặt trong một toa xe lửa cũ hơn 100 năm (Znews 2015 ghi toa 'sinh năm 1910', chủ quán mua toa hàng cũ ở Bình Dương rồi sửa 3 tháng), nằm trong khu biệt thự đường sắt cạnh ga; kèm biệt thự kiểu Pháp cho thuê phòng.",
+     "dia_chi": "1 Quang Trung",
+     "duong": "Quang Trung",
+     "nguon": [
+      {
+       "link": "https://uk.trip.com/travel-guide/foods/Dalat-1393-restaurant/Dalat%20Train%20Cafe-19667950",
+       "trang": "uk.trip.com"
+      },
+      {
+       "link": "https://www.vietnambooking.com/du-lich/blog-du-lich/dua-nhau-di-check-in-quan-ca-phe-toa-tau-xanh-ngat-giua-long-da-lat.html",
+       "trang": "vietnambooking.com"
+      },
+      {
+       "link": "https://znews.vn/ca-phe-xe-lua-lang-du-tai-da-lat-post613399.html",
+       "trang": "znews.vn"
+      },
+      {
+       "link": "https://e.vnexpress.net/news/video/da-lat-cafe-goes-back-a-century-on-a-train-car-4116008.html",
+       "trang": "e.vnexpress.net"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/5547854021",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.45431,
+      "lat": 11.94348,
+      "cach": "tên trên OpenStreetMap: Dalat Train Cafe (ghép tay)",
+      "osm": "node/5547854021"
+     },
+     "con_mo": "chưa rõ: bài mới nhất em đọc được là vietnambooking (hiện ngày 10/01/2024, siêu dữ liệu 2017) và VnExpress International 19/06/2020; trip.com lúc chụp ghi đang đóng cửa (có thể chỉ ngoài giờ)."
+    },
+    {
+     "ten": "Still Cafe",
+     "loai": "cà phê kiểu Nhật hoài cổ",
+     "dac_trung": "Nhà gỗ mái chữ A kiểu Đà Lạt thập niên 90, trang trí phong cách Nhật, trong hẻm nhỏ trên Nguyễn Trãi gần ga. Giá 20.000–47.000 đ (mia), mở 7:00–22:00 (mia, OSM).",
+     "dia_chi": "59 Nguyễn Trãi",
+     "duong": "Nguyễn Trãi",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/cung-still-coffee-tim-hieu-ve-mot-da-lat-rat-co-xua-1443",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.foody.vn/lam-dong/still-cafe",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://wanderlog.com/place/details/1324500/still-cafe",
+       "trang": "wanderlog.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/6152524285",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.45458,
+      "lat": 11.94433,
+      "cach": "tên trên OpenStreetMap: Still Cafe (ghép tay)",
+      "osm": "node/6152524285"
+     },
+     "con_mo": "có dấu hiệu: bài mia hiện ngày 06/01/2025."
+    },
+    {
+     "ten": "Gare De Cafe (Cà phê Dốc Ga)",
+     "loai": "cà phê nhỏ ở dốc lên ga",
+     "dac_trung": "Quán nhỏ trong hẻm ngay dốc lên ga, trang trí xanh trắng, khoảng 30 chỗ; giá 10.000–35.000 đ, mở 6:00–21:00 (Foody).",
+     "dia_chi": "17/1 Hẻm 17 Nguyễn Trãi",
+     "duong": "Hẻm 17 Nguyễn Trãi",
+     "nguon": [
+      {
+       "link": "https://www.foody.vn/lam-dong/gare-de-cafe",
+       "trang": "foody.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/6175932386",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.45284,
+      "lat": 11.94213,
+      "cach": "tên trên OpenStreetMap: Cà phê Dõc Ga (ghép tay)",
+      "osm": "node/6175932386"
+     },
+     "con_mo": "chưa rõ: bình luận Foody mới nhất 31/01/2020; Foody ghi hơn 3 tháng không có tương tác."
+    },
+    {
+     "ten": "Atispho – Phở Atiso Đà Lạt",
+     "loai": "quán phở",
+     "dac_trung": "Phở sợi màu hồng tự nhiên làm từ tinh chất hoa atisô đỏ, nước dùng hầm sườn bò với thân atisô tươi (Báo Lâm Đồng 05/07/2026). Hai gian khoảng 250 chỗ, mở 6:15–20:00 (wanderlog).",
+     "dia_chi": "lô H19–H20 KQH Phạm Hồng Thái",
+     "duong": "Phạm Hồng Thái",
+     "nguon": [
+      {
+       "link": "https://wanderlog.com/place/details/7403035/atispho-ph%E1%BB%9F-atiso-%C4%91%C3%A0-l%E1%BA%A1t",
+       "trang": "wanderlog.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/11840597521",
+       "trang": "openstreetmap.org"
+      },
+      {
+       "link": "https://baolamdong.vn/doc-la-pho-atiso-da-lat-451656.html",
+       "trang": "baolamdong.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.45511,
+      "lat": 11.94092,
+      "cach": "tên trên OpenStreetMap: Atispho - Phở Atiso Đà Lạt (ghép tay)",
+      "osm": "node/11840597521"
+     },
+     "con_mo": "có dấu hiệu: Báo Lâm Đồng 05/07/2026 còn viết về thương hiệu (không ghi địa chỉ)."
+    },
+    {
+     "ten": "Clivia Hotel",
+     "loai": "khách sạn nhỏ",
+     "dac_trung": "Khách sạn nhỏ ngay dốc Nguyễn Trãi sát ga (hotels.com ghi 17 phòng, OSM ghi 15).",
+     "dia_chi": "26A Nguyễn Trãi",
+     "duong": "Nguyễn Trãi",
+     "nguon": [
+      {
+       "link": "https://ae.trip.com/hotels/dalat-hotel-detail-114994223/clivia-hotel",
+       "trang": "ae.trip.com"
+      },
+      {
+       "link": "https://hotels.com/ho3695703488",
+       "trang": "hotels.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/971572472",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4529,
+      "lat": 11.94175,
+      "cach": "tên trên OpenStreetMap: Clivia Hotel (ghép tay)",
+      "osm": "way/971572472"
+     },
+     "con_mo": "có dấu hiệu: còn nhận đặt phòng trên trip.com, hotels.com (không thấy ngày)."
+    },
+    {
+     "ten": "Pinus CASA Villa",
+     "loai": "biệt thự cho thuê nguyên căn",
+     "dac_trung": "Biệt thự 5 phòng ngủ, nhìn thẳng ra Ga Đà Lạt (Airbnb).",
+     "dia_chi": "H32 KQH Phạm Hồng Thái",
+     "duong": "Phạm Hồng Thái",
+     "nguon": [
+      {
+       "link": "https://www.airbnb.com/rooms/861272405640464846",
+       "trang": "airbnb.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/10978202298",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.45526,
+      "lat": 11.94108,
+      "cach": "tên trên OpenStreetMap: Pinus CASA (ghép tay)",
+      "osm": "node/10978202298"
+     },
+     "con_mo": "chưa rõ: tin Airbnb còn hiển thị, không có ngày."
+    },
+    {
+     "ten": "Grand Mercure Dalat (trước là Mercure Dalat Resort)",
+     "loai": "khu nghỉ dưỡng biệt thự Pháp",
+     "dac_trung": "131 phòng trong 12 biệt thự kiểu Pháp giữa vườn hồng, rừng thông; cách ga khoảng 900 m (Accor).",
+     "dia_chi": "3 Nguyễn Du",
+     "duong": "Nguyễn Du",
+     "nguon": [
+      {
+       "link": "https://all.accor.com/hotel/B8H0/index.en.shtml",
+       "trang": "all.accor.com"
+      },
+      {
+       "link": "https://www.travelocity.com/Da-Lat-Hotels-Mercure-Dalat-Resort.h2835118.Hotel-Reviews",
+       "trang": "travelocity.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/542725585",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4595,
+      "lat": 11.94544,
+      "cach": "tên trên OpenStreetMap: Mercure Dalat Resort (ghép tay)",
+      "osm": "way/542725585"
+     },
+     "con_mo": "mở: trang Accor còn nhận đặt phòng dưới tên Grand Mercure Dalat."
+    },
+    {
+     "ten": "Bảo tàng Lâm Đồng",
+     "loai": "bảo tàng",
+     "dac_trung": "Trên đồi, hơn 15.000 hiện vật (mia); trong khuôn viên có tư dinh của Nguyễn Hữu Hào, thân phụ Nam Phương Hoàng hậu (Nhân Dân 08/2025), cạnh nhà trưng bày mới ba tầng. Mở 7:15–11:30, 13:30–17:00 (mia, OSM).",
+     "dia_chi": "4 Hùng Vương",
+     "duong": "Hùng Vương",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/tham-quan-bao-tang-lam-dong-14093",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://nhandan.vn/noi-luu-giu-ky-uc-nam-tay-nguyen-post899294.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/bao-tang-lam-dong-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://uk.trip.com/travel-guide/attraction/dalat/lm-ng-museum-142805891?curr=GBP",
+       "trang": "uk.trip.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/1152350875",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4599,
+      "lat": 11.94058,
+      "cach": "tên trên OpenStreetMap: Bảo Tàng Lâm Đồng (ghép tay)",
+      "osm": "node/1152350875"
+     },
+     "con_mo": "mở: Nhân Dân 07/08/2025; giá vé 10.000 đ là giá mia cập nhật 12/2023."
+    }
+   ],
+   "can_kiem_them": 10,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_ga-da-lat.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Ga hỏa xa Đà Lạt",
+      "thoi_gian": "cách gọi cũ, còn dùng trên báo",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://plo.vn/ga-hoa-xa-da-lat-kiet-tac-doc-dao-nhat-dong-duong-post1058.html",
+        "trang": "plo.vn"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1908",
+      "su_kien": "Khởi công tuyến đường sắt răng cưa Tháp Chàm – Đà Lạt (dài khoảng 84 km), ga Đà Lạt là ga cuối.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_s%E1%BA%AFt_Th%C3%A1p_Ch%C3%A0m_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1932",
+      "su_kien": "Khởi công nhà ga Đà Lạt; thiết kế: kiến trúc sư Pháp Reveron, Moncet hoàn chỉnh chi tiết và giám sát.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vnexpress.net/nha-ga-xe-lua-co-nhat-dong-duong-o-da-lat-3824481.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/ga-xe-lua-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1938",
+      "su_kien": "Nhà ga hoàn thành.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/ga-xe-lua-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1972",
+      "su_kien": "Tuyến Tháp Chàm – Đà Lạt ngừng chạy; nhà ga bị hư hại.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/ga-xe-lua-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "1991",
+      "su_kien": "Khôi phục đoạn Đà Lạt – Trại Mát (gần 7 km) để chạy tàu du lịch.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/tren-7km-duong-ray-539282.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2001",
+      "su_kien": "Ga Đà Lạt được công nhận di tích quốc gia.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://nhandan.vn/mang-lai-trai-nghiem-thu-vi-cho-du-khach-post946628.html",
+        "trang": "nhandan.vn"
+       }
+      ],
+      "mot_nguon": true
+     },
+     {
+      "nam": "2024",
+      "su_kien": "Ngày 14/4: mở tàu đêm Đà Lạt – Trại Mát (xuất phát 18:15–21:20), khai trương phòng chiếu phim tài liệu về ga và tuyến răng cưa.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/saigontimes/tuyen-tau-co-da-lat-trai-mat-chay-them-buoi-toi-tu-giua-thang-4-106908518.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Từ 1/7/2025: Phường 10 vào phường Xuân Hương - Đà Lạt, Phường 9 vào phường Lâm Viên - Đà Lạt; ga nằm sát ranh hai phường. Ngày 15/12: đoàn 'Đà Lạt Coffee Train' (toa di sản King Coffee) bắt đầu chạy từ ga.",
+      "nguon": [
+       {
+        "link": "data/lam-dong/nq1671.json (mục 99, 101)",
+        "trang": ""
+       },
+       {
+        "link": "https://baolamdong.vn/trai-nghiem-va-thuong-thuc-ca-phe-viet-tren-hanh-trinh-chuyen-tau-co-da-lat-410362.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Ba chóp mái",
+      "noi_dung": "Giữa mặt tiền nhà ga là ba chóp mái nhọn liền nhau. Người thì bảo đó là ba đỉnh Lang Biang cách điệu, người bảo là dáng nhà rông Tây Nguyên; báo chí ghi cả hai cách hiểu, không khẳng định cách nào.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://nhandan.vn/mang-lai-trai-nghiem-thu-vi-cho-du-khach-post946628.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/ga-xe-lua-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Toa tàu thành quán cà phê",
+      "noi_dung": "Trong khu biệt thự đường sắt cạnh ga có quán cà phê đặt trong một toa xe lửa cũ hơn trăm tuổi. Theo Znews (2015), chủ quán mua toa hàng cũ 'sinh năm 1910' ở Bình Dương rồi sửa ba tháng mới thành quán.",
+      "nguon": [
+       {
+        "link": "https://znews.vn/ca-phe-xe-lua-lang-du-tai-da-lat-post613399.html",
+        "trang": "znews.vn"
+       },
+       {
+        "link": "https://www.vietnambooking.com/du-lich/blog-du-lich/dua-nhau-di-check-in-quan-ca-phe-toa-tau-xanh-ngat-giua-long-da-lat.html",
+        "trang": "vietnambooking.com"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/video/da-lat-cafe-goes-back-a-century-on-a-train-car-4116008.html",
+        "trang": "e.vnexpress.net"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Đầu tuyến răng cưa, nay chỉ còn bảy cây số",
+      "noi_dung": "Ga Đà Lạt từng là ga cuối tuyến răng cưa Tháp Chàm – Đà Lạt dài khoảng 84 km. Nay chỉ còn gần 7 km từ ga đi Trại Mát chạy tàu du lịch; tàu dừng ở Trại Mát khoảng 30 phút cho khách sang chùa Linh Phước rồi quay về. Ngày cao điểm hè, Tết có lúc chạy 7 chuyến.",
+      "nguon": [
+       {
+        "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://nhandan.vn/mang-lai-trai-nghiem-thu-vi-cho-du-khach-post946628.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false
+     },
+     {
+      "tieu_de": "Ga về đêm",
+      "noi_dung": "Từ tháng 4/2024 tàu chạy cả buổi tối, xuất phát từ 18 giờ 15; trên tàu có trà atisô, wifi, và có lúc có người thổi saxophone, kèn cho khách nghe.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/saigontimes/tuyen-tau-co-da-lat-trai-mat-chay-them-buoi-toi-tu-giua-thang-4-106908518.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://nhandan.vn/mang-lai-trai-nghiem-thu-vi-cho-du-khach-post946628.html",
+        "trang": "nhandan.vn"
+       }
+      ],
+      "mot_nguon": false
+     }
+    ]
+   }
+  },
+  {
    "id": "pho_hai_ba_trung",
    "slug": "hai-ba-trung",
    "ten_pho": "Phố Ốc Nhồi",
@@ -5043,7 +6123,7 @@
   {
    "id": "pho_lang_biang",
    "slug": "lang-biang",
-   "ten_pho": "Phố Chân Núi",
+   "ten_pho": "Chân núi Lang Biang",
    "duong": [
     "Lang Biang",
     "Đường Biđoúp",
@@ -5053,7 +6133,7 @@
     "Đường tỉnh 726"
    ],
    "ward": "Lang Biang - Đà Lạt",
-   "gioi_thieu": "Phố Chân Núi: đường Lang Biang đi qua thị trấn Lạc Dương cũ tới cổng khu du lịch núi Lang Biang, cách trung tâm Đà Lạt chừng 12 km — đỉnh núi Bà cao 2.167 m, đồi Ra Đa 1.929 m có xe đưa lên; dưới chân núi là các buôn người K'Ho với cồng chiêng, rượu cần và cà phê Arabica.",
+   "gioi_thieu": "Chân núi Lang Biang: đường Lang Biang đi qua thị trấn Lạc Dương cũ tới cổng khu du lịch núi Lang Biang, cách trung tâm Đà Lạt chừng 12 km — đỉnh núi Bà cao 2.167 m, đồi Ra Đa 1.929 m có xe đưa lên; dưới chân núi là các buôn người K'Ho với cồng chiêng, rượu cần và cà phê Arabica.",
    "anh": null,
    "ten_that": true,
    "moi": true,
@@ -7104,13 +8184,13 @@
   {
    "id": "pho_thung_lung_tinh_yeu",
    "slug": "thung-lung-tinh-yeu",
-   "ten_pho": "Phố Thung Lũng Tình Yêu",
+   "ten_pho": "Thung lũng Tình Yêu",
    "duong": [
     "Phù Đổng Thiên Vương",
     "Mai Anh Đào"
    ],
    "ward": "Lâm Viên - Đà Lạt",
-   "gioi_thieu": "Phố Thung Lũng Tình Yêu: từ Ngã năm Đại học, đường Phù Đổng Thiên Vương đi ngang Trường Đại học Đà Lạt (tiền thân Viện Đại học Đà Lạt, khóa đầu năm 1958) và các quán gà nướng cơm lam, lẩu gà lá é, rồi nối sang đường Mai Anh Đào tới Thung lũng Tình Yêu rộng gần 140 ha, có hồ Đa Thiện đắp đập năm 1972, kề bên là Đồi Mộng Mơ và làng tranh thêu XQ.",
+   "gioi_thieu": "Thung lũng Tình Yêu: từ Ngã năm Đại học, đường Phù Đổng Thiên Vương đi ngang Trường Đại học Đà Lạt (tiền thân Viện Đại học Đà Lạt, khóa đầu năm 1958) và các quán gà nướng cơm lam, lẩu gà lá é, rồi nối sang đường Mai Anh Đào tới Thung lũng Tình Yêu rộng gần 140 ha, có hồ Đa Thiện đắp đập năm 1972, kề bên là Đồi Mộng Mơ và làng tranh thêu XQ.",
    "anh": null,
    "ten_that": true,
    "moi": true,
@@ -7798,7 +8878,7 @@
   {
    "id": "pho_trai_mat",
    "slug": "trai-mat",
-   "ten_pho": "Phố Tàu Cổ Trại Mát",
+   "ten_pho": "Ga Trại Mát",
    "duong": [
     "Huỳnh Tấn Phát",
     "Tự Phước",
@@ -7807,7 +8887,7 @@
     "Hùng Vương"
    ],
    "ward": "Xuân Trường - Đà Lạt",
-   "gioi_thieu": "Phố Tàu Cổ Trại Mát: ga cuối của đoạn đường sắt gần 7 km còn chạy tàu du lịch từ ga Đà Lạt (khúc còn lại của tuyến răng cưa Tháp Chàm – Đà Lạt dài khoảng 84 km), sát chùa Linh Phước khảm ve chai có con rồng dài 49 m; chiều tối lên dốc Xóm Lèo đầu đường Huỳnh Tấn Phát ngắm thung lũng nhà kính lên đèn.",
+   "gioi_thieu": "Ga Trại Mát: ga cuối của đoạn đường sắt gần 7 km còn chạy tàu du lịch từ ga Đà Lạt (khúc còn lại của tuyến răng cưa Tháp Chàm – Đà Lạt dài khoảng 84 km), sát chùa Linh Phước khảm ve chai có con rồng dài 49 m; chiều tối lên dốc Xóm Lèo đầu đường Huỳnh Tấn Phát ngắm thung lũng nhà kính lên đèn.",
    "anh": null,
    "ten_that": true,
    "moi": true,
@@ -9305,7 +10385,7 @@
   {
    "id": "pho_truc_lam",
    "slug": "truc-lam",
-   "ten_pho": "Phố Thiền và Thác",
+   "ten_pho": "Thiền viện Trúc Lâm – Hồ Tuyền Lâm",
    "duong": [
     "Trúc Lâm Yên Tử",
     "Đèo Prenn",
@@ -9315,7 +10395,7 @@
     "Quốc lộ 20"
    ],
    "ward": "Xuân Hương - Đà Lạt",
-   "gioi_thieu": "Phố Thiền và Thác: từ đầu đèo Prenn, cáp treo đồi Robin chạy hơn 2 km trên rừng thông tới Thiền viện Trúc Lâm (khánh thành năm 1994) trên núi Phụng Hoàng nhìn xuống hồ Tuyền Lâm; xuôi đèo là thác Datanla có đường xe trượt xuyên rừng, cuối đèo là thác Prenn.",
+   "gioi_thieu": "Thiền viện Trúc Lâm – Hồ Tuyền Lâm: từ đầu đèo Prenn, cáp treo đồi Robin chạy hơn 2 km trên rừng thông tới Thiền viện Trúc Lâm (khánh thành năm 1994) trên núi Phụng Hoàng nhìn xuống hồ Tuyền Lâm; xuôi đèo là thác Datanla có đường xe trượt xuyên rừng, cuối đèo là thác Prenn.",
    "anh": null,
    "ten_that": true,
    "moi": true,

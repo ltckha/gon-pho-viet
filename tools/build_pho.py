@@ -135,7 +135,7 @@ def main(game):
         for m in x['moc']:
             if m not in names:
                 raise SystemExit('Mốc "%s" của %s không có trong danh sách nơi đã nghiên cứu' % (m, o['slug']))
-        o.update({'ten_hien': x['ten'], 'dac_trung': x['dac_trung'], 'ban_gi': x['ban_gi'], 'moc_lau_doi': x['moc']})
+        o.update({'ten_ngan': x.get('ten_ngan', x['ten']), 'ten_hien': x['ten'], 'dac_trung': x['dac_trung'], 'ban_gi': x['ban_gi'], 'moc_lau_doi': x['moc']})
     write(out)
 
 

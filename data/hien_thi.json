@@ -56,7 +56,7 @@
  "thung-lung-tinh-yeu": {"ten": "Thung lũng Tình Yêu", "dac_trung": "Thung lũng rừng thông, hồ Đa Thiện",
    "ban_gi": "Khu du lịch, đồi hoa; dọc đường vào có gà nướng cơm lam, lẩu gà lá é, bún bò.",
    "moc": ["Khu du lịch Thung Lũng Tình Yêu (TTC World – Thung Lũng Tình Yêu)", "Trường Đại học Đà Lạt", "Hồ Đa Thiện"]},
- "truc-lam": {"ten": "Thiền viện Trúc Lâm – Hồ Tuyền Lâm", "dac_trung": "Thiền viện trên núi, cáp treo, thác",
+ "truc-lam": {"ten": "Thiền viện Trúc Lâm – Hồ Tuyền Lâm", "ten_ngan": "Thiền viện Trúc Lâm", "dac_trung": "Thiền viện trên núi, cáp treo, thác",
    "ban_gi": "Cáp treo, thác Datanla, thác Prenn, đường hầm đất sét; cà phê ven suối, ven hồ.",
    "moc": ["Thiền viện Trúc Lâm", "Hồ Tuyền Lâm", "Cáp treo Đà Lạt (ga đồi Robin)"]},
  "thai-phien": {"ten": "Làng Hoa Thái Phiên", "dac_trung": "Làng hoa nhà kính lập năm 1956",

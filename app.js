@@ -169,8 +169,11 @@
       var w = g._n * 13 * 0.6 + 6, lb = g.lastChild;
       var right = { x0: sx + 12, x1: sx + 14 + w, y0: sy - 26, y1: sy - 6 };
       var left = { x0: sx - 14 - w, x1: sx - 12, y0: sy - 26, y1: sy - 6 };
-      if (free(right)) { lb.setAttribute('x', 14); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
-      else if (free(left)) { lb.setAttribute('x', -14); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
+      // chữ không được tràn khỏi mép màn hình (tên dài như "Thiền viện Trúc Lâm – Hồ Tuyền Lâm")
+      var vuaPhai = right.x1 < r.width - 6, vuaTrai = left.x0 > 6;
+      if (!vuaPhai && !vuaTrai) { if (sx > r.width / 2) vuaTrai = true; else vuaPhai = true; }
+      if (vuaPhai && free(right)) { lb.setAttribute('x', 14); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
+      else if (vuaTrai && free(left)) { lb.setAttribute('x', -14); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
       else lb.setAttribute('hidden', '');
     });
     roadLbl.slice().sort(function (a, b) { return a.rank - b.rank || b.len - a.len; }).forEach(function (L) {
@@ -275,10 +278,10 @@
     phoList.forEach(function (p, i) {
       var g = el('g', { 'class': 'pin', transform: 'translate(' + px(p.lon).toFixed(4) + ' ' + py(p.lat).toFixed(4) + ')' });
       var inner = el('g', { 'data-i': i });
-      inner._x = px(p.lon); inner._y = py(p.lat); inner._n = (p.ten_hien || p.ten_pho).length;
+      inner._x = px(p.lon); inner._y = py(p.lat); inner._n = (p.ten_ngan || p.ten_hien || p.ten_pho).length;
       inner.appendChild(el('path', { d: 'M0 0 C-4 -7 -10 -10 -10 -17 A10 10 0 1 1 10 -17 C10 -10 4 -7 0 0Z', 'class': 'pin-body', 'data-i': i }));
       inner.appendChild(el('circle', { cx: 0, cy: -17, r: 4, 'class': 'pin-dot', 'data-i': i }));
-      inner.appendChild(el('text', { x: 14, y: -14, 'class': 'pin-label', 'data-i': i }, p.ten_hien || p.ten_pho));
+      inner.appendChild(el('text', { x: 14, y: -14, 'class': 'pin-label', 'data-i': i }, p.ten_ngan || p.ten_hien || p.ten_pho));
       g.appendChild(inner);
       pinLayer.appendChild(g);
       pins.push(inner);

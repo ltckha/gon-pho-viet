@@ -62,6 +62,7 @@ python3 tools/lich_trinh.py /tmp/osm
 ## Anh Kha đã chốt hướng mới (sau đánh giá khả thi `docs/danh_gia_kha_thi.md`, nhánh `claude/danh-gia-kha-thi`)
 - **Bản đồ để hiểu một vùng đất, kết hợp địa lý và lịch sử** — thay cho "bản đồ quán xá". "Phố" = một nơi đáng biết: con đường hoặc điểm tham quan nổi bật.
 - Mỗi nơi một trang ngắn 3 phần: **Địa lý** (bản đồ minh hoạ, phường, đường, gần mốc nào, cách Chợ Đà Lạt) · **Lịch sử** (tên xưa, mốc năm, chuyện — có nguồn) · **Nay có gì** (giới thiệu, "Ở đây bán gì" ở mức cả khu, vài mốc lâu đời).
+- **Ít chữ, nhiều hình** (anh Kha dặn): lịch sử là dòng thời gian mỗi năm một dòng ngắn, chạm mới mở chi tiết + nguồn; chuyện kể gập lại; địa lý, "nay có gì" là ô biểu tượng (`bieuTuong()` trong `app.js`). Thêm gì mới cũng ưu tiên hình, biểu tượng hơn đoạn văn.
 - Không bày từng quán: không số nhà, giờ mở, giá, nhận xét quán (`gonQuan()` trong `app.js` lọc giờ/giá khỏi thẻ mốc). Chỉ giữ vài mốc lâu đời (chùa, chợ, ga, dinh, quán vài chục năm).
 - Dữ liệu 220+ nơi đã nghiên cứu giữ nguyên trong kho (`data/pho/*.json`), làm căn cứ và chất liệu cho game.
 - Tên hiện trên bản đồ là tên người ta thật sự gọi (`data/hien_thi.json`: `ten`, `dac_trung`, `ban_gi`, `moc`). **`ten_pho` giữ nguyên** vì dùng chung với game. Thêm nơi mới thì phải thêm dòng vào `hien_thi.json` (build_pho.py dừng nếu thiếu).

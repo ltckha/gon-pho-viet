@@ -1,0 +1,343 @@
+{
+ "road": "Trần Hưng Đạo",
+ "duong": [
+  "Trần Hưng Đạo"
+ ],
+ "ten_osm": [
+  "Trần Hưng Đạo"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat chia Trần Hưng Đạo làm 2 phường cũ: PHƯỜNG 3 'Từ Trần Phú … Đến hết Đài phát thanh truyền hình Lâm Đồng' và PHƯỜNG 10 'Từ Đài Phát Thanh Truyền Hình Lâm Đồng - Đến Sở Điện Lực Lâm Đồng, UBND Phường 10' (cùng một nhánh 'Từ Trần Hưng Đạo thửa 108 tờ 27 … Đến ngã ba thửa 123 tờ 27'). Theo NQ 1671 mục 99, cả Phường 3 và Phường 10 → Xuân Hương - Đà Lạt, nên cả đường thuộc một phường mới. Kiểm chéo bằng ranh giới phuong.json: 8 điểm dọc đường từ Trần Phú (108.4411, 11.9367) tới đầu phía đông (108.4580, 11.9400) đều nằm trong Xuân Hương - Đà Lạt. Đài PTTH Lâm Đồng ở số 10 (Báo Lâm Đồng 17/06/2025 ghi đài sẽ dời khỏi số 10).",
+ "doan": [
+  {
+   "doan": "Trần Phú – hết Đài Phát thanh Truyền hình Lâm Đồng (số 10)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-hung-dao-phuong-3"
+  },
+  {
+   "doan": "Đài Phát thanh Truyền hình Lâm Đồng – Sở Điện lực Lâm Đồng, UBND Phường 10 (cũ)",
+   "phuong_cu": "Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-hung-dao-phuong-10"
+  },
+  {
+   "doan": "Nhánh: thửa 108 tờ 27 – ngã ba thửa 123 tờ 27",
+   "phuong_cu": "Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-hung-dao-phuong-10",
+   "ghi_chu": "Bảng giá chỉ ghi số thửa, em chưa định được nhánh này trên bản đồ."
+  }
+ ],
+ "ten_pho": "Phố Biệt Thự Pháp",
+ "gioi_thieu": "Phố Biệt Thự Pháp: đường Trần Hưng Đạo (thời Pháp tên Paul Doumer) chạy trên đồi thông phía nam hồ Xuân Hương, qua Dinh 2 – dinh Toàn quyền Đông Dương xây 1933–1937 – và cụm biệt thự Pháp nay là Dalat Cadasa Resort; là một trong hai khu biệt thự được quy hoạch bảo tồn của Đà Lạt (cùng khu Lê Lai), có trụ sở UBND tỉnh và vài quán cà phê nhìn ra hồ.",
+ "dia_diem": [
+  {
+   "ten": "Dinh 2 (Dinh Toàn quyền, Governor Palace)",
+   "loai": "dinh thự thời Pháp, di tích kiến trúc",
+   "dac_trung": "Dinh thự trên đồi thông, xây 1933–1937 theo thiết kế của các kiến trúc sư A. T. Kruzé, D. Veyssere, A. Léonard; nơi nghỉ hè của Toàn quyền Đông Dương Jean Decoux; nay là nhà khách, nơi hội nghị của UBND tỉnh. Từ dinh nhìn xuống được hồ Xuân Hương.",
+   "dia_chi": "12 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "12",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/dinh-2-da-lat-dinh-toan-quyen-decoux-dinh-thu-xa-hoa-long-lay-giua-doi-thong-1309",
+    "https://vinwonders.com/vi/wonderpedia/news/dinh-bao-dai-da-lat/",
+    "https://news.tuoitre.vn/untold-stories-of-da-lat-p3-royal-partition-10344111.htm",
+    "https://tatinta.com/en/diem-den/dinh-ii-da-lat/8254",
+    "https://www.openstreetmap.org/way/777438901"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở hạn chế: là nhà khách, nơi hội nghị của UBND tỉnh. mia.vn (23/07/2026) ghi 7:30–17:00, vé 30.000 đ/người, nên hỏi trước; VinWonders (09/12/2025) ghi không mở cửa thường xuyên.",
+   "vi_tri": null,
+   "ghi_chu": "Số 12: mia.vn và VinWonders. Tuổi Trẻ News (12/02/2018) xác nhận năm 1933–1937 và kiến trúc sư nhưng không ghi số nhà; OSM ghi year_of_construction=1937, alt_name 'Dinh 2'. tatinta gọi đây là dinh của vua Bảo Đại — sai lẫn với Dinh 1/Dinh 3, không dùng ý đó. Decoux làm Toàn quyền từ 1940, sau năm dinh xây xong, nên 'dinh của Decoux' là dinh ông dùng, không phải ông cho xây (Tuổi Trẻ News lại viết Decoux ra lệnh xây — hai ý vênh nhau, em không ghi ai cho xây). Toà dinh nằm trong khuôn viên, cách mặt đường khoảng 120 m (đo trên OSM)."
+  },
+  {
+   "ten": "Dalat Cadasa Resort (cụm biệt thự cổ Trần Hưng Đạo)",
+   "loai": "cụm biệt thự Pháp, khu nghỉ dưỡng",
+   "dac_trung": "Cụm biệt thự Pháp hai bên đường Trần Hưng Đạo trên khoảng 6 ha; thời Pháp là chỗ nghỉ của Thống sứ Nam Kỳ, vua Bảo Đại và quan lại, trước 1975 dành cho tướng lĩnh; bỏ hoang sau 1975, Công ty Cadasa trùng tu thành khu nghỉ dưỡng.",
+   "dia_chi": "16 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "16",
+   "nguon": [
+    "https://vietnamfinance.vn/theo-dong-lich-su-dalat-cadasa-resort-thien-duong-phap-giua-long-da-lat-d57284.html",
+    "https://english.vov.vn/en/travel/old-villas-amidst-flowers-242619.vov",
+    "https://mia.vn/cam-nang-du-lich/me-man-ve-dep-co-kinh-cua-dalat-cadasa-resort-5543",
+    "https://www.foody.vn/lam-dong/cadasa-da-lat",
+    "https://baodautu.vn/lam-dong-nho-toa-an-doi-lai-tai-san-cong-d145619.html",
+    "https://baolamdong.vn/danh-thuc-nguon-luc-tu-nhung-biet-thu-cong-da-lat-471832.html",
+    "https://www.openstreetmap.org/way/515193501"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "chưa rõ: Báo Lâm Đồng 29/10/2026 viết nhiều căn trong khu Cadasa 'vắng khách, đìu hiu' và xuống cấp trở lại sau trùng tu; Báo Đầu tư 24/06/2021: tỉnh kiện đòi lại 13 biệt thự cho Cadasa thuê, vụ án kéo dài. Chưa thấy nguồn ghi đã đóng hay đã thu hồi.",
+   "vi_tri": {
+    "lon": 108.454371,
+    "lat": 11.938221,
+    "cach": "tên trên OpenStreetMap: Khu nghỉ dưỡng Biệt thự cổ Đà Lạt Cadasa (ghép tay)",
+    "osm": "way/515193501"
+   },
+   "ghi_chu": "Số căn vênh: VietnamFinance (30/10/2020) và VOV (12/07/2011) ghi 16 biệt thự; Báo Đầu tư và Báo Pháp luật (25/01/2011) ghi 13 biệt thự Cadasa thuê/đầu tư. Em không ghi số căn vào câu giới thiệu. Năm trùng tu: VietnamFinance ghi bắt đầu 2006; VOV ghi hồi sinh năm 2010 nhân Festival Hoa."
+  },
+  {
+   "ten": "Trụ sở UBND tỉnh Lâm Đồng",
+   "loai": "trụ sở tỉnh, mốc quen",
+   "dac_trung": "Trụ sở Ủy ban nhân dân tỉnh Lâm Đồng (tỉnh mới sau hợp nhất 2025) ở số 4; kế bên số 2 là trụ sở Đoàn ĐBQH và HĐND tỉnh. OSM ghi toà số 4 là nhà kiểu Pháp thuộc địa, 2 tầng.",
+   "dia_chi": "4 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "4",
+   "nguon": [
+    "https://chinhphu.vn/thong-tin-tinh-thanh?city=1365",
+    "https://baolamdong.vn/chuan-bi-tru-so-lam-viec-va-cho-o-cho-can-bo-cong-chuc-den-da-lat-lam-viec-tu-ngay-1-7-270634.html",
+    "https://www.openstreetmap.org/way/542486101"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "cơ quan nhà nước đang làm việc, không phải điểm tham quan.",
+   "vi_tri": {
+    "lon": 108.442872,
+    "lat": 11.93596,
+    "cach": "số nhà trên OpenStreetMap: 4 Trần Hưng Đạo",
+    "osm": "way/542486101"
+   },
+   "ghi_chu": "Báo Lâm Đồng 17/06/2025: trụ sở UBND tỉnh (mới) ở số 4, mở rộng thêm một phần số 4A và toà số 8 (trước là Quỹ Bảo vệ và Phát triển rừng); Văn phòng Đoàn ĐBQH và HĐND tỉnh ở số 2. Chưa tìm được nguồn về năm xây toà số 4 → không ghi."
+  },
+  {
+   "ten": "Bánh canh Phan Rang Dung (Dung - Bánh Canh & Chả Cuốn)",
+   "loai": "bánh canh chả cá",
+   "dac_trung": "Bánh canh chả cá kiểu Phan Rang, nhiều chả cá, cá biển; có chả cuốn. Quán nằm ngay dốc.",
+   "dia_chi": "15 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "15",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/dung-banh-canh-cha-cuon",
+    "https://vinwonders.com/vi/wonderpedia/news/banh-canh-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/banh-canh-da-lat-19914",
+    "https://www.openstreetmap.org/node/6165405886"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu: mia.vn (18/01/2026) và VinWonders (16/07/2025) còn giới thiệu; Foody ghi hơn 3 tháng chưa có tương tác. Giờ mở lệch: Foody 9:00–19:30, VinWonders 11:00–18:00, mia 6:00–20:00.",
+   "vi_tri": {
+    "lon": 108.451137,
+    "lat": 11.937936,
+    "cach": "tên trên OpenStreetMap: Bánh canh chả cá Phan Rang (ghép tay)",
+    "osm": "node/6165405886"
+   },
+   "ghi_chu": "OSM ghi tên 'Bánh canh chả cá Phan Rang', số 15. Foody còn một trang 'Bánh Canh Phan Rang - Trần Hưng Đạo' cùng số 15 — nhiều khả năng cùng quán, em chưa chắc."
+  },
+  {
+   "ten": "Sunshine Coffee (Sunshine Tím)",
+   "loai": "cà phê nhìn ra hồ",
+   "dac_trung": "Quán nằm dưới một con dốc nhỏ, nhìn thẳng ra hồ Xuân Hương và đồi thông; trang trí kiểu bohemian, tông tím.",
+   "dia_chi": "9 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "9",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/sunshine-tim-diem-hen-ho-doc-dao-voi-phong-cach-bohemian-1541",
+    "https://www.foody.vn/lam-dong/sunshine-coffee-tran-hung-dao",
+    "https://wanderlog.com/place/details/1324471",
+    "https://www.openstreetmap.org/node/4926652122"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu: Wanderlog (dữ liệu Google) ghi địa chỉ theo phường mới 'Xuân Hương - Đà Lạt', 7:00–22:00; VinWonders 15/07/2025 còn giới thiệu. Một khách trên Wanderlog gặp quán đóng buổi trưa.",
+   "vi_tri": {
+    "lon": 108.449226,
+    "lat": 11.937431,
+    "cach": "tên trên OpenStreetMap: Sunshine cafe (ghép tay)",
+    "osm": "node/4926652122"
+   },
+   "ghi_chu": "mia gọi là 'Sunshine Tím', các trang khác 'Sunshine Coffee' — cùng số 09. OSM ghi 'Sunshine cafe', không có số nhà."
+  },
+  {
+   "ten": "Nhà Lồng Coffee (The Green House)",
+   "loai": "cà phê nhà kính",
+   "dac_trung": "Quán cà phê kiểu nhà kính, nhiều ánh sáng, nhìn xuống thung lũng và phố; buổi tối có đèn dây.",
+   "dia_chi": "6A Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "6A",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/nha-long-coffee-quan-cafe-lung-linh-voi-view-thung-lung-cuc-dep-1528",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+    "https://www.foody.vn/lam-dong/nha-long-coffee",
+    "https://www.openstreetmap.org/node/7101246971"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu: VinWonders 15/07/2025 ghi phường mới; mia.vn (cập nhật 01/07/2026) ghi 7:00–22:00. Foody: hơn 3 tháng chưa có tương tác.",
+   "vi_tri": {
+    "lon": 108.44417,
+    "lat": 11.936458,
+    "cach": "tên trên OpenStreetMap: Nha Long (ghép tay)",
+    "osm": "node/7101246971"
+   },
+   "ghi_chu": "OSM có điểm 'Nha Long' (nhà hàng/bar) ở đầu đường, không ghi số nhà — cần soát tay trước khi gắn vị trí."
+  },
+  {
+   "ten": "Sương Mai (buffet chay)",
+   "loai": "quán chay, buffet",
+   "dac_trung": "Quán chay có buffet rẻ (25.000 đ theo OSM và Wanderlog), nhiều món rau; khách đông giờ trưa.",
+   "dia_chi": "8 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt (OSM ghi 8B)",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "8",
+   "nguon": [
+    "https://www.happycow.net/reviews/suong-mai-da-lat-160210",
+    "https://spinach.guide/venues/suong-mai-190361/",
+    "https://wanderlog.com/place/details/1762469",
+    "https://www.openstreetmap.org/node/5950492626"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: Wanderlog và Spinach ghi địa chỉ theo phường mới, 7:00–19:00; OSM sửa 14/07/2025. HappyCow (cập nhật 2020) ghi buffet 11:00–13:00.",
+   "vi_tri": {
+    "lon": 108.444622,
+    "lat": 11.936185,
+    "cach": "tên trên OpenStreetMap: Súóng Mai (ghép tay)",
+    "osm": "node/5950492626"
+   },
+   "ghi_chu": "Báo Lâm Đồng 17/06/2025 ghi toà số 8 Trần Hưng Đạo (Quỹ Bảo vệ và Phát triển rừng) sẽ giao cho UBND tỉnh — chưa rõ quán (OSM ghi 8B) có cùng khuôn viên không. Spinach ghi một số món có thành phần động vật, ăn chay hẳn cần hỏi."
+  },
+  {
+   "ten": "Hoa Violet Café",
+   "loai": "cà phê trong biệt thự Pháp",
+   "dac_trung": "Quán cà phê trong căn biệt thự đầu dãy biệt thự cổ Trần Hưng Đạo, tường phủ rêu, sân vườn và nội thất kiểu nhà Pháp; nằm trong khuôn viên một khách sạn.",
+   "dia_chi": "14 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "14",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/hoa-violet-cafe",
+    "https://www.openstreetmap.org/way/1302653954"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: bình luận Foody mới nhất 2018, Foody ghi hơn 3 tháng chưa có tương tác; OSM vẽ toà nhà 'Hoa Violet Cafe Restaurant' (sửa 04/08/2024) nhưng không ghi giờ mở.",
+   "vi_tri": {
+    "lon": 108.453736,
+    "lat": 11.938028,
+    "cach": "tên trên OpenStreetMap: Hoa Violet Cafe Restaurant (ghép tay)",
+    "osm": "way/1302653954"
+   },
+   "ghi_chu": "Số 14 chỉ có ở Foody (OSM không ghi số nhà). Toà OSM nằm sát cụm Cadasa; một bình luận Foody nói quán ở trong khuôn viên khách sạn — có thể là một căn của Cadasa, em chưa chắc."
+  },
+  {
+   "ten": "Nhà hàng Đà Lạt Xưa (Villa HQ)",
+   "loai": "nhà hàng món Việt, gà nướng cơm lam",
+   "dac_trung": "Nhà hàng trong biệt thự, không gian hoài cổ; VinWonders giới thiệu gà nướng cơm lam, nhận đặt tiệc gia đình.",
+   "dia_chi": "Villa HQ, 27 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "27",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/nha-hang-da-lat-xua",
+    "https://vinwonders.com/vi/wonderpedia/news/ga-nuong-com-lam-da-lat/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: VinWonders (08/07/2025 và 13/07/2025) còn ghi địa chỉ phường mới, 7:00–22:00; bình luận Foody mới nhất 2019, Foody ghi hơn 3 tháng chưa có tương tác.",
+   "vi_tri": null,
+   "ghi_chu": "2 bài VinWonders (gà nướng cơm lam; ăn gì ở Đà Lạt) tính là 1 nguồn. Bình luận Foody trái chiều (có bài chấm 1.0). Không lẫn với quán 'Xưa Đà Lạt' ở 427 Tô Ngọc Vân."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Gà nướng cơm lam Lửa Hồng",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "2",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/ga-nuong-com-lam-da-lat/"
+   ],
+   "ly_do": "1 nguồn (VinWonders 08/07/2025, 9:30–21:00). Số 2 là trụ sở HĐND tỉnh nên có thể quán ở hẻm 2 — cần kiểm."
+  },
+  {
+   "ten": "Quán nem nướng Bà Hùng (chi nhánh Trần Hưng Đạo)",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "3",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/"
+   ],
+   "ly_do": "1 nguồn (VinWonders 13/07/2025). Kết quả tìm kiếm có dòng trang Airbnb ghi 'Permanently closed' nhưng em mở trang thì lỗi 'không tìm thấy' → không xác nhận được còn hay đóng. Quán Bà Hùng gốc ở 328 Phan Đình Phùng."
+  },
+  {
+   "ten": "Mộc Coffee - Trần Hưng Đạo",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "15A",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/moc-coffee-tran-hung-dao"
+   ],
+   "ly_do": "1 nguồn; bình luận Foody 2018–2019, hơn 3 tháng chưa có tương tác."
+  },
+  {
+   "ten": "Nhà hàng Ming - Trần Hưng Đạo",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "7",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/nha-hang-ming-tran-hung-dao"
+   ],
+   "ly_do": "1 nguồn; bình luận 2018–2019 (villa Pháp, ban công sau thấy hồ)."
+  },
+  {
+   "ten": "Vườn Hạt Dẻ",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1304080965"
+   ],
+   "ly_do": "chỉ OSM (nhà hàng món Việt trong nhà kiểu Pháp, sửa 2025), không số nhà."
+  },
+  {
+   "ten": "Coffee Em và Trịnh",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/12845217201"
+   ],
+   "ly_do": "chỉ OSM (thêm 18/05/2025), không số nhà."
+  },
+  {
+   "ten": "Nhà sáng tác Đà Lạt - Lâm Đồng",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1304080968"
+   ],
+   "ly_do": "chỉ OSM (nhà kiểu Pháp); chưa tìm được bài nào ghi địa chỉ trên Trần Hưng Đạo."
+  },
+  {
+   "ten": "Lang Ko Ho farmstay",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/14088928801"
+   ],
+   "ly_do": "chỉ OSM (sửa 12/08/2026), không số nhà, chưa chắc mở ra đường Trần Hưng Đạo."
+  },
+  {
+   "ten": "Biệt thự số 3 và số 5 Trần Hưng Đạo",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "3, 5",
+   "nguon": [
+    "https://baolamdong.vn/danh-thuc-nguon-luc-tu-nhung-biet-thu-cong-da-lat-471832.html"
+   ],
+   "ly_do": "1 nguồn (Báo Lâm Đồng 29/10/2026: hai biệt thự công đang xuống cấp, chậm tôn tạo). Không phải điểm tham quan."
+  }
+ ],
+ "da_dong": [
+  {
+   "ten": "Brew and Breakfast",
+   "duong": "Trần Hưng Đạo",
+   "so_nha": "2 (trong hẻm)",
+   "nguon": [
+    "https://www.happycow.net/reviews/brew-and-breakfast-da-lat-104422",
+    "https://www.openstreetmap.org/node/5470270058"
+   ],
+   "ly_do": "HappyCow: 'Confirmed closed, Apr 2021'. OSM vẫn còn điểm này (cần sửa OSM)."
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-hung-dao-phuong-3",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-hung-dao-phuong-10",
+  "data/lam-dong/nq1671.json (mục 99)",
+  "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+  "https://baophapluat.vn/kien-truc-co-hon-pho-da-lat-post95106.html",
+  "https://www.sggp.org.vn/nhat-nhoa-di-san-canh-quan-kien-truc-da-lat-post770861.html",
+  "https://baolamdong.vn/danh-thuc-nguon-luc-tu-nhung-biet-thu-cong-da-lat-471832.html",
+  "OpenStreetMap api.openstreetmap.org/api/0.6/map bbox 108.4395,11.9320,108.4600,11.9420 (tải 25/11/2026)"
+ ],
+ "cap_nhat": "2026-11-25"
+}

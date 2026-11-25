@@ -30,6 +30,14 @@ ALIAS = {
     'Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)': 'Nhà thờ Chánh tòa',
     'Tiệm bánh Liên Hoa (Liên Hoa Bakery)': 'Liên Hoa',
     'Nem nướng Bà Hùng': 'Nem Nuong Ba Hung',
+    # Trần Hưng Đạo — soát tay 25/11/2026 (tên OSM, toạ độ sát đúng số nhà)
+    'Dinh 2 (Dinh Toàn quyền, Governor Palace)': 'Dinh Toàn Quyền',
+    'Dalat Cadasa Resort (cụm biệt thự cổ Trần Hưng Đạo)': 'Khu nghỉ dưỡng Biệt thự cổ Đà Lạt Cadasa',
+    'Bánh canh Phan Rang Dung (Dung - Bánh Canh & Chả Cuốn)': 'Bánh canh chả cá Phan Rang',   # OSM ghi 15 Trần Hưng Đạo
+    'Sunshine Coffee (Sunshine Tím)': 'Sunshine cafe',
+    'Nhà Lồng Coffee (The Green House)': 'Nha Long',
+    'Sương Mai (buffet chay)': 'Súóng Mai',                                     # OSM ghi 8B Trần Hưng Đạo
+    'Hoa Violet Café': 'Hoa Violet Cafe Restaurant',
 }
 
 

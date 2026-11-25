@@ -135,6 +135,33 @@ Tóm lại: nên coi đây là **dự án phụ nuôi game và nội dung**, kh�
 
 **Dấu hiệu nên dừng hẳn phần trang web:** sau khi lên mạng 2 đến 3 tháng mà không ai ngoài anh mở, hoặc anh không có thời gian đi kiểm quán.
 
+## Anh Kha chốt hướng (25/11/2026, sau khi đọc đánh giá)
+
+**Hướng mới: bản đồ để hiểu một vùng đất, kết hợp địa lý và lịch sử.** Thay cho hướng "bản đồ quán xá".
+
+- "Phố" là cách gọi chung cho một nơi đáng biết: có thể là con đường, có thể là điểm tham quan du lịch nổi bật.
+- Mỗi nơi một trang ngắn, ba phần: **địa lý** (ở đâu, phường nào, gần hồ, đồi, mốc nào) · **lịch sử** (tên xưa, mốc năm, có nguồn) · **nay có gì** (điểm tham quan, đặc trưng, bán gì ăn gì ở mức cả khu).
+- Không đi sâu giới thiệu từng quán: không bày số nhà, giờ mở, nhận xét quán. Chỉ giữ vài mốc lâu đời của nơi đó (chùa, chợ, nhà ga, quán vài chục năm tuổi).
+- Dữ liệu 220 nơi đã nghiên cứu giữ nguyên trong kho, làm căn cứ viết câu đặc trưng và làm chất liệu cho game.
+
+Đây mới là chốt hướng. Việc sửa trang chờ anh Kha nói "làm" với kế hoạch dưới đây.
+
+### Kế hoạch đề xuất cho phiên xây (chưa làm)
+
+| Bước | Làm gì | Anh thấy gì |
+|---|---|---|
+| 1 | Trang mỗi nơi xếp lại thành 3 phần: địa lý, lịch sử, nay có gì. Danh sách quán rút thành một đoạn "ở đây bán gì" và vài mốc lâu đời. | Mở một phố thấy chuyện của phố lên trước, không còn danh sách quán dài có số nhà. |
+| 2 | Đổi tên các nơi ở trung tâm về tên người ta thật sự gọi (đường Phan Đình Phùng, khu Hoà Bình…), kèm một dòng đặc trưng. | Ghim trên bản đồ ghi tên quen, không còn "Phố Dân Sinh", "Phố Kem Bơ". |
+| 3 | Soát nguồn phần lịch sử của cả 24 nơi; mốc nào chỉ dựa blog thì ghi rõ. | Mỗi mốc năm có nguồn bấm được, chỗ chưa chắc có ghi chú. |
+| 4 | Thêm các điểm tham quan lớn còn thiếu ở trung tâm (hồ Xuân Hương trước). | Thêm ghim mới trên bản đồ Đà Lạt. |
+| 5 | Các việc phải sửa trước khi đưa lên mạng ở mục 6 vẫn giữ (dòng ghi công OpenStreetMap, ảnh nặng). | Góc bản đồ có dòng "© OpenStreetMap", trang mở nhanh hơn. |
+
+Rủi ro: bước 1 và 2 đụng trang đang chạy và dữ liệu game đang dùng chung (tên phố). Cần giữ tên cũ trong dữ liệu để game không hỏng, chỉ đổi tên hiện trên bản đồ.
+
+Làm sau, khi 5 bước trên xong: thêm địa hình (đồi, độ cao, suối, rừng thông); mở tầng lịch sử địa giới ra các tỉnh khác.
+
+Việc không còn cần: anh đi kiểm từng quán (việc 1 ở mục 6) — hướng mới không bày từng quán nên bỏ được.
+
 ## Nguồn
 
 - Giấy phép OpenStreetMap: https://osmfoundation.org/wiki/Licence/Licence_and_Legal_FAQ · https://osmfoundation.org/wiki/Licence/Attribution_Guidelines

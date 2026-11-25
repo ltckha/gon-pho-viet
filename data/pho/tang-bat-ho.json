@@ -237,10 +237,11 @@
    "con_mo": "không rõ: trang danh sách Wanderlog ghi 'Temporarily Closed' (tạm đóng), trang riêng của quán trên Wanderlog vẫn ghi giờ 18h–24h",
    "ghi_chu": "Cùng số 56 với Bánh căn Cây Bơ (sáng bán bánh căn, tối bar?) — chưa có nguồn nói rõ, cần nhìn thực tế.",
    "vi_tri": {
-    "lon": 108.434608,
-    "lat": 11.944274,
-    "cach": "số nhà trên OpenStreetMap: 56 Tăng Bạt Hổ",
-    "osm": "node/7147596490"
+    "lon": 108.434667,
+    "lat": 11.94419,
+    "cach": "ước theo số nhà: đúng số 56 Tăng Bạt Hổ trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 20
    }
   },
   {

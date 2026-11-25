@@ -76,7 +76,12 @@
    "do_tin_cay": "cao",
    "con_mo": "tàu còn chạy: VTC News 31/08/2026 đưa tin tàu du lịch Đà Lạt – Trại Mát va chạm ô tô ở phường Xuân Trường - Đà Lạt (không ai bị thương). Giờ tàu, giá vé hiện tại em chưa đọc được từ nguồn chính thức.",
    "ghi_chu": "OSM có node 'Trại Mát' (railway=station) cách đường Tự Phước khoảng 9 m. Nguồn không ghi số nhà.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.50146,
+    "lat": 11.946116,
+    "cach": "tên trên OpenStreetMap: Trại Mát (ghép tay)",
+    "osm": "node/3377406129"
+   }
   },
   {
    "ten": "Chùa Linh Phước (chùa Ve Chai, chùa Mảnh Chai)",
@@ -96,7 +101,12 @@
    "do_tin_cay": "cao",
    "con_mo": "mở; mia.vn sửa bài 23/07/2026 ghi địa chỉ theo phường mới; Foody ghi 08:00–17:00 (chưa rõ ngày cập nhật).",
    "ghi_chu": "Khuôn viên chùa (OSM way/1048566814) nằm lùi vào trong, cách đường Tự Phước khoảng 180 m, sát đường Lương Định Của; bảng giá đất có 'Hẻm vào chùa Linh Phước' từ Hùng Vương (nay là Tự Phước) tới Lương Định Của. Năm xong lệch: 1952 (Báo Pháp Luật, Wikipedia), 1950 (Kiến Thức, chỉ thấy qua kết quả tìm kiếm). Số kỷ lục lệch: 11 (Báo Pháp Luật 2018) / 16 kỷ lục VN + 1 châu Á + 1 thế giới (VTC 2023).",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.49938,
+    "lat": 11.944216,
+    "cach": "tên trên OpenStreetMap: Chùa Linh Phước (ghép tay)",
+    "osm": "way/1048566814"
+   }
   },
   {
    "ten": "Thánh thất Cao Đài Đa Phước (Thánh thất Cao Đài Đà Lạt)",

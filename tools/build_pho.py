@@ -12,6 +12,7 @@ nên khi lấy từ game KHÔNG lấy tên quán — chỉ lấy loại quán, �
 """
 import glob
 import json
+import math
 import os
 import shutil
 import sys
@@ -80,6 +81,13 @@ def main(game):
         pts = sorted(pt for d in duong['duong'] if d.get('ten') == roads[0] for pt in d['pts'])
         mid = pts[len(pts) // 2]
         places, can_kiem, intro, note = from_research(r)
+        # có quán đã ghim: đặt ghim phố ở điểm trên đường của phố gần tâm các quán nhất
+        # (đường dài như Huỳnh Tấn Phát 6 km thì điểm giữa đường có thể cách khu phố cả mấy km)
+        vt = [d['vi_tri'] for d in places if d.get('vi_tri')]
+        if vt:
+            cx = sum(v['lon'] for v in vt) / len(vt); cy = sum(v['lat'] for v in vt) / len(vt)
+            allp = [pt for d in duong['duong'] if d.get('ten') in roads for pt in d['pts']]
+            mid = min(allp, key=lambda q: math.hypot((q[0] - cx) * 108900, (q[1] - cy) * 110540))
         anh = 'assets/dau_pho/dau_pho_' + slug.replace('-', '_') + '.webp'
         out.append({
             'id': 'pho_' + slug.replace('-', '_'),
@@ -166,6 +174,19 @@ def write(out):
     print(path)
     for o in out:
         print(' ', o['ten_pho'], o['duong'], len(o['dia_diem']), 'nơi chắc,', o['can_kiem_them'], 'nơi cần kiểm thêm')
+    # số phố mỗi phường trên tầng tỉnh (phuong.json): đếm lại từ danh sách phố vừa dựng
+    pp = os.path.join(ROOT, 'data', 'lam-dong', 'phuong.json')
+    pj = json.load(open(pp, encoding='utf-8'))
+    dem = {}
+    for o in out:
+        if o.get('ward'):
+            dem[o['ward']] = dem.get(o['ward'], 0) + 1
+    for w in pj['phuong']:
+        w.pop('so_pho', None)
+        if w['ten'] + ' - Đà Lạt' in dem or w['ten'] in dem:
+            w['so_pho'] = dem.get(w['ten'], dem.get(w['ten'] + ' - Đà Lạt'))
+    json.dump(pj, open(pp, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+    print('phuong.json so_pho:', dem)
 
 
 if __name__ == '__main__':

@@ -95,10 +95,11 @@
    "con_mo": "có dấu hiệu còn mở: Wanderlog ghi phường mới 'Lâm Viên - Đà Lạt', không ghi đóng cửa; Foody báo 'hơn 3 tháng chưa có tương tác'. Giờ mở lệch giữa các trang.",
    "ghi_chu": "OSM có 2 điểm: '198 Nguyễn Công Trứ BBQ & Beer Barn House' (node 7056510985) và 'Barn House' (node 13590795101).",
    "vi_tri": {
-    "lon": 108.435107,
-    "lat": 11.956919,
-    "cach": "số nhà trên OpenStreetMap: 198 Nguyễn Công Trứ",
-    "osm": "node/4601279191"
+    "lon": 108.435267,
+    "lat": 11.956702,
+    "cach": "ước theo số nhà: đúng số 198 Nguyễn Công Trứ trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 20
    }
   },
   {

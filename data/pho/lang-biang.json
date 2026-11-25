@@ -1,0 +1,407 @@
+{
+ "road": "Lang Biang",
+ "duong": [
+  "Lang Biang",
+  "Đường Biđoúp",
+  "Duy Tân",
+  "Ankroet",
+  "Đường Trường Sơn Đông",
+  "Đường tỉnh 726"
+ ],
+ "ten_osm": [
+  "Lang Biang",
+  "Đường Biđoúp",
+  "Duy Tân",
+  "Ankroet",
+  "Đường Trường Sơn Đông",
+  "Đường tỉnh 726"
+ ],
+ "ward": "Lang Biang - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat ghi 'Đường Lang Biang - THỊ TRẤN LẠC DƯƠNG' gồm 2 đoạn: 'Đoạn từ giáp TP.Đà Lạt (thửa 11 tờ 39) - Đến giáp đầu đường Phạm Hùng' và 'Đoạn từ giáp đầu đường Phạm Hùng - Đến giáp cổng khu du lịch Lang Biang'. Theo NQ 1671 mục 103: Phường 7, thị trấn Lạc Dương và xã Lát → phường Lang Biang - Đà Lạt. Các đường phụ: Bi Đóup, Duy Tân thuộc TT Lạc Dương; ĐT 722 (Trường Sơn Đông) và ĐT 726 có đoạn thuộc xã Lát; Ankroet thuộc Phường 7 (trọn đường) — cả ba đơn vị cũ đều nhập vào Lang Biang - Đà Lạt. Kiểm chéo bằng ranh giới phuong.json: cả 164 điểm của 24 đoạn 'Lang Biang' trong duong.json đều nằm trong phường Lang Biang - Đà Lạt; mọi nơi trong danh sách dưới đây cũng vậy (thử bằng điểm OSM). Chú ý: đoạn 'Lang Biang' trên OSM dài khoảng 8,9 km vì gồm cả đường nhựa từ cổng khu du lịch lên đồi Ra Đa; bảng giá đất chỉ tính tới cổng khu du lịch.",
+ "doan": [
+  {
+   "doan": "Giáp Đà Lạt cũ (cầu Phước Thành) – đầu đường Phạm Hùng",
+   "phuong_cu": "thị trấn Lạc Dương",
+   "phuong_moi": "Lang Biang - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-lang-biang-thi-tran-lac-duong"
+  },
+  {
+   "doan": "Đầu đường Phạm Hùng – cổng khu du lịch Lang Biang",
+   "phuong_cu": "thị trấn Lạc Dương",
+   "phuong_moi": "Lang Biang - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-lang-biang-thi-tran-lac-duong"
+  },
+  {
+   "doan": "Cổng khu du lịch – đồi Ra Đa (đường nhựa trong khu du lịch, OSM vẫn ghi 'Lang Biang')",
+   "phuong_cu": "thị trấn Lạc Dương (theo ranh giới phuong.json, không có trong bảng giá đất)",
+   "phuong_moi": "Lang Biang - Đà Lạt",
+   "do_chac": "khá chắc",
+   "nguon": "data/lam-dong/phuong.json"
+  },
+  {
+   "doan": "Đường Biđoúp (Bi Đóup): ngã tư Lang Biang – cầu Đăng Lèn",
+   "phuong_cu": "thị trấn Lạc Dương",
+   "phuong_moi": "Lang Biang - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-bi-doup-thi-tran-lac-duong"
+  },
+  {
+   "doan": "Duy Tân: Hàn Mặc Tử – 14 tháng 3",
+   "phuong_cu": "thị trấn Lạc Dương",
+   "phuong_moi": "Lang Biang - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-duy-tan-thi-tran-lac-duong"
+  },
+  {
+   "doan": "Ankroet (trọn đường)",
+   "phuong_cu": "Phường 7 (Đà Lạt)",
+   "phuong_moi": "Lang Biang - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/ankroet-phuong-7"
+  },
+  {
+   "doan": "ĐT 722 (Đường Trường Sơn Đông): giáp TT Lạc Dương – cầu Suối Cạn – hết xã",
+   "phuong_cu": "xã Lát",
+   "phuong_moi": "Lang Biang - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-dt-722-duong-truong-son-dong-xa-lat"
+  },
+  {
+   "doan": "ĐT 726: giáp Đà Lạt – ngã 5 Đạ Nghịt – giáp Lâm Hà",
+   "phuong_cu": "xã Lát",
+   "phuong_moi": "Lang Biang - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-dt-726-doan-tu-giap-thanh-pho-da-lat-den-giap-huyen-lam-ha-xa-lat"
+  }
+ ],
+ "ten_pho": "Phố Chân Núi",
+ "gioi_thieu": "Phố Chân Núi: đường Lang Biang đi qua thị trấn Lạc Dương cũ tới cổng khu du lịch núi Lang Biang, cách trung tâm Đà Lạt chừng 12 km — đỉnh núi Bà cao 2.167 m, đồi Ra Đa 1.929 m có xe đưa lên; dưới chân núi là các buôn người K'Ho với cồng chiêng, rượu cần và cà phê Arabica.",
+ "gioi_thieu_nguon": {
+  "12 km": [
+   "https://baolamdong.vn/kham-pha-cung-duong-leo-nui-xuyen-rung-dep-nhat-da-lat-428005.html",
+   "https://vi.wikipedia.org/wiki/N%C3%BAi_Lang_Biang"
+  ],
+  "2.167 m, 1.929 m, xe đưa lên Ra Đa": [
+   "https://baolamdong.vn/kham-pha-cung-duong-leo-nui-xuyen-rung-dep-nhat-da-lat-428005.html",
+   "https://vi.wikipedia.org/wiki/N%C3%BAi_Lang_Biang",
+   "https://mia.vn/cam-nang-du-lich/du-lich-lac-duong-da-lat-20629"
+  ],
+  "cồng chiêng, rượu cần": [
+   "https://vov.vn/van-hoa/nghe-nhan-lang-biang-da-lat-ton-vinh-van-hoa-truyen-thong-post1307569.vov",
+   "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/lam-dong-ngan-xa-tieng-cong-chieng-duoi-chan-nui-langbiang-5BEB2E7F.html",
+   "https://baolamdong.vn/dalattourist-hanh-trinh-nua-the-ky-gan-bo-va-phat-trien-cung-da-lat-lam-dong-423389.html",
+   "https://mia.vn/cam-nang-du-lich/du-lich-lac-duong-da-lat-20629"
+  ],
+  "cà phê Arabica": [
+   "https://www.vietnam.travel/vi/things-to-do/tour-coffee-lovers-da-lat",
+   "https://www.lonelyplanet.com/points-of-interest/kho-coffee/1526225",
+   "https://vietnamcoracle.com/19-coffee-shops-in-da-lat-with-a-view"
+  ]
+ },
+ "dia_diem": [
+  {
+   "ten": "Khu du lịch Lang Biang (núi Lang Biang)",
+   "loai": "khu du lịch núi, leo núi",
+   "dac_trung": "'Nóc nhà Đà Lạt': hai đỉnh núi Bà 2.167 m và núi Ông 2.124 m; đường mòn leo đỉnh núi Bà khoảng 12 km cả đi lẫn về do Vườn quốc gia Bidoup - Núi Bà làm năm 2008–2009; mùa khô (tháng 11–4) trung bình hơn 100 lượt khách leo mỗi ngày (theo giám đốc khu du lịch). Dalattourist quản lý, có giao lưu cồng chiêng của người K'Ho; tháng 6/2026 tổ chức Liên hoan văn hoá cồng chiêng và ẩm thực tại đây.",
+   "dia_chi": "cuối đường Lang Biang (cổng khu du lịch), phường Lang Biang - Đà Lạt",
+   "duong": "Lang Biang",
+   "so_nha": "",
+   "nguon": [
+    "https://baolamdong.vn/kham-pha-cung-duong-leo-nui-xuyen-rung-dep-nhat-da-lat-428005.html",
+    "https://baolamdong.vn/dalattourist-hanh-trinh-nua-the-ky-gan-bo-va-phat-trien-cung-da-lat-lam-dong-423389.html",
+    "https://vov.vn/van-hoa/nghe-nhan-lang-biang-da-lat-ton-vinh-van-hoa-truyen-thong-post1307569.vov",
+    "https://vi.wikipedia.org/wiki/N%C3%BAi_Lang_Biang",
+    "https://tuoitre.vn/giai-chay-bang-rung-lang-biang-mang-den-da-lat-hon-12-000-khach-giua-mua-vang-20260328094913538.htm",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-lang-biang-thi-tran-lac-duong"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở; Báo Lâm Đồng 06/03/2026 và VOV 18/06/2026 viết về khu du lịch đang đón khách. Giá vé, giờ mở các trang ghi lệch nhau (30.000–50.000 đồng) → chưa ghi.",
+   "vi_tri": null,
+   "ghi_chu": "Bảng giá đất lấy 'cổng khu du lịch Lang Biang' làm điểm cuối đường Lang Biang. OSM có điểm bán vé ('Ticket 50k', node 5514520623) sát đường Lang Biang (12.0193, 108.4245). Hai bài Báo Lâm Đồng tính là 1 trang."
+  },
+  {
+   "ten": "Đồi Ra Đa (đỉnh Radar)",
+   "loai": "điểm ngắm cảnh",
+   "dac_trung": "Đỉnh phía tây, cao 1.929 m; khách vào khu du lịch thường được chở lên bằng ô tô (xe jeep) theo đường nhựa để nhìn xuống Đà Lạt và hồ Đankia.",
+   "dia_chi": "trong khu du lịch Lang Biang, cuối đoạn đường nhựa 'Lang Biang' trên OSM",
+   "duong": "Lang Biang",
+   "so_nha": "",
+   "nguon": [
+    "https://baolamdong.vn/kham-pha-cung-duong-leo-nui-xuyen-rung-dep-nhat-da-lat-428005.html",
+    "https://vi.wikipedia.org/wiki/N%C3%BAi_Lang_Biang",
+    "https://mia.vn/cam-nang-du-lich/du-lich-lac-duong-da-lat-20629",
+    "https://www.openstreetmap.org/node/2090212777"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở theo khu du lịch (Báo Lâm Đồng 03/2026).",
+   "vi_tri": {
+    "lon": 108.413789,
+    "lat": 12.032558,
+    "cach": "tên trên OpenStreetMap: Đồi Radar (ghép tay)",
+    "osm": "node/2090212777"
+   },
+   "ghi_chu": "OSM: node 2090212777 'Đồi Radar', ele=1929, cách đường 'Lang Biang' khoảng 70 m."
+  },
+  {
+   "ten": "Làng Cù Lần",
+   "loai": "làng du lịch sinh thái kiểu nhà K'Ho",
+   "dac_trung": "Khoảng 30 ha giữa rừng thông dưới chân núi Lang Biang: nhà sàn gỗ cho khách ngủ lại, lửa trại, cồng chiêng, rượu cần, đi xe jeep. Bản Cù Lần là một trong ba bản của xã Lát; theo Nhân Dân, lúc đầu bản tên Suối Cạn vì suối P'Lah cạn vào mùa khô.",
+   "dia_chi": "ĐT 722 (Đường Trường Sơn Đông), thôn Suối Cạn, xã Lát cũ — nay phường Lang Biang - Đà Lạt",
+   "duong": "Đường Trường Sơn Đông",
+   "so_nha": "",
+   "nguon": [
+    "https://nhandan.vn/duoi-chan-nui-lang-biang-post355206.html",
+    "https://mia.vn/cam-nang-du-lich/lang-cu-lan-da-lat-16228",
+    "https://mia.vn/cam-nang-du-lich/du-lich-lac-duong-da-lat-20629",
+    "https://www.foody.vn/lam-dong/khu-du-lich-sinh-thai-lang-cu-lan",
+    "https://vtcnews.vn/ten-goi-lang-cu-lan-co-nghia-gi-ar1044221.html",
+    "https://www.openstreetmap.org/way/1509937793"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu; mia.vn 24/07/2026 ghi giờ mở 7:30–17:00, vé 100.000 đồng (giá tham khảo); VTC News 12/10/2026 viết như điểm đang đón khách.",
+   "vi_tri": {
+    "lon": 108.363761,
+    "lat": 12.025974,
+    "cach": "tên trên OpenStreetMap: Làng Cù Lần",
+    "osm": "node/6152535085"
+   },
+   "ghi_chu": "OSM 'Làng Cu Lần' (way 1509937793) cách Đường Trường Sơn Đông khoảng 150 m. Khoảng cách tới Đà Lạt mia ghi lệch (25 km / 30 km) → không dùng. Diện tích 30 ha chỉ từ mia (và bản tóm tắt tìm kiếm dẫn VOH) → chưa đưa vào câu giới thiệu."
+  },
+  {
+   "ten": "Nhà máy thủy điện Ankroet",
+   "loai": "di tích công nghiệp, thủy điện còn chạy",
+   "dac_trung": "Thủy điện đầu tiên của Việt Nam và Đông Dương: khởi công tháng 10/1942, khánh thành 1945, phát điện 1946; ban đầu 600 kW (2 tổ máy), năm 2004 nâng lên 4.400 kW. Nhà máy xây bằng đá, đập tràn đá chẻ dài 97 m tạo hồ Suối Vàng; nằm cạnh thác Ankroet.",
+   "dia_chi": "thung lũng Đankia – Suối Vàng, xã Lát cũ (Wikipedia: thôn Đan Kia), phường Lang Biang - Đà Lạt",
+   "duong": "Đường tỉnh 726",
+   "so_nha": "",
+   "nguon": [
+    "https://news.tuoitre.vn/a-visit-to-indochinas-first-hydroelectric-plant-near-vietnams-da-lat-10338454.htm",
+    "https://tapchicongthuong.vn/kham-pha-thuy-dien-co-nhat-viet-nam-110870.htm",
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_m%C3%A1y_th%E1%BB%A7y_%C4%91i%E1%BB%87n_Ankroet",
+    "https://www.openstreetmap.org/way/542458425"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "nhà máy còn phát điện (Tạp chí Công Thương 17/09/2023 ghi công suất hiện tại 4.400 kW); vào thăm có cần xin phép không thì chưa rõ.",
+   "vi_tri": null,
+   "ghi_chu": "Không có số nhà. Nominatim (OSM) ghi nhà máy thuộc 'Đường tỉnh 726'; trên duong.json điểm nhà máy cách Đường tỉnh 726 khoảng 700 m, cách Đường Trường Sơn Đông khoảng 1 km. Năm 1960 hay 1962 nâng lên 3.100 kW: hai nguồn lệch."
+  },
+  {
+   "ten": "Hồ Đankia – Suối Vàng",
+   "loai": "hồ, cảnh quan",
+   "dac_trung": "Cụm hai hồ do hai đập trên dòng Đa Dâng tạo nên từ thời làm thủy điện Ankroet (mia ghi từ năm 1942); đập Ankroet dài 97 m, hồ chứa khoảng 1 triệu m³. Từ đồi Ra Đa nhìn xuống thấy hồ Đankia.",
+   "dia_chi": "thung lũng Đankia – Suối Vàng, phường Lang Biang - Đà Lạt",
+   "duong": "Đường Trường Sơn Đông",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/du-lich-lac-duong-da-lat-20629",
+    "https://tapchicongthuong.vn/kham-pha-thuy-dien-co-nhat-viet-nam-110870.htm",
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_m%C3%A1y_th%E1%BB%A7y_%C4%91i%E1%BB%87n_Ankroet",
+    "https://www.openstreetmap.org/way/64737684",
+    "https://www.openstreetmap.org/way/141724809"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "hồ ngoài trời; một phần bờ hồ nằm trong khu du lịch Thung Lũng Vàng (có vé).",
+   "vi_tri": {
+    "lon": 108.370476,
+    "lat": 12.000589,
+    "cach": "tên trên OpenStreetMap: Hồ Suối Vàng (ghép tay)",
+    "osm": "way/141724809"
+   },
+   "ghi_chu": "OSM có 'Hồ Đan Kia' (way 64737684) và 'Hồ Suối Vàng' (way 141724809); đập Ankroet (way 1153393257) cách Đường Trường Sơn Đông khoảng 75 m."
+  },
+  {
+   "ten": "Khu du lịch Thung Lũng Vàng",
+   "loai": "khu du lịch rừng thông, cắm trại",
+   "dac_trung": "Rừng thông bên hồ Đankia – Suối Vàng, đồi cỏ hồng (khoảng tháng 11–12), cây thông cô đơn, vườn hoa, cắm trại; đưa vào khai thác ngày 9/2/2005 (theo mia).",
+   "dia_chi": "đường Ankroet, phường Lang Biang - Đà Lạt (theo mia.vn)",
+   "duong": "Ankroet",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/thung-lung-vang-thung-lung-day-tho-mong-tai-cao-nguyen-lam-vien-1315",
+    "https://vinwonders.com/vi/wonderpedia/news/thung-lung-vang-da-lat/",
+    "https://www.openstreetmap.org/node/4293297115"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu; mia.vn 25/02/2026 ghi vé người lớn 70.000 đồng, mở 7:00–18:00 (VinWonders 16/07/2025 ghi giống).",
+   "vi_tri": null,
+   "ghi_chu": "Đường: chỉ mia ghi 'đường Ankroet'. Điểm OSM 'Thung Lũng Vàng' (tourism=artwork, node 4293297115) cách đường Ankroet khoảng 1,7 km, cách Đường Trường Sơn Đông khoảng 700 m → cần soát tay cổng vào trước khi gắn vị trí. Diện tích mia ghi lệch (23 ha / 174 ha) → không dùng."
+  },
+  {
+   "ten": "Langbiang Land",
+   "loai": "khu vui chơi, văn hoá K'Ho",
+   "dac_trung": "Mở dịp Tết Ất Tỵ 2025 dưới chân núi Lang Biang: quảng trường cồng chiêng giữa các nhà dài K'Ho, làng nghề (dệt thổ cẩm, rượu cần, đan lát), công viên khủng long, vườn thú nhỏ, Go-Kart, vườn dâu tây; Thanh Niên ghi rộng khoảng 5 ha. Báo Lâm Đồng 20/03/2025 ghi khoảng 30 ngàn lượt khách đã tới (tính tới ngày đăng bài).",
+   "dia_chi": "93A đường Bidoup (Biđoúp), thị trấn Lạc Dương cũ — nay phường Lang Biang - Đà Lạt",
+   "duong": "Đường Biđoúp",
+   "so_nha": "93A",
+   "nguon": [
+    "https://baolamdong.vn/langbiang-land-noi-thien-nhien-hoa-cung-van-hoa-ban-dia-281535.html",
+    "https://thanhnien.vn/langbiang-land-ban-hoa-ca-giua-dai-ngan-da-lat-185260617174110467.htm",
+    "https://mia.vn/cam-nang-du-lich/langbiang-land-da-lat-review-19858"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu; Thanh Niên 18/06/2026 viết như điểm đang mở; mia.vn 02/01/2026 ghi mở 7:00–22:00.",
+   "vi_tri": null,
+   "ghi_chu": "Số nhà 93A chỉ có ở mia.vn (Báo Lâm Đồng, Thanh Niên không ghi số nhà). Bài Thanh Niên giọng quảng bá. Con số 30 ngàn lượt khách là của Báo Lâm Đồng 20/03/2025, không phải số cả năm. OSM có 'Làng Đồng trụ LangBiang' (theme_park) trên Đường Biđoúp — chưa rõ có phải cùng nơi không, không ghép."
+  },
+  {
+   "ten": "K'Ho Coffee",
+   "loai": "cà phê Arabica, hợp tác xã người K'Ho",
+   "dac_trung": "Hợp tác xã do chị Rolan Co Liêng lập năm 2012, khoảng 50 gia đình K'Ho trồng, rang Arabica trên sườn núi Lang Biang; có bán thổ cẩm do phụ nữ K'Ho dệt. Theo Vietnam Tourism, ông Brai Co Liêng trồng Arabica từ hạt cây cà phê của người Pháp khoảng những năm 1940.",
+   "dia_chi": "buôn B'Nơr C (Bonneur C), thị trấn Lạc Dương cũ — nay phường Lang Biang - Đà Lạt; không nguồn nào ghi tên đường, số nhà",
+   "duong": "Duy Tân",
+   "so_nha": "",
+   "nguon": [
+    "https://www.vietnam.travel/vi/things-to-do/tour-coffee-lovers-da-lat",
+    "https://www.lonelyplanet.com/points-of-interest/kho-coffee/1526225",
+    "https://vietnamcoracle.com/19-coffee-shops-in-da-lat-with-a-view",
+    "https://www.openstreetmap.org/node/4798005122"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ; Lonely Planet dặn gọi trước để ghé xem vườn, mua cà phê. Nguồn mới nhất có ngày là Vietnam Coracle (đăng 02/2022).",
+   "vi_tri": {
+    "lon": 108.413061,
+    "lat": 12.00999,
+    "cach": "tên trên OpenStreetMap: K'ho Coffee",
+    "osm": "node/4798005122"
+   },
+   "ghi_chu": "Đường 'Duy Tân' là em đặt theo điểm OSM (node 4798005122, ngã ba Duy Tân – Hàn Mặc Tử, cách cả hai đường khoảng 40 m), không phải địa chỉ quán ghi. Lonely Planet ghi gia đình Rolan giữ vườn 'từ thập niên 1860' — lệch với mốc 1940s của Vietnam Tourism → không dùng mốc năm vườn."
+  },
+  {
+   "ten": "Quán ăn Liên Mút",
+   "loai": "quán ăn Tây Nguyên (đặt trước)",
+   "dac_trung": "Quán gia đình trong khu du lịch Lang Biang (Thung lũng Trăm Năm), ngồi bệt bàn thấp; chủ quán chọn món: thịt nướng, gà, xôi nếp cẩm, cơm lam, chuối nướng. Phải đặt trước.",
+   "dia_chi": "Thung lũng Trăm Năm, trong khu du lịch Lang Biang, phường Lang Biang - Đà Lạt",
+   "duong": "Lang Biang",
+   "so_nha": "",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/lien-mut-quan-am-thuc-tay-nguyen",
+    "https://wanderlog.com/place/details/5357521"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ; Wanderlog (dữ liệu Google) ghi mở 11:00–20:00 hằng ngày, không có ghi chú đóng cửa (xem 25/11/2026); Foody có bình luận cũ.",
+   "vi_tri": null,
+   "ghi_chu": "Giá mỗi người các bình luận ghi lệch (140.000 / 170.000 đồng) → không ghi."
+  },
+  {
+   "ten": "Gà nướng cơm lam Khương Duy",
+   "loai": "quán gà nướng, cơm lam",
+   "dac_trung": "Quán gà nướng cơm lam ở ngã ba Măng Line, đường Ankroet.",
+   "dia_chi": "ngã ba Măng Line, đường Ankroet, phường Lang Biang - Đà Lạt",
+   "duong": "Ankroet",
+   "so_nha": "",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/ga-nuong-com-lam-da-lat/",
+    "https://toplist.vn/top-list/quan-com-lam-ngon-va-chat-luong-nhat-tai-lam-dong-33101.htm"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu (VinWonders 08/07/2025 ghi mở 8:00–22:00; Toplist ghi 8:00–22:30).",
+   "vi_tri": null,
+   "ghi_chu": "Hai trang còn ghi 'QL 722' / 'Quốc lộ 722' trong địa chỉ (722 là đường tỉnh, không phải quốc lộ) — chưa rõ quán nằm ở đầu nào của ngã ba; em theo VinWonders ghi đường Ankroet. Không có số nhà."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Chợ Lạc Dương",
+   "duong": "Chợ Lạc Dương",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13114217050"
+   ],
+   "ly_do": "chỉ có trên OSM (marketplace, cạnh đường mang tên 'Chợ Lạc Dương' gần Đường Biđoúp); chưa tìm được bài báo/trang nào tả chợ."
+  },
+  {
+   "ten": "Nhà thờ Lang Biang (Giáo xứ Đức Mẹ Trái Tim Chúa Giêsu)",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://gcatholic.org/churches/asia-east/149643.htm"
+   ],
+   "ly_do": "1 nguồn (GCatholic, không có địa chỉ đường). Gợi ý 'nhà thờ Con Gà Lạc Dương': em không tìm thấy nơi nào mang tên này — 'Nhà thờ Con Gà' là Nhà thờ Chính toà ở đường Trần Phú (Đà Lạt)."
+  },
+  {
+   "ten": "Nhà thờ Tin Lành B'Nơr C",
+   "duong": "Duy Tân",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/6267254693"
+   ],
+   "ly_do": "chỉ OSM. Bảng giá đất đường Duy Tân lấy 'thửa đất số 423 (nhà thờ)' ở đầu giáp Hàn Mặc Tử làm mốc — có thể là nhà thờ này nhưng không ghi tên."
+  },
+  {
+   "ten": "Làng Đồng trụ LangBiang",
+   "duong": "Đường Biđoúp",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13114679227"
+   ],
+   "ly_do": "chỉ OSM (tourism=theme_park); chưa rõ có phải tên khác của Langbiang Land."
+  },
+  {
+   "ten": "Hoàng Hạc Quán (ẩm thực Tây Nguyên)",
+   "duong": "Ankroet",
+   "so_nha": "",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/hoang-hac-quan",
+    "https://toplist.vn/top-list/quan-com-lam-ngon-va-chat-luong-nhat-tai-lam-dong-33101.htm"
+   ],
+   "ly_do": "đủ 2 trang nhưng không có nguồn sau 2020 → chưa rõ còn mở; địa chỉ 'Đập Suối Vàng, Ankroet' — đập nằm sát Đường Trường Sơn Đông, cách đường Ankroet khoảng 750 m."
+  },
+  {
+   "ten": "Bon Langbiang Village",
+   "duong": "Lang Biang",
+   "so_nha": "",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/ga-nuong-com-lam-da-lat/",
+    "https://toplist.vn/top-list/quan-com-lam-ngon-va-chat-luong-nhat-tai-lam-dong-33101.htm"
+   ],
+   "ly_do": "2 trang nhưng chỉ ghi 'chân núi Lang Biang', không rõ là quán hay khu văn hoá, không địa chỉ."
+  },
+  {
+   "ten": "Cơm Lam Gà nướng Tuyết Hoa",
+   "duong": "Ankroet",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/7234583385"
+   ],
+   "ly_do": "OSM và một bản tóm tắt tìm kiếm ('Tuyết Hòa, đường Ankroet') — em chưa mở được trang gốc thứ hai."
+  },
+  {
+   "ten": "Twin Beans Farm",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://vietnamcoracle.com/19-coffee-shops-in-da-lat-with-a-view"
+   ],
+   "ly_do": "1 nguồn, chỉ ghi 'dưới bóng núi Lang Biang, 20 km phía bắc Đà Lạt', không địa chỉ, bài 2022."
+  },
+  {
+   "ten": "Khu du lịch Quỷ Núi",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://vietnamnet.vn/them-mot-diem-den-hap-dan-cho-du-lich-da-lat-654724.html",
+    "https://mia.vn/cam-nang-du-lich/khu-du-lich-quy-nui-luong-sinh-khi-moi-cua-vung-dat-mong-mo-1428"
+   ],
+   "ly_do": "hai nguồn ghi lệch nơi (Vietnamnet: Đạ Nghịt, xã Lát; mia: Suối Cạn, xã Lát); mở 06/07/2020, chưa thấy nguồn 2025–2026 → chưa rõ còn mở."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-lang-biang-thi-tran-lac-duong",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-bi-doup-thi-tran-lac-duong",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-duy-tan-thi-tran-lac-duong",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/ankroet-phuong-7",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-dt-722-duong-truong-son-dong-xa-lat",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-dt-726-doan-tu-giap-thanh-pho-da-lat-den-giap-huyen-lam-ha-xa-lat",
+  "data/lam-dong/nq1671.json (mục 103: Phường 7, thị trấn Lạc Dương và xã Lát → phường Lang Biang - Đà Lạt)",
+  "data/lam-dong/phuong.json (ranh giới phường Lang Biang - Đà Lạt, 322,66 km²)",
+  "data/lam-dong/da-lat/duong.json (24 đoạn 'Lang Biang', khoảng 8,9 km theo OSM, kể cả đường nhựa lên đồi Ra Đa)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.405,12.000,108.445,12.050 và bbox=108.355,11.985,108.40,12.035 (tải 25/11/2026)",
+  "https://nominatim.openstreetmap.org (tra tên Cù Lần, Ankroet, Thung Lũng Vàng, 25/11/2026)",
+  "https://vi.wikipedia.org/wiki/Lang_Biang_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t"
+ ],
+ "cap_nhat": "2026-11-25"
+}

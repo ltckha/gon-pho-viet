@@ -109,7 +109,12 @@
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: mia 23/07/2026 (7:30–17:00, vé 90.000 đồng), Travelbinger 20/08/2026; OSM ghi Mo-Su 07:30-17:00.",
    "ghi_chu": "Số nhà 81D được ghi theo tên Hoàng Văn Thụ (mia, Foody, VinWonders). Điểm OSM 'Làng Cổ Tích' cách đường Vạn Thành khoảng 20 m → em ghi duong = Vạn Thành, để trống số nhà vì không có nguồn nào ghi '81D Vạn Thành'. Số nhà hobbit: VietNamNet 2022 ghi 18; Travelbinger ghi 'hàng chục' → không dùng số.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.402978,
+    "lat": 11.948535,
+    "cach": "tên trên OpenStreetMap: Làng Cổ Tích (ghép tay)",
+    "osm": "node/13072770501"
+   }
   },
   {
    "ten": "Thác Cam Ly",
@@ -174,7 +179,12 @@
    "do_tin_cay": "cao",
    "con_mo": "không còn bay thương mại (Wikipedia); đường băng là đường đi của dân, không phải điểm tham quan có cổng vé.",
    "ghi_chu": "Năm xây lệch: Kiến Thức 2023 ghi 'khoảng cuối thập niên 1960'; Wikipedia chỉ ghi 'thời chiến tranh Việt Nam' → không ghi năm. Hai đoạn OSM 'Phi trường Cam Ly' dài khoảng 1,3 km (đo trên duong.json), song song nhau như hai mép đường băng.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.411572,
+    "lat": 11.950968,
+    "cach": "tên trên OpenStreetMap: Phi trường Cam Ly (ghép tay)",
+    "osm": "way/103362834"
+   }
   },
   {
    "ten": "Vạn Thành Hill",

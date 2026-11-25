@@ -24,6 +24,13 @@ STOP = {'quan', 'tiem', 'cafe', 'ca', 'phe', 'coffee', 'cf', 'nha', 'da', 'lat',
 
 # Tên trên OSM viết khác tên quán — em (Claude) đã soát tay từng cặp ngày 25/11/2026; vẫn phải sát đúng đường ≤ 80 m.
 ALIAS = {
+    'Đồi Ra Đa (đỉnh Radar)': 'Đồi Radar',                              # node natural=peak 2090212777
+    'Hồ Đankia – Suối Vàng': 'Hồ Suối Vàng',
+    'Ga Trại Mát': 'Trại Mát',                                          # node railway=station 3377406129
+    'Chùa Linh Phước (chùa Ve Chai, chùa Mảnh Chai)': 'Chùa Linh Phước',
+    'Hồ Thái Phiên (đập Thái Phiên)': 'Hồ Thái Phiên',
+    'Làng Cổ Tích (Dalat Fairytale Land)': 'Làng Cổ Tích',
+    'Sân bay Cam Ly (đường băng cũ)': 'Phi trường Cam Ly',
     'Nari - Chè Kem Bơ': 'Kem Nari',                                   # OSM ghi 74c Nguyễn Văn Trỗi
     'Dalat Palace Heritage Hotel': 'Dalat Palace Hotel',
     'Du Parc Hotel Dalat': 'Du Parc',
@@ -199,6 +206,12 @@ def main(osm_dir):
     for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'pho', '*.json'))):
         pho = json.load(open(f, encoding='utf-8'))
         found = 0
+        taken = {}   # điểm OSM mang đúng tên một nơi trong phố → tên nơi đó
+        for oid, t, pt in feats:
+            if t.get('name'):
+                for q in pho.get('dia_diem', []):
+                    if same_name(q['ten'], t['name']) or (q['ten'] in ALIAS and same_name(ALIAS[q['ten']], t['name'])):
+                        taken[oid] = q['ten']
         for p in pho.get('dia_diem', []):
             road = p.get('duong') or pho.get('road')
             p['vi_tri'] = None
@@ -209,12 +222,15 @@ def main(osm_dir):
                 if name and (same_name(p['ten'], name) or (p['ten'] in ALIAS and same_name(ALIAS[p['ten']], name))):
                     d = near_road(pt, road)
                     # nơi rộng (chùa, thác, khu du lịch, hồ, trường…) nằm sâu trong khuôn viên: cho xa đường tới 600 m, vẫn phải đúng tên
-                    rong = re.search(r'(?i)thiền viện|chùa|thác|khu du lịch|hồ |cáp treo|trường|đồi|thung lũng|dinh|nhà thờ|làng|vườn|công viên|ga ', p['ten'] + ' ' + p.get('loai', ''))
-                    if d <= (600 if rong else 80):
+                    rong = re.search(r'(?i)thiền viện|chùa|thác|khu du lịch|hồ |cáp treo|trường|đồi|thung lũng|dinh|nhà thờ|làng|vườn|công viên|nhà máy|núi|đỉnh|ga ', p['ten'] + ' ' + p.get('loai', ''))
+                    if d <= (2000 if p['ten'] in ALIAS else 600 if rong else 80):   # ghép tay đã soát: nơi rất rộng (hồ, đồi) tới 2 km
                         how = 'tên trên OpenStreetMap: ' + name + (' (ghép tay)' if p['ten'] in ALIAS else '')
                         cands.append((d, oid, pt, how))
             if not cands and p.get('so_nha'):
                 for oid, t, pt in feats:
+                    # điểm mang đúng tên một nơi khác trong cùng phố (vd La Viet Coffee ghi số 198) thì không lấy cho quán này
+                    if taken.get(oid, p['ten']) != p['ten']:
+                        continue
                     if t.get('addr:housenumber', '').upper() == str(p['so_nha']).upper() and words(t.get('addr:street', '')) == words(road):
                         cands.append((near_road(pt, road), oid, pt, 'số nhà trên OpenStreetMap: ' + t['addr:housenumber'] + ' ' + t['addr:street']))
             if cands:

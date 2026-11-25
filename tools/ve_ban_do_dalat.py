@@ -38,9 +38,12 @@ def main(game):
     duong = json.load(open(os.path.join(ROOT, 'data', 'lam-dong', 'da-lat', 'duong.json'), encoding='utf-8'))
     pho = json.load(open(os.path.join(ROOT, 'data', 'lam-dong', 'da-lat', 'pho.json'), encoding='utf-8'))
     cho = (108.43721, 11.94342)
-    khu = []
-    for p in sorted(pho['pho'], key=lambda p: math.hypot((p['lon'] - cho[0]) * 108900, (p['lat'] - cho[1]) * 110540)):
-        for k in khu:
+    def m(p, q):
+        return math.hypot((p[0] - q[0]) * 108900, (p[1] - q[1]) * 110540)
+    # khu trung tâm: phố có ghim cách Chợ Đà Lạt dưới 2,5 km (giữ tấm trung tâm vừa nhẹ cho điện thoại)
+    khu = [[p for p in pho['pho'] if m((p['lon'], p['lat']), cho) < 2500]]
+    for p in sorted([p for p in pho['pho'] if m((p['lon'], p['lat']), cho) >= 2500], key=lambda p: math.hypot((p['lon'] - cho[0]) * 108900, (p['lat'] - cho[1]) * 110540)):
+        for k in khu[1:]:
             if any(math.hypot((p['lon'] - q['lon']) * 108900, (p['lat'] - q['lat']) * 110540) < 2500 for q in k):
                 k.append(p)
                 break

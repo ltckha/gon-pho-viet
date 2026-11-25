@@ -200,7 +200,13 @@ def main(src):
 
 # ---------- tầng Lâm Đồng ----------
 DA_LAT = ['Xuân Hương - Đà Lạt', 'Cam Ly - Đà Lạt', 'Lâm Viên - Đà Lạt', 'Xuân Trường - Đà Lạt', 'Lang Biang - Đà Lạt']
-CO_PHO = {'Xuân Hương - Đà Lạt': 13, 'Cam Ly - Đà Lạt': 2, 'Lâm Viên - Đà Lạt': 1}   # số phố đã nghiên cứu (đếm theo data/lam-dong/da-lat/pho.json)
+# số phố đã nghiên cứu mỗi phường: đếm thẳng từ data/lam-dong/da-lat/pho.json (build_pho.py cũng tự cập nhật phuong.json)
+_PHO = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'lam-dong', 'da-lat', 'pho.json')
+CO_PHO = {}
+if os.path.exists(_PHO):
+    for _p in json.load(open(_PHO, encoding='utf-8'))['pho']:
+        if _p.get('ward'):
+            CO_PHO[_p['ward']] = CO_PHO.get(_p['ward'], 0) + 1
 
 
 def norm(s):

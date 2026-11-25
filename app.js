@@ -502,14 +502,27 @@
     return null;
   }
 
+  // Các đoạn đường của phố: đúng tên và có điểm cách ghim phố / quán dưới 2,2 km
+  // (OSM có đoạn trùng tên ở chỗ khác, ví dụ một đoạn "Mai Anh Đào" ngắn ở Xuân Hương)
+  function roadsOf(ph) {
+    var an = [[ph.lon, ph.lat]];
+    (ph.dia_diem || []).forEach(function (d) { if (d.vi_tri) an.push([d.vi_tri.lon, d.vi_tri.lat]); });
+    return data.duong.filter(function (r) {
+      if (!r.ten || ph.duong.indexOf(r.ten) < 0) return false;
+      if (ph.lon == null) return true;
+      return r.pts.some(function (q) {
+        return an.some(function (a) { return Math.hypot((q[0] - a[0]) * 108900, (q[1] - a[1]) * 110540) < 2200; });
+      });
+    });
+  }
+
   // Tô sáng các đường của phố; trả về khung bao để phóng tới
-  function highlight(names) {
+  function highlight(ph) {
     var old = document.getElementById('hl');
     if (old) old.remove();
     var g = el('g', { id: 'hl', 'class': 'hl' });
     var b = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
-    data.duong.forEach(function (r) {
-      if (!r.ten || names.indexOf(r.ten) < 0) return;
+    roadsOf(ph).forEach(function (r) {
       g.appendChild(el('path', { d: lineOf(r.pts) }));
       r.pts.forEach(function (q) {
         var x = px(q[0]), y = py(q[1]);
@@ -569,7 +582,7 @@
   }
 
   function showPho(ph) {
-    phoBox = highlight(ph.duong);
+    phoBox = highlight(ph);
     var h = (ph.anh ? '<img class="banner" src="' + esc(ph.anh) + '" alt="Tranh đầu ' + esc(ph.ten_pho) + '">'
                     : '<div class="banner none">Tranh đầu phố: đang chờ vẽ</div>') +
       '<h2>' + esc(ph.ten_pho) + '</h2>' +
@@ -594,12 +607,12 @@
     renderSoDo(ph);
     Array.prototype.forEach.call(sheetBody.querySelectorAll('[data-place]'), function (btn) {
       btn.addEventListener('click', function () {
-        goPlace(ph.dia_diem[Number(btn.getAttribute('data-place'))]);
+        goPlace(ph.dia_diem[Number(btn.getAttribute('data-place'))], ph);
       });
     });
   }
 
-  function goPlace(d) {
+  function goPlace(d, ph) {
     {
       {
         closeSheet();
@@ -608,7 +621,7 @@
           var x = px(d.vi_tri.lon), y = py(d.vi_tri.lat), m = 0.0012 * K;   // khung ~130 m quanh quán
           zoomTo({ minX: x - m, maxX: x + m, minY: y - m, maxY: y + m });
         } else {
-          zoomTo(highlight([d.duong]));
+          zoomTo(highlight({ duong: [d.duong], lon: ph.lon, lat: ph.lat, dia_diem: ph.dia_diem }));
         }
       }
     }
@@ -625,10 +638,11 @@
       var bd = all.vung.filter(function (v) { return v.pho.indexOf(ph.slug) >= 0; })[0] || all.vung[0];   // tấm bản đồ của khu chứa phố
       if (!document.getElementById('soDo')) return;
       function B(lon, lat) { return [(lon - bd.lon0) * bd.kx * bd.M * bd.px_per_m, (bd.lat1 - lat) * bd.M * bd.px_per_m]; }
-      var lines = data.duong.filter(function (r) { return r.ten && ph.duong.indexOf(r.ten) >= 0; })
+      var lines = roadsOf(ph)
         .map(function (r) { return r.pts.map(function (q) { return B(q[0], q[1]); }); });
       var xs = [], ys = [];
-      lines.forEach(function (l) { l.forEach(function (p) { xs.push(p[0]); ys.push(p[1]); }); });
+      // chỉ tính khung theo phần đường nằm trong tấm tranh (đường dài như quốc lộ chạy ra ngoài tranh)
+      lines.forEach(function (l) { l.forEach(function (p) { if (p[0] >= 0 && p[0] <= bd.w && p[1] >= 0 && p[1] <= bd.h) { xs.push(p[0]); ys.push(p[1]); } }); });
       var x0 = Math.min.apply(null, xs), x1 = Math.max.apply(null, xs), y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys);
       var cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
       // mốc quen gần nhất (để luôn thấy ít nhất 1 mốc trong khung) và khoảng cách tới Chợ Đà Lạt
@@ -642,6 +656,8 @@
       // khung đủ rộng để thấy cả xóm xung quanh (≥ 1,3 km ngang), không quá cao so với bề ngang
       var pad = 80, w = Math.max(x1 - x0 + pad * 2, 300), h = Math.max(y1 - y0 + pad * 2, w * 1.1);
       w = Math.max(w, h * 0.78);
+      // khung không bao giờ lớn hơn tấm tranh (vùng ven tranh nằm ngang, ép cao quá thì lòi nền trống)
+      w = Math.min(w, bd.w); h = Math.min(h, bd.h);
       cx = (x0 + x1) / 2; cy = (y0 + y1) / 2;
       var vx = Math.max(0, Math.min(bd.w - w, cx - w / 2)), vy = Math.max(0, Math.min(bd.h - h, cy - h / 2));
       var k = w / 360;   // cỡ chấm, chữ theo khung
@@ -772,7 +788,7 @@
     c.hidden = false;
     c.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
     document.getElementById('quanClose').addEventListener('click', function () { c.hidden = true; });
-    document.getElementById('quanGo').addEventListener('click', function () { goPlace(d); });
+    document.getElementById('quanGo').addEventListener('click', function () { goPlace(d, ph); });
   }
 
   /* ---------- lịch trình đi bộ theo phố ---------- */

@@ -111,7 +111,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "hồ chứa đang dùng (OSM sửa 01/2024). Là công trình thủy lợi, chưa có nguồn nói có lối tham quan.",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.487396,
+    "lat": 11.9876,
+    "cach": "tên trên OpenStreetMap: Hồ Thái Phiên (ghép tay)",
+    "osm": "way/294905687"
+   },
    "ghi_chu": "Bài Báo Lâm Đồng 'Thái Phiên – làng hoa thái bình' (LĐ online 31/01/2011) em đọc qua bản đăng lại trên Báo Pháp luật Việt Nam."
   },
   {

@@ -108,7 +108,12 @@
    "do_tin_cay": "cao",
    "ghi_chu": "Kiểm thêm 25/11/2026: trang Airbnb (things-to-do/places/1158237) từng hiện \"Permanently closed\" nay mở ra chỉ báo \"không tìm thấy\" (trang đã gỡ). Wanderlog (dữ liệu Google) ghi 328 Phan Đình Phùng, Xuân Hương - Đà Lạt, mở 9:30–21:00, 3.313 đánh giá, đánh giá mới nhất 11/11/2025, không ghi đóng. Foody có bình luận chê phục vụ (bình luận mới nhất 27/12/2022).",
    "con_mo": "còn mở (dấu hiệu mạnh): Wanderlog/dữ liệu Google ghi phường mới, có đánh giá 11/2025, không ghi đóng; mia.vn sửa 21/02/2026 vẫn ghi 328. Trang Airbnb báo đóng đã bị gỡ, không còn đối chứng",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.439915,
+    "lat": 11.937032,
+    "cach": "tên trên OpenStreetMap: Nem Nuong Ba Hung (ghép tay)",
+    "osm": "node/6296989685"
+   }
   },
   {
    "ten": "Trang's Cookery Restaurant",

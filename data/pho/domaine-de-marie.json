@@ -1,0 +1,293 @@
+{
+ "road": "Ngô Quyền",
+ "duong": [
+  "Ngô Quyền",
+  "Đồi Mai Anh",
+  "Mai Hắc Đế",
+  "Phạm Ngọc Thạch",
+  "Thi Sách",
+  "Yết Kiêu"
+ ],
+ "ten_osm": [
+  "Ngô Quyền",
+  "Đồi Mai Anh",
+  "Mai Hắc Đế",
+  "Phạm Ngọc Thạch",
+  "Thi Sách",
+  "Yết Kiêu"
+ ],
+ "ward": "Cam Ly - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020/QĐ-UBND (sửa bởi QĐ 16/2021, hết hiệu lực 01/01/2026) trên thuviennhadat ghi 'Ngô Quyền - PHƯỜNG 6' hai đoạn (từ đầu đường đến hết số 43; từ giáp số 43 đến cuối đường) và 'Thi Sách - PHƯỜNG 6' trọn đường. Theo NQ 1671 mục 100: Phường 5, Phường 6 và xã Tà Nung → phường Cam Ly - Đà Lạt. Kiểm bằng ranh giới phuong.json: điểm OSM 'Nhà thờ Domaine de Marie' (way/361692265) và toàn bộ các đoạn Ngô Quyền, Đồi Mai Anh, Mai Hắc Đế, Phạm Ngọc Thạch, Thi Sách trong duong.json đều nằm trong Cam Ly - Đà Lạt. Thanh Niên 30/03/2026 cũng ghi nhà thờ 'bên đường Ngô Quyền, P.Cam Ly - Đà Lạt'. Số nhà: vinhson.net, mia, VnExpress ghi '1 Ngô Quyền' (Phường 6 cũ).",
+ "doan": [
+  {
+   "doan": "Ngô Quyền: trọn đường (2 đoạn giá, ranh ở số 43)",
+   "phuong_cu": "Phường 6",
+   "phuong_moi": "Cam Ly - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/ngo-quyen-phuong-6"
+  },
+  {
+   "doan": "Thi Sách: trọn đường",
+   "phuong_cu": "Phường 6",
+   "phuong_moi": "Cam Ly - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thi-sach-phuong-6"
+  },
+  {
+   "doan": "Nhà thờ Domaine de Marie (1 Ngô Quyền)",
+   "phuong_cu": "Phường 6 (vinhson.net, mia)",
+   "phuong_moi": "Cam Ly - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+   "ghi_chu": "Thanh Niên 2026 ghi P.Cam Ly - Đà Lạt; phuong.json: Cam Ly."
+  },
+  {
+   "doan": "Mai Hắc Đế, Phạm Ngọc Thạch, Đồi Mai Anh (quanh chân đồi)",
+   "phuong_cu": "chưa rõ (không mở được trang bảng giá Mai Hắc Đế)",
+   "phuong_moi": "Cam Ly - Đà Lạt",
+   "do_chac": "khá chắc",
+   "nguon": "https://thanhnien.vn/benh-vien-da-khoa-tinh-lam-dong-diem-sang-y-te-vung-tay-nguyen-185260618082519492.htm",
+   "ghi_chu": "Thanh Niên 18/06/2026 ghi Bệnh viện Đa khoa tỉnh '01 Phạm Ngọc Thạch, phường Cam Ly - Đà Lạt'; phuong.json: các đoạn đều trong Cam Ly."
+  }
+ ],
+ "ten_pho": "Nhà thờ Domaine de Marie",
+ "gioi_thieu": "Nhà thờ Domaine de Marie (nhà thờ Mai Anh): nhà nguyện tường hồng của dòng nữ tu Bác Ái Vinh Sơn trên đồi Mai Anh, xây khoảng 1940–1944 nhờ bà Suzanne Humbert, phu nhân Toàn quyền Decoux, vận động; khuôn viên khoảng 12 ha, cách Chợ Đà Lạt khoảng 1 km. Quanh đồi còn biệt điện Trần Lệ Xuân (nay là Trung tâm Lưu trữ quốc gia IV giữ mộc bản triều Nguyễn), nhà thờ Cam Ly mái nhà rông và Bệnh viện Đa khoa tỉnh.",
+ "dia_diem": [
+  {
+   "ten": "Nhà thờ Domaine de Marie (nhà thờ Mai Anh, Lãnh địa Đức Bà)",
+   "loai": "nhà thờ, tu viện, điểm tham quan",
+   "dac_trung": "Nhà nguyện và tu viện của dòng Nữ tử Bác ái Thánh Vinh Sơn trên đồi Mai Anh; khuôn viên khoảng 12 ha (VnExpress, Wikipedia). Bà Suzanne Humbert, phu nhân Toàn quyền Đông Dương Jean Decoux, vận động quyên góp xây (VnExpress, Thanh Niên). Mặt bằng chữ thập khoảng 11 x 33 m, mặt tiền tam giác có cửa sổ hoa hồng, mái dốc lợp ngói đỏ gợi dáng nhà rông Tây Nguyên, tường quét vôi hồng đậm; tường xây bằng vôi trộn mật mía, không dùng xi măng (VnExpress, Thanh Niên, Wikipedia). Giữa nhà nguyện có tượng Đức Mẹ đứng trên quả địa cầu, cao khoảng 3 m, nặng khoảng 1 tấn, tạc theo dáng phụ nữ Việt, kiến trúc sư Pháp Jonchère thiết kế năm 1943. Mộ bà Decoux ở phía sau nhà thờ. Phía sau có quầy bán đồ thủ công do các sơ và trẻ mồ côi làm (VnExpress 2014).",
+   "dia_chi": "1 Ngô Quyền (Phường 6 cũ), phường Cam Ly - Đà Lạt",
+   "duong": "Ngô Quyền",
+   "so_nha": "1",
+   "nguon": [
+    "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+    "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+    "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+    "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+    "https://mia.vn/cam-nang-du-lich/nha-tho-domaine-de-marie-dau-an-chau-au-giua-long-da-lat-1361",
+    "https://www.openstreetmap.org/way/361692265"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở: Thanh Niên 30/03/2026 còn viết về khách tham quan. Giờ lễ các trang ghi đều cũ (Wikipedia tiếng Anh dẫn 2015) → không ghi.",
+   "ghi_chu": "Năm xây lệch: 1940–1944 (VnExpress 2014), khởi công 1940 (Thanh Niên 2026, Wikipedia tiếng Anh), đặt viên đá đầu tiên 8/1939 do Đức cha Jean Cassaigne chủ trì, xong 1942 (vinhson.net, trang giáo xứ), khánh thành 11/1942 (Wikipedia tiếng Anh), 1930–1943 (vài trang du lịch), 'xây từ 1938' (Wikipedia tiếng Việt, câu tự mâu thuẫn). Tên kiến trúc sư thiết kế nhà nguyện: chưa nguồn nào nêu. Tên người tạc tượng viết lệch: Jonchère (Thanh Niên, Wikipedia) / Janchère (VnExpress) / Jouchère (vinhson.net). OSM ghi year_of_construction=1943, alt_name 'Nhà thờ Mai Anh'.",
+   "vi_tri": {
+    "lon": 108.43012,
+    "lat": 11.9497,
+    "cach": "tên trên OpenStreetMap: Nhà thờ Domaine de Marie (ghép tay)",
+    "osm": "way/361692265"
+   }
+  },
+  {
+   "ten": "Trung tâm Lưu trữ quốc gia IV (Biệt điện Trần Lệ Xuân)",
+   "loai": "biệt thự lịch sử, kho lưu trữ quốc gia",
+   "dac_trung": "Cụm ba biệt thự Bạch Ngọc, Lam Ngọc, Hồng Ngọc khởi công năm 1958 cho gia đình ông Ngô Đình Nhu – bà Trần Lệ Xuân, rộng khoảng 1,3 ha (NLĐ 2016, Thanh Niên 2023). Năm 2007 Bộ Nội vụ chi khoảng 53 tỉ đồng trùng tu làm trụ sở Trung tâm Lưu trữ quốc gia IV; nơi đây giữ gần 35.000 tấm mộc bản triều Nguyễn, di sản tư liệu thế giới đầu tiên của Việt Nam (UNESCO công nhận 2009).",
+   "dia_chi": "2 Yết Kiêu, phường Cam Ly - Đà Lạt",
+   "duong": "Yết Kiêu",
+   "so_nha": "2",
+   "nguon": [
+    "https://tuoitre.vn/nld/thoi-su-trong-nuoc/xa-hoa-nhu-biet-dien-tran-le-xuan-20160126220548738.htm",
+    "https://thanhnien.vn/goc-ky-hoa-biet-dien-tran-le-xuan-185231216194917196.htm",
+    "https://www.sggp.org.vn/noi-bao-quan-ky-uc-trieu-nguyen-giua-da-lat-post856008.html",
+    "https://www.openstreetmap.org/way/1016426047",
+    "https://www.openstreetmap.org/way/1305230699"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu: Thanh Niên 17/12/2023 còn ký họa, nhắc khách đến xem.",
+   "ghi_chu": "Số mộc bản lệch: 34.619 tấm / 55.320 mặt khắc (NLĐ 2016, một bài SGGP), 33.976 tấm đã số hoá (bài SGGP khác), 'gần 35.000' (Thanh Niên) → em ghi 'gần 35.000'. Ngày UNESCO ghi 30/7 hoặc 31/7/2009. Cách nhà thờ khoảng 550 m theo đường chim bay (tâm khu OSM). Trong khu OSM còn có điểm 'Museum Madam De Dalat' (way/361692317) chưa có nguồn khác.",
+   "vi_tri": {
+    "lon": 108.42653,
+    "lat": 11.94619,
+    "cach": "tên trên OpenStreetMap: Trung tâm Lưu trữ Quốc gia IV (ghép tay)",
+    "osm": "way/1016426047"
+   }
+  },
+  {
+   "ten": "Bệnh viện Đa khoa tỉnh Lâm Đồng",
+   "loai": "bệnh viện, công trình lâu đời",
+   "dac_trung": "Bệnh viện tuyến tỉnh ngay chân đồi Mai Anh; Thanh Niên 06/2026 ghi đã phát triển 'gần một thế kỷ', quy mô 800 giường. Tiền thân là Dân Y Viện Đà Lạt lập từ những năm 1930; đến năm 1976 thành bệnh viện tỉnh Lâm Đồng (hellobacsi).",
+   "dia_chi": "01 Phạm Ngọc Thạch, phường Cam Ly - Đà Lạt",
+   "duong": "Phạm Ngọc Thạch",
+   "so_nha": "01",
+   "nguon": [
+    "https://thanhnien.vn/benh-vien-da-khoa-tinh-lam-dong-diem-sang-y-te-vung-tay-nguyen-185260618082519492.htm",
+    "https://nhathuoclongchau.com.vn/bai-viet/gioi-thieu-tong-quan-ve-benh-vien-da-khoa-lam-dong.html",
+    "https://hellobacsi.com/care/benh-vien/benh-vien-da-khoa-tinh-lam-dong-2247/",
+    "https://www.openstreetmap.org/way/473556887"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "mở: Thanh Niên 18/06/2026.",
+   "ghi_chu": "Mốc 'những năm 1930' và 1976 chỉ có ở trang thương mại (hellobacsi; Long Châu ghi đúng năm 1930 với 100 giường nhưng em chỉ đọc qua kết quả tìm kiếm, mở trang bị 403), chép từ trang giới thiệu bệnh viện trên lamdong.gov.vn (mở bị lỗi 503) → coi như 1 nguồn; báo chỉ xác nhận 'gần một thế kỷ'. Số giường lệch: 590 (trang tỉnh, cũ) / 800 (Thanh Niên 2026). Wikipedia tiếng Việt kể bà Decoux sau tai nạn đèo Prenn được đưa về cấp cứu ở bệnh viện này (chỉ 1 nguồn, xem chuyen). Đường Hải Thượng gần đó thời Pháp tên 'Hôpital' (Báo Lâm Đồng 2013: 'HÔPITAL - Hải Thượng').",
+   "vi_tri": {
+    "lon": 108.43083,
+    "lat": 11.94642,
+    "cach": "tên trên OpenStreetMap: Bệnh viện Đa khoa tỉnh Lâm Đồng (ghép tay)",
+    "osm": "way/473556887"
+   }
+  },
+  {
+   "ten": "Nhà thờ giáo xứ Vinh Sơn (xóm Lạc Vang cũ)",
+   "loai": "nhà thờ",
+   "dac_trung": "Giáo xứ trong thung lũng nhỏ sau chân đồi Mai Anh; gốc là vài gia đình giúp việc cho các nữ tu Bác Ái, quanh biệt thự Lạc Vang. Nhà thờ gỗ đầu tiên xong dịp Phục Sinh 1957; từ 1962 các cha dòng Vinh Sơn coi sóc; ngày 02/01/1972 thành giáo xứ Vinh Sơn. Nhà thờ mới đặt đá 02/03/2019, khánh thành 04/06/2025 (mapstore).",
+   "dia_chi": "51 Yết Kiêu (mapstore), phường Cam Ly - Đà Lạt",
+   "duong": "Yết Kiêu",
+   "so_nha": "51",
+   "nguon": [
+    "https://mapstore.vn/tin-tuc/nha-tho-giao-xu-vinh-son-giao-phan-da-lat",
+    "https://giothanhle.net/gio-le/nha-tho-vinh-son-da-lat/",
+    "https://www.openstreetmap.org/way/1355656405"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "mở: nhà thờ mới khánh thành 04/06/2025 (mapstore 15/08/2026).",
+   "ghi_chu": "Hai nguồn đều là trang thông tin Công giáo (không phải báo). Số nhà 51 Yết Kiêu chỉ có ở mapstore. Ngày khánh thành nhà thờ mới chỉ có ở mapstore. OSM ghi amenity=monastery, cách nhà thờ Domaine de Marie khoảng 560 m.",
+   "vi_tri": {
+    "lon": 108.42514,
+    "lat": 11.94836,
+    "cach": "tên trên OpenStreetMap: Nhà Thờ Vinh Sơn (ghép tay)",
+    "osm": "way/1355656405"
+   }
+  },
+  {
+   "ten": "Nhà thờ Cam Ly (nhà thờ Sơn Cước)",
+   "loai": "nhà thờ, di tích kiến trúc",
+   "dac_trung": "Nhà thờ cho giáo dân đồng bào Tây Nguyên, mái mô phỏng nhà rông, hai mái dốc đứng cao khoảng 17 m, lợp khoảng 80.000 viên ngói (Thanh Niên 2026, Wikipedia). Linh mục Pháp Marius Boutary khởi xướng, linh mục Jean Kermarrec vẽ (Thanh Niên dẫn 'Lịch sử Giáo phận Đà Lạt' 1991).",
+   "dia_chi": "phường Cam Ly - Đà Lạt (Wikipedia ghi 11 Nguyễn Khuyến)",
+   "duong": "Nguyễn Khuyến",
+   "so_nha": "chưa rõ",
+   "nguon": [
+    "https://thanhnien.vn/nha-tho-cam-ly-khi-chua-va-yang-cung-chung-mot-mai-nha-185260330220522158.htm",
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Cam_Ly",
+    "https://mia.vn/cam-nang-du-lich/nha-tho-cam-ly-da-lat-kham-pha-kien-truc-nha-tho-dam-mau-sac-dan-toc-mien-son-cuoc-o-da-lat-1609",
+    "https://www.openstreetmap.org/way/515288602"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở: Thanh Niên 31/03/2026.",
+   "ghi_chu": "Năm xây lệch: 1961–1968 (Thanh Niên dẫn sách giáo phận) / 1960–1968 (Wikipedia) / khởi công cuối 1959 (trang du lịch tỉnh, em chưa mở được). Nhà thầu lệch: Nguyễn Thanh Hồ (Thanh Niên) / Đỗ Kiều (Wikipedia). Cách nhà thờ Domaine de Marie khoảng 1,1 km về phía tây nam.",
+   "vi_tri": {
+    "lon": 108.42201,
+    "lat": 11.94391,
+    "cach": "tên trên OpenStreetMap: Nhà thờ Cam Ly (ghép tay)",
+    "osm": "way/515288602"
+   }
+  },
+  {
+   "ten": "Dinh Tỉnh trưởng (Đồi Dinh)",
+   "loai": "dinh thự Pháp, bảo tàng kỷ vật",
+   "dac_trung": "Dinh thự người Pháp xây trước năm 1910 trên đồi cao cách Chợ Đà Lạt chừng 1 km, cuối đường Lý Tự Trọng; nơi ở và làm việc của Thị trưởng Đà Lạt kiêm Tỉnh trưởng Tuyên Đức. Sau 1975 là Cung thiếu nhi, từ 1978 là Bảo tàng Lâm Đồng (đến 1999), nay trưng bày kỷ vật Đà Lạt (Thanh Niên 2023, PLO 2023).",
+   "dia_chi": "Đồi Dinh, cuối đường Lý Tự Trọng (Phường 1 cũ), phường Xuân Hương - Đà Lạt",
+   "duong": "Lý Tự Trọng",
+   "so_nha": "chưa rõ",
+   "nguon": [
+    "https://thanhnien.vn/goc-ky-hoa-dinh-tinh-truong-da-lat-185230715200426634.htm",
+    "https://tuoitre.vn/plo/nuoi-tiec-cong-trinh-kien-truc-dinh-tinh-truong-o-da-lat-se-bi-di-doi-post760283.html",
+    "https://www.openstreetmap.org/way/618049072"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "chưa rõ: PLO 11/2023 kể quy hoạch dời dinh lên cao gần 30 m nhường đất cho khách sạn; em chưa thấy tin mới hơn.",
+   "ghi_chu": "Cách nhà thờ khoảng 900 m về phía đông, gần Chợ hơn, thuộc phường khác (Xuân Hương). OSM gắn abandoned:building=yes.",
+   "vi_tri": {
+    "lon": 108.43737,
+    "lat": 11.9458,
+    "cach": "tên trên OpenStreetMap: Dinh Tỉnh Trưởng (ghép tay)",
+    "osm": "way/618049072"
+   }
+  },
+  {
+   "ten": "Cụm biệt thự Pháp cổ đường Lê Lai (nay là Ana Mandara Villas Dalat)",
+   "loai": "cụm biệt thự Pháp cổ, khu nghỉ dưỡng",
+   "dac_trung": "Cụm biệt thự cổ kiểu Pháp giữa rừng thông trên đồi Lê Lai, nối bằng đường lát đá, đã trùng tu làm khu nghỉ (VnExpress 2007, mia).",
+   "dia_chi": "đường Lê Lai (Phường 5 cũ), phường Cam Ly - Đà Lạt",
+   "duong": "Lê Lai",
+   "so_nha": "chưa rõ",
+   "nguon": [
+    "https://vnexpress.net/biet-thu-co-giua-ngan-thong-2935144.html",
+    "https://mia.vn/cam-nang-du-lich/ana-mandara-villas-dalat-resort-spa-ngoi-lang-co-kinh-nuoc-phap-5898",
+    "https://www.openstreetmap.org/node/12882531037"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: còn nhận đặt phòng trên các trang đặt phòng (không ghi ngày).",
+   "ghi_chu": "Số biệt thự lệch (VnExpress 2007: 19; mia: 17); năm xây 1920–1930 chỉ có ở mia và vài trang du lịch → không đưa số vào đặc trưng. Số nhà lệch: 2 Lê Lai (OSM, trip.com) / 26 Lê Lai (viamichelin). Cách nhà thờ khoảng 840 m về phía tây nam.",
+   "vi_tri": {
+    "lon": 108.4236,
+    "lat": 11.94423,
+    "cach": "tên trên OpenStreetMap: Ana Mandara Villas Dalat (ghép tay)",
+    "osm": "node/12882531037"
+   }
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Trường Cao đẳng Y tế Lâm Đồng",
+   "duong": "Ngô Quyền",
+   "so_nha": "6B",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-ngo-quyen",
+    "https://www.openstreetmap.org/way/1391527305"
+   ],
+   "ly_do": "Ngay cạnh nhà thờ (khoảng 100 m); chỉ có OSM và trang bất động sản ghi địa chỉ, chưa có nguồn lịch sử."
+  },
+  {
+   "ten": "Museum Madam De Dalat",
+   "duong": "Yết Kiêu",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/361692317"
+   ],
+   "ly_do": "chỉ OSM; nằm trong khu Biệt điện Trần Lệ Xuân, chưa rõ là gì."
+  },
+  {
+   "ten": "Ni viện Tuệ Quang",
+   "duong": "Thi Sách",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1516075211"
+   ],
+   "ly_do": "chỉ OSM."
+  },
+  {
+   "ten": "Đình Mỹ Thành",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1307704569"
+   ],
+   "ly_do": "chỉ OSM (ghi year_of_construction=1945); cách nhà thờ khoảng 900 m."
+  },
+  {
+   "ten": "Đình Bao La",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1427339832"
+   ],
+   "ly_do": "chỉ OSM; cách nhà thờ khoảng 620 m về phía bắc."
+  },
+  {
+   "ten": "Vườn dâu Công nghệ cao Bình Yên",
+   "duong": "Mai Hắc Đế",
+   "so_nha": "19A",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1515399859"
+   ],
+   "ly_do": "chỉ OSM; là vườn du lịch, không phải mốc lâu đời."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/ngo-quyen-phuong-6",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thi-sach-phuong-6",
+  "data/lam-dong/nq1671.json (mục 100: Phường 5, Phường 6 và xã Tà Nung → Cam Ly - Đà Lạt; mục 99: Phường 1… → Xuân Hương - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json (tên đường: Ngô Quyền, Đồi Mai Anh, Mai Hắc Đế, Phạm Ngọc Thạch, Thi Sách, Yết Kiêu, Lê Lai, Nguyễn Khuyến, Lý Tự Trọng)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.422,11.941,108.438,11.958 (tải 25/11/2026, tìm điểm có tên quanh đồi Mai Anh)",
+  "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+  "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+  "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+  "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+  "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+  "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/"
+ ],
+ "cap_nhat": "2026-11-25"
+}

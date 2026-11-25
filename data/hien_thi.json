@@ -73,5 +73,8 @@
    "moc": ["Khu du lịch Lang Biang (núi Lang Biang)", "Nhà máy thủy điện Ankroet", "Hồ Đankia – Suối Vàng"]},
  "cau-dat": {"ten": "Đồi chè Cầu Đất", "dac_trung": "Sở trà người Pháp lập năm 1927",
    "ban_gi": "Đồi chè, bảo tàng trà, rượu vang; sáng sớm săn mây; xa xa cánh đồng tuabin gió.",
-   "moc": ["Cầu Đất Farm – Đồi chè Cầu Đất", "Bảo tàng trà cổ Cầu Đất Farm (xưởng chè cũ)", "Đường hầm hỏa xa (hầm xe lửa cổ)"]}
+   "moc": ["Cầu Đất Farm – Đồi chè Cầu Đất", "Bảo tàng trà cổ Cầu Đất Farm (xưởng chè cũ)", "Đường hầm hỏa xa (hầm xe lửa cổ)"]},
+ "domaine-de-marie": {"ten": "Nhà thờ Domaine de Marie", "dac_trung": "Nhà thờ hồng trên đồi Mai Anh",
+   "ban_gi": "Nhà nguyện và tu viện các sơ Bác Ái; đồ thủ công các sơ và trẻ mồ côi làm; biệt điện giữ mộc bản triều Nguyễn; nhà thờ Cam Ly mái nhà rông.",
+   "moc": ["Nhà thờ Domaine de Marie (nhà thờ Mai Anh, Lãnh địa Đức Bà)", "Trung tâm Lưu trữ quốc gia IV (Biệt điện Trần Lệ Xuân)", "Nhà thờ Cam Ly (nhà thờ Sơn Cước)"]}
 }

@@ -1,5 +1,7 @@
 # ĐÃ GHÉP 25/11/2026
 
+# ĐÃ GHÉP 25/11/2026
+
 # Spark đợt 43 (đánh số chung với game): tranh đầu phố cho 23 nơi còn trống (25/11/2026)
 
 Thay cho các khối cũ trong `dot1_dau_pho_moi.md` (chưa vẽ). Cảnh mỗi tranh lấy từ nghiên cứu có nguồn (`docs/research/pho_<slug>.md`), tên hiện theo `data/hien_thi.json`.

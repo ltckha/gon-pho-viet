@@ -49,7 +49,14 @@
       mocDiem: [['ho_xuan_huong', 108.4436, 11.9418, 'Đà Lạt', '24781', 0, 7], ['ho_xuan_huong', 108.4436, 11.9418, 'Hồ Xuân Hương', '24781', 7], ['cho_da_lat', 108.43721, 11.94342, 'Chợ Đà Lạt', '24781', 7],
                 ['nha_tho_con_ga', 108.43775, 11.93632, 'Nhà thờ Con Gà', '24781', 7], ['ga_da_lat', 108.4547, 11.9418, 'Ga Đà Lạt', '24781', 7],
                 ['vuon_hoa', 108.4493, 11.9502, 'Vườn hoa thành phố', '24781', 7], ['quang_truong', 108.44501, 11.93884, 'Quảng trường Lâm Viên', '24781', 7],
-                ['doi_che', 108.5575, 11.8822, 'Đồi chè Cầu Đất', '24805', 2.5], ['rung_thong', 108.4138, 12.0326, 'Núi Lang Biang', '24846', 2.5]],
+                ['doi_che', 108.5575, 11.8822, 'Đồi chè Cầu Đất', '24805', 2.5], ['rung_thong', 108.4138, 12.0326, 'Núi Lang Biang', '24846', 2.5],
+                // Spark đợt 42 — toạ độ từ OpenStreetMap (Nominatim); hang núi lửa Krông Nô và Phú Quý lấy tâm xã/đặc khu
+                ['mui_ne', 108.2954, 10.9491, 'Đồi cát Mũi Né', '22918'], ['phan_thiet', 108.1461, 10.9361, 'Tháp Po Sah Inư', '22924'],
+                ['ta_cu', 107.9001, 10.8151, 'Núi Tà Cú', '23110'], ['ke_ga', 107.9916, 10.6953, 'Hải đăng Kê Gà', '23143'],
+                ['phu_quy', 108.9423, 10.5321, 'Đảo Phú Quý', '23272'], ['bai_da_bay_mau', 108.7158, 11.1795, 'Cổ Thạch', '22969'],
+                ['bao_loc', 107.7429, 11.642, 'Thác Dambri', '24820'], ['ta_dung', 108.0362, 11.8889, 'Hồ Tà Đùng', '24637'],
+                ['krong_no', 107.8014, 12.4357, 'Hang núi lửa Krông Nô', '24688'], ['pongour', 108.2654, 11.6875, 'Thác Pongour', '24976'],
+                ['da_nhim', 108.6147, 11.8797, 'Hồ Đa Nhim', '24934'], ['bidoup', 108.4727, 12.1516, 'Bidoup Núi Bà', '24848']],
       legend: [['open', 'Có phố đã nghiên cứu'], ['dalat', 'Phường khác của Đà Lạt (có đường)'], ['ward', 'Phường'], ['soon', 'Xã, đặc khu']],
       card: cardPhuong
     },

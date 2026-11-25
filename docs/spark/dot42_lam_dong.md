@@ -1,3 +1,5 @@
+# ĐÃ GHÉP 25/11/2026
+
 # Spark đợt 42 (đánh số chung với game): mốc cho bản đồ tỉnh Lâm Đồng (25/11/2026)
 
 Tầng Lâm Đồng đã cùng nét bản đồ Việt Nam. Đà Lạt có mốc (hình Spark cũ của game), phần còn lại của tỉnh mới (gộp Lâm Đồng, Đắk Nông, Bình Thuận cũ) còn trống.

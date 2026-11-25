@@ -1,0 +1,213 @@
+{
+ "slug": "dinh-1",
+ "ten_cu": [
+  {
+   "ten": "Domain Bourgerie",
+   "thoi_gian": "tên ban đầu của khu đất, khi còn là của Robert Clément Bourgery (khoảng 1940)",
+   "ghi_chu": "Tuổi Trẻ 2018 dẫn nhà nghiên cứu Nguyễn Đắc Xuân.",
+   "nguon": [
+    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Văn Võ phòng Quốc trưởng",
+   "thoi_gian": "từ khi Bảo Đại mua lại (cuối 1951 theo Nguyễn Đắc Xuân)",
+   "ghi_chu": "Theo Tuổi Trẻ 2018, Bảo Đại mua khu này cho Văn Võ phòng của Quốc trưởng và từ đó khu mang tên ấy; không phải 'tổng hành dinh' như bảng thuyết minh cũ.",
+   "nguon": [
+    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "King Palace",
+   "thoi_gian": "tên dự án du lịch của Công ty CP Hoàn Cầu Đà Lạt, từ 2014",
+   "ghi_chu": "Báo chí 2024–2026 gọi 'Dinh 1 (King Palace)'.",
+   "nguon": [
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "moc": [
+  {
+   "nam": "1940",
+   "su_kien": "Xây biệt thự trên đồi thông cho Robert Clément Bourgery, triệu phú và viên chức người Pháp.",
+   "nguon": [
+    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+    "https://vi.wikipedia.org/wiki/Dinh_I",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+    "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "VietnamPlus ghi 'xây dựng từ năm 1940', Báo Pháp luật ghi 'thập niên 1940'. Bảng thuyết minh cũ và website dinhbaodai.com ghi 1929 → Nguyễn Đắc Xuân nói là nhầm (Tuổi Trẻ 2018)."
+  },
+  {
+   "nam": "1949 hoặc cuối 1951",
+   "su_kien": "Bảo Đại mua lại khu dinh.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_I",
+    "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281",
+    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Có việc mua thì nhiều nguồn khớp; năm thì lệch: 1949 (Wikipedia, mia — mia thêm chi tiết bố vợ góp tiền) / khoảng cuối 1951 (Tuổi Trẻ dẫn Nguyễn Đắc Xuân)."
+  },
+  {
+   "nam": "thời Ngô Đình Diệm",
+   "su_kien": "Dinh được sửa lại, làm thêm đường hầm.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_I",
+    "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "mia ghi dinh chuyển sang Ngô Đình Diệm năm 1956 (chỉ 1 nguồn có năm)."
+  },
+  {
+   "nam": "1963–1975",
+   "su_kien": "Sau khi Ngô Đình Diệm bị ám sát, dinh vẫn là nơi nghỉ mát của các nguyên thủ chế độ Sài Gòn đến năm 1975.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_I",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "VietnamPlus viết chung 'nơi nghỉ dưỡng của lãnh đạo chế độ cũ', không ghi năm."
+  },
+  {
+   "nam": "sau 1975",
+   "su_kien": "Dinh được dùng vào nhiều mục đích khác nhau và xuống cấp trầm trọng.",
+   "nguon": [
+    "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "2014",
+   "su_kien": "UBND tỉnh Lâm Đồng cho Công ty CP Hoàn Cầu Đà Lạt thuê Dinh 1 và đất rừng quanh dinh 50 năm, làm dự án du lịch King Palace; Trung tâm quản lý nhà Đà Lạt bàn giao để trùng tu.",
+   "nguon": [
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+    "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "VietnamPlus: tổng vốn dự án 700 tỉ đồng, khoảng 100 tỉ để trùng tu dinh và biệt thự (1 nguồn)."
+  },
+  {
+   "nam": "2015",
+   "su_kien": "Tháng 9: King Palace mở đón khách tham quan.",
+   "nguon": [
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Tuổi Trẻ: trước dịch COVID-19 khoảng 1.000 khách mỗi ngày (1 nguồn)."
+  },
+  {
+   "nam": "2018",
+   "su_kien": "Công ty Hoàn Cầu Đà Lạt thừa nhận sai sót, gỡ các bảng thuyết minh lịch sử sai trong dinh.",
+   "nguon": [
+    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "2020",
+   "su_kien": "Thanh tra Chính phủ (Kết luận 929/KL-TTCP) kết luận việc cho thuê Dinh 1 và biệt thự không qua đấu giá là vi phạm, kiến nghị thu hồi; năm 2021 sửa kết luận, cho phép định giá lại nếu thuê lại.",
+   "nguon": [
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+    "https://baovanhoa.vn/du-lich/dinh-1-da-lat-mo-cua-tro-lai-sau-hon-hai-nam-ngung-hoat-dong-239661.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Số kết luận 929 và việc sửa năm 2021 chỉ SGGP ghi."
+  },
+  {
+   "nam": "2023",
+   "su_kien": "Đà Lạt phân loại lại biệt thự cổ: Dinh 1 là một trong 3 biệt thự nhóm 1 (cùng Dinh 2, Dinh 3), phải giữ nguyên hình thức bên ngoài, kết cấu, mật độ, chiều cao.",
+   "nguon": [
+    "https://www.sggp.org.vn/nhieu-biet-thu-co-da-lat-duoc-phan-loai-lai-post704760.html",
+    "https://baovanhoa.vn/du-lich/dinh-1-da-lat-mo-cua-tro-lai-sau-hon-hai-nam-ngung-hoat-dong-239661.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Báo Văn hóa chỉ viết 'một trong số ít biệt thự thuộc nhóm cao nhất', không ghi năm phân loại."
+  },
+  {
+   "nam": "2024",
+   "su_kien": "Ngày 26/4: Dinh 1 ngừng đón khách theo yêu cầu của cơ quan chức năng, chờ thu hồi dự án.",
+   "nguon": [
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+    "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Báo Pháp luật 10/2024: hai bên còn thương lượng bồi thường; công ty nói đã đầu tư hơn 140 tỉ đồng, Sở Tài chính chỉ công nhận khoảng 17 tỉ có chứng từ (Tuổi Trẻ 2026)."
+  },
+  {
+   "nam": "2025",
+   "su_kien": "Từ 1/7/2025: Phường 10 vào phường Xuân Hương - Đà Lạt; Dinh 1 thuộc Xuân Hương.",
+   "nguon": [
+    "data/lam-dong/nq1671.json (mục 99)",
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "2026",
+   "su_kien": "Ngày 15/6: chủ đầu tư mở cửa miễn phí cho khách vào thăm (SGGP). Ngày 19/8: UBND tỉnh ra Quyết định 4218/QĐ-UBND cho Công ty Hoàn Cầu Đà Lạt tiếp tục thuê đất dự án King Palace (hơn 18 ha).",
+   "nguon": [
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Lệch: ngày mở lại 15/6 chỉ SGGP (và blog go365) ghi; VietnamPlus 21/08/2026 lại viết dinh đã đóng hơn hai năm, công ty dự kiến mở lại tháng 8/2026. Số quyết định 4218 và ngày 19/8 chỉ VietnamPlus ghi; Tuổi Trẻ đưa tin cùng ngày 21/8."
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Thuyết minh sai bị gỡ",
+   "noi_dung": "Năm 2018, Tuổi Trẻ dẫn nhà nghiên cứu Nguyễn Đắc Xuân và nhà văn Trần Trọng Văn chỉ ra nhiều điều thuyết minh cho khách ở Dinh I là sai: dinh xây năm 1940 chứ không phải 1929; đây là nơi làm việc của Văn Võ phòng Quốc trưởng chứ không phải 'tổng hành dinh' của Bảo Đại; hai căn gọi là 'biệt thự Nam Phương', 'biệt thự Bảo Đại' vốn là nhà người giúp việc của ông Bourgery; 'phòng nghỉ bà Từ Cung' không có thật. Theo lời kể lại, Bảo Đại rất ít khi lên Dinh I, thường nghỉ và đi săn ở Dinh III. Công ty Hoàn Cầu Đà Lạt nhận sai và gỡ bảng.",
+   "nguon": [
+    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Nhiều trang du lịch về sau (mia 07/2026: 'tổng hành dinh 1949–1954'; Kiến Thức: 'tổng hành dinh Hoàng triều cương thổ') vẫn kể theo cách cũ."
+  },
+  {
+   "tieu_de": "Đường hầm trong dinh",
+   "noi_dung": "Wikipedia ghi thời Ngô Đình Diệm dinh được sửa lại và làm thêm đường hầm. Trang du lịch mia kể chi tiết hơn: lối hầm thoát hiểm giấu sau giá sách cạnh giường ở tầng hai, dẫn ra bãi trực thăng sau đồi, cửa thép nặng hàng trăm ki-lô-gam.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_I",
+    "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Có đường hầm: 2 nguồn. Chi tiết giá sách, bãi trực thăng, cửa thép: chỉ mia. Chuyện hầm nối sang Dinh 2 đã ghi trong data/chuyen/tran-hung-dao.json (cũng chỉ mia)."
+  },
+  {
+   "tieu_de": "Cho thuê không đấu giá",
+   "noi_dung": "Năm 2014 tỉnh cho một công ty thuê Dinh 1 và đồi thông quanh dinh 50 năm làm khu King Palace. Năm 2020 Thanh tra Chính phủ kết luận việc cho thuê không qua đấu giá là sai, kiến nghị thu hồi. Dinh đóng cửa từ 26/4/2024 trong lúc hai bên giằng co tiền bồi thường. Tháng 8/2026 tỉnh quyết định cho chính công ty này tiếp tục thuê.",
+   "nguon": [
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+    "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Ba dinh, ba biệt thự nhóm 1",
+   "noi_dung": "Trong lần phân loại lại biệt thự cổ Đà Lạt năm 2023, chỉ có 3 biệt thự xếp nhóm 1 (nhóm phải giữ nguyên nhất): Dinh 1, Dinh 2 và Dinh 3. Toà biệt thự chính của Dinh 1 rộng 711 m².",
+   "nguon": [
+    "https://www.sggp.org.vn/nhieu-biet-thu-co-da-lat-duoc-phan-loai-lai-post704760.html",
+    "https://baovanhoa.vn/du-lich/dinh-1-da-lat-mo-cua-tro-lai-sau-hon-hai-nam-ngung-hoat-dong-239661.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Con số 3 biệt thự nhóm 1 chỉ SGGP 2023 ghi; 711 m² có ở cả SGGP 2026 và Báo Văn hóa."
+  }
+ ],
+ "mon": [],
+ "ghi_chu": "1) Năm Bảo Đại mua: 1949 (Wikipedia, mia) / cuối 1951 (Tuổi Trẻ dẫn Nguyễn Đắc Xuân). 2) Diện tích khuôn viên lệch mạnh: 60 ha (Wikipedia, Báo Pháp luật 2024) / hơn 18 ha (Tuổi Trẻ, VietnamPlus 2026) / gần 16 ha (SGGP, Báo Văn hóa) / 1,86 ha cho phần dinh và biệt thự cho thuê (SGGP) → không đưa số nào lên trang. 3) Tình trạng mở cửa năm 2026 lệch giữa SGGP (mở lại 15/6) và VietnamPlus (21/8 vẫn viết đã đóng hơn hai năm). 4) Tên chủ: đa số ghi Robert Clément Bourgery; Vinpearl ghi 'Robert Clément' (không dùng Vinpearl). 5) Giá vé, giờ mở các trang ghi khác nhau → không ghi."
+}

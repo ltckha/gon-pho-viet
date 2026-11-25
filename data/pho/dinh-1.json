@@ -1,0 +1,161 @@
+{
+ "road": "Trần Quang Diệu",
+ "duong": [
+  "Trần Quang Diệu",
+  "Vòng Dinh",
+  "Trần Thái Tông",
+  "Hùng Vương"
+ ],
+ "ten_osm": [
+  "Trần Quang Diệu",
+  "Vòng Dinh",
+  "Trần Thái Tông",
+  "Hùng Vương"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020 (hết hiệu lực 01/01/2026) trên thuviennhadat ghi 'Trần Quang Diệu - PHƯỜNG 10', trọn đường; 'Hùng Vương - PHƯỜNG 10' đoạn từ Sở Điện lực Lâm Đồng đến Trần Quý Cáp. Theo NQ 1671 mục 99: Phường 10 → Xuân Hương - Đà Lạt. Báo 2026 (SGGP 15/06, Tuổi Trẻ 21/08, Báo Văn hóa) và mia 07/2026 đều ghi Dinh 1 thuộc phường Xuân Hương; Báo Pháp luật 10/2024 ghi 'đường Trần Quang Diệu, phường 10'. Điểm OSM 'Dinh Bao Dai 1' (node/1152345096) nằm trong Xuân Hương theo phuong.json. Riêng Nhà lao thiếu nhi (đồi Chi Lăng, cách dinh khoảng 850 m về phía bắc) thuộc Lâm Viên - Đà Lạt.",
+ "doan": [
+  {
+   "doan": "Trần Quang Diệu: trọn đường (Dinh 1 ở số 1)",
+   "phuong_cu": "Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quang-dieu-phuong-10"
+  },
+  {
+   "doan": "Hùng Vương: từ Sở Điện lực Lâm Đồng đến Trần Quý Cáp (đường đi vào dinh)",
+   "phuong_cu": "Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-phuong-10"
+  },
+  {
+   "doan": "Nhà lao thiếu nhi Đà Lạt (đồi Chi Lăng, OSM ghi đường Hồ Xuân Hương)",
+   "phuong_cu": "Phường 9 (Báo Lâm Đồng 03/2025)",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "khá chắc",
+   "nguon": "https://baolamdong.vn/co-mot-nha-tu-doc-nhat-vo-nhi-tren-the-gioi-ky-i-283885.html",
+   "ghi_chu": "Không có bảng giá riêng; phuong.json và Nominatim đều xếp vào Lâm Viên."
+  }
+ ],
+ "ten_pho": "Dinh I",
+ "gioi_thieu": "Dinh I: biệt thự trên đồi thông phía đông Đà Lạt, xây khoảng năm 1940 cho triệu phú Pháp Robert Clément Bourgery, sau về tay Bảo Đại rồi thành nơi nghỉ của các đời lãnh đạo Sài Gòn; từ 2014 là khu King Palace của Công ty Hoàn Cầu Đà Lạt, đóng cửa từ 26/4/2024 vì vụ cho thuê không đấu giá.",
+ "dia_diem": [
+  {
+   "ten": "Dinh I (Dinh 1, Dinh Bảo Đại 1, nay là King Palace)",
+   "loai": "dinh thự, biệt thự cổ nhóm 1, điểm tham quan",
+   "dac_trung": "Biệt thự kiểu Âu trên đồi thông, xây khoảng năm 1940 cho Robert Clément Bourgery (Tuổi Trẻ 2018 dẫn nhà nghiên cứu Nguyễn Đắc Xuân; Wikipedia; VietnamPlus 2026). Bảo Đại mua lại (năm 1949 theo Wikipedia, mia; cuối 1951 theo Tuổi Trẻ); thời Ngô Đình Diệm được sửa và làm thêm đường hầm; đến 1975 là nơi nghỉ của các nguyên thủ chế độ Sài Gòn. Toà biệt thự chính rộng 711 m² (SGGP, Báo Văn hóa). Năm 2023 là một trong 3 biệt thự nhóm 1 của Đà Lạt cùng Dinh 2, Dinh 3 (SGGP). Năm 2014 tỉnh cho Công ty CP Hoàn Cầu Đà Lạt thuê 50 năm làm dự án King Palace, mở đón khách từ 9/2015; Thanh tra Chính phủ năm 2020 kết luận cho thuê không đấu giá là sai; đóng cửa từ 26/4/2024; ngày 19/8/2026 tỉnh cho công ty tiếp tục thuê (QĐ 4218/QĐ-UBND).",
+   "dia_chi": "1 Trần Quang Diệu, phường Xuân Hương - Đà Lạt",
+   "duong": "Trần Quang Diệu",
+   "so_nha": "1",
+   "nguon": [
+    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+    "https://vi.wikipedia.org/wiki/Dinh_I",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+    "https://www.sggp.org.vn/nhieu-biet-thu-co-da-lat-duoc-phan-loai-lai-post704760.html",
+    "https://baovanhoa.vn/du-lich/dinh-1-da-lat-mo-cua-tro-lai-sau-hon-hai-nam-ngung-hoat-dong-239661.html",
+    "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html",
+    "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281",
+    "https://www.openstreetmap.org/node/1152345096"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "chưa rõ: SGGP 15/06/2026 (và Báo Văn hóa) báo chủ đầu tư mở cửa miễn phí trở lại từ 15/6/2026; nhưng VietnamPlus 21/08/2026 vẫn viết dinh đã đóng hơn hai năm, công ty dự kiến mở lại vào tháng 8/2026.",
+   "ghi_chu": "Lệch: năm Bảo Đại mua (1949 / cuối 1951); diện tích khuôn viên 60 ha (Wikipedia, Báo Pháp luật 2024) / hơn 18 ha (Tuổi Trẻ, VietnamPlus 2026) / gần 16 ha (SGGP, Báo Văn hóa) → không ghi diện tích khuôn viên. Bảng thuyết minh cũ ghi năm xây 1929 đã bị gỡ năm 2018 (Tuổi Trẻ). OSM có điểm 'Dinh Bao Dai 1' (historic=castle) và điểm 'King Palace' (addr '1 Dinh'). Cách Chợ Đà Lạt khoảng 3,6 km đường chim bay (mia: khoảng 4 km về hướng đông nam trung tâm). Đường gần nhất trong duong.json: Trần Thái Tông 215 m, Trần Quang Diệu 254 m, Vòng Dinh 330 m (lối vào dinh là đường nội bộ không tên trên OSM).",
+   "vi_tri": {
+    "lon": 108.46987,
+    "lat": 11.94445,
+    "cach": "tên trên OpenStreetMap: Dinh Bao Dai 1",
+    "osm": "node/1152345096"
+   }
+  },
+  {
+   "ten": "Nhà lao thiếu nhi Đà Lạt (Trung tâm giáo huấn thiếu nhi Đà Lạt)",
+   "loai": "di tích lịch sử cách mạng cấp quốc gia",
+   "dac_trung": "Nhà tù dành riêng cho thiếu nhi do chính quyền Sài Gòn lập trên đồi Chi Lăng, tên gọi chính thức 'Trung tâm giáo huấn thiếu nhi Đà Lạt'; hoạt động 1971–1973; giam hơn 600 tù nhân thiếu nhi (SGGP 2024; Báo Lâm Đồng 2025 ghi lúc đông nhất khoảng 600, trong đó khoảng 200 nữ). Công nhận di tích cấp quốc gia ngày 22/6/2009.",
+   "dia_chi": "đồi Chi Lăng, đường Hồ Xuân Hương (theo OSM), phường Lâm Viên - Đà Lạt",
+   "duong": "Hồ Xuân Hương",
+   "so_nha": "",
+   "nguon": [
+    "https://baolamdong.vn/co-mot-nha-tu-doc-nhat-vo-nhi-tren-the-gioi-ky-i-283885.html",
+    "https://www.sggp.org.vn/hon-300-cuu-tu-tham-lai-dia-chi-do-nha-lao-thieu-nhi-da-lat-post745638.html",
+    "https://kienthuc.net.vn/kho-tri-thuc/vao-chon-dia-nguc-tran-gian-cua-tre-em-giua-da-lat-942898.html",
+    "https://www.openstreetmap.org/relation/7758125"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu: SGGP 21/06/2024 kể hơn 300 cựu tù thăm lại di tích; OSM ghi tourism=museum.",
+   "ghi_chu": "Cách Dinh 1 khoảng 850 m về phía bắc, cách hồ Than Thở khoảng 1 km; khác phường với Dinh 1 (Lâm Viên). Năm lập: Báo Lâm Đồng ghi đầu năm 1971, giải tán đầu tháng 6/1973. Bài Kiến Thức em chỉ thấy đoạn trích qua tìm kiếm (xây 1971, giải tán 1973, di tích 22/6/2009). Đường gần nhất trong duong.json: Xóm Chùa 113 m, Hồ Xuân Hương 123 m, Hùng Vương 211 m.",
+   "vi_tri": {
+    "lon": 108.47065,
+    "lat": 11.9521,
+    "cach": "tên trên OpenStreetMap: Nhà lao thiếu nhi Đà Lạt (tâm khối nhà)",
+    "osm": "relation/7758125"
+   }
+  },
+  {
+   "ten": "Đường sắt răng cưa Tháp Chàm – Đà Lạt, đoạn Đà Lạt – Trại Mát",
+   "loai": "tuyến đường sắt cũ, còn chạy tàu du lịch",
+   "dac_trung": "Đoạn đường sắt gần 7 km còn lại của tuyến răng cưa Tháp Chàm – Đà Lạt (khởi công 1908), khôi phục năm 1991 để chạy tàu du lịch Đà Lạt – Trại Mát; chạy ngang phía bắc Dinh 1, khoảng 700 m.",
+   "dia_chi": "giữa Ga Đà Lạt và Ga Trại Mát, chạy dọc phía bắc Hùng Vương",
+   "duong": "Hùng Vương",
+   "so_nha": "",
+   "nguon": [
+    "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+    "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+    "https://vi.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_s%E1%BA%AFt_Th%C3%A1p_Ch%C3%A0m_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.openstreetmap.org/way/99661030"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở: tàu du lịch còn chạy (Nhân Dân 06/2026).",
+   "ghi_chu": "Hai ga đầu cuối đã có trong data/pho/ga-da-lat.json và trai-mat.json; ở đây chỉ ghi đoạn ray như một mốc địa lý quanh Dinh 1 (cách khoảng 695 m theo OSM). Nguồn dùng lại của nghiên cứu phố Ga Đà Lạt.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Nhà thờ Thánh Giuse Thợ – Giáo xứ Tạo Tác",
+   "duong": "Phan Chu Trinh",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/542725615",
+    "https://wanderlog.com/place/details/10376088/tạo-tác-church"
+   ],
+   "ly_do": "Có 2 trang nhưng không trang nào ghi năm xây, lịch sử giáo xứ hay nguồn gốc tên 'Tạo Tác'; cách Dinh 1 khoảng 900 m về phía tây bắc. Chưa đủ để làm mốc lâu đời."
+  },
+  {
+   "ten": "Làng trẻ em SOS Đà Lạt (và Trường PT Hermann Gmeiner, 63-65 Hùng Vương)",
+   "duong": "Hùng Vương",
+   "so_nha": "63-65 (trường)",
+   "nguon": [
+    "https://vov.vn/xa-hoi/trung-thu-yeu-thuong-o-lang-tre-em-sos-da-lat-post1335828.vov",
+    "https://www.soschildrensvillages.ca/vietnam/sos-childrens-village-dalat",
+    "https://www.openstreetmap.org/way/696794335"
+   ],
+   "ly_do": "Có thật (VOV 09/2026: đang nuôi 46 em), nhưng chưa nguồn nào ghi năm lập; không phải mốc lâu đời. Cách Dinh 1 khoảng 750 m về phía bắc."
+  },
+  {
+   "ten": "Bãi trực thăng và đường hầm sau đồi Dinh 1",
+   "duong": "Trần Quang Diệu",
+   "so_nha": "1",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281"
+   ],
+   "ly_do": "Chỉ mia kể chi tiết (lối hầm giấu sau giá sách, dẫn ra bãi trực thăng sau đồi, kho xăng, kính chống đạn); Wikipedia chỉ nói thời Ngô Đình Diệm 'làm thêm đường hầm'. Nằm trong khuôn viên dinh, không phải nơi riêng."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quang-dieu-phuong-10",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-phuong-10",
+  "data/lam-dong/nq1671.json (mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt; mục 101: Phường 8, 9, 12 → Lâm Viên - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json (tên đường: Trần Quang Diệu, Vòng Dinh, Trần Thái Tông, Hùng Vương, Hồ Xuân Hương)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.462,11.938,108.476,11.950 (tải 25/11/2026, tìm điểm có tên quanh dinh)",
+  "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+  "https://vi.wikipedia.org/wiki/Dinh_I",
+  "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp"
+ ],
+ "cap_nhat": "2026-11-25"
+}

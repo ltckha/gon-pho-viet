@@ -566,23 +566,41 @@
         return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + '</a>';
       }).join(' · ') + '</span>' + (CANH[muc] ? '<span class="src warn">' + CANH[muc] + '</span>' : '');
     }
-    var h = '<section class="chuyen phan"><h3>Lịch sử</h3>';
+    // một dòng ngắn: câu đầu, tối đa ~70 chữ cái
+    function ngan(t) {
+      var a = (t || '').split(/(?<=[.;])\s|\s\(/)[0].replace(/[.;]$/, '');
+      return a.length > 72 ? a.slice(0, a.lastIndexOf(' ', 70)) + '…' : a;
+    }
+    function dau(muc, one) { return muc === 'blog' || one ? ' <i class="chua-chac" title="chưa chắc">?</i>' : ''; }
+    var h = '<section class="chuyen phan"><h3>🕰️ Lịch sử</h3>';
     if (c.ten_cu.length) {
-      h += '<p class="ten-cu"><b>Tên xưa:</b> ' + c.ten_cu.map(function (t) {
-        return esc(t.ten) + (t.thoi_gian ? ' <span class="muted">(' + esc(t.thoi_gian) + ')</span>' : '') + (t.muc === 'blog' ? ' <span class="src warn">chưa chắc</span>' : '');
-      }).join(' → ') + '</p>';
+      h += '<div class="ten-xua"><span class="nhan">Tên xưa</span>' + c.ten_cu.map(function (t) {
+        return '<span class="chip-ten">' + esc(t.ten.replace(/\s*\(.*$/, '')) + '</span>';
+      }).join('<span class="mui">→</span>') + '</div>';
     }
     if (c.moc.length) {
-      h += '<ol class="moc-nam">' + c.moc.map(function (m) {
-        return '<li><b>' + esc(m.nam) + '</b><span>' + esc(m.su_kien) + '</span>' + src(m.nguon, m.mot_nguon, m.muc) + '</li>';
+      h += '<ol class="dong-tg">' + c.moc.map(function (m) {
+        return '<li><details><summary><b class="nam">' + esc(m.nam) + '</b><span>' + esc(ngan(m.su_kien)) + dau(m.muc, m.mot_nguon) + '</span></summary>' +
+          '<p>' + esc(m.su_kien) + '</p>' + src(m.nguon, m.mot_nguon, m.muc) + '</details></li>';
       }).join('') + '</ol>';
     }
-    c.chuyen.forEach(function (t) {
-      h += '<div class="mau-chuyen"><b>' + esc(t.tieu_de) + '</b><span>' + esc(t.noi_dung) + '</span>' + src(t.nguon, t.mot_nguon, t.muc) + '</div>';
-    });
+    if (c.chuyen.length) {
+      h += '<div class="chuyen-the"><span class="nhan">Chuyện kể · chạm để đọc</span>' + c.chuyen.map(function (t) {
+        return '<details class="mau-chuyen"><summary>📖 ' + esc(t.tieu_de) + dau(t.muc, t.mot_nguon) + '</summary><p>' + esc(t.noi_dung) + '</p>' + src(t.nguon, t.mot_nguon, t.muc) + '</details>';
+      }).join('') + '</div>';
+    }
     return h + '</section>';
   }
 
+
+  // Biểu tượng theo từ khoá (để đọc nhanh bằng mắt, ít chữ)
+  var BT = [[/chùa|thiền viện|đình|thánh thất|lăng/i, '🛕'], [/nhà thờ/i, '⛪'], [/ga |ga$|tàu|đường sắt|hỏa xa|xe lửa/i, '🚂'],
+    [/trường|đại học|lycée/i, '🏫'], [/dinh|biệt thự|khách sạn|resort|nghỉ dưỡng|villa|homestay|hostel/i, '🏛️'], [/chợ|siêu thị/i, '🛒'],
+    [/hồ|suối|thác|đập/i, '🌊'], [/núi|đồi|đỉnh|thung lũng|rừng|săn mây/i, '⛰️'], [/hoa|vườn|làng hoa|nhà kính/i, '🌷'],
+    [/chè|trà/i, '🍵'], [/cà phê|cafe|café|coffee/i, '☕'], [/kem|chè|bánh ngọt|tiệm bánh|dâu/i, '🍨'],
+    [/lẩu|nướng|nem|gà|bò|ốc|dê|cá|cơm|phở|bún|mì|hủ tiếu|bánh căn|bánh mì|bánh ướt|bánh bèo|bánh tráng|xíu mại|cháo|ăn/i, '🍲'],
+    [/bar|bia|rượu|vang/i, '🍷'], [/áo len|đặc sản|thổ cẩm|nhà sách|thuốc|thuê xe/i, '🛍️'], [/golf|quảng trường|công viên|bảo tàng|cáp treo|tuabin|điện gió|khu du lịch|vui chơi|cắm trại|leo núi/i, '🎟️']];
+  function bieuTuong(t) { for (var i = 0; i < BT.length; i++) if (BT[i][0].test(t)) return BT[i][1]; return '•'; }
   function hoaDau(t) { return t ? t.charAt(0).toUpperCase() + t.slice(1) : t; }
   function showPho(ph) {
     phoBox = highlight(ph);
@@ -601,25 +619,31 @@
                     : '<div class="banner none">Tranh đầu phố: đang chờ vẽ</div>') +
       '<h2>' + esc(ten) + '</h2>' +
       (ph.dac_trung ? '<p class="dac-trung">' + esc(ph.dac_trung) + '</p>' : '') +
-      '<section class="phan dia-ly"><h3>Địa lý</h3>' +
+      '<section class="phan dia-ly"><h3>🗺️ Địa lý</h3>' +
       '<div id="soDo" class="so-do" aria-label="Bản đồ ' + esc(ten) + '"><p class="note">Đang vẽ bản đồ…</p></div>' +
-      '<dl class="facts">' +
-      '<dt>Phường</dt><dd>' + esc(ph.ward) + '</dd>' +
-      '<dt>Đường</dt><dd>' + ph.duong.filter(function (d) { return !/^Hẻm /.test(d); }).map(esc).join(', ') + '</dd>' +
-      (gan.length ? '<dt>Gần</dt><dd>' + gan.map(function (m) { return esc(m.ten); }).join(', ') + '</dd>' : '') +
-      '<dt>Cách Chợ Đà Lạt</dt><dd>' + (kc <= 100 ? 'ngay cạnh chợ' : 'khoảng ' + (kc >= 2000 ? fmt(kc / 100) / 10 + ' km' : fmt(kc) + ' m') + ' đường chim bay') + '</dd>' +
-      '</dl>' +
+      '<div class="o-bt">' +
+      '<span>📍 ' + esc(ph.ward.replace(' - Đà Lạt', '')) + '</span>' +
+      '<span>🛣️ ' + ph.duong.filter(function (d) { return !/^Hẻm /.test(d); }).slice(0, 3).map(esc).join(', ') + '</span>' +
+      '<span>🚶 ' + (kc <= 100 ? 'sát Chợ Đà Lạt' : (kc >= 2000 ? fmt(kc / 100) / 10 + ' km' : fmt(kc) + ' m') + ' tới Chợ Đà Lạt') + '</span>' +
+      gan.map(function (m) { return '<span>' + bieuTuong(m.ten) + ' ' + esc(m.ten) + '</span>'; }).join('') +
+      '</div>' +
       '<button class="go" type="button" id="seeMap">Xem trên bản đồ thật</button></section>';
     if (ph.chuyen) h += chuyenHtml(ph.chuyen);
-    h += '<section class="phan nay"><h3>Nay có gì</h3><p>' + esc(hoaDau(ph.gioi_thieu.replace(/^[^:]{0,60}:\s*/, ''))) + '</p>' +
-      (ph.ban_gi ? '<p><b>Ở đây bán gì:</b> ' + esc(ph.ban_gi) + '</p>' : '');
+    h += '<section class="phan nay"><h3>🧺 Nay có gì</h3>';
+    if (ph.ban_gi) {
+      h += '<div class="o-bt mon">' + ph.ban_gi.replace(/\.$/, '').split(/[;,]\s*|\s+và\s+/).map(function (x) {
+        x = x.replace(/^(dọc phố có|dọc đường là|dọc đường có|quanh đó có|quanh ga có|quanh đó|gần đó|thêm|sáng có|buổi sáng|tối có|chiều tối|ban ngày là|tối thành|đầu dốc gần hồ có|rẽ sang Trương Công Định là|đi dạo quanh hồ|ven hồ có)\s*/i, '').trim();
+        return x ? '<span>' + bieuTuong(x) + ' ' + esc(x.charAt(0).toUpperCase() + x.slice(1)) + '</span>' : '';
+      }).join('') + '</div>';
+    }
     if (moc.length) {
       h += '<h4>Mốc lâu đời</h4><ol class="bd-list">' + moc.map(function (i, k) {
         var d = ph.dia_diem[i];
         return '<li><button type="button" data-q="' + i + '"><span class="so' + (d.vi_tri ? '' : ' none') + '">' + (d.vi_tri ? k + 1 : '–') + '</span>' +
-          '<b>' + esc(d.ten.replace(/\s*\(.*\)$/, '')) + '</b><small>' + esc(d.loai) + '</small></button></li>';
+          '<b>' + bieuTuong(d.ten + ' ' + d.loai) + ' ' + esc(d.ten.replace(/\s*\(.*\)$/, '')) + '</b></button></li>';
       }).join('') + '</ol>';
     }
+    h += '<details class="doc-them"><summary>Đọc thêm giới thiệu</summary><p>' + esc(hoaDau(ph.gioi_thieu.replace(/^[^:]{0,60}:\s*/, ''))) + '</p></details>';
     h += '<div id="quanCard" class="quan-card" hidden></div></section>' +
       '<p class="note">Mỗi ý ghi nguồn bấm được; ý chỉ có 1 nguồn, hay chỉ dựa trang du lịch, blog thì ghi rõ. Đường và vị trí: © OpenStreetMap. ' +
       '<a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">Xem nghiên cứu</a>.</p>';

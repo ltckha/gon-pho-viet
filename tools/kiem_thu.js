@@ -60,7 +60,7 @@ const URL = process.env.URL || 'http://localhost:8765/';
   if (!(await p.isVisible('#sheet.full'))) fail('Bấm ghim phố không ra trang phố');
   if (!/^#pho-/.test(await p.evaluate(() => location.hash))) fail('Trang phố không có địa chỉ riêng (#pho-…)');
   const phan = await p.locator('.phan > h3').allTextContents();
-  for (const t of ['Địa lý', 'Lịch sử', 'Nay có gì']) if (!phan.includes(t)) fail('Trang phố thiếu phần "' + t + '"');
+  for (const t of ['Địa lý', 'Lịch sử', 'Nay có gì']) if (!phan.some((x) => x.includes(t))) fail('Trang phố thiếu phần "' + t + '"');
   if ((await p.locator('.bd-list small, .quan-card .addr').filter({ hasText: /\d+\s+[A-ZĐ]/ }).count()) > 0) fail('Trang phố còn bày số nhà');
   const nPlace = phan.length;
   const imgOk = await p.evaluate(() => { const i = document.querySelector('.banner'); return i && i.complete && i.naturalWidth > 0; });

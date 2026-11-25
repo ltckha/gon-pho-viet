@@ -1,0 +1,318 @@
+{
+ "road": "Trúc Lâm Yên Tử",
+ "duong": [
+  "Trúc Lâm Yên Tử",
+  "Đèo Prenn",
+  "Trần Thánh Tông",
+  "Hoa Cẩm Tú Cầu",
+  "Hoa Hồng",
+  "Quốc lộ 20"
+ ],
+ "ten_osm": [
+  "Trúc Lâm Yên Tử",
+  "Đèo Prenn",
+  "Trần Thánh Tông",
+  "Hoa Cẩm Tú Cầu",
+  "Hoa Hồng",
+  "Quốc lộ 20"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Cả khu nằm trong Phường 3 và Phường 4 cũ, đều gộp vào Xuân Hương - Đà Lạt (NQ 1671, mục 99: 'Phường 1 và Phường 2 (thành phố Đà Lạt), Phường 3, Phường 4, Phường 10'). Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat: Đèo Prenn - PHƯỜNG 3 (2 đoạn, tới Cầu Prenn); Trúc Lâm Yên Tử - PHƯỜNG 3 'Trọn đường'; Trần Thánh Tông - PHƯỜNG 4 'Từ thửa 32, tờ bản đồ số 31, phường 3 - Đến Thiền Viện Trúc Lâm (đầu thửa 8, tờ bản đồ số 12, phường 4 và thửa 53, tờ bản đồ số 31, phường 3)' — tức thiền viện nằm giáp ranh P3/P4. Các đường nội khu hồ Tuyền Lâm (Hoa Cẩm Tú Cầu, Hoa Hồng) không có trong bảng giá đất; kiểm bằng ranh phuong.json thì nằm trọn trong Xuân Hương. Mọi đoạn đường trong danh sách, kể cả 3 mốc Thác Datanla, Thác Prenn, ga cáp treo, đều rơi trong ranh Xuân Hương - Đà Lạt của phuong.json.",
+ "doan": [
+  {
+   "doan": "Đèo Prenn: ngã ba Ba Tháng Tư – Đống Đa đến ngã ba Mimosa – Prenn",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/deo-prenn-phuong-3"
+  },
+  {
+   "doan": "Đèo Prenn: ngã ba Mimosa – Prenn đến Cầu Prenn (gần thác Prenn)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/deo-prenn-phuong-3"
+  },
+  {
+   "doan": "Trúc Lâm Yên Tử: trọn đường (từ Đèo Prenn cạnh thác Datanla vào cổng thiền viện)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/truc-lam-yen-tu-phuong-3"
+  },
+  {
+   "doan": "Trần Thánh Tông: đoạn tới Thiền viện Trúc Lâm",
+   "phuong_cu": "Phường 4 (đầu thiền viện giáp Phường 3)",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-thanh-tong-phuong-4"
+  },
+  {
+   "doan": "Hoa Cẩm Tú Cầu (thiền viện xuống bến thuyền hồ Tuyền Lâm), Hoa Hồng (bờ tây hồ, Đường hầm điêu khắc)",
+   "phuong_cu": "Phường 3 / Phường 4 (theo trang du lịch)",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "khá chắc",
+   "nguon": "https://mia.vn/cam-nang-du-lich/den-the-seen-house-coffee-va-ngam-ho-tuyen-lam-dep-nhu-tranh-thuy-mac-1531",
+   "ghi_chu": "Không có trong bảng giá đất. mia ghi The Seen House 'KDL Hồ Tuyền Lâm, Phường 3'; Đường hầm điêu khắc 'trước đây thuộc phường 4, nay thuộc phường Xuân Hương'. Ranh phuong.json: trọn trong Xuân Hương."
+  },
+  {
+   "doan": "Quốc lộ 20: đoạn ngang thác Prenn (cuối đèo)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+   "ghi_chu": "SGGP 08/10/2026 ghi khu thác Prenn thuộc 'phường Xuân Hương - Đà Lạt'; mia ghi 'Phường 3'. Phần lớn 'Quốc lộ 20' trong OSM (hướng Trại Mát) thuộc Xuân Trường - Đà Lạt, không thuộc phố này."
+  }
+ ],
+ "ten_pho": "Phố Thiền và Thác",
+ "gioi_thieu": "Phố Thiền và Thác: từ đầu đèo Prenn, cáp treo đồi Robin chạy hơn 2 km trên rừng thông tới Thiền viện Trúc Lâm (khánh thành năm 1994) trên núi Phụng Hoàng nhìn xuống hồ Tuyền Lâm; xuôi đèo là thác Datanla có đường xe trượt xuyên rừng, cuối đèo là thác Prenn.",
+ "dia_diem": [
+  {
+   "ten": "Thiền viện Trúc Lâm",
+   "loai": "thiền viện, điểm tham quan",
+   "dac_trung": "Thiền viện lớn của dòng Trúc Lâm trên núi Phụng Hoàng, Hòa thượng Thích Thanh Từ lập; khởi công 1993, xong 1994; khuôn viên khoảng 24 ha (Wikipedia tiếng Anh, vietnamtourism.com); có hồ Tĩnh Tâm trước chính điện, từ đây đi bộ xuống hồ Tuyền Lâm hoặc đi cáp treo về đồi Robin. Thiết kế có sự tham gia của kiến trúc sư Ngô Viết Thụ.",
+   "dia_chi": "đường Trúc Lâm Yên Tử, phường Xuân Hương - Đà Lạt",
+   "duong": "Trúc Lâm Yên Tử",
+   "so_nha": null,
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_(%C4%90%C3%A0_L%E1%BA%A1t)",
+    "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m_Monastery_of_Da_Lat",
+    "https://www.vietnamtourism.com/vi/thien-vien-truc-lam-da-lat-lich-su-diem-tham-quan-va-cach",
+    "https://mia.vn/cam-nang-du-lich/thien-vien-truc-lam-da-lat-20040",
+    "https://voh.com.vn/du-lich/thien-vien-truc-lam-da-lat-noi-tim-thay-binh-yen-giua-bon-be-cuoc-song-331987.html",
+    "https://www.openstreetmap.org/way/1356287796"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở cho khách viếng (vietnamtourism.com cập nhật 23/10/2026: khoảng 07:00–17:00). Giờ lệch giữa các trang: OSM 07:00–11:30, 13:30–17:00; mia 07/2026 và VOH 2019 ghi 5:00–21:00.",
+   "ghi_chu": "Tên đường lệch: mia 07/2026 ghi 'Trúc Lâm Yên Tử', bài mia cũ và VOH ghi 'đường Trần Thánh Tông'. Bảng giá đất cho thấy Trần Thánh Tông chạy tới thiền viện, Trúc Lâm Yên Tử nối từ Đèo Prenn vào. Em để 'Trúc Lâm Yên Tử' vì cổng gần cuối đường này nhất trên OSM. Tâm khuôn viên trên OSM cách đường khoảng 190 m nên chưa ghim tự động."
+  },
+  {
+   "ten": "Cáp treo Đà Lạt (ga đồi Robin)",
+   "loai": "cáp treo",
+   "dac_trung": "Tuyến cáp treo duy nhất của Đà Lạt, từ đồi Robin ở đầu đèo Prenn sang Thiền viện Trúc Lâm, khoảng 12 phút; thiết bị Doppelmayr, xây năm 2002. Chiều dài các nguồn ghi lệch: 2.227 m (remontees-mecaniques.net), 2.267 m (mia), khoảng 2,3 km (localvietnam, vietnamtourism.com).",
+   "dia_chi": "đồi Robin, đầu đèo Prenn (mia ghi 'số 01 đường Đống Đa, phường 3')",
+   "duong": "Đèo Prenn",
+   "so_nha": null,
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/cap-treo-da-lat-co-gi-dac-sac-19550",
+    "https://localvietnam.com/blog/truc-lam-pagoda-dalat-cable-car/",
+    "https://remontees-mecaniques.net/bdd/reportage-tcd4-dalat-doppelmayr-2222.html",
+    "https://www.vietnamtourism.com/vi/thien-vien-truc-lam-da-lat-lich-su-diem-tham-quan-va-cach",
+    "https://www.openstreetmap.org/node/357447237"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn chạy (mia 31/10/2025 ghi giờ: T2–T6 7:30–11:30, 13:00–17:00; T7–CN 7:30–17:00; vietnamtourism.com 10/2026 vẫn hướng dẫn đi cáp). OSM ghi 08:00–17:00.",
+   "ghi_chu": "Không ghi số nhà: mia ghi '01 Đống Đa' nhưng điểm ga trên OSM cách đầu đường Đống Đa khoảng 450 m, cách Đèo Prenn khoảng 110 m — để trống cho khỏi ghim sai."
+  },
+  {
+   "ten": "Hồ Tuyền Lâm",
+   "loai": "hồ, khu du lịch quốc gia",
+   "dac_trung": "Hồ nước ngọt hình thành sau khi đắp đập dài 235 m chắn suối Tía (xây 1982–1987), tên ban đầu là hồ Quang Trung; Khu du lịch hồ Tuyền Lâm là khu du lịch quốc gia đầu tiên (QĐ 205/QĐ-TTg ngày 15/02/2017). Có bến thuyền dưới chân thiền viện, chèo SUP. Diện tích mặt hồ các nguồn lệch (khoảng 320 ha theo VnExpress, 360 ha theo mia).",
+   "dia_chi": "bến thuyền cuối đường Hoa Cẩm Tú Cầu, dưới Thiền viện Trúc Lâm",
+   "duong": "Hoa Cẩm Tú Cầu",
+   "so_nha": null,
+   "nguon": [
+    "https://vnexpress.net/ngay-moi-tren-ho-tuyen-lam-4036525.html",
+    "https://tapchicongthuong.vn/ho-tuyen-lam---canh-dep-khong-bao-gio-cu-115828.htm",
+    "https://baovanhoa.vn/du-lich/khu-du-lich-quoc-gia-ho-tuyen-lam-da-lat%C2%A0-bai-toan-hieu-qua-va-ben-vung-1969.html",
+    "https://mia.vn/cam-nang-du-lich/ho-tuyen-lam-da-lat-18911",
+    "https://tuoitre.vn/cam-nang-du-lich-da-lat-diem-den-da-ngoai-ket-hop-the-thao-20230408171213813.htm",
+    "https://www.openstreetmap.org/node/11598941137"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mặt hồ công cộng, luôn đến được; dịch vụ thuyền/SUP tùy đơn vị (Tuổi Trẻ 2023 nhắc Dalat Discovery)."
+  },
+  {
+   "ten": "Khu du lịch thác Datanla",
+   "loai": "thác, khu du lịch mạo hiểm",
+   "dac_trung": "Thác cao hơn 20 m (mia) ngay bên đèo Prenn; đường xe trượt xuyên rừng thông xuống chân thác (Tuổi Trẻ 2023: 2.400 m, 155.000 đồng/vé), có đu dây, high rope, vượt thác (canyoning). Do Công ty CP Du lịch Lâm Đồng làm chủ đầu tư.",
+   "dia_chi": "Quốc lộ 20, đèo Prenn, phường Xuân Hương - Đà Lạt",
+   "duong": "Đèo Prenn",
+   "so_nha": null,
+   "nguon": [
+    "https://tuoitre.vn/cam-nang-du-lich-da-lat-diem-den-da-ngoai-ket-hop-the-thao-20230408171213813.htm",
+    "https://mia.vn/cam-nang-du-lich/review-kinh-nghiem-chinh-phuc-thac-datanla-da-lat-1600",
+    "https://thanhtra.com.vn/ket-luan-thanh-tra-E17BD7A25/lam-dong-thanh-tra-chi-ro-ton-tai-kien-nghi-thao-go-vuong-mac-tai-du-an-khu-du-lich-sinh-thai-thac-datanla-818acd62f.html",
+    "https://rcdb.com/18600.htm",
+    "https://www.openstreetmap.org/node/1164597191"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở (mia 03/09/2026: 7:00–17:00 hằng ngày; Báo Thanh Tra 06/07/2026: phần lớn công trình đã đưa vào hoạt động, dự án chậm tiến độ). RCDB ghi các đường xe trượt 'Operating'.",
+   "ghi_chu": "Chiều dài xe trượt lệch: Tuổi Trẻ và trang bán vé ghi 2.400 m; RCDB ghi đường mới 5.577,4 ft (khoảng 1.700 m), đường cũ 2.641,1 ft (khoảng 805 m). Tên OSM 'Thác Datanla' cách Đèo Prenn khoảng 120 m nên chưa ghim tự động."
+  },
+  {
+   "ten": "Khu du lịch thác Prenn",
+   "loai": "thác, khu du lịch",
+   "dac_trung": "Thác dưới chân đèo Prenn, cao gần 10 m (mia; SGGP ghi hơn 10 m); có Đền thờ Âu Lạc (khởi công 10/2001, hoạt động từ 1/2002, theo SGGP), cầu gỗ xuống chân thác, công viên nước, khu trà.",
+   "dia_chi": "cuối đèo Prenn, cạnh Quốc lộ 20 (mia: 'đường cao tốc Liên Khương – Prenn')",
+   "duong": "Quốc lộ 20",
+   "so_nha": null,
+   "nguon": [
+    "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+    "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465",
+    "https://www.openstreetmap.org/node/4096525696"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở (SGGP 08/10/2026: đông khách cuối tuần, do Công ty CP dịch vụ du lịch Đà Lạt quản lý). Giá vé lệch nhiều giữa các trang (mia 2023: 50.000 đồng; vinpearl/vinwonders: 220.000–250.000 đồng) — không ghi."
+  },
+  {
+   "ten": "Tiệm cà phê Nhà Bên Suối",
+   "loai": "quán cà phê",
+   "dac_trung": "Quán không tường bên con suối nhỏ trong rừng, khách ngồi bên bờ hoặc ngâm chân; tông cam, có lều kiểu Mông Cổ và xe buýt cam để chụp ảnh; đồ uống, bánh 35.000–55.000 đồng.",
+   "dia_chi": "3 Trúc Lâm Yên Tử",
+   "duong": "Trúc Lâm Yên Tử",
+   "so_nha": "3",
+   "nguon": [
+    "https://vnexpress.net/2-quan-ca-phe-moi-mo-hut-gioi-tre-da-lat-4304565.html",
+    "https://mia.vn/cam-nang-du-lich/tiem-ca-phe-nha-ben-suoi-18475",
+    "https://www.openstreetmap.org/node/11840673733"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu (mia 05/06/2025: 07:00–18:30; VnExpress 2021: 8h30–17h30).",
+   "ghi_chu": "Số 3: mia và OSM (addr:housenumber=3, addr:street=Trúc Lâm Yên Tử). VnExpress tả 'gần ngã ba đường Hoa Phượng giao với Trúc Lâm Yên Tử'."
+  },
+  {
+   "ten": "The Seen House",
+   "loai": "quán cà phê, homestay ven hồ",
+   "dac_trung": "Quán cà phê kiêm homestay sát bờ hồ Tuyền Lâm gần bến thuyền, nhìn ra hồ, núi Voi và rừng thông; đồ uống 15.000–60.000 đồng (mia).",
+   "dia_chi": "khu Vườn Thương, KDL hồ Tuyền Lâm (OSM: 18 Tuyền Lâm), cạnh đường Hoa Cẩm Tú Cầu",
+   "duong": "Hoa Cẩm Tú Cầu",
+   "so_nha": null,
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/den-the-seen-house-coffee-va-ngam-ho-tuyen-lam-dep-nhu-tranh-thuy-mac-1531",
+    "https://vietnamcoracle.com/19-coffee-shops-in-da-lat-with-a-view",
+    "https://wanderlog.com/place/details/2945570/the-seen-house",
+    "https://www.openstreetmap.org/node/8310652209"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu (mia đề ngày 01/07/2026: 06:00–22:00). Trang tổng hợp của Foody hiện 'Chưa mở cửa' — có thể chỉ là ngoài giờ lúc xem.",
+   "ghi_chu": "OSM ghi addr:street 'Tuyền Lâm' — tên này không có trong duong.json; đường gần nhất là Hoa Cẩm Tú Cầu (khoảng 30 m)."
+  },
+  {
+   "ten": "Đường hầm điêu khắc (Clay Tunnels - Dalat Star)",
+   "loai": "điểm tham quan, điêu khắc đất sét",
+   "dac_trung": "Đường hầm và nhà đắp bằng đất đỏ bazan, tái hiện cảnh Đà Lạt (thung lũng Tình Yêu, hồ Tuyền Lâm, sân bay Liên Khương…); nhà đất sét có 2 kỷ lục Việt Nam (VnExpress 2014). Chiều dài hầm các nguồn ghi lệch: 1,2 km (VnExpress 2014), hơn 2 km (mia 2026).",
+   "dia_chi": "khu du lịch Dalat Star, bờ tây hồ Tuyền Lâm (Phường 4 cũ)",
+   "duong": "Hoa Hồng",
+   "so_nha": null,
+   "nguon": [
+    "https://vnexpress.net/cong-trinh-dieu-khac-dat-set-o-da-lat-3038274.html",
+    "https://mia.vn/cam-nang-du-lich/duong-ham-dieu-khac-19769",
+    "https://www.openstreetmap.org/node/4368051989"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu (mia 07/07/2026: 7h–17h, vé người lớn 120.000 đồng tham khảo 2026)."
+  },
+  {
+   "ten": "Lululola Coffee+",
+   "loai": "quán cà phê, nhạc sống",
+   "dac_trung": "Quán trên đồi Cà Ri Dê ở đầu đèo Prenn, nhìn thung lũng, đông khách lúc hoàng hôn (từ khoảng 16h); buổi tối có ca sĩ, ban nhạc diễn (vé 300.000–1.400.000 đồng theo mia 2023).",
+   "dia_chi": "Đường 3 Tháng 4, đầu đèo Prenn, đồi Cà Ri Dê",
+   "duong": "Đèo Prenn",
+   "so_nha": null,
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/lululola-coffee-da-lat-12641",
+    "https://www.foody.vn/lam-dong/lululola-coffee",
+    "https://www.openstreetmap.org/node/7236155987"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ (mia 11/09/2023: 8h–22h; Foody có 9 bình luận, ghi đã lâu không có tương tác mới). Chưa có nguồn 2025–2026.",
+   "ghi_chu": "Địa chỉ các trang ghi 'Đường 3/4' nhưng điểm OSM 'LululoLa Coffee+' cách 'Đường Ba Tháng Tư' khoảng 710 m, cách Đèo Prenn khoảng 210 m (trong lối mòn trên đồi) — em ghi Đèo Prenn, không ghim."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Lavenderdalat Coffee House",
+   "duong": "chưa rõ (địa chỉ 'số 1 Hoa Hoàng Anh' — tên này không có trong duong.json)",
+   "so_nha": "1",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/lavenderdalat-coffee-house-quan-ca-phe-co-view-ho-tuyen-lam-quyen-ru-khien-ai-cung-say-long-tai-da-lat-1470",
+    "https://wanderlog.com/place/details/5539184/lavenderdalat-cafe"
+   ],
+   "ly_do": "đủ 2 trang nhưng không gắn được đường OSM, chưa có điểm trên OSM; nguồn có ngày mới nhất là mia 21/09/2023 (Phường 4, view hồ Tuyền Lâm, vườn oải hương)."
+  },
+  {
+   "ten": "Quán Đà Tiên",
+   "duong": "chưa rõ",
+   "so_nha": null,
+   "nguon": [
+    "https://www.foody.vn/lam-dong/quan-da-tien"
+   ],
+   "ly_do": "1 nguồn (Foody, quán thịt rừng khu hồ Tuyền Lâm), chưa rõ còn mở."
+  },
+  {
+   "ten": "Cafe Ngày Mới (Cafe Vườn Thương cũ)",
+   "duong": "Hoa Cẩm Tú Cầu",
+   "so_nha": null,
+   "nguon": [
+    "https://wanderlog.com/place/details/8631831/cafe-ngày-mới"
+   ],
+   "ly_do": "1 nguồn; OSM có nhà hàng 'Vuon Thuong' cạnh Hoa Cẩm Tú Cầu nhưng chưa chắc là cùng nơi."
+  },
+  {
+   "ten": "Anna's Coffee House",
+   "duong": "Đèo Prenn",
+   "so_nha": null,
+   "nguon": [
+    "https://vietnamcoracle.com/19-coffee-shops-in-da-lat-with-a-view"
+   ],
+   "ly_do": "1 nguồn (ngay lối vào ga cáp treo, nhìn đèo Prenn; bài 2022)."
+  },
+  {
+   "ten": "Sam Cafe - Hồ Tuyền Lâm",
+   "duong": "Hoa Cẩm Tú Cầu",
+   "so_nha": null,
+   "nguon": [
+    "https://www.openstreetmap.org/node/14301547901"
+   ],
+   "ly_do": "chỉ OSM."
+  },
+  {
+   "ten": "Tay Mo Amateurs Cafe",
+   "duong": "Đèo Prenn",
+   "so_nha": null,
+   "nguon": [
+    "https://www.openstreetmap.org/node/13518499072"
+   ],
+   "ly_do": "chỉ OSM (ghi mở T5–T2 08:30–17:30)."
+  },
+  {
+   "ten": "Dalat Edensee Lake Resort & Spa",
+   "duong": "Hoa Phượng Tím",
+   "so_nha": null,
+   "nguon": [
+    "https://www.openstreetmap.org/way/473736708"
+   ],
+   "ly_do": "chỉ OSM em đã đọc; trang Foody có hiện trong kết quả tìm nhưng em chưa mở."
+  },
+  {
+   "ten": "Nhà Ma đèo Prenn",
+   "duong": "Đèo Prenn",
+   "so_nha": null,
+   "nguon": [
+    "https://www.foody.vn/lam-dong/nha-ma-deo-prenn"
+   ],
+   "ly_do": "1 nguồn; bình luận Foody nói sau khi sửa không còn là điểm tham quan, có thể đã thành quán cà phê."
+  }
+ ],
+ "da_dong": [
+  {
+   "ten": "Zen Cafe (ven hồ Tuyền Lâm)",
+   "nguon": [
+    "https://vietnamcoracle.com/19-coffee-shops-in-da-lat-with-a-view"
+   ],
+   "ly_do": "Vietnam Coracle ghi tạm đóng; bình luận năm 2023 trên cùng trang nói đã đóng hẳn."
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/deo-prenn-phuong-3",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/truc-lam-yen-tu-phuong-3",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-thanh-tong-phuong-4",
+  "data/lam-dong/nq1671.json (mục 99)",
+  "data/lam-dong/phuong.json (kiểm điểm trong ranh Xuân Hương - Đà Lạt)",
+  "data/lam-dong/da-lat/duong.json (Trúc Lâm Yên Tử 5 đoạn, Đèo Prenn 10 đoạn, Trần Thánh Tông, Hoa Cẩm Tú Cầu, Hoa Hồng, Quốc lộ 20)",
+  "https://api.openstreetmap.org/api/0.6/map (ô 0,02° phủ 108.40–108.48, 11.87–11.93, tải 25/11/2026)"
+ ],
+ "cap_nhat": "2026-11-25"
+}

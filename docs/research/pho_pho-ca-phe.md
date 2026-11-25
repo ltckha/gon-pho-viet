@@ -64,3 +64,16 @@ Ngày nghiên cứu: 25/11/2026. File dữ liệu: `data/pho/pho-ca-phe.json`.
 4. **Còn mở hay không:** chỉ Phê La có dấu hiệu rõ (trang chính thức ghi tên phường mới). Café Nga có bài 6/2025. Các nơi còn lại nguồn mới nhất 2019–2021. Không truy được Google Maps (cần khoá API). OpenStreetMap không có tiệm nào quanh 2 đường (theo `docs/research/2026-11-23_osm_tiem_da_lat.md` của game).
 5. **Khu Hòa Bình 2025:** tháng 9–10/2025 phường tháo 7 ki-ốt Phong Lan cạnh chợ, nhiều quán cà phê cóc dời đi, cà phê Lan còn bán ở mặt đường Nguyễn Thị Minh Khai ([Znews 25/10/2025](https://znews.vn/dien-mao-moi-cua-ca-phe-khu-hoa-binh-da-lat-post1596644.html)). Không nằm trên 2 đường nhưng ảnh hưởng không khí "phố cà phê sáng" của khu.
 6. Câu "Coffee Street" chỉ có 1 nguồn (Airbnb, chủ villa viết 2018), không thấy báo nào gọi Nguyễn Chí Thanh là "phố cà phê". Tên "Phố Cà Phê" là tên game đặt.
+
+## Kiểm thêm 25/11/2026
+
+Kiểm lại 4 nơi ở mục "Cần kiểm thêm". Không dùng Google Maps. Kết quả: **0 nơi đạt**, **2 nơi đã đóng hẳn**, **2 nơi vẫn chưa đủ**. Cả 4 nơi vẫn nằm trong `can_kiem_them`.
+
+| Tên | Kết quả | Đã tìm ở đâu / căn cứ |
+|---|---|---|
+| Phượng Tím Cafe (11 Nguyễn Chí Thanh) | vẫn chưa đủ | Tìm thêm trên vinwonders, Vietnam Airlines (cafe-da-lat), [vnexpress "Hoài niệm phố ở cà phê Đà Lạt" (24/9/2014)](https://vnexpress.net/hoai-niem-pho-o-ca-phe-da-lat-3081445.html) và Airbnb, không trang nào nhắc Phượng Tím. [Foody](https://www.foody.vn/lam-dong/phuong-tim-cafe) (đọc 25/11/2026) vẫn để trang quán, bình luận mới nhất 22/06/2020. Mục "đã xem gần đây" của Foody hiện "Tiệm Bánh Cối Xay Gió – 11 Nguyễn Chí Thanh, đang mở cửa". Chưa có nguồn nói Phượng Tím đã đóng. |
+| Little Paris Coffee Dalat (1 Lê Đại Hành) | vẫn chưa đủ | Đọc lại [vinwonders](https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/) (1 Lê Đại Hành, phường Xuân Hương). Tìm Wanderlog, Foody, Tripadvisor, Vietnam Airlines đều không thấy. |
+| Veronica Cafe - Lê Đại Hành | **đã đóng hẳn** | [Wanderlog](https://wanderlog.com/place/details/1781633/veronica-cafe) đọc lại 25/11/2026 vẫn ghi "Permanently closed". Không thấy bài 2025–2026 nào còn nhắc quán. |
+| Len's Cafe & Restaurant (5-7 Nguyễn Chí Thanh) | **đã đóng hẳn** | [Wanderlog](https://wanderlog.com/place/details/1507360/lens-coffee) đọc lại 25/11/2026 vẫn ghi "Permanently closed". Số 7 nay là Phê La. |
+
+Ghi chú: trạng thái "đóng hẳn" trên Wanderlog lấy từ dữ liệu Google. Em chỉ đọc trang Wanderlog, không mở Google Maps.

@@ -118,6 +118,56 @@
    "ghi_chu": "Chỉ 2 nguồn; Foody đánh giá cuối 17/04/2021, vinwonders không ghi giờ/giá.",
    "con_mo": "không rõ (vinwonders 13/07/2025 còn liệt kê nhưng không có chi tiết mới)",
    "vi_tri": null
+  },
+  {
+   "ten": "Bánh tráng nướng Dì Đinh",
+   "loai": "bánh tráng nướng vỉa hè",
+   "dac_trung": "Quầy bánh tráng nướng than hồng bán buổi chiều, thường đông khách; nhiều loại nhân (gà bò, pate, dẻo cút, xíu mại, thập cẩm); khoảng 6.000–28.000đ một cái (mytour).",
+   "duong": "Hoàng Diệu",
+   "so_nha": "26",
+   "dia_chi": "26 Hoàng Diệu",
+   "nguon": [
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/banh-trang-nuong-da-lat",
+    "https://mytour.vn/vi/blog/bai-viet/top-8-dia-diem-banh-trang-nuong-hot-nhat-da-lat.html",
+    "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283",
+    "https://toplist.vn/top-list/quan-banh-trang-nuong-ngon-nhat-o-da-lat-25656.htm"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Cùng số 26 với Bánh Mì Xíu Mại Bé Linh: Bé Linh bán sáng, Dì Đinh bán chiều (giờ ghi lệch: 13h–20h30 theo Vietnam Airlines, 14h–18h30 theo mia.vn, '3–4 giờ chiều tới 7–8 giờ tối' theo khách trên Airbnb). Chưa có nguồn nói rõ hai quán dùng chung mặt tiền.",
+   "con_mo": "có dấu hiệu còn mở 2026: mia.vn 23/07/2026 và mytour cập nhật 01/11/2026 còn liệt kê, ghi giờ bán",
+   "vi_tri": null
+  },
+  {
+   "ten": "Pizza Like - Hoàng Diệu",
+   "loai": "tiệm pizza",
+   "dac_trung": "Quán pizza, mì Ý bình dân, không gian nhiều màu hợp gia đình có trẻ nhỏ; Foody ghi giá 15.000–155.000đ.",
+   "duong": "Hoàng Diệu",
+   "so_nha": "1A",
+   "dia_chi": "1A Hoàng Diệu",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/pizza-like-hoang-dieu",
+    "https://wanderlog.com/place/details/3203660"
+   ],
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "Hai nguồn cùng ghi 1A Hoàng Diệu. Foody chỉ có đánh giá tới 06/2020; Wanderlog (đọc 25/11/2026) ghi địa chỉ theo tên phường mới 'Cam Ly - Đà Lạt', tức trang này được cập nhật sau 1/7/2025.",
+   "con_mo": "có dấu hiệu còn mở: Wanderlog (đọc 25/11/2026) ghi trạng thái đang hoạt động; không có bài báo 2025–2026",
+   "vi_tri": null
+  },
+  {
+   "ten": "Lẩu bò Ba Toa Tô Bò Quán",
+   "loai": "quán lẩu bò",
+   "dac_trung": "Quán lẩu bò trong hẻm khu Ba Toa; thịt bò mềm, nhiều món nhúng; nước chấm chao pha sa tế theo công thức riêng.",
+   "duong": "Hoàng Diệu",
+   "so_nha": null,
+   "dia_chi": "trong hẻm Hoàng Diệu (8/1 theo travel.com.vn, 16/1 theo mia.vn)",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503",
+    "https://travel.com.vn/tin-tuc-du-lich/lau-bo-da-lat-v18540.aspx"
+   ],
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "Hai trang khác nhau cùng ghi quán nằm trong hẻm Hoàng Diệu, nhưng số nhà vênh: mia.vn 23/07/2026 ghi 16/1, travel.com.vn (Vietravel) 25/09/2026 ghi hẻm 8/1 'cùng cụm hẻm với quán Dìn'. Chưa chốt được số nhà nên để trống.",
+   "con_mo": "có dấu hiệu còn mở 2026: travel.com.vn 25/09/2026 và mia.vn 23/07/2026 còn liệt kê",
+   "vi_tri": null
   }
  ],
  "can_kiem_them": [
@@ -130,17 +180,8 @@
     "https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503",
     "https://news.tuoitre.vn/over-20-ba-toa-beef-hotpot-restaurants-line-this-300m-street-in-vietnams-da-lat-10326061223565753.htm"
    ],
-   "ly_do": "Tuổi Trẻ News chỉ nêu tên 'Bi Map' trong khu 3 đường, không nói đường nào; số 29 chỉ 1 nguồn và sát số 29/1 của Quán Gỗ."
-  },
-  {
-   "ten": "Lẩu bò Ba Toa Tô Bò Quán",
-   "loai": "quán lẩu bò",
-   "dia_chi": "16/1 Hoàng Diệu (theo mia.vn)",
-   "so_nha": null,
-   "nguon": [
-    "https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503"
-   ],
-   "ly_do": "Chỉ 1 nguồn."
+   "ly_do": "Tuổi Trẻ News chỉ nêu tên 'Bi Map' trong khu 3 đường, không nói đường nào; số 29 chỉ 1 nguồn và sát số 29/1 của Quán Gỗ.",
+   "kiem_them_25_11_2026": "vẫn chưa đủ: tìm thêm ở travel.com.vn, zalopay.vn, topaz.vn, xedulichdalat.vn, lamdongtours.com, Wanderlog, Foody (tìm theo tên) — không trang nào khác nêu tên Bi Mập kèm địa chỉ."
   },
   {
    "ten": "Tiệm Lẩu Bò Giáo Sĩ",
@@ -151,7 +192,8 @@
     "https://toplist.vn/top-list/quan-lau-bo-hap-dan-nhat-da-lat-33370.htm",
     "https://mytour.vn/en/blog/bai-viet/discover-the-top-8-most-enticing-beef-hotpot-restaurants-in-da-lat-lam-dong-mytourvn.html"
    ],
-   "ly_do": "Bài mytour gần như dịch lại bài toplist (không độc lập); số điện thoại hai bài khác nhau; vinpearl chỉ ghi cơ sở 237 Bùi Thị Xuân."
+   "ly_do": "Bài mytour gần như dịch lại bài toplist (không độc lập); số điện thoại hai bài khác nhau; vinpearl chỉ ghi cơ sở 237 Bùi Thị Xuân.",
+   "kiem_them_25_11_2026": "vẫn chưa đủ cho Hoàng Diệu: topaz.vn (09/2026), zalopay.vn, xedulichdalat.vn đều chỉ ghi 237 Bùi Thị Xuân; travel.com.vn 09/2026 nói chung 'quanh Hoàng Diệu, Nguyễn Thị Định, Bùi Thị Xuân'. Số 56 Hoàng Diệu chỉ có toplist. Có thể cơ sở Hoàng Diệu không còn, chưa có nguồn nói rõ."
   },
   {
    "ten": "Nhà Gỗ Old 09 Ba Toa Beef Hotpot",
@@ -161,27 +203,8 @@
    "nguon": [
     "https://news.tuoitre.vn/over-20-ba-toa-beef-hotpot-restaurants-line-this-300m-street-in-vietnams-da-lat-10326061223565753.htm"
    ],
-   "ly_do": "Chỉ 1 nguồn, không có số nhà, không rõ đường nào."
-  },
-  {
-   "ten": "Bánh tráng nướng dì Đinh",
-   "loai": "bánh tráng nướng vỉa hè",
-   "dia_chi": "26 Hoàng Diệu (theo mia.vn)",
-   "so_nha": null,
-   "nguon": [
-    "https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283"
-   ],
-   "ly_do": "Chỉ 1 nguồn (mia.vn 10/08/2026, bán 14h–18h30); trùng số 26 với Bé Linh — có thể dùng chung vỉa hè buổi chiều, chưa kiểm."
-  },
-  {
-   "ten": "Pizza Like - Hoàng Diệu",
-   "loai": "tiệm pizza",
-   "dia_chi": "1A Hoàng Diệu (theo Foody)",
-   "so_nha": null,
-   "nguon": [
-    "https://www.foody.vn/lam-dong/pizza-like-hoang-dieu"
-   ],
-   "ly_do": "Chỉ 1 nguồn, đánh giá mới nhất 30/06/2020 — có thể đã đóng."
+   "ly_do": "Chỉ 1 nguồn, không có số nhà, không rõ đường nào.",
+   "kiem_them_25_11_2026": "vẫn chưa đủ: tìm thêm ở mia.vn, travel.com.vn, lamdongtours.com (10/2026), Wanderlog — không thấy tên này. lamdongtours chỉ dặn đừng coi 'Nhà Gỗ Cũ', 'Quán Gỗ' là cùng một quán."
   },
   {
    "ten": "Lẩu Bò Ba Toa (số 1 Hoàng Diệu)",
@@ -191,7 +214,8 @@
    "nguon": [
     "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
    ],
-   "ly_do": "Chỉ 1 nguồn, không có chi tiết; có thể là quán mang tên 'Ba Toa' chung chứ không phải quán gốc."
+   "ly_do": "Chỉ 1 nguồn, không có chi tiết; có thể là quán mang tên 'Ba Toa' chung chứ không phải quán gốc.",
+   "kiem_them_25_11_2026": "vẫn chưa đủ: chỉ bài vinwonders ghi 'số 1 đường Hoàng Diệu', không có trang nào khác. Có thể là ghi tắt của Quán Gỗ (mytour, vinwonders bài khác ghi Quán Gỗ ở '1/29 Hoàng Diệu'), chưa đủ căn cứ để gộp."
   },
   {
    "ten": "Lẩu Bò Thanh Tâm",
@@ -204,7 +228,8 @@
     "https://znews.vn/4-quan-lau-bo-noi-tieng-thom-ngon-tai-da-lat-post942147.html",
     "https://news.tuoitre.vn/over-20-ba-toa-beef-hotpot-restaurants-line-this-300m-street-in-vietnams-da-lat-10326061223565753.htm"
    ],
-   "ly_do": "Đủ nguồn nhưng nằm trên Nguyễn Thị Định (cùng khu Ba Toa), không phải Hoàng Diệu — chỉ đưa vào nếu trang phố gồm cả khu."
+   "ly_do": "Đủ nguồn nhưng nằm trên Nguyễn Thị Định (cùng khu Ba Toa), không phải Hoàng Diệu — chỉ đưa vào nếu trang phố gồm cả khu.",
+   "kiem_them_25_11_2026": "không đổi: vẫn đủ nguồn và còn được liệt kê 2026 (travel.com.vn 25/09/2026 ghi 'Thanh Tâm (Ba Toa Cũ), Nguyễn Thị Định'), nhưng nằm ở 14 Nguyễn Thị Định, không phải Hoàng Diệu."
   }
  ],
  "nguon_chung": [

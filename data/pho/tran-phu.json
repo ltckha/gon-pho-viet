@@ -177,22 +177,45 @@
    "do_tin_cay": "trung bình",
    "con_mo": "không rõ (vinwonders 09/07/2025 còn liệt kê; chưa thấy đánh giá khách 2026)",
    "vi_tri": null
-  }
- ],
- "can_kiem_them": [
+  },
   {
    "ten": "Cháo Đêm - Đường 3 Tháng 2",
    "loai": "quán cháo đêm",
-   "dac_trung": "Cháo trắng, cháo đậu xanh, cháo gà, ăn kèm cá kho, trứng muối, cải chua; khoảng 20.000–25.000đ.",
+   "dac_trung": "Quán cháo nhỏ ven đường bán tối tới khuya: cháo trắng, cháo đậu xanh, cháo gà, ăn kèm cá kho, trứng muối, cải chua; khoảng 15.000–30.000đ.",
    "duong": "Ba Tháng Hai",
    "so_nha": "62",
    "dia_chi": "62 Ba Tháng Hai",
    "nguon": [
-    "https://www.foody.vn/lam-dong/chao-dem-duong-3-thang-2"
+    "https://www.foody.vn/lam-dong/chao-dem-duong-3-thang-2",
+    "https://amthucbinhxuyen.com/post/danh-sach-19-quan-chao-tai-lam-dong.p2166"
    ],
-   "ly_do": "Chỉ foody đọc được (bình luận mới nhất 23/12/2017, foody cảnh báo có thể đã đóng); bài vinpearl 'quán ăn đêm' chặn đọc (403), toplist quán ăn đêm không có quán này.",
-   "con_mo": "không rõ"
+   "do_tin_cay": "trung bình",
+   "ghi_chu": "Hai nguồn cùng ghi 62 Ba Tháng Hai. Giờ lệch: Foody 17h–23h, amthucbinhxuyen 17h–2h. amthucbinhxuyen là trang tổng hợp (ghi 'review by google'), đăng 25/02/2025, cập nhật 20/05/2025.",
+   "con_mo": "không rõ: amthucbinhxuyen 20/05/2025 còn liệt kê; Foody không có bình luận mới từ 2017",
+   "vi_tri": null
   },
+  {
+   "ten": "Cơm Lá Chuối",
+   "loai": "quán cơm gia đình",
+   "dac_trung": "Cơm nhà đổi món theo ngày (món mặn, xào, rau, canh), khoảng 45.000đ một phần; có bún bò Huế, bún mắm; nhà có sân vườn, bàn gỗ, trang trí đồ đan lá chuối.",
+   "duong": "Trần Phú",
+   "so_nha": "21/9",
+   "dia_chi": "21/9 Trần Phú (hẻm 21, hẻm Ngân hàng Nhà nước)",
+   "nguon": [
+    "https://vntravellive.com/da-lat-them-com-nha-thi-di-dau-d36912.html",
+    "https://agotourist.com/quan-an-gia-dinh-da-lat/",
+    "https://www.dalatmagazine.com/quan-com-phan-da-lat/",
+    "https://luhanhvietnam.com.vn/du-lich/nhung-quan-com-ngon-o-da-lat-chuan-vi-me-nau.html",
+    "https://lamdongtours.com/am-thuc-da-lat/quan-com-ngon-o-da-lat/",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Chốt 21/9 vì 4 trang khác nhau cùng ghi (vntravellive, agotourist, dalatmagazine, luhanhvietnam). Ghi khác: 21 (vinwonders), 23/2 (vinpearl, lamdongtours 11/2026). Cùng hẻm 21 với Bánh canh cá lóc An.",
+   "con_mo": "có dấu hiệu còn mở 2026: lamdongtours.com đăng 04/11/2026 và agotourist cập nhật 12/10/2026 còn liệt kê",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
   {
    "ten": "Bánh mì gà Nga",
    "loai": "quán bánh mì sáng",
@@ -204,7 +227,8 @@
     "https://vinwonders.com/vi/wonderpedia/news/diem-mat-17-quan-banh-mi-da-lat/"
    ],
    "ly_do": "Một nguồn; trong bài tiêu đề ghi bánh mì gà nhưng phần tả lại nói bánh mì xíu mại.",
-   "con_mo": "không rõ"
+   "con_mo": "không rõ",
+   "kiem_them_25_11_2026": "vẫn chưa đủ: tìm thêm ở mia.vn, mytour, toplist, Foody (tìm theo tên) — chỉ thấy bài vinwonders. Foody có 'Bánh Mì Cô Nga' ở đường 3/2 nhưng là Đà Nẵng, không phải Đà Lạt."
   },
   {
    "ten": "Cơm gà Hải Nam",
@@ -217,21 +241,8 @@
     "https://vinwonders.com/vi/wonderpedia/news/an-trua-da-lat/"
    ],
    "ly_do": "Một nguồn, tên quán chung chung (có thể chỉ là tên món).",
-   "con_mo": "không rõ"
-  },
-  {
-   "ten": "Cơm Lá Chuối",
-   "loai": "quán cơm gia đình",
-   "dac_trung": "Suất cơm xào, mặn, rau, canh; có bún bò Huế, bún mắm.",
-   "duong": "Trần Phú",
-   "so_nha": null,
-   "dia_chi": "vinwonders ghi 21 Trần Phú, vinpearl ghi 23/2 Trần Phú",
-   "nguon": [
-    "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/",
-    "https://vinpearl.com/vi/quan-com-da-lat-ngon"
-   ],
-   "ly_do": "Hai nguồn cùng một tập đoàn (Vingroup) và lệch số nhà; chưa có nguồn độc lập.",
-   "con_mo": "không rõ"
+   "con_mo": "không rõ",
+   "kiem_them_25_11_2026": "vẫn chưa đủ: Foody có 'Hải Nam - Cơm Gà & Hủ Tiếu Dê' ở 5A Trần Phú (1 bình luận, cũ) — khác số 21/2A của vinwonders nên chưa dám coi là một quán."
   },
   {
    "ten": "Le Café de la Poste",
@@ -245,7 +256,8 @@
     "https://mia.vn/cam-nang-du-lich/du-parc-hotel-dalat-review-19738"
    ],
    "ly_do": "Fodor's cũ; không rõ còn tên này hay đã đổi thành Le Bistro; chưa có số nhà.",
-   "con_mo": "không rõ"
+   "con_mo": "không rõ",
+   "kiem_them_25_11_2026": "vẫn chưa đủ: Fodor's ghi 12 Trần Phú (không có trang thứ hai đọc được để xác nhận số; minmaxtravel không mở được). Vietnam Coracle (cập nhật 09/2017) ghi bữa sáng của Du Parc đã chuyển từ Cafe de la Poste sang nhà hàng Bistro sau khách sạn, trong khi mia.vn 12/2025 coi Le Café de la Poste và Le Bistro là một. Chưa rõ quán còn mở dưới tên này."
   },
   {
    "ten": "Bưu điện Đà Lạt",
@@ -253,10 +265,13 @@
    "dac_trung": "chưa rõ",
    "duong": "Trần Phú",
    "so_nha": null,
-   "dia_chi": "chưa rõ (nghe nói 14 Trần Phú, chưa có nguồn)",
-   "nguon": [],
+   "dia_chi": "14 Trần Phú (theo ghn.vn: Bưu cục cấp 3 Trần Phú, mã 671040)",
+   "nguon": [
+    "https://ghn.vn/blogs/thong-tin-giao-hang/buu-dien-lam-dong"
+   ],
    "ly_do": "Chưa tìm được nguồn ghi số nhà và năm xây.",
-   "con_mo": "không rõ"
+   "con_mo": "không rõ",
+   "kiem_them_25_11_2026": "vẫn chưa đủ: số 14 Trần Phú nay có 1 nguồn (bảng bưu cục trên ghn.vn ghi 'Bưu cục cấp 3 Trần Phú, Số 14 Trần Phú, Phường 3', phường mới Xuân Hương). Chưa có nguồn thứ hai, chưa tìm được năm xây."
   }
  ],
  "nguon_chung": [

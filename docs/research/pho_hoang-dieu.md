@@ -49,3 +49,32 @@ Có nhắc trong nguồn nhưng không tra thêm: "Ut Ba Toa", "Dat Phat", "Nha 
 6. **Foody nhiều trang đã cũ** (đánh giá cuối 2019–2022). Tín hiệu "còn mở" chủ yếu dựa vào Tuổi Trẻ News 06/2026 và mia.vn 2025–2026.
 7. **Không đọc được** bài Lao Động "Đến suối Cam Ly ăn lẩu bò" (trang chặn máy đọc), bài Việt Nam News, vinpearl, fptshop (lỗi 403). Không dùng làm nguồn.
 8. **Game ghi chưa khớp** (để anh báo phiên game sửa, em không sửa): `street_hoang_dieu.json` dẫn link `foody.vn/lam-dong/lau-bo-ba-toa-hoang-dieu` làm nguồn cho "quán lẩu trong hẻm", nhưng trang đó thật ra là trang của **Quán Gỗ** (quán gốc). (Ý "4 quán trong hẻm Hoàng Diệu" của game khớp với bài mia.vn 19503: bài có 4 quán ghi địa chỉ Hoàng Diệu là 19/9, 8/1, 16/1 và 29.)
+
+## Kiểm thêm 25/11/2026
+
+Kiểm lại 8 nơi ở mục "Cần kiểm thêm". Không dùng Google Maps. Kết quả: **3 nơi đạt** (đã chuyển vào `dia_diem`), **0 nơi đã đóng**, **5 nơi để lại** (4 nơi vẫn chưa đủ nguồn, Thanh Tâm vẫn ở đường khác).
+
+### Chuyển sang đạt
+
+| Tên | Số nhà | Nguồn (2 trang khác nhau trở lên) | Còn mở? | Tin cậy |
+|---|---|---|---|---|
+| Bánh tráng nướng Dì Đinh | 26 | [Vietnam Airlines](https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/banh-trang-nuong-da-lat) (26 Hoàng Diệu, 13h–20h30); [mytour (cập nhật 01/11/2026)](https://mytour.vn/vi/blog/bai-viet/top-8-dia-diem-banh-trang-nuong-hot-nhat-da-lat.html) (26 Hoàng Diệu, 6.000–28.000đ); [mia.vn (23/07/2026)](https://mia.vn/cam-nang-du-lich/bo-tui-ngay-dia-chi-10-quan-ban-banh-trang-nuong-ngon-xuat-sac-giua-long-da-lat-1283); [toplist](https://toplist.vn/top-list/quan-banh-trang-nuong-ngon-nhat-o-da-lat-25656.htm) (đường Hoàng Diệu); thêm [Airbnb](https://www.airbnb.com/things-to-do/places/a817efbb-07da-40c5-b733-53f66a210223) (khách địa phương kể bán "3–4 giờ chiều tới 7–8 giờ tối") | có dấu hiệu còn mở (mia.vn 07/2026, mytour 11/2026) | cao |
+| Pizza Like - Hoàng Diệu | 1A | [Foody](https://www.foody.vn/lam-dong/pizza-like-hoang-dieu) (1A, đánh giá cuối 06/2020); [Wanderlog](https://wanderlog.com/place/details/3203660) (1A Đ. Hoàng Diệu, "Cam Ly - Đà Lạt") | Wanderlog đọc 25/11/2026 ghi đang hoạt động, địa chỉ đã theo tên phường mới | trung bình |
+| Lẩu bò Ba Toa Tô Bò Quán | chưa chốt (8/1 hay 16/1) | [mia.vn (23/07/2026)](https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503) (16/1); [travel.com.vn – Vietravel (25/09/2026)](https://travel.com.vn/tin-tuc-du-lich/lau-bo-da-lat-v18540.aspx) ("trong hẻm 8/1 Hoàng Diệu, cùng cụm hẻm với quán Dìn") | có dấu hiệu còn mở (2 bài 2026) | trung bình |
+
+- **Dì Đinh và Bé Linh cùng số 26:** Bé Linh bán sáng, Dì Đinh bán chiều. Chưa có nguồn nào nói rõ hai quán dùng chung mặt tiền, nên em để ở phần ghi chú.
+- **Tô Bò Quán:** hai trang cùng nói quán nằm trong hẻm Hoàng Diệu nhưng ghi hai số khác nhau, nên em để trống `so_nha`. Hai số ghi trong nguồn nằm ở `dia_chi`.
+
+### Vẫn chưa đủ (để lại trong `can_kiem_them`)
+
+| Tên | Đã tìm thêm ở đâu | Kết quả |
+|---|---|---|
+| Lẩu Bò Ba Toa Bi Mập | travel.com.vn, zalopay.vn, topaz.vn, xedulichdalat.vn, lamdongtours.com (10/2026), Wanderlog, Foody | Chỉ mia.vn có tên kèm số 29. Không có trang thứ hai. |
+| Tiệm Lẩu Bò Giáo Sĩ (56 Hoàng Diệu) | [topaz.vn (09/2026)](https://topaz.vn/toplist/quan-lau-bo-da-lat), [zalopay.vn](https://zalopay.vn/quan-lau-bo-ngon-o-da-lat-2334), [xedulichdalat.vn](https://xedulichdalat.vn/quan-lau-bo-da-lat/) | Cả 3 trang chỉ ghi **237 Bùi Thị Xuân**. Số 56 Hoàng Diệu chỉ có toplist ghi. Có thể cơ sở Hoàng Diệu không còn, nhưng chưa có nguồn nói rõ. |
+| Nhà Gỗ Old 09 | mia.vn, travel.com.vn, [lamdongtours.com (21/10/2026)](https://lamdongtours.com/am-thuc-da-lat/lau-bo-ba-toa-da-lat/), Wanderlog | Không thấy tên. lamdongtours chỉ dặn đừng coi "Nhà Gỗ Cũ" và "Quán Gỗ" là một quán. |
+| Lẩu Bò Ba Toa (số 1 Hoàng Diệu) | đọc lại bài vinwonders, tìm thêm trên Airbnb và mytour | Chỉ có vinwonders ghi "số 1 đường Hoàng Diệu". Có thể là cách ghi tắt địa chỉ của Quán Gỗ (mytour ghi "1/29"), nhưng chưa đủ căn cứ để gộp. (Lưu ý: trang Airbnb places/1948929 mà máy tìm kiếm gắn với "1 Hoàng Diệu" thật ra là trang của **quán Dìn**.) |
+| Lẩu Bò Thanh Tâm | travel.com.vn 25/09/2026 vẫn liệt kê ("Thanh Tâm (Ba Toa Cũ), Nguyễn Thị Định") | Đủ nguồn, quán còn hoạt động, nhưng ở 14 Nguyễn Thị Định. Giữ nguyên lý do cũ. |
+
+### Thấy thêm khi tìm (chưa xử lý)
+- **Lẩu bò Nàng Hương:** [zalopay.vn](https://zalopay.vn/quan-lau-bo-ngon-o-da-lat-2334) và [mia.vn (12/09/2025)](https://mia.vn/cam-nang-du-lich/da-lat-lanh-roi-thi-minh-di-an-lau-bo-tai-10-quan-ngon-dinh-cua-chop-thoi-1301) đều ghi "29 hẻm 1 Hoàng Diệu", trùng số với Quán Gỗ (29/1). Đây là quán mới, chưa có trong danh sách. Cần kiểm xem có phải cùng một hẻm hay không rồi mới đưa vào.
+- **Quán Gỗ:** topaz.vn (09/2026) cũng ghi 29/1 Hoàng Diệu. Đây là thêm một trang khác ủng hộ số 29/1. lamdongtours (10/2026) ghi "một số nguồn 2026 ghi 19/9, số khác ghi 29/1".

@@ -36,7 +36,12 @@
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2026: Trip.com ghi '10 Phan Boi Chau, Xuan Huong - Da Lat', nhận đặt phòng, có đánh giá đăng 03/10/2026 (xem 25/11/2026)",
    "ghi_chu": "Số phòng các nguồn ghi khác nhau: Thanh tra (23/08/2019) và Mytour ghi 150 phòng, Trip.com ghi 155 → không đưa số phòng vào câu giới thiệu. OSM có điểm 'Colline Dalat' (node 13799888704) ghi số 10.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.438126,
+    "lat": 11.94397,
+    "cach": "số nhà trên OpenStreetMap: 10 Phan Bội Châu",
+    "osm": "node/13799888704"
+   }
   },
   {
    "ten": "Mường Thanh Holiday Đà Lạt",
@@ -53,7 +58,12 @@
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2026: mia.vn ghi '42 Phan Bội Châu, phường Xuân Hương - Đà Lạt'; Trip.com ghi phường mới, nhận đặt phòng (xem 25/11/2026)",
    "ghi_chu": "Trip.com ghi 'Opened: 2007, Renovated: 2014, Number of Rooms: 67'; trang khác (vietnambooking qua kết quả tìm kiếm) ghi 71 phòng → không dùng số phòng. OSM có điểm 'Muong Thanh Holiday Da Lat Hotel' (node 1152347479) số 42.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.439997,
+    "lat": 11.943752,
+    "cach": "số nhà trên OpenStreetMap: 42 Phan Bội Châu",
+    "osm": "node/1152347479"
+   }
   },
   {
    "ten": "100 Roofs Café (100 Mái Cafe, Đường Lên Trăng, Maze Bar)",
@@ -71,7 +81,12 @@
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2026: Trip.com ghi '57 Phan Bội Châu, Xuân Hương - Đà Lạt', giờ 8:00–23:59; Wanderlog (dữ liệu Google) ghi phường mới, giờ 8:30–24:00 (xem 25/11/2026)",
    "ghi_chu": "Thaiest ghi '57 Phan Boi Chau, Ward 1', tả 'giống Crazy House, cầu thang vô tận, vườn sân thượng nhìn toàn thành phố'. Foody tên '100 Mái Cafe' (bình luận 2016 gọi 'Đường lên trăng', 'khách nước ngoài nhiều'). Atlas Obscura và Lonely Planet có trang về quán nhưng chặn tải (403) nên không tính. Wanderlog dùng dữ liệu Google — tính 1 nguồn. OSM: '100 Roofs Café' node 4589513389 số 57.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.43756,
+    "lat": 11.944611,
+    "cach": "số nhà trên OpenStreetMap: 57 Phan Bội Châu",
+    "osm": "node/4589456390"
+   }
   },
   {
    "ten": "Cút Kít BBQ & Beer",

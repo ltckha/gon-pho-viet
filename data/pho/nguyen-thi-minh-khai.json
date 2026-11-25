@@ -28,7 +28,12 @@
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: mia.vn (cập nhật 10/08/2026) ghi 'đường Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt'; Wanderlog (dữ liệu Google) ghi phường mới, không ghi đóng (xem 25/11/2026)",
    "ghi_chu": "Số nhà chưa rõ: Wanderlog (dữ liệu Google) ghi '24 Đường Nguyễn Thị Minh Khai', một kết quả tìm kiếm ghi '01 Nguyễn Thị Minh Khai' — không khớp nhau nên để trống. Năm 1958–1960 theo Wikipedia tiếng Việt và Saigoneer.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.43721,
+    "lat": 11.94352,
+    "cach": "tên trên OpenStreetMap: Chợ Đà Lạt",
+    "osm": "node/1152317883"
+   }
   },
   {
    "ten": "Chợ đêm Đà Lạt (chợ Âm Phủ)",
@@ -63,7 +68,12 @@
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: trang chính thức Langfarm ghi 'Số 6 đường Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt' cho cả Buffet và Store Chợ Đêm (xem 25/11/2026)",
    "ghi_chu": "Mytour không ghi số nhà, chỉ ghi 'nằm tại đường Nguyễn Thị Minh Khai… trong khu chợ đêm'; giá buffet 39.000đ trong bài Mytour có thể đã cũ nên không đưa vào. Hotels.com (kết quả tìm kiếm) cũng ghi '6 Nguyen Thi Minh Khai, Ward 1' nhưng trang chặn tải (429), em chưa đọc tận mắt.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.437256,
+    "lat": 11.941942,
+    "cach": "số nhà trên OpenStreetMap: 6 Nguyễn Thị Minh Khai",
+    "osm": "node/5091233026"
+   }
   },
   {
    "ten": "Fungi Chingu Chợ Đêm",

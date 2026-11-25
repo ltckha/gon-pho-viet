@@ -4401,7 +4401,12 @@
        "trang": "wanderlog.com"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.43721,
+      "lat": 11.94352,
+      "cach": "tên trên OpenStreetMap: Chợ Đà Lạt",
+      "osm": "node/1152317883"
+     },
      "con_mo": "có dấu hiệu còn mở: mia.vn (cập nhật 10/08/2026) ghi 'đường Nguyễn Thị Minh Khai, phường Xuân Hương - Đà Lạt'; Wanderlog (dữ liệu Google) ghi phường mới, không ghi đóng (xem 25/11/2026)"
     },
     {
@@ -4451,7 +4456,12 @@
        "trang": "mytour.vn"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.437256,
+      "lat": 11.941942,
+      "cach": "số nhà trên OpenStreetMap: 6 Nguyễn Thị Minh Khai",
+      "osm": "node/5091233026"
+     },
      "con_mo": "có dấu hiệu còn mở: trang chính thức Langfarm ghi 'Số 6 đường Nguyễn Thị Minh Khai, Phường Xuân Hương - Đà Lạt' cho cả Buffet và Store Chợ Đêm (xem 25/11/2026)"
     },
     {
@@ -4719,7 +4729,12 @@
        "trang": "mytour.vn"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.438126,
+      "lat": 11.94397,
+      "cach": "số nhà trên OpenStreetMap: 10 Phan Bội Châu",
+      "osm": "node/13799888704"
+     },
      "con_mo": "có dấu hiệu còn mở 2026: Trip.com ghi '10 Phan Boi Chau, Xuan Huong - Da Lat', nhận đặt phòng, có đánh giá đăng 03/10/2026 (xem 25/11/2026)"
     },
     {
@@ -4742,7 +4757,12 @@
        "trang": "vinwonders.com"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.439997,
+      "lat": 11.943752,
+      "cach": "số nhà trên OpenStreetMap: 42 Phan Bội Châu",
+      "osm": "node/1152347479"
+     },
      "con_mo": "có dấu hiệu còn mở 2026: mia.vn ghi '42 Phan Bội Châu, phường Xuân Hương - Đà Lạt'; Trip.com ghi phường mới, nhận đặt phòng (xem 25/11/2026)"
     },
     {
@@ -4769,7 +4789,12 @@
        "trang": "foody.vn"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.43756,
+      "lat": 11.944611,
+      "cach": "số nhà trên OpenStreetMap: 57 Phan Bội Châu",
+      "osm": "node/4589456390"
+     },
      "con_mo": "có dấu hiệu còn mở 2026: Trip.com ghi '57 Phan Bội Châu, Xuân Hương - Đà Lạt', giờ 8:00–23:59; Wanderlog (dữ liệu Google) ghi phường mới, giờ 8:30–24:00 (xem 25/11/2026)"
     },
     {
@@ -5415,7 +5440,12 @@
        "trang": "openstreetmap.org"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.452557,
+      "lat": 11.946165,
+      "cach": "số nhà trên OpenStreetMap: 109 Yersin",
+      "osm": "way/971585499"
+     },
      "con_mo": "còn là trường học; Báo Lâm Đồng 29/01/2026 và 21/07/2026, Nhân Dân 24/04/2026 viết về trường đang hoạt động, có tu bổ. Vào tham quan cần hỏi trường (chưa có nguồn ghi giờ mở cho khách)."
     },
     {
@@ -5504,7 +5534,12 @@
        "trang": "openstreetmap.org"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.451959,
+      "lat": 11.941771,
+      "cach": "số nhà trên OpenStreetMap: 72 Yersin",
+      "osm": "node/7003724789"
+     },
      "con_mo": "có dấu hiệu còn mở: mia.vn cập nhật 23/07/2026, VinWonders 30/07/2025 ghi phường mới. Giờ mở lệch nhau (VinWonders 7:00–18:00 / 6:00–10:30; mia 5:00–18:30; Toplist 6:30–12:00)."
     },
     {
@@ -5531,7 +5566,13 @@
        "trang": "openstreetmap.org"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.448892,
+      "lat": 11.940358,
+      "cach": "ước theo số nhà: đúng số 14A Yersin trên OpenStreetMap",
+      "uoc": true,
+      "lech_m": 20
+     },
      "con_mo": "có dấu hiệu còn mở: VinWonders 03/07/2025 ghi phường Xuân Hương – Đà Lạt. Giờ: VinWonders, Mytour 15:30–20:00; Toplist 6:30–12:00 và 15:30–20:00; OSM 9:00–21:00."
     },
     {
@@ -5550,7 +5591,12 @@
        "trang": "openstreetmap.org"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.45086,
+      "lat": 11.940445,
+      "cach": "tên trên OpenStreetMap: Bún cá tầm A Huy",
+      "osm": "way/1356812882"
+     },
      "con_mo": "có dấu hiệu còn mở: Vietnam Coracle đăng 01/2026 (sửa 21/11/2026) còn giới thiệu."
     },
     {
@@ -5577,7 +5623,12 @@
        "trang": "openstreetmap.org"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.451511,
+      "lat": 11.942364,
+      "cach": "tên trên OpenStreetMap: Le J' Cafe",
+      "osm": "node/13026138101"
+     },
      "con_mo": "có dấu hiệu còn mở: Tatler Asia 15/06/2026 viết về quán đang mở. Giờ: Spinach 7:30–17:00, nghỉ thứ Tư; OSM giống vậy; Tatler: chủ đóng khoảng 16:00."
     },
     {
@@ -5612,7 +5663,12 @@
        "trang": "openstreetmap.org"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.456605,
+      "lat": 11.950166,
+      "cach": "tên trên OpenStreetMap: Tiệm cafe Cô Bông",
+      "osm": "node/7140136187"
+     },
      "con_mo": "có dấu hiệu còn mở: VinWonders 15/07/2025 còn giới thiệu; mia.vn sửa 02/04/2025. Giờ 8:00–21:30 (Foody, mia, Toplist)."
     },
     {
@@ -5658,7 +5714,12 @@
        "trang": "thuviennhadat.vn"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.448644,
+      "lat": 11.940977,
+      "cach": "số nhà trên OpenStreetMap: 1 Yersin",
+      "osm": "way/777438259"
+     },
      "con_mo": "chưa rõ: mia.vn (không rõ ngày) còn giới thiệu, OSM không ghi đóng. Chưa thấy nguồn 2025–2026."
     }
    ],

@@ -31,6 +31,12 @@ LICH = [
         ('hoang-dieu', 'Tối', 'Lẩu bò Ba Toa'),
         ('hai-ba-trung', 'Tối', 'Ốc nhồi thịt, lẩu gà lá é'),
     ]},
+    {'ten': 'Sáng bên hồ, chiều chợ đêm', 'chang': [
+        ('yersin', 'Sáng', 'Bánh căn, bánh mì xíu mại, mì Quảng đầu dốc; ngắm trường gạch đỏ Lycée Yersin'),
+        ('trieu-viet-vuong', 'Trưa', 'Dinh III Bảo Đại, cà phê vườn'),
+        ('phan-boi-chau', 'Chiều', 'Quán bar mê cung 100 Roofs, kem xôi dừa'),
+        ('nguyen-thi-minh-khai', 'Tối', 'Chợ đêm: bánh tráng nướng, dâu lắc, áo len'),
+    ]},
 ]
 
 

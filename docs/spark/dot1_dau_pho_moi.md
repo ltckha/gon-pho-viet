@@ -15,3 +15,14 @@ Mỗi hình PNG ngang 1024×512, có nền.
 ```
 
 Ghi chú: phố mới thêm sau (Phan Bội Châu, Yersin, Nguyễn Thị Minh Khai) em sẽ soạn tiếp khi có nghiên cứu.
+
+## Thêm 3 phố (dán chung hoặc dán riêng)
+```
+Nét vẽ y hệt đợt trước (tranh đầu phố dau_pho_* đợt 35): hoạt hình ấm, viền nâu đậm, màu ấm,
+cảnh nhìn ngang dọc một con phố Đà Lạt, có nhà, cây thông, sương nhẹ, không có mặt người, KHÔNG có chữ.
+Mỗi hình PNG ngang 1024×512, có nền.
+
+- dau_pho_phan_boi_chau: con phố ngắn cạnh toà nhà chợ Đà Lạt trắng nhiều tầng, hai bên là khách sạn cao tầng, một quán bar kiến trúc mê cung nhiều tầng như hang đá, buổi tối đèn vàng
+- dau_pho_yersin: con dốc rợp thông đi lên một ngôi trường gạch đỏ kiểu Pháp có tháp chuông cao, đầu dốc là hồ nước và vài quầy bánh căn bốc khói buổi sáng
+- dau_pho_nguyen_thi_minh_khai: chợ đêm trên con dốc trước toà chợ lớn, sạp áo len nhiều màu, bếp than nướng bánh tráng, đèn dây vàng trong sương đêm
+```

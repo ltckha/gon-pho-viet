@@ -52,7 +52,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "còn là trường học; Báo Lâm Đồng 29/01/2026 và 21/07/2026, Nhân Dân 24/04/2026 viết về trường đang hoạt động, có tu bổ. Vào tham quan cần hỏi trường (chưa có nguồn ghi giờ mở cho khách).",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.452557,
+    "lat": 11.946165,
+    "cach": "số nhà trên OpenStreetMap: 109 Yersin",
+    "osm": "way/971585499"
+   },
    "ghi_chu": "Số nhà 109: Wikipedia và OSM (addr:housenumber=109). mia.vn ghi '29 Yersin' — lệch, không dùng."
   },
   {
@@ -107,7 +112,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: mia.vn cập nhật 23/07/2026, VinWonders 30/07/2025 ghi phường mới. Giờ mở lệch nhau (VinWonders 7:00–18:00 / 6:00–10:30; mia 5:00–18:30; Toplist 6:30–12:00).",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.451959,
+    "lat": 11.941771,
+    "cach": "số nhà trên OpenStreetMap: 72 Yersin",
+    "osm": "node/7003724789"
+   },
    "ghi_chu": "Foody gọi 'Bánh Mì Xíu Mại - Yersin', OSM gọi 'bánh mì xíu mại Hồng', Toplist 'Bánh Mì Cô Hồng' — cùng số 72."
   },
   {
@@ -125,7 +135,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: VinWonders 03/07/2025 ghi phường Xuân Hương – Đà Lạt. Giờ: VinWonders, Mytour 15:30–20:00; Toplist 6:30–12:00 và 15:30–20:00; OSM 9:00–21:00.",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.448892,
+    "lat": 11.940358,
+    "cach": "ước theo số nhà: đúng số 14A Yersin trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 20
+   },
    "ghi_chu": "Hai bài VinWonders (mì Quảng, ăn sáng) tính chung 1 nguồn."
   },
   {
@@ -141,7 +157,12 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "có dấu hiệu còn mở: Vietnam Coracle đăng 01/2026 (sửa 21/11/2026) còn giới thiệu.",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.45086,
+    "lat": 11.940445,
+    "cach": "tên trên OpenStreetMap: Bún cá tầm A Huy",
+    "osm": "way/1356812882"
+   },
    "ghi_chu": "Số 21 chỉ có ở Vietnam Coracle; OSM có nhà 'Bún cá tầm A Huy' sát mặt đường Yersin (đoạn gần Phạm Hồng Thái) nhưng không ghi số nhà."
   },
   {
@@ -159,7 +180,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: Tatler Asia 15/06/2026 viết về quán đang mở. Giờ: Spinach 7:30–17:00, nghỉ thứ Tư; OSM giống vậy; Tatler: chủ đóng khoảng 16:00.",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.451511,
+    "lat": 11.942364,
+    "cach": "tên trên OpenStreetMap: Le J' Cafe",
+    "osm": "node/13026138101"
+   },
    "ghi_chu": "Thaiest ghi địa chỉ '51a ..., Ward 10' (đọc không rõ tên đường) nhưng tả quán 'khi đi trên đường Yersin'. Tatler bị chặn tải bằng curl, đọc qua WebFetch."
   },
   {
@@ -179,7 +205,12 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở: VinWonders 15/07/2025 còn giới thiệu; mia.vn sửa 02/04/2025. Giờ 8:00–21:30 (Foody, mia, Toplist).",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.456605,
+    "lat": 11.950166,
+    "cach": "tên trên OpenStreetMap: Tiệm cafe Cô Bông",
+    "osm": "node/7140136187"
+   },
    "ghi_chu": "Nằm ở đoạn trên (Phường 9 cũ), không phải đoạn gần hồ. Phường mới suy theo bảng giá đất; điểm OSM nằm sát ranh Xuân Hương / Lâm Viên — xem ward_ghi_chu. Mytour chép gần nguyên bài mia → không tính riêng."
   },
   {
@@ -213,7 +244,12 @@
    ],
    "do_tin_cay": "trung bình",
    "con_mo": "chưa rõ: mia.vn (không rõ ngày) còn giới thiệu, OSM không ghi đóng. Chưa thấy nguồn 2025–2026.",
-   "vi_tri": null,
+   "vi_tri": {
+    "lon": 108.448644,
+    "lat": 11.940977,
+    "cach": "số nhà trên OpenStreetMap: 1 Yersin",
+    "osm": "way/777438259"
+   },
    "ghi_chu": "Tên 'Biệt thự Tường Vy' và 'kiểu Pháp' chỉ có trong OSM (1 nguồn)."
   }
  ],

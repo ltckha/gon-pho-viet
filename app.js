@@ -348,6 +348,7 @@
         labels.appendChild(du);
         inner._x = px(t.nhan[0]); inner._y = py(t.nhan[1]); inner._sz = sz; inner._du = du;
         inner._uu = c === 'open' ? 0 : (t.loai === 'Thành phố' ? 1 : 2);
+        inner._thu_do = t.ma === '01';
         mocs.push(inner);
         return;
       }
@@ -371,13 +372,16 @@
   var mocs = [];
   function layoutMoc() {
     if (!mocs.length) return;
-    var r = svg.getBoundingClientRect(), boxes = [];
-    mocs.slice().sort(function (a, b) { return a._uu - b._uu; }).forEach(function (g) {
+    // phóng tới đâu, mốc gần giữa màn hình hiện trước; tối đa MOC_TOI_DA mốc một lúc (tỉnh có bản đồ phố luôn được ưu tiên)
+    var r = svg.getBoundingClientRect(), boxes = [], cx = r.width / 2, cy = r.height / 2, dem = 0, MOC_TOI_DA = 5;
+    function kc(g) { return Math.hypot(g._x * view.s + view.x - cx, g._y * view.s + view.y - cy) * (g._thu_do ? 0.35 : g._uu === 1 ? 0.6 : 1); }   // thủ đô, rồi thành phố trực thuộc TW được ưu tiên hơn
+    mocs.slice().sort(function (a, b) { return (a._uu === 0 ? -1e9 : kc(a)) - (b._uu === 0 ? -1e9 : kc(b)); }).forEach(function (g) {
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y, h = g._sz;
       var b = { x0: sx - h * 0.62, x1: sx + h * 0.62, y0: sy - h * 0.85, y1: sy + h * 0.32 + 14 };
-      var ok = sx > -h && sx < r.width + h && sy > -h && sy < r.height + h &&
+      var ok = dem < MOC_TOI_DA && sx > h * 0.4 && sx < r.width - h * 0.4 && sy > 70 && sy < r.height - 130 &&   // chừa ô chú thích ở đáy
+        
         !boxes.some(function (o) { return b.x1 > o.x0 && b.x0 < o.x1 && b.y1 > o.y0 && b.y0 < o.y1; });
-      if (ok) { boxes.push(b); g.parentNode.removeAttribute('display'); g._du.setAttribute('hidden', ''); }
+      if (ok) { dem++; boxes.push(b); g.parentNode.removeAttribute('display'); g._du.setAttribute('hidden', ''); }
       else { g.parentNode.setAttribute('display', 'none'); g._du.removeAttribute('hidden'); }
     });
     // chữ tên tỉnh: không đè mốc, không đè chữ khác; ưu tiên tỉnh có bản đồ phố, rồi thành phố (★), rồi tỉnh thường; tên biển, nước bạn giữ nguyên

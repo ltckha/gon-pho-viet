@@ -57,7 +57,7 @@ python3 tools/lich_trinh.py /tmp/osm
 - Khung bản đồ phố không được lớn hơn tấm tranh khu (tranh vùng ven nằm ngang) — kẻo lòi nền trống. Khu trung tâm = phố trong 2,5 km quanh Chợ Đà Lạt; xa hơn mỗi khu một tấm `assets/ban_do_<slug>.webp`.
 - So số nhà: điểm OSM đã mang tên một nơi khác trong cùng phố thì không lấy (La Viet Coffee ghi số 198 ≠ Barn House).
 - Số phố mỗi phường (`so_pho` trong `phuong.json`) do `build_pho.py` tự đếm, đừng gõ tay.
-- Bản đồ Việt Nam giống màn bản đồ game Gọn Phố (anh Kha chốt): đất xanh phẳng, bờ biển nâu đậm + quầng trắng (lớp `bo-bien`), biển xanh có sóng, biểu tượng mốc tỉnh Spark đợt 36 (`assets/vn/moc_*.webp`, chép từ `public/assets/ui/` của game). Ranh giới vẫn là dữ liệu thật. Không dùng nền cỏ trải (anh đã chê).
+- Bản đồ Việt Nam giống màn bản đồ game Gọn Phố (anh Kha chốt): đất xanh phẳng, bờ biển nâu đậm + quầng trắng (lớp `bo-bien`), biển xanh có sóng, biểu tượng mốc tỉnh Spark đợt 36 (`assets/vn/moc_*.webp`, chép từ `public/assets/ui/` của game). Ranh giới vẫn là dữ liệu thật. Không dùng nền cỏ trải (anh đã chê). Mốc hiện theo chỗ đang phóng: gần giữa màn hình hiện trước, tối đa 5 cái (`layoutMoc`), ưu tiên Lâm Đồng, Hà Nội, rồi thành phố trực thuộc TW; chữ tên tỉnh không đè mốc. Mốc còn thiếu 20 tỉnh: khối nhờ Spark ở `docs/spark/dot2_viet_nam.md`.
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
 ## Anh Kha đã chốt hướng mới (sau đánh giá khả thi `docs/danh_gia_kha_thi.md`, nhánh `claude/danh-gia-kha-thi`)

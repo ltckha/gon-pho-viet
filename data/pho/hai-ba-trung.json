@@ -1,0 +1,363 @@
+{
+ "road": "Hai Bà Trưng",
+ "duong": [
+  "Hai Bà Trưng"
+ ],
+ "ward": "Cam Ly - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020 (sửa bởi QĐ 16/2021) trên thuviennhadat ghi cả 3 đoạn Hai Bà Trưng (Hải Thượng–Tản Đà, Tản Đà–La Sơn Phu Tử, đoạn còn lại) thuộc PHƯỜNG 6; không có mục Hai Bà Trưng ở phường khác. Phường 6 → Cam Ly - Đà Lạt (NQ 1671, mục 100: Phường 5, Phường 6 và xã Tà Nung). Bài VinWonders sau 7/2025 cũng ghi số 05 và 133 Hai Bà Trưng thuộc phường Cam Ly – Đà Lạt. Ranh giới đã đơn giản hoá trong data/lam-dong/phuong.json cho vài điểm đầu đường (gần Hải Thượng) rơi sang Xuân Hương — do ranh vẽ thô, không phải đường qua 2 phường.",
+ "ten_osm": [
+  "Hai Bà Trưng"
+ ],
+ "ten_pho": "Phố Ốc Nhồi",
+ "gioi_thieu": "Phố Ốc Nhồi: dọc Hai Bà Trưng là các quán ốc nhồi thịt mang tên \"33\", xen lẩu gà lá é, gà nướng cơm lam, bún đậu; giữa đường có chùa Linh Quang, được gọi là ngôi chùa đầu tiên của Đà Lạt.",
+ "dia_diem": [
+  {
+   "ten": "Quán 33 – Ốc nhồi thịt & lẩu đuôi bò (quán gốc)",
+   "loai": "quán ốc nhồi thịt, lẩu",
+   "dac_trung": "Ốc bươu nhồi thịt hấp sả chấm nước mắm gừng, kèm lẩu đuôi bò, bò nướng vỉ; mia.vn gọi đây là quán gốc.",
+   "dia_chi": "32 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "32",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/oc-33-da-lat-review-tu-a-den-z-21086",
+    "https://toplist.vn/top-list/tiem-an-lau-doi-thu-hut-nhat-da-lat-31834.htm",
+    "https://toplist.vn/top-list/nhung-quan-nhau-khong-the-bo-qua-khi-di-du-lich-da-lat-30820.htm"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (sửa 19/07/2026) vẫn ghi 3 cơ sở 32, 3/10–3/12 và 181 Hai Bà Trưng",
+   "ghi_chu": "Quán có nhiều cơ sở trên cùng đường; mia.vn: cơ sở 2 ở hẻm 3/10–3/12 (sát Sacombank), Mytour ghi \"3/10 hẻm 27 cũ\". VinWonders bài 16 quán ốc (18/07/2025) lại ghi 181 và 32 cho \"Bích 33\" — các trang lẫn tên \"33\".",
+   "vi_tri": null
+  },
+  {
+   "ten": "Quán 33 – Ốc nhồi thịt (cơ sở 181, số cũ 33)",
+   "loai": "quán ốc nhồi thịt, lẩu",
+   "dac_trung": "Cơ sở của Quán 33 mang số nhà cũ \"33\" — nguồn của cái tên; ốc nhồi thịt, lẩu đuôi bò, mực nướng.",
+   "dia_chi": "181 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "181",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/oc-33-da-lat-review-tu-a-den-z-21086",
+    "https://vinwonders.com/vi/wonderpedia/news/oc-nhoi-thit-da-lat/",
+    "https://www.foody.vn/thuong-hieu/quan-33",
+    "https://toplist.vn/top-list/tiem-an-lau-doi-thu-hut-nhat-da-lat-31834.htm"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (sửa 19/07/2026) ghi \"181 (số cũ là 33)\"; VinWonders (28/07/2025) ghi 181 Hai Bà Trưng, 10h–21h",
+   "ghi_chu": "Foody (trang thương hiệu) và mia.vn bài 2021 ghi số 33 — cùng chỗ theo mia.vn 2026 (\"181, số cũ là 33\").",
+   "vi_tri": null
+  },
+  {
+   "ten": "Quán 33 – Ốc nhồi thịt (cơ sở 41, \"4D–41\")",
+   "loai": "quán ốc nhồi thịt",
+   "dac_trung": "Ốc nhồi thịt hấp xong mới dọn, kèm rau thơm, khế, chuối chát; VnExpress International đưa vào danh sách nên ăn ốc ở Đà Lạt.",
+   "dia_chi": "41 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "41",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/oc-nhoi-thit-da-lat/",
+    "https://e.vnexpress.net/news/food/dont-miss-these-da-lat-dishes-4553978.html",
+    "https://www.foody.vn/lam-dong/quan-33-oc-nhoi-thit-lau-duoi-bo"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ: VinWonders (28/07/2025) vẫn liệt kê \"4D và 41 Hai Bà Trưng, 9h–21h\"; Foody bình luận mới nhất 12/2020",
+   "ghi_chu": "Số nhà ghi \"4D và 41\" (VinWonders), \"4D-41\" (VnExpress 01/2023), \"41\" (Foody, chi nhánh Quán 33). Chưa rõ 4D là một chỗ khác hay cùng quán.",
+   "vi_tri": {
+    "lon": 108.43253,
+    "lat": 11.943293,
+    "cach": "số nhà trên OpenStreetMap: 41 Hai Bà Trưng",
+    "osm": "node/5948094786"
+   }
+  },
+  {
+   "ten": "Quán 33 – Ốc nhồi thịt (cơ sở 157)",
+   "loai": "quán ốc nhồi thịt",
+   "dac_trung": "Một chi nhánh nữa của Quán 33 trên cùng đường; VnExpress International ghi địa chỉ này cho món ốc nhồi sả.",
+   "dia_chi": "157 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "157",
+   "nguon": [
+    "https://e.vnexpress.net/news/food/dont-miss-these-da-lat-dishes-4553978.html",
+    "https://www.foody.vn/thuong-hieu/quan-33"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ (VnExpress 01/2023; Foody không ghi ngày bình luận ở trang thương hiệu)",
+   "vi_tri": null
+  },
+  {
+   "ten": "Bích 33 – Ốc nhồi thịt",
+   "loai": "quán ốc nhồi thịt, lẩu",
+   "dac_trung": "Quán ốc nhồi thịt của cô Bích, ngoài ốc còn lẩu bò, lẩu đuôi bò, bò nướng; có bán khoai, bắp nướng, sữa đậu nành nóng.",
+   "dia_chi": "224 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "224",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/nguoi-ta-len-do-di-day-con-minh-len-do-ngoi-le-oc-nhoi-thit-da-lat-1311",
+    "https://vinwonders.com/vi/wonderpedia/news/oc-nhoi-thit-da-lat/",
+    "https://www.openstreetmap.org/node/5811550053"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025: mia.vn (sửa 05/06/2025) và VinWonders (28/07/2025) đều ghi 224 Hai Bà Trưng",
+   "ghi_chu": "OpenStreetMap có điểm \"Bích 33\", 224 Hai Bà Trưng. Bài 16 quán ốc của VinWonders ghi Bích 33 ở 181/32 — lẫn với Quán 33.",
+   "vi_tri": {
+    "lon": 108.433734,
+    "lat": 11.947847,
+    "cach": "số nhà trên OpenStreetMap: 224 Hai Bà Trưng",
+    "osm": "node/5811550053"
+   }
+  },
+  {
+   "ten": "Ốc Khánh Như",
+   "loai": "quán ốc (chiều tối)",
+   "dac_trung": "Quán ốc bình dân mở chiều tối 16h–22h, nhiều món ốc xào, hấp, nướng.",
+   "dia_chi": "4B Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "4B",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-oc-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/nguoi-ta-len-do-di-day-con-minh-len-do-ngoi-le-oc-nhoi-thit-da-lat-1311",
+    "https://www.foody.vn/lam-dong/oc-khanh-nhu",
+    "https://mytour.vn/vi/blog/bai-viet/6-quan-oc-noi-tieng-khong-the-bo-lo-tai-tp-da-lat-lam-dong-mytour.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "dấu hiệu yếu: VinWonders (18/07/2025) vẫn ghi 4B Hai Bà Trưng, 16h–22h; Foody bình luận mới nhất 10/2020",
+   "vi_tri": null
+  },
+  {
+   "ten": "Lẩu gà lá é 89 Hai Bà Trưng (Tao Ngộ)",
+   "loai": "quán lẩu gà lá é",
+   "dac_trung": "Lẩu gà lá é bình dân, bàn nhỏ ghế nhựa; thêm cánh gà chiên nước mắm, lòng gà xào.",
+   "dia_chi": "89 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "89",
+   "nguon": [
+    "https://vinwonders.com/vi/bai-viet-du-lich/quan-lau-ga-la-e-da-lat-ngon-nhat/",
+    "https://mia.vn/cam-nang-du-lich/quan-lau-ga-la-e-da-lat-16285",
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/lau-ga-la-e-da-lat",
+    "https://www.foody.vn/lam-dong/lau-ga-la-e-hai-ba-trung"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (sửa 23/07/2026) và VinWonders (30/07/2025) ghi 89 Hai Bà Trưng, 8h–21h",
+   "ghi_chu": "mia.vn và Vietnam Airlines gọi là \"Tao Ngộ\"; VinWonders, Foody chỉ gọi \"Lẩu gà lá é – Hai Bà Trưng\". Tao Ngộ còn có quán ở đường 3/4 — chưa rõ hai nơi có cùng chủ.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Gà nướng ôm xôi – cơm lam Tư Béo",
+   "loai": "quán gà nướng cơm lam, lẩu gà",
+   "dac_trung": "Gà nướng, cơm lam, lẩu gà lá é; quán rộng có khu ngoài trời, chỗ đậu xe rộng.",
+   "dia_chi": "321 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "321",
+   "nguon": [
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ga-nuong-com-lam-da-lat",
+    "https://mia.vn/cam-nang-du-lich/quan-an-ngon-da-lat-19896",
+    "https://mia.vn/cam-nang-du-lich/ga-nuong-com-lam-da-lat-20029"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2026: mia.vn (10/01/2026 và 23/02/2026) ghi 321 Hai Bà Trưng; Vietnam Airlines ghi 10:00–22:00 (không rõ ngày)",
+   "vi_tri": null
+  },
+  {
+   "ten": "Chùa Linh Quang",
+   "loai": "chùa (di tích tôn giáo)",
+   "dac_trung": "Tổ đình Linh Quang, các bài du lịch gọi là ngôi chùa đầu tiên dựng ở Đà Lạt; mở 5h30–18h, không thu vé.",
+   "dia_chi": "133 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "133",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/chua-linh-quang-da-lat-13839",
+    "https://tatinta.com/diem-den/chua-linh-quang/8259"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "còn hoạt động: VinWonders (14/12/2025) ghi 133 Hai Bà Trưng, phường Cam Ly – Đà Lạt, mở 5h30–18h",
+   "ghi_chu": "Năm lập chùa các nguồn lệch: mia.vn, Tatinta ghi 1931; VinWonders ghi Hòa thượng Thích Nhơn Thứ dựng thảo am từ năm 1921. Không đưa năm vào câu giới thiệu.",
+   "vi_tri": {
+    "lon": 108.428415,
+    "lat": 11.956945,
+    "cach": "tên trên OpenStreetMap: Chùa Linh Quang",
+    "osm": "way/232458166"
+   }
+  },
+  {
+   "ten": "Bún đậu Cô Oanh",
+   "loai": "quán bún đậu mắm tôm",
+   "dac_trung": "Bún đậu mắm tôm kiểu Bắc ngay đầu đường, giá 35.000–60.000 đồng (VinWonders).",
+   "dia_chi": "5 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "5",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/bun-dau-mam-tom-da-lat/",
+    "https://toplist.vn/top-list/quan-bun-dau-ngon-nhat-tp-da-lat-lam-dong-57924.htm",
+    "https://www.foody.vn/lam-dong/bun-dau-co-oanh"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "dấu hiệu yếu: VinWonders (14/07/2025) ghi 05 Hai Bà Trưng, phường Cam Ly – Đà Lạt; Foody báo hơn 3 tháng không có tương tác mới",
+   "ghi_chu": "Foody ghi 5B, VinWonders 05, Toplist 5. Đánh giá Foody thấp (chất lượng 4.8).",
+   "vi_tri": {
+    "lon": 108.431541,
+    "lat": 11.942548,
+    "cach": "ước theo số nhà: giữa số 3 và số 41 Hai Bà Trưng trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 70
+   }
+  },
+  {
+   "ten": "Hương Quê Quán",
+   "loai": "quán cơm gia đình, gà nướng",
+   "dac_trung": "Quán cơm trong hẻm, rộng cho nhóm đông, đoàn khách.",
+   "dia_chi": "Hẻm 27 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "hẻm 27",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-an-trong-hem-ngon-va-dong-khach-nhat-da-lat-31900.htm",
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ga-nuong-com-lam-da-lat"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ (hai trang không ghi ngày cập nhật)",
+   "ghi_chu": "Chỉ có tên hẻm, không có số nhà. Mytour ghi \"3/10 hẻm 27 cũ\" → hẻm 27 có thể đã đổi số thành hẻm 3; cần kiểm.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Hủ tiếu Nam Vang Gia Cát",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "221/9",
+   "nguon": [
+    "https://toplist.vn/top-list/tiem-an-lau-doi-thu-hut-nhat-da-lat-31834.htm",
+    "https://toplist.vn/top-list/dia-chi-an-hu-tieu-nam-vang-chat-luong-nhat-da-lat-31751.htm",
+    "https://mytour.vn/en/blog/xep-hang/top-10-must-visit-long-established-restaurants-in-da-lat-mytour.html",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-an-ngon-da-lat/"
+   ],
+   "ly_do": "Toplist ghi 221/9 Hai Bà Trưng (hẻm Cây Đa); bài Mytour là bản đăng lại/dịch của Toplist nên không tính riêng; VinWonders lại ghi 15 Trần Bình Trọng → chỉ 1 nguồn độc lập cho địa chỉ Hai Bà Trưng"
+  },
+  {
+   "ten": "Quán ăn Dung 65",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "291",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/quan-dung-65-da-lat-quan-com-chuan-me-nau-tai-thanh-pho-suong-mu-1339",
+    "https://mytour.vn/vi/blog/bai-viet/quan-an-dung-65-da-lat-noi-thuong-thuc-nhung-mon-com-ngon-nhu-me-nau.html"
+   ],
+   "ly_do": "Bài Mytour viết lại gần nguyên văn bài mia.vn (cùng câu chỉ đường) → 1 nguồn; Foody không có trang"
+  },
+  {
+   "ten": "Cô Ba Cà Phê (cà phê trứng)",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "105",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-ca-phe-trung-ngon-nhat-tai-da-lat-33181.htm"
+   ],
+   "ly_do": "1 nguồn; trang web riêng ghi trong Toplist (cobacaphedalat.com) nay là trang khác hẳn (quảng cáo cờ bạc) → nghi quán đã đổi/đóng"
+  },
+  {
+   "ten": "Lẩu gà lá é 313 Hai Bà Trưng",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "313",
+   "nguon": [
+    "https://mytour.vn/vi/blog/bai-viet/danh-sach-13-quan-ngon-cuc-dinh-ve-lau-ga-la-e-da-lat.html"
+   ],
+   "ly_do": "1 nguồn, không có tên riêng"
+  },
+  {
+   "ten": "Gà nướng cơm lam Huy Hoàng",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "116",
+   "nguon": [
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ga-nuong-com-lam-da-lat"
+   ],
+   "ly_do": "1 nguồn"
+  },
+  {
+   "ten": "18 Độ C (cà phê trên đồi)",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "286",
+   "nguon": [
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cafe-da-lat"
+   ],
+   "ly_do": "1 nguồn"
+  },
+  {
+   "ten": "Lẩu cá tầm Ngư Sơn (chi nhánh)",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "58",
+   "nguon": [
+    "https://toplist.vn/top-list/nhung-quan-nhau-khong-the-bo-qua-khi-di-du-lich-da-lat-30820.htm"
+   ],
+   "ly_do": "1 nguồn"
+  },
+  {
+   "ten": "Lẩu Dê Tay Cầm Ngân (chi nhánh)",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "134",
+   "nguon": [
+    "https://toplist.vn/top-list/nhung-quan-nhau-khong-the-bo-qua-khi-di-du-lich-da-lat-30820.htm"
+   ],
+   "ly_do": "1 nguồn"
+  },
+  {
+   "ten": "Ốc vỉa hè 20k",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "239",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-oc-da-lat/"
+   ],
+   "ly_do": "1 nguồn, tên chung chung"
+  },
+  {
+   "ten": "Ghiền Ăn – Hủ tiếu mực, Nam Vang (chi nhánh 2)",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "234",
+   "nguon": [
+    "https://toplist.vn/top-list/dia-chi-an-hu-tieu-nam-vang-chat-luong-nhat-da-lat-31751.htm",
+    "https://mytour.vn/vi/blog/bai-viet/top-10-dia-diem-thuong-thuc-hu-tieu-nam-vang-tai-da-lat-lam-dong.html"
+   ],
+   "ly_do": "Mytour chép lại danh sách Toplist → 1 nguồn"
+  },
+  {
+   "ten": "Nhà hàng Memory Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "293",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-com-da-lat/"
+   ],
+   "ly_do": "1 nguồn, chỉ một dòng tên + địa chỉ"
+  },
+  {
+   "ten": "Kafein Coffee",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "451",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13481357201"
+   ],
+   "ly_do": "chỉ có trên OpenStreetMap"
+  },
+  {
+   "ten": "Tiệm Cà Phê & Bánh Mì RÒM",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "365",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13823405503"
+   ],
+   "ly_do": "chỉ có trên OpenStreetMap"
+  },
+  {
+   "ten": "Highlands Coffee",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "01-03",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1304439984"
+   ],
+   "ly_do": "chỉ có trên OpenStreetMap; chuỗi lớn, không tiêu biểu"
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hai-ba-trung-phuong-6",
+  "data/lam-dong/nq1671.json (mục 100)",
+  "https://www.foody.vn/thuong-hieu/quan-33",
+  "https://e.vnexpress.net/news/food/dont-miss-these-da-lat-dishes-4553978.html",
+  "OpenStreetMap: API 0.6 map, ô 108.4250,11.9415–108.4345,11.9600, tải 25/11/2026"
+ ],
+ "cap_nhat": "25/11/2026"
+}

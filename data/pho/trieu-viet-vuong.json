@@ -1,0 +1,279 @@
+{
+ "road": "Triệu Việt Vương",
+ "duong": [
+  "Triệu Việt Vương"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020 (sửa bởi QĐ 16/2021) trên thuviennhadat ghi cả 3 đoạn Triệu Việt Vương đều thuộc PHƯỜNG 4 (từ Lê Hồng Phong đến Dinh III; từ Dinh III đến An Sơn; đoạn còn lại). Phường 4 → Xuân Hương - Đà Lạt (NQ 1671, mục 99: gộp Phường 1, 2, 3, 4, 10). Vài trang quán ghi 'P. 3' (cũng thuộc Xuân Hương), 1 trang Foody ghi 'P. 9' cho số 5 (nhiều khả năng ghi nhầm). Em kiểm thêm: cả 40 điểm của đường trên OpenStreetMap đều nằm trong ranh phường Xuân Hương - Đà Lạt (data/lam-dong/phuong.json).",
+ "ten_osm": [
+  "Triệu Việt Vương"
+ ],
+ "ten_pho": "Phố Dinh III",
+ "gioi_thieu": "Phố Dinh III: con đường mở đầu bằng Dinh Bảo Đại ở số 1, dọc đường là cà phê vườn, quán cà phê của các bạn trẻ người điếc, bánh ướt lòng gà và tiệm bánh ngọt, rồi chạy tiếp về phía hồ Tuyền Lâm.",
+ "dia_diem": [
+  {
+   "ten": "Dinh III (Dinh Bảo Đại)",
+   "loai": "di tích, dinh thự",
+   "dac_trung": "Biệt điện mùa hè của vua Bảo Đại, kiến trúc Pháp; mở cửa tham quan cả tuần.",
+   "dia_chi": "1 Triệu Việt Vương, phường Xuân Hương - Đà Lạt",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "1",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/dinh-3-da-lat-biet-dien-vua-bao-dai-kham-pha-kien-truc-co-dien-phap-tai-da-lat-1385",
+    "https://www.openstreetmap.org/node/5274759821"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (cập nhật 19/07/2025) ghi số 1 Triệu Việt Vương, phường Xuân Hương – Đà Lạt, 7:00–17:30 mỗi ngày",
+   "ghi_chu": "Giá vé các nguồn lệch nhau (mia/VinWonders ghi 30.000 đ; trên OpenStreetMap có điểm bán vé ghi 'Ticket 60k') → không ghi giá.",
+   "vi_tri": {
+    "lon": 108.429674,
+    "lat": 11.930047,
+    "cach": "số nhà trên OpenStreetMap: 1 Triệu Việt Vương",
+    "osm": "node/5274759821"
+   }
+  },
+  {
+   "ten": "LA MAPPA Café & Bistro",
+   "loai": "cà phê vườn kiểu Pháp",
+   "dac_trung": "Mặt tiền sơn xanh ngọc, vườn cẩm tú cầu trước quán; gần Dinh III.",
+   "dia_chi": "8 Triệu Việt Vương, phường Xuân Hương - Đà Lạt",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "8",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/la-mappa-da-lat-noi-danh-rieng-cho-nhung-ngay-muon-tron-ca-the-gioi-5047",
+    "https://www.foody.vn/lam-dong/la-mappa-cafe-bistro",
+    "https://wanderlog.com/place/details/530755"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: Wanderlog (dữ liệu Google, xem 25/11/2026) ghi địa chỉ đã đổi sang 'Xuân Hương - Đà Lạt', giờ 6:30–22:00, không ghi đóng cửa",
+   "ghi_chu": "Có trên OpenStreetMap (node/12429462765) nhưng không ghi số nhà.",
+   "vi_tri": {
+    "lon": 108.426741,
+    "lat": 11.931674,
+    "cach": "tên trên OpenStreetMap: La Mappa Café & Bistro",
+    "osm": "node/12429462765"
+   }
+  },
+  {
+   "ten": "Quán Của Thời Thanh Xuân",
+   "loai": "quán cà phê, trà (doanh nghiệp xã hội)",
+   "dac_trung": "Người phục vụ và làm bánh đều là người điếc; khách dán giấy ghi chú lên tường; quán nằm dưới con dốc, hoạt động gần 10 năm (Báo Lâm Đồng, 8/2025).",
+   "dia_chi": "9 Triệu Việt Vương, phường Xuân Hương - Đà Lạt",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "9",
+   "nguon": [
+    "https://baolamdong.vn/noi-luu-giu-huong-hoa-cho-doi-388319.html",
+    "https://mia.vn/cam-nang-du-lich/ca-phe-thoi-thanh-xuan-noi-luu-giu-nhung-hanh-phuc-6289",
+    "https://www.foody.vn/lam-dong/quan-cua-thoi-thanh-xuan",
+    "https://wanderlog.com/place/details/3377670"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: Báo Lâm Đồng 23/08/2025 tả quán đang hoạt động ở Triệu Việt Vương, phường Xuân Hương - Đà Lạt; Wanderlog ghi địa chỉ phường mới",
+   "ghi_chu": "mia.vn ghi 9B, Foody/Wanderlog/OpenStreetMap (node/11899834395) ghi 9.",
+   "vi_tri": {
+    "lon": 108.428426,
+    "lat": 11.930786,
+    "cach": "tên trên OpenStreetMap: Quán Của Thời Thanh Xuân",
+    "osm": "node/11899834395"
+   }
+  },
+  {
+   "ten": "Up Coffee",
+   "loai": "quán cà phê nhiều tầng",
+   "dac_trung": "Trang trí kiểu vintage, nhiều tầng, ngồi ngắm thành phố về đêm; gần Dinh III.",
+   "dia_chi": "6 Triệu Việt Vương, phường Xuân Hương - Đà Lạt",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "6",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/up-coffee-da-lat-phong-cach-vintage-hut-hon-gioi-tre-da-lat-1449",
+    "https://www.foody.vn/lam-dong/up-coffee"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ — Foody báo 'Hơn 3 tháng chưa có tương tác mới'; bài mia sửa 14/07/2025 vẫn ghi phường 4 cũ",
+   "ghi_chu": "Foody ghi P. 3, mia ghi phường 4 (cả hai đều thuộc Xuân Hương). Bài Mytour về Up Coffee viết lại bài mia (cùng đoạn chỉ đường) nên không tính là nguồn riêng.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Bánh ướt lòng gà Thảo",
+   "loai": "quán bánh ướt lòng gà (sáng–chiều)",
+   "dac_trung": "Bánh ướt lòng gà kiểu Đà Lạt, mở từ sáng tới chiều, nghỉ thứ Ba.",
+   "dia_chi": "B6-12A Triệu Việt Vương, phường Xuân Hương - Đà Lạt",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "B6-12A",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912",
+    "https://wanderlog.com/place/details/3846997"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (sửa 18/01/2026) ghi B6-12A Triệu Việt Vương, 07:00–16:30; Wanderlog (dữ liệu Google) ghi địa chỉ phường mới, 7:00–16:00, nghỉ thứ Ba",
+   "ghi_chu": "B6-12A là lô trong khu quy hoạch 12A Triệu Việt Vương, có thể nằm trong hẻm chứ không sát mặt đường. Trang Foody 'Thảo - Bánh Ướt Lòng Gà' lại ghi 9 Đồng Tâm (nhiều khả năng địa chỉ cũ) → không dùng Foody làm nguồn.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Bánh Ngọt Hoàng Phát",
+   "loai": "tiệm bánh ngọt",
+   "dac_trung": "Tiệm bánh ngọt bình dân trên đường, Foody ghi giá 15.000–30.000 đ, mở 7:00–22:00.",
+   "dia_chi": "51 Triệu Việt Vương, phường Xuân Hương - Đà Lạt",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "51",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/banh-ngot-hoang-phat-trieu-viet-vuong",
+    "https://www.openstreetmap.org/node/14076341201"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở 2026: OpenStreetMap thêm tiệm 'Hoang Phat' (bakery, 51 Triệu Việt Vương) ngày 06/08/2026",
+   "ghi_chu": "Foody chưa có bình luận nào; không tìm thấy bài báo/blog. Hai nguồn khớp tên và số nhà.",
+   "vi_tri": {
+    "lon": 108.43092,
+    "lat": 11.931358,
+    "cach": "số nhà trên OpenStreetMap: 51 Triệu Việt Vương",
+    "osm": "node/14076341201"
+   }
+  },
+  {
+   "ten": "Cá Tầm Đà Lạt Restaurant & Cafe",
+   "loai": "nhà hàng cá tầm",
+   "dac_trung": "Nhà hàng kiêm cà phê chuyên cá tầm: nướng, lẩu, chiên, cuốn lá lốt.",
+   "dia_chi": "80 Triệu Việt Vương, phường Xuân Hương - Đà Lạt",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "80",
+   "nguon": [
+    "https://mytour.vn/vi/blog/xep-hang/top-5-quan-ca-tam-da-lat-tuoi-ngon-da-dang-mon-an-hap-dan-mytour.html",
+    "https://www.foody.vn/lam-dong/nha-hang-ca-tam-da-lat-80-trieu-viet-vuong"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: bài Mytour 'cập nhật gần nhất 1/11/2026' vẫn liệt kê quán ở 80 Triệu Việt Vương (bài tổng hợp, chưa chắc có người kiểm lại)",
+   "ghi_chu": "Mytour ghi P.3, Foody ghi P.4 (đều thuộc Xuân Hương).",
+   "vi_tri": null
+  },
+  {
+   "ten": "Tiệm Táo Đỏ - Cafe & Bistro",
+   "loai": "quán cà phê nhỏ",
+   "dac_trung": "Quán nhỏ tông đỏ và gỗ, nổi món cà phê trứng; trên đường đi hồ Tuyền Lâm, gần nhà thờ An Bình.",
+   "dia_chi": "Triệu Việt Vương (Foody ghi 12B, mia.vn ghi 16), phường Xuân Hương - Đà Lạt",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "chưa rõ (12B hoặc 16)",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/tiem-tao-do-cafe-bistro",
+    "https://mia.vn/cam-nang-du-lich/dung-chan-ben-tiem-tao-do-da-lat-yen-binh-de-thuong-thuc-mon-cafe-trung-ngon-tuyet-1486"
+   ],
+   "do_tin_cay": "thấp",
+   "con_mo": "không rõ — Foody báo 'Hơn 3 tháng chưa có tương tác mới'; bài mia sửa lần cuối 20/09/2023",
+   "ghi_chu": "Lệch số nhà; bài mia tả vị trí 'vừa qua nhà thờ An Bình', xa hơn khu số nhỏ gần Dinh III → số nhà chưa tin được, đừng ghim theo số.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "180°C Bakery",
+   "loai": "tiệm bánh",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "12A",
+   "nguon": [
+    "https://www.openstreetmap.org/node/14131062401"
+   ],
+   "ly_do": "chỉ có trên OpenStreetMap (thêm 28/08/2026), không tìm thấy trang nào khác"
+  },
+  {
+   "ten": "Tiệm Bánh Nhà Mèo",
+   "loai": "tiệm bánh",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "22",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13904182101"
+   ],
+   "ly_do": "chỉ OpenStreetMap (thêm 02/06/2026); Wanderlog có 'Tiệm Bánh Nhà Mèo' nhưng ở 222/3 Tô Ngọc Vân (Cam Ly) — có thể là chi nhánh khác hoặc tiệm khác"
+  },
+  {
+   "ten": "Cơm Tấm Hằng",
+   "loai": "quán cơm tấm",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "33",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13925656801"
+   ],
+   "ly_do": "chỉ OpenStreetMap"
+  },
+  {
+   "ten": "Kan Coffee",
+   "loai": "cà phê",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "50",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/kan-coffee"
+   ],
+   "ly_do": "chỉ Foody, 1 bình luận; OpenStreetMap ghi số 50 là BB Decor"
+  },
+  {
+   "ten": "Viva Coffee & House",
+   "loai": "cà phê",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "5",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/viva-coffee-house"
+   ],
+   "ly_do": "chỉ Foody, ghi P. 9 (lạ); có bình luận nói quán đã dời về gần cổng chợ mới"
+  },
+  {
+   "ten": "Nhà Hàng Trên Đỉnh Đồi Trăng",
+   "loai": "nhà hàng",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "1",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/nha-hang-tren-dinh-doi-trang-trieu-viet-vuong"
+   ],
+   "ly_do": "chỉ Foody; cùng số 1 với Dinh III, chưa rõ nằm trong khuôn viên dinh hay không"
+  },
+  {
+   "ten": "Quán Abao - Bánh Mì & Bò Né",
+   "loai": "bánh mì, bò né",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "91A",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/quan-abao-banh-mi-bo-ne"
+   ],
+   "ly_do": "chỉ Foody"
+  },
+  {
+   "ten": "The Deer - Coffee And Lounge",
+   "loai": "cà phê",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "30B",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/the-deer-coffee-and-lounge"
+   ],
+   "ly_do": "chỉ Foody"
+  },
+  {
+   "ten": "Dalat Family Hostel",
+   "loai": "hostel",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "19A",
+   "nguon": [
+    "https://www.openstreetmap.org/node/4568750678",
+    "https://www.hostelworld.com/st/hostels/p/302311/dalat-family-hostel/"
+   ],
+   "ly_do": "Hostelworld không hiện địa chỉ khi tải bằng máy → chưa đối chiếu được số nhà; trang riêng dalatfamilyhostel.com không vào được"
+  },
+  {
+   "ten": "Hugo's Family (Hugo family hostel)",
+   "loai": "hostel",
+   "duong": "Triệu Việt Vương",
+   "so_nha": "T21A",
+   "nguon": [
+    "https://sp.booking.com/hotel/vn/hugo-hostel.html",
+    "https://www.openstreetmap.org/node/11491411562"
+   ],
+   "ly_do": "địa chỉ chỉ thấy trong đoạn trích kết quả tìm kiếm Booking (trang không tải được); OpenStreetMap không ghi số nhà"
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/trieu-viet-vuong-phuong-4",
+  "https://www.foody.vn/lam-dong/tim-kiem/triệu-việt-vương?vt=row",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.4265,11.9200,108.4370,11.9333",
+  "data/lam-dong/nq1671.json (mục 99)"
+ ],
+ "cap_nhat": "2026-11-25"
+}

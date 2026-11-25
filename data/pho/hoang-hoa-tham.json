@@ -1,0 +1,268 @@
+{
+ "road": "Hoàng Hoa Thám",
+ "duong": [
+  "Hoàng Hoa Thám"
+ ],
+ "ten_osm": [
+  "Hoàng Hoa Thám"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất (QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021) trên thuviennhadat ghi 'Hoàng Hoa Thám - PHƯỜNG 10', 2 đoạn: 'Từ đầu đường - Đến Chùa Linh Phong' và 'Đoạn còn lại' — cả đường thuộc Phường 10 cũ → Xuân Hương - Đà Lạt (NQ 1671, mục 99: gộp Phường 1, 2, 3, 4, 10). Đối chiếu thêm: cả 17 điểm của đường Hoàng Hoa Thám trong duong.json đều nằm trong ranh giới Xuân Hương - Đà Lạt (phuong.json); các bài 2025–2026 (VinWonders, mia.vn, Trip.com) ghi 'phường Xuân Hương - Đà Lạt'.",
+ "ten_pho": "Phố Cà Phê Đồi",
+ "gioi_thieu": "Phố Cà Phê Đồi: con đường Hoàng Hoa Thám chạy dọc đồi thông, nhiều quán cà phê và homestay nhìn ra núi, thung lũng — Bình Minh Ơi mở từ 4:30 sáng để khách đón bình minh, giữa đường có chùa Linh Phong trên đồi.",
+ "dia_diem": [
+  {
+   "ten": "Tiệm Cà Phê Bình Minh Ơi",
+   "loai": "quán cà phê ngắm bình minh, nhìn núi",
+   "dac_trung": "Mở từ 4:30 sáng để đón bình minh; sân vườn cúc họa mi nhìn ra núi đồi, tối có nhạc acoustic.",
+   "dia_chi": "89 Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "89",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/tiem-ca-phe-binh-minh-oi-12697",
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cafe-da-lat",
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+    "https://nz.trip.com/restaurant/vietnam/dalat/detail/bnh-minh-i-c-ph-tim-c-ph-bnh-minh-i-lt-145047907/",
+    "https://wanderlog.com/list/geoCategory/16965"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (15/07/2025) và mia.vn (cập nhật 24/06/2026) ghi '89 Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt'; Trip.com ghi phường mới, giờ 04:30–22:00 (xem 25/11/2026)",
+   "vi_tri": null
+  },
+  {
+   "ten": "Đà Lạt Mountain View",
+   "loai": "quán cà phê nhà gỗ nhìn đồi thông",
+   "dac_trung": "Nhà gỗ trần cao kiểu Bắc Âu, nhìn ra đồi thông và nhà dân lớp lớp phía dưới; mở từ cuối tháng 12/2019.",
+   "dia_chi": "25 Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "25",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-ca-phe-hot-nhat-tai-da-lat-33327.htm",
+    "https://www.vietnambooking.com/du-lich/blog-du-lich/mountain-view-da-lat.html",
+    "https://mia.vn/cam-nang-du-lich/den-da-lat-mountain-view-coffee-trai-nghiem-khong-gian-bac-au-ben-nui-doi-mong-mo-1513",
+    "https://wanderlog.com/list/geoCategory/16965"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn bài săn mây (cập nhật 15/07/2026) ghi '25 Hoàng Hoa Thám, Phường Xuân Hương'; dữ liệu Google trên Wanderlog ghi địa chỉ phường mới",
+   "ghi_chu": "Toplist và mia.vn ghi '25 (số cũ 03) Hoàng Hoa Thám'. Mốc 'cuối tháng 12/2019' theo Toplist.",
+   "vi_tri": {
+    "lon": 108.463355,
+    "lat": 11.938534,
+    "cach": "tên trên OpenStreetMap: The Mountain View",
+    "osm": "node/10846172405"
+   }
+  },
+  {
+   "ten": "Émai Italian Restaurant & Gardens",
+   "loai": "nhà hàng Ý có vườn, cà phê",
+   "dac_trung": "Nhà hàng món Ý trong khu vườn, hợp bữa tối hẹn hò; cũng phục vụ cà phê.",
+   "dia_chi": "88 Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "88",
+   "nguon": [
+    "https://sa.trip.com/travel-guide/dalat-1393-restaurant/Emai%20Dalat-45818151",
+    "https://wanderlog.com/list/geoCategory/65160"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: danh sách Wanderlog cập nhật 11/07/2026, dữ liệu Google ghi '88 Hoàng Hoa Thám, Xuân Hương - Đà Lạt', 1.104 đánh giá, không ghi đóng; Trip.com giờ 07:30–22:00",
+   "ghi_chu": "Khác với 'Café Prélude at Émai Tea Garden' ở 1 Thi Sách (Cam Ly - Đà Lạt) — cùng thương hiệu Émai nhưng là nơi khác.",
+   "vi_tri": null
+  },
+  {
+   "ten": "The Hillside",
+   "loai": "quán cà phê nhìn rừng thông",
+   "dac_trung": "Giường Bali nhìn thẳng ra rừng thông, tổ chim khổng lồ để chụp ảnh; cho mượn váy chụp ảnh miễn phí.",
+   "dia_chi": "26 Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "26",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-ca-phe-hot-nhat-tai-da-lat-33327.htm",
+    "https://wanderlog.com/place/details/7195904/the-hillside-cafe-%C4%91%C3%A0-l%E1%BA%A1t"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: dữ liệu Google trên Wanderlog ghi '26 Hoàng Hoa Thám, Xuân Hương - Đà Lạt' (địa chỉ đã đổi sang phường mới)",
+   "ghi_chu": "Mytour (bài 'Top 21 quán cà phê độc đáo') ghi 'Vườn Cà Phê Mộc Lan' cũng ở 26 Hoàng Hoa Thám, cùng số điện thoại với The Hillside — có thể đã đổi tên; em chưa rõ tên nào là tên hiện tại.",
+   "vi_tri": {
+    "lon": 108.463431,
+    "lat": 11.93823,
+    "cach": "tên trên OpenStreetMap: The Hillside- Cafe Đà Lạt",
+    "osm": "node/11921053068"
+   }
+  },
+  {
+   "ten": "Chùa Linh Phong",
+   "loai": "chùa (chùa sư nữ) trên đồi",
+   "dac_trung": "Chùa sư nữ trên đồi thông, kiến trúc chữ Đinh, gần 80 năm tuổi; leo bậc thang lên nhìn toàn cảnh Đà Lạt.",
+   "dia_chi": "72C Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "72C",
+   "nguon": [
+    "https://mytour.vn/vi/blog/bai-viet/top-10-ngoi-chua-noi-tieng-o-da-lat-ma-nhieu-du-khach-thuong-lui-toi.html",
+    "https://mia.vn/cam-nang-du-lich/diem-danh-8-ngoi-chua-da-lat-co-view-dep-nhu-tien-canh-1530",
+    "https://wanderlog.com/place/details/4427074/linh-phong-pagoda",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-hoa-tham-phuong-10"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu: chùa lâu năm; mia.vn (cập nhật 01/07/2026) vẫn giới thiệu; Wanderlog ghi giờ 6:00–12:00, 13:00–18:00",
+   "ghi_chu": "Số nhà 72C theo Mytour; mia.vn chỉ ghi 'trên cung đường Hoàng Hoa Thám, phường 10'. 'Gần 80 năm' theo mia.vn. Bảng giá đất lấy chùa làm mốc chia đoạn ('Từ đầu đường - Đến Chùa Linh Phong').",
+   "vi_tri": {
+    "lon": 108.464944,
+    "lat": 11.929583,
+    "cach": "tên trên OpenStreetMap: Chùa Linh Phong",
+    "osm": "node/11277754062"
+   }
+  },
+  {
+   "ten": "Tổ Chim Homestay Coffee",
+   "loai": "homestay + quán cà phê trên đồi",
+   "dac_trung": "Homestay và quán cà phê trên đồi cao, nhà làm như tổ chim; nhìn rừng thông, thung lũng, săn mây, ngắm hoàng hôn; sân rộng nướng BBQ.",
+   "dia_chi": "1B Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "1B",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/review-to-chim-homestay-coffee-da-lat-19571",
+    "https://toplist.vn/top-list/homestay-dep-nhat-tai-da-lat-5436.htm",
+    "https://www.foody.vn/lam-dong/to-chim-homestay"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn đăng 07/11/2025 (cập nhật 24/06/2026) ghi '1B Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt'",
+   "ghi_chu": "Số điện thoại lệch: Toplist ghi 0329 944 439, Foody ghi 0888 597 599.",
+   "vi_tri": {
+    "lon": 108.462831,
+    "lat": 11.941174,
+    "cach": "tên trên OpenStreetMap: Tổ Chim Homestay",
+    "osm": "node/6151185388"
+   }
+  },
+  {
+   "ten": "LengKeng Dalat Homestay",
+   "loai": "homestay nhìn thung lũng",
+   "dac_trung": "Homestay nhiều cây xanh, trang trí mộc mạc, nhìn ra thung lũng.",
+   "dia_chi": "57/4 Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "57/4",
+   "nguon": [
+    "https://nz.trip.com/hotels/dalat-hotel-detail-114978406/lengkeng-dalat-homestay",
+    "https://mia.vn/cam-nang-du-lich/homestay-da-lat-view-cuc-chill-14668",
+    "https://mia.vn/cam-nang-du-lich/review-leng-keng-homestay-da-lat-13978"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: Trip.com ghi '57/4 Hoang Hoa Tham, Xuan Huong - Da Lat' và đang nhận đặt phòng (xem 25/11/2026); mia.vn (cập nhật 26/06/2026) vẫn giới thiệu",
+   "ghi_chu": "Số nhà lệch: Trip.com và bài mia 2026 ghi 57/4; bài review mia (2023) ghi 'Số 57'; vài trang đặt phòng khác ghi 57/6.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Cà Phê - Kem Việt Hưng",
+   "loai": "quán kem + cà phê nhìn đồi",
+   "dac_trung": "Nhà nhỏ 3 tầng, nhiều loại kem (kem dừa, lẩu kem, kem rau câu), nhìn ra đồi chè, vườn cà phê; quán nuôi nhiều chó.",
+   "dia_chi": "2A/1 Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "2A/1",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/15-quan-kem-da-lat-duoc-review-nhieu-nhat/",
+    "https://mia.vn/cam-nang-du-lich/top-10-quan-kem-ngon-tai-da-lat-danh-cho-hoi-sanh-an-1300",
+    "https://mytour.vn/vi/blog/bai-viet/top-10-quan-kem-ngon-va-chat-luong-tai-da-lat.html",
+    "https://www.foody.vn/lam-dong/tim-kiem/ho%C3%A0ng-hoa-th%C3%A1m"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu yếu: VinWonders (22/07/2025) còn giới thiệu nhưng chưa ghi phường mới; Foody hiện 'Đang mở cửa' (xem 25/11/2026)",
+   "ghi_chu": "'3 tầng', 'nhìn đồi chè, vườn cà phê', 'nuôi nhiều chó' theo mia.vn (bài 2021, cập nhật 2023).",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Chồn Coffee",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "135E",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/chon-coffee"
+   ],
+   "ly_do": "chỉ 1 nguồn mở được (Foody, ghi 'Hơn 3 tháng chưa có tương tác mới'). Kết quả tìm kiếm có bài Vinpearl ghi 'Weasel Coffee Farm' cùng số 135E nhưng trang Vinpearl chặn tải (403), em chưa đọc được."
+  },
+  {
+   "ten": "WEECAFE (The Wee Cafe)",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "86",
+   "nguon": [
+    "https://wanderlog.com/place/details/3635120/weecafe",
+    "https://benable.com/minutemuncher/expert-s-guide-to-the-best-cafe-s-in-da-l-t"
+   ],
+   "ly_do": "2 trang nhưng cả hai đều lấy địa chỉ từ Google; Vietnam Airlines ghi quán 'Búp rau' ở cùng số 86; trang Foody 'Wee Cafe' lại tả quán ở dốc Nguyễn Thị Định — chưa rõ."
+  },
+  {
+   "ten": "Búp rau",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "86",
+   "nguon": [
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cafe-da-lat"
+   ],
+   "ly_do": "chỉ 1 nguồn; trùng số nhà với WEECAFE, có thể đã đổi chủ/đổi tên."
+  },
+  {
+   "ten": "Sân Mây Homestay",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "56",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/homestay-da-lat-view-cuc-chill-14668"
+   ],
+   "ly_do": "chỉ 1 nguồn (mia.vn)."
+  },
+  {
+   "ten": "Đà Lạt Nhớ Homestay",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "45",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/homestay-da-lat-view-cuc-chill-14668"
+   ],
+   "ly_do": "chỉ 1 nguồn (mia.vn)."
+  },
+  {
+   "ten": "Dreams on Dalat homestay",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "3",
+   "nguon": [
+    "https://toplist.vn/top-list/homestay-co-view-thung-lung-dep-nhat-o-da-lat-30737.htm"
+   ],
+   "ly_do": "chỉ 1 nguồn (Toplist); tìm tên này không thấy trang khác."
+  },
+  {
+   "ten": "Bánh Căn Cô Thương",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "2A",
+   "nguon": [
+    "https://wanderlog.com/list/geoCategory/1807019"
+   ],
+   "ly_do": "chỉ 1 nguồn (Wanderlog, dữ liệu Google)."
+  },
+  {
+   "ten": "Bánh mỳ que Đà Nẵng",
+   "duong": "Hoàng Hoa Thám",
+   "so_nha": "71",
+   "nguon": [
+    "https://wanderlog.com/list/geoCategory/1807019"
+   ],
+   "ly_do": "chỉ 1 nguồn (Wanderlog)."
+  }
+ ],
+ "da_dong": [
+  {
+   "ten": "Muối Coffee & Stay (A Place Like No Other)",
+   "so_nha": "182",
+   "nguon": [
+    "https://wanderlog.com/place/details/3377663",
+    "https://toplist.vn/top-list/quan-ca-phe-hot-nhat-tai-da-lat-33327.htm"
+   ],
+   "ghi_chu": "Wanderlog (dữ liệu Google) ghi 'Permanently Closed', xem 25/11/2026 → không đưa vào danh sách."
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-hoa-tham-phuong-10",
+  "https://www.vietnambooking.com/du-lich/blog-du-lich/mountain-view-da-lat.html (gọi Hoàng Hoa Thám là 'con đường có view đẹp và gắt nhất nhì Đà Lạt', 'có rất nhiều địa điểm du lịch')",
+  "https://mia.vn/cam-nang-du-lich/top-quan-cafe-san-may-da-lat-21061",
+  "https://www.foody.vn/lam-dong/tim-kiem/ho%C3%A0ng-hoa-th%C3%A1m (26 kết quả ăn uống khi tìm 'hoàng hoa thám' ở Lâm Đồng — gồm cả nơi ở đường khác, không dùng làm số đếm)",
+  "data/lam-dong/nq1671.json (mục 99)"
+ ],
+ "cap_nhat": "2026-11-25"
+}

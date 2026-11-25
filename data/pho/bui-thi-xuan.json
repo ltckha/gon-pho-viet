@@ -1,0 +1,342 @@
+{
+ "road": "Bùi Thị Xuân",
+ "duong": [
+  "Bùi Thị Xuân"
+ ],
+ "ten_osm": [
+  "Bùi Thị Xuân"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Đường qua 2 phường cũ (bảng giá đất QĐ 02/2020/QĐ-UBND, sửa bởi QĐ 16/2021, trên thuviennhadat). Đoạn 1 'Bùi Thị Xuân - PHƯỜNG 2': từ Nguyễn Thái Học (phía hồ Xuân Hương) đến hết nhà 226A (số cũ 50) - ngã ba Thông Thiên Học → Phường 2 cũ → Xuân Hương - Đà Lạt (NQ 1671 mục 99). Đoạn 2: từ ngã ba Thông Thiên Học (nhà 79) đến cuối đường (ngã năm Đại học) có trong bảng của CẢ Phường 2 ('đoạn còn lại') và Phường 8 → có thể đường là ranh giới, một bên Phường 2 (Xuân Hương), một bên Phường 8 (Lâm Viên - Đà Lạt, NQ 1671 mục 101). Ranh giới mới trong data/lam-dong/phuong.json cũng đặt khoảng 470 m cuối (sau Thông Thiên Học) vào Lâm Viên - Đà Lạt. Theo OSM đường dài khoảng 1.670 m, ngã ba Thông Thiên Học ở khoảng mét 1.206. Các quán chính đều ở đoạn 1 nên 'ward' ghi Xuân Hương - Đà Lạt.",
+ "doan": [
+  {
+   "tu": "hồ Xuân Hương (Trần Quốc Toản / Nguyễn Thái Học)",
+   "den": "ngã ba Thông Thiên Học (nhà 226A)",
+   "phuong_cu": "Phường 2",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/bui-thi-xuan-phuong-2"
+  },
+  {
+   "tu": "ngã ba Thông Thiên Học (nhà 79)",
+   "den": "ngã năm Đại học",
+   "phuong_cu": "Phường 8 (bảng giá Phường 2 cũng ghi 'đoạn còn lại')",
+   "phuong_moi": "Lâm Viên - Đà Lạt (có thể một bên đường là Xuân Hương - Đà Lạt)",
+   "do_chac": "khá chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/bui-thi-xuan-phuong-8"
+  }
+ ],
+ "ten_pho": "Phố Lẩu – Nem Nướng",
+ "gioi_thieu": "Phố Lẩu – Nem Nướng: con đường dài 1,65 km từ hồ Xuân Hương lên ngã năm Đại học, dọc đường có lẩu gà lá é, lẩu bò Ba Toa, nem nướng và nhiều khách sạn; đường đang được nâng cấp, mở rộng.",
+ "gioi_thieu_nguon": [
+  "https://baolamdong.vn/thu-hoi-duong-day-tru-dien-noi-tren-tuyen-duong-bui-thi-xuan-402489.html",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/bui-thi-xuan-phuong-8",
+  "https://mia.vn/cam-nang-du-lich/quan-lau-ga-la-e-tao-ngo-da-lat-16331",
+  "https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503",
+  "https://mia.vn/cam-nang-du-lich/fan-cha-ram-nem-nuong-nhat-dinh-khong-duoc-bo-qua-top4-quan-ngon-tuyet-dinh-tai-da-lat-1308",
+  "https://www.vietnambooking.com/khach-san/tin-tuc-khach-san/khach-san-da-lat-tren-duong-bui-thi-xuan.html"
+ ],
+ "dia_diem": [
+  {
+   "ten": "Lẩu gà lá é Tao Ngộ - 30 Bùi Thị Xuân",
+   "loai": "quán lẩu gà lá é",
+   "dac_trung": "Một cơ sở của chuỗi Tao Ngộ (lẩu gà lá é kiểu Phú Yên); nồi lẩu nước trong, cay nhẹ ớt xiêm xanh, ăn kèm đậu hũ ky, má heo nướng.",
+   "dia_chi": "30 Bùi Thị Xuân, Xuân Hương - Đà Lạt (Phường 2 cũ)",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "30",
+   "nguon": [
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/lau-ga-la-e-da-lat",
+    "https://mia.vn/cam-nang-du-lich/quan-lau-ga-la-e-tao-ngo-da-lat-16331"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn cập nhật 28/11/2025; bài Vietnam Airlines (không rõ ngày) tả quán 'nằm trên con đường Bùi Thị Xuân đang thi công' — khớp đợt thi công 2025–2026",
+   "vi_tri": null
+  },
+  {
+   "ten": "Lẩu bò Ba Toa - chi nhánh Bùi Thị Xuân",
+   "loai": "quán lẩu bò",
+   "dac_trung": "Chi nhánh của lẩu bò Ba Toa (quán gốc ở khu Hoàng Diệu); quán rộng, hợp đoàn đông và gia đình, mở 9:00–23:00.",
+   "dia_chi": "115 Bùi Thị Xuân, Xuân Hương - Đà Lạt",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "115",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/top-quan-lau-bo-ba-toa-da-lat-19503",
+    "https://wanderlog.com/place/details/7935652"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn cập nhật 23/07/2026; Wanderlog ghi địa chỉ theo phường mới Xuân Hương - Đà Lạt, không ghi đóng cửa (xem 25/11/2026)",
+   "vi_tri": {
+    "lon": 108.440283,
+    "lat": 11.947303,
+    "cach": "số nhà trên OpenStreetMap: 115 Bùi Thị Xuân",
+    "osm": "node/5096900721"
+   }
+  },
+  {
+   "ten": "Lẩu bò Giáo Sĩ (cơ sở Bùi Thị Xuân)",
+   "loai": "quán lẩu bò",
+   "dac_trung": "Cơ sở thứ hai của lẩu bò Giáo Sĩ (cơ sở kia ở 56 Hoàng Diệu); nhúng đuôi bò, bắp, gầu, có gân bò xào sa tế, bò cuộn bánh tráng.",
+   "dia_chi": "237 Bùi Thị Xuân, Xuân Hương - Đà Lạt",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "237",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-lau-bo-hap-dan-nhat-da-lat-33370.htm",
+    "https://vinwonders.com/?p=77718"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở 2025: VinWonders (31/07/2025) ghi '237 Đ. Bùi Thị Xuân, phường Xuân Hương – Đà Lạt'. Toplist không rõ ngày. Không có nguồn 2026.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Nem nướng Bà Nghĩa",
+   "loai": "quán nem nướng",
+   "dac_trung": "Quán nem nướng lâu năm gần chợ Đà Lạt và hồ Xuân Hương, bán cả bánh xèo, ram bắp, chả giò; trưa thường đông.",
+   "dia_chi": "45 Bùi Thị Xuân, Xuân Hương - Đà Lạt",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "45",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/",
+    "https://www.foody.vn/lam-dong/nem-ba-nghia",
+    "https://www.foody.vn/lam-dong/nem-nuong-ba-nghia"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở 2025: VinWonders (13/07/2025 và bài ăn vặt 07/07/2025) ghi '45 Bùi Thị Xuân, phường Xuân Hương'. Nghi: mia.vn (cập nhật 21/02/2026) viết quán 'tọa lạc trên Bùi Thị Xuân' nhưng dòng địa chỉ lại ghi 2/17/5 Khởi Nghĩa Bắc Sơn — có thể đã dời hoặc mia ghi lẫn.",
+   "ghi_chu": "Foody trang 'nem-ba-nghia' ghi số 4C, khách bình luận sửa là 45; trang 'nem-nuong-ba-nghia' ghi 86 Phan Đình Phùng nhưng bình luận ghi 45 Bùi Thị Xuân. Hai trang Foody tính là 1 nguồn.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Nem nướng Hùng Vân",
+   "loai": "quán nem nướng",
+   "dac_trung": "Quán nem nướng sạch sẽ, dễ tìm, mỗi phần khoảng 35.000 đồng; mở 11:00–21:00.",
+   "dia_chi": "150 Bùi Thị Xuân, Xuân Hương - Đà Lạt (Phường 2 cũ)",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "150",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/fan-cha-ram-nem-nuong-nhat-dinh-khong-duoc-bo-qua-top4-quan-ngon-tuyet-dinh-tai-da-lat-1308",
+    "https://wanderlog.com/place/details/1323106"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2026: mia.vn cập nhật 21/02/2026; Wanderlog ghi phường mới Xuân Hương - Đà Lạt, giờ 11AM–9PM, không ghi đóng cửa (xem 25/11/2026)",
+   "vi_tri": {
+    "lon": 108.439231,
+    "lat": 11.948751,
+    "cach": "tên trên OpenStreetMap: Hung Van nem nuong",
+    "osm": "node/4746016823"
+   }
+  },
+  {
+   "ten": "Bánh mì xíu mại BH",
+   "loai": "quán bánh mì xíu mại",
+   "dac_trung": "Bánh mì chấm xíu mại nấu trên bếp than tròn, nồi nước xíu mại ở giữa, bánh mì xếp quanh; dời từ Nguyễn Chí Thanh về Bùi Thị Xuân.",
+   "dia_chi": "79 Bùi Thị Xuân, Xuân Hương - Đà Lạt",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "79",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/diem-mat-17-quan-banh-mi-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/banh-mi-xiu-mai-da-lat-18910",
+    "https://mytour.vn/vi/blog/bai-viet/top-20-quan-banh-mi-xiu-mai-noi-tieng-o-da-lat.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở 2025–2026: VinWonders (11/07/2025) ghi 'phường Xuân Hương'; mia.vn cập nhật 23/07/2026 vẫn ghi CS1 79 Bùi Thị Xuân",
+   "ghi_chu": "Khác quán 'Bánh mì xíu mại 79' (79 cũ), nay ở 1 Thông Thiên Học (VinWonders). Giờ mở hai nguồn khác nhau: 06:30–11:30 (VinWonders), 06:00–20:00 (mia).",
+   "vi_tri": null
+  },
+  {
+   "ten": "Nesta Valley Dalat Hotel (trước là Golf Valley Hotel)",
+   "loai": "khách sạn 4 sao",
+   "dac_trung": "Khai trương 28/12/2018, 164 phòng (mia.vn); cách chợ Đà Lạt khoảng 12 phút đi bộ (Vietnam Booking).",
+   "dia_chi": "94 Bùi Thị Xuân, Xuân Hương - Đà Lạt (Phường 2 cũ)",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "94",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/review-khach-san-golf-valley-da-lat-18935",
+    "https://www.vietnambooking.com/hotel/vietnam/golf-valley-da-lat.html",
+    "https://uk.trip.com/hotels/dalat-hotel-detail-29861606/golf-valley-hotel",
+    "https://www.travelocity.com/es/Da-Lat-Hoteles-Nesta-Valley-Dalat-Hotel-Golf-Valley-Hotel.h33350943.Opiniones-Hotel"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "còn mở, đã đổi tên: Trip.com (xem 25/11/2026) ghi 'Nesta Valley Dalat Hotel - Formerly Golf Valley Hotel', địa chỉ phường Xuân Hương - Đà Lạt; mia.vn 24/07/2025 còn ghi tên Golf Valley",
+   "vi_tri": {
+    "lon": 108.440357,
+    "lat": 11.94732,
+    "cach": "ước theo số nhà: giữa số 80 và số 104 Bùi Thị Xuân trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 70
+   }
+  },
+  {
+   "ten": "Dragon King 1 Hotel",
+   "loai": "khách sạn 3 sao",
+   "dac_trung": "Khách sạn 3 sao giữa đường, đi bộ ra chợ Đà Lạt; có nhà hàng, thang máy.",
+   "dia_chi": "65-67 Bùi Thị Xuân, Xuân Hương - Đà Lạt (Phường 2 cũ)",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "65-67",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/dragon-king-1-hotel-don-lan-gio-se-lanh-mat-me-va-de-chiu-6286",
+    "https://www.vietnambooking.com/hotel/vietnam/dragon-king-1-da-lat.html",
+    "https://ph.trip.com/hotels/dalat-hotel-detail-713926/fortune-dai-loi-hotel"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu còn mở: Trip.com (xem 25/11/2026) ghi '67 Đường Bùi Thị Xuân ... Xuan Huong - Da Lat'. mia.vn chỉ cập nhật 26/09/2023. Đường dẫn Trip.com có chữ 'fortune-dai-loi-hotel' — có thể tên cũ hoặc tên mới, chưa rõ.",
+   "vi_tri": null
+  }
+ ],
+ "da_dong": [
+  {
+   "ten": "Woodstock Coffee",
+   "so_nha": "80",
+   "nguon": [
+    "https://wanderlog.com/place/details/530709",
+    "https://mia.vn/cam-nang-du-lich/woodstock-da-lat-21614"
+   ],
+   "ghi_chu": "Wanderlog (xem 25/11/2026) ghi 80 Bùi Thị Xuân 'Permanently closed'; mia.vn (24/09/2026) ghi Woodstock nay ở 32 Trần Phú. VinWonders (15/07/2025) và Foody còn ghi số 80 — đã cũ."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Lẩu bò Hạnh",
+   "loai": "quán lẩu bò",
+   "dia_chi": "95 hoặc 167 Bùi Thị Xuân",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": null,
+   "nguon": [
+    "https://www.foody.vn/lam-dong/lau-bo-hanh-bui-thi-xuan",
+    "https://vinwonders.com/?p=77718"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "2 nguồn nhưng số nhà khác nhau: Foody ghi 95, VinWonders (31/07/2025) ghi 167. Foody nhiều bình luận chê giá, không niêm yết giá."
+  },
+  {
+   "ten": "Liên Hoa - Bakery & Restaurant (chi nhánh Bùi Thị Xuân)",
+   "loai": "tiệm bánh",
+   "dia_chi": "75C Bùi Thị Xuân",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "75C",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/lien-hoa-bakery"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "chỉ Foody (Foody ghi 'hơn 3 tháng chưa có tương tác'); nghiên cứu game 24/11 cũng nghi chi nhánh này đã đóng. Tiệm chính ở Ba Tháng Hai đã có trong phố Trần Phú."
+  },
+  {
+   "ten": "Cà phê Tỏi Đen",
+   "loai": "quán cà phê",
+   "dia_chi": "318 Bùi Thị Xuân (Phường 8 cũ → Lâm Viên - Đà Lạt)",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "318",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/quan-ca-phe-dep-o-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/ca-phe-toi-den-da-lat-dung-luot-qua-neu-ban-la-nguoi-choi-he-ghien-ca-phe-o-da-lat-1575"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "đủ 2 nguồn cho số 318 nhưng nghi đã dời: Wanderlog trang 'Tỏi Đen Coffee Roastery … 318 Bùi Thị Xuân' nay ghi 15A Trần Hưng Đạo; Foody có thêm cơ sở 370 Phan Đình Phùng. mia chỉ cập nhật 2023."
+  },
+  {
+   "ten": "Bánh mì gà Nhân Ngãi",
+   "loai": "quán bánh mì gà",
+   "dia_chi": "215 Bùi Thị Xuân",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "215",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/diem-mat-17-quan-banh-mi-da-lat/"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "VinWonders (11/07/2025) ghi 215 Bùi Thị Xuân, nhưng Wanderlog (https://wanderlog.com/place/details/4354851) ghi 23 Trần Phú → có thể đã dời."
+  },
+  {
+   "ten": "Sữa đậu nành 2 Chị Em",
+   "loai": "quán sữa đậu nành",
+   "dia_chi": "37 Bùi Thị Xuân",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "37",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/sua-dau-nanh-da-lat/",
+    "https://vinwonders.com/vi/wonderpedia/news/mon-an-vat-da-lat/"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "2 bài nhưng cùng trang VinWonders (tính 1 nguồn). Bán 16:00–23:30."
+  },
+  {
+   "ten": "Trà sữa Heekcaa",
+   "loai": "quán trà sữa",
+   "dia_chi": "36 Bùi Thị Xuân",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "36",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/mon-an-vat-da-lat/"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "1 nguồn"
+  },
+  {
+   "ten": "Xắp xắp Năm Đỉnh",
+   "loai": "xe ăn vặt",
+   "dia_chi": "cổng trường tiểu học Nguyễn Trãi, Bùi Thị Xuân",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": null,
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/mon-an-vat-da-lat/"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "1 nguồn, không số nhà"
+  },
+  {
+   "ten": "Bún bò Huế O Lịch",
+   "loai": "quán bún bò",
+   "dia_chi": "Bùi Thị Xuân (trong hẻm dốc, không số nhà)",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": null,
+   "nguon": [
+    "https://www.foody.vn/lam-dong/bun-bo-o-lich"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "1 nguồn, bình luận cũ (2018), nằm trong hẻm"
+  },
+  {
+   "ten": "Navy Flowers Hotel / Dream Luxury Hotel",
+   "loai": "khách sạn",
+   "dia_chi": "72 Bùi Thị Xuân",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": "72",
+   "nguon": [
+    "https://www.vietnambooking.com/khach-san/tin-tuc-khach-san/khach-san-da-lat-tren-duong-bui-thi-xuan.html",
+    "https://www.vietnambooking.com/hotel/vietnam/dream-luxury-hotel-bui-thi-xuan-da-lat.html"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "cùng trang Vietnam Booking, 2 tên khác nhau cho cùng số 72 (có thể đã đổi tên) — chưa có trang thứ hai"
+  },
+  {
+   "ten": "Hủ tiếu Bùi Thị Xuân (xe đẩy)",
+   "loai": "xe hủ tiếu đêm",
+   "dia_chi": "Bùi Thị Xuân, gần số 67/79 (không số nhà)",
+   "duong": "Bùi Thị Xuân",
+   "so_nha": null,
+   "nguon": [
+    "https://www.foody.vn/lam-dong/hu-tieu-bui-thi-xuan"
+   ],
+   "con_mo": "không rõ",
+   "ly_do": "1 nguồn, bình luận 2017"
+  }
+ ],
+ "chuyen_ngoai_duong": [
+  {
+   "noi_dung": "Dự án nâng cấp, mở rộng đường Bùi Thị Xuân dài 1,65 km, tổng mức đầu tư 109 tỷ đồng; 13/11/2025 đang thu hồi trụ điện nổi, ngầm hoá hơn 3.135 m hào kỹ thuật.",
+   "nguon": "https://baolamdong.vn/thu-hoi-duong-day-tru-dien-noi-tren-tuyen-duong-bui-thi-xuan-402489.html"
+  },
+  {
+   "noi_dung": "Xe trên 29 chỗ bị cấm 19–21h trên Bùi Thị Xuân, đoạn sau nút Lý Tự Trọng tới ngã 5 Đại học (Báo Lâm Đồng 24/07/2026, áp dụng từ 1/8/2026).",
+   "nguon": "https://baolamdong.vn/lam-dong-han-che-xe-tren-29-cho-tai-mot-so-khu-vuc-trung-tam-da-lat-455480.html"
+  }
+ ],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/bui-thi-xuan-phuong-2",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/bui-thi-xuan-phuong-8",
+  "https://baolamdong.vn/thu-hoi-duong-day-tru-dien-noi-tren-tuyen-duong-bui-thi-xuan-402489.html",
+  "https://www.vietnambooking.com/khach-san/tin-tuc-khach-san/khach-san-da-lat-tren-duong-bui-thi-xuan.html (blog 25/12/2019: 'cung đường tập trung nhiều cơ sở lưu trú nhất' — ý kiến người viết, không phải số liệu)",
+  "data/lam-dong/nq1671.json (mục 99: Xuân Hương - Đà Lạt gộp Phường 1, 2, 3, 4, 10; mục 101: Lâm Viên - Đà Lạt gộp Phường 8, 9, 12)",
+  "data/lam-dong/da-lat/duong.json (OSM: 2 đoạn tên 'Bùi Thị Xuân', id 99660941 và 1140683157, tổng ~1.670 m)",
+  "ltckha/giang-ho-ai: docs/research/2026-11-24_pho_moi_da_lat.md (game đã loại Bùi Thị Xuân; ghi chú chi nhánh Liên Hoa có thể đã đóng)"
+ ],
+ "cap_nhat": "2026-11-25"
+}

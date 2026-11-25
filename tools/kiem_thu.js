@@ -75,6 +75,7 @@ const URL = process.env.URL || 'http://localhost:8765/';
   await p.goto(URL + '#pho-hoang-dieu'); await p.waitForTimeout(2500);
   if (!(await p.isVisible('#sheet.full'))) fail('Mở link #pho-hoang-dieu không ra trang phố');
   const nTen = await p.locator('.places li b').count();
+  await p.locator('details.all summary').click();            // danh sách quán nằm trong mục gập
   const btnQuan = p.locator('text=Xem chỗ quán trên bản đồ');
   if (await btnQuan.count()) {
     await btnQuan.first().click(); await p.waitForTimeout(600);

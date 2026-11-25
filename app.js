@@ -523,8 +523,10 @@
       '<div>' + ph.duong.map(function (d) { return '<span class="tag open">' + esc(d) + '</span>'; }).join(' ') +
       ' <span class="tag">' + esc('Phường ' + ph.ward) + '</span></div>' +
       '<p>' + esc(ph.gioi_thieu) + '</p>' +
-      '<button class="go" type="button" id="seeMap">Xem cả phố trên bản đồ</button>' +
-      '<h3>Nơi tiêu biểu <span class="muted">(' + ph.dia_diem.length + ' nơi, mỗi nơi ≥ 2 nguồn)</span></h3><ol class="places">';
+      '<div id="soDo" class="so-do" aria-label="Sơ đồ phố ' + esc(ph.ten_pho) + '"><p class="note">Đang vẽ phố…</p></div>' +
+      '<div id="quanCard" class="quan-card" hidden></div>' +
+      '<button class="go" type="button" id="seeMap">Xem cả phố trên bản đồ thật</button>' +
+      '<details class="all"><summary>Danh sách ' + ph.dia_diem.length + ' nơi (mỗi nơi ≥ 2 nguồn)</summary><ol class="places">';
     ph.dia_diem.forEach(function (d, k) {
       h += '<li>' + (d.ten
         ? '<b>' + esc(d.ten) + '</b><span class="addr">' + esc(d.dia_chi) + ' · ' + esc(d.loai) + '</span>'
@@ -542,7 +544,7 @@
         }).join(' · ') +
         '</span></li>';
     });
-    h += '</ol>';
+    h += '</ol></details>';
     if (ph.can_kiem_them) h += '<p class="note">Còn ' + ph.can_kiem_them + ' nơi khác chưa đủ 2 nguồn nên chưa đưa lên.</p>';
     h += ph.ten_that
       ? '<p class="note">Tên quán thật, mỗi nơi có nguồn ở ít nhất 2 trang khác nhau. Vị trí chỉ ghi khi OpenStreetMap có đúng tên quán hoặc đúng số nhà. <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">Xem nghiên cứu</a>.</p>'
@@ -553,9 +555,17 @@
     srcSheet.hidden = true;
     sheet.hidden = false;
     document.getElementById('seeMap').addEventListener('click', function () { closeSheet(); zoomTo(phoBox); });
+    renderSoDo(ph);
     Array.prototype.forEach.call(sheetBody.querySelectorAll('[data-place]'), function (btn) {
       btn.addEventListener('click', function () {
-        var d = ph.dia_diem[Number(btn.getAttribute('data-place'))];
+        goPlace(ph.dia_diem[Number(btn.getAttribute('data-place'))]);
+      });
+    });
+  }
+
+  function goPlace(d) {
+    {
+      {
         closeSheet();
         if (d.vi_tri) {
           markPlace(d);
@@ -564,8 +574,76 @@
         } else {
           zoomTo(highlight([d.duong]));
         }
+      }
+    }
+  }
+
+  /* ---------- sơ đồ phố kiểu game ---------- */
+  var atlas = null;
+  function loadJSON(url) { return fetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+
+  function renderSoDo(ph) {
+    var host = document.getElementById('soDo');
+    Promise.all([loadJSON('data/lam-dong/da-lat/so_do/' + ph.slug + '.json'),
+                 atlas ? atlas : loadJSON('assets/so_do/facade_atlas.json')]).then(function (res) {
+      var sd = res[0]; atlas = res[1];
+      if (!document.getElementById('soDo')) return;
+      var g = '<svg viewBox="0 0 ' + sd.w + ' ' + sd.h + '" class="so-do-svg" role="img" aria-label="Sơ đồ ' + esc(ph.ten_pho) + '">' +
+        '<defs><pattern id="co" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#93c26c"/>' +
+        '<path d="M4 18l2-5 2 5M15 9l2-5 2 5" stroke="#6fa34f" stroke-width="1.4" fill="none"/></pattern></defs>' +
+        '<rect width="' + sd.w + '" height="' + sd.h + '" fill="url(#co)"/>';
+      function line(pts) { return pts.map(function (p, i) { return (i ? 'L' : 'M') + p[0] + ' ' + p[1]; }).join(''); }
+      sd.cat.forEach(function (c) { g += '<path d="' + line(c.pts) + '" class="sd-cat"/>'; });
+      sd.duong.forEach(function (r) { g += '<path d="' + line(r) + '" class="sd-le"/>'; });
+      sd.duong.forEach(function (r) { g += '<path d="' + line(r) + '" class="sd-nhua"/>'; });
+      sd.duong.forEach(function (r) { g += '<path d="' + line(r) + '" class="sd-vach"/>'; });
+      sd.cat.forEach(function (c) {
+        if (!c.ten) return;
+        var p = c.nhan || c.pts[c.pts.length - 1], tx = Math.max(44, Math.min(sd.w - 44, p[0])), ty = Math.max(12, Math.min(sd.h - 10, p[1]));
+        g += '<text x="' + tx + '" y="' + ty + '" class="sd-ten-cat">' + esc(c.ten) + '</text>';
       });
-    });
+      sd.moc.forEach(function (m) { g += '<text x="' + m.x + '" y="' + m.y + '" class="sd-moc">• ' + esc(m.ten) + '</text>'; });
+      var A = atlas.frames, fw = atlas.meta && atlas.meta.size ? atlas.meta.size.w : 1600, fh = atlas.meta && atlas.meta.size ? atlas.meta.size.h : 1440;
+      sd.nha.forEach(function (n) {
+        var ten = n.ten.replace(/\s*\(.*\)$/, '');
+        if (ten.length > 22) ten = ten.slice(0, 21).replace(/\s+\S*$/, '') + '…';   // tên đầy đủ trong thẻ quán
+        var hinh = n.moc
+          ? '<circle cx="' + n.x + '" cy="' + (n.y - 6) + '" r="14" class="sd-moc-dot"/><text x="' + n.x + '" y="' + (n.y - 1) + '" class="sd-moc-ico">✦</text>'
+          : (function () {
+              var f = (A[n.f] || A.mat_tien_quay_an).frame;
+              return '<svg x="' + (n.x - 32) + '" y="' + (n.y - 36) + '" width="64" height="64" viewBox="' + f.x + ' ' + f.y + ' ' + f.w + ' ' + f.h + '">' +
+                '<image href="assets/so_do/facade_atlas.webp" width="' + fw + '" height="' + fh + '"/></svg>';
+            })();
+        g += '<g class="sd-nha" data-q="' + n.i + '" tabindex="0" role="button" aria-label="' + esc(n.ten) + '">' +
+          '<rect x="' + (n.x - 34) + '" y="' + (n.y - 38) + '" width="68" height="88" fill="transparent"/>' +
+          '<line x1="' + n.x + '" y1="' + n.y + '" x2="' + n.rx + '" y2="' + n.ry + '" class="sd-loi"/>' + hinh +
+          (n.uoc ? '<rect x="' + (n.x - 33) + '" y="' + (n.y - 37) + '" width="66" height="66" rx="8" class="sd-uoc"/>' : '') +
+          '<text x="' + n.x + '" y="' + (n.y + 38) + '" class="sd-ten">' + esc(ten) + '</text></g>';
+      });
+      g += '<text x="' + (sd.w - 6) + '" y="' + (sd.h - 6) + '" class="sd-nguon">© OpenStreetMap · hình: Gọn Phố</text></svg>';
+      var thieu = ph.dia_diem.length - sd.nha.length;
+      host.innerHTML = g + (thieu > 0 ? '<p class="note">' + thieu + ' nơi chưa có vị trí nên chưa vẽ lên phố (xem trong danh sách).</p>' : '');
+      Array.prototype.forEach.call(host.querySelectorAll('.sd-nha'), function (el2) {
+        function open() { showQuan(ph, ph.dia_diem[Number(el2.getAttribute('data-q'))]); }
+        el2.addEventListener('click', open);
+        el2.addEventListener('keydown', function (e) { if (e.key === 'Enter') open(); });
+      });
+    }).catch(function () { host.innerHTML = '<p class="note">Chưa vẽ được sơ đồ phố này.</p>'; });
+  }
+
+  function showQuan(ph, d) {
+    var c = document.getElementById('quanCard');
+    c.innerHTML = '<button class="close" type="button" id="quanClose" aria-label="Đóng">×</button>' +
+      '<b>' + esc(d.ten) + '</b><span class="addr">' + esc(d.dia_chi) + ' · ' + esc(d.loai) + '</span>' +
+      '<span>' + esc(d.dac_trung) + '</span>' +
+      (/^không rõ/i.test(d.con_mo || '') ? '<span class="src warn">Chưa rõ còn mở</span>' : '') +
+      (d.vi_tri && d.vi_tri.uoc ? '<span class="src">Vị trí ước theo số nhà, lệch khoảng ' + d.vi_tri.lech_m + ' m</span>' : '') +
+      '<span class="src">Nguồn: ' + d.nguon.map(function (n) { return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + '</a>'; }).join(' · ') + '</span>' +
+      '<button class="mini" type="button" id="quanGo">Xem trên bản đồ thật</button>';
+    c.hidden = false;
+    c.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    document.getElementById('quanClose').addEventListener('click', function () { c.hidden = true; });
+    document.getElementById('quanGo').addEventListener('click', function () { goPlace(d); });
   }
 
   function closeSheet() {

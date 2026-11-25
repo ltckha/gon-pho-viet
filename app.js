@@ -1,4 +1,4 @@
-/* Gọn Phố Việt — bản đồ nhiều tầng: Việt Nam (chặng 1) → Lâm Đồng (chặng 2) → …
+/* Gọn Phố Việt — bản đồ nhiều tầng: Việt Nam (chặng 1) → Lâm Đồng (chặng 2) → đường Đà Lạt (chặng 3) → …
    Mỗi tầng là một file JSON trong data/. Vẽ bằng SVG; kéo 1 ngón, phóng 2 ngón; bấm vùng ra thẻ thông tin.
    Địa chỉ trang đổi theo tầng (#lam-dong) nên nút quay lại của điện thoại dùng được. Không dùng thư viện ngoài. */
 (function () {
@@ -33,8 +33,15 @@
       label: function (p) { return p.ten; },
       // Tên gom "Đà Lạt" ở tầm cả tỉnh, phóng tới 5 phường thì ẩn đi
       extraLabels: [['Đà Lạt', 108.44, 11.97, 0, 3.2, 'open']],
-      legend: [['open', 'Có phố (bản đồ đường sắp có)'], ['dalat', 'Phường khác của Đà Lạt'], ['ward', 'Phường'], ['soon', 'Xã, đặc khu']],
+      legend: [['open', 'Có phố, bấm để xem đường'], ['dalat', 'Phường khác của Đà Lạt'], ['ward', 'Phường'], ['soon', 'Xã, đặc khu']],
       card: cardPhuong
+    },
+    'da-lat': {
+      kind: 'duong', file: 'data/lam-dong/da-lat/duong.json', prec: 4,
+      crumb: [['Việt Nam', ''], ['Lâm Đồng', 'lam-dong'], ['Đà Lạt', 'da-lat']],
+      context: { layer: 'lam-dong' },
+      legend: [['pin', 'Phố đã nghiên cứu'], ['road', 'Đường thật (OpenStreetMap)'], ['water', 'Hồ']],
+      card: cardPho
     }
   };
 
@@ -46,6 +53,7 @@
   var sheetBody = document.getElementById('sheetBody');
   var srcSheet = document.getElementById('srcSheet');
   var loading = document.getElementById('loading');
+  var pinsRoot = document.getElementById('pins');
 
   var view = { s: 1, x: 0, y: 0 };
   var fit = { s: 1, x: 0, y: 0 };
@@ -56,13 +64,14 @@
   function px(lon) { return (lon - LON0) * K * COS; }
   function py(lat) { return (LAT0 - lat) * K; }
 
-  function pathOf(polys) {
+  function pathOf(polys, prec) {
+    var n = prec || (layer && layer.prec) || 1;
     var d = '';
     for (var i = 0; i < polys.length; i++) {
       for (var j = 0; j < polys[i].length; j++) {
         var r = polys[i][j];
         for (var k = 0; k < r.length; k++) {
-          d += (k ? 'L' : 'M') + px(r[k][0]).toFixed(1) + ' ' + py(r[k][1]).toFixed(1);
+          d += (k ? 'L' : 'M') + px(r[k][0]).toFixed(n) + ' ' + py(r[k][1]).toFixed(n);
         }
         d += 'Z';
       }
@@ -86,9 +95,173 @@
   }
 
   /* ---------- vẽ một tầng ---------- */
+  function lineOf(pts) {
+    var n = layer.prec || 1, d = '';
+    for (var k = 0; k < pts.length; k++) d += (k ? 'L' : 'M') + px(pts[k][0]).toFixed(n) + ' ' + py(pts[k][1]).toFixed(n);
+    return d;
+  }
+
+  function meters(pts) {
+    var m = 0;
+    for (var k = 1; k < pts.length; k++) {
+      m += Math.hypot((pts[k][0] - pts[k - 1][0]) * 108900, (pts[k][1] - pts[k - 1][1]) * 110540);
+    }
+    return m;
+  }
+
+  /* Xếp chữ trên tầng đường: tên đường chỉ hiện khi đoạn đường đủ dài để chứa chữ và không đè tên khác;
+     tên ghim đặt bên phải, chật thì sang trái, vẫn chật thì ẩn chữ (ghim vẫn còn). Tính lại sau mỗi lần kéo/phóng. */
+  var roadLbl = [], pointLbl = [];
+  var layoutQueued = false;
+  function queueLayout() {
+    if (layoutQueued) return;
+    layoutQueued = true;
+    requestAnimationFrame(function () { layoutQueued = false; layout(); });
+  }
+  function layout() {
+    if (!layer || layer.kind !== 'duong') return;
+    var r = svg.getBoundingClientRect(), z = view.s / fit.s, fs = 11 / view.s;
+    var boxes = [];
+    function free(b) {
+      for (var i = 0; i < boxes.length; i++) {
+        var o = boxes[i];
+        if (b.x1 > o.x0 && b.x0 < o.x1 && b.y1 > o.y0 && b.y0 < o.y1) return false;
+      }
+      return true;
+    }
+    // ghim trước (quan trọng nhất): chỗ của mọi ghim, rồi mới tới chữ
+    pins.forEach(function (g) {
+      var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
+      boxes.push({ x0: sx - 11, x1: sx + 11, y0: sy - 28, y1: sy });
+    });
+    pins.forEach(function (g) {
+      var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
+      var w = g._n * 13 * 0.6 + 6, lb = g.lastChild;
+      var right = { x0: sx + 12, x1: sx + 14 + w, y0: sy - 26, y1: sy - 6 };
+      var left = { x0: sx - 14 - w, x1: sx - 12, y0: sy - 26, y1: sy - 6 };
+      if (free(right)) { lb.setAttribute('x', 14); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
+      else if (free(left)) { lb.setAttribute('x', -14); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
+      else lb.setAttribute('hidden', '');
+    });
+    roadLbl.slice().sort(function (a, b) { return a.rank - b.rank || b.len - a.len; }).forEach(function (L) {
+      var show = z >= L.minZ && L.n * fs * 0.58 < L.len * 0.85;
+      if (show) {
+        var sx = L.x * view.s + view.x, sy = L.y * view.s + view.y, hw = L.n * 11 * 0.58 / 2 + 4;
+        if (sx < -50 || sy < -50 || sx > r.width + 50 || sy > r.height + 50) show = false;
+        else {
+          var b = { x0: sx - hw, x1: sx + hw, y0: sy - hw * 0.5 - 7, y1: sy + hw * 0.5 + 7 };
+          if (free(b)) boxes.push(b); else show = false;
+        }
+      }
+      if (show) L.el.removeAttribute('hidden'); else L.el.setAttribute('hidden', '');
+    });
+    // hồ, mốc: sau tên đường, chỗ nào còn trống mới hiện
+    pointLbl.forEach(function (L) {
+      var show = z >= L.minZ;
+      if (show) {
+        var sx = L.x * view.s + view.x, sy = L.y * view.s + view.y, w = L.n * 11 * 0.58;
+        var b = L.mid ? { x0: sx - w / 2, x1: sx + w / 2, y0: sy - 8, y1: sy + 8 } : { x0: sx - 2, x1: sx + w, y0: sy - 8, y1: sy + 8 };
+        if (sx < -w || sy < -20 || sx > r.width + 20 || sy > r.height + 20 || !free(b)) show = false;
+        else boxes.push(b);
+      }
+      if (show) L.el.removeAttribute('hidden'); else L.el.setAttribute('hidden', '');
+    });
+  }
+
+  /* Tầng đường: vẽ phường, hồ, đường (có viền), tên đường chạy dọc đường, mốc, ghim phố */
+  var pins = [];
+  function drawStreets() {
+    var lam = cache['lam-dong'], onSet = {};
+    data.phuong.forEach(function (m) { onSet[m] = 1; });
+    var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    lam.phuong.forEach(function (w) {
+      var on = onSet[w.ma];
+      land.appendChild(el('path', { d: pathOf(w.hinh, 3), 'class': 'prov ' + (on ? 'w-on' : 'ctx') }));
+      if (on) {
+        w.hinh.forEach(function (pl) {
+          pl[0].forEach(function (q) {
+            var x = px(q[0]), y = py(q[1]);
+            minX = Math.min(minX, x); maxX = Math.max(maxX, x); minY = Math.min(minY, y); maxY = Math.max(maxY, y);
+          });
+        });
+        labels.appendChild(el('text', { x: px(w.nhan[0]), y: py(w.nhan[1]), 'class': 'lbl ward-name', 'data-min': 0, 'data-max': 3 }, 'Phường ' + w.ten));
+      }
+    });
+    var water = el('g', { 'class': 'water' });
+    data.nuoc.forEach(function (n) { water.appendChild(el('path', { d: lineOf(n.pts) + 'Z' })); });
+    land.appendChild(water);
+    // đường: vẽ nhỏ trước, to sau; đường lớn có viền nâu
+    var roads = data.duong.slice().sort(function (a, b) { return b.loai - a.loai; });
+    var casing = el('g', { 'class': 'road-casing' }), fill = el('g', { 'class': 'road-fill' });
+    roads.forEach(function (r) {
+      var d = lineOf(r.pts);
+      if (r.loai <= 3) casing.appendChild(el('path', { d: d, 'class': 'r' + r.loai }));
+      fill.appendChild(el('path', { d: d, 'class': 'r' + r.loai }));
+    });
+    land.appendChild(casing); land.appendChild(fill);
+    // tên đường chạy dọc theo đường (mỗi đoạn đủ dài một tên)
+    var defs = el('defs', {});
+    land.appendChild(defs);
+    roadLbl = []; pointLbl = [];
+    var roadLabels = el('g', {});
+    labels.appendChild(roadLabels);
+    var minLen = { 1: 120, 2: 120, 3: 140, 4: 120, 5: 150 };
+    var showAt = { 1: 1.6, 2: 2, 3: 3, 4: 6, 5: 10 };
+    (data.ten_duong || []).forEach(function (r, i) {
+      if (meters(r.pts) < minLen[r.loai]) return;
+      var id = 'rd' + i;
+      var pe0 = el('path', { id: id, d: lineOf(r.pts) });
+      defs.appendChild(pe0);
+      var L0 = pe0.getTotalLength();
+      if (pe0.getPointAtLength(L0 * 0.6).x < pe0.getPointAtLength(L0 * 0.4).x) {
+        pe0.setAttribute('d', lineOf(r.pts.slice().reverse()));  // chữ chạy trái sang phải, không lộn ngược
+      }
+      var t = el('text', { 'class': 'lbl road-name r' + r.loai, dy: '0.35em', hidden: '' });
+      var tp = el('textPath', { href: '#' + id, startOffset: '50%' }, r.ten);
+      t.appendChild(tp);
+      roadLabels.appendChild(t);
+      var pe = defs.lastChild, L = pe.getTotalLength(), m = pe.getPointAtLength(L / 2);
+      roadLbl.push({ el: t, len: L, x: m.x, y: m.y, n: r.ten.length, minZ: showAt[r.loai], rank: r.loai });
+    });
+    data.nuoc.forEach(function (n) {
+      if (!n.ten || n.pts.length < 4) return;
+      var cx = 0, cy = 0;
+      n.pts.forEach(function (q) { cx += q[0]; cy += q[1]; });
+      var t = el('text', { x: px(cx / n.pts.length), y: py(cy / n.pts.length), 'class': 'lbl sea', hidden: '' }, n.ten);
+      labels.appendChild(t);
+      pointLbl.push({ el: t, x: px(cx / n.pts.length), y: py(cy / n.pts.length), n: n.ten.length, minZ: 2.5, mid: true });
+    });
+    data.moc.forEach(function (m) {
+      var t = el('text', { x: px(m.lon), y: py(m.lat), 'class': 'lbl moc', hidden: '' }, '• ' + m.ten);
+      labels.appendChild(t);
+      pointLbl.push({ el: t, x: px(m.lon), y: py(m.lat), n: m.ten.length + 2, minZ: 4.5, mid: false });
+    });
+    // ghim phố: giữ cỡ cố định trên màn hình
+    pins = [];
+    var pinLayer = el('g', {});
+    data.pho.forEach(function (p, i) {
+      var g = el('g', { 'class': 'pin', transform: 'translate(' + px(p.lon).toFixed(4) + ' ' + py(p.lat).toFixed(4) + ')' });
+      var inner = el('g', { 'data-i': i });
+      inner._x = px(p.lon); inner._y = py(p.lat); inner._n = p.ten_pho.length;
+      inner.appendChild(el('path', { d: 'M0 0 C-4 -7 -10 -10 -10 -17 A10 10 0 1 1 10 -17 C10 -10 4 -7 0 0Z', 'class': 'pin-body', 'data-i': i }));
+      inner.appendChild(el('circle', { cx: 0, cy: -17, r: 4, 'class': 'pin-dot', 'data-i': i }));
+      inner.appendChild(el('text', { x: 14, y: -14, 'class': 'pin-label', 'data-i': i }, p.ten_pho));
+      g.appendChild(inner);
+      pinLayer.appendChild(g);
+      pins.push(inner);
+    });
+    pinsRoot.textContent = '';
+    pinsRoot.appendChild(pinLayer);
+    bounds = { minX: minX, minY: minY, maxX: maxX, maxY: maxY };
+    fitAll();
+  }
+
   function draw() {
     land.textContent = '';
     labels.textContent = '';
+    pinsRoot.textContent = '';
+    pins = []; roadLbl = []; pointLbl = [];
+    if (layer.kind === 'duong') return drawStreets();
     var top = [];
     var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
     var lonMax = layer.lonMax || 999;
@@ -142,8 +315,11 @@
     var z = view.s / fit.s;                       // 1 = vừa khung
     labels.setAttribute('font-size', (11 / view.s).toFixed(4));
     labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
+    for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');
+    queueLayout();
     var list = labels.childNodes;
     for (var i = 0; i < list.length; i++) {
+      if (list[i].getAttribute('data-min') === null) continue;
       var mx = list[i].getAttribute('data-max');
       var hide = z < Number(list[i].getAttribute('data-min')) || (mx && z >= Number(mx));
       if (hide) list[i].setAttribute('hidden', ''); else list[i].removeAttribute('hidden');
@@ -151,7 +327,7 @@
   }
 
   function zoomAt(f, cx, cy) {
-    var ns = Math.max(fit.s * 0.8, Math.min(fit.s * 60, view.s * f));
+    var ns = Math.max(fit.s * 0.8, Math.min(fit.s * (layer && layer.kind === 'duong' ? 120 : 60), view.s * f));
     f = ns / view.s;
     view.x = cx - (cx - view.x) * f;
     view.y = cy - (cy - view.y) * f;
@@ -225,9 +401,11 @@
     var i = target && target.getAttribute && target.getAttribute('data-i');
     if (i === null || i === undefined || i === '') { closeSheet(); return; }
     if (picked) picked.classList.remove('picked');
-    picked = target; picked.classList.add('picked');
-    land.appendChild(target);   // đưa lên trên để viền không bị che
-    sheetBody.innerHTML = layer.card(data[layer.list][Number(i)]);
+    if (layer.kind !== 'duong') {
+      picked = target; picked.classList.add('picked');
+      land.appendChild(target);   // đưa lên trên để viền không bị che
+    }
+    sheetBody.innerHTML = layer.card(data[layer.kind === 'duong' ? 'pho' : layer.list][Number(i)]);
     var btn = sheetBody.querySelector('[data-go]');
     if (btn) btn.addEventListener('click', function () { location.hash = btn.getAttribute('data-go'); });
     srcSheet.hidden = true;
@@ -259,9 +437,18 @@
       '<dt>Gộp từ</dt><dd>' + esc(p.gop_tu) + '</dd>' +
       '<dt>Diện tích</dt><dd>' + fmt(p.dien_tich_km2, 1) + ' km²</dd>' +
       '</dl>';
-    if (p.so_pho) h += '<button class="go" type="button" disabled>Bản đồ đường (chặng 3, sắp có)</button>';
+    if (p.so_pho) h += '<button class="go" type="button" data-go="da-lat">Xem đường phố Đà Lạt →</button>';
     h += '<p class="note">Theo Nghị quyết 1671/NQ-UBTVQH15, Điều 1 khoản ' + p.muc_nq + '.</p>';
     return h;
+  }
+
+  function cardPho(p) {
+    return '<h2>' + esc(p.ten_pho) + '</h2>' +
+      '<div><span class="tag open">' + esc(p.road) + '</span> <span class="tag">' + esc('Phường ' + p.ward) + '</span></div>' +
+      '<p>' + esc(p.gioi_thieu) + '</p>' +
+      '<dl class="facts"><dt>Gồm</dt><dd>' + esc(p.roads) + '</dd></dl>' +
+      '<button class="go" type="button" disabled>Trang phố đầy đủ (chặng 4, sắp có)</button>' +
+      '<p class="note">Vị trí ghim: giữa đường ' + esc(p.road) + ' trên OpenStreetMap. Giới thiệu theo nghiên cứu phố của game Gọn Phố.</p>';
   }
 
   function closeSheet() {
@@ -280,7 +467,7 @@
       return last ? '<span>' + esc(b[0]) + '</span>' : '<a href="#' + b[1] + '">' + esc(b[0]) + '</a>';
     }).join(' › ');
     document.getElementById('legend').innerHTML = layer.legend.map(function (l) {
-      var sw = l[0] === 'star' ? '<i class="star">★</i>' : '<i class="sw ' + l[0] + '"></i>';
+      var sw = l[0] === 'star' ? '<i class="star">★</i>' : l[0] === 'pin' ? '<i class="star pin-ico">⬤</i>' : '<i class="sw ' + l[0] + '"></i>';
       return '<span>' + sw + esc(l[1]) + '</span>';
     }).join('');
     document.getElementById('srcList').innerHTML = data.nguon.map(function (n) {

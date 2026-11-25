@@ -52,6 +52,29 @@ body {
 .lbl.open { fill: #1f4d33; font-weight: 700; }
 .lbl.sea { font-style: italic; fill: #3d6f86; stroke: var(--sea); font-weight: 600; }
 .lbl.ctx { fill: #9a8c7a; font-weight: 500; }
+/* tầng đường */
+.prov.w-on { fill: #eef2dc; stroke: var(--open-edge); stroke-width: 2; pointer-events: none; }
+.water path { fill: #a9d3e3; stroke: #6fa9c0; stroke-width: .8; vector-effect: non-scaling-stroke; }
+.road-casing path, .road-fill path { fill: none; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
+.road-casing .r1 { stroke: #9a7a58; stroke-width: 6; }
+.road-casing .r2 { stroke: #9a7a58; stroke-width: 5; }
+.road-casing .r3 { stroke: #b39a7c; stroke-width: 4; }
+.road-fill .r1 { stroke: #f6c76b; stroke-width: 4; }
+.road-fill .r2 { stroke: #fbe3a4; stroke-width: 3.2; }
+.road-fill .r3 { stroke: #fffaf0; stroke-width: 2.4; }
+.road-fill .r4 { stroke: #fffdf6; stroke-width: 1.6; }
+.road-fill .r5 { stroke: #d8cdb8; stroke-width: 1; stroke-dasharray: 3 3; }
+.lbl.road-name { font-weight: 500; fill: #4a3626; text-anchor: middle; dominant-baseline: auto; }
+.lbl.road-name.r1, .lbl.road-name.r2 { font-weight: 700; }
+.lbl.moc { fill: #7a4a14; font-weight: 500; text-anchor: start; }
+.lbl.ward-name { fill: #2f6b4f; font-weight: 700; }
+.pin { cursor: pointer; }
+.pin-body { fill: #d9534f; stroke: #fffaf0; stroke-width: 2; }
+.pin-dot { fill: #fffaf0; }
+.pin-label { font-family: var(--f-body); font-size: 13px; font-weight: 700; fill: #8a2f2c; paint-order: stroke; stroke: #fffaf0; stroke-width: 3.5px; stroke-linejoin: round; }
+.pin-ico { color: #d9534f; font-size: .7rem; }
+.sw.road { background: #fbe3a4; border-color: #9a7a58; }
+.sw.water { background: #a9d3e3; border-color: #6fa9c0; }
 .lbl[hidden] { display: none; }
 .legend {
   position: fixed; left: max(12px, env(safe-area-inset-left, 0px)); bottom: calc(env(safe-area-inset-bottom, 0px) + 12px);

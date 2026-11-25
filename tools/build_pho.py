@@ -116,6 +116,18 @@ def main(game):
                 'moc': [{'nam': m['nam'], 'su_kien': m['su_kien'], 'nguon': lk(m), 'mot_nguon': m.get('mot_nguon', False)} for m in c.get('moc', [])],
                 'chuyen': [{'tieu_de': t['tieu_de'], 'noi_dung': t['noi_dung'], 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', False)} for t in c.get('chuyen', [])],
             }
+    # tên hiện trên bản đồ + 3 phần trang (data/hien_thi.json); ten_pho giữ nguyên vì dùng chung với game
+    hp = os.path.join(ROOT, 'data', 'hien_thi.json')
+    hien = json.load(open(hp, encoding='utf-8')) if os.path.exists(hp) else {}
+    for o in out:
+        x = hien.get(o['slug'])
+        if not x:
+            raise SystemExit('data/hien_thi.json thiếu nơi ' + o['slug'] + ' (cần ten, dac_trung, ban_gi, moc)')
+        names = {d['ten'] for d in o['dia_diem']}
+        for m in x['moc']:
+            if m not in names:
+                raise SystemExit('Mốc "%s" của %s không có trong danh sách nơi đã nghiên cứu' % (m, o['slug']))
+        o.update({'ten_hien': x['ten'], 'dac_trung': x['dac_trung'], 'ban_gi': x['ban_gi'], 'moc_lau_doi': x['moc']})
     write(out)
 
 

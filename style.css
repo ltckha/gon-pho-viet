@@ -209,3 +209,10 @@ details.all summary { cursor: pointer; font-weight: 700; padding: 6px 0; }
   .sheet:not([hidden]) { animation: up .18s ease-out; }
   @keyframes up { from { transform: translateY(24px); opacity: .4; } to { transform: none; opacity: 1; } }
 }
+
+/* Trang mỗi nơi: 3 phần địa lý · lịch sử · nay có gì */
+.dac-trung { margin: -4px 0 4px; color: var(--muted); font-weight: 500; }
+.phan { margin-top: 18px; padding-top: 12px; border-top: 1px solid rgba(0,0,0,.08); }
+.phan > h3 { margin: 0 0 8px; font-size: 1.12rem; }
+.phan h4 { margin: 14px 0 6px; font-size: .98rem; }
+.phan .facts { margin-top: 10px; }

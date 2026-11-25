@@ -59,11 +59,20 @@ python3 tools/lich_trinh.py /tmp/osm
 - Số phố mỗi phường (`so_pho` trong `phuong.json`) do `build_pho.py` tự đếm, đừng gõ tay.
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
-## Anh Kha đã chốt (25/11/2026)
+## Anh Kha đã chốt hướng mới (sau đánh giá khả thi `docs/danh_gia_kha_thi.md`, nhánh `claude/danh-gia-kha-thi`)
+- **Bản đồ để hiểu một vùng đất, kết hợp địa lý và lịch sử** — thay cho "bản đồ quán xá". "Phố" = một nơi đáng biết: con đường hoặc điểm tham quan nổi bật.
+- Mỗi nơi một trang ngắn 3 phần: **Địa lý** (bản đồ minh hoạ, phường, đường, gần mốc nào, cách Chợ Đà Lạt) · **Lịch sử** (tên xưa, mốc năm, chuyện — có nguồn) · **Nay có gì** (giới thiệu, "Ở đây bán gì" ở mức cả khu, vài mốc lâu đời).
+- Không bày từng quán: không số nhà, giờ mở, giá, nhận xét quán (`gonQuan()` trong `app.js` lọc giờ/giá khỏi thẻ mốc). Chỉ giữ vài mốc lâu đời (chùa, chợ, ga, dinh, quán vài chục năm).
+- Dữ liệu 220+ nơi đã nghiên cứu giữ nguyên trong kho (`data/pho/*.json`), làm căn cứ và chất liệu cho game.
+- Tên hiện trên bản đồ là tên người ta thật sự gọi (`data/hien_thi.json`: `ten`, `dac_trung`, `ban_gi`, `moc`). **`ten_pho` giữ nguyên** vì dùng chung với game. Thêm nơi mới thì phải thêm dòng vào `hien_thi.json` (build_pho.py dừng nếu thiếu).
+- Vùng ven gọi theo cách người Đà Lạt gọi (Ga Trại Mát, Chân núi Lang Biang, Đồi chè Cầu Đất…), trung tâm gọi theo tên đường/khu (Đường Phan Đình Phùng, Khu Hoà Bình, Chợ đêm Đà Lạt…).
+- Kế hoạch 5 bước: (1) trang 3 phần ✔ (2) đổi tên ✔ (3) soát nguồn lịch sử cả các nơi, mốc chỉ dựa blog ghi rõ (4) thêm điểm tham quan lớn còn thiếu (5) dòng © OpenStreetMap trên bản đồ, thu nhỏ ảnh nặng, sửa câu "Google Maps" trong agent nghien-cuu-pho.
+
+## Anh Kha đã chốt trước đó (25/11/2026)
 - Trang phố vẽ trên **bản đồ minh hoạ nét Spark, hướng Bắc ở trên, đúng tỉ lệ, có mốc quen** (Chợ, hồ, nhà thờ). Không xoay đường, không sơ đồ trừu tượng — người Đà Lạt nhìn phải nhận ra ngay.
 - Đường trên bản đồ không bao giờ cụt giữa khung.
 - Tên đường phải chạy uốn theo con đường (textPath, làm mềm Chaikin), đường cong gắt thì bỏ tên; tên không đè nhau, không đè mốc, không đè chấm quán. Không in tên đường cứng vào ảnh nền.
-- Làm: lịch trình theo phố, chuyện của phố. Không làm: người dùng xác nhận/đánh giá.
+- Làm: lịch trình theo phố, chuyện của phố. Không làm: người dùng xác nhận/đánh giá, đi kiểm từng quán.
 - Nghiên cứu, thêm phố thì cứ làm, không hỏi; chỉ hỏi khi đưa lên mạng/tốn tiền.
 
 ## Agent có sẵn (`.claude/agents/`)

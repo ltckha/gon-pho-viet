@@ -93,7 +93,7 @@ def main(osm_dir):
         for slug, buoi, goi_y in l['chang']:
             p = pho[slug]
             n = snap(p['lon'], p['lat'])
-            st = {'slug': slug, 'ten_pho': p['ten_pho'], 'buoi': buoi, 'goi_y': goi_y}
+            st = {'slug': slug, 'ten_pho': p.get('ten_hien') or p['ten_pho'], 'buoi': buoi, 'goi_y': goi_y}
             if prev_node:
                 m, pts = path(prev_node, n)
                 if m is None:

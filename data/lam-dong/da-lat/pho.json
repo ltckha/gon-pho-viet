@@ -696,7 +696,13 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Tăng Bạt Hổ",
+   "dac_trung": "Ăn sáng và ăn đêm sau Chợ Đà Lạt",
+   "ban_gi": "Bánh căn, bánh ướt lòng gà, sữa đậu nành nóng buổi tối; rẽ sang Trương Công Định là hostel, cà phê và các quán bar nhỏ dưới tầng hầm.",
+   "moc_lau_doi": [
+    "Bánh căn 14 (hai Cô)"
+   ]
   },
   {
    "id": "street_pho_ca_phe",
@@ -1145,7 +1151,13 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Dốc Nguyễn Chí Thanh",
+   "dac_trung": "Con dốc cà phê lên Khu Hoà Bình",
+   "ban_gi": "Cà phê truyền thống mở từ sáng sớm xen tiệm trà, cà phê kiểu mới và tiệm bánh.",
+   "moc_lau_doi": [
+    "Café Nga"
+   ]
   },
   {
    "id": "street_phan_dinh_phung",
@@ -1586,7 +1598,13 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Phan Đình Phùng",
+   "dac_trung": "Phố buôn bán lâu đời của người Đà Lạt",
+   "ban_gi": "Sáng có bánh bèo, mì hoành thánh, bún bò, phở; dọc phố có nhà sách, nhà thuốc, quán nem nướng, bánh ướt lòng gà và chỗ thuê xe máy.",
+   "moc_lau_doi": [
+    "Bún bò Bà Sồi"
+   ]
   },
   {
    "id": "street_nguyen_van_troi",
@@ -2202,7 +2220,15 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Nguyễn Văn Trỗi",
+   "dac_trung": "Kem bơ, chè và bánh tráng nướng",
+   "ban_gi": "Các tiệm kem bơ, chè; chiều tối bánh tráng nướng bếp than; thêm phở, cơm tấm, cơm chay.",
+   "moc_lau_doi": [
+    "Chùa Linh Sơn",
+    "Kem bơ Thanh Thảo",
+    "Bánh tráng nướng Bà Khùng"
+   ]
   },
   {
    "id": "street_hoang_dieu",
@@ -2619,7 +2645,13 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Ba Toa – đường Hoàng Diệu",
+   "dac_trung": "Lẩu bò Ba Toa, bánh mì xíu mại",
+   "ban_gi": "Hơn 20 quán lẩu bò trên một đoạn ngắn; buổi sáng bánh mì xíu mại; tối có bánh tráng nướng, cơm gà.",
+   "moc_lau_doi": [
+    "Bánh Mì Xíu Mại Bé Linh"
+   ]
   },
   {
    "id": "street_tran_phu",
@@ -3139,7 +3171,15 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Trần Phú",
+   "dac_trung": "Nhà thờ Con Gà và khách sạn thời Pháp",
+   "ban_gi": "Khách sạn cổ, tiệm bánh, quán phở, bánh canh, cơm gia đình; tối có cháo đêm.",
+   "moc_lau_doi": [
+    "Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)",
+    "Dalat Palace Heritage Hotel",
+    "Du Parc Hotel Dalat"
+   ]
   },
   {
    "id": "pho_bui_thi_xuan",
@@ -3526,7 +3566,11 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Bùi Thị Xuân",
+   "dac_trung": "Đường dài từ hồ lên ngã năm Đại học",
+   "ban_gi": "Lẩu gà lá é, lẩu bò, nem nướng, bánh mì xíu mại và nhiều khách sạn.",
+   "moc_lau_doi": []
   },
   {
    "id": "pho_cau_dat",
@@ -4033,7 +4077,15 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Đồi chè Cầu Đất",
+   "dac_trung": "Sở trà người Pháp lập năm 1927",
+   "ban_gi": "Đồi chè, bảo tàng trà, rượu vang; sáng sớm săn mây; xa xa cánh đồng tuabin gió.",
+   "moc_lau_doi": [
+    "Cầu Đất Farm – Đồi chè Cầu Đất",
+    "Bảo tàng trà cổ Cầu Đất Farm (xưởng chè cũ)",
+    "Đường hầm hỏa xa (hầm xe lửa cổ)"
+   ]
   },
   {
    "id": "pho_ga_da_lat",
@@ -4601,7 +4653,14 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Ga Đà Lạt",
+   "dac_trung": "Nhà ga ba chóp mái 1932–1938",
+   "ban_gi": "Tàu du lịch đi Trại Mát; quanh ga có cà phê trong toa tàu cũ, phở atisô, khách sạn và biệt thự nhỏ.",
+   "moc_lau_doi": [
+    "Ga Đà Lạt (Ga hỏa xa Đà Lạt)",
+    "Bảo tàng Lâm Đồng"
+   ]
   },
   {
    "id": "pho_hai_ba_trung",
@@ -5159,7 +5218,13 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Hai Bà Trưng",
+   "dac_trung": "Ốc nhồi thịt và chùa Linh Quang",
+   "ban_gi": "Các quán ốc nhồi thịt, lẩu gà lá é, gà nướng cơm lam, bún đậu, hủ tiếu, lẩu cá tầm, lẩu dê.",
+   "moc_lau_doi": [
+    "Chùa Linh Quang"
+   ]
   },
   {
    "id": "pho_ho_xuan_huong",
@@ -6005,7 +6070,17 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Quanh hồ Xuân Hương",
+   "dac_trung": "Hồ giữa lòng Đà Lạt, có từ năm 1919",
+   "ban_gi": "Đi dạo quanh hồ; quảng trường Lâm Viên, vườn hoa, sân golf; cà phê và nhà hàng ven hồ, siêu thị.",
+   "moc_lau_doi": [
+    "Hồ Xuân Hương",
+    "Nhà hàng Thủy Tạ (Thủy Tạ - Nhà Hàng & Cafe)",
+    "Sân golf Dalat Palace (Đồi Cù)",
+    "Vườn hoa thành phố Đà Lạt",
+    "Quảng trường Lâm Viên"
+   ]
   },
   {
    "id": "pho_hoang_hoa_tham",
@@ -6394,7 +6469,13 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Hoàng Hoa Thám",
+   "dac_trung": "Cà phê đồi thông nhìn núi",
+   "ban_gi": "Quán cà phê và homestay trên đồi nhìn ra thung lũng, có quán mở từ rạng sáng để đón bình minh.",
+   "moc_lau_doi": [
+    "Chùa Linh Phong"
+   ]
   },
   {
    "id": "pho_khu_hoa_binh",
@@ -6959,7 +7040,14 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Khu Hoà Bình",
+   "dac_trung": "Rạp Hoà Bình trên nền chợ cũ",
+   "ban_gi": "Cà phê lâu đời, cà phê cóc buổi sáng, kem bơ, khách sạn nhỏ và điểm đón xe buýt.",
+   "moc_lau_doi": [
+    "Rạp Hòa Bình (Rạp 3 Tháng 4)",
+    "Cafe Tùng"
+   ]
   },
   {
    "id": "pho_lang_biang",
@@ -7547,7 +7635,15 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Chân núi Lang Biang",
+   "dac_trung": "Núi cao nhất quanh Đà Lạt, buôn người K'Ho",
+   "ban_gi": "Leo núi, xe lên đồi Ra Đa, cắm trại; cà phê Arabica, thổ cẩm K'Ho, gà nướng cơm lam.",
+   "moc_lau_doi": [
+    "Khu du lịch Lang Biang (núi Lang Biang)",
+    "Nhà máy thủy điện Ankroet",
+    "Hồ Đankia – Suối Vàng"
+   ]
   },
   {
    "id": "pho_nguyen_cong_tru",
@@ -7921,7 +8017,11 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Nguyễn Công Trứ",
+   "dac_trung": "Quán ăn bình dân gần Đại học Đà Lạt",
+   "ban_gi": "Cơm tấm sáng, mì Quảng, hủ tiếu Nam Vang, cơm quê, quán nướng và quán cà phê kiêm xưởng rang.",
+   "moc_lau_doi": []
   },
   {
    "id": "pho_nguyen_thi_minh_khai",
@@ -8253,7 +8353,13 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Chợ đêm Đà Lạt",
+   "dac_trung": "Dốc Nguyễn Thị Minh Khai trước Chợ Đà Lạt",
+   "ban_gi": "Ban ngày là chợ; tối thành chợ đêm bán áo len, đặc sản, đồ ăn vặt như bánh tráng nướng, dâu lắc; quanh đó nhiều khách sạn.",
+   "moc_lau_doi": [
+    "Chợ Đà Lạt"
+   ]
   },
   {
    "id": "pho_phan_boi_chau",
@@ -8541,7 +8647,11 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Phan Bội Châu",
+   "dac_trung": "Khách sạn sát Chợ Đà Lạt",
+   "ban_gi": "Khách sạn lớn, quán bar kiến trúc mê cung, quán nướng, lẩu cháo mở khuya, kem xôi dừa.",
+   "moc_lau_doi": []
   },
   {
    "id": "pho_thai_phien",
@@ -9020,7 +9130,15 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Làng Hoa Thái Phiên",
+   "dac_trung": "Làng hoa nhà kính lập năm 1956",
+   "ban_gi": "Trồng hoa, chủ lực hoa cúc, phần lớn trong nhà kính; chợ làng; lên đỉnh Hòn Bồ săn mây.",
+   "moc_lau_doi": [
+    "Đình Thái Phiên (đình ấp Thái Phiên)",
+    "Chợ Thái Phiên",
+    "Hồ Thái Phiên (đập Thái Phiên)"
+   ]
   },
   {
    "id": "pho_thung_lung_tinh_yeu",
@@ -9714,7 +9832,15 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Thung lũng Tình Yêu",
+   "dac_trung": "Thung lũng rừng thông, hồ Đa Thiện",
+   "ban_gi": "Khu du lịch, đồi hoa; dọc đường vào có gà nướng cơm lam, lẩu gà lá é, bún bò.",
+   "moc_lau_doi": [
+    "Khu du lịch Thung Lũng Tình Yêu (TTC World – Thung Lũng Tình Yêu)",
+    "Trường Đại học Đà Lạt",
+    "Hồ Đa Thiện"
+   ]
   },
   {
    "id": "pho_trai_mat",
@@ -10280,7 +10406,15 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Ga Trại Mát",
+   "dac_trung": "Ga cuối tàu du lịch, chùa Ve Chai",
+   "ban_gi": "Đi tàu từ ga Đà Lạt xuống; xem chùa, thánh thất; chiều tối cà phê ngắm thung lũng nhà kính lên đèn.",
+   "moc_lau_doi": [
+    "Ga Trại Mát",
+    "Chùa Linh Phước (chùa Ve Chai, chùa Mảnh Chai)",
+    "Thánh thất Cao Đài Đa Phước (Thánh thất Cao Đài Đà Lạt)"
+   ]
   },
   {
    "id": "pho_tran_hung_dao",
@@ -10806,7 +10940,13 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Trần Hưng Đạo",
+   "dac_trung": "Biệt thự Pháp trên đồi thông",
+   "ban_gi": "Cà phê trong biệt thự và nhìn ra hồ, bánh canh chả cá, quán chay, gà nướng cơm lam, nem nướng.",
+   "moc_lau_doi": [
+    "Dinh 2 (Dinh Toàn quyền, Governor Palace)"
+   ]
   },
   {
    "id": "pho_trieu_viet_vuong",
@@ -11221,7 +11361,13 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Dinh III Bảo Đại",
+   "dac_trung": "Đường Triệu Việt Vương",
+   "ban_gi": "Cà phê vườn, tiệm bánh ngọt, bánh ướt lòng gà, nhà hàng cá tầm.",
+   "moc_lau_doi": [
+    "Dinh III (Dinh Bảo Đại)"
+   ]
   },
   {
    "id": "pho_truc_lam",
@@ -11776,7 +11922,15 @@
       "mot_nguon": true
      }
     ]
-   }
+   },
+   "ten_hien": "Thiền viện Trúc Lâm – Hồ Tuyền Lâm",
+   "dac_trung": "Thiền viện trên núi, cáp treo, thác",
+   "ban_gi": "Cáp treo, thác Datanla, thác Prenn, đường hầm đất sét; cà phê ven suối, ven hồ.",
+   "moc_lau_doi": [
+    "Thiền viện Trúc Lâm",
+    "Hồ Tuyền Lâm",
+    "Cáp treo Đà Lạt (ga đồi Robin)"
+   ]
   },
   {
    "id": "pho_van_thanh",
@@ -12316,7 +12470,16 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Làng Hoa Vạn Thành",
+   "dac_trung": "Thung lũng nhà kính hoa ly, cúc, hồng",
+   "ban_gi": "Trồng hoa; vườn hoa tham quan, Làng Cổ Tích; gần đó thác Cam Ly và lăng cổ.",
+   "moc_lau_doi": [
+    "Làng hoa Vạn Thành",
+    "Thác Cam Ly",
+    "Lăng Nguyễn Hữu Hào",
+    "Sân bay Cam Ly (đường băng cũ)"
+   ]
   },
   {
    "id": "pho_yersin",
@@ -12905,7 +13068,14 @@
       "mot_nguon": false
      }
     ]
-   }
+   },
+   "ten_hien": "Đường Yersin",
+   "dac_trung": "Trường gạch đỏ Lycée Yersin",
+   "ban_gi": "Đầu dốc gần hồ có bánh căn, bánh mì xíu mại, mì Quảng, bún cá tầm; dọc đường là quán cà phê nhỏ.",
+   "moc_lau_doi": [
+    "Trường Cao đẳng Đà Lạt (Lycée Yersin cũ, Cao đẳng Sư phạm Đà Lạt)",
+    "Công viên Yersin"
+   ]
   }
  ]
 }

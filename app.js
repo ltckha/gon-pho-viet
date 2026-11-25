@@ -275,10 +275,10 @@
     phoList.forEach(function (p, i) {
       var g = el('g', { 'class': 'pin', transform: 'translate(' + px(p.lon).toFixed(4) + ' ' + py(p.lat).toFixed(4) + ')' });
       var inner = el('g', { 'data-i': i });
-      inner._x = px(p.lon); inner._y = py(p.lat); inner._n = p.ten_pho.length;
+      inner._x = px(p.lon); inner._y = py(p.lat); inner._n = (p.ten_hien || p.ten_pho).length;
       inner.appendChild(el('path', { d: 'M0 0 C-4 -7 -10 -10 -10 -17 A10 10 0 1 1 10 -17 C10 -10 4 -7 0 0Z', 'class': 'pin-body', 'data-i': i }));
       inner.appendChild(el('circle', { cx: 0, cy: -17, r: 4, 'class': 'pin-dot', 'data-i': i }));
-      inner.appendChild(el('text', { x: 14, y: -14, 'class': 'pin-label', 'data-i': i }, p.ten_pho));
+      inner.appendChild(el('text', { x: 14, y: -14, 'class': 'pin-label', 'data-i': i }, p.ten_hien || p.ten_pho));
       g.appendChild(inner);
       pinLayer.appendChild(g);
       pins.push(inner);
@@ -564,7 +564,7 @@
         return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + '</a>';
       }).join(' · ') + '</span>';
     }
-    var h = '<section class="chuyen"><h3>Chuyện của phố</h3>';
+    var h = '<section class="chuyen phan"><h3>Lịch sử</h3>';
     if (c.ten_cu.length) {
       h += '<p class="ten-cu"><b>Tên xưa:</b> ' + c.ten_cu.map(function (t) {
         return esc(t.ten) + (t.thoi_gian ? ' <span class="muted">(' + esc(t.thoi_gian) + ')</span>' : '');
@@ -581,35 +581,56 @@
     return h + '</section>';
   }
 
+  function hoaDau(t) { return t ? t.charAt(0).toUpperCase() + t.slice(1) : t; }
   function showPho(ph) {
     phoBox = highlight(ph);
-    var h = (ph.anh ? '<img class="banner" src="' + esc(ph.anh) + '" alt="Tranh đầu ' + esc(ph.ten_pho) + '">'
+    var ten = ph.ten_hien || ph.ten_pho;
+    var moc = (ph.moc_lau_doi || []).map(function (t) { for (var i = 0; i < ph.dia_diem.length; i++) if (ph.dia_diem[i].ten === t) return i; return -1; })
+      .filter(function (i) { return i >= 0; });
+    ph._moc = moc;
+    // Địa lý: phường, đường, mốc quen gần, cách Chợ Đà Lạt (tính từ dữ liệu sẵn có)
+    function met(a, b) { return Math.hypot((a[0] - b[0]) * 108900, (a[1] - b[1]) * 110540); }
+    var tenMoc = (ph.moc_lau_doi || []).join('|');
+    var gan = (data && data.moc || []).map(function (m) { return { ten: m.ten, d: met([m.lon, m.lat], [ph.lon, ph.lat]) }; })
+      .filter(function (m) { return m.d < 1500 && tenMoc.indexOf(m.ten) < 0; })
+      .sort(function (a, b) { return a.d - b.d; }).slice(0, 3);
+    var kc = Math.round(met([108.43721, 11.94342], [ph.lon, ph.lat]) / 50) * 50;
+    var h = (ph.anh ? '<img class="banner" src="' + esc(ph.anh) + '" alt="Tranh đầu ' + esc(ten) + '">'
                     : '<div class="banner none">Tranh đầu phố: đang chờ vẽ</div>') +
-      '<h2>' + esc(ph.ten_pho) + '</h2>' +
-      '<div>' + ph.duong.map(function (d) { return '<span class="tag open">' + esc(d) + '</span>'; }).join(' ') +
-      ' <span class="tag">' + esc('Phường ' + ph.ward) + '</span></div>' +
-      '<p>' + esc(ph.gioi_thieu) + '</p>' +
-      '<div id="soDo" class="so-do" aria-label="Sơ đồ phố ' + esc(ph.ten_pho) + '"><p class="note">Đang vẽ phố…</p></div>' +
-      '<div id="quanCard" class="quan-card" hidden></div>' +
-      '<button class="go" type="button" id="seeMap">Xem cả phố trên bản đồ thật</button>' +
-      '';
+      '<h2>' + esc(ten) + '</h2>' +
+      (ph.dac_trung ? '<p class="dac-trung">' + esc(ph.dac_trung) + '</p>' : '') +
+      '<section class="phan dia-ly"><h3>Địa lý</h3>' +
+      '<div id="soDo" class="so-do" aria-label="Bản đồ ' + esc(ten) + '"><p class="note">Đang vẽ bản đồ…</p></div>' +
+      '<dl class="facts">' +
+      '<dt>Phường</dt><dd>' + esc(ph.ward) + '</dd>' +
+      '<dt>Đường</dt><dd>' + ph.duong.filter(function (d) { return !/^Hẻm /.test(d); }).map(esc).join(', ') + '</dd>' +
+      (gan.length ? '<dt>Gần</dt><dd>' + gan.map(function (m) { return esc(m.ten); }).join(', ') + '</dd>' : '') +
+      '<dt>Cách Chợ Đà Lạt</dt><dd>' + (kc <= 100 ? 'ngay cạnh chợ' : 'khoảng ' + (kc >= 2000 ? fmt(kc / 100) / 10 + ' km' : fmt(kc) + ' m') + ' đường chim bay') + '</dd>' +
+      '</dl>' +
+      '<button class="go" type="button" id="seeMap">Xem trên bản đồ thật</button></section>';
     if (ph.chuyen) h += chuyenHtml(ph.chuyen);
-    if (ph.can_kiem_them) h += '<p class="note">Còn ' + ph.can_kiem_them + ' nơi khác chưa đủ 2 nguồn nên chưa đưa lên.</p>';
-    h += ph.ten_that
-      ? '<p class="note">Tên quán thật, mỗi nơi có nguồn ở ít nhất 2 trang khác nhau. Vị trí lấy từ OpenStreetMap (đúng tên quán hoặc đúng số nhà), hoặc ước theo số nhà khi ghi rõ. <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">Xem nghiên cứu</a>.</p>'
-      : '<p class="note">Chưa ghi tên quán và vị trí từng quán. Theo <a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">nghiên cứu phố</a> của game Gọn Phố.</p>';
+    h += '<section class="phan nay"><h3>Nay có gì</h3><p>' + esc(hoaDau(ph.gioi_thieu.replace(/^[^:]{0,60}:\s*/, ''))) + '</p>' +
+      (ph.ban_gi ? '<p><b>Ở đây bán gì:</b> ' + esc(ph.ban_gi) + '</p>' : '');
+    if (moc.length) {
+      h += '<h4>Mốc lâu đời</h4><ol class="bd-list">' + moc.map(function (i, k) {
+        var d = ph.dia_diem[i];
+        return '<li><button type="button" data-q="' + i + '"><span class="so' + (d.vi_tri ? '' : ' none') + '">' + (d.vi_tri ? k + 1 : '–') + '</span>' +
+          '<b>' + esc(d.ten.replace(/\s*\(.*\)$/, '')) + '</b><small>' + esc(d.loai) + '</small></button></li>';
+      }).join('') + '</ol>';
+    }
+    h += '<div id="quanCard" class="quan-card" hidden></div></section>' +
+      '<p class="note">Mỗi ý có nguồn ở ít nhất 2 trang khác nhau; ý chỉ có 1 nguồn được ghi rõ. Đường và vị trí: © OpenStreetMap. ' +
+      '<a href="' + esc(ph.nghien_cuu) + '" target="_blank" rel="noopener">Xem nghiên cứu</a>.</p>';
     sheetBody.innerHTML = h;
     sheet.classList.add('full');
     sheet.scrollTop = 0;
     srcSheet.hidden = true;
     sheet.hidden = false;
     document.getElementById('seeMap').addEventListener('click', function () { closeSheet(); zoomTo(phoBox); });
-    renderSoDo(ph);
-    Array.prototype.forEach.call(sheetBody.querySelectorAll('[data-place]'), function (btn) {
-      btn.addEventListener('click', function () {
-        goPlace(ph.dia_diem[Number(btn.getAttribute('data-place'))], ph);
-      });
+    Array.prototype.forEach.call(sheetBody.querySelectorAll('.bd-list [data-q]'), function (b2) {
+      b2.addEventListener('click', function () { showQuan(ph, ph.dia_diem[Number(b2.getAttribute('data-q'))]); });
     });
+    renderSoDo(ph);
   }
 
   function goPlace(d, ph) {
@@ -671,7 +692,7 @@
       // hình mốc vẽ sẵn trong ảnh (Chợ, nhà thờ, quảng trường…) và tên của nó chiếm chỗ trước
       bd.moc.forEach(function (m) { var q = B(m.lon, m.lat); boxes.push({ x0: q[0] - 85, x1: q[0] + 85, y0: q[1] - 115, y1: q[1] + 60 }); });
       // chấm quán chiếm chỗ trước
-      ph.dia_diem.forEach(function (d) { if (d.vi_tri) { var q = B(d.vi_tri.lon, d.vi_tri.lat); boxes.push({ x0: q[0] - 13 * k, x1: q[0] + 13 * k, y0: q[1] - 13 * k, y1: q[1] + 13 * k }); } });
+      (ph._moc || []).map(function (i) { return ph.dia_diem[i]; }).forEach(function (d) { if (d.vi_tri) { var q = B(d.vi_tri.lon, d.vi_tri.lat); boxes.push({ x0: q[0] - 13 * k, x1: q[0] + 13 * k, y0: q[1] - 13 * k, y1: q[1] + 13 * k }); } });
       // tên mốc thật trong khung (chùa, chợ, dinh, công viên…) để định hướng; tối đa 4 mốc gần phố nhất
       var tenQuan = ph.dia_diem.map(function (d) { return d.ten; }).join('|');
       data.moc.map(function (m) { return { m: m, p: B(m.lon, m.lat) }; })
@@ -731,7 +752,7 @@
       g += '<defs>' + defs + '</defs>' + txt;
       // chấm quán: chấm nào đè nhau thì đẩy dần ra cho tách hẳn, kèm nét nối về đúng chỗ quán
       var dots = [];
-      ph.dia_diem.forEach(function (d, i) { if (d.vi_tri) { var q = B(d.vi_tri.lon, d.vi_tri.lat); dots.push({ i: i, ox: q[0], oy: q[1], x: q[0], y: q[1] }); } });
+      (ph._moc || []).forEach(function (i) { var d = ph.dia_diem[i]; if (d.vi_tri) { var q = B(d.vi_tri.lon, d.vi_tri.lat); dots.push({ i: i, ox: q[0], oy: q[1], x: q[0], y: q[1] }); } });
       var R = 12 * k;
       for (var it = 0; it < 120; it++) {
         var moved = false;
@@ -747,27 +768,16 @@
       }
       var dotAt = {};
       dots.forEach(function (o) { dotAt[o.i] = o; if (Math.hypot(o.x - o.ox, o.y - o.oy) > 3 * k) g += '<line x1="' + o.ox.toFixed(1) + '" y1="' + o.oy.toFixed(1) + '" x2="' + o.x.toFixed(1) + '" y2="' + o.y.toFixed(1) + '" class="bd-noi" style="stroke-width:' + (1.6 * k) + '"/><circle cx="' + o.ox.toFixed(1) + '" cy="' + o.oy.toFixed(1) + '" r="' + (2.5 * k) + '" class="bd-goc"/>'; });
-      var so = 0;
-      ph.dia_diem.forEach(function (d, i) {
+      (ph._moc || []).forEach(function (i, k2) {
+        var d = ph.dia_diem[i];
         if (!d.vi_tri) return;
-        so++;
         var p = [dotAt[i].x, dotAt[i].y], r = 11 * k;
-        g += '<g class="bd-cham" data-q="' + i + '" tabindex="0" role="button" aria-label="' + so + '. ' + esc(d.ten) + '">' +
+        g += '<g class="bd-cham" data-q="' + i + '" tabindex="0" role="button" aria-label="' + (k2 + 1) + '. ' + esc(d.ten) + '">' +
           '<circle cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="' + r + '" class="' + (d.vi_tri.uoc ? 'uoc' : '') + '" style="stroke-width:' + (2.5 * k) + '"/>' +
-          '<text x="' + p[0].toFixed(1) + '" y="' + p[1].toFixed(1) + '" style="font-size:' + (12 * k) + 'px">' + so + '</text></g>';
-        d._so = so;
+          '<text x="' + p[0].toFixed(1) + '" y="' + p[1].toFixed(1) + '" style="font-size:' + (12 * k) + 'px">' + (k2 + 1) + '</text></g>';
       });
       g += '</svg>';
-      var cho = { lon: 108.43721, lat: 11.94342 }, kc = Math.round(met(cho, { lon: cLon, lat: cLat }) / 50) * 50;
-      var list = '<ol class="bd-list">';
-      ph.dia_diem.forEach(function (d, i) {
-        list += '<li><button type="button" data-q="' + i + '"><span class="so' + (d._so ? '' : ' none') + '">' + (d._so || '–') + '</span>' +
-          '<b>' + esc(d.ten.replace(/\s*\(.*\)$/, '')) + '</b><small>' + esc(d.dia_chi) + '</small></button></li>';
-      });
-      list += '</ol>';
-      host.innerHTML = g +
-        '<p class="bd-ghichu">' + (kc > 100 ? 'Cách Chợ Đà Lạt khoảng ' + (kc >= 2000 ? fmt(kc / 100) / 10 + ' km' : fmt(kc) + ' m') + ' (đường chim bay). ' : 'Ngay cạnh Chợ Đà Lạt. ') +
-        'Chấm số là quán; chấm viền đứt là vị trí ước theo số nhà; "–" là chưa có vị trí.</p>' + list;
+      host.innerHTML = g + ((ph._moc || []).length ? '<p class="bd-ghichu">Chấm số là mốc lâu đời, xem tên ở phần "Nay có gì" bên dưới.</p>' : '');
       Array.prototype.forEach.call(host.querySelectorAll('[data-q]'), function (el2) {
         function open() { showQuan(ph, ph.dia_diem[Number(el2.getAttribute('data-q'))]); }
         el2.addEventListener('click', open);
@@ -776,13 +786,22 @@
     }).catch(function () { host.innerHTML = '<p class="note">Chưa vẽ được bản đồ phố này.</p>'; });
   }
 
+  // Hướng mới: không bày giờ mở cửa, giá, số nhà của từng quán
+  function gonQuan(t) {
+    var bo = /\d{1,2}\s*(:|h|giờ)\s*\d{0,2}|\d[\d.]*\s*(–|-)?\s*[\d.]*\s*(đ|đồng)(?![\wà-ỹ])/i;
+    var out = (t || '').replace(/\.\s*$/, '').split(/;\s*/).map(function (c) {
+      return c.split(/,\s*/).filter(function (x) { return !bo.test(x); }).join(', ');
+    }).filter(function (c) { return c.trim(); }).join('; ');
+    return out ? out + '.' : '';
+  }
+
   function showQuan(ph, d) {
     var c = document.getElementById('quanCard');
     c.innerHTML = '<button class="close" type="button" id="quanClose" aria-label="Đóng">×</button>' +
-      '<b>' + esc(d.ten) + '</b><span class="addr">' + esc(d.dia_chi) + ' · ' + esc(d.loai) + '</span>' +
-      '<span>' + esc(d.dac_trung) + '</span>' +
+      '<b>' + esc(d.ten) + '</b><span class="addr">' + esc(d.loai) + '</span>' +
+      '<span>' + esc(gonQuan(d.dac_trung)) + '</span>' +
       (/^không rõ/i.test(d.con_mo || '') ? '<span class="src warn">Chưa rõ còn mở</span>' : '') +
-      (d.vi_tri && d.vi_tri.uoc ? '<span class="src">Vị trí ước theo số nhà, lệch khoảng ' + d.vi_tri.lech_m + ' m</span>' : '') +
+      
       '<span class="src">Nguồn: ' + d.nguon.map(function (n) { return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + '</a>'; }).join(' · ') + '</span>' +
       '<button class="mini" type="button" id="quanGo">Xem trên bản đồ thật</button>';
     c.hidden = false;

@@ -49,7 +49,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders kem-bo-da-lat (31/07/2025) và wanderlog ghi phường Xuân Hương - Đà Lạt",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.436895,
+    "lat": 11.947374,
+    "cach": "ước theo số nhà: giữa số 74c và số 110 Nguyễn Văn Trỗi trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 70
+   }
   },
   {
    "ten": "Nari - Chè Kem Bơ",

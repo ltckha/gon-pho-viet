@@ -45,7 +45,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2025–2026 (phela.vn ghi 'Phường Xuân Hương - Đà Lạt' = tên phường sau 1/7/2025; wanderlog có giờ mở, không ghi đóng)",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.436466,
+    "lat": 11.941474,
+    "cach": "ước theo số nhà: đúng số 07 Nguyễn Chí Thanh trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 20
+   }
   },
   {
    "ten": "Retro 1992",
@@ -78,7 +84,13 @@
    "do_tin_cay": "trung bình",
    "ghi_chu": "Số 9 chỉ foody ghi; Airbnb (gợi ý của người địa phương 9/2018) chỉ nói quán nằm trên 'Coffee Street' đường Nguyễn Chí Thanh.",
    "con_mo": "không rõ (bình luận foody mới nhất 10/12/2020; Airbnb không ghi đóng)",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.436537,
+    "lat": 11.941319,
+    "cach": "ước theo số nhà: giữa số 07 và số 11A Nguyễn Chí Thanh trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 20
+   }
   },
   {
    "ten": "Tiệm bánh Cối Xay Gió - Nguyễn Chí Thanh",

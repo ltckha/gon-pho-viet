@@ -507,7 +507,7 @@
     if (old) old.remove();
     var g = el('g', { id: 'placeMark', 'class': 'pin place', transform: 'translate(' + px(d.vi_tri.lon).toFixed(4) + ' ' + py(d.vi_tri.lat).toFixed(4) + ')' });
     var inner = el('g', {});
-    inner.appendChild(el('circle', { r: 9, 'class': 'place-dot' }));
+    inner.appendChild(el('circle', { r: 9, 'class': 'place-dot' + (d.vi_tri.uoc ? ' uoc' : '') }));
     inner.appendChild(el('text', { x: 0, y: -16, 'class': 'pin-label', 'text-anchor': 'middle' }, d.ten));
     inner._x = px(d.vi_tri.lon); inner._y = py(d.vi_tri.lat); inner._n = 0; inner._fixed = true;
     g.appendChild(inner);
@@ -530,7 +530,8 @@
         '<span>' + esc(d.dac_trung) + '</span>' +
         (d.ten && /^không rõ/i.test(d.con_mo || '') ? '<span class="src warn">Chưa rõ còn mở (nguồn mới nhất chưa xác nhận)</span>' : '') +
         (d.ten ? (d.vi_tri
-          ? '<button class="mini" type="button" data-place="' + k + '">Xem chỗ quán trên bản đồ</button>'
+          ? '<button class="mini" type="button" data-place="' + k + '">Xem chỗ quán trên bản đồ</button>' +
+            (d.vi_tri.uoc ? '<span class="src">Vị trí ước theo số nhà, có thể lệch khoảng ' + d.vi_tri.lech_m + ' m</span>' : '')
           : '<button class="mini" type="button" data-place="' + k + '">Xem đường ' + esc(d.duong) + '</button><span class="src">Chưa có vị trí chính xác trên bản đồ</span>') : '') +
         '<span class="src">Nguồn: ' +
         d.nguon.map(function (n, k) {

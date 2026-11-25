@@ -72,7 +72,13 @@
    ],
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (đăng 18/01/2026) ghi 44 Tăng Bạt Hổ, 06:30–21:30",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.435381,
+    "lat": 11.943661,
+    "cach": "ước theo số nhà: giữa số 16 và số 64 Tăng Bạt Hổ trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 30
+   }
   },
   {
    "ten": "Bánh ướt lòng gà Trang",
@@ -120,7 +126,13 @@
    "do_tin_cay": "trung bình",
    "con_mo": "không rõ (VinWonders cập nhật 16/07/2025 còn ghi Số 7, 13h–22h, nhưng chỉ là bài tổng hợp)",
    "ghi_chu": "Đường này có nhiều quán bánh căn trùng kiểu tên 'Bánh căn Tăng Bạt Hổ': VinWonders bài bánh khọt ghi 14 Tăng Bạt Hổ, Foody có 'Bánh Căn - Tăng Bạt Hổ' ở số 4, mia.vn có 'Bánh căn 14 (hai Cô)' ở số 30. Chưa chắc đây là một hay nhiều quán; chỉ lấy tên 'Bánh căn 07' vì Toplist và VinWonders cùng ghi số 7.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.435179,
+    "lat": 11.944117,
+    "cach": "ước theo số nhà: đúng số 07 Tăng Bạt Hổ trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 20
+   }
   },
   {
    "ten": "Bicycle Up Cafe",
@@ -180,7 +192,13 @@
    "do_tin_cay": "cao",
    "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi địa chỉ mới '68 Trương Công Định, Xuân Hương - Đà Lạt', không đánh dấu đóng cửa",
    "ghi_chu": "Hai bài Toplist cùng một trang web → tính là 1 nguồn; nguồn thứ hai là Wanderlog.",
-   "vi_tri": null
+   "vi_tri": {
+    "lon": 108.434696,
+    "lat": 11.944741,
+    "cach": "ước theo số nhà: giữa số 64-67 và số 70 Trương Công Định trên OpenStreetMap",
+    "uoc": true,
+    "lech_m": 50
+   }
   },
   {
    "ten": "Woody Classic Bar",

@@ -126,6 +126,7 @@ button:focus-visible { outline: 3px solid var(--pick); outline-offset: 2px; }
 .places .addr { font-size: .85rem; color: var(--muted); }
 .mini { font: inherit; font-size: .82rem; font-weight: 600; color: var(--accent); background: none; border: 1.5px solid var(--edge); border-radius: 8px; padding: 4px 10px; justify-self: start; cursor: pointer; margin-top: 2px; }
 .place-dot { fill: #e9b44c; stroke: #8a2f2c; stroke-width: 3; }
+.place-dot.uoc { fill: rgba(233, 180, 76, .45); stroke-dasharray: 4 3; }
 .places .src.warn { color: #9a6a12; }
 .places .src { font-size: .8rem; color: var(--muted); }
 .sheet h2 { margin: 0; font-size: 1.3rem; line-height: 1.25; padding-right: 36px; text-wrap: balance; }

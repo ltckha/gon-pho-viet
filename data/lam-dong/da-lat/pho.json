@@ -109,7 +109,13 @@
        "trang": "mia.vn"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.435381,
+      "lat": 11.943661,
+      "cach": "ước theo số nhà: giữa số 16 và số 64 Tăng Bạt Hổ trên OpenStreetMap",
+      "uoc": true,
+      "lech_m": 30
+     },
      "con_mo": "có dấu hiệu còn mở 2025–2026: mia.vn (đăng 18/01/2026) ghi 44 Tăng Bạt Hổ, 06:30–21:30"
     },
     {
@@ -170,7 +176,13 @@
        "trang": "vinwonders.com"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.435179,
+      "lat": 11.944117,
+      "cach": "ước theo số nhà: đúng số 07 Tăng Bạt Hổ trên OpenStreetMap",
+      "uoc": true,
+      "lech_m": 20
+     },
      "con_mo": "không rõ (VinWonders cập nhật 16/07/2025 còn ghi Số 7, 13h–22h, nhưng chỉ là bài tổng hợp)"
     },
     {
@@ -249,7 +261,13 @@
        "trang": "wanderlog.com"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.434696,
+      "lat": 11.944741,
+      "cach": "ước theo số nhà: giữa số 64-67 và số 70 Trương Công Định trên OpenStreetMap",
+      "uoc": true,
+      "lech_m": 50
+     },
      "con_mo": "có dấu hiệu còn mở 2025–2026: dữ liệu Google trên Wanderlog ghi địa chỉ mới '68 Trương Công Định, Xuân Hương - Đà Lạt', không đánh dấu đóng cửa"
     },
     {
@@ -392,7 +410,13 @@
        "trang": "wanderlog.com"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.436466,
+      "lat": 11.941474,
+      "cach": "ước theo số nhà: đúng số 07 Nguyễn Chí Thanh trên OpenStreetMap",
+      "uoc": true,
+      "lech_m": 20
+     },
      "con_mo": "có dấu hiệu còn mở 2025–2026 (phela.vn ghi 'Phường Xuân Hương - Đà Lạt' = tên phường sau 1/7/2025; wanderlog có giờ mở, không ghi đóng)"
     },
     {
@@ -434,7 +458,13 @@
        "trang": "airbnb.com"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.436537,
+      "lat": 11.941319,
+      "cach": "ước theo số nhà: giữa số 07 và số 11A Nguyễn Chí Thanh trên OpenStreetMap",
+      "uoc": true,
+      "lech_m": 20
+     },
      "con_mo": "không rõ (bình luận foody mới nhất 10/12/2020; Airbnb không ghi đóng)"
     },
     {
@@ -763,7 +793,13 @@
        "trang": "wanderlog.com"
       }
      ],
-     "vi_tri": null,
+     "vi_tri": {
+      "lon": 108.436895,
+      "lat": 11.947374,
+      "cach": "ước theo số nhà: giữa số 74c và số 110 Nguyễn Văn Trỗi trên OpenStreetMap",
+      "uoc": true,
+      "lech_m": 70
+     },
      "con_mo": "có dấu hiệu còn mở 2025–2026: vinwonders kem-bo-da-lat (31/07/2025) và wanderlog ghi phường Xuân Hương - Đà Lạt"
     },
     {

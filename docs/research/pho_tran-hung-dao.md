@@ -70,3 +70,18 @@ Tất cả thuộc Xuân Hương - Đà Lạt.
 - **Hoa Violet Café**: số 14 chỉ có ở Foody; toà OSM nằm sát cụm Cadasa, có thể là một căn của Cadasa.
 - **Sương Mai**: Báo Lâm Đồng 6/2025 ghi toà số 8 sẽ giao cho UBND tỉnh; quán ghi 8/8B — chưa rõ có bị ảnh hưởng.
 - **Gắn vị trí**: tên OSM khác tên thật ("Nha Long", "Sunshine cafe", "Súóng Mai", "Bánh canh chả cá Phan Rang", "Dinh Toàn Quyền", "Khu nghỉ dưỡng Biệt thự cổ Đà Lạt Cadasa"); nhiều nơi OSM không có số nhà → `vi_tri_quan.py` có thể không khớp, cần soát tay và thêm `ALIAS`.
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 2 nơi. Đã đóng hẳn: 0.**
+
+| Tên | Số nhà | Nguồn | Độ tin cậy | Còn mở? |
+|---|---|---|---|---|
+| Gà nướng cơm lam Lửa Hồng | 2 (nhiều khả năng đầu hẻm 2) | [VinWonders 08/07/2025](https://vinwonders.com/vi/wonderpedia/news/ga-nuong-com-lam-da-lat/) · [Mytour 1/11/2026](https://mytour.vn/vi/blog/xep-hang/top-5-quan-ga-nuong-com-lam-da-lat-thom-ngon-dam-da-huong-vi-nui-rung-mytour.html) · [Trip.com](https://ph.trip.com/restaurant/vietnam/dalat/detail/G%C3%80%20N%C6%AF%E1%BB%9ANG%20C%C6%A0M%20LAM%20%C4%90%C3%80%20L%E1%BA%A0T%20L%E1%BB%ACA%20H%E1%BB%92NG-150681490) | cao | có dấu hiệu (Trip.com ghi phường mới) |
+| Nem nướng Bà Hùng (cơ sở Trần Hưng Đạo) | 3 | [VinWonders 13/07/2025](https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/) · [Toplist](https://toplist.vn/top-list/quan-an-dem-ngon-nhat-tai-da-lat-37718.htm) · [Mytour 1/11/2026](https://mytour.vn/vi/blog/bai-viet/bat-mi-top-5-quan-nem-nuong-chuan-vi-da-lat-mytour.html) | trung bình | **không rõ** — đoạn trích Airbnb ghi "Permanently closed", không mở được trang để xác nhận |
+
+Mộc Coffee (15A): Wanderlog trang Tỏi Đen Coffee Roastery nay ghi 15A Trần Hưng Đạo → số 15A có thể đã là Tỏi Đen; chỉ 1 nguồn nên chưa ghi Mộc Coffee đóng hẳn.
+
+Vẫn chưa đủ: các nơi chỉ có OSM/Foody còn lại chưa kịp tìm lần này.

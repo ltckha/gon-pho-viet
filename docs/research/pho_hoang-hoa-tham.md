@@ -59,3 +59,17 @@ Tên trong OSM (`duong.json`, trường `ten`): "Hoàng Hoa Thám" — khớp. O
 - **LengKeng**: 57/4 (Trip.com, mia 2026), "Số 57" (mia 2023), 57/6 (vài trang đặt phòng).
 - **Đặc trưng "nhiều quán cà phê"**: có nhiều bài nhắc từng quán, nhưng không có nguồn đếm số quán trên đường → câu giới thiệu không ghi số.
 - Kem Việt Hưng: bài mia gốc từ 2021 — trạng thái hiện tại chỉ dựa vào VinWonders 7/2025 và Foody.
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 1 nơi. Đã đóng hẳn: 0.**
+
+| Tên | Số nhà | Nguồn | Độ tin cậy | Còn mở? |
+|---|---|---|---|---|
+| Chồn Coffee (Trại Hầm – trang trại cà phê chồn) | 135E | [Foody](https://www.foody.vn/lam-dong/chon-coffee) · [VinWonders EN 13/06/2024](https://vinwonders.com/en/wonderpedia/news/dalat-coffee-where-to-go/) · [Tiền Phong (cũ)](https://tienphong.vn/xa-hoi/659282/Ca-phe-chon---Huyen-thoai-va-hien-thuc-tpp.html) | trung bình | không rõ (mới nhất 6/2024) |
+
+Ghi chú: dòng Tiền Phong ("điểm cà phê chồn đầu tiên ở Lâm Đồng khai thác du lịch", 135E P.10) em lấy từ đoạn trích kết quả tìm kiếm; tải trang bằng máy không thấy chữ "135E". Không có nó vẫn đủ 2 trang (Foody + VinWonders).
+
+Vẫn chưa đủ: Sân Mây Homestay, Đà Lạt Nhớ Homestay (chỉ mia.vn), Bánh Căn Cô Thương (không ra trang nào). Phụ: VinWonders bài ăn tối (17/07/2025) ghi Tiệm ăn Bếp Đà Lạt có địa chỉ 89 Hoàng Hoa Thám — trùng số với Bình Minh Ơi, em chưa kiểm.

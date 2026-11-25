@@ -74,3 +74,12 @@ OSM có điểm cho Colline (số 10), Mường Thanh (42), 100 Roofs Café (57)
 - **Tên cũ Van Vollenhoven** chỉ 1 nguồn; tên trùng Joost van Vollenhoven (quyền Toàn quyền Đông Dương 1913–1915, [Wikipedia tiếng Pháp](https://fr.wikipedia.org/wiki/Joost_van_Vollenhoven)) nhưng chưa có nguồn nói đường đặt theo ông. Trang Đường phố Đà Lạt của tỉnh không tải được.
 - **Số phòng khách sạn** các nguồn lệch nhau (Colline 150/155, Mường Thanh 67/71) → không dùng.
 - Đang thi công nâng cấp mặt đường, vỉa hè (Báo Lâm Đồng 20/10/2026) → đi thực tế lúc này có thể thấy rào chắn.
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 0. Đã đóng hẳn: 0.**
+
+- Bếp Đà Lạt: VinWonders (17/07/2025) ghi 10 Phan Bội Châu (và 89 Hoàng Hoa Thám); [Wanderlog](https://wanderlog.com/place/details/7495897) ghi 69 Phan Bội Châu → vênh 10/69, chưa đủ.
+- Xàm buffet (115): đoạn trích tìm kiếm Foody có thêm "Tám Đà Lạt - Buffet & Cơm Đoàn" cùng số 115 → số 115 càng nhiều quán, chưa chốt.

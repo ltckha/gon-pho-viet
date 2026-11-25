@@ -68,3 +68,23 @@ Gợi ý "cà phê, nhà xưa": **chưa thấy nguồn**. OSM có vài quán cà
 4. **Năm lập chùa Linh Quang** lệch: 1931 (mia, Tatinta) và 1921 (VinWonders). Không đưa năm vào câu giới thiệu.
 5. "Còn mở" dựa vào bài tổng hợp cập nhật 2025–2026, không phải xác nhận trực tiếp. Vietnam Airlines không ghi ngày.
 6. Kho game không có phố Hai Bà Trưng; tài liệu game (2026-11-24_pho_moi_da_lat.md) từng loại đường này vì "rời rạc, ít nguồn mới" — em thấy nguồn mới đủ cho chủ đề ốc nhồi. Không thấy game ghi sai gì cần báo.
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 4 nơi. Đã đóng hẳn: 0.**
+
+| Tên | Số nhà | Nguồn | Độ tin cậy | Còn mở? |
+|---|---|---|---|---|
+| Hủ tiếu Nam Vang Gia Cát | 221/9 (hẻm) | [Toplist](https://toplist.vn/top-list/dia-chi-an-hu-tieu-nam-vang-chat-luong-nhat-da-lat-31751.htm) · [VinWonders 20/07/2025](https://vinwonders.com/vi/wonderpedia/news/hu-tieu-nam-vang-da-lat/) · [Foody](https://www.foody.vn/lam-dong/gia-cat-hu-tieu-nam-vang-dua-dam-da-lat) | trung bình | không rõ (Foody bình luận mới nhất 01/2021) |
+| Gà nướng cơm lam Huy Hoàng | 453 | [Toplist](https://toplist.vn/top-list/quan-com-lam-ngon-va-chat-luong-nhat-tai-lam-dong-33101.htm) · [mia.vn 09/2023](https://mia.vn/cam-nang-du-lich/ga-nuong-com-lam-mon-an-dan-da-khong-the-bo-qua-khi-du-lich-da-lat-1277) · [Mytour 1/11/2026](https://mytour.vn/vi/blog/xep-hang/top-5-quan-ga-nuong-com-lam-da-lat-thom-ngon-dam-da-huong-vi-nui-rung-mytour.html) | trung bình | có dấu hiệu (Mytour 11/2026) |
+| Lẩu cá tầm Ngư Sơn (cơ sở 2) | 58 | [Toplist quán nhậu](https://toplist.vn/top-list/nhung-quan-nhau-khong-the-bo-qua-khi-di-du-lich-da-lat-30820.htm) · [mia.vn 28/11/2025](https://mia.vn/cam-nang-du-lich/top-quan-lau-da-lat-ngon-nuc-tieng-19708) | trung bình | có dấu hiệu (mia 11/2025) |
+| Lẩu Dê Tay Cầm Ngân | 32C | [Foody](https://www.foody.vn/lam-dong/de-tay-cam-ngan-hai-ba-trung) · [mia.vn 09/2023](https://mia.vn/cam-nang-du-lich/de-mia-vn-dat-ban-den-top-8-quan-lau-ngon-tai-da-lat-1332) | trung bình | không rõ (mới nhất 10/2023) |
+
+Chốt số nhà:
+- **Huy Hoàng**: 3 trang ghi 453; Vietnam Airlines (không rõ ngày) ghi 116, số điện thoại khác → chốt 453, ghi chú 116 trong `ghi_chu`.
+- **Cầm Ngân**: Foody + mia ghi 32C; Toplist hai bài ghi 134 và 34 → chốt 32C. Số 134 cũ trong mục cần kiểm là sai.
+- **Gia Cát**: VinWonders bài hủ tiếu ghi 221/9 (bài quán ăn ngon ghi 15 Trần Bình Trọng, có thể là cơ sở 2).
+
+Vẫn chưa đủ: Dung 65 (chỉ mia.vn + Mytour chép), Ghiền Ăn (chỉ Toplist), 18 Độ C (không thấy trang nào khác; Foody "18 độ C" là quán ở TP.HCM). Các nơi còn lại chưa kịp tìm lần này.

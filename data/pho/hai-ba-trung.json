@@ -217,21 +217,74 @@
    "con_mo": "không rõ (hai trang không ghi ngày cập nhật)",
    "ghi_chu": "Chỉ có tên hẻm, không có số nhà. Mytour ghi \"3/10 hẻm 27 cũ\" → hẻm 27 có thể đã đổi số thành hẻm 3; cần kiểm.",
    "vi_tri": null
-  }
- ],
- "can_kiem_them": [
+  },
   {
-   "ten": "Hủ tiếu Nam Vang Gia Cát",
+   "ten": "Hủ tiếu Nam Vang Gia Cát (Gia Cát - Hủ Tiếu Nam Vang & Dừa Dầm)",
+   "loai": "quán hủ tiếu Nam Vang, dừa dầm",
+   "dac_trung": "Hủ tiếu Nam Vang nước xương, ăn kèm thịt băm, tôm, trứng; bán thêm dừa dầm. Giá khoảng 20.000–40.000 đồng (Foody, VinWonders).",
+   "dia_chi": "221/9 Hai Bà Trưng (trong hẻm), phường Cam Ly - Đà Lạt",
    "duong": "Hai Bà Trưng",
    "so_nha": "221/9",
    "nguon": [
-    "https://toplist.vn/top-list/tiem-an-lau-doi-thu-hut-nhat-da-lat-31834.htm",
     "https://toplist.vn/top-list/dia-chi-an-hu-tieu-nam-vang-chat-luong-nhat-da-lat-31751.htm",
-    "https://mytour.vn/en/blog/xep-hang/top-10-must-visit-long-established-restaurants-in-da-lat-mytour.html",
-    "https://vinwonders.com/vi/wonderpedia/news/quan-an-ngon-da-lat/"
+    "https://vinwonders.com/vi/wonderpedia/news/hu-tieu-nam-vang-da-lat/",
+    "https://www.foody.vn/lam-dong/gia-cat-hu-tieu-nam-vang-dua-dam-da-lat"
    ],
-   "ly_do": "Toplist ghi 221/9 Hai Bà Trưng (hẻm Cây Đa); bài Mytour là bản đăng lại/dịch của Toplist nên không tính riêng; VinWonders lại ghi 15 Trần Bình Trọng → chỉ 1 nguồn độc lập cho địa chỉ Hai Bà Trưng"
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ: VinWonders 20/07/2025 còn giới thiệu (06:00–21:00); Foody ghi 06:00–20:00, bình luận mới nhất 24/01/2021.",
+   "ghi_chu": "Quán trong hẻm 221 (Toplist gọi hẻm Cây Đa). Một bài VinWonders khác (quán ăn ngon) ghi Gia Cát ở 15 Trần Bình Trọng — có thể là cơ sở thứ hai (Toplist nói quán có 2 chi nhánh).",
+   "vi_tri": null
   },
+  {
+   "ten": "Gà nướng cơm lam Huy Hoàng",
+   "loai": "quán gà nướng cơm lam",
+   "dac_trung": "Gà ta nướng ướp lá rừng và mật ong, cơm lam nấu ống tre; có gà bó xôi, gà nướng xôi chiên (Toplist, Mytour).",
+   "dia_chi": "453 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "453",
+   "nguon": [
+    "https://toplist.vn/top-list/quan-com-lam-ngon-va-chat-luong-nhat-tai-lam-dong-33101.htm",
+    "https://mia.vn/cam-nang-du-lich/ga-nuong-com-lam-mon-an-dan-da-khong-the-bo-qua-khi-du-lich-da-lat-1277",
+    "https://mytour.vn/vi/blog/xep-hang/top-5-quan-ga-nuong-com-lam-da-lat-thom-ngon-dam-da-huong-vi-nui-rung-mytour.html"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: Mytour (cập nhật 1/11/2026) còn liệt kê ở 453; mia.vn sửa 20/09/2023; Toplist không rõ ngày.",
+   "ghi_chu": "Số nhà vênh: Toplist, mia.vn, Mytour ghi 453; Vietnam Airlines (không rõ ngày) ghi 116 Hai Bà Trưng với số điện thoại khác (0823 548 613) — có thể có cơ sở 116 hoặc đã dời. Em chốt 453 vì 3 trang khớp.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Lẩu cá tầm Ngư Sơn (cơ sở 2)",
+   "loai": "quán lẩu cá tầm",
+   "dac_trung": "Lẩu cá tầm nước ngọt thanh, cá tầm nướng muối ớt, rang sả; giá khoảng 150.000–350.000 đồng (mia.vn). Cơ sở 1 ở 33/15/3 Phan Đình Phùng.",
+   "dia_chi": "58 Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "58",
+   "nguon": [
+    "https://toplist.vn/top-list/nhung-quan-nhau-khong-the-bo-qua-khi-di-du-lich-da-lat-30820.htm",
+    "https://mia.vn/cam-nang-du-lich/top-quan-lau-da-lat-ngon-nuc-tieng-19708"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu: mia.vn đăng 28/11/2025 ghi cơ sở 2 ở 58 Hai Bà Trưng, mở 10:00–22:00.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Lẩu Dê Tay Cầm Ngân",
+   "loai": "quán lẩu dê, món dê",
+   "dac_trung": "Lẩu dê nấu trong nồi có tay cầm, dê hấp, dê thui, dê xào lăn, sườn dê nướng (mia.vn).",
+   "dia_chi": "32C Hai Bà Trưng, phường Cam Ly - Đà Lạt",
+   "duong": "Hai Bà Trưng",
+   "so_nha": "32C",
+   "nguon": [
+    "https://www.foody.vn/lam-dong/de-tay-cam-ngan-hai-ba-trung",
+    "https://mia.vn/cam-nang-du-lich/de-mia-vn-dat-ban-den-top-8-quan-lau-ngon-tai-da-lat-1332"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ: Foody bình luận mới nhất 01/10/2023 và ghi 'hơn 3 tháng chưa có tương tác mới'; mia.vn sửa 20/09/2023. Chưa thấy nguồn 2025–2026.",
+   "ghi_chu": "Số nhà vênh: Foody và mia.vn ghi 32C; Toplist (quán nhậu) ghi 134, Toplist (thịt dê) ghi 34. Em chốt 32C (2 trang khớp). Cơ sở chính ở 21/19A Trần Phú (Toplist).",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
   {
    "ten": "Quán ăn Dung 65",
    "duong": "Hai Bà Trưng",
@@ -240,7 +293,7 @@
     "https://mia.vn/cam-nang-du-lich/quan-dung-65-da-lat-quan-com-chuan-me-nau-tai-thanh-pho-suong-mu-1339",
     "https://mytour.vn/vi/blog/bai-viet/quan-an-dung-65-da-lat-noi-thuong-thuc-nhung-mon-com-ngon-nhu-me-nau.html"
    ],
-   "ly_do": "Bài Mytour viết lại gần nguyên văn bài mia.vn (cùng câu chỉ đường) → 1 nguồn; Foody không có trang"
+   "ly_do": "Bài Mytour viết lại gần nguyên văn bài mia.vn (cùng câu chỉ đường) → 1 nguồn; Foody không có trang | Kiểm thêm 25/11/2026: tìm thêm chỉ ra lại mia.vn và Mytour (bài chép); Foody, VinWonders không có trang riêng → vẫn 1 nguồn."
   },
   {
    "ten": "Cô Ba Cà Phê (cà phê trứng)",
@@ -261,40 +314,13 @@
    "ly_do": "1 nguồn, không có tên riêng"
   },
   {
-   "ten": "Gà nướng cơm lam Huy Hoàng",
-   "duong": "Hai Bà Trưng",
-   "so_nha": "116",
-   "nguon": [
-    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/ga-nuong-com-lam-da-lat"
-   ],
-   "ly_do": "1 nguồn"
-  },
-  {
    "ten": "18 Độ C (cà phê trên đồi)",
    "duong": "Hai Bà Trưng",
    "so_nha": "286",
    "nguon": [
     "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/cafe-da-lat"
    ],
-   "ly_do": "1 nguồn"
-  },
-  {
-   "ten": "Lẩu cá tầm Ngư Sơn (chi nhánh)",
-   "duong": "Hai Bà Trưng",
-   "so_nha": "58",
-   "nguon": [
-    "https://toplist.vn/top-list/nhung-quan-nhau-khong-the-bo-qua-khi-di-du-lich-da-lat-30820.htm"
-   ],
-   "ly_do": "1 nguồn"
-  },
-  {
-   "ten": "Lẩu Dê Tay Cầm Ngân (chi nhánh)",
-   "duong": "Hai Bà Trưng",
-   "so_nha": "134",
-   "nguon": [
-    "https://toplist.vn/top-list/nhung-quan-nhau-khong-the-bo-qua-khi-di-du-lich-da-lat-30820.htm"
-   ],
-   "ly_do": "1 nguồn"
+   "ly_do": "1 nguồn | Kiểm thêm 25/11/2026: tìm thêm không thấy trang nào khác; Foody chỉ có \"18 độ C Cafe\" ở TP.HCM (quán khác)."
   },
   {
    "ten": "Ốc vỉa hè 20k",
@@ -313,7 +339,7 @@
     "https://toplist.vn/top-list/dia-chi-an-hu-tieu-nam-vang-chat-luong-nhat-da-lat-31751.htm",
     "https://mytour.vn/vi/blog/bai-viet/top-10-dia-diem-thuong-thuc-hu-tieu-nam-vang-tai-da-lat-lam-dong.html"
    ],
-   "ly_do": "Mytour chép lại danh sách Toplist → 1 nguồn"
+   "ly_do": "Mytour chép lại danh sách Toplist → 1 nguồn | Kiểm thêm 25/11/2026: tìm thêm chỉ thấy Toplist ghi 234 Hai Bà Trưng; Mytour nói có 2 chi nhánh nhưng không ghi số 234 → vẫn 1 nguồn."
   },
   {
    "ten": "Nhà hàng Memory Đà Lạt",

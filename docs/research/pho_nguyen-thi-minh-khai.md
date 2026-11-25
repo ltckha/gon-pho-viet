@@ -74,3 +74,12 @@ Loại ra: "Đà Lạt Phố Cafe - Nguyễn Thị Minh Khai" trên Foody là �
 3. **Chợ đêm sắp được sắp xếp lại** trước Festival Hoa 2026 (dời hàng len đi chỗ khác). Câu giới thiệu có thể phải sửa sau đợt này.
 4. **Quầy ăn trong chợ** (kem bơ, sữa đậu nành, bánh tráng nướng) có nhiều bài nhắc nhưng thường không có tên/số rõ hoặc chỉ 1 nguồn; cần người đi tận nơi.
 5. Danh sách chính có 3 khách sạn: đúng là trên đường này, đủ nguồn, nhưng không phải "đặc trưng" của phố. Nếu anh muốn chỉ giữ chợ, ăn uống, đặc sản thì bỏ 3 dòng đó, còn 4 nơi.
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 0. Đã đóng hẳn: 0.**
+
+- Kem bơ, chè cô Huyền: chỉ VinWonders + Vinpearl (cùng tập đoàn); bài kem bơ mia.vn không nhắc → vẫn 1 nguồn.
+- KATINAT: không ra trang khác; trang cửa hàng katinat.vn không đọc được bằng máy.

@@ -218,7 +218,7 @@
    "nguon": [
     "https://www.foody.vn/lam-dong/tay-nguyen-quan-nguyen-cong-tru"
    ],
-   "ly_do": "1 nguồn (Foody). Foody còn có 'Cu Đức - Quán Nướng Ngói' cùng số 170 (https://www.foody.vn/lam-dong/cu-duc-quan-nuong-ngoi-nguyen-cong-tru) → có thể quán đổi tên."
+   "ly_do": "1 nguồn (Foody). Foody còn có 'Cu Đức - Quán Nướng Ngói' cùng số 170 (https://www.foody.vn/lam-dong/cu-duc-quan-nuong-ngoi-nguyen-cong-tru) → có thể quán đổi tên. | Kiểm thêm 25/11/2026: đoạn trích tìm kiếm Foody ghi \"Chưa mở cửa\", điểm 1.0; không thấy trang thứ hai."
   },
   {
    "ten": "Tony Restaurant (lẩu, nướng)",
@@ -255,7 +255,7 @@
     "https://www.vietnambooking.com/hotel/vietnam/khach-san-hoang-nguyen-da-lat.html",
     "https://in.hotels.com/ho740201248"
    ],
-   "ly_do": "2 trang nhưng số nhà lệch (Vietnambooking 68A, Hotels.com 5) → chưa đưa vào."
+   "ly_do": "2 trang nhưng số nhà lệch (Vietnambooking 68A, Hotels.com 5) → chưa đưa vào. | Kiểm thêm 25/11/2026: Skyscanner cũng ghi 5 Nguyễn Công Trứ; Vietnambooking ghi 68A → vẫn vênh, chưa chốt."
   },
   {
    "ten": "Fujiya Sushi Đà Lạt",
@@ -265,7 +265,7 @@
     "https://vinwonders.com/en/wonderpedia/news/dalat-restaurants/",
     "https://toplist.vn/top-list/dia-chi-thuong-thuc-sushi-ngon-nhat-tinh-lam-dong-50310.htm"
    ],
-   "ly_do": "nằm trong khu quy hoạch Phan Đình Phùng – Nguyễn Công Trứ, không trên mặt đường; số lô lệch (VinWonders: Lot 38, Toplist: Lô 34)."
+   "ly_do": "nằm trong khu quy hoạch Phan Đình Phùng – Nguyễn Công Trứ, không trên mặt đường; số lô lệch (VinWonders: Lot 38, Toplist: Lô 34). | Kiểm thêm 25/11/2026: Toplist và Foody (đoạn trích tìm kiếm) cùng ghi Lô 34 KQH Nguyễn Công Trứ → số lô chốt 34 (VinWonders ghi Lot 38). Vẫn để lại vì nằm trong khu quy hoạch, không trên mặt đường."
   },
   {
    "ten": "Bánh canh cua (VinWonders mục 5)",

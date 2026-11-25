@@ -78,3 +78,13 @@ Không đưa vào: Tròn Quán (hẻm 79/8, nằm trong hẻm); "Ngã 5 Đại h
 Ghi chú cho kho game: game ghi đã loại Bùi Thị Xuân vì "chủ yếu cà phê + quán ăn". Theo nguồn tìm được, quán cà phê nổi nhất (Woodstock) đã đóng, Tỏi Đen nghi đã dời → đường giờ nghiêng về lẩu, nem nướng, khách sạn. Không có gì game ghi sai cần sửa.
 
 Nguồn chung: `data/lam-dong/nq1671.json` (mục 99, 101); `data/lam-dong/da-lat/duong.json` (OSM); `ltckha/giang-ho-ai: docs/research/2026-11-24_pho_moi_da_lat.md`.
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 0. Đã đóng hẳn: 0.**
+
+- Cà phê Tỏi Đen: [Foody](https://foody.vn/lam-dong/ca-phe-toi-den-bui-thi-xuan) vẫn ghi 318 (331 bình luận); [Wanderlog](https://wanderlog.com/place/details/1497762) ghi 15A Trần Hưng Đạo; cafetoiden.vn lỗi 502 → chưa chốt.
+- Lẩu bò Hạnh: tìm "167 Bùi Thị Xuân" chỉ ra lại VinWonders → vẫn vênh 95/167.
+- Bánh mì gà Nhân Ngãi, Sữa đậu nành 2 Chị Em, Trà sữa Heekcaa: không ra trang mới.

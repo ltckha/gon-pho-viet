@@ -68,3 +68,13 @@ Bên chẵn (Lâm Viên): 1, 2, 5, 6. Bên lẻ (Xuân Hương): 3, 4, 7.
 - **Mì Quảng Nhà Shin**: OSM ghi "Nha Shin - Pho" không số nhà, nằm bên số lẻ gần La Viet — khớp vị trí nhưng cần soát tay trước khi thêm `ALIAS`.
 - **Tên cũ "Dankir"** (file chuyện): chỉ có ở [bảng của blog](https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/), ghi `mot_nguon: true`; bảng ghi Dankir tách thành Đinh Tiên Hoàng + Nguyễn Công Trứ + Tôn Thất Thuyết + Nguyễn Hoàng, không rõ đoạn nào.
 - **Giờ mở** lệch giữa các trang (ghi trong `con_mo`, `dac_trung`).
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 0. Đã đóng hẳn: 0.**
+
+- Fujiya Sushi: Toplist + Foody cùng ghi Lô 34 KQH → số lô chốt 34; vẫn để lại vì không trên mặt đường.
+- Khách sạn Hoàng Nguyên: Skyscanner ghi 5, Vietnambooking ghi 68A → vẫn vênh.
+- Tây Nguyên Quán (170): đoạn trích Foody ghi "Chưa mở cửa", điểm 1.0; không có trang thứ hai.

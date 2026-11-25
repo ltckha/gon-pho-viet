@@ -59,3 +59,11 @@ Café Nga, Phê La, Retro 1992, Artista, Tiệm bánh Cối Xay Gió, Windmills 
 - **Diamond Hotel**: Vietnam Booking viết "Dimond", 3 sao (2017); trang đặt phòng ghi 2 sao.
 - **Điểm xe buýt**: nguồn không ghi ngày rõ; chưa có nhà xe hay báo xác nhận năm 2025–2026.
 - **Mốc năm** (file chuyện): chợ gạch 1934 (Người Đô Thị) hay 1937 (Thanh Niên, Wikipedia); trưng cầu dân ý 1955, "rạp tối tân nhứt" 1962, "ba ngọn tháp", 25 năm khai thác rạp — mỗi ý 1 nguồn (`mot_nguon: true`).
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 0. Đã đóng hẳn: 0.**
+
+- Cô Mén, Hồng Trà Hòa Bình: tìm theo tên không ra trang nào khác.

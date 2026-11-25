@@ -232,27 +232,43 @@
    "con_mo": "chưa rõ: VinWonders (08/07/2025 và 13/07/2025) còn ghi địa chỉ phường mới, 7:00–22:00; bình luận Foody mới nhất 2019, Foody ghi hơn 3 tháng chưa có tương tác.",
    "vi_tri": null,
    "ghi_chu": "2 bài VinWonders (gà nướng cơm lam; ăn gì ở Đà Lạt) tính là 1 nguồn. Bình luận Foody trái chiều (có bài chấm 1.0). Không lẫn với quán 'Xưa Đà Lạt' ở 427 Tô Ngọc Vân."
-  }
- ],
- "can_kiem_them": [
+  },
   {
    "ten": "Gà nướng cơm lam Lửa Hồng",
+   "loai": "quán gà nướng cơm lam",
+   "dac_trung": "Quán nhỏ chuyên gà nướng, cơm lam; giá từ khoảng 100.000 đồng (VinWonders).",
+   "dia_chi": "2 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
    "duong": "Trần Hưng Đạo",
    "so_nha": "2",
    "nguon": [
-    "https://vinwonders.com/vi/wonderpedia/news/ga-nuong-com-lam-da-lat/"
+    "https://vinwonders.com/vi/wonderpedia/news/ga-nuong-com-lam-da-lat/",
+    "https://mytour.vn/vi/blog/xep-hang/top-5-quan-ga-nuong-com-lam-da-lat-thom-ngon-dam-da-huong-vi-nui-rung-mytour.html",
+    "https://ph.trip.com/restaurant/vietnam/dalat/detail/G%C3%80%20N%C6%AF%E1%BB%9ANG%20C%C6%A0M%20LAM%20%C4%90%C3%80%20L%E1%BA%A0T%20L%E1%BB%ACA%20H%E1%BB%92NG-150681490"
    ],
-   "ly_do": "1 nguồn (VinWonders 08/07/2025, 9:30–21:00). Số 2 là trụ sở HĐND tỉnh nên có thể quán ở hẻm 2 — cần kiểm."
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu còn mở: Trip.com (xem 25/11/2026) ghi địa chỉ theo phường mới 'Xuân Hương - Đà Lạt', mở 10:30–19:00; Mytour cập nhật 1/11/2026; VinWonders 08/07/2025 ghi 9:30–21:00. Giờ mở mỗi trang một khác.",
+   "ghi_chu": "Vinpearl (cùng tập đoàn VinWonders, không tính) ghi 'hẻm 02 Trần Hưng Đạo' và nghỉ thứ Năm, Chủ nhật. Số 2 trùng trụ sở HĐND tỉnh → nhiều khả năng quán ở đầu hẻm 2; khi gắn vị trí cần soát tay.",
+   "vi_tri": null
   },
   {
-   "ten": "Quán nem nướng Bà Hùng (chi nhánh Trần Hưng Đạo)",
+   "ten": "Nem nướng Bà Hùng (cơ sở Trần Hưng Đạo)",
+   "loai": "quán nem nướng",
+   "dac_trung": "Nem nướng cuốn bánh tráng với rau, đồ chua, nước chấm công thức riêng của quán (Toplist). Quán gốc ở 328 Phan Đình Phùng.",
+   "dia_chi": "3 Trần Hưng Đạo, phường Xuân Hương - Đà Lạt",
    "duong": "Trần Hưng Đạo",
    "so_nha": "3",
    "nguon": [
-    "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/"
+    "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/",
+    "https://toplist.vn/top-list/quan-an-dem-ngon-nhat-tai-da-lat-37718.htm",
+    "https://mytour.vn/vi/blog/bai-viet/bat-mi-top-5-quan-nem-nuong-chuan-vi-da-lat-mytour.html"
    ],
-   "ly_do": "1 nguồn (VinWonders 13/07/2025). Kết quả tìm kiếm có dòng trang Airbnb ghi 'Permanently closed' nhưng em mở trang thì lỗi 'không tìm thấy' → không xác nhận được còn hay đóng. Quán Bà Hùng gốc ở 328 Phan Đình Phùng."
-  },
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ: VinWonders 13/07/2025 ghi '3 Trần Hưng Đạo, phường Xuân Hương'; Mytour cập nhật 1/11/2026 còn ghi số 3. Nhưng một dòng kết quả tìm kiếm trang Airbnb ghi 'Permanently closed' — em mở trang thì không đọc được, trang riêng nemnuongbahung.com không vào được → chưa xác nhận còn hay đóng.",
+   "ghi_chu": "Toplist ghi 2 địa chỉ: 328 Phan Đình Phùng và 3 Trần Hưng Đạo.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
   {
    "ten": "Mộc Coffee - Trần Hưng Đạo",
    "duong": "Trần Hưng Đạo",
@@ -260,7 +276,7 @@
    "nguon": [
     "https://www.foody.vn/lam-dong/moc-coffee-tran-hung-dao"
    ],
-   "ly_do": "1 nguồn; bình luận Foody 2018–2019, hơn 3 tháng chưa có tương tác."
+   "ly_do": "1 nguồn; bình luận Foody 2018–2019, hơn 3 tháng chưa có tương tác. | Kiểm thêm 25/11/2026: Wanderlog trang \"Tỏi Đen Coffee Roastery\" (https://wanderlog.com/place/details/1497762) nay ghi 15A Trần Hưng Đạo, 7:00–21:00 → số 15A có thể nay là Tỏi Đen, Mộc Coffee nghi đã đổi/đóng. Chỉ 1 nguồn (Wanderlog, dữ liệu Google) nên chưa ghi đóng hẳn."
   },
   {
    "ten": "Nhà hàng Ming - Trần Hưng Đạo",

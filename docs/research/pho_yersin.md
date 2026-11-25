@@ -62,3 +62,12 @@ Số 8 và 9 ở đoạn trên (Phường 9 cũ → Lâm Viên - Đà Lạt); c�
 - **Hoa Hồng, Khách sạn Công Đoàn**: không có nguồn 2025–2026 → `con_mo` để "chưa rõ".
 - **Giờ mở** các quán ăn lệch nhau giữa các trang (ghi rõ trong `con_mo`).
 - **Mốc năm** (file chuyện): Grand Lycée xong 1935 (localvietnam) hay 1941 (Nhân Dân dẫn Địa chí); ga xong 1936 (VnExpress) hay 1938 (Wikipedia); tháp chuông "54 m" (Wikipedia, Báo Lâm Đồng) em thấy bất thường nên chưa đưa vào. Tên cũ Albert Sarraut và năm đổi tên 1993 chỉ có ở [bảng của blog](https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/) (ghi `mot_nguon: true`); tên Thống Nhất có thêm bảng giá đất.
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 0. Đã đóng hẳn: 0.**
+
+- Bách Du Tea House: [Wanderlog](https://wanderlog.com/place/details/4361470) vẫn "Temporarily Closed" (xem 25/11/2026); Foody bình luận mới nhất 18/09/2020 → tạm đóng, chưa có nguồn nói đóng hẳn.
+- The Lost Cafe, Bánh Mì Xíu Mại 40 Yersin: không ra trang mới.

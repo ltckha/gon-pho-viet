@@ -255,7 +255,7 @@
     "https://www.openstreetmap.org/node/4568750678",
     "https://www.hostelworld.com/st/hostels/p/302311/dalat-family-hostel/"
    ],
-   "ly_do": "Hostelworld không hiện địa chỉ khi tải bằng máy → chưa đối chiếu được số nhà; trang riêng dalatfamilyhostel.com không vào được"
+   "ly_do": "Hostelworld không hiện địa chỉ khi tải bằng máy → chưa đối chiếu được số nhà; trang riêng dalatfamilyhostel.com không vào được | Kiểm thêm 25/11/2026: Kayak (https://www.kayak.com/Dalat-Hotels-Dalat-Family-Hostel.719800.ksp, 552 đánh giá) ghi \"3/4 Ngo Quyen Street, Ward 6\" — không phải Triệu Việt Vương. Điểm OSM 19A Triệu Việt Vương có thể là chỗ cũ. Đề nghị loại khỏi phố này."
   },
   {
    "ten": "Hugo's Family (Hugo family hostel)",
@@ -266,7 +266,7 @@
     "https://sp.booking.com/hotel/vn/hugo-hostel.html",
     "https://www.openstreetmap.org/node/11491411562"
    ],
-   "ly_do": "địa chỉ chỉ thấy trong đoạn trích kết quả tìm kiếm Booking (trang không tải được); OpenStreetMap không ghi số nhà"
+   "ly_do": "địa chỉ chỉ thấy trong đoạn trích kết quả tìm kiếm Booking (trang không tải được); OpenStreetMap không ghi số nhà | Kiểm thêm 25/11/2026: kết quả tìm kiếm có trang Trip.com (https://uk.trip.com/hotels/dalat-hotel-detail-114843706/hugo-family-hostel) nhưng em chưa đọc được số nhà; đánh giá trên Wanderlog nói khó tìm theo địa chỉ. Chưa đủ."
   }
  ],
  "nguon_chung": [

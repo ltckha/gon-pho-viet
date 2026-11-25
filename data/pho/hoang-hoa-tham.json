@@ -169,18 +169,26 @@
    "con_mo": "có dấu hiệu yếu: VinWonders (22/07/2025) còn giới thiệu nhưng chưa ghi phường mới; Foody hiện 'Đang mở cửa' (xem 25/11/2026)",
    "ghi_chu": "'3 tầng', 'nhìn đồi chè, vườn cà phê', 'nuôi nhiều chó' theo mia.vn (bài 2021, cập nhật 2023).",
    "vi_tri": null
-  }
- ],
- "can_kiem_them": [
+  },
   {
-   "ten": "Chồn Coffee",
+   "ten": "Chồn Coffee (Trại Hầm – trang trại cà phê chồn)",
+   "loai": "quán cà phê, trang trại cà phê chồn",
+   "dac_trung": "Trang trại nuôi chồn làm cà phê chồn mở cho khách tham quan, uống cà phê giữa vườn cà phê Moka; cách trung tâm khoảng 2 km (VinWonders). Tiền Phong gọi là điểm cà phê chồn đầu tiên ở Lâm Đồng đưa vào khai thác du lịch.",
+   "dia_chi": "135E Hoàng Hoa Thám, phường Xuân Hương - Đà Lạt (Phường 10 cũ)",
    "duong": "Hoàng Hoa Thám",
    "so_nha": "135E",
    "nguon": [
-    "https://www.foody.vn/lam-dong/chon-coffee"
+    "https://www.foody.vn/lam-dong/chon-coffee",
+    "https://vinwonders.com/en/wonderpedia/news/dalat-coffee-where-to-go/",
+    "https://tienphong.vn/xa-hoi/659282/Ca-phe-chon---Huyen-thoai-va-hien-thuc-tpp.html"
    ],
-   "ly_do": "chỉ 1 nguồn mở được (Foody, ghi 'Hơn 3 tháng chưa có tương tác mới'). Kết quả tìm kiếm có bài Vinpearl ghi 'Weasel Coffee Farm' cùng số 135E nhưng trang Vinpearl chặn tải (403), em chưa đọc được."
-  },
+   "do_tin_cay": "trung bình",
+   "con_mo": "không rõ: nguồn mới nhất VinWonders 13/06/2024 (7:30–17:00); Foody ghi 'hơn 3 tháng chưa có tương tác mới', bình luận 2013–2017; bài Tiền Phong cũ. Chưa có nguồn 2025–2026.",
+   "ghi_chu": "Bài Vinpearl ('Weasel Coffee Farm', cùng tập đoàn với VinWonders) cũng ghi 135E nhưng không tính thêm. Dòng Tiền Phong em lấy từ đoạn trích kết quả tìm kiếm, tải trang bằng máy không thấy chữ '135E'.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
   {
    "ten": "WEECAFE (The Wee Cafe)",
    "duong": "Hoàng Hoa Thám",
@@ -207,7 +215,7 @@
    "nguon": [
     "https://mia.vn/cam-nang-du-lich/homestay-da-lat-view-cuc-chill-14668"
    ],
-   "ly_do": "chỉ 1 nguồn (mia.vn)."
+   "ly_do": "chỉ 1 nguồn (mia.vn). | Kiểm thêm 25/11/2026: tìm thêm chỉ ra lại bài mia.vn → vẫn 1 nguồn."
   },
   {
    "ten": "Đà Lạt Nhớ Homestay",
@@ -216,7 +224,7 @@
    "nguon": [
     "https://mia.vn/cam-nang-du-lich/homestay-da-lat-view-cuc-chill-14668"
    ],
-   "ly_do": "chỉ 1 nguồn (mia.vn)."
+   "ly_do": "chỉ 1 nguồn (mia.vn). | Kiểm thêm 25/11/2026: tìm thêm chỉ ra lại bài mia.vn → vẫn 1 nguồn."
   },
   {
    "ten": "Dreams on Dalat homestay",
@@ -234,7 +242,7 @@
    "nguon": [
     "https://wanderlog.com/list/geoCategory/1807019"
    ],
-   "ly_do": "chỉ 1 nguồn (Wanderlog, dữ liệu Google)."
+   "ly_do": "chỉ 1 nguồn (Wanderlog, dữ liệu Google). | Kiểm thêm 25/11/2026: tìm \"Cô Thương\" bánh căn Hoàng Hoa Thám không ra trang nào khác."
   },
   {
    "ten": "Bánh mỳ que Đà Nẵng",

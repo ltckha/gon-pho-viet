@@ -65,3 +65,13 @@ Còn nhiều tên khác trên Foody (Tuấn Coffee 12A, Cơm Gà Xối Mỡ Như
 2. Up Coffee, Tiệm Táo Đỏ: không có dấu hiệu còn mở sau 7/2025.
 3. Bánh Ngọt Hoàng Phát: hai nguồn đều là danh bạ (Foody không bình luận, OSM do người dùng thêm) — đủ luật 2 nguồn nhưng mỏng.
 4. Đường dài khoảng 2,1 km theo OpenStreetMap (em đo từ `duong.json`), kéo về phía nam (homestay, hostel), em chưa tìm kỹ đoạn đó.
+
+## Kiểm thêm 25/11/2026
+
+Tìm thêm nguồn cho các nơi trong "Cần kiểm thêm" (WebSearch + đọc trang bằng curl; không dùng Google Maps). Cách tính: ≥ 2 trang khác nhau; VinWonders/Vinpearl tính 1; bài chép lại tính 1.
+
+**Chuyển sang danh sách chính: 0. Đã đóng hẳn: 0.**
+
+- **Dalat Family Hostel**: [Kayak](https://www.kayak.com/Dalat-Hotels-Dalat-Family-Hostel.719800.ksp) (552 đánh giá) ghi 3/4 Ngô Quyền, Phường 6 — không ở Triệu Việt Vương. Đề nghị loại khỏi phố này (điểm OSM 19A có thể là chỗ cũ).
+- Hugo's Family: có trang Trip.com nhưng chưa đọc được số nhà → chưa đủ.
+- Các nơi chỉ có Foody/OSM khác chưa kịp tìm lần này.

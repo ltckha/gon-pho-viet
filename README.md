@@ -5,6 +5,7 @@ Bản đồ phố Việt Nam: ghi đúng tên đường thật, chia theo địa
 
 ## Đang có
 - Chặng 1: bản đồ Việt Nam 34 tỉnh/thành, có Hoàng Sa và Trường Sa. Bấm tỉnh ra thẻ thông tin (gộp từ tỉnh nào, diện tích, số xã/phường).
+- Chặng 2: bản đồ 124 xã/phường/đặc khu của Lâm Đồng (`#lam-dong`), mỗi nơi ghi gộp từ xã/phường cũ nào theo NQ 1671.
 
 ## Cấu trúc
 - `index.html`, `style.css`, `app.js` — trang web tĩnh, không cần cài gì, không dùng thư viện ngoài.

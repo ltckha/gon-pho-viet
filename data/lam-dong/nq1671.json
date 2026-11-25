@@ -1,0 +1,626 @@
+{
+ "nguon": "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
+ "van_ban": "Nghị quyết 1671/NQ-UBTVQH15 ngày 16/6/2025",
+ "ds": [
+  {
+   "muc": 1,
+   "ten_moi": "xã Lạc Dương",
+   "gop_tu": "các xã Đạ Sar, Đạ Nhim và Đạ Chais"
+  },
+  {
+   "muc": 2,
+   "ten_moi": "xã Đơn Dương",
+   "gop_tu": "thị trấn Thạnh Mỹ, xã Đạ Ròn và xã Tu Tra"
+  },
+  {
+   "muc": 3,
+   "ten_moi": "xã Ka Đô",
+   "gop_tu": "xã Lạc Lâm và xã Ka Đô"
+  },
+  {
+   "muc": 4,
+   "ten_moi": "xã Quảng Lập",
+   "gop_tu": "xã Ka Đơn và xã Quảng Lập"
+  },
+  {
+   "muc": 5,
+   "ten_moi": "xã D’Ran",
+   "gop_tu": "thị trấn D’Ran và xã Lạc Xuân"
+  },
+  {
+   "muc": 6,
+   "ten_moi": "xã Hiệp Thạnh",
+   "gop_tu": "các xã Hiệp An, Liên Hiệp và Hiệp Thạnh"
+  },
+  {
+   "muc": 7,
+   "ten_moi": "xã Đức Trọng",
+   "gop_tu": "thị trấn Liên Nghĩa và xã Phú Hội"
+  },
+  {
+   "muc": 8,
+   "ten_moi": "xã Tân Hội",
+   "gop_tu": "các xã Tân Thành (huyện Đức Trọng), N’ Thôn Hạ và Tân Hội"
+  },
+  {
+   "muc": 9,
+   "ten_moi": "xã Tà Hine",
+   "gop_tu": "các xã Ninh Loan, Đà Loan và Tà Hine"
+  },
+  {
+   "muc": 10,
+   "ten_moi": "xã Tà Năng",
+   "gop_tu": "xã Đa Quyn và xã Tà Năng"
+  },
+  {
+   "muc": 11,
+   "ten_moi": "xã Đinh Văn Lâm Hà",
+   "gop_tu": "xã Bình Thạnh (huyện Đức Trọng), xã Tân Văn và thị trấn Đinh Văn"
+  },
+  {
+   "muc": 12,
+   "ten_moi": "xã Phú Sơn Lâm Hà",
+   "gop_tu": "xã Phú Sơn và xã Đạ Đờn"
+  },
+  {
+   "muc": 13,
+   "ten_moi": "xã Nam Hà Lâm Hà",
+   "gop_tu": "xã Nam Hà và xã Phi Tô"
+  },
+  {
+   "muc": 14,
+   "ten_moi": "xã Nam Ban Lâm Hà",
+   "gop_tu": "thị trấn Nam Ban và các xã Đông Thanh, Mê Linh, Gia Lâm"
+  },
+  {
+   "muc": 15,
+   "ten_moi": "xã Tân Hà Lâm Hà",
+   "gop_tu": "các xã Tân Hà (huyện Lâm Hà), Hoài Đức, Đan Phượng và Liên Hà"
+  },
+  {
+   "muc": 16,
+   "ten_moi": "xã Phúc Thọ Lâm Hà",
+   "gop_tu": "xã Phúc Thọ và xã Tân Thanh"
+  },
+  {
+   "muc": 17,
+   "ten_moi": "xã Đam Rông 1",
+   "gop_tu": "xã Phi Liêng và xã Đạ K’Nàng"
+  },
+  {
+   "muc": 18,
+   "ten_moi": "xã Đam Rông 2",
+   "gop_tu": "xã Rô Men và xã Liêng Srônh"
+  },
+  {
+   "muc": 19,
+   "ten_moi": "xã Đam Rông 3",
+   "gop_tu": "xã Đạ Rsal và xã Đạ M’Rông"
+  },
+  {
+   "muc": 20,
+   "ten_moi": "xã Đam Rông 4",
+   "gop_tu": "các xã Đạ Tông, Đạ Long và Đưng K’Nớ"
+  },
+  {
+   "muc": 21,
+   "ten_moi": "xã Di Linh",
+   "gop_tu": "thị trấn Di Linh và các xã Liên Đầm, Tân Châu, Gung Ré"
+  },
+  {
+   "muc": 22,
+   "ten_moi": "xã Hòa Ninh",
+   "gop_tu": "các xã Đinh Trang Hòa, Hòa Trung và Hòa Ninh"
+  },
+  {
+   "muc": 23,
+   "ten_moi": "xã Hòa Bắc",
+   "gop_tu": "xã Hòa Nam và xã Hòa Bắc"
+  },
+  {
+   "muc": 24,
+   "ten_moi": "xã Đinh Trang Thượng",
+   "gop_tu": "các xã Tân Lâm, Tân Thượng và Đinh Trang Thượng"
+  },
+  {
+   "muc": 25,
+   "ten_moi": "xã Bảo Thuận",
+   "gop_tu": "các xã Đinh Lạc, Tân Nghĩa và Bảo Thuận"
+  },
+  {
+   "muc": 26,
+   "ten_moi": "xã Sơn Điền",
+   "gop_tu": "xã Gia Bắc và xã Sơn Điền"
+  },
+  {
+   "muc": 27,
+   "ten_moi": "xã Gia Hiệp",
+   "gop_tu": "xã Tam Bố và xã Gia Hiệp"
+  },
+  {
+   "muc": 28,
+   "ten_moi": "xã Bảo Lâm 1",
+   "gop_tu": "thị trấn Lộc Thắng, xã Lộc Quảng và xã Lộc Ngãi"
+  },
+  {
+   "muc": 29,
+   "ten_moi": "xã Bảo Lâm 2",
+   "gop_tu": "các xã Lộc An, Lộc Đức và Tân Lạc"
+  },
+  {
+   "muc": 30,
+   "ten_moi": "xã Bảo Lâm 3",
+   "gop_tu": "xã Lộc Thành và xã Lộc Nam"
+  },
+  {
+   "muc": 31,
+   "ten_moi": "xã Bảo Lâm 4",
+   "gop_tu": "các xã Lộc Phú, Lộc Lâm và B’Lá"
+  },
+  {
+   "muc": 32,
+   "ten_moi": "xã Bảo Lâm 5",
+   "gop_tu": "xã Lộc Bảo và xã Lộc Bắc"
+  },
+  {
+   "muc": 33,
+   "ten_moi": "xã Đạ Huoai",
+   "gop_tu": "thị trấn Mađaguôi, xã Mađaguôi và xã Đạ Oai"
+  },
+  {
+   "muc": 34,
+   "ten_moi": "xã Đạ Huoai 2",
+   "gop_tu": "thị trấn Đạ M’ri và xã Hà Lâm"
+  },
+  {
+   "muc": 35,
+   "ten_moi": "xã Đạ Tẻh",
+   "gop_tu": "thị trấn Đạ Tẻh và xã An Nhơn, xã Đạ Lây"
+  },
+  {
+   "muc": 36,
+   "ten_moi": "xã Đạ Tẻh 2",
+   "gop_tu": "các xã Quảng Trị, Đạ Pal và Đạ Kho"
+  },
+  {
+   "muc": 37,
+   "ten_moi": "xã Đạ Tẻh 3",
+   "gop_tu": "xã Mỹ Đức và xã Quốc Oai"
+  },
+  {
+   "muc": 38,
+   "ten_moi": "xã Cát Tiên",
+   "gop_tu": "thị trấn Cát Tiên, xã Nam Ninh và xã Quảng Ngãi"
+  },
+  {
+   "muc": 39,
+   "ten_moi": "xã Cát Tiên 2",
+   "gop_tu": "thị trấn Phước Cát,  xã Phước Cát 2 và xã Đức Phổ"
+  },
+  {
+   "muc": 40,
+   "ten_moi": "xã Cát Tiên 3",
+   "gop_tu": "các xã Gia Viễn, Tiên Hoàng và Đồng Nai Thượng"
+  },
+  {
+   "muc": 41,
+   "ten_moi": "xã Vĩnh Hảo",
+   "gop_tu": "xã Vĩnh Tân và xã Vĩnh Hảo"
+  },
+  {
+   "muc": 42,
+   "ten_moi": "xã Liên Hương",
+   "gop_tu": "thị trấn Liên Hương và các xã Bình Thạnh (huyện Tuy Phong), Phước Thể, Phú Lạc"
+  },
+  {
+   "muc": 43,
+   "ten_moi": "xã Tuy Phong",
+   "gop_tu": "xã Phan Dũng và một phần diện tích tự nhiên, quy mô dân số của xã Phong Phú"
+  },
+  {
+   "muc": 44,
+   "ten_moi": "xã Phan Rí Cửa",
+   "gop_tu": "thị trấn Phan Rí Cửa, xã Chí Công, xã Hòa Minh và phần còn lại của xã Phong Phú sau khi sắp xếp theo quy định tại khoản 43 Điều này"
+  },
+  {
+   "muc": 45,
+   "ten_moi": "xã Bắc Bình",
+   "gop_tu": "thị trấn Chợ Lầu và các xã Phan Hòa, Phan Hiệp, Phan Rí Thành"
+  },
+  {
+   "muc": 46,
+   "ten_moi": "xã Hồng Thái",
+   "gop_tu": "xã Phan Thanh,  xã Hồng Thái và một phần diện tích tự nhiên của xã Hòa Thắng"
+  },
+  {
+   "muc": 47,
+   "ten_moi": "xã Hải Ninh",
+   "gop_tu": "các xã Bình An, Phan Điền và Hải Ninh"
+  },
+  {
+   "muc": 48,
+   "ten_moi": "xã Phan Sơn",
+   "gop_tu": "xã Phan Lâm và xã Phan Sơn"
+  },
+  {
+   "muc": 49,
+   "ten_moi": "xã Sông Lũy",
+   "gop_tu": "các xã Phan Tiến, Bình Tân và Sông Lũy"
+  },
+  {
+   "muc": 50,
+   "ten_moi": "xã Lương Sơn",
+   "gop_tu": "thị trấn Lương Sơn và xã Sông Bình"
+  },
+  {
+   "muc": 51,
+   "ten_moi": "xã Hòa Thắng",
+   "gop_tu": "xã Hồng Phong và phần còn lại của xã Hòa Thắng sau khi sắp xếp theo quy định tại khoản 46 Điều này"
+  },
+  {
+   "muc": 52,
+   "ten_moi": "xã Đông Giang",
+   "gop_tu": "xã Đông Tiến và xã Đông Giang"
+  },
+  {
+   "muc": 53,
+   "ten_moi": "xã La Dạ",
+   "gop_tu": "xã Đa Mi và xã La Dạ"
+  },
+  {
+   "muc": 54,
+   "ten_moi": "xã Hàm Thuận Bắc",
+   "gop_tu": "các xã Thuận Hòa, Hàm Trí và Hàm Phú"
+  },
+  {
+   "muc": 55,
+   "ten_moi": "xã Hàm Thuận",
+   "gop_tu": "thị trấn Ma Lâm, xã Thuận Minh và xã Hàm Đức"
+  },
+  {
+   "muc": 56,
+   "ten_moi": "xã Hồng Sơn",
+   "gop_tu": "xã Hồng Liêm và xã Hồng Sơn"
+  },
+  {
+   "muc": 57,
+   "ten_moi": "xã Hàm Liêm",
+   "gop_tu": "xã Hàm Chính và xã Hàm Liêm"
+  },
+  {
+   "muc": 58,
+   "ten_moi": "xã Tuyên Quang",
+   "gop_tu": "xã Tiến Lợi và xã Hàm Mỹ"
+  },
+  {
+   "muc": 59,
+   "ten_moi": "xã Hàm Thạnh",
+   "gop_tu": "các xã Mỹ Thạnh, Hàm Cần và Hàm Thạnh"
+  },
+  {
+   "muc": 60,
+   "ten_moi": "xã Hàm Kiệm",
+   "gop_tu": "các xã Mương Mán, Hàm Cường và Hàm Kiệm"
+  },
+  {
+   "muc": 61,
+   "ten_moi": "xã Tân Thành",
+   "gop_tu": "các xã Tân Thành (huyện Hàm Thuận Nam), Thuận Quý và Tân Thuận"
+  },
+  {
+   "muc": 62,
+   "ten_moi": "xã Hàm Thuận Nam",
+   "gop_tu": "thị trấn Thuận Nam và xã Hàm Minh"
+  },
+  {
+   "muc": 63,
+   "ten_moi": "xã Tân Lập",
+   "gop_tu": "xã Sông Phan và xã Tân Lập"
+  },
+  {
+   "muc": 64,
+   "ten_moi": "xã Tân Minh",
+   "gop_tu": "thị trấn Tân Minh, xã Tân Đức và xã Tân Phúc"
+  },
+  {
+   "muc": 65,
+   "ten_moi": "xã Hàm Tân",
+   "gop_tu": "xã Tân Hà (huyện Hàm Tân), xã Tân Xuân và thị trấn Tân Nghĩa"
+  },
+  {
+   "muc": 66,
+   "ten_moi": "xã Sơn Mỹ",
+   "gop_tu": "các xã Tân Thắng, Thắng Hải và Sơn Mỹ"
+  },
+  {
+   "muc": 67,
+   "ten_moi": "xã Tân Hải",
+   "gop_tu": "xã Tân Tiến và xã Tân Hải"
+  },
+  {
+   "muc": 68,
+   "ten_moi": "xã Nghị Đức",
+   "gop_tu": "xã Đức Phú và xã Nghị Đức"
+  },
+  {
+   "muc": 69,
+   "ten_moi": "xã Bắc Ruộng",
+   "gop_tu": "xã Măng Tố và xã Bắc Ruộng"
+  },
+  {
+   "muc": 70,
+   "ten_moi": "xã Đồng Kho",
+   "gop_tu": "các xã Huy Khiêm, La Ngâu, Đức Bình và Đồng Kho"
+  },
+  {
+   "muc": 71,
+   "ten_moi": "xã Tánh Linh",
+   "gop_tu": "thị trấn Lạc Tánh, xã Gia An và xã Đức Thuận"
+  },
+  {
+   "muc": 72,
+   "ten_moi": "xã Suối Kiết",
+   "gop_tu": "xã Gia Huynh và xã Suối Kiết"
+  },
+  {
+   "muc": 73,
+   "ten_moi": "xã Nam Thành",
+   "gop_tu": "các xã Mê Pu, Sùng Nhơn và Đa Kai"
+  },
+  {
+   "muc": 74,
+   "ten_moi": "xã Đức Linh",
+   "gop_tu": "thị trấn Võ Xu, xã Nam Chính và xã Vũ Hòa"
+  },
+  {
+   "muc": 75,
+   "ten_moi": "xã Hoài Đức",
+   "gop_tu": "thị trấn Đức Tài, xã Đức Tín và xã Đức Hạnh"
+  },
+  {
+   "muc": 76,
+   "ten_moi": "xã Trà Tân",
+   "gop_tu": "các xã Tân Hà (huyện Đức Linh), Đông Hà và Trà Tân"
+  },
+  {
+   "muc": 77,
+   "ten_moi": "xã Đắk Wil",
+   "gop_tu": "xã Ea Pô và xã Đắk Wil"
+  },
+  {
+   "muc": 78,
+   "ten_moi": "xã Nam Dong",
+   "gop_tu": "xã Đắk D’rông và xã Nam Dong"
+  },
+  {
+   "muc": 79,
+   "ten_moi": "xã Cư Jút",
+   "gop_tu": "thị trấn Ea T’ling và các xã Trúc Sơn, Tâm Thắng, Cư K’nia"
+  },
+  {
+   "muc": 80,
+   "ten_moi": "xã Thuận An",
+   "gop_tu": "xã Đắk Lao và xã Thuận An"
+  },
+  {
+   "muc": 81,
+   "ten_moi": "xã Đức Lập",
+   "gop_tu": "thị trấn Đắk Mil, xã Đức Mạnh và xã Đức Minh"
+  },
+  {
+   "muc": 82,
+   "ten_moi": "xã Đắk Mil",
+   "gop_tu": "các xã Đắk Gằn, Đắk N’Drót và Đắk R’La"
+  },
+  {
+   "muc": 83,
+   "ten_moi": "xã Đắk Sắk",
+   "gop_tu": "các xã Nam Xuân, Long Sơn và Đắk Sắk"
+  },
+  {
+   "muc": 84,
+   "ten_moi": "xã Nam Đà",
+   "gop_tu": "các xã Buôn Choáh, Đắk Sôr và Nam Đà"
+  },
+  {
+   "muc": 85,
+   "ten_moi": "xã Krông Nô",
+   "gop_tu": "xã Tân Thành (huyện Krông Nô), xã Đắk Drô và thị trấn Đắk Mâm"
+  },
+  {
+   "muc": 86,
+   "ten_moi": "xã Nâm Nung",
+   "gop_tu": "xã Nâm N’Đir và xã Nâm Nung"
+  },
+  {
+   "muc": 87,
+   "ten_moi": "xã Quảng Phú",
+   "gop_tu": "các xã Đức Xuyên, Đắk Nang và Quảng Phú"
+  },
+  {
+   "muc": 88,
+   "ten_moi": "xã Đắk Song",
+   "gop_tu": "xã Đắk Môl và xã Đắk Hòa"
+  },
+  {
+   "muc": 89,
+   "ten_moi": "xã Đức An",
+   "gop_tu": "thị trấn Đức An, xã Đắk N’Drung và xã Nam Bình"
+  },
+  {
+   "muc": 90,
+   "ten_moi": "xã Thuận Hạnh",
+   "gop_tu": "xã Thuận Hà và xã Thuận Hạnh"
+  },
+  {
+   "muc": 91,
+   "ten_moi": "xã Trường Xuân",
+   "gop_tu": "xã Nâm N’Jang và xã Trường Xuân"
+  },
+  {
+   "muc": 92,
+   "ten_moi": "xã Tà Đùng",
+   "gop_tu": "xã Đắk Som và xã Đắk R’Măng"
+  },
+  {
+   "muc": 93,
+   "ten_moi": "xã Quảng Khê",
+   "gop_tu": "xã Đắk Plao và xã Quảng Khê"
+  },
+  {
+   "muc": 94,
+   "ten_moi": "xã Quảng Tân",
+   "gop_tu": "xã Đắk Ngo và xã Quảng Tân"
+  },
+  {
+   "muc": 95,
+   "ten_moi": "xã Tuy Đức",
+   "gop_tu": "các xã Quảng Tâm, Đắk R’Tíh và Đắk Búk So"
+  },
+  {
+   "muc": 96,
+   "ten_moi": "xã Kiến Đức",
+   "gop_tu": "thị trấn Kiến Đức và các xã Đạo Nghĩa, Nghĩa Thắng, Kiến Thành"
+  },
+  {
+   "muc": 97,
+   "ten_moi": "xã Nhân Cơ",
+   "gop_tu": "các xã Nhân Đạo, Đắk Wer và Nhân Cơ"
+  },
+  {
+   "muc": 98,
+   "ten_moi": "xã Quảng Tín",
+   "gop_tu": "các xã Đắk Sin, Hưng Bình, Đắk Ru và Quảng Tín"
+  },
+  {
+   "muc": 99,
+   "ten_moi": "phường Xuân Hương - Đà Lạt",
+   "gop_tu": "Phường 1 và Phường 2 (thành phố Đà Lạt), Phường 3, Phường 4, Phường 10"
+  },
+  {
+   "muc": 100,
+   "ten_moi": "phường Cam Ly - Đà Lạt",
+   "gop_tu": "Phường 5, Phường 6 và xã Tà Nung"
+  },
+  {
+   "muc": 101,
+   "ten_moi": "phường Lâm Viên - Đà Lạt",
+   "gop_tu": "Phường 8, Phường 9 và Phường 12"
+  },
+  {
+   "muc": 102,
+   "ten_moi": "phường Xuân Trường - Đà Lạt",
+   "gop_tu": "Phường 11 và các xã Xuân Thọ, Xuân Trường, Trạm Hành"
+  },
+  {
+   "muc": 103,
+   "ten_moi": "phường Lang Biang - Đà Lạt",
+   "gop_tu": "Phường 7, thị trấn Lạc Dương và xã Lát"
+  },
+  {
+   "muc": 104,
+   "ten_moi": "Phường 1 Bảo Lộc",
+   "gop_tu": "Phường 1 (thành phố Bảo Lộc), phường Lộc Phát và xã Lộc Thanh"
+  },
+  {
+   "muc": 105,
+   "ten_moi": "Phường 2 Bảo Lộc",
+   "gop_tu": "Phường 2 (thành phố Bảo Lộc), xã Lộc Tân và xã ĐamBri"
+  },
+  {
+   "muc": 106,
+   "ten_moi": "Phường 3 Bảo Lộc",
+   "gop_tu": "phường Lộc Tiến, xã Lộc Châu và xã Đại Lào"
+  },
+  {
+   "muc": 107,
+   "ten_moi": "phường B’Lao",
+   "gop_tu": "phường Lộc Sơn, phường B’Lao và xã Lộc Nga"
+  },
+  {
+   "muc": 108,
+   "ten_moi": "phường Hàm Thắng",
+   "gop_tu": "phường Xuân An, thị trấn Phú Long và xã Hàm Thắng"
+  },
+  {
+   "muc": 109,
+   "ten_moi": "phường Bình Thuận",
+   "gop_tu": "phường Phú Tài, xã Phong Nẫm và xã Hàm Hiệp"
+  },
+  {
+   "muc": 110,
+   "ten_moi": "phường Mũi Né",
+   "gop_tu": "phường Hàm Tiến, phường Mũi Né và xã Thiện Nghiệp"
+  },
+  {
+   "muc": 111,
+   "ten_moi": "phường Phú Thủy",
+   "gop_tu": "các phường Thanh Hải, Phú Hài và Phú Thủy"
+  },
+  {
+   "muc": 112,
+   "ten_moi": "phường Phan Thiết",
+   "gop_tu": "các phường Phú Trinh, Lạc Đạo và Bình Hưng"
+  },
+  {
+   "muc": 113,
+   "ten_moi": "phường Tiến Thành",
+   "gop_tu": "phường Đức Long và xã Tiến Thành"
+  },
+  {
+   "muc": 114,
+   "ten_moi": "phường La Gi",
+   "gop_tu": "các phường Tân An, Bình Tân, Tân Thiện và xã Tân Bình"
+  },
+  {
+   "muc": 115,
+   "ten_moi": "phường Phước Hội",
+   "gop_tu": "phường Phước Lộc, phường Phước Hội và xã Tân Phước"
+  },
+  {
+   "muc": 116,
+   "ten_moi": "phường Bắc Gia Nghĩa",
+   "gop_tu": "các phường Quảng Thành, Nghĩa Thành, Nghĩa Đức và xã Đắk Ha"
+  },
+  {
+   "muc": 117,
+   "ten_moi": "phường Nam Gia Nghĩa",
+   "gop_tu": "phường Nghĩa Phú, phường Nghĩa Tân và xã Đắk R’Moan"
+  },
+  {
+   "muc": 118,
+   "ten_moi": "phường Đông Gia Nghĩa",
+   "gop_tu": "phường Nghĩa Trung và xã Đắk Nia"
+  },
+  {
+   "muc": 119,
+   "ten_moi": "đặc khu Phú Quý",
+   "gop_tu": "các xã Long Hải, Ngũ Phụng và Tam Thanh"
+  },
+  {
+   "muc": 120,
+   "ten_moi": "xã Đạ Huoai 3",
+   "gop_tu": "đổi tên từ xã Bà Gia"
+  },
+  {
+   "muc": 121,
+   "ten_moi": "xã Quảng Hòa",
+   "gop_tu": "giữ nguyên, không sắp xếp"
+  },
+  {
+   "muc": 121,
+   "ten_moi": "xã Quảng Sơn",
+   "gop_tu": "giữ nguyên, không sắp xếp"
+  },
+  {
+   "muc": 121,
+   "ten_moi": "xã Quảng Trực",
+   "gop_tu": "giữ nguyên, không sắp xếp"
+  },
+  {
+   "muc": 121,
+   "ten_moi": "xã Ninh Gia",
+   "gop_tu": "giữ nguyên, không sắp xếp"
+  }
+ ]
+}

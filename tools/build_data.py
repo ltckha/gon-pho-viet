@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Tạo data/viet-nam.json (tầng Việt Nam: 34 tỉnh/thành) từ bộ ranh giới vietnamese-provinces-database.
+"""Tạo dữ liệu bản đồ từ bộ ranh giới vietnamese-provinces-database:
+  data/viet-nam.json        tầng Việt Nam (34 tỉnh/thành)
+  data/lam-dong/phuong.json tầng Lâm Đồng (124 xã/phường/đặc khu), ghép với data/lam-dong/nq1671.json
 
 Cách chạy:
   python3 tools/build_data.py <đường dẫn tới thư mục json/geojson của vietnamese-provinces-database>
@@ -12,6 +14,7 @@ import math
 import os
 import sys
 import glob
+import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -93,13 +96,14 @@ def ring_area(r):
     return s / 2
 
 
-def simplify_ring(r, tol):
+def simplify_ring(r, tol, nd=None):
+    nd = ROUND if nd is None else nd
     out = dp(r, tol)
     if len(out) < 4:  # đảo nhỏ: giữ nguyên hình gốc để không mất đảo
         out = r if len(r) <= 40 else dp(r, tol / 10)
     pts = []
     for x, y in out:
-        p = [round(x, ROUND), round(y, ROUND)]
+        p = [round(x, nd), round(y, nd)]
         if not pts or p != pts[-1]:
             pts.append(p)
     return pts if len(pts) >= 3 else None
@@ -123,7 +127,7 @@ def seg_dist(px, py, ax, ay, bx, by):
     return math.hypot(px - ax - t * dx, py - ay - t * dy)
 
 
-def label_point(ring):
+def label_point(ring, nd=3):
     """Điểm đặt tên: chỗ nằm sâu nhất trong vùng lớn nhất (dò lưới)."""
     xs = [p[0] for p in ring]
     ys = [p[1] for p in ring]
@@ -138,7 +142,7 @@ def label_point(ring):
             d = min(seg_dist(x, y, *ring[k], *ring[(k + 1) % len(ring)]) for k in range(len(ring)))
             if d > best:
                 best, bp = d, (x, y)
-    return [round(bp[0], 3), round(bp[1], 3)]
+    return [round(bp[0], nd), round(bp[1], nd)]
 
 
 def main(src):
@@ -194,5 +198,68 @@ def main(src):
           sum(len(r) for t in tinh for pl in t['hinh'] for r in pl), 'điểm')
 
 
+# ---------- tầng Lâm Đồng ----------
+DA_LAT = ['Xuân Hương - Đà Lạt', 'Cam Ly - Đà Lạt', 'Lâm Viên - Đà Lạt', 'Xuân Trường - Đà Lạt', 'Lang Biang - Đà Lạt']
+CO_PHO = {'Xuân Hương - Đà Lạt': 5, 'Cam Ly - Đà Lạt': 1}   # số phố đã nghiên cứu (game Gọn Phố)
+
+
+def norm(s):
+    import unicodedata
+    s = unicodedata.normalize('NFC', s).lower().replace('\u2019', "'").replace('\u2018', "'")
+    for a, b in [('oà', 'òa'), ('oá', 'óa'), ('oạ', 'ọa'), ('uỳ', 'ùy'), ('uý', 'úy'), ('uỷ', 'ủy'), ('uỹ', 'ũy'), ('uỵ', 'ụy')]:
+        s = s.replace(a, b)
+    return re.sub(r'\s+', ' ', s).strip()
+
+
+def build_lam_dong(src):
+    nq = json.load(open(os.path.join(ROOT, 'data', 'lam-dong', 'nq1671.json'), encoding='utf-8'))
+    by = {norm(o['ten_moi']): o for o in nq['ds']}
+    ds = []
+    for f in sorted(glob.glob(os.path.join(src, '68_lam_dong', 'wards', '*.geojson'))):
+        feat = json.load(open(f, encoding='utf-8'))['features'][0]
+        p = feat['properties']
+        o = by.pop(norm(p['fullName']))      # lỗi ngay nếu không khớp văn bản
+        polys = []
+        for poly in feat['geometry']['coordinates']:
+            outer = simplify_ring([tuple(c) for c in poly[0]], 0.0012, 4)
+            if outer:
+                polys.append([outer])
+        biggest = max(polys, key=lambda pl: abs(ring_area(pl[0])))[0]
+        item = {
+            'ma': p['code'],
+            'ten': p['name'],
+            'loai': p['fullName'][: len(p['fullName']) - len(p['name'])].strip(),
+            'gop_tu': o['gop_tu'],
+            'muc_nq': o['muc'],
+            'dien_tich_km2': p['areaKm2'],
+            'nhan': label_point(biggest, 4),
+            'hinh': polys,
+        }
+        if p['name'] in DA_LAT:
+            item['da_lat'] = True
+        if p['name'] in CO_PHO:
+            item['so_pho'] = CO_PHO[p['name']]
+        ds.append(item)
+    assert not by, by
+    assert len(ds) == 124, len(ds)
+    out = {
+        'tang': 'lam-dong',
+        'ten': 'Lâm Đồng',
+        'cap_nhat': '25/11/2026',
+        'nguon': [
+            {'ten': 'Ranh giới: vietnamese-provinces-database v5.2.0 (MIT), dựng từ sapnhap.bando.com.vn',
+             'link': 'https://github.com/ThangLeQuoc/vietnamese-provinces-database'},
+            {'ten': 'Gộp từ xã/phường nào: ' + nq['van_ban'] + ', Điều 1 (toàn văn trên Báo Lâm Đồng)',
+             'link': nq['nguon']},
+        ],
+        'phuong': ds,
+    }
+    path = os.path.join(ROOT, 'data', 'lam-dong', 'phuong.json')
+    with open(path, 'w', encoding='utf-8') as fh:
+        json.dump(out, fh, ensure_ascii=False, separators=(',', ':'))
+    print(path, os.path.getsize(path) // 1024, 'KB')
+
+
 if __name__ == '__main__':
     main(sys.argv[1])
+    build_lam_dong(sys.argv[1])

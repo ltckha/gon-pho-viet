@@ -33,12 +33,38 @@ MOC_TEN = {'moc_cho_da_lat': 'Chợ Đà Lạt', 'moc_nha_tho_con_ga': 'Nhà th�
 
 
 def main(game):
-    BD = os.path.join(game, 'art', 'ban_do')
-    SP = os.path.join(game, 'art', 'spark')
+    """Gom các phố thành từng khu (trung tâm, Trại Mát, Lang Biang…): phố cách nhau > 2,5 km thì khác khu.
+    Mỗi khu một tấm bản đồ riêng, cùng nét, cùng tỉ lệ 0,4 điểm/mét."""
     duong = json.load(open(os.path.join(ROOT, 'data', 'lam-dong', 'da-lat', 'duong.json'), encoding='utf-8'))
     pho = json.load(open(os.path.join(ROOT, 'data', 'lam-dong', 'da-lat', 'pho.json'), encoding='utf-8'))
-    names = {n for p in pho['pho'] for n in p['duong']}
-    pts = [q for d in duong['duong'] if d.get('ten') in names for q in d['pts']] + [(lo, la) for _, la, lo, _ in LANDMARKS]
+    cho = (108.43721, 11.94342)
+    khu = []
+    for p in sorted(pho['pho'], key=lambda p: math.hypot((p['lon'] - cho[0]) * 108900, (p['lat'] - cho[1]) * 110540)):
+        for k in khu:
+            if any(math.hypot((p['lon'] - q['lon']) * 108900, (p['lat'] - q['lat']) * 110540) < 2500 for q in k):
+                k.append(p)
+                break
+        else:
+            khu.append([p])
+    vung = []
+    for i, k in enumerate(khu):
+        key = 'ban_do_dalat' if i == 0 else 'ban_do_' + k[0]['slug']
+        vung.append(draw_area(game, duong, k, key, with_center=(i == 0)))
+    json.dump({'vung': vung, 'nguon': '© OpenStreetMap contributors · hình Spark của game Gọn Phố'},
+              open(os.path.join(ROOT, 'data', 'lam-dong', 'da-lat', 'ban_do.json'), 'w', encoding='utf-8'), ensure_ascii=False)
+
+
+def draw_area(game, duong, phos, key, with_center):
+    BD = os.path.join(game, 'art', 'ban_do')
+    SP = os.path.join(game, 'art', 'spark')
+    names = {n for p in phos for n in p['duong']}
+    pts = [q for d in duong['duong'] if d.get('ten') in names for q in d['pts']]
+    pts += [(p['lon'], p['lat']) for p in phos]
+    if with_center:
+        pts += [(lo, la) for _, la, lo, _ in LANDMARKS]
+    # đường dài (đèo, quốc lộ) chỉ lấy phần gần các nơi của phố, khỏi kéo khung quá rộng
+    anchor = [(p['lon'], p['lat']) for p in phos] + [(d['vi_tri']['lon'], d['vi_tri']['lat']) for p in phos for d in p['dia_diem'] if d.get('vi_tri')]
+    pts = [q for q in pts if min(math.hypot((q[0] - a[0]) * 108900, (q[1] - a[1]) * 110540) for a in anchor) < 2200]
     lon0 = min(p[0] for p in pts); lon1 = max(p[0] for p in pts)
     lat0 = min(p[1] for p in pts); lat1 = max(p[1] for p in pts)
     M = 111320.0
@@ -125,7 +151,8 @@ def main(game):
         return min((segd(p, a, b) for a, b in segs), default=999)
 
     in_lake = lambda p: wm.getpixel((int(min(max(p[0], 0), W - 1)), int(min(max(p[1], 0), H - 1)))) > 0
-    lm_pts = [P(lo, la) for _, la, lo, _ in LANDMARKS]
+    LMS = [l for l in LANDMARKS if 0 < P(l[2], l[1])[0] < W and 0 < P(l[2], l[1])[1] < H]
+    lm_pts = [P(lo, la) for _, la, lo, _ in LMS]
     houses = [h for h in (load(os.path.join(SP, 'deco_%s.png' % n), 46) for n in
                           ['nha_dalat_1', 'nha_dalat_2', 'nha_pho_1', 'nha_pho_2', 'nha_pho_3']) if h]
     tree = load(os.path.join(SP, 'deco_cay_thong.png'), 56)
@@ -143,7 +170,7 @@ def main(game):
             items.append((p, rnd.choice(houses))); placed.append(p); nh += 1
         elif dr > 45 and tree and nt < W * H / 5000:
             items.append((p, sakura if (sakura is not None and rnd.random() < 0.15) else tree)); placed.append(p); nt += 1
-    for name, la, lo, size in LANDMARKS:
+    for name, la, lo, size in LMS:
         img = load(os.path.join(BD, name + '.png'), size)
         if img is not None:
             items.append((P(lo, la), img))
@@ -156,13 +183,13 @@ def main(game):
     mid_font = ImageFont.truetype(FONT, 17)
     # Tên đường KHÔNG in vào ảnh: trang web tự ghi tên chạy uốn theo đường (anh Kha: chữ phải ôm theo con đường)
     d = ImageDraw.Draw(im)
-    for name, la, lo, size in LANDMARKS:
+    for name, la, lo, size in LMS:
         x, y = P(lo, la)
         t = MOC_TEN[name]
         tw = d.textlength(t, font=mid_font)
         d.text((x - tw / 2, y + size * 0.22), t, font=mid_font, fill=(90, 40, 20), stroke_width=4, stroke_fill=(255, 248, 228))
     for w in duong['nuoc']:
-        if w.get('ten') in ('Hồ Xuân Hương', 'Hồ Tuyền Lâm', 'Hồ Than Thở', 'Hồ Chiến Thắng'):
+        if w.get('ten', '').startswith('Hồ ') and len(w['pts']) > 20:
             q = [P(*p) for p in w['pts']]
             lx = sum(p[0] for p in q) / len(q); ly = sum(p[1] for p in q) / len(q)
             if 0 < lx < W and 0 < ly < H:
@@ -174,13 +201,13 @@ def main(game):
     d.rounded_rectangle([W - tw - 26, H - 34, W - 6, H - 8], 8, fill=INK)
     d.text((W - tw - 16, H - 31), txt, fill=(250, 244, 226), font=small)
 
-    out = os.path.join(ROOT, 'assets', 'ban_do_dalat.webp')
+    out = os.path.join(ROOT, 'assets', key + '.webp')
     im.convert('RGB').save(out, 'WEBP', quality=72, method=6)
-    meta = {'anh': 'assets/ban_do_dalat.webp', 'w': W, 'h': H, 'lon0': lon0, 'lat1': lat1, 'kx': kx, 'px_per_m': PX_PER_M, 'M': M,
-            'moc': [{'ten': MOC_TEN[n], 'lon': lo, 'lat': la} for n, la, lo, _ in LANDMARKS],
-            'nguon': '© OpenStreetMap contributors · hình Spark của game Gọn Phố'}
-    json.dump(meta, open(os.path.join(ROOT, 'data', 'lam-dong', 'da-lat', 'ban_do.json'), 'w', encoding='utf-8'), ensure_ascii=False)
-    print(out, W, 'x', H, os.path.getsize(out) // 1024, 'KB')
+    print(out, W, 'x', H, os.path.getsize(out) // 1024, 'KB', [p['slug'] for p in phos])
+    return {'anh': 'assets/' + key + '.webp', 'w': W, 'h': H, 'lon0': lon0, 'lat1': lat1, 'kx': kx, 'px_per_m': PX_PER_M, 'M': M,
+            'pho': [p['slug'] for p in phos],
+            'moc': [{'ten': MOC_TEN[n], 'lon': lo, 'lat': la} for n, la, lo, _ in LMS]}
+
 
 
 if __name__ == '__main__':

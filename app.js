@@ -620,8 +620,9 @@
 
   function renderSoDo(ph) {
     var host = document.getElementById('soDo');
-    (banDo ? Promise.resolve(banDo) : loadJSON('data/lam-dong/da-lat/ban_do.json')).then(function (bd) {
-      banDo = bd;
+    (banDo ? Promise.resolve(banDo) : loadJSON('data/lam-dong/da-lat/ban_do.json')).then(function (all) {
+      banDo = all;
+      var bd = all.vung.filter(function (v) { return v.pho.indexOf(ph.slug) >= 0; })[0] || all.vung[0];   // tấm bản đồ của khu chứa phố
       if (!document.getElementById('soDo')) return;
       function B(lon, lat) { return [(lon - bd.lon0) * bd.kx * bd.M * bd.px_per_m, (bd.lat1 - lat) * bd.M * bd.px_per_m]; }
       var lines = data.duong.filter(function (r) { return r.ten && ph.duong.indexOf(r.ten) >= 0; })
@@ -634,8 +635,8 @@
       var cLon = ph.lon, cLat = ph.lat;
       function met(a, b) { return Math.hypot((a.lon - b.lon) * 108900, (a.lat - b.lat) * 110540); }
       var near = bd.moc.slice().sort(function (a, b) { return met(a, { lon: cLon, lat: cLat }) - met(b, { lon: cLon, lat: cLat }); })[0];
-      var nb = B(near.lon, near.lat);
-      if (met(near, { lon: cLon, lat: cLat }) < 900) {
+      var nb = near ? B(near.lon, near.lat) : null;
+      if (near && met(near, { lon: cLon, lat: cLat }) < 900) {
         x0 = Math.min(x0, nb[0]); x1 = Math.max(x1, nb[0]); y0 = Math.min(y0, nb[1] - 40); y1 = Math.max(y1, nb[1] + 30);
       }
       // khung đủ rộng để thấy cả xóm xung quanh (≥ 1,3 km ngang), không quá cao so với bề ngang
@@ -741,7 +742,7 @@
         d._so = so;
       });
       g += '</svg>';
-      var cho = bd.moc[0], kc = Math.round(met(cho, { lon: cLon, lat: cLat }) / 50) * 50;
+      var cho = { lon: 108.43721, lat: 11.94342 }, kc = Math.round(met(cho, { lon: cLon, lat: cLat }) / 50) * 50;
       var list = '<ol class="bd-list">';
       ph.dia_diem.forEach(function (d, i) {
         list += '<li><button type="button" data-q="' + i + '"><span class="so' + (d._so ? '' : ' none') + '">' + (d._so || '–') + '</span>' +
@@ -749,7 +750,7 @@
       });
       list += '</ol>';
       host.innerHTML = g +
-        '<p class="bd-ghichu">' + (kc > 100 ? 'Cách Chợ Đà Lạt khoảng ' + fmt(kc) + ' m (đường chim bay). ' : 'Ngay cạnh Chợ Đà Lạt. ') +
+        '<p class="bd-ghichu">' + (kc > 100 ? 'Cách Chợ Đà Lạt khoảng ' + (kc >= 2000 ? fmt(kc / 100) / 10 + ' km' : fmt(kc) + ' m') + ' (đường chim bay). ' : 'Ngay cạnh Chợ Đà Lạt. ') +
         'Chấm số là quán; chấm viền đứt là vị trí ước theo số nhà; "–" là chưa có vị trí.</p>' + list;
       Array.prototype.forEach.call(host.querySelectorAll('[data-q]'), function (el2) {
         function open() { showQuan(ph, ph.dia_diem[Number(el2.getAttribute('data-q'))]); }

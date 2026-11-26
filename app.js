@@ -565,33 +565,46 @@
     sheet.hidden = false;
   }
 
+  // Thẻ tỉnh / phường: ít chữ, nhiều hình — hình mốc Spark ở đầu, các ô biểu tượng, một nút đi tiếp
+  function the(hinh, ten, phu) {
+    return '<div class="the-dau">' + (hinh ? '<img src="' + esc(hinh) + '" alt="">' : '') +
+      '<div><h2>' + esc(ten) + '</h2>' + (phu ? '<p class="dac-trung">' + phu + '</p>' : '') + '</div></div>';
+  }
   function cardTinh(t) {
-    var full = (t.loai === 'Thành phố' ? 'Thành phố ' : 'Tỉnh ') + t.ten;
-    var gop = t.tinh_cu.length ? 'Gộp từ ' + t.tinh_cu.map(esc).join(', ') : 'Giữ nguyên, không sáp nhập';
-    var h = '<h2>' + esc(full) + '</h2><div>';
-    if (t.loai === 'Thành phố') h += '<span class="tag">★ Thành phố trực thuộc trung ương</span> ';
-    h += t.da_mo ? '<span class="tag open">Có bản đồ phố</span>' : '<span class="tag">Bản đồ phố: sắp có</span>';
-    h += '</div><dl class="facts">' +
-      '<dt>Hình thành</dt><dd>' + gop + '</dd>' +
-      '<dt>Diện tích</dt><dd>' + fmt(t.dien_tich_km2) + ' km²</dd>' +
-      '<dt>Xã/phường</dt><dd>' + fmt(t.so_xa_phuong) + '</dd>';
-    if (t.len_thanh_pho) h += '<dt>Lên thành phố</dt><dd>từ ' + esc(t.len_thanh_pho.ngay) + '</dd>';
-    h += '</dl>';
-    if (t.da_mo) h += '<button class="go" type="button" data-go="lam-dong">Vào ' + esc(t.ten) + ' →</button>';
-    h += '<p class="note">Theo địa giới mới từ 1/7/2025 (Nghị quyết 202/2025/QH15).</p>';
+    var moc = LAYERS['viet-nam'].moc[t.ma];
+    var tp = t.loai === 'Thành phố';
+    var h = the(moc ? 'assets/vn/moc_' + moc + '.webp' : '', (tp ? 'Thành phố ' : 'Tỉnh ') + t.ten,
+      t.da_mo ? '🟢 Có bản đồ phố' : '🔒 Bản đồ phố: sắp có');
+    h += '<div class="o-bt">' + (tp ? '<span>★ Thành phố trực thuộc trung ương</span>' : '') +
+      '<span>📐 ' + fmt(t.dien_tich_km2) + ' km²</span><span>🏘️ ' + fmt(t.so_xa_phuong) + ' xã, phường</span>' +
+      (t.len_thanh_pho ? '<span>⬆️ Lên thành phố ' + esc(t.len_thanh_pho.ngay) + '</span>' : '') + '</div>';
+    h += '<p class="nhan-nho">🧩 ' + (t.tinh_cu.length ? 'Gộp từ' : 'Giữ nguyên, không sáp nhập') + '</p>';
+    if (t.tinh_cu.length) h += '<div class="o-bt gop">' + t.tinh_cu.map(function (x) { return '<span>' + esc(x) + '</span>'; }).join('<span class="cong">+</span>') + '</div>';
+    if (t.da_mo) h += '<button class="go lon" type="button" data-go="lam-dong">Vào ' + esc(t.ten) + ' →</button>';
+    h += '<p class="note">Địa giới mới từ 1/7/2025 (Nghị quyết 202/2025/QH15).</p>';
     return h;
   }
 
   function cardPhuong(p) {
-    var h = '<h2>' + esc(p.loai + ' ' + p.ten) + '</h2><div>';
-    if (p.so_pho) h += '<span class="tag open">' + p.so_pho + ' phố đã nghiên cứu</span> ';
-    if (p.da_lat) h += '<span class="tag">Đà Lạt</span>';
-    h += '</div><dl class="facts">' +
-      '<dt>Gộp từ</dt><dd>' + esc(p.gop_tu) + '</dd>' +
-      '<dt>Diện tích</dt><dd>' + fmt(p.dien_tich_km2, 1) + ' km²</dd>' +
-      '</dl>';
-    if (p.da_lat) h += '<button class="go" type="button" data-go="da-lat">Xem đường phố Đà Lạt →</button>';
-    h += '<p class="note">Theo Nghị quyết 1671/NQ-UBTVQH15, Điều 1 khoản ' + p.muc_nq + '.</p>';
+    var mocs = (LAYERS['lam-dong'].mocDiem || []).filter(function (m) { return m[4] === p.ma && !m[6]; });
+    var h = the(mocs.length ? 'assets/vn/moc_' + mocs[0][0] + '.webp' : '', p.loai + ' ' + p.ten,
+      p.so_pho ? '🟢 ' + p.so_pho + ' nơi đã có trang' : (p.da_lat ? '🛣️ Có bản đồ đường thật' : ''));
+    var cu = (p.gop_tu || '').normalize('NFC').replace(/\s*\([^)]*\)/g, '').replace(/^(các |cả )/, '').split(/,\s*|\s+và\s+|\s+và các\s+/).map(function (x) { return x.trim(); }).filter(Boolean);
+    h += '<div class="o-bt"><span>📐 ' + fmt(p.dien_tich_km2, 1) + ' km²</span>' +
+      mocs.slice(0, 3).map(function (m) { return '<span>' + bieuTuong(m[3]) + ' ' + esc(m[3]) + '</span>'; }).join('') + '</div>';
+    if (cu.length) h += '<p class="nhan-nho">🧩 Gộp từ</p><div class="o-bt gop">' + cu.map(function (x) { return '<span>' + esc(x) + '</span>'; }).join('<span class="cong">+</span>') + '</div>';
+    if (p.so_pho) h += '<div id="phoTrongPhuong" class="pho-nho"></div>';
+    if (p.da_lat) h += '<button class="go lon" type="button" data-go="da-lat">Xem đường phố Đà Lạt →</button>';
+    h += '<p class="note">Nghị quyết 1671/NQ-UBTVQH15, Điều 1 khoản ' + p.muc_nq + '.</p>';
+    if (p.so_pho) setTimeout(function () {   // danh sách nơi đã có trang trong phường: hình đầu phố nhỏ, bấm là mở
+      (cache.pho ? Promise.resolve(cache.pho) : loadJSON('data/lam-dong/da-lat/pho.json')).then(function (d) {
+        cache.pho = cache.pho || d;
+        var box = document.getElementById('phoTrongPhuong'); if (!box) return;
+        box.innerHTML = d.pho.filter(function (x) { return x.ward === p.ten; }).map(function (x) {
+          return '<a href="#pho-' + esc(x.slug) + '">' + (x.anh ? '<img src="' + esc(x.anh) + '" alt="">' : '') + '<b>' + esc(x.ten_hien || x.ten_pho) + '</b></a>';
+        }).join('');
+      });
+    }, 0);
     return h;
   }
 
@@ -684,19 +697,24 @@
     var h = '<section class="chuyen phan"><h3>🕰️ Lịch sử</h3>';
     if (c.ten_cu.length) {
       h += '<div class="ten-xua"><span class="nhan">Tên xưa</span>' + c.ten_cu.map(function (t) {
-        return '<span class="chip-ten">' + esc(t.ten.replace(/\s*\(.*$/, '')) + '</span>';
+        return '<span class="chip-ten">' + esc(t.ten.replace(/\s*\(.*$/, '').split(' / ')[0]) + '</span>';
       }).join('<span class="mui">→</span>') + '</div>';
     }
     if (c.moc.length) {
-      h += '<ol class="dong-tg">' + c.moc.map(function (m) {
+      // gọn: hiện 6 mốc đầu, còn lại gập vào "Xem thêm"
+      var li = c.moc.map(function (m) {
         return '<li><details><summary><b class="nam">' + esc(m.nam) + '</b><span>' + esc(ngan(m.su_kien)) + dau(m.muc, m.mot_nguon) + '</span></summary>' +
           '<p>' + esc(m.su_kien) + '</p>' + src(m.nguon, m.mot_nguon, m.muc) + '</details></li>';
-      }).join('') + '</ol>';
+      });
+      h += '<ol class="dong-tg">' + li.slice(0, 6).join('') + '</ol>';
+      if (li.length > 6) h += '<details class="xem-them"><summary>Xem thêm ' + (li.length - 6) + ' mốc năm</summary><ol class="dong-tg">' + li.slice(6).join('') + '</ol></details>';
     }
     if (c.chuyen.length) {
-      h += '<div class="chuyen-the"><span class="nhan">Chuyện kể · chạm để đọc</span>' + c.chuyen.map(function (t) {
+      var ct = c.chuyen.map(function (t) {
         return '<details class="mau-chuyen"><summary>📖 ' + esc(t.tieu_de) + dau(t.muc, t.mot_nguon) + '</summary><p>' + esc(t.noi_dung) + '</p>' + src(t.nguon, t.mot_nguon, t.muc) + '</details>';
-      }).join('') + '</div>';
+      });
+      h += '<div class="chuyen-the"><span class="nhan">Chuyện kể · chạm để đọc</span>' + ct.slice(0, 3).join('') +
+        (ct.length > 3 ? '<details class="xem-them"><summary>Xem thêm ' + (ct.length - 3) + ' chuyện</summary><div class="chuyen-the">' + ct.slice(3).join('') + '</div></details>' : '') + '</div>';
     }
     return h + '</section>';
   }

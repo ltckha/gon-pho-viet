@@ -283,3 +283,20 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .nen-spark .prov.picked { fill: var(--pick); }
 .tang-tinh .sw.open { background: #fff8e0; border: 3px solid #1f5a2c; }
 .tang-tinh .sw.dalat { background: #fff8e0; border: 2px solid #3f7d2a; }
+
+/* Thẻ tỉnh, phường gọn: hình mốc đầu thẻ, ô biểu tượng, các nơi đã có trang thành hình nhỏ bấm được */
+.the-dau { display: flex; align-items: center; gap: 12px; margin-right: 36px; }
+.the-dau img { width: 72px; height: auto; flex: none; filter: drop-shadow(0 2px 2px rgba(0,0,0,.25)); }
+.the-dau h2 { margin: 0; }
+.the-dau .dac-trung { margin: 2px 0 0; }
+.nhan-nho { margin: 10px 0 2px; font-size: .82rem; color: var(--muted); }
+.o-bt.gop { margin-top: 2px; align-items: center; }
+.o-bt.gop .cong { background: none; border: 0; padding: 0 2px; color: var(--muted); }
+.go.lon { display: block; width: 100%; margin-top: 12px; background: #2f6b4f; color: #fff; border-color: #2f6b4f; font-size: 1rem; }
+.pho-nho { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; margin-top: 12px; }
+.pho-nho a { display: block; text-decoration: none; color: var(--ink); background: #fbf1dc; border-radius: 10px; overflow: hidden; }
+.pho-nho img { display: block; width: 100%; aspect-ratio: 2 / 1; object-fit: cover; }
+.pho-nho b { display: block; padding: 5px 8px; font-size: .82rem; }
+.xem-them > summary { cursor: pointer; list-style: none; margin: 6px 0; padding: 6px 12px; display: inline-block; border-radius: 999px; background: #f1e3c2; color: #6b4a1e; font-size: .85rem; font-weight: 600; }
+.xem-them > summary::-webkit-details-marker { display: none; }
+.xem-them[open] > summary { display: none; }

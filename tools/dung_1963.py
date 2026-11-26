@@ -242,92 +242,86 @@ def main(pdf, soat=None):
             for x, y in pts:
                 used[max(0, int(y) - 9):int(y) + 10, max(0, int(x) - 9):int(x) + 10] = True
 
-    # 3) đường đất nét đứt bản cũ có mà nay không còn: tìm từng CẶP gạch song song (hai mép đường đất in nét đứt),
-    #    nối các cặp thành chuỗi theo hướng. Cách này chắc (ít nhầm) nhưng chưa bắt hết; đã so với 3 cách khác 26/11.
+    # 3) đường đất nét đứt bản cũ có mà nay không còn — "dò theo vết" (so 7 cách 26/11):
+    #    hạt = cặp gạch xám song song (hai mép đường đất); từ mỗi hạt bước 5 điểm ảnh dọc hướng, rẽ ≤ 14°/bước,
+    #    mỗi bước hai bên còn gạch trong ±10 điểm ảnh, giữa sáng; dừng khi chạm đường đã có hoặc hụt 4 bước.
+    #    Bỏ vết ngắn (< 16 bước), vết hụt nhiều, vết ở chỗ chi chít nét (khu chia lô, chữ).
     from scipy.spatial import cKDTree
     g = a
-    gray = (mx < 175) & (sat < 45)
-    lab = label(gray, connectivity=2)
-    D = []   # gạch: tâm, hướng, dài
-    for rp in regionprops(lab):
+    R_, G_ = g[..., 0], g[..., 1]
+    gray = (mx < 175) & (sat < 30) & (G_ <= R_ + 6)          # xám/đen thật, không phải chấm cây xanh đậm
+    clutter = ndi.uniform_filter(gray.astype(np.float32), 25)
+    # cặp gạch (như gach.py)
+    D = []
+    for rp in regionprops(label(gray, connectivity=2)):
         if rp.area < 6 or rp.area > 90: continue
-        L = rp.major_axis_length; w = rp.minor_axis_length
+        L = rp.axis_major_length; w = rp.axis_minor_length
         if L < 5 or L > 26 or w > 3.2 or L < 2.5 * max(w, 1): continue
-        cy, cx = rp.centroid
-        if dens[int(cy), int(cx)]: continue
-        yy, xx = rp.coords[:, 0] - cy, rp.coords[:, 1] - cx      # hướng dọc gạch từ hiệp phương sai, tránh nhầm dấu
-        cv = np.cov(np.vstack([xx, yy])); ev, evec = np.linalg.eigh(cv); v = evec[:, 1]
-        D.append((cx, cy, v[0], v[1], L))
-    D = np.array(D); 
-    T = cKDTree(D[:, :2])
-    # ghép đôi: gạch song song, cách nhau theo phương vuông góc 4–11 điểm, lệch dọc < 6
-    C = []
+        cy, cx = rp.centroid; yy, xx = rp.coords[:, 0] - cy, rp.coords[:, 1] - cx
+        ev, evec = np.linalg.eigh(np.cov(np.vstack([xx, yy]))); v = evec[:, 1]
+        D.append((cx, cy, v[0], v[1]))
+    D = np.array(D); T = cKDTree(D[:, :2]); seeds = []
     for i, j in T.query_pairs(13):
         a, b = D[i], D[j]
         if abs(a[2] * b[2] + a[3] * b[3]) < 0.94: continue
-        dx, dy = b[0] - a[0], b[1] - a[1]
-        along = dx * a[2] + dy * a[3]; perp = -dx * a[3] + dy * a[2]
-        if 3.5 <= abs(perp) <= 11 and abs(along) < 6:
-            sgn = 1 if a[2] * b[2] + a[3] * b[3] > 0 else -1
-            ux, uy = a[2] + sgn * b[2], a[3] + sgn * b[3]; n = math.hypot(ux, uy)
-            C.append(((a[0] + b[0]) / 2, (a[1] + b[1]) / 2, ux / n, uy / n, abs(perp)))
-    C = np.array(C); 
-    # nối tâm thành chuỗi: điểm kế tiếp nằm phía trước 6–30 điểm, cùng hướng, lệch ngang < 4
-    TC = cKDTree(C[:, :2])
-    nxt = {}
-    for i, c in enumerate(C):
-        best = {True: None, False: None}          # nối cả phía trước lẫn phía sau
-        for j in TC.query_ball_point(c[:2], 30):
-            if j == i: continue
-            d = C[j]
-            if abs(c[2] * d[2] + c[3] * d[3]) < 0.8: continue
-            dx, dy = d[0] - c[0], d[1] - c[1]
-            al = dx * c[2] + dy * c[3]; pe = abs(-dx * c[3] + dy * c[2])
-            if 4 <= abs(al) <= 34 and pe < 2 + 0.3 * abs(al):
-                sc = abs(al) + 3 * pe; k = al > 0
-                if best[k] is None or sc < best[k][0]: best[k] = (sc, j)
-        for k in best:
-            if best[k]: nxt.setdefault(i, []).append(best[k][1])
-    # đồ thị vô hướng, lấy thành phần liên thông, chuỗi dài
-    adj = {}
-    for i, js in nxt.items():
-        for j in js: adj.setdefault(i, set()).add(j); adj.setdefault(j, set()).add(i)
-    seen = set(); chains = []
-    for s0 in adj:
-        if s0 in seen: continue
-        comp = []; st = [s0]
-        while st:
-            u = st.pop()
-            if u in seen: continue
-            seen.add(u); comp.append(u); st += list(adj[u])
-        if len(comp) < 6: continue
-        # đi theo đồ thị từ một đầu mút (cây khung BFS, lấy đường dài nhất) để giữ đúng khúc cong
-        def far(src):
-            dist_ = {src: 0}; par = {src: None}; q = [src]
-            for u in q:
-                for v in adj[u]:
-                    if v in comp_set and v not in dist_:
-                        dist_[v] = dist_[u] + 1; par[v] = u; q.append(v)
-            e = max(dist_, key=dist_.get); return e, par
-        comp_set = set(comp)
-        e1, _ = far(comp[0]); e2, par = far(e1)
-        path = [e2]
-        while par[path[-1]] is not None: path.append(par[path[-1]])
-        P = C[path, :2]
-        if len(P) >= 5:
-            P = np.array([np.convolve(np.pad(P[:, k], 2, mode='edge'), np.ones(5) / 5, 'valid') for k in (0, 1)]).T
-        span = np.hypot(*(P[-1] - P[0]))
-        if span < 60: continue
-        chains.append(P)
+        dx, dy = b[0] - a[0], b[1] - a[1]; al = dx * a[2] + dy * a[3]; pe = -dx * a[3] + dy * a[2]
+        if 3.5 <= abs(pe) <= 11 and abs(al) < 6:
+            seeds.append(((a[0] + b[0]) / 2, (a[1] + b[1]) / 2, a[2], a[3], abs(pe) / 2))
+    def side_hit(x, y, ux, uy, h, sg):
+        nx, ny = -uy, ux
+        for t in range(-10, 11, 2):
+            for dd in (h - 1, h, h + 1):
+                qx = int(round(x + ux * t + sg * nx * dd)); qy = int(round(y + uy * t + sg * ny * dd))
+                if 0 <= qx < W and 0 <= qy < H and gray[qy, qx]: return True
+        return False
+    def ok_at(x, y, ux, uy, h):
+        if not (0 <= int(x) < W and 0 <= int(y) < H) or gray[int(y), int(x)]: return False
+        return side_hit(x, y, ux, uy, h, 1) and side_hit(x, y, ux, uy, h, -1)
+    covered = np.zeros((H, W), bool)
+    tracks = []
+    for sx, sy, ux, uy, h in seeds:
+        if covered[int(sy), int(sx)] or used[int(sy), int(sx)]: continue
+        path = []
+        for sgn in (1, -1):
+            x, y, vx, vy = sx, sy, ux * sgn, uy * sgn; pts = []; miss = 0
+            for _ in range(400):
+                best = None
+                for da in (-0.25, -0.12, 0, 0.12, 0.25):            # rẽ tối đa ~14° mỗi bước
+                    ca, sa = math.cos(da), math.sin(da)
+                    wx, wy = vx * ca - vy * sa, vx * sa + vy * ca
+                    for s in (-1.5, 0, 1.5):
+                        px_ = x + wx * 5 - wy * s; py_ = y + wy * 5 + wx * s
+                        if ok_at(px_, py_, wx, wy, h):
+                            sc = abs(da) * 4 + abs(s)
+                            if best is None or sc < best[0]: best = (sc, px_, py_, wx, wy)
+                if best is None:
+                    miss += 1
+                    if miss > 3: break
+                    x, y = x + vx * 5, y + vy * 5; pts.append((x, y, 0)); continue
+                miss = 0; _, x, y, vx, vy = best; pts.append((x, y, 1))
+                if not (0 <= int(x) < W and 0 <= int(y) < H): break
+                if used[int(y), int(x)]: break                      # chạm đường đã có: nối vào mạng
+                if covered[int(y), int(x)]: break
+            while pts and pts[-1][2] == 0: pts.pop()
+            path = (pts[::-1] if sgn == 1 else path) if False else path
+            if sgn == 1: fwd = pts
+            else: path = [p for p in pts[::-1]] + [(sx, sy, 1)] + fwd
+        if len(path) < 16: continue
+        P = np.array([(p[0], p[1]) for p in path])
+        hitr = np.mean([p[2] for p in path])
+        cl = clutter[np.clip(P[:, 1].astype(int), 0, H - 1), np.clip(P[:, 0].astype(int), 0, W - 1)].mean()
+        if hitr < 0.8 or cl > 0.16: continue
+        tracks.append(P)
+        for x, y in P: covered[max(0, int(y) - 6):int(y) + 7, max(0, int(x) - 6):int(x) + 7] = True
 
     duong_mat = []
-    for Pc in chains:
+    for Pc in tracks:
         xi = np.clip(Pc[:, 0].astype(int), 0, W - 1); yi = np.clip(Pc[:, 1].astype(int), 0, H - 1)
-        if used[yi, xi].mean() > 0.3:          # trùng đường đã lấy ở bước 2
+        if used[yi, xi].mean() > 0.3:
             continue
-        Pc = approximate_polygon(Pc, 0.8)
+        Pc = approximate_polygon(np.array([np.convolve(np.pad(Pc[:, k], 2, mode='edge'), np.ones(5) / 5, 'valid') for k in (0, 1)]).T, 0.8)
         duong_mat.append({'loai': 4, 'dat': 1, 'pts': [[round(v, 5) for v in to_ll(x, y)] for x, y in Pc]})
-    print('đường đất đã mất (cặp gạch):', len(duong_mat))
+    print('đường đất đã mất (dò theo vết):', len(duong_mat))
     print('đoạn đường dò được:', len(duong), ' dài', round(sum(
         sum(math.hypot((b[0] - a_[0]) * 108900, (b[1] - a_[1]) * 110574) for a_, b in zip(d['pts'], d['pts'][1:])) for d in duong) / 1000, 1), 'km')
 

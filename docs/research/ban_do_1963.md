@@ -8,7 +8,7 @@ Anh Kha chốt 26/11: vẽ lại kiểu "cách 2" (phẳng, gọn), mọi nét c
 - Dựng: `python3 -I tools/dung_1963.py <L909XDALAT_geo.pdf> [thư mục ảnh soát]` → `data/lam-dong/da-lat/1963.json` (cần scikit-image).
   - Đường (so 6 cách 26/11, xem Artifact "So sánh cách vẽ 1963"):
     - Còn tới nay — cách E "đo mặt cắt": dọc mỗi đường OpenStreetMap, ở mỗi điểm cắt ngang tìm hai nét in song song (liền hoặc đứt, ≥2/5 vị trí mỗi bên), giữa sáng, tâm lệch ≤ 15 m; cả con đường là một đơn vị (theo Uhl và cs. 2022), nối khoảng thiếu ≤ 200 m. Cấp 1 = lòng tô đỏ; còn lại theo bề rộng in.
-    - Đường đất đã mất — "cặp gạch": cặp gạch xám song song cách 4–11 điểm ảnh, nối thành chuỗi (`duong_mat`, `dat: 1`). Chắc nhưng mới bắt một phần.
+    - Đường đất đã mất — "dò theo vết": hạt = cặp gạch xám song song (cách 4–11 điểm ảnh); từ hạt bước 5 điểm dọc hướng, rẽ ≤ 14°/bước, hai bên còn gạch, dừng khi chạm đường đã có (`duong_mat`, `dat: 1`). 290 vết, soát mẫu phần lớn đúng; còn vài vết nhầm ở khu chia lô nét đứt. (Cách "nối cặp gạch thành chuỗi" chỉ được 24 đoạn — bỏ.)
     - Bỏ: dò thuần khung xương ảnh (vụn), lấp nét rồi dò khe (vụn), đòi hai mép liền (sót đường đất).
   - Khu dân cư: gom nhà cách ≤ ~16 m thành mảng (`khu`); nhà riêng chỉ hiện khi phóng gần. Nét đường đổi theo mức phóng (`data-zm`).
   - Hồ, rừng: tách màu in. Nhà: khối đen đặc, nén số nguyên.

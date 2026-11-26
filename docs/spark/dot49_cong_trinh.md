@@ -1,4 +1,4 @@
-# Spark đợt 49 (đánh số chung với game): tranh đầu trang + mốc cho 4 công trình lâu đời (26/11/2026)
+# Spark đợt 49 (đánh số chung với game): tranh đầu trang + mốc cho 4 công trình lâu đời (26/11/2026) — ĐÃ GHÉP 26/11/2026
 
 4 nơi mới: Chùa Linh Phước, Đại học Đà Lạt, Viện Pasteur Đà Lạt, Nhà thờ Con Gà. Cảnh lấy từ nghiên cứu có nguồn (`docs/research/pho_<slug>.md`). Anh báo "xong 49" là em tự ghép: tranh đầu → `assets/dau_pho/` (768×384), mốc → `assets/vn/` (150×132), thêm dòng `MOC_HINH`.
 

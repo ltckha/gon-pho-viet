@@ -791,6 +791,9 @@
     [/chợ|siêu thị|sạp/i, 'cho']];
   // hình Spark cho "Mốc lâu đời" (assets/vn/moc_*.webp); không có thì về biểu tượng cũ
   var MOC_HINH = [
+    // đợt 49: mốc cụ thể đứng trước mốc chung (rồng ve chai trước 've chai', tháp con gà trước 'con gà', chân dung trước 'pasteur')
+    [/rồng ve chai/i, 'rong_ve_chai'], [/tháp chuông 7 tầng/i, 'thap_chuong_linh_phuoc'], [/đại hồng chung/i, 'dai_hong_chung'], [/tháp sao|nguyện đường/i, 'thap_sao'], [/^thư viện/i, 'thu_vien_dai_hoc'],
+    [/chân dung louis pasteur/i, 'chan_dung_pasteur'], [/tháp chuông và con gà/i, 'thap_con_ga'], [/kính màu/i, 'kinh_mau'], [/phù điêu/i, 'phu_dieu'],
     [/ve chai|linh phước/i, 'chua_ve_chai'], [/linh sơn/i, 'chua_linh_son'], [/linh quang/i, 'chua_linh_quang'], [/linh phong/i, 'chua_linh_phong'],
     [/trúc lâm/i, 'truc_lam'], [/con gà|chính tòa/i, 'nha_tho_con_ga'], [/domaine|mai anh/i, 'domaine_de_marie'], [/cam ly.*nhà thờ|nhà thờ cam ly|sơn cước/i, 'nha_tho_cam_ly'],
     [/thác cam ly/i, 'thac_cam_ly'], [/chợ đà lạt/i, 'cho_da_lat'], [/ga đà lạt|ga hỏa xa/i, 'ga_da_lat'], [/hồ xuân hương/i, 'ho_xuan_huong'],

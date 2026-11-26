@@ -358,26 +358,36 @@
   /* ---------- Nay ↔ 1963 (tầng đường Đà Lạt) ----------
      Tên đường năm 1963 theo bảng chỉ dẫn của bản đồ Đà Lạt 1:12.500 quân đội Mỹ (AMS L909), dò từng số
      (tools/build_1963.py). Mỗi tên chỉ gắn đoạn quanh vị trí số trên bản đồ, chỗ không chắc để trống.
-     Hai kiểu xem (đang thử, anh Kha so sánh):
-       've'  — vẽ lại như bản đồ hiện tại: đường có tên 1963 tô rõ, đường mở sau này để mờ;
-       'goc' — nền là chính bản đồ 1963 (tools/nen_1963.py, mới cắt vùng quanh Hồ Xuân Hương), tên 1963 đè lên.
-     Cả hai: ẩn ghim phố, tên đường nay; tên 1963 chạy dọc đường. */
+     Ba kiểu nền đang thử (anh Kha so sánh), mới có vùng quanh Hồ Xuân Hương (tools/nen_1963.py, tools/lam_gon_1963.py):
+       'goc' — chính tờ bản đồ 1963;
+       'gon' — cách 1: bản gốc bỏ đường đồng mức, lưới, vòng số; cây, hồ thành mảng màu nhạt;
+       've'  — cách 2: vẽ lại phẳng (cây, hồ, khối nhà) + những đường hôm nay đã có năm 1963 vẽ bằng nét.
+     Cả ba: ẩn ghim phố, tên đường nay; tên 1963 chạy dọc đường. */
   var nam63 = false, lblNay = [], lbl63 = [], pointNay = [], diem63 = [];
   var namBox = document.getElementById('namBox'), namNote = document.getElementById('namNote');
   function build63() {
     var d = cache.ten1963, nen = cache.nen1963, defs = land.querySelector('defs');
     if (!d || !defs) return;
     if (nen) {
-      var gi = el('g', { 'class': 'nen-1963', transform: 'matrix(' + nen.matrix.join(' ') + ')' });
-      gi.appendChild(el('image', { href: nen.anh, width: nen.w, height: nen.h, preserveAspectRatio: 'none' }));
-      land.appendChild(gi);
+      [['goc', nen.anh], ['gon', nen.anh_gon], ['ve', nen.anh_ve]].forEach(function (k) {
+        if (!k[1]) return;
+        var gi = el('g', { 'class': 'nen-1963 nen-' + k[0], transform: 'matrix(' + nen.matrix.join(' ') + ')' });
+        gi.appendChild(el('image', { href: k[1], width: nen.w, height: nen.h, preserveAspectRatio: 'none' }));
+        land.appendChild(gi);
+      });
+      // cách 2: đường hôm nay đã có năm 1963, vẽ bằng nét trên nền phẳng
+      var cu = {}, gv = el('g', { 'class': 'duong-cu vien' }), gr = el('g', { 'class': 'duong-cu ruot' });
+      (nen.duong_cu || []).forEach(function (id) { cu[id] = 1; });
+      data.duong.forEach(function (r) {
+        if (!cu[r.id]) return;
+        gv.appendChild(el('path', { d: lineOf(r.pts), 'class': 'r' + r.loai }));
+        gr.appendChild(el('path', { d: lineOf(r.pts), 'class': 'r' + r.loai }));
+      });
+      land.appendChild(gv); land.appendChild(gr);
     }
-    var hl = el('g', { 'class': 'duong-1963' }), vien = el('g', { 'class': 'vien' }), ruot = el('g', { 'class': 'ruot' }), g = el('g', {});
-    hl.appendChild(vien); hl.appendChild(ruot);
+    var g = el('g', {});
     lbl63 = []; diem63 = [];
     d.duong.forEach(function (r, i) {
-      vien.appendChild(el('path', { d: lineOf(r.pts) }));
-      ruot.appendChild(el('path', { d: lineOf(r.pts) }));
       var sm = smooth(r.pts, 3), id = 'n63_' + i;
       var pe = el('path', { id: id, d: lineOf(sm) });
       defs.appendChild(pe);
@@ -395,7 +405,6 @@
       g.appendChild(t);
       diem63.push({ el: t, x: px(p.lon), y: py(p.lat), n: p.ten.length + 2, minZ: 2.5, mid: false });
     });
-    land.appendChild(hl);
     labels.insertBefore(g, labels.firstChild);
   }
   var daPhong63 = false;
@@ -403,20 +412,20 @@
     nam63 = mode === 'nay' ? false : mode;
     var on = !!nam63, d = cache.ten1963, nen = cache.nen1963;
     svg.classList.toggle('y1963', on);
-    svg.classList.toggle('goc', nam63 === 'goc');
+    ['goc', 'gon', 've'].forEach(function (k) { svg.classList.toggle('k-' + k, nam63 === k); });
     namNote.hidden = !on;
     if (on && d) {
-      namNote.innerHTML = (nam63 === 'goc' ? 'Nền: bản đồ Đà Lạt 1963 của quân đội Mỹ (mới có vùng quanh Hồ Xuân Hương)' :
-        'Tên đường năm 1963 · đường mở sau này để mờ') + ' · <a href="' + esc(d.nguon.link_2) + '" target="_blank" rel="noopener">nguồn</a>';
+      namNote.innerHTML = { goc: 'Bản đồ Đà Lạt 1963 nguyên gốc', gon: 'Cách 1: bản gốc, bỏ bớt chỗ rối', ve: 'Cách 2: vẽ lại theo bản gốc' }[nam63] +
+        ' · mới có vùng quanh Hồ Xuân Hương · <a href="' + esc(d.nguon.link_2) + '" target="_blank" rel="noopener">nguồn</a>';
     }
     document.getElementById('lichBtn').hidden = on || !layer || layer.kind !== 'duong';
     [].forEach.call(namBox.querySelectorAll('button'), function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-nam') === mode)); });
     (on ? lblNay.concat(pointNay) : lbl63.concat(diem63)).forEach(function (L) { L.el.setAttribute('hidden', ''); });
     roadLbl = on ? lbl63 : lblNay;
     pointLbl = on ? diem63 : pointNay;
-    veLegend(!on ? layer.legend : nam63 === 'goc' ?
-      [['nen63', 'Nền: bản đồ 1963 (vùng quanh hồ)'], ['chu63', 'Chữ xanh: tên đường năm 1963']] :
-      [['road63', 'Đường có tên năm 1963'], ['road', 'Đường mở sau này hoặc chưa dò'], ['water', 'Hồ']]);
+    veLegend(!on ? layer.legend : nam63 === 've' ?
+      [['road63', 'Đường đã có năm 1963'], ['nha63', 'Nhà năm 1963'], ['chu63n', 'Tên đường năm 1963']] :
+      [['nen63', 'Nền: bản đồ quân đội Mỹ 1963'], ['chu63', 'Tên đường năm 1963']]);
     if (on && !daPhong63 && nen) {          // lần đầu: phóng vào vùng quanh Hồ Xuân Hương để so sánh
       daPhong63 = true;
       var k = nen.khung;

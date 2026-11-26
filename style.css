@@ -328,19 +328,21 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
   width: max-content; max-width: calc(100vw - 150px); text-align: center; font-size: .75rem; line-height: 1.4; color: var(--ink);
   padding: 4px 10px; background: color-mix(in srgb, var(--card) 92%, transparent); border: 1.5px solid var(--edge); border-radius: 8px; }
 .nam-note a { color: #8a5a2b; font-weight: 600; }
-.duong-1963, .nen-1963 { display: none; }
-.duong-1963 path { fill: none; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
-.duong-1963 .vien path { stroke: #7a5230; stroke-width: 6.5; }
-.duong-1963 .ruot path { stroke: #f2d59a; stroke-width: 4; }
-#svg.y1963 .duong-1963 { display: inline; }
+.nen-1963, .duong-cu { display: none; }
+.duong-cu path { fill: none; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
+.duong-cu.vien path { stroke: #7a5230; stroke-width: 5; }
+.duong-cu.vien .r1, .duong-cu.vien .r2 { stroke-width: 7; }
+.duong-cu.ruot path { stroke: #fbf3df; stroke-width: 3; }
+.duong-cu.ruot .r1, .duong-cu.ruot .r2 { stroke: #f2d59a; stroke-width: 4.5; }
 #svg.y1963 #pins { display: none; }
 #svg.y1963 .road-casing { opacity: 0; }
 #svg.y1963 .road-fill { opacity: .55; }
-#svg.y1963.goc .duong-1963 { display: none; }
-#svg.y1963.goc .nen-1963 { display: inline; }
+#svg.k-goc .nen-goc, #svg.k-gon .nen-gon, #svg.k-ve .nen-ve, #svg.k-ve .duong-cu { display: inline; }
 .lbl.road-name.ten-1963 { fill: #5a3410; font-weight: 700; }
-#svg.goc .lbl.road-name.ten-1963 { fill: #1c3f8a; stroke: #fffdf6; }
+#svg.k-goc .lbl.road-name.ten-1963, #svg.k-gon .lbl.road-name.ten-1963 { fill: #1c3f8a; stroke: #fffdf6; }
 .lbl.diem-1963 { fill: #5a3410; font-weight: 700; text-anchor: start; }
 .sw.road63 { background: #f2d59a; border-color: #7a5230; border-width: 2px; }
 .sw.nen63 { background: linear-gradient(135deg, #cfe3b8 0 50%, #e9dcc0 50%); border-color: #9a7a58; }
 .sw.chu63 { background: #1c3f8a; border-color: #1c3f8a; }
+.sw.nha63 { background: #9b7a58; border-color: #9b7a58; }
+.sw.chu63n { background: #5a3410; border-color: #5a3410; }

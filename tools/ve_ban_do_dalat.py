@@ -21,12 +21,13 @@ PX_PER_M = 0.4
 MARGIN_M = 450
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 # Mốc (hình Spark đợt 35 trong kho game): tên hình, vĩ độ, kinh độ, cỡ
+# Cỡ hình mốc ≈ 80 điểm (~200 m): to hơn thì đè lên chính các con đường quanh mốc, phố nhỏ như dốc Nguyễn Chí Thanh nhìn không khớp (anh Kha báo 26/11)
 LANDMARKS = [
-    ('moc_cho_da_lat', 11.94342, 108.43721, 150),
-    ('moc_nha_tho_con_ga', 11.93632, 108.43775, 140),
-    ('moc_quang_truong', 11.93884, 108.44501, 140),
-    ('moc_ga_da_lat', 11.94180, 108.45470, 160),
-    ('moc_vuon_hoa', 11.95020, 108.44930, 140),
+    ('moc_cho_da_lat', 11.94342, 108.43721, 84),
+    ('moc_nha_tho_con_ga', 11.93616, 108.43769, 76),
+    ('moc_quang_truong', 11.93884, 108.44501, 80),
+    ('moc_ga_da_lat', 11.94180, 108.45470, 84),
+    ('moc_vuon_hoa', 11.95020, 108.44930, 76),
 ]
 MOC_TEN = {'moc_cho_da_lat': 'Chợ Đà Lạt', 'moc_nha_tho_con_ga': 'Nhà thờ Con Gà', 'moc_quang_truong': 'Quảng trường Lâm Viên',
            'moc_ga_da_lat': 'Ga Đà Lạt', 'moc_vuon_hoa': 'Vườn hoa thành phố'}
@@ -166,7 +167,7 @@ def draw_area(game, duong, phos, key, with_center):
         p = (rnd.uniform(20, W - 20), rnd.uniform(30, H - 20))
         if in_lake(p) or any(math.hypot(p[0] - q[0], p[1] - q[1]) < 38 for q in placed[-400:]):
             continue
-        if any(math.hypot(p[0] - q[0], p[1] - q[1]) < 100 for q in lm_pts):
+        if any(math.hypot(p[0] - q[0], p[1] - q[1]) < 55 for q in lm_pts):
             continue
         dr = near_road(p)
         if 16 < dr < 30 and houses and nh < W * H / 6000:

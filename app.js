@@ -857,7 +857,7 @@
       var boxes = [];
       function hit(b) { return boxes.some(function (o) { return b.x1 > o.x0 && b.x0 < o.x1 && b.y1 > o.y0 && b.y0 < o.y1; }); }
       // hình mốc vẽ sẵn trong ảnh (Chợ, nhà thờ, quảng trường…) và tên của nó chiếm chỗ trước
-      bd.moc.forEach(function (m) { var q = B(m.lon, m.lat); boxes.push({ x0: q[0] - 85, x1: q[0] + 85, y0: q[1] - 115, y1: q[1] + 60 }); });
+      bd.moc.forEach(function (m) { var q = B(m.lon, m.lat); boxes.push({ x0: q[0] - 50, x1: q[0] + 50, y0: q[1] - 66, y1: q[1] + 36 }); });
       // chấm quán chiếm chỗ trước
       (ph._moc || []).map(function (i) { return ph.dia_diem[i]; }).forEach(function (d) { if (d.vi_tri) { var q = B(d.vi_tri.lon, d.vi_tri.lat); boxes.push({ x0: q[0] - 13 * k, x1: q[0] + 13 * k, y0: q[1] - 13 * k, y1: q[1] + 13 * k }); } });
       // tên mốc thật trong khung (chùa, chợ, dinh, công viên…) để định hướng; tối đa 4 mốc gần phố nhất

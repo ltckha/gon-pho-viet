@@ -317,32 +317,33 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .chip-ten.dang-mo { background: #f3dfae; border-color: #c9a45a; }
 .ten-ct { display: grid; gap: 2px; margin: -4px 0 10px; padding: 8px 10px; border-radius: 10px; background: #fff6e3; border: 1px solid #e6d3a8; font-size: .9rem; }
 
-/* Nay ↔ 1963: tên đường Đà Lạt năm 1963 (bản đồ AMS L909). Hai kiểu đang thử: vẽ lại (y1963) và bản gốc (y1963.goc) */
-.nam { position: fixed; left: 50%; transform: translateX(-50%); top: calc(env(safe-area-inset-top, 0px) + 118px); z-index: 4;
-  display: flex; padding: 3px; gap: 2px; background: var(--card); border: 2px solid var(--edge); border-radius: 999px; box-shadow: 0 2px 8px rgba(0,0,0,.15);
-  max-width: calc(100vw - 110px); }
-.nam button { font: inherit; font-weight: 700; font-size: .82rem; color: var(--ink); background: none; border: 0; border-radius: 999px; padding: 6px 10px; cursor: pointer; white-space: nowrap; }
-.nam button[aria-pressed="true"] { color: #fffaf0; background: #8a5a2b; }
-#svg.y1963 ~ .nam { top: calc(env(safe-area-inset-top, 0px) + 70px); }
-.nam-note { position: fixed; left: 50%; transform: translateX(-50%); top: calc(env(safe-area-inset-top, 0px) + 116px); z-index: 4; margin: 0;
-  width: max-content; max-width: calc(100vw - 150px); text-align: center; font-size: .75rem; line-height: 1.4; color: var(--ink);
-  padding: 4px 10px; background: color-mix(in srgb, var(--card) 92%, transparent); border: 1.5px solid var(--edge); border-radius: 8px; }
-.nam-note a { color: #8a5a2b; font-weight: 600; }
-.nen-1963, .duong-cu { display: none; }
-.duong-cu path { fill: none; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
-.duong-cu.vien path { stroke: #7a5230; stroke-width: 5; }
-.duong-cu.vien .r1, .duong-cu.vien .r2 { stroke-width: 7; }
-.duong-cu.ruot path { stroke: #fbf3df; stroke-width: 3; }
-.duong-cu.ruot .r1, .duong-cu.ruot .r2 { stroke: #f2d59a; stroke-width: 4.5; }
-#svg.y1963 #pins { display: none; }
-#svg.y1963 .road-casing { opacity: 0; }
-#svg.y1963 .road-fill { opacity: .55; }
-#svg.k-goc .nen-goc, #svg.k-gon .nen-gon, #svg.k-ve .nen-ve, #svg.k-ve .duong-cu { display: inline; }
+/* Đà Lạt 1963: tầng riêng vẽ lại từ bản đồ AMS L909 (nét giấy bản đồ cũ) */
+.sang-btn { position: fixed; left: 50%; transform: translateX(-50%); top: calc(env(safe-area-inset-top, 0px) + 118px); z-index: 4; white-space: nowrap;
+  font: inherit; font-weight: 700; font-size: .85rem; color: #fffaf0; background: #8a5a2b; border: 2px solid #5a3410; border-radius: 999px; padding: 7px 14px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+#svg.y63 ~ .zoom { top: calc(env(safe-area-inset-top, 0px) + 166px); }
+.tim63 { position: fixed; left: max(12px, env(safe-area-inset-left, 0px)); top: calc(env(safe-area-inset-top, 0px) + 70px); z-index: 6;
+  right: max(12px, env(safe-area-inset-right, 0px)); max-width: 480px; display: grid; gap: 4px; }
+.tim63 input { font: inherit; font-size: 16px; padding: 8px 12px; border: 2px solid #9a7a58; border-radius: 999px; background: #fffaf0; color: #2b241b; width: 100%; box-sizing: border-box; }
+.tim-kq { background: #fffaf0; border: 1.5px solid #9a7a58; border-radius: 10px; overflow: hidden; display: grid; box-shadow: 0 4px 12px rgba(0,0,0,.18); }
+.tim-kq button { font: inherit; text-align: left; background: none; border: 0; border-bottom: 1px solid #e6dcc6; padding: 8px 12px; display: grid; cursor: pointer; color: #2b241b; }
+.tim-kq button span { font-size: .78rem; color: #6d6252; }
+.tim-kq p { margin: 0; padding: 8px 12px; font-size: .85rem; color: #6d6252; }
+#svg.y63 { background: #e9e2cf; }
+.giay63 { fill: #f4efe2; }
+.rung63 path { fill: #cfe3b5; }
+.nuoc63 path { fill: #a9d3e3; stroke: #6fa9c0; }
+.nha63 path { fill: #9b7a58; }
+.duong63.road-casing .r1, .duong63.road-casing .r2 { stroke: #7a5230; stroke-width: 7; }
+.duong63.road-casing .r3 { stroke: #7a5230; stroke-width: 5; }
+.duong63.road-casing .r4 { stroke: #8f6d4a; stroke-width: 3.6; }
+.duong63.road-fill .r1, .duong63.road-fill .r2 { stroke: #f2d59a; stroke-width: 4.5; }
+.duong63.road-fill .r3 { stroke: #fbf3df; stroke-width: 3; }
+.duong63.road-fill .r4 { stroke: #fbf3df; stroke-width: 1.6; stroke-dasharray: none; }
+.hl63 path { fill: none; stroke: #e0662f; stroke-opacity: .75; stroke-width: 9; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
 .lbl.road-name.ten-1963 { fill: #5a3410; font-weight: 700; }
-#svg.k-goc .lbl.road-name.ten-1963, #svg.k-gon .lbl.road-name.ten-1963 { fill: #1c3f8a; stroke: #fffdf6; }
 .lbl.diem-1963 { fill: #5a3410; font-weight: 700; text-anchor: start; }
+.lbl.ap63 { fill: #6b5a43; font-weight: 600; letter-spacing: .12em; text-anchor: middle; font-style: italic; }
 .sw.road63 { background: #f2d59a; border-color: #7a5230; border-width: 2px; }
-.sw.nen63 { background: linear-gradient(135deg, #cfe3b8 0 50%, #e9dcc0 50%); border-color: #9a7a58; }
-.sw.chu63 { background: #1c3f8a; border-color: #1c3f8a; }
 .sw.nha63 { background: #9b7a58; border-color: #9b7a58; }
-.sw.chu63n { background: #5a3410; border-color: #5a3410; }
+.sw.rung63 { background: #cfe3b5; border-color: #9bbf86; }
+.lbl.rung63-ten { fill: #4f7a3a; font-style: italic; font-weight: 600; }

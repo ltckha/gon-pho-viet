@@ -100,10 +100,17 @@
       crumb: [['Việt Nam', ''], ['Lâm Đồng', 'lam-dong'], ['Đà Lạt', 'da-lat']],
       context: { layer: 'lam-dong' },
       extra: { key: 'pho', file: 'data/lam-dong/da-lat/pho.json' },
-      nam1963: 'data/lam-dong/da-lat/ten_1963.json',   // nút Nay ↔ 1963
-      nen1963: 'data/lam-dong/da-lat/nen_1963.json',   // nền bản đồ 1963 gốc (một vùng)
+      sang: ['Xem Đà Lạt 1963', 'da-lat-1963'],        // nút sang bản đồ 1963
       legend: [['pin', 'Phố đã nghiên cứu'], ['road', 'Đường thật (OpenStreetMap)'], ['water', 'Hồ']],
       card: cardPho
+    },
+    // Đà Lạt 1963: vẽ lại hoàn toàn từ bản đồ AMS L909 Đà Lạt 1:12.500 (tools/dung_1963.py) — không hiện gì của hiện tại
+    'da-lat-1963': {
+      kind: 'duong', y1963: true, file: 'data/lam-dong/da-lat/1963.json', prec: 5,
+      crumb: [['Việt Nam', ''], ['Lâm Đồng', 'lam-dong'], ['Đà Lạt', 'da-lat'], ['1963', 'da-lat-1963']],
+      sang: ['Về Đà Lạt hôm nay', 'da-lat'],
+      legend: [['road63', 'Đường năm 1963'], ['nha63', 'Nhà'], ['rung63', 'Rừng'], ['water', 'Hồ']],
+      card: function () { return ''; }
     }
   };
 
@@ -219,11 +226,11 @@
       return true;
     }
     // ghim trước (quan trọng nhất): chỗ của mọi ghim, rồi mới tới chữ. Chế độ 1963 ẩn ghim, nhường chỗ cho tên đường xưa.
-    (nam63 ? [] : pins).forEach(function (g) {
+    pins.forEach(function (g) {
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
       boxes.push({ x0: sx - 11, x1: sx + 11, y0: sy - 28, y1: sy });
     });
-    (nam63 ? [] : pins).forEach(function (g) {
+    pins.forEach(function (g) {
       if (g._fixed) return;
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
       var w = g._n * 13 * 0.6 + 6, lb = g.lastChild;
@@ -348,109 +355,117 @@
     });
     pinsRoot.textContent = '';
     pinsRoot.appendChild(pinLayer);
-    lblNay = roadLbl; pointNay = pointLbl;
-    if (cache.ten1963) build63();
-    if (nam63) setNam(nam63);
     bounds = { minX: minX, minY: minY, maxX: maxX, maxY: maxY };
     fitAll();
   }
 
-  /* ---------- Nay ↔ 1963 (tầng đường Đà Lạt) ----------
-     Tên đường năm 1963 theo bảng chỉ dẫn của bản đồ Đà Lạt 1:12.500 quân đội Mỹ (AMS L909), dò từng số
-     (tools/build_1963.py). Mỗi tên chỉ gắn đoạn quanh vị trí số trên bản đồ, chỗ không chắc để trống.
-     Ba kiểu nền đang thử (anh Kha so sánh), mới có vùng quanh Hồ Xuân Hương (tools/nen_1963.py, tools/lam_gon_1963.py):
-       'goc' — chính tờ bản đồ 1963;
-       'gon' — cách 1: bản gốc bỏ đường đồng mức, lưới, vòng số; cây, hồ thành mảng màu nhạt;
-       've'  — cách 2: vẽ lại phẳng (cây, hồ, khối nhà) + những đường hôm nay đã có năm 1963 vẽ bằng nét.
-     Cả ba: ẩn ghim phố, tên đường nay; tên 1963 chạy dọc đường. */
-  var nam63 = false, lblNay = [], lbl63 = [], pointNay = [], diem63 = [];
-  var namBox = document.getElementById('namBox'), namNote = document.getElementById('namNote');
-  function build63() {
-    var d = cache.ten1963, nen = cache.nen1963, defs = land.querySelector('defs');
-    if (!d || !defs) return;
-    if (nen) {
-      [['goc', nen.anh], ['gon', nen.anh_gon], ['ve', nen.anh_ve]].forEach(function (k) {
-        if (!k[1]) return;
-        var gi = el('g', { 'class': 'nen-1963 nen-' + k[0], transform: 'matrix(' + nen.matrix.join(' ') + ')' });
-        gi.appendChild(el('image', { href: k[1], width: nen.w, height: nen.h, preserveAspectRatio: 'none' }));
-        land.appendChild(gi);
-      });
-      // cách 2: đường hôm nay đã có năm 1963, vẽ bằng nét trên nền phẳng
-      var cu = {}, gv = el('g', { 'class': 'duong-cu vien' }), gr = el('g', { 'class': 'duong-cu ruot' });
-      (nen.duong_cu || []).forEach(function (id) { cu[id] = 1; });
-      data.duong.forEach(function (r) {
-        if (!cu[r.id]) return;
-        gv.appendChild(el('path', { d: lineOf(r.pts), 'class': 'r' + r.loai }));
-        gr.appendChild(el('path', { d: lineOf(r.pts), 'class': 'r' + r.loai }));
-      });
-      land.appendChild(gv); land.appendChild(gr);
+  /* ---------- Đà Lạt 1963 (tầng riêng) ----------
+     Mọi nét lấy từ bản đồ quân đội Mỹ AMS L909 Đà Lạt 1:12.500 năm 1963 (tools/dung_1963.py): đường (tâm khe giữa hai mép in),
+     hồ, rừng, nhà; tên đường theo bảng chỉ dẫn in trên bản đồ. Anh Kha chốt 26/11: không ghép gì của hiện tại. */
+  var tim63 = document.getElementById('tim63'), timKq = document.getElementById('timKq');
+  function draw1963() {
+    var k = data.khung, ox = k[0], oy = k[1];
+    var minLen = { 1: 90, 2: 90, 3: 110, 4: 130 }, showAt = { 1: 1.4, 2: 1.8, 3: 2.6, 4: 4 };
+    function poly(list, cls) {
+      var g = el('g', { 'class': cls }), d = '';
+      list.forEach(function (p) { d += lineOf(p) + 'Z'; });
+      g.appendChild(el('path', { d: d }));
+      land.appendChild(g);
     }
-    var g = el('g', {});
-    lbl63 = []; diem63 = [];
-    d.duong.forEach(function (r, i) {
+    land.appendChild(el('rect', { x: px(k[0]), y: py(k[3]), width: px(k[2]) - px(k[0]), height: py(k[1]) - py(k[3]), 'class': 'giay63' }));
+    poly(data.rung, 'rung63');
+    poly(data.nuoc, 'water nuoc63');
+    var dn = '';
+    data.nha.forEach(function (f) {
+      var x = f[0], y = f[1];
+      dn += 'M' + px(ox + x / 1e5).toFixed(5) + ' ' + py(oy + y / 1e5).toFixed(5);
+      for (var i = 2; i < f.length; i += 2) { x += f[i]; y += f[i + 1]; dn += 'L' + px(ox + x / 1e5).toFixed(5) + ' ' + py(oy + y / 1e5).toFixed(5); }
+      dn += 'Z';
+    });
+    var gn = el('g', { 'class': 'nha63' }); gn.appendChild(el('path', { d: dn })); land.appendChild(gn);
+    var roads = data.duong.slice().sort(function (a, b) { return b.loai - a.loai; });
+    var casing = el('g', { 'class': 'road-casing duong63' }), fill = el('g', { 'class': 'road-fill duong63' });
+    roads.forEach(function (r) {
+      var d = lineOf(r.pts);
+      casing.appendChild(el('path', { d: d, 'class': 'r' + r.loai }));
+      fill.appendChild(el('path', { d: d, 'class': 'r' + r.loai }));
+    });
+    land.appendChild(casing); land.appendChild(fill);
+    var hl = el('g', { id: 'hl63', 'class': 'hl63' }); land.appendChild(hl);
+    var defs = el('defs', {}); land.appendChild(defs);
+    var roadLabels = el('g', {}); labels.appendChild(roadLabels);
+    roadLbl = []; pointLbl = [];
+    data.ten_duong.forEach(function (r, i) {
+      var ten = r.ten.replace(/^(Đường|Phố) /, '');
+      if (meters(r.pts) < 60) return;
       var sm = smooth(r.pts, 3), id = 'n63_' + i;
-      var pe = el('path', { id: id, d: lineOf(sm) });
-      defs.appendChild(pe);
+      if (maxTurn(smooth(r.pts, 1)) > 60) return;
+      var pe = el('path', { id: id, d: lineOf(sm) }); defs.appendChild(pe);
       var L = pe.getTotalLength();
       if (pe.getPointAtLength(L * 0.6).x < pe.getPointAtLength(L * 0.4).x) pe.setAttribute('d', lineOf(sm.slice().reverse()));
       var t = el('text', { 'class': 'lbl road-name ten-1963', dy: '0.35em', hidden: '' });
-      var ten = r.ten.replace(/^(Đường|Phố) /, '');     // tên nay cũng không ghi "Đường"; giữ "Đại lộ", "Công trường"
       t.appendChild(el('textPath', { href: '#' + id, startOffset: '50%' }, ten));
-      g.appendChild(t);
+      roadLabels.appendChild(t);
       var m = pe.getPointAtLength(L / 2);
-      lbl63.push({ el: t, len: L, x: m.x, y: m.y, n: ten.length, minZ: 1.6, rank: 0 });
+      roadLbl.push({ el: t, len: L, x: m.x, y: m.y, n: ten.length, minZ: 1.3, rank: /^(Đại lộ|Công trường)/.test(r.ten) ? 1 : 2 });
     });
-    d.diem.forEach(function (p) {
-      var t = el('text', { x: px(p.lon), y: py(p.lat), 'class': 'lbl diem-1963', hidden: '' }, '◆ ' + p.ten);
-      g.appendChild(t);
-      diem63.push({ el: t, x: px(p.lon), y: py(p.lat), n: p.ten.length + 2, minZ: 2.5, mid: false });
+    // tên ấp, khu, hồ, rừng in trên bản đồ (chép tay) + quảng trường trong bảng chỉ dẫn
+    var CLS = { ap: 'ap63', ho: 'sea', rung: 'rung63-ten' }, MINZ = { ap: 0, ho: 1.2, rung: 1.8 };
+    (data.dia_danh || []).concat(data.diem || []).forEach(function (p) {
+      var c = CLS[p.loai], mid = !!c;
+      var t = el('text', { x: px(p.lon), y: py(p.lat), 'class': 'lbl ' + (c || 'diem-1963'), hidden: '' }, mid ? p.ten : '◆ ' + p.ten);
+      labels.appendChild(t);
+      pointLbl.push({ el: t, x: px(p.lon), y: py(p.lat), n: p.ten.length + 2, minZ: p.loai in MINZ ? MINZ[p.loai] : 2.5, mid: mid });
     });
-    labels.insertBefore(g, labels.firstChild);
+    pins = []; pinsRoot.textContent = '';
+    bounds = { minX: px(k[0]), maxX: px(k[2]), minY: py(k[3]), maxY: py(k[1]) };
+    fitAll();
   }
-  var daPhong63 = false;
-  function setNam(mode) {
-    nam63 = mode === 'nay' ? false : mode;
-    var on = !!nam63, d = cache.ten1963, nen = cache.nen1963;
-    svg.classList.toggle('y1963', on);
-    ['goc', 'gon', 've'].forEach(function (k) { svg.classList.toggle('k-' + k, nam63 === k); });
-    namNote.hidden = !on;
-    if (on && d) {
-      namNote.innerHTML = { goc: 'Bản đồ Đà Lạt 1963 nguyên gốc', gon: 'Cách 1: bản gốc, bỏ bớt chỗ rối', ve: 'Cách 2: vẽ lại theo bản gốc' }[nam63] +
-        ' · mới có vùng quanh Hồ Xuân Hương · <a href="' + esc(d.nguon.link_2) + '" target="_blank" rel="noopener">nguồn</a>';
-    }
-    document.getElementById('lichBtn').hidden = on || !layer || layer.kind !== 'duong';
-    [].forEach.call(namBox.querySelectorAll('button'), function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-nam') === mode)); });
-    (on ? lblNay.concat(pointNay) : lbl63.concat(diem63)).forEach(function (L) { L.el.setAttribute('hidden', ''); });
-    roadLbl = on ? lbl63 : lblNay;
-    pointLbl = on ? diem63 : pointNay;
-    veLegend(!on ? layer.legend : nam63 === 've' ?
-      [['road63', 'Đường đã có năm 1963'], ['nha63', 'Nhà năm 1963'], ['chu63n', 'Tên đường năm 1963']] :
-      [['nen63', 'Nền: bản đồ quân đội Mỹ 1963'], ['chu63', 'Tên đường năm 1963']]);
-    if (on && !daPhong63 && nen) {          // lần đầu: phóng vào vùng quanh Hồ Xuân Hương để so sánh
-      daPhong63 = true;
-      var k = nen.khung;
-      zoomTo({ minX: px(k[0]), maxX: px(k[2]), minY: py(k[3]), maxY: py(k[1]) });
-    }
-    queueLayout();
-  }
-  namBox.addEventListener('click', function (e) {
-    var b = e.target.closest('button');
-    if (!b || !layer || !layer.nam1963) return;
-    var mode = b.getAttribute('data-nam');
-    if (mode === 'nay' || cache.ten1963) { setNam(mode); return; }
-    function get(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
-    Promise.all([get(layer.nam1963), get(layer.nen1963).catch(function () { return null; })]).then(function (x) {
-      cache.ten1963 = x[0]; cache.nen1963 = x[1]; build63(); setNam(mode);
-    }).catch(function () {
-      namNote.hidden = false; namNote.textContent = 'Chưa tải được tên đường 1963, thử lại sau.';
+  // tìm tên đường: gõ tên năm 1963 hoặc tên nay → chạy tới, tô sáng đúng các đoạn
+  function boDau(s) { return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase(); }
+  function timDuong() {
+    var q = boDau(tim63.value.trim());
+    timKq.textContent = '';
+    if (q.length < 2 || !data || !layer.y1963) { timKq.hidden = true; return; }
+    var seen = {}, kq = [];
+    data.ten_duong.forEach(function (r) {
+      if (seen[r.ten]) return;
+      if (boDau(r.ten).indexOf(q) >= 0 || boDau(r.nay || '').indexOf(q) >= 0) { seen[r.ten] = 1; kq.push(r); }
     });
-  });
+    kq.slice(0, 6).forEach(function (r) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.innerHTML = '<b>' + esc(r.ten) + '</b><span>nay: ' + esc(r.nay || '—') + '</span>';
+      b.addEventListener('click', function () { denDuong(r.ten); });
+      timKq.appendChild(b);
+    });
+    if (!kq.length) timKq.innerHTML = '<p>Không có tên này trên bản đồ 1963 (hoặc em chưa dò được).</p>';
+    timKq.hidden = false;
+  }
+  function denDuong(ten) {
+    var hl = document.getElementById('hl63'), b = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity }, d = '';
+    data.ten_duong.forEach(function (r) {
+      if (r.ten !== ten) return;
+      d += lineOf(r.pts);
+      r.pts.forEach(function (p) {
+        var x = px(p[0]), y = py(p[1]);
+        b.minX = Math.min(b.minX, x); b.maxX = Math.max(b.maxX, x); b.minY = Math.min(b.minY, y); b.maxY = Math.max(b.maxY, y);
+      });
+    });
+    hl.textContent = ''; hl.appendChild(el('path', { d: d }));
+    timKq.hidden = true; tim63.blur();
+    var pad = 0.003 * K;
+    zoomTo({ minX: b.minX - pad, maxX: b.maxX + pad, minY: b.minY - pad, maxY: b.maxY + pad });
+  }
+  tim63.addEventListener('input', timDuong);
+  tim63.addEventListener('keydown', function (e) { if (e.key === 'Enter') { var f = timKq.querySelector('button'); if (f) f.click(); } });
 
   function draw() {
     land.textContent = '';
     labels.textContent = '';
     pinsRoot.textContent = '';
     pins = []; roadLbl = []; pointLbl = []; mocs = [];
+    if (layer.y1963) return draw1963();
     if (layer.kind === 'duong') return drawStreets();
     var top = [];
     var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
@@ -1214,6 +1229,7 @@
     zoomTo(bx);
   }
   document.getElementById('lichBtn').addEventListener('click', moLich);
+  document.getElementById('sangBtn').addEventListener('click', function () { location.hash = this.getAttribute('data-go'); });
 
   function closeSheet(giuDiaChi) {
     sheet.classList.remove('full');
@@ -1245,9 +1261,12 @@
       return '<li>' + esc(n.ten) + '<br><a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.link) + '</a></li>';
     }).join('');
     document.getElementById('lichBtn').hidden = layer.kind !== 'duong';
-    namBox.hidden = !layer.nam1963;
-    if (!layer.nam1963 && nam63) { nam63 = false; svg.classList.remove('y1963', 'goc'); namNote.hidden = true; }
-    if (nam63) document.getElementById('lichBtn').hidden = true;
+    var sang = document.getElementById('sangBtn');
+    sang.hidden = !layer.sang;
+    if (layer.sang) { sang.textContent = layer.sang[0]; sang.setAttribute('data-go', layer.sang[1]); }
+    svg.classList.toggle('y63', !!layer.y1963);
+    document.getElementById('timBox').hidden = !layer.y1963;
+    if (layer.y1963) { document.getElementById('lichBtn').hidden = true; tim63.value = ''; timKq.hidden = true; }
     var name = layer.crumb[layer.crumb.length - 1][0];
     svg.setAttribute('aria-label', name === 'Việt Nam' ? 'Bản đồ 34 tỉnh, thành phố Việt Nam' : 'Bản đồ xã, phường tỉnh ' + name);
   }

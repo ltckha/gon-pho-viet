@@ -1,0 +1,165 @@
+{
+ "road": "Hoa Hồng",
+ "duong": [
+  "Hoa Hồng"
+ ],
+ "ten_osm": [
+  "Hoa Hồng"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020 (hết hiệu lực 01/01/2026) trên thuviennhadat ghi 'Khu du lịch hồ Tuyền Lâm - PHƯỜNG 4: Đường chính nhánh phải (đoạn đã trải nhựa) từ Trần Thánh Tông … đến công ty Cổ phần Sao Đà Lạt' — Sao Đà Lạt (Dalat Star) là khu du lịch có Đường hầm điêu khắc (Báo Pháp Luật 2020, OSM 'Clay Tunnels - Dalat Star'). NQ 1671 mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt. Điểm OSM node/4368051989 nằm trong vùng phường Xuân Hương - Đà Lạt của phuong.json; Nominatim cũng ghi Phường Xuân Hương - Đà Lạt. Đường gần nhất trong duong.json: Hoa Hồng (cách điểm khoảng 54 m), kế đó Hoa Tường Vi (~770 m), Hoa Phượng Tím (~930 m).",
+ "doan": [
+  {
+   "doan": "Khu du lịch hồ Tuyền Lâm, nhánh phải: từ Trần Thánh Tông đến công ty Cổ phần Sao Đà Lạt (Đường hầm điêu khắc)",
+   "phuong_cu": "Phường 4",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-du-lich-ho-tuyen-lam-phuong-4"
+  },
+  {
+   "doan": "Khu du lịch hồ Tuyền Lâm, nhánh trái: từ Trúc Lâm Yên Tử đến dự án Đá Tiên (công ty cổ phần Phương Nam)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-du-lich-ho-tuyen-lam-nhanh-trai-phuong-3"
+  }
+ ],
+ "ten_pho": "Đường hầm đất sét",
+ "gioi_thieu": "Đường hầm đất sét: hầm lộ thiên đắp bằng đất đỏ bazan không nung bên hồ Tuyền Lâm, bắt đầu làm năm 2010, dài khoảng 1,2 km theo báo năm 2014, hai bên vách tái hiện Đà Lạt từ thời Yersin tới nay; ngôi nhà đất sét cạnh hầm có 2 kỷ lục Việt Nam.",
+ "dia_diem": [
+  {
+   "ten": "Đường hầm điêu khắc (Đường hầm đất sét, Clay Tunnels - Dalat Star)",
+   "loai": "điểm tham quan, hầm điêu khắc đất sét lộ thiên",
+   "dac_trung": "Hầm lộ thiên đào giữa đồi thông, rộng 2–10 m, sâu 1–9 m; đào và chuyển khoảng 50.000 m³ đất (VnExpress 2014, Zing 2014, Đại Đoàn Kết 2016). Hai vách đắp nổi lịch sử Đà Lạt: nhà dài, đời sống người Cơ Ho, voi, ga xe lửa, Viện Pasteur, nhà thờ Con Gà, chợ Đà Lạt, Lycée Yersin, khách sạn Palace, cả bản nhạc 'Ai lên xứ hoa đào'; phần Đà Lạt hôm nay có sân bay Liên Khương, Thung lũng Tình Yêu, hồ Tuyền Lâm.",
+   "dia_chi": "khu du lịch Sao Đà Lạt (Dalat Star), hồ Tuyền Lâm, phường Xuân Hương - Đà Lạt (Phường 4 cũ)",
+   "duong": "Hoa Hồng",
+   "so_nha": "",
+   "nguon": [
+    "https://vnexpress.net/cong-trinh-dieu-khac-dat-set-o-da-lat-3038274.html",
+    "https://znews.vn/can-canh-nha-dat-set-duong-ham-dieu-khac-doc-dao-tai-da-lat-post475603.html",
+    "https://daidoanket.vn/lang-dat-set-10046325.html",
+    "https://en.sggp.org.vn/artist-creates-clay-replicas-of-buildings-by-da-lat-lake-post7042.html",
+    "https://dtinews.dantri.com.vn/print/20140404141122937.htm",
+    "https://www.openstreetmap.org/node/4368051989"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu mở: mia 07/07/2026 và VinWonders 17/12/2025 còn hướng dẫn tham quan.",
+   "ghi_chu": "Chiều dài lệch: 1,2 km (VnExpress, Zing, SGGP, DTiNews 2014, Đại Đoàn Kết) / 'hơn 2 km' (mia, VinWonders 2025–2026). Độ sâu: 1–9 m (VnExpress) / sâu nhất 12 m (DTiNews 2014). Danh hiệu 'dài nhất thế giới' chỉ là lời quảng bá trên trang du lịch, không có văn bản công nhận → không dùng.",
+   "vi_tri": {
+    "lon": 108.4112222,
+    "lat": 11.8828709,
+    "cach": "Nominatim: tên OSM 'Đường hầm điêu khắc' (name:en 'Clay Tunnels - Dalat Star')",
+    "osm": "node/4368051989"
+   }
+  },
+  {
+   "ten": "Ngôi nhà đất sét (nhà đất đỏ bazan không nung)",
+   "loai": "nhà đất sét, công trình kỷ lục Việt Nam",
+   "dac_trung": "Nhà làm hoàn toàn bằng đất đỏ bazan không nung, nhìn ra hồ; mái đắp nổi bản đồ Việt Nam có Hoàng Sa, Trường Sa; đồ đạc (bồn tắm, lavabo, bàn ghế) cũng bằng đất. Trung tâm Sách Kỷ lục Việt Nam ghi 2 kỷ lục: nhà đất đỏ bazan không nung đầu tiên và có phong cách độc đáo nhất; nhà có mái đắp nổi bản đồ Việt Nam đầu tiên và lớn nhất.",
+   "dia_chi": "cạnh Đường hầm điêu khắc, khu du lịch Sao Đà Lạt, hồ Tuyền Lâm",
+   "duong": "Hoa Hồng",
+   "so_nha": "",
+   "nguon": [
+    "https://vnexpress.net/cong-trinh-dieu-khac-dat-set-o-da-lat-3038274.html",
+    "https://daidoanket.vn/lang-dat-set-10046325.html",
+    "https://doanhnhan.baophapluat.vn/ngoi-nha-dat-do-bazan-doc-dao-nhat-viet-nam-34488.html",
+    "https://e.vnexpress.net/news/travel/places/mud-house-attracts-curiosity-seekers-in-da-lat-4182320.html",
+    "https://znews.vn/can-canh-nha-dat-set-duong-ham-dieu-khac-doc-dao-tai-da-lat-post475603.html",
+    "https://en.sggp.org.vn/artist-creates-clay-replicas-of-buildings-by-da-lat-lake-post7042.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "có dấu hiệu (mia 2026 còn nhắc).",
+   "ghi_chu": "Diện tích lệch: khoảng 90 m² (VnExpress 2014, DTiNews 2014), gần 100 m² (Zing 2014, Đại Đoàn Kết 2016), 150 m² (DTiNews 2015) → không ghi số. mia nói có hai nhà đất sét. Chưa có điểm riêng trên OSM.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Hồ Vô Cực (Infinity lake)",
+   "loai": "hồ nhỏ, điểm chụp ảnh",
+   "dac_trung": "Hồ nhỏ trong khuôn viên Đường hầm điêu khắc, mặt nước như nối liền trời; giữa hồ có hai bức tượng (mia gọi là K'Lang và H'Biang).",
+   "dia_chi": "trong khu du lịch Sao Đà Lạt, cách điểm Đường hầm điêu khắc khoảng 160 m (theo OSM)",
+   "duong": "Hoa Hồng",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/duong-ham-dieu-khac-19769",
+    "https://vinwonders.com/vi/wonderpedia/news/duong-ham-dieu-khac/",
+    "https://www.openstreetmap.org/node/12646957834",
+    "https://baomoi.com/ngoai-ho-vo-cuc-duong-ham-dat-set-da-lat-con-goc-check-in-nao-c33178458.epi"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "có dấu hiệu (mia 07/2026).",
+   "ghi_chu": "Chỉ có trang du lịch (mia, VinWonders) và OSM; Tri thức (qua Báo Mới) chỉ đọc được tiêu đề. Tên hai tượng K'Lang – H'Biang: chỉ mia. Chưa rõ năm làm hồ.",
+   "vi_tri": {
+    "lon": 108.40997,
+    "lat": 11.88362,
+    "cach": "tên trên OpenStreetMap: Infinity lake (tourism=attraction)",
+    "osm": "node/12646957834"
+   }
+  },
+  {
+   "ten": "Khu du lịch Đá Tiên",
+   "loai": "khu du lịch rừng thông ven hồ",
+   "dac_trung": "Khu du lịch bên bờ hồ Tuyền Lâm, cuối nhánh trái của khu du lịch hồ (đường từ Trúc Lâm Yên Tử tới 'dự án Đá Tiên - công ty cổ phần Phương Nam' trong bảng giá đất); trang du lịch ghi khoảng 15 ha rừng thông, có cưỡi voi.",
+   "dia_chi": "bờ hồ Tuyền Lâm, Phường 3 cũ, nay Xuân Hương - Đà Lạt; cách Đường hầm điêu khắc khoảng 700 m chim bay (theo OSM)",
+   "duong": "Hoa Hồng",
+   "so_nha": "",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-du-lich-ho-tuyen-lam-nhanh-trai-phuong-3",
+    "https://mia.vn/cam-nang-du-lich/khu-du-lich-da-tien-da-lat-canh-sac-hoang-so-thien-nhien-huu-tinh-1536",
+    "https://www.openstreetmap.org/node/4926652121"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ.",
+   "ghi_chu": "Diện tích 15 ha chỉ mia ghi → không đưa lên trang. Chưa tìm được báo viết về lịch sử khu. Đường trong duong.json gần nhất: Hoa Hồng / Hoa Tường Vi (chưa đo kỹ đường vào).",
+   "vi_tri": {
+    "lon": 108.4178,
+    "lat": 11.88297,
+    "cach": "tên trên OpenStreetMap: KDL Đá Tiên (leisure=park)",
+    "osm": "node/4926652121"
+   }
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Reo 20° Chill in Dalat / Reo Có Gì",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13057480901"
+   ],
+   "ly_do": "chỉ OSM; quán/điểm chụp ảnh mới, cách hầm khoảng 600 m về phía bắc."
+  },
+  {
+   "ten": "Modern castle's ruin",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13057481001"
+   ],
+   "ly_do": "chỉ OSM, tên tiếng Anh, không rõ là gì."
+  },
+  {
+   "ten": "Nhà hàng Đất Sét, Sơn Lâm Quán (trong khu)",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/duong-ham-dieu-khac/"
+   ],
+   "ly_do": "chỉ VinWonders; lại là quán, không bày theo hướng trang."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-du-lich-ho-tuyen-lam-phuong-4",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-du-lich-ho-tuyen-lam-nhanh-trai-phuong-3",
+  "data/lam-dong/nq1671.json (mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json (Hoa Hồng, way 220068811)",
+  "https://www.openstreetmap.org/node/4368051989",
+  "https://vnexpress.net/cong-trinh-dieu-khac-dat-set-o-da-lat-3038274.html",
+  "https://znews.vn/can-canh-nha-dat-set-duong-ham-dieu-khac-doc-dao-tai-da-lat-post475603.html",
+  "https://daidoanket.vn/lang-dat-set-10046325.html"
+ ],
+ "ghi_chu": "Trang truc-lam đã có mục 'Đường hầm điêu khắc' và có Hoa Hồng trong danh sách đường; nơi này là loại 'diem' nên không tô đường, nhưng cần quyết bỏ mục đó khỏi truc-lam hay giữ (tránh trùng).",
+ "cap_nhat": "2026-11-26"
+}

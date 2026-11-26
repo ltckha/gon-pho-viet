@@ -1,0 +1,271 @@
+{
+ "road": "Đèo Prenn",
+ "duong": [
+  "Đèo Prenn",
+  "Quốc lộ 20",
+  "Đèo Mimosa"
+ ],
+ "ten_osm": [
+  "Đèo Prenn",
+  "Quốc lộ 20",
+  "Đèo Mimosa"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Thác và gần trọn đèo Prenn thuộc Phường 3 cũ (bảng giá đất QĐ 02/2020 trên thuviennhadat: 'Đèo Prenn - PHƯỜNG 3', hai đoạn từ ngã ba Ba Tháng Tư – Đống Đa tới ngã ba Mimosa – Prenn và từ đó tới Cầu Prenn); đèo Mimosa thuộc Phường 10 cũ. NQ 1671 mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt. SGGP 08/10/2026 và Wikipedia ghi thác Prenn ở phường Xuân Hương - Đà Lạt; Nominatim và ranh phuong.json cũng ra Xuân Hương cho điểm thác (node/4096525696). Lưu ý ranh: chỉ vài trăm mét về phía nam là xã Hiệp Thạnh (đất Đức Trọng cũ). Theo phuong.json, đoạn Quốc lộ 20 / cao tốc Liên Khương – Prenn ngay dưới chân đèo (vd 108.4681, 11.8744) và 2/18 điểm của khung 'Khu du lịch Prenn' trên OSM (ghi 'Approx boundary') rơi vào Hiệp Thạnh; Báo Văn hóa 2024 cũng ghi cả huyện Đức Trọng xử lý công trình sai phép ở khu thác → khu du lịch có phần nằm bên Đức Trọng cũ (xã cũ nào: chưa rõ).",
+ "doan": [
+  {
+   "doan": "Đèo Prenn: ngã ba Ba Tháng Tư – Đống Đa đến ngã ba Mimosa – Prenn",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/deo-prenn-phuong-3"
+  },
+  {
+   "doan": "Đèo Prenn: ngã ba Mimosa – Prenn đến Cầu Prenn (sát thác)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/deo-prenn-phuong-3"
+  },
+  {
+   "doan": "Mimosa: từ Chùa Tàu đến ngã ba Mimosa – Prenn",
+   "phuong_cu": "Phường 10",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mimosa-phuong-10"
+  },
+  {
+   "doan": "Thác Prenn (điểm thác)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+   "ghi_chu": "mia ghi 'Phường 3'; SGGP 2026, Wikipedia ghi 'Xuân Hương - Đà Lạt'."
+  },
+  {
+   "doan": "Quốc lộ 20 / cao tốc Liên Khương – Prenn ngay dưới chân đèo, mép nam khu du lịch",
+   "phuong_cu": "chưa rõ (Đức Trọng cũ)",
+   "phuong_moi": "Hiệp Thạnh",
+   "do_chac": "khá chắc",
+   "nguon": "data/lam-dong/phuong.json",
+   "ghi_chu": "chỉ theo ranh phuong.json và Báo Văn hóa 2024 (huyện Đức Trọng cùng xử lý vi phạm ở khu thác). Không thuộc nơi này."
+  }
+ ],
+ "ten_pho": "Thác Prenn",
+ "gioi_thieu": "Thác Prenn: thác nước dưới chân đèo Prenn, cửa ngõ phía nam Đà Lạt, cách trung tâm khoảng 10 km; con đèo hiện nay do người Pháp làm từ năm 1943 thay con đường cũ đi từ thác lên phố (nay là đèo Mimosa), thác là thắng cảnh quốc gia từ năm 1998, và đèo được mở rộng lên 4 làn xe đầu năm 2024.",
+ "gioi_thieu_nguon": {
+  "khoảng 10 km": [
+   "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+   "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+   "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html",
+   "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html"
+  ],
+  "1943, thay đường cũ từ thác": [
+   "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+   "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400",
+   "https://dtinews.dantri.com.vn/print/20231204113308107.htm",
+   "https://vinwonders.com/vi/wonderpedia/news/deo-prenn-da-lat/"
+  ],
+  "đường cũ nay là đèo Mimosa": [
+   "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+   "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400"
+  ],
+  "thắng cảnh quốc gia 1998": [
+   "https://baovanhoa.vn/van-hoa/lam-dong-xu-ly-nghiem-xay-dung-trai-phep-tai-thang-canh-quoc-gia-thac-prenn-34495.html",
+   "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html"
+  ],
+  "4 làn, thông xe 31/1/2024": [
+   "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
+   "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html"
+  ]
+ },
+ "dia_diem": [
+  {
+   "ten": "Thác Prenn",
+   "loai": "thác nước, thắng cảnh quốc gia",
+   "dac_trung": "Thác ngay chân đèo Prenn, nước đổ từ vách đá chồm ra phía trước, có lối đi phía sau màn nước. Người K'Ho gọi 'Prềnh' (cà đắng), cũng có thuyết cho là gốc tiếng Chăm nghĩa 'vùng lấn chiếm'; có du khách gọi thác Tiên Sa. Được công nhận thắng cảnh quốc gia năm 1998 (Báo Văn hóa 2024, vietnamnet 2016; Wikipedia ghi năm 2000). Do Công ty CP Dịch vụ Du lịch Đà Lạt quản lý.",
+   "dia_chi": "chân đèo Prenn, cạnh Quốc lộ 20 / cao tốc Liên Khương – Prenn, phường Xuân Hương - Đà Lạt",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+    "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+    "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html",
+    "https://baovanhoa.vn/van-hoa/lam-dong-xu-ly-nghiem-xay-dung-trai-phep-tai-thang-canh-quoc-gia-thac-prenn-34495.html",
+    "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465",
+    "https://www.openstreetmap.org/node/4096525696"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở (SGGP 08/10/2026: khu du lịch đông khách cuối tuần).",
+   "ghi_chu": "Chiều cao lệch: 'hơn 10 m' (SGGP 2026, vinwonders), 'gần 10 m' (mia), Wikipedia ghi cả 'hơn 20 m' lẫn 'gần 10 m' → không ghi số. Suối chảy qua thác trên OSM tên 'Đa Prenn' (way/1239025883). Cách Chợ Đà Lạt khoảng 8,2 km đường chim bay (theo OSM); báo ghi khoảng 10 km (đường đi). Năm thác thành khu du lịch: chưa rõ.",
+   "vi_tri": {
+    "lon": 108.470104,
+    "lat": 11.876519,
+    "cach": "tên trên OpenStreetMap: Thác Prenn",
+    "osm": "node/4096525696",
+    "nguon": "OSM node/4096525696 (waterway=waterfall, tra qua Nominatim 26/11/2026)"
+   }
+  },
+  {
+   "ten": "Đèo Prenn",
+   "loai": "đèo, cửa ngõ phía nam Đà Lạt",
+   "dac_trung": "Đèo dài khoảng 7,4 km từ cuối cao tốc Liên Khương – Prenn lên đầu đường Ba Tháng Tư. Nhà thầu Gross của Pháp làm từ tháng 2/1943, thay con đường cũ từ thác Prenn vào trung tâm; 79 khúc cua. Cuối 2016 thôi là quốc lộ, giao tỉnh Lâm Đồng quản lý. Mở rộng từ 2 lên 4 làn: khởi công 10/2/2023, thông xe toàn tuyến 31/1/2024.",
+   "dia_chi": "phường Xuân Hương - Đà Lạt",
+   "duong": "Đèo Prenn",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+    "https://dtinews.dantri.com.vn/print/20231204113308107.htm",
+    "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400",
+    "https://vinwonders.com/vi/wonderpedia/news/deo-prenn-da-lat/",
+    "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
+    "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html",
+    "https://baodauthau.vn/cai-tao-duong-qua-deo-mimosa-theo-hinh-thuc-ppp-post19987.html",
+    "https://www.openstreetmap.org/way/1239534570"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đi được; cuối 2025 sạt lở phải đóng tạm (Thanh Tra 11/2025, DTiNews 12/2025).",
+   "ghi_chu": "Chiều dài lệch: 7,4 km (Wikipedia, Nhân Dân, Tiền Phong 7,36 km, DTiNews) / 11 km (VnExpress 2014, mia — có lẽ tính cả đoạn khác). Tổng vốn mở rộng lệch: 514 tỷ (VOV 2021, dự kiến) / 552 hoặc 522 tỷ (vietnamnet 2023, tự mâu thuẫn) / 553 tỷ (Nhân Dân) / 'trên 550 tỷ' (Tiền Phong) → không ghi. Năm làm xong đèo 1943: chưa rõ. Đèo Prenn cũng là đường của nơi 'Thiền viện Trúc Lâm' (data/pho/truc-lam.json).",
+   "vi_tri": {
+    "lon": 108.46186,
+    "lat": 11.889527,
+    "cach": "điểm trên đường OpenStreetMap: Đèo Prenn (giữa đèo)",
+    "osm": "way/1239534570",
+    "nguon": "OSM way/1239534570 (Nominatim)"
+   }
+  },
+  {
+   "ten": "Đèo Mimosa (con đường Prenn cũ)",
+   "loai": "đèo, đường cũ thời Pháp, nay là Quốc lộ 20",
+   "dac_trung": "Wikipedia và mia: đường lên Đà Lạt trước năm 1943 đi từ thác Prenn vào trung tâm; đầu những năm 2000 đường cũ được khôi phục chạy song song đèo Prenn, đặt tên đèo Mimosa (Wikipedia ghi xong năm 2002), VnExpress 2014 gọi là 'Prenn 2'. Tháng 11/2016 Thủ tướng cho chuyển đèo Mimosa (Km0 – Km10+796) thành quốc lộ, đèo Prenn giao tỉnh (Báo Đấu thầu).",
+   "dia_chi": "từ ngã ba Mimosa – Prenn (sát thác Prenn) lên Chùa Tàu, phường Xuân Hương - Đà Lạt",
+   "duong": "Đèo Mimosa",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+    "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400",
+    "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html",
+    "https://baodauthau.vn/cai-tao-duong-qua-deo-mimosa-theo-hinh-thuc-ppp-post19987.html",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mimosa-phuong-10",
+    "https://www.openstreetmap.org/way/1346631591"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "đi được; cuối 2025 sạt lở, có lúc ban bố tình huống khẩn cấp (theo các bài báo 11/2025 trong truc-lam).",
+   "ghi_chu": "Ý 'Mimosa chính là đường Prenn cũ' chỉ có Wikipedia (dẫn Địa chí Lâm Đồng 2001, Đường phố Đà Lạt 2003) và mia (có vẻ chép cùng gốc); năm mở đường cũ: chưa rõ. Mốc chuyển quốc lộ: Báo Đấu thầu 24/11/2016 + Wikipedia + mia → chắc.",
+   "vi_tri": {
+    "lon": 108.471329,
+    "lat": 11.880357,
+    "cach": "điểm trên đường OpenStreetMap: Đèo Mimosa (đoạn gần ngã ba Mimosa – Prenn)",
+    "osm": "way/1346631591",
+    "nguon": "OSM way/1346631591 (Nominatim)"
+   }
+  },
+  {
+   "ten": "Đền thờ Âu Lạc (khu thác Prenn)",
+   "loai": "đền thờ Hùng Vương, Lạc Long Quân – Âu Cơ",
+   "dac_trung": "Quần thể đền Thượng, Trung, Hạ trên đồi nhìn xuống thác, mô phỏng Khu di tích Đền Hùng (Phú Thọ); trước đền có tượng Âu Cơ – Lạc Long Quân và 100 quả trứng chạm từ đá cuội Ninh Thuận. SGGP: khởi công 10/2001, hoạt động từ 1/2002, ngày 1/11/2002 rước bát nhang, đất, nước từ Phú Thọ về. Dịp giỗ Tổ 10/3 âm lịch có lễ hội (VOV 2024).",
+   "dia_chi": "trong Khu du lịch thác Prenn, phường Xuân Hương - Đà Lạt",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+    "https://vov.vn/van-hoa/gio-to-hung-vuong-o-thac-prenn-da-lat-thu-hut-nhieu-du-khach-post1089895.vov",
+    "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html",
+    "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở (VOV 18/4/2024 tả lễ giỗ Tổ; SGGP 10/2026).",
+   "ghi_chu": "Năm xây lệch: 2001–2002 (SGGP 2026, Wikipedia 2002) / 2003 (mia, vinwonders) / 'launched 10/3/2004' (vietnamnet EN 2016) → mốc dùng 2002. Không có điểm trên OSM → chưa có vị trí; không lấy Google Maps.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Biệt thự cổ trên đèo Prenn (\"nhà ma\")",
+   "loai": "biệt thự cũ, chuyện đồn",
+   "dac_trung": "Biệt thự cũ trên đỉnh đèo, nổi tiếng vì tin đồn ma. Người Lao Động (vietnamnet đăng lại, 2016) tả hai biệt thự giữa rừng, bỏ hoang lâu nên sinh đồn thổi; cán bộ Sở Xây dựng Lâm Đồng bác chuyện ma. Tháng 9/2014 một công ty mua lại từ Nhà nước, sửa sang. Kiến Thức 2018: nhà có người trông, là nhà tư, vào không xin phép có thể bị coi là xâm nhập.",
+   "dia_chi": "đỉnh đèo Prenn, có lối nhỏ khoảng 50 m nối ra đường (Kiến Thức 2018), phường Xuân Hương - Đà Lạt",
+   "duong": "Đèo Prenn",
+   "so_nha": "",
+   "nguon": [
+    "https://vietnamnet.vn/biet-thu-co-hon-da-lat-nha-ma-tren-deo-prenn-286325.html",
+    "https://kienthuc.net.vn/kho-tri-thuc/ngoi-nha-ma-tru-danh-da-lat-bay-gio-ra-sao-1088164.html"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ: nhà tư (2016, 2018); Foody có bình luận nói đã thành quán cà phê (1 nguồn).",
+   "ghi_chu": "Năm xây, chủ cũ lệch: thập niên 1920 cho một Hoa kiều / 1942 cho một người Pháp (cả hai do Kiến Thức kể lại); một trang du lịch ghi 1912 (chỉ thấy qua tóm tắt tìm kiếm) → không ghi năm. Ý Nhất Linh mua năm 1955: chỉ Kiến Thức. Không có trên OSM → chưa có vị trí.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Cao tốc Liên Khương – Prenn",
+   "loai": "đường cao tốc, đường tới",
+   "dac_trung": "Tuyến khoảng 19,2 km từ Liên Khương (sân bay) tới chân đèo Prenn, đưa vào dùng từng đoạn từ năm 2008, do Công ty TNHH Hùng Phát vận hành; thiếu đường gom dân sinh nên năm 2024 Lâm Đồng đề xuất làm thêm.",
+   "dia_chi": "từ Liên Khương (Đức Trọng cũ) tới chân đèo Prenn, cạnh thác Prenn",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://www.sggp.org.vn/gan-280-ty-dong-lam-duong-gom-dan-sinh-tuyen-cao-toc-lien-khuong-prenn-post755959.html",
+    "https://baodautu.vn/de-xuat-dau-tu-xay-dung-duong-gom-cao-toc-lien-khuong---prenn-d257992.html"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "đang dùng.",
+   "ghi_chu": "Hai bài (SGGP 27/08/2024, Báo Đầu tư 23/03/2025) cùng câu 'đưa vào sử dụng từng đoạn từ năm 2008', có lẽ chung gốc tin Sở GTVT. Gần trọn tuyến nằm ngoài Đà Lạt (xã Hiệp Thạnh, Đức Trọng cũ); trong duong.json chỉ có vài đoạn tên 'Quốc lộ 20' sát thác. Ngày khánh thành chính thức: chưa rõ.",
+   "vi_tri": null
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Cầu Prenn",
+   "duong": "Đèo Prenn",
+   "so_nha": "",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/deo-prenn-phuong-3"
+   ],
+   "ly_do": "chỉ thấy làm mốc cuối đoạn trong bảng giá đất; chưa có bài nào về cây cầu (năm xây…)."
+  },
+  {
+   "ten": "Vườn thú ở khu thác Prenn (có từ 1963?)",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/thac-prenn-da-lat/"
+   ],
+   "ly_do": "vinwonders tả thú nuôi (hổ, voi, gấu…); năm 1963 chỉ thấy trong tóm tắt kết quả tìm kiếm của một trang du lịch (chưa mở được trang gốc); đánh giá khách nói thú không còn → chưa rõ còn hay không."
+  },
+  {
+   "ten": "Cáp treo qua thác Prenn",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://www.frommers.com/destinations/dalat/attractions/prenn-falls"
+   ],
+   "ly_do": "chỉ thấy Frommer's nhắc cáp treo (qua tóm tắt tìm kiếm, chưa mở trang); đánh giá khách nói đã gỡ → chưa rõ."
+  },
+  {
+   "ten": "Chuyện hoàng gia (Nữ hoàng / Hoàng hậu Thái Lan) thăm thác năm 1959",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [],
+   "ly_do": "hay được kể miệng nhưng em tìm không ra nguồn nào (Vua Bhumibol và Hoàng hậu Sirikit có thăm miền Nam Việt Nam 18–21/12/1959 nhưng không nguồn nào nói tới Đà Lạt/Prenn) → không đưa."
+  },
+  {
+   "ten": "Tên cũ 'Liang Tarding' của thác",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [],
+   "ly_do": "chỉ thấy trong tóm tắt kết quả tìm kiếm của một trang du lịch tiếng Anh, chưa mở được trang gốc."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/deo-prenn-phuong-3",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mimosa-phuong-10",
+  "data/lam-dong/nq1671.json (mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt; mục 6: Hiệp An, Liên Hiệp, Hiệp Thạnh → xã Hiệp Thạnh)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json (tên OSM: 'Đèo Prenn', 'Quốc lộ 20', 'Đèo Mimosa'; mốc 'Thác Prenn' 108.4701, 11.87652)",
+  "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+  "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+  "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html"
+ ],
+ "cap_nhat": "2026-11-26"
+}

@@ -2,17 +2,6 @@
  "slug": "thai-phien",
  "ten_cu": [
   {
-   "ten": "Vùng săn bắn của vua Bảo Đại",
-   "thoi_gian": "trước 1945 – 1954",
-   "ghi_chu": "Chưa phải tên đất; các nguồn đều viết trước khi lập ấp, đây là vùng đồi hoang dành riêng cho vua Bảo Đại săn bắn (Thanh Niên ghi 1945–1954).",
-   "nguon": [
-    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
-    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
-    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm"
-   ],
-   "mot_nguon": false
-  },
-  {
    "ten": "Ấp Thái Phiên (xã Xuân Thọ, quận Lạc Dương)",
    "thoi_gian": "từ năm 1956 tới trước 1975",
    "ghi_chu": "Năm lập ấp 1956: Hiệp hội Hoa Đà Lạt, Sức khỏe & Đời sống, Thanh Niên. Việc ấp thuộc xã Xuân Thọ, quận Lạc Dương trước 1975 chỉ có ở cổng thông tin tỉnh (đọc qua đoạn trích tìm kiếm).",
@@ -21,26 +10,6 @@
     "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
     "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
     "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/thai-phien.aspx"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Phường 12, TP Đà Lạt",
-   "thoi_gian": "sau 1975 – 30/6/2025",
-   "ghi_chu": "Sức khỏe & Đời sống: ấp Thái Phiên là cơ sở đầu tiên để hình thành phường 12. Chưa rõ năm lập phường.",
-   "nguon": [
-    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thai-phien-phuong-12"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Phường Lâm Viên - Đà Lạt",
-   "thoi_gian": "từ 1/7/2025",
-   "ghi_chu": "NQ 1671 mục 101: gộp Phường 8, 9, 12.",
-   "nguon": [
-    "https://baolamdong.vn/lam-vien-da-lat-noi-hoi-tu-cac-lang-hoa-noi-tieng-384040.html",
-    "data/lam-dong/nq1671.json"
    ],
    "mot_nguon": false
   }
@@ -232,5 +201,39 @@
    "mot_nguon": false
   }
  ],
- "ghi_chu": "1) Năm hồi hương lệch: 1954 (Hiệp hội Hoa, Sức khỏe & Đời sống) và 'những năm 1955–1957' (Báo Lâm Đồng 2011); năm lập ấp 1956 thì các nguồn khớp. 2) Tên người đại diện: 'Lê Phương Miễn' (Thanh Niên, Sức khỏe & Đời sống); một bản tóm tắt tìm kiếm về Địa chí Đà Lạt ghi 'Nguyễn Phương Miễn' — em không mở được Địa chí (lamdong.gov.vn lỗi 503) nên giữ 'Lê'. 3) mia.vn ghi 'người dân Lào' di cư tới — sai ý, thực ra là người Việt ở Lào hồi hương; bài mia ghi nguồn halotravel. 4) Diện tích lệch theo thời điểm và ranh tính: 78 ha làng nghề (2010), 250–260 ha nhà kính (2011), 436 ha đất nông nghiệp phường 12 (2010), khoảng 150 ha hoa (2026)."
+ "ghi_chu": "1) Năm hồi hương lệch: 1954 (Hiệp hội Hoa, Sức khỏe & Đời sống) và 'những năm 1955–1957' (Báo Lâm Đồng 2011); năm lập ấp 1956 thì các nguồn khớp. 2) Tên người đại diện: 'Lê Phương Miễn' (Thanh Niên, Sức khỏe & Đời sống); một bản tóm tắt tìm kiếm về Địa chí Đà Lạt ghi 'Nguyễn Phương Miễn' — em không mở được Địa chí (lamdong.gov.vn lỗi 503) nên giữ 'Lê'. 3) mia.vn ghi 'người dân Lào' di cư tới — sai ý, thực ra là người Việt ở Lào hồi hương; bài mia ghi nguồn halotravel. 4) Diện tích lệch theo thời điểm và ranh tính: 78 ha làng nghề (2010), 250–260 ha nhà kính (2011), 436 ha đất nông nghiệp phường 12 (2010), khoảng 150 ha hoa (2026).",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Vùng săn bắn của vua Bảo Đại",
+   "thoi_gian": "trước 1945 – 1954",
+   "ghi_chu": "Chưa phải tên đất; các nguồn đều viết trước khi lập ấp, đây là vùng đồi hoang dành riêng cho vua Bảo Đại săn bắn (Thanh Niên ghi 1945–1954).",
+   "nguon": [
+    "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
+    "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Phường 12, TP Đà Lạt",
+   "thoi_gian": "sau 1975 – 30/6/2025",
+   "ghi_chu": "Sức khỏe & Đời sống: ấp Thái Phiên là cơ sở đầu tiên để hình thành phường 12. Chưa rõ năm lập phường.",
+   "nguon": [
+    "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thai-phien-phuong-12"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Phường Lâm Viên - Đà Lạt",
+   "thoi_gian": "từ 1/7/2025",
+   "ghi_chu": "NQ 1671 mục 101: gộp Phường 8, 9, 12.",
+   "nguon": [
+    "https://baolamdong.vn/lam-vien-da-lat-noi-hoi-tu-cac-lang-hoa-noi-tieng-384040.html",
+    "data/lam-dong/nq1671.json"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

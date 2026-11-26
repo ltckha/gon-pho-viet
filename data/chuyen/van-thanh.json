@@ -9,28 +9,6 @@
     "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html"
    ],
    "mot_nguon": true
-  },
-  {
-   "ten": "Hoàng Văn Thụ (đoạn cuối)",
-   "thoi_gian": "ít nhất tới bảng giá đất 2020–2021; chưa rõ năm đổi",
-   "ghi_chu": "Bảng giá đất (QĐ 02/2020, sửa QĐ 16/2021) không có đường Vạn Thành; đoạn 'Hoàng Văn Thụ - Phường 5: từ giáp thác Cam Ly … đến hết ngã ba Tà Nung' trùng đoạn OSM nay gọi Vạn Thành (em khớp qua điểm đầu–cuối, không phải văn bản ghi thẳng). Các trang du lịch vẫn ghi Làng Cổ Tích là '81D Hoàng Văn Thụ'; mia ghi '81D Hoàng Văn Thụ (Vạn Thành)'. Em chưa tìm được văn bản đặt tên đường Vạn Thành (NQ 26/2021/NQ-HĐND đặt tên đường Đà Lạt không có Vạn Thành).",
-   "nguon": [
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-van-thu-phuong-5",
-    "https://mia.vn/cam-nang-du-lich/bo-tui-kinh-nghiem-vui-choi-tai-dalat-fairytale-land-chi-tiet-nhat-1665",
-    "https://www.foody.vn/lam-dong/dalat-fairytale-land"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Vạn Thành",
-   "thoi_gian": "tên đường hiện nay; năm đặt chưa rõ",
-   "ghi_chu": "Có trên OSM; Saigoneer 01/2019 đã ghi '20C Van Thanh', Znews 04/2021 ghi 'đường Vạn Thành', Vietnam Airlines ghi '81A1 Van Thanh Street'.",
-   "nguon": [
-    "https://saigoneer.com/saigon-food-culture/15538-da-lat,-the-unlikely-home-of-el-salvador-s-rare-pacamara-coffee-beans",
-    "https://znews.vn/ngon-doi-song-ao-moi-noi-o-da-lat-post1203440.html",
-    "https://www.vietnamairlines.com/en/useful-information/travel-guide/vuon-hoa-da-lat"
-   ],
-   "mot_nguon": false
   }
  ],
  "moc": [
@@ -230,5 +208,30 @@
    "mot_nguon": false
   }
  ],
- "ghi_chu": "1) Diện tích làng lệch theo năm và trang: 170 ha đất nông nghiệp (VnExpress 2011), 220 ha trồng hoa (Báo Văn Hoá 2018), 200 ha (mia, VinWonders). Em không đưa diện tích vào câu giới thiệu. 2) Chưa tìm được văn bản đặt tên đường Vạn Thành; tên cũ 'Hoàng Văn Thụ' cho đoạn này là em suy từ bảng giá đất + toạ độ OSM. 3) Nông trại cún Puppy Farm hay được nhắc 'gần làng hoa' nhưng ở Phường 7 cũ, cách khoảng 4,2 km (mia) — không tính vào phố. 4) Không tìm được nguồn về chùa nằm trên đường Vạn Thành; các bài chỉ nhắc chùa Linh Ẩn trong danh sách 'điểm gần đó', không ghi địa chỉ — em không đưa vào."
+ "ghi_chu": "1) Diện tích làng lệch theo năm và trang: 170 ha đất nông nghiệp (VnExpress 2011), 220 ha trồng hoa (Báo Văn Hoá 2018), 200 ha (mia, VinWonders). Em không đưa diện tích vào câu giới thiệu. 2) Chưa tìm được văn bản đặt tên đường Vạn Thành; tên cũ 'Hoàng Văn Thụ' cho đoạn này là em suy từ bảng giá đất + toạ độ OSM. 3) Nông trại cún Puppy Farm hay được nhắc 'gần làng hoa' nhưng ở Phường 7 cũ, cách khoảng 4,2 km (mia) — không tính vào phố. 4) Không tìm được nguồn về chùa nằm trên đường Vạn Thành; các bài chỉ nhắc chùa Linh Ẩn trong danh sách 'điểm gần đó', không ghi địa chỉ — em không đưa vào.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Hoàng Văn Thụ (đoạn cuối)",
+   "thoi_gian": "ít nhất tới bảng giá đất 2020–2021; chưa rõ năm đổi",
+   "ghi_chu": "Bảng giá đất (QĐ 02/2020, sửa QĐ 16/2021) không có đường Vạn Thành; đoạn 'Hoàng Văn Thụ - Phường 5: từ giáp thác Cam Ly … đến hết ngã ba Tà Nung' trùng đoạn OSM nay gọi Vạn Thành (em khớp qua điểm đầu–cuối, không phải văn bản ghi thẳng). Các trang du lịch vẫn ghi Làng Cổ Tích là '81D Hoàng Văn Thụ'; mia ghi '81D Hoàng Văn Thụ (Vạn Thành)'. Em chưa tìm được văn bản đặt tên đường Vạn Thành (NQ 26/2021/NQ-HĐND đặt tên đường Đà Lạt không có Vạn Thành).",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-van-thu-phuong-5",
+    "https://mia.vn/cam-nang-du-lich/bo-tui-kinh-nghiem-vui-choi-tai-dalat-fairytale-land-chi-tiet-nhat-1665",
+    "https://www.foody.vn/lam-dong/dalat-fairytale-land"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Vạn Thành",
+   "thoi_gian": "tên đường hiện nay; năm đặt chưa rõ",
+   "ghi_chu": "Có trên OSM; Saigoneer 01/2019 đã ghi '20C Van Thanh', Znews 04/2021 ghi 'đường Vạn Thành', Vietnam Airlines ghi '81A1 Van Thanh Street'.",
+   "nguon": [
+    "https://saigoneer.com/saigon-food-culture/15538-da-lat,-the-unlikely-home-of-el-salvador-s-rare-pacamara-coffee-beans",
+    "https://znews.vn/ngon-doi-song-ao-moi-noi-o-da-lat-post1203440.html",
+    "https://www.vietnamairlines.com/en/useful-information/travel-guide/vuon-hoa-da-lat"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

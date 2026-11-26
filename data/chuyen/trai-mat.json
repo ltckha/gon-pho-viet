@@ -1,36 +1,6 @@
 {
  "slug": "trai-mat",
- "ten_cu": [
-  {
-   "ten": "Hùng Vương (Quốc lộ 20)",
-   "thoi_gian": "tên trong bảng giá đất 2020–2021",
-   "ghi_chu": "Bảng giá đất QĐ 02/2020 (sửa bởi QĐ 16/2021) gọi khúc từ Huỳnh Tấn Phát qua Trường Tiểu học Trại Mát, Nhà Ga tới giáp xã Xuân Thọ là 'Hùng Vương (Quốc lộ 20) – Phường 11'; OSM và báo chí gọi khúc này là Tự Phước. Báo Tuổi Trẻ đã ghi '120 đường Tự Phước' từ năm 2013, nên đây có thể là cách gọi theo quốc lộ chứ chưa chắc là tên cũ. Em chưa tìm được văn bản đặt tên đường Tự Phước.",
-   "nguon": [
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-quoc-lo-20-phuong-11",
-    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "ĐT723 (Đường tỉnh 723)",
-   "thoi_gian": "song song với tên Huỳnh Tấn Phát",
-   "ghi_chu": "Bảng giá đất ghi 'Huỳnh Tấn Phát (ĐT723)' cho khúc từ vòng xoay tới cầu; Foody ghi Panorama ở 'Vòng Xoay 723'. Chưa rõ năm đặt tên Huỳnh Tấn Phát.",
-   "nguon": [
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-ten-phat-dt723-phuong-11",
-    "https://www.foody.vn/lam-dong/panorama-da-lat-cafe"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Trại Mát (tên vùng)",
-   "thoi_gian": "chưa rõ",
-   "ghi_chu": "Hai cách giải thích, chỉ thấy ở mia.vn: (1) xưa có trại nghỉ mát, săn bắn của vua Bảo Đại; (2) công nhân dựng trại nghỉ khi làm đường Phan Rang – Đà Lạt năm 1915. Chưa có nguồn thứ hai.",
-   "nguon": [
-    "https://mia.vn/cam-nang-du-lich/trai-mat-da-lat-co-gi-18974"
-   ],
-   "mot_nguon": true
-  }
- ],
+ "ten_cu": [],
  "moc": [
   {
    "nam": "1908",
@@ -224,5 +194,37 @@
    "mot_nguon": true
   }
  ],
- "ghi_chu": "1) Tự Phước: bảng giá đất 2020 gọi khúc qua ga là 'Hùng Vương (Quốc lộ 20)', còn báo chí từ 2013 và OSM gọi Tự Phước — em chưa tìm được văn bản đặt tên, không kết luận đâu là tên cũ. 2) Huỳnh Tấn Phát: phía bắc khoảng 4,5 km nằm trong Lâm Viên - Đà Lạt theo ranh giới phuong.json, bảng giá vẫn ghi Phường 11 → chưa rõ. 3) Năm xong chùa Linh Phước lệch (1950/1952); số kỷ lục lệch (11 / 16+1+1). 4) Nguồn gốc tên 'Trại Mát' chỉ có ở mia.vn. 5) Em không mở được trang Bộ Xây dựng về giảm giá vé tàu (moc.gov.vn không trả về), nên không ghi giá vé."
+ "ghi_chu": "1) Tự Phước: bảng giá đất 2020 gọi khúc qua ga là 'Hùng Vương (Quốc lộ 20)', còn báo chí từ 2013 và OSM gọi Tự Phước — em chưa tìm được văn bản đặt tên, không kết luận đâu là tên cũ. 2) Huỳnh Tấn Phát: phía bắc khoảng 4,5 km nằm trong Lâm Viên - Đà Lạt theo ranh giới phuong.json, bảng giá vẫn ghi Phường 11 → chưa rõ. 3) Năm xong chùa Linh Phước lệch (1950/1952); số kỷ lục lệch (11 / 16+1+1). 4) Nguồn gốc tên 'Trại Mát' chỉ có ở mia.vn. 5) Em không mở được trang Bộ Xây dựng về giảm giá vé tàu (moc.gov.vn không trả về), nên không ghi giá vé.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Hùng Vương (Quốc lộ 20)",
+   "thoi_gian": "tên trong bảng giá đất 2020–2021",
+   "ghi_chu": "Bảng giá đất QĐ 02/2020 (sửa bởi QĐ 16/2021) gọi khúc từ Huỳnh Tấn Phát qua Trường Tiểu học Trại Mát, Nhà Ga tới giáp xã Xuân Thọ là 'Hùng Vương (Quốc lộ 20) – Phường 11'; OSM và báo chí gọi khúc này là Tự Phước. Báo Tuổi Trẻ đã ghi '120 đường Tự Phước' từ năm 2013, nên đây có thể là cách gọi theo quốc lộ chứ chưa chắc là tên cũ. Em chưa tìm được văn bản đặt tên đường Tự Phước.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-quoc-lo-20-phuong-11",
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "ĐT723 (Đường tỉnh 723)",
+   "thoi_gian": "song song với tên Huỳnh Tấn Phát",
+   "ghi_chu": "Bảng giá đất ghi 'Huỳnh Tấn Phát (ĐT723)' cho khúc từ vòng xoay tới cầu; Foody ghi Panorama ở 'Vòng Xoay 723'. Chưa rõ năm đặt tên Huỳnh Tấn Phát.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-ten-phat-dt723-phuong-11",
+    "https://www.foody.vn/lam-dong/panorama-da-lat-cafe"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Trại Mát (tên vùng)",
+   "thoi_gian": "chưa rõ",
+   "ghi_chu": "Hai cách giải thích, chỉ thấy ở mia.vn: (1) xưa có trại nghỉ mát, săn bắn của vua Bảo Đại; (2) công nhân dựng trại nghỉ khi làm đường Phan Rang – Đà Lạt năm 1915. Chưa có nguồn thứ hai.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/trai-mat-da-lat-co-gi-18974"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

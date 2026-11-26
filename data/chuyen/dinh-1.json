@@ -9,26 +9,6 @@
     "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
    ],
    "mot_nguon": true
-  },
-  {
-   "ten": "Văn Võ phòng Quốc trưởng",
-   "thoi_gian": "từ khi Bảo Đại mua lại (cuối 1951 theo Nguyễn Đắc Xuân)",
-   "ghi_chu": "Theo Tuổi Trẻ 2018, Bảo Đại mua khu này cho Văn Võ phòng của Quốc trưởng và từ đó khu mang tên ấy; không phải 'tổng hành dinh' như bảng thuyết minh cũ.",
-   "nguon": [
-    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
-   ],
-   "mot_nguon": true
-  },
-  {
-   "ten": "King Palace",
-   "thoi_gian": "tên dự án du lịch của Công ty CP Hoàn Cầu Đà Lạt, từ 2014",
-   "ghi_chu": "Báo chí 2024–2026 gọi 'Dinh 1 (King Palace)'.",
-   "nguon": [
-    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
-    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
-    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp"
-   ],
-   "mot_nguon": false
   }
  ],
  "moc": [
@@ -209,5 +189,28 @@
   }
  ],
  "mon": [],
- "ghi_chu": "1) Năm Bảo Đại mua: 1949 (Wikipedia, mia) / cuối 1951 (Tuổi Trẻ dẫn Nguyễn Đắc Xuân). 2) Diện tích khuôn viên lệch mạnh: 60 ha (Wikipedia, Báo Pháp luật 2024) / hơn 18 ha (Tuổi Trẻ, VietnamPlus 2026) / gần 16 ha (SGGP, Báo Văn hóa) / 1,86 ha cho phần dinh và biệt thự cho thuê (SGGP) → không đưa số nào lên trang. 3) Tình trạng mở cửa năm 2026 lệch giữa SGGP (mở lại 15/6) và VietnamPlus (21/8 vẫn viết đã đóng hơn hai năm). 4) Tên chủ: đa số ghi Robert Clément Bourgery; Vinpearl ghi 'Robert Clément' (không dùng Vinpearl). 5) Giá vé, giờ mở các trang ghi khác nhau → không ghi."
+ "ghi_chu": "1) Năm Bảo Đại mua: 1949 (Wikipedia, mia) / cuối 1951 (Tuổi Trẻ dẫn Nguyễn Đắc Xuân). 2) Diện tích khuôn viên lệch mạnh: 60 ha (Wikipedia, Báo Pháp luật 2024) / hơn 18 ha (Tuổi Trẻ, VietnamPlus 2026) / gần 16 ha (SGGP, Báo Văn hóa) / 1,86 ha cho phần dinh và biệt thự cho thuê (SGGP) → không đưa số nào lên trang. 3) Tình trạng mở cửa năm 2026 lệch giữa SGGP (mở lại 15/6) và VietnamPlus (21/8 vẫn viết đã đóng hơn hai năm). 4) Tên chủ: đa số ghi Robert Clément Bourgery; Vinpearl ghi 'Robert Clément' (không dùng Vinpearl). 5) Giá vé, giờ mở các trang ghi khác nhau → không ghi.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Văn Võ phòng Quốc trưởng",
+   "thoi_gian": "từ khi Bảo Đại mua lại (cuối 1951 theo Nguyễn Đắc Xuân)",
+   "ghi_chu": "Theo Tuổi Trẻ 2018, Bảo Đại mua khu này cho Văn Võ phòng của Quốc trưởng và từ đó khu mang tên ấy; không phải 'tổng hành dinh' như bảng thuyết minh cũ.",
+   "nguon": [
+    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "King Palace",
+   "thoi_gian": "tên dự án du lịch của Công ty CP Hoàn Cầu Đà Lạt, từ 2014",
+   "ghi_chu": "Báo chí 2024–2026 gọi 'Dinh 1 (King Palace)'.",
+   "nguon": [
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

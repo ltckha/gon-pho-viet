@@ -11,27 +11,6 @@
     "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html"
    ],
    "mot_nguon": false
-  },
-  {
-   "ten": "Gia Long (đường Lê Đại Hành bây giờ)",
-   "thoi_gian": "thời Pháp đến năm 1953",
-   "nguon": [
-    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/le-dai-hanh.aspx",
-    "https://tinbds.com/lam-dong/da-lat/duong-le-dai-hanh",
-    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Place du Marché / Quảng trường Chợ (Khu Hòa Bình bây giờ)",
-   "thoi_gian": "thời Pháp đến năm 1953",
-   "nguon": [
-    "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html",
-    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
-   ],
-   "mot_nguon": false
   }
  ],
  "moc": [
@@ -201,5 +180,29 @@
    "mot_nguon": true
   }
  ],
- "ghi_chu": "Cafe Tùng và cà phê Lan nằm ở Khu Hòa Bình, không nằm trên Nguyễn Chí Thanh/Lê Đại Hành — chỉ dùng làm chuyện của khu. Năm Thành Thái đổi thành Nguyễn Chí Thanh vênh 1975/1976. Người thiết kế chợ Đà Lạt vênh: Wikipedia và Thanh Niên ghi KTS Nguyễn Duy Đức, Znews ghi KTS Ngô Viết Thụ (Người Đô Thị: Ngô Viết Thụ làm hoạ đồ phân lô năm 1959 và cầu thang nối hai chợ). Cùng một sự kiện, Znews ghi 'Đại sứ Lucien Auger' cho xây lại chợ gạch — không khớp nguồn khác, em không dùng. Mốc 1981 khách sạn Ngọc Lan chỉ có trang du lịch/đặt phòng (3 trang, không có báo). Chuyện rạp Eden là hồi ức blog. Chuyện trưng cầu dân ý 1955 chỉ có 1 nguồn."
+ "ghi_chu": "Cafe Tùng và cà phê Lan nằm ở Khu Hòa Bình, không nằm trên Nguyễn Chí Thanh/Lê Đại Hành — chỉ dùng làm chuyện của khu. Năm Thành Thái đổi thành Nguyễn Chí Thanh vênh 1975/1976. Người thiết kế chợ Đà Lạt vênh: Wikipedia và Thanh Niên ghi KTS Nguyễn Duy Đức, Znews ghi KTS Ngô Viết Thụ (Người Đô Thị: Ngô Viết Thụ làm hoạ đồ phân lô năm 1959 và cầu thang nối hai chợ). Cùng một sự kiện, Znews ghi 'Đại sứ Lucien Auger' cho xây lại chợ gạch — không khớp nguồn khác, em không dùng. Mốc 1981 khách sạn Ngọc Lan chỉ có trang du lịch/đặt phòng (3 trang, không có báo). Chuyện rạp Eden là hồi ức blog. Chuyện trưng cầu dân ý 1955 chỉ có 1 nguồn.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Gia Long (đường Lê Đại Hành bây giờ)",
+   "thoi_gian": "thời Pháp đến năm 1953",
+   "nguon": [
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/le-dai-hanh.aspx",
+    "https://tinbds.com/lam-dong/da-lat/duong-le-dai-hanh",
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Place du Marché / Quảng trường Chợ (Khu Hòa Bình bây giờ)",
+   "thoi_gian": "thời Pháp đến năm 1953",
+   "nguon": [
+    "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html",
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

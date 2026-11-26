@@ -1,17 +1,6 @@
 {
  "slug": "lang-biang",
- "ten_cu": [
-  {
-   "ten": "Đường Lang Biang - thị trấn Lạc Dương",
-   "thoi_gian": "trước 1/7/2025",
-   "ghi_chu": "Tên đường không đổi; chỉ đơn vị hành chính đổi. Bảng giá đất tỉnh (QĐ 02/2020, sửa bởi QĐ 16/2021) ghi 'Đường Lang Biang - THỊ TRẤN LẠC DƯƠNG', chạy từ giáp Đà Lạt tới cổng khu du lịch Lang Biang. Từ 1/7/2025 thị trấn Lạc Dương, xã Lát và Phường 7 nhập thành phường Lang Biang - Đà Lạt. Em chưa tìm được tên cũ hơn của con đường.",
-   "nguon": [
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-lang-biang-thi-tran-lac-duong",
-    "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html"
-   ],
-   "mot_nguon": false
-  }
- ],
+ "ten_cu": [],
  "moc": [
   {
    "nam": "1893",
@@ -230,5 +219,18 @@
    "mot_nguon": false
   }
  ],
- "ghi_chu": "1) 'Nhà thờ Con Gà Lạc Dương': em không tìm thấy nơi nào mang tên này; 'Nhà thờ Con Gà' là Nhà thờ Chính toà Đà Lạt (đường Trần Phú). Ở Lang Biang có Giáo xứ Đức Mẹ Trái Tim Chúa Giêsu (chỉ GCatholic ghi) và Nhà thờ Tin Lành B'Nơr C (chỉ OSM). 2) Chợ Lạc Dương chỉ có trên OSM. 3) Lễ hội 100 năm Đà Lạt (1993) tổ chức ở 'Thung lũng Trăm Năm' dưới chân núi: chỉ Wikipedia ghi, em chưa tìm được nguồn thứ hai nên không đưa vào mốc. 4) Mốc 1977, 1979, 1986 chỉ dựa vào Wikipedia tiếng Việt (trang phường Lang Biang - Đà Lạt); em không mở được văn bản gốc. 5) Năm nâng công suất Ankroet lên 3.100 kW: Wikipedia và Tuổi Trẻ ghi 1962, Tạp chí Công Thương ghi 1960. 6) Khu hành chính Vườn quốc gia Bidoup - Núi Bà ở xã Đạ Nhim cũ (theo bảng giá đất), nay thuộc xã Lạc Dương — không thuộc phường Lang Biang, nên không đưa vào địa điểm."
+ "ghi_chu": "1) 'Nhà thờ Con Gà Lạc Dương': em không tìm thấy nơi nào mang tên này; 'Nhà thờ Con Gà' là Nhà thờ Chính toà Đà Lạt (đường Trần Phú). Ở Lang Biang có Giáo xứ Đức Mẹ Trái Tim Chúa Giêsu (chỉ GCatholic ghi) và Nhà thờ Tin Lành B'Nơr C (chỉ OSM). 2) Chợ Lạc Dương chỉ có trên OSM. 3) Lễ hội 100 năm Đà Lạt (1993) tổ chức ở 'Thung lũng Trăm Năm' dưới chân núi: chỉ Wikipedia ghi, em chưa tìm được nguồn thứ hai nên không đưa vào mốc. 4) Mốc 1977, 1979, 1986 chỉ dựa vào Wikipedia tiếng Việt (trang phường Lang Biang - Đà Lạt); em không mở được văn bản gốc. 5) Năm nâng công suất Ankroet lên 3.100 kW: Wikipedia và Tuổi Trẻ ghi 1962, Tạp chí Công Thương ghi 1960. 6) Khu hành chính Vườn quốc gia Bidoup - Núi Bà ở xã Đạ Nhim cũ (theo bảng giá đất), nay thuộc xã Lạc Dương — không thuộc phường Lang Biang, nên không đưa vào địa điểm.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Đường Lang Biang - thị trấn Lạc Dương",
+   "thoi_gian": "trước 1/7/2025",
+   "ghi_chu": "Tên đường không đổi; chỉ đơn vị hành chính đổi. Bảng giá đất tỉnh (QĐ 02/2020, sửa bởi QĐ 16/2021) ghi 'Đường Lang Biang - THỊ TRẤN LẠC DƯƠNG', chạy từ giáp Đà Lạt tới cổng khu du lịch Lang Biang. Từ 1/7/2025 thị trấn Lạc Dương, xã Lát và Phường 7 nhập thành phường Lang Biang - Đà Lạt. Em chưa tìm được tên cũ hơn của con đường.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-lang-biang-thi-tran-lac-duong",
+    "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

@@ -1,29 +1,6 @@
 {
  "slug": "tang-bat-ho",
- "ten_cu": [
-  {
-   "ten": "Minh Mạng (nay là Trương Công Định)",
-   "thoi_gian": "thời Pháp đến 1975/1976; nguồn vênh năm đổi: tinbds (chép trang Đường phố Đà Lạt của tỉnh) ghi 1976, trangdulichdalat ghi đổi từ 1975",
-   "nguon": [
-    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
-    "https://tinbds.com/lam-dong/da-lat/duong-truong-cong-dinh",
-    "https://znews.vn/anh-da-lat-xua-post1602502.html"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Còn gọi là 'dốc Minh Mạng' (Znews, chú thích ảnh LIFE 1961)."
-  },
-  {
-   "ten": "Tăng Bạt Hổ (kèm hai đoạn ngắn Nguyễn Quyền, Lương Văn Can, nay gộp làm một)",
-   "thoi_gian": "đặt từ năm 1953",
-   "nguon": [
-    "https://tinbds.com/lam-dong/da-lat/duong-tang-bat-ho",
-    "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Tên trước 1953 của đường Tăng Bạt Hổ: chưa rõ."
-  }
- ],
+ "ten_cu": [],
  "moc": [
   {
    "nam": "1929",
@@ -169,5 +146,30 @@
    "mot_nguon": true
   }
  ],
- "ghi_chu": "Chưa tìm được tên trước 1953 của đường Tăng Bạt Hổ (một kết quả tìm kiếm có chữ 'Ballansard' trên trang Đường phố Đà Lạt của tỉnh nhưng em không mở được trang lamdong.gov.vn — máy chủ ngắt kết nối — nên không dùng). Trang tinbds.com chép lại nội dung trang Đường phố Đà Lạt của tỉnh, không phải nguồn độc lập với lamdong.gov.vn. Năm Minh Mạng đổi thành Trương Công Định vênh 1975/1976. Năm xây lại chợ gạch vênh 1934/1937. Chiều dài Trương Công Định cũng vênh (tinbds ~300 m, Công an Đà Nẵng 'gần 1 km') nên em không ghi. Chuyện 'đường một chiều' là hồi ức trên blog Mực Tím Sơn Đen."
+ "ghi_chu": "Chưa tìm được tên trước 1953 của đường Tăng Bạt Hổ (một kết quả tìm kiếm có chữ 'Ballansard' trên trang Đường phố Đà Lạt của tỉnh nhưng em không mở được trang lamdong.gov.vn — máy chủ ngắt kết nối — nên không dùng). Trang tinbds.com chép lại nội dung trang Đường phố Đà Lạt của tỉnh, không phải nguồn độc lập với lamdong.gov.vn. Năm Minh Mạng đổi thành Trương Công Định vênh 1975/1976. Năm xây lại chợ gạch vênh 1934/1937. Chiều dài Trương Công Định cũng vênh (tinbds ~300 m, Công an Đà Nẵng 'gần 1 km') nên em không ghi. Chuyện 'đường một chiều' là hồi ức trên blog Mực Tím Sơn Đen.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Minh Mạng (nay là Trương Công Định)",
+   "thoi_gian": "thời Pháp đến 1975/1976; nguồn vênh năm đổi: tinbds (chép trang Đường phố Đà Lạt của tỉnh) ghi 1976, trangdulichdalat ghi đổi từ 1975",
+   "nguon": [
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
+    "https://tinbds.com/lam-dong/da-lat/duong-truong-cong-dinh",
+    "https://znews.vn/anh-da-lat-xua-post1602502.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Còn gọi là 'dốc Minh Mạng' (Znews, chú thích ảnh LIFE 1961)."
+  },
+  {
+   "ten": "Tăng Bạt Hổ (kèm hai đoạn ngắn Nguyễn Quyền, Lương Văn Can, nay gộp làm một)",
+   "thoi_gian": "đặt từ năm 1953",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-tang-bat-ho",
+    "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Tên trước 1953 của đường Tăng Bạt Hổ: chưa rõ."
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

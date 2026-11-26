@@ -37,25 +37,6 @@
     "https://baonghean.vn/en/thung-lung-tinh-yeu-noi-tieng-nhat-viet-nam-10118140.html"
    ],
    "mot_nguon": false
-  },
-  {
-   "ten": "Đập 3 / hồ Đa Thiện 3",
-   "thoi_gian": "từ năm 1972",
-   "ghi_chu": "Tên gọi khác của thung lũng sau khi đắp đập; chỉ Wikipedia ghi.",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu"
-   ],
-   "mot_nguon": true
-  },
-  {
-   "ten": "Khu du lịch Hồ Rồng",
-   "thoi_gian": "trước khi đổi tên Đồi Mộng Mơ",
-   "ghi_chu": "Tên cũ của Đồi Mộng Mơ (khi chỉ có vườn hoa và tượng rồng vàng phun nước — theo Mytour).",
-   "nguon": [
-    "https://vinwonders.com/vi/wonderpedia/news/doi-mong-mo-da-lat/",
-    "https://mytour.vn/vi/blog/bai-viet/doi-mong-mo-da-lat-ve-dep-tho-mong-cua-xu-so-ngan-hoa.html"
-   ],
-   "mot_nguon": false
   }
  ],
  "moc": [
@@ -233,5 +214,27 @@
    "mot_nguon": false
   }
  ],
- "ghi_chu": "1) Không tìm được nguồn nào cho tên 'Thung lũng Ái Ân' → không đưa vào. 2) Không tìm được tên cũ thời Pháp của đường Phù Đổng Thiên Vương và Mai Anh Đào (blog tên đường xưa và nay không có hai đường này) → để chưa rõ. 3) Không có nguồn nói đường Mai Anh Đào có hàng mai anh đào; các bài ngắm mai anh đào nhắc Trần Hưng Đạo, Lê Đại Hành, dốc Đa Quý, hồ Xuân Hương → câu giới thiệu không nhắc 'đường hoa'. 4) Diện tích thung lũng: 'gần 140 ha' (VNA/Vietnam Pictorial 2016, VietNamNet 2016, Báo Nghệ An); Wikipedia ghi khu gộp 137 ha. 5) Thiền viện Vạn Hạnh gần đó nằm trên đường Vạn Hạnh (OSM), không phải hai đường của phố này."
+ "ghi_chu": "1) Không tìm được nguồn nào cho tên 'Thung lũng Ái Ân' → không đưa vào. 2) Không tìm được tên cũ thời Pháp của đường Phù Đổng Thiên Vương và Mai Anh Đào (blog tên đường xưa và nay không có hai đường này) → để chưa rõ. 3) Không có nguồn nói đường Mai Anh Đào có hàng mai anh đào; các bài ngắm mai anh đào nhắc Trần Hưng Đạo, Lê Đại Hành, dốc Đa Quý, hồ Xuân Hương → câu giới thiệu không nhắc 'đường hoa'. 4) Diện tích thung lũng: 'gần 140 ha' (VNA/Vietnam Pictorial 2016, VietNamNet 2016, Báo Nghệ An); Wikipedia ghi khu gộp 137 ha. 5) Thiền viện Vạn Hạnh gần đó nằm trên đường Vạn Hạnh (OSM), không phải hai đường của phố này.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Đập 3 / hồ Đa Thiện 3",
+   "thoi_gian": "từ năm 1972",
+   "ghi_chu": "Tên gọi khác của thung lũng sau khi đắp đập; chỉ Wikipedia ghi.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Khu du lịch Hồ Rồng",
+   "thoi_gian": "trước khi đổi tên Đồi Mộng Mơ",
+   "ghi_chu": "Tên cũ của Đồi Mộng Mơ (khi chỉ có vườn hoa và tượng rồng vàng phun nước — theo Mytour).",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/doi-mong-mo-da-lat/",
+    "https://mytour.vn/vi/blog/bai-viet/doi-mong-mo-da-lat-ve-dep-tho-mong-cua-xu-so-ngan-hoa.html"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

@@ -2,41 +2,11 @@
  "slug": "cau-dat",
  "ten_cu": [
   {
-   "ten": "Quốc lộ 20 - xã Xuân Trường / xã Trạm Hành",
-   "thoi_gian": "trước 1/7/2025",
-   "ghi_chu": "Tên đường không đổi; đơn vị hành chính đổi. Bảng giá đất ghi 'Mặt tiền quốc lộ 20 - Xã Xuân Trường' và '- Xã Trạm Hành'. Xã Trạm Hành tách từ xã Xuân Trường năm 2009; từ 1/7/2025 cả hai cùng Phường 11, xã Xuân Thọ nhập thành phường Xuân Trường - Đà Lạt; Cầu Đất là một tổ dân phố của phường (Wikipedia).",
-   "nguon": [
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-xuan-truong",
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-tram-hanh",
-    "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
-    "https://vi.wikipedia.org/wiki/Xu%C3%A2n_Tr%C6%B0%E1%BB%9Dng_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t"
-   ],
-   "mot_nguon": false
-  },
-  {
    "ten": "L'Arbre Broyé (tên đầu của Sở trà Cầu Đất)",
    "thoi_gian": "thời Pháp",
    "ghi_chu": "Chỉ Vietnam+ (2019) ghi Sở trà Cầu Đất ban đầu tên 'L'Arbre Broyé'.",
    "nguon": [
     "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp"
-   ],
-   "mot_nguon": true
-  },
-  {
-   "ten": "Entrerays (tên Pháp của ga Cầu Đất)",
-   "thoi_gian": "thời Pháp",
-   "ghi_chu": "Chỉ Wikipedia tiếng Anh ghi.",
-   "nguon": [
-    "https://en.wikipedia.org/wiki/Da_Lat%E2%80%93Thap_Cham_railway"
-   ],
-   "mot_nguon": true
-  },
-  {
-   "ten": "Cầu Đất (tên vùng)",
-   "thoi_gian": "chưa rõ",
-   "ghi_chu": "Em chưa tìm được nguồn giải thích gốc tên Cầu Đất hay Trạm Hành. VnExpress 2018 viết năm 1915 bác sĩ Yersin phát hiện 'Hòn Bà (nay là Cầu Đất)' — chỉ một nguồn và Hòn Bà thường được biết ở Khánh Hoà, nên để nghi.",
-   "nguon": [
-    "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html"
    ],
    "mot_nguon": true
   }
@@ -210,5 +180,38 @@
    "mot_nguon": false
   }
  ],
- "ghi_chu": "1) Không tìm được nguồn về gốc tên Cầu Đất/Trạm Hành. 2) Năm: sở trà 1927, xưởng 1929, máy 1931 — ba mốc khác nhau ở các báo, em ghi riêng. 3) Số tuabin đang đứng chưa rõ (hợp đồng GE 15 × 4 MW ≠ 68,9 MW). 4) Không tìm được nhà thờ/chùa có nguồn ở Cầu Đất. 5) Chưa đi thực tế."
+ "ghi_chu": "1) Không tìm được nguồn về gốc tên Cầu Đất/Trạm Hành. 2) Năm: sở trà 1927, xưởng 1929, máy 1931 — ba mốc khác nhau ở các báo, em ghi riêng. 3) Số tuabin đang đứng chưa rõ (hợp đồng GE 15 × 4 MW ≠ 68,9 MW). 4) Không tìm được nhà thờ/chùa có nguồn ở Cầu Đất. 5) Chưa đi thực tế.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Quốc lộ 20 - xã Xuân Trường / xã Trạm Hành",
+   "thoi_gian": "trước 1/7/2025",
+   "ghi_chu": "Tên đường không đổi; đơn vị hành chính đổi. Bảng giá đất ghi 'Mặt tiền quốc lộ 20 - Xã Xuân Trường' và '- Xã Trạm Hành'. Xã Trạm Hành tách từ xã Xuân Trường năm 2009; từ 1/7/2025 cả hai cùng Phường 11, xã Xuân Thọ nhập thành phường Xuân Trường - Đà Lạt; Cầu Đất là một tổ dân phố của phường (Wikipedia).",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-xuan-truong",
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-tram-hanh",
+    "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
+    "https://vi.wikipedia.org/wiki/Xu%C3%A2n_Tr%C6%B0%E1%BB%9Dng_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Entrerays (tên Pháp của ga Cầu Đất)",
+   "thoi_gian": "thời Pháp",
+   "ghi_chu": "Chỉ Wikipedia tiếng Anh ghi.",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Da_Lat%E2%80%93Thap_Cham_railway"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Cầu Đất (tên vùng)",
+   "thoi_gian": "chưa rõ",
+   "ghi_chu": "Em chưa tìm được nguồn giải thích gốc tên Cầu Đất hay Trạm Hành. VnExpress 2018 viết năm 1915 bác sĩ Yersin phát hiện 'Hòn Bà (nay là Cầu Đất)' — chỉ một nguồn và Hòn Bà thường được biết ở Khánh Hoà, nên để nghi.",
+   "nguon": [
+    "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

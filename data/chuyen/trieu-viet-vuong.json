@@ -1,144 +1,146 @@
 {
-  "slug": "trieu-viet-vuong",
-  "ten_cu": [
-    {
-      "ten": "Darles",
-      "thoi_gian": "thời Pháp, tới năm 1953",
-      "ghi_chu": "tinbds ghi 'lúc đầu, đường có tên Công sứ Darles'.",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
-        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
-      ],
-      "mot_nguon": false
-    },
-    {
-      "ten": "Triệu Việt Vương",
-      "thoi_gian": "từ năm 1953",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
-        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "tinbds ghi rõ năm 1953. Bảng của blog chỉ ghi tên cũ là tên 'trước năm 1953'. Tên được giữ sau năm 1975."
-    }
-  ],
-  "moc": [
-    {
-      "nam": "1933–1938 (có nguồn ghi 1937–1941)",
-      "su_kien": "Xây Dinh III, biệt điện của vua Bảo Đại, ở số 1 Triệu Việt Vương.",
-      "nguon": [
-        "https://vi.wikipedia.org/wiki/Dinh_III",
-        "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
-        "https://vietnamnet.vn/cuu-hoang-bao-dai-va-chung-tich-tinh-yeu-o-da-lat-64026.html",
-        "https://mia.vn/cam-nang-du-lich/dinh-3-da-lat-biet-dien-vua-bao-dai-kham-pha-kien-truc-co-dien-phap-tai-da-lat-1385",
-        "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Phần lớn nguồn ghi khởi công 1933, xong 1938. Báo Thế giới & Việt Nam (14/11/2020, đưa tin lễ trao bản vẽ) ghi xây từ 1937 tới 1941, và ghi kiến trúc sư Paul Veysseyre sang Đông Dương năm 1937."
-    },
-    {
-      "nam": "1949",
-      "su_kien": "Hoàng hậu Nam Phương đưa các con sang Pháp sống và học. Các phòng của hoàng hậu, hoàng tử, công chúa trong dinh được giữ lại như cũ.",
-      "nguon": [
-        "https://vi.wikipedia.org/wiki/Dinh_III",
-        "https://plo.vn/biet-dien-mua-he-cua-vua-bao-dai-o-da-lat-post318549.html"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "VietNamNet ghi khoảng 1950–1953."
-    },
-    {
-      "nam": "1953",
-      "su_kien": "Đường Darles đổi tên thành Triệu Việt Vương.",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong"
-      ],
-      "mot_nguon": true,
-      "ghi_chu": "Bảng tên đường xưa xác nhận hai tên nhưng không ghi năm."
-    },
-    {
-      "nam": "sau 1954",
-      "su_kien": "Bảo Đại sang Pháp sống lưu vong. Dinh thành chỗ nghỉ mát cao cấp của chính quyền Ngô Đình Diệm, sau đó là của Nguyễn Văn Thiệu.",
-      "nguon": [
-        "https://vi.wikipedia.org/wiki/Dinh_III",
-        "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
-        "https://vietnamnet.vn/cuu-hoang-bao-dai-va-chung-tich-tinh-yeu-o-da-lat-64026.html"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Các nguồn không ghi năm cụ thể. VietNamNet ghi Nguyễn Văn Thiệu dùng dinh sau năm 1963."
-    },
-    {
-      "nam": "giữa năm 2000",
-      "su_kien": "Dinh được giao cho Công ty du lịch dịch vụ Xuân Hương quản lý. Trước đó, sau năm 1975, dinh thuộc Ban tài chính quản trị Tỉnh uỷ Lâm Đồng.",
-      "nguon": [
-        "https://vi.wikipedia.org/wiki/Dinh_III"
-      ],
-      "mot_nguon": true,
-      "ghi_chu": "Wikipedia tiếng Anh cũng ghi ý này nhưng dẫn lại bản tiếng Việt, nên không tính là nguồn thứ hai."
-    },
-    {
-      "nam": "13/11/2020",
-      "su_kien": "Đại sứ Pháp Nicolas Warnery trao cho tỉnh Lâm Đồng bản sao (đã số hoá) bản vẽ thiết kế Dinh III, do con trai kiến trúc sư Paul Veysseyre tặng.",
-      "nguon": [
-        "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html",
-        "https://en.nhandan.vn/french-ambassador-presents-digitised-design-of-bao-dai-palace-to-lam-dong-province-post92023.html",
-        "https://baovanhoa.vn/doi-song-van-hoa/phap-tang-ban-sao-so-do-thiet-ke-dinh-iii-cho-tinh-lam-dong-67129.html"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Wikipedia tiếng Anh ghi năm 2019 là sai. Ba báo đều đăng tháng 11/2020, Nhân Dân ghi lễ diễn ra ngày 13/11."
-    }
-  ],
-  "chuyen": [
-    {
-      "tieu_de": "Bản vẽ Dinh III về lại Đà Lạt",
-      "noi_dung": "Gia đình kiến trúc sư Paul Veysseyre ở Pháp còn giữ bản vẽ gốc của Dinh III. Năm 2020, con trai ông là Jacques Veysseyre nhờ Đại sứ Pháp trao bản sao đã số hoá cho tỉnh Lâm Đồng, kèm một bức chân dung kiến trúc sư. Bản gốc lúc đó đang được phục chế, hẹn sẽ trao sau.",
-      "nguon": [
-        "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html",
-        "https://en.nhandan.vn/french-ambassador-presents-digitised-design-of-bao-dai-palace-to-lam-dong-province-post92023.html",
-        "https://baovanhoa.vn/doi-song-van-hoa/phap-tang-ban-sao-so-do-thiet-ke-dinh-iii-cho-tinh-lam-dong-67129.html"
-      ],
-      "mot_nguon": false
-    },
-    {
-      "tieu_de": "Ai vẽ Dinh III?",
-      "noi_dung": "Nguồn nào cũng có tên kiến trúc sư Pháp Paul Veysseyre. Wikipedia tiếng Việt (dẫn trang của tỉnh) ghi người cùng vẽ là Arthur Kruze. VinWonders và Việt Báo lại ghi là kiến trúc sư Huỳnh Tấn Phát. Báo Thế giới & Việt Nam chỉ nói Veysseyre làm cùng 'các nhà xây dựng Việt Nam'.",
-      "nguon": [
-        "https://vi.wikipedia.org/wiki/Dinh_III",
-        "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
-        "https://vietbao.vn/kham-pha-dinh-iii-noi-luu-giu-ky-uc-ve-vua-bao-dai-va-nam-phuong-hoang-hau-600707.html",
-        "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Chưa rõ bên nào đúng, nên em chỉ kể là các nguồn ghi khác nhau."
-    },
-    {
-      "tieu_de": "Quán cà phê của các bạn trẻ người điếc",
-      "noi_dung": "Dưới một con dốc nhỏ trên Triệu Việt Vương có Quán Của Thời Thanh Xuân. Người phục vụ và làm bánh ở đây đều là người điếc, khách gọi món bằng giấy bút. Bức tường quầy nước dán kín hàng nghìn mẩu giấy khách viết từ ngày đầu mở quán. Báo Lâm Đồng (8/2025) ghi quán đã hoạt động gần 10 năm.",
-      "nguon": [
-        "https://baolamdong.vn/noi-luu-giu-huong-hoa-cho-doi-388319.html",
-        "https://mia.vn/cam-nang-du-lich/ca-phe-thoi-thanh-xuan-noi-luu-giu-nhung-hanh-phuc-6289"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Ý 'gần 10 năm' chỉ có ở Báo Lâm Đồng."
-    },
-    {
-      "tieu_de": "Đường nằm trên ranh hai khu phố",
-      "noi_dung": "Khi mới đổi tên năm 1953, đường thuộc khu phố VII và VIII, chạy đúng trên ranh giới hai khu phố.",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong"
-      ],
-      "mot_nguon": true
-    }
-  ],
-  "mon": [
-    {
-      "ten": "Bánh ướt lòng gà",
-      "ghi_chu": "Quán Thảo (B6-12A), mở 7:00–16:30. Bánh ướt ăn với gà xé bóp gỏi, trứng non, hành tây và nước chấm riêng của quán.",
-      "nguon": [
-        "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912",
-        "https://wanderlog.com/place/details/3846997"
-      ],
-      "mot_nguon": false
-    }
-  ],
-  "ghi_chu": "1) Em không mở được trang lamdong.gov.vn, dùng bản tinbds.com. Bảng tên đường xưa ở trangdulichdalat.wordpress.com chép lại bảng didulichdalat, không tính là nguồn riêng. 2) Darles là ai: em chưa tìm thấy nguồn nối tên đường với một người cụ thể. Có một Auguste Darles làm công sứ Thái Nguyên 1913–1919, nhưng không nguồn nào nói đường ở Đà Lạt mang tên ông, nên em không ghi. 3) Năm xây Dinh III lệch: 1933–1938 (đa số) và 1937–1941 (Báo Thế giới & Việt Nam). Người cùng vẽ cũng lệch: Arthur Kruze hay Huỳnh Tấn Phát. 4) Wikipedia tiếng Anh ghi lễ trao bản vẽ năm 2019. Ba báo tiếng Việt và Nhân Dân ghi tháng 11/2020, em theo báo. 5) Có nguồn nói Dinh III mở rộng cho khách tham quan từ năm 1985, nhưng em chưa đọc được tận mắt (trang Vinpearl chặn tải) nên không đưa vào. 6) tinbds ghi đường dài khoảng 2,3 km, trên OSM hai đoạn cộng khoảng 2,07 km (theo docs/research/pho_trieu-viet-vuong.md). Em không đưa số này vào chuyện."
+ "slug": "trieu-viet-vuong",
+ "ten_cu": [],
+ "moc": [
+  {
+   "nam": "1933–1938 (có nguồn ghi 1937–1941)",
+   "su_kien": "Xây Dinh III, biệt điện của vua Bảo Đại, ở số 1 Triệu Việt Vương.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_III",
+    "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
+    "https://vietnamnet.vn/cuu-hoang-bao-dai-va-chung-tich-tinh-yeu-o-da-lat-64026.html",
+    "https://mia.vn/cam-nang-du-lich/dinh-3-da-lat-biet-dien-vua-bao-dai-kham-pha-kien-truc-co-dien-phap-tai-da-lat-1385",
+    "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Phần lớn nguồn ghi khởi công 1933, xong 1938. Báo Thế giới & Việt Nam (14/11/2020, đưa tin lễ trao bản vẽ) ghi xây từ 1937 tới 1941, và ghi kiến trúc sư Paul Veysseyre sang Đông Dương năm 1937."
+  },
+  {
+   "nam": "1949",
+   "su_kien": "Hoàng hậu Nam Phương đưa các con sang Pháp sống và học. Các phòng của hoàng hậu, hoàng tử, công chúa trong dinh được giữ lại như cũ.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_III",
+    "https://plo.vn/biet-dien-mua-he-cua-vua-bao-dai-o-da-lat-post318549.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "VietNamNet ghi khoảng 1950–1953."
+  },
+  {
+   "nam": "1953",
+   "su_kien": "Đường Darles đổi tên thành Triệu Việt Vương.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Bảng tên đường xưa xác nhận hai tên nhưng không ghi năm."
+  },
+  {
+   "nam": "sau 1954",
+   "su_kien": "Bảo Đại sang Pháp sống lưu vong. Dinh thành chỗ nghỉ mát cao cấp của chính quyền Ngô Đình Diệm, sau đó là của Nguyễn Văn Thiệu.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_III",
+    "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
+    "https://vietnamnet.vn/cuu-hoang-bao-dai-va-chung-tich-tinh-yeu-o-da-lat-64026.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Các nguồn không ghi năm cụ thể. VietNamNet ghi Nguyễn Văn Thiệu dùng dinh sau năm 1963."
+  },
+  {
+   "nam": "giữa năm 2000",
+   "su_kien": "Dinh được giao cho Công ty du lịch dịch vụ Xuân Hương quản lý. Trước đó, sau năm 1975, dinh thuộc Ban tài chính quản trị Tỉnh uỷ Lâm Đồng.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_III"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Wikipedia tiếng Anh cũng ghi ý này nhưng dẫn lại bản tiếng Việt, nên không tính là nguồn thứ hai."
+  },
+  {
+   "nam": "13/11/2020",
+   "su_kien": "Đại sứ Pháp Nicolas Warnery trao cho tỉnh Lâm Đồng bản sao (đã số hoá) bản vẽ thiết kế Dinh III, do con trai kiến trúc sư Paul Veysseyre tặng.",
+   "nguon": [
+    "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html",
+    "https://en.nhandan.vn/french-ambassador-presents-digitised-design-of-bao-dai-palace-to-lam-dong-province-post92023.html",
+    "https://baovanhoa.vn/doi-song-van-hoa/phap-tang-ban-sao-so-do-thiet-ke-dinh-iii-cho-tinh-lam-dong-67129.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Wikipedia tiếng Anh ghi năm 2019 là sai. Ba báo đều đăng tháng 11/2020, Nhân Dân ghi lễ diễn ra ngày 13/11."
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Bản vẽ Dinh III về lại Đà Lạt",
+   "noi_dung": "Gia đình kiến trúc sư Paul Veysseyre ở Pháp còn giữ bản vẽ gốc của Dinh III. Năm 2020, con trai ông là Jacques Veysseyre nhờ Đại sứ Pháp trao bản sao đã số hoá cho tỉnh Lâm Đồng, kèm một bức chân dung kiến trúc sư. Bản gốc lúc đó đang được phục chế, hẹn sẽ trao sau.",
+   "nguon": [
+    "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html",
+    "https://en.nhandan.vn/french-ambassador-presents-digitised-design-of-bao-dai-palace-to-lam-dong-province-post92023.html",
+    "https://baovanhoa.vn/doi-song-van-hoa/phap-tang-ban-sao-so-do-thiet-ke-dinh-iii-cho-tinh-lam-dong-67129.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Ai vẽ Dinh III?",
+   "noi_dung": "Nguồn nào cũng có tên kiến trúc sư Pháp Paul Veysseyre. Wikipedia tiếng Việt (dẫn trang của tỉnh) ghi người cùng vẽ là Arthur Kruze. VinWonders và Việt Báo lại ghi là kiến trúc sư Huỳnh Tấn Phát. Báo Thế giới & Việt Nam chỉ nói Veysseyre làm cùng 'các nhà xây dựng Việt Nam'.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_III",
+    "https://vinwonders.com/vi/wonderpedia/news/dinh-3-da-lat/",
+    "https://vietbao.vn/kham-pha-dinh-iii-noi-luu-giu-ky-uc-ve-vua-bao-dai-va-nam-phuong-hoang-hau-600707.html",
+    "https://baoquocte.vn/dai-su-phap-warnery-trao-cho-tinh-lam-dong-tu-lieu-quy-ve-dinh-cuu-hoang-bao-dai-129084.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Chưa rõ bên nào đúng, nên em chỉ kể là các nguồn ghi khác nhau."
+  },
+  {
+   "tieu_de": "Quán cà phê của các bạn trẻ người điếc",
+   "noi_dung": "Dưới một con dốc nhỏ trên Triệu Việt Vương có Quán Của Thời Thanh Xuân. Người phục vụ và làm bánh ở đây đều là người điếc, khách gọi món bằng giấy bút. Bức tường quầy nước dán kín hàng nghìn mẩu giấy khách viết từ ngày đầu mở quán. Báo Lâm Đồng (8/2025) ghi quán đã hoạt động gần 10 năm.",
+   "nguon": [
+    "https://baolamdong.vn/noi-luu-giu-huong-hoa-cho-doi-388319.html",
+    "https://mia.vn/cam-nang-du-lich/ca-phe-thoi-thanh-xuan-noi-luu-giu-nhung-hanh-phuc-6289"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Ý 'gần 10 năm' chỉ có ở Báo Lâm Đồng."
+  },
+  {
+   "tieu_de": "Đường nằm trên ranh hai khu phố",
+   "noi_dung": "Khi mới đổi tên năm 1953, đường thuộc khu phố VII và VIII, chạy đúng trên ranh giới hai khu phố.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "mon": [
+  {
+   "ten": "Bánh ướt lòng gà",
+   "ghi_chu": "Quán Thảo (B6-12A), mở 7:00–16:30. Bánh ướt ăn với gà xé bóp gỏi, trứng non, hành tây và nước chấm riêng của quán.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/banh-uot-long-ga-da-lat-19912",
+    "https://wanderlog.com/place/details/3846997"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ghi_chu": "1) Em không mở được trang lamdong.gov.vn, dùng bản tinbds.com. Bảng tên đường xưa ở trangdulichdalat.wordpress.com chép lại bảng didulichdalat, không tính là nguồn riêng. 2) Darles là ai: em chưa tìm thấy nguồn nối tên đường với một người cụ thể. Có một Auguste Darles làm công sứ Thái Nguyên 1913–1919, nhưng không nguồn nào nói đường ở Đà Lạt mang tên ông, nên em không ghi. 3) Năm xây Dinh III lệch: 1933–1938 (đa số) và 1937–1941 (Báo Thế giới & Việt Nam). Người cùng vẽ cũng lệch: Arthur Kruze hay Huỳnh Tấn Phát. 4) Wikipedia tiếng Anh ghi lễ trao bản vẽ năm 2019. Ba báo tiếng Việt và Nhân Dân ghi tháng 11/2020, em theo báo. 5) Có nguồn nói Dinh III mở rộng cho khách tham quan từ năm 1985, nhưng em chưa đọc được tận mắt (trang Vinpearl chặn tải) nên không đưa vào. 6) tinbds ghi đường dài khoảng 2,3 km, trên OSM hai đoạn cộng khoảng 2,07 km (theo docs/research/pho_trieu-viet-vuong.md). Em không đưa số này vào chuyện.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Darles",
+   "thoi_gian": "thời Pháp, tới năm 1953",
+   "ghi_chu": "tinbds ghi 'lúc đầu, đường có tên Công sứ Darles'.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Triệu Việt Vương",
+   "thoi_gian": "từ năm 1953",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "tinbds ghi rõ năm 1953. Bảng của blog chỉ ghi tên cũ là tên 'trước năm 1953'. Tên được giữ sau năm 1975."
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

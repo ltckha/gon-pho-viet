@@ -1,36 +1,6 @@
 {
  "slug": "hang-nga",
- "ten_cu": [
-  {
-   "ten": "Crazy House, Ngôi nhà điên, nhà gốc cây, lâu đài mạng nhện",
-   "thoi_gian": "các tên người ta gọi, từ những năm 1990 đến nay",
-   "ghi_chu": "VnExpress 2008: 'người dân và du khách gọi là biệt thự Hằng Nga, nhà gốc cây hoặc lâu đài mạng nhện'. Người Quan Sát 2026: 'Crazy House hoặc Ngôi nhà điên'. VinWonders: 'ngôi nhà điên' hay 'ngôi nhà quái dị'. Chưa có nguồn giải thích chữ 'Hằng Nga' (có thể gắn với tên bà Nga và chuyện cây đa trên cung trăng mà Tiền Phong nhắc, nhưng không bài nào nói thẳng → không kết luận).",
-   "nguon": [
-    "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
-    "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
-    "https://vinwonders.com/vi/wonderpedia/news/biet-thu-hang-nga/"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Institut Pasteur de Dalat (Viện Pasteur Đà Lạt)",
-   "thoi_gian": "1936–2010, nay là Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC)",
-   "nguon": [
-    "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
-    "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Couvent des Oiseaux (trường Đức Bà Lâm Viên, Notre-Dame du Langbian)",
-   "thoi_gian": "1935/1936–1975, nay là Trường PT Dân tộc Nội trú Lâm Đồng",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
-    "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html"
-   ],
-   "mot_nguon": false
-  }
- ],
+ "ten_cu": [],
  "moc": [
   {
    "nam": "1933–1936",
@@ -221,5 +191,37 @@
   }
  ],
  "mon": [],
- "ghi_chu": "1) Phường: Biệt thự Hằng Nga, Viện Pasteur, nhà thờ Thánh Tâm thuộc Phường 4 cũ → Xuân Hương - Đà Lạt (chắc, có bảng giá đất); Couvent des Oiseaux, nhà thờ Du Sinh thuộc Phường 5 cũ → Cam Ly - Đà Lạt. 2) Số phòng của biệt thự lệch 10 (2008) / 11 (2026); diện tích khuôn viên lệch 4.000 / 1.900 m²; 'hoàn thành 2010' chỉ một bài ghi. 3) Viện Pasteur: Wikipedia tiếng Anh ghi Yersin đứng đầu viện năm 1936, báo Pháp 1936 ghi giám đốc là Dr Louis Souchard. 4) OSM gắn tên cũ năm 1964 'Nguyễn Tường Tam' cho đường Huỳnh Thúc Kháng (old_name:1964) nhưng em không tìm được nguồn nào khác → không đưa vào ten_cu. 5) Không có món đặc trưng của khu có nguồn → mon để trống. 6) Mốc gần đã có trang khác: Dinh III (khoảng 530 m, trang Triệu Việt Vương), nhà thờ Con Gà (khoảng 760 m, trang Trần Phú)."
+ "ghi_chu": "1) Phường: Biệt thự Hằng Nga, Viện Pasteur, nhà thờ Thánh Tâm thuộc Phường 4 cũ → Xuân Hương - Đà Lạt (chắc, có bảng giá đất); Couvent des Oiseaux, nhà thờ Du Sinh thuộc Phường 5 cũ → Cam Ly - Đà Lạt. 2) Số phòng của biệt thự lệch 10 (2008) / 11 (2026); diện tích khuôn viên lệch 4.000 / 1.900 m²; 'hoàn thành 2010' chỉ một bài ghi. 3) Viện Pasteur: Wikipedia tiếng Anh ghi Yersin đứng đầu viện năm 1936, báo Pháp 1936 ghi giám đốc là Dr Louis Souchard. 4) OSM gắn tên cũ năm 1964 'Nguyễn Tường Tam' cho đường Huỳnh Thúc Kháng (old_name:1964) nhưng em không tìm được nguồn nào khác → không đưa vào ten_cu. 5) Không có món đặc trưng của khu có nguồn → mon để trống. 6) Mốc gần đã có trang khác: Dinh III (khoảng 530 m, trang Triệu Việt Vương), nhà thờ Con Gà (khoảng 760 m, trang Trần Phú).",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Crazy House, Ngôi nhà điên, nhà gốc cây, lâu đài mạng nhện",
+   "thoi_gian": "các tên người ta gọi, từ những năm 1990 đến nay",
+   "ghi_chu": "VnExpress 2008: 'người dân và du khách gọi là biệt thự Hằng Nga, nhà gốc cây hoặc lâu đài mạng nhện'. Người Quan Sát 2026: 'Crazy House hoặc Ngôi nhà điên'. VinWonders: 'ngôi nhà điên' hay 'ngôi nhà quái dị'. Chưa có nguồn giải thích chữ 'Hằng Nga' (có thể gắn với tên bà Nga và chuyện cây đa trên cung trăng mà Tiền Phong nhắc, nhưng không bài nào nói thẳng → không kết luận).",
+   "nguon": [
+    "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
+    "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
+    "https://vinwonders.com/vi/wonderpedia/news/biet-thu-hang-nga/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Institut Pasteur de Dalat (Viện Pasteur Đà Lạt)",
+   "thoi_gian": "1936–2010, nay là Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC)",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+    "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Couvent des Oiseaux (trường Đức Bà Lâm Viên, Notre-Dame du Langbian)",
+   "thoi_gian": "1935/1936–1975, nay là Trường PT Dân tộc Nội trú Lâm Đồng",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
+    "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

@@ -2,34 +2,6 @@
  "slug": "ho-xuan-huong",
  "ten_cu": [
   {
-   "ten": "Nguyễn Thái Học",
-   "thoi_gian": "tên cũ của một đoạn Trần Quốc Toản (Phường 1 cũ); năm đổi chưa rõ",
-   "ghi_chu": "Bảng giá đất 2020–2021 ghi 'Trần Quốc Toản (Nguyễn Thái Học cũ) – Phường 1'. Tòa Giám mục trên OSM vẫn ghi địa chỉ '9 Nguyễn Thái Học'. Em chưa tìm được văn bản đổi tên.",
-   "nguon": [
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-nguyen-thai-hoc-cu-phuong-1",
-    "https://www.openstreetmap.org/way/361851710"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Bà Huyện Thanh Quan",
-   "thoi_gian": "tên cũ của đoạn Trần Quốc Toản từ ngã ba Yersin (Nhà khách Công Đoàn) tới Đinh Tiên Hoàng (Phường 10 cũ); năm đổi chưa rõ",
-   "ghi_chu": "Chỉ thấy trong bảng giá đất 2020–2021. OSM hiện vẫn có một đường khác tên Bà Huyện Thanh Quan gần đó.",
-   "nguon": [
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-ba-huyen-thanh-quan-cu-phuong-10"
-   ],
-   "mot_nguon": true
-  },
-  {
-   "ten": "Yersin",
-   "thoi_gian": "tên cũ của đoạn Trần Quốc Toản từ Hồ Tùng Mậu tới ngã ba Yersin (Phường 10 cũ); năm đổi chưa rõ",
-   "ghi_chu": "Chỉ thấy trong bảng giá đất 2020–2021 ('Trần Quốc Toản (Yersin cũ)'). Đường Yersin hiện vẫn bắt đầu ở ngã ba này.",
-   "nguon": [
-    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-yersin-cu-phuong-10"
-   ],
-   "mot_nguon": true
-  },
-  {
    "ten": "Grand Lac (Hồ Lớn)",
    "thoi_gian": "tên thời Pháp của hồ, tới năm 1953",
    "ghi_chu": "OSM cũng ghi old_name 'Grand Lac'.",
@@ -40,25 +12,6 @@
     "https://english.vov.vn/en/photos/charming-xuan-huong-lake-in-dalat-310603.vov",
     "https://vietnamnet.vn/en/charming-xuan-huong-lake-in-dalat-E150587.html",
     "https://en.vietnamplus.vn/lazing-along-charming-xuan-huong-lake-for-love-post51090.vnp"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Đà Lạt Central Square / Quảng trường trung tâm Đà Lạt",
-   "thoi_gian": "tên lúc đang xây, trước 10/11/2011",
-   "ghi_chu": "Wikipedia tiếng Anh: HĐND thông qua tên Quảng trường Lâm Viên ngày 10/11/2011. Tuổi Trẻ 10/10/2015 đưa tin lễ 'gắn tên' công trình nhưng không ghi tên cũ.",
-   "nguon": [
-    "https://en.wikipedia.org/wiki/Lam_Vien_Square"
-   ],
-   "mot_nguon": true
-  },
-  {
-   "ten": "Vườn hoa Bích Câu / Công viên hoa Đà Lạt",
-   "thoi_gian": "tên cũ của Vườn hoa thành phố (từ 1966)",
-   "ghi_chu": "",
-   "nguon": [
-    "https://mytour.vn/vi/blog/bai-viet/vuon-hoa-da-lat-diem-den-noi-tieng-nhat-trong-xu-so-suong-mu.html",
-    "https://vinwonders.com/vi/wonderpedia/news/vuon-hoa-thanh-pho-da-lat/"
    ],
    "mot_nguon": false
   }
@@ -336,5 +289,55 @@
    "mot_nguon": true
   }
  ],
- "ghi_chu": "1) Tên cũ các đoạn Trần Quốc Toản (Nguyễn Thái Học, Bà Huyện Thanh Quan, Yersin) chỉ thấy trong bảng giá đất 2020–2021; chưa tìm được văn bản và năm đổi tên. 2) Diện tích hồ lệch (25 / 33 / 38 ha) nên không ghi. 3) Thủy Tạ: chưa rõ năm 2026 có mở cửa không. 4) Câu 'Bảo Đại yêu cầu làm sân golf năm 1920' (Wikipedia, mytour) không dùng vì năm đó Bảo Đại mới 7 tuổi. 5) Khúc Trần Quốc Toản sát Vườn hoa thành phố: ranh giới phuong.json đặt trong Lâm Viên - Đà Lạt, bảng giá không ghi Phường 8 → chưa rõ."
+ "ghi_chu": "1) Tên cũ các đoạn Trần Quốc Toản (Nguyễn Thái Học, Bà Huyện Thanh Quan, Yersin) chỉ thấy trong bảng giá đất 2020–2021; chưa tìm được văn bản và năm đổi tên. 2) Diện tích hồ lệch (25 / 33 / 38 ha) nên không ghi. 3) Thủy Tạ: chưa rõ năm 2026 có mở cửa không. 4) Câu 'Bảo Đại yêu cầu làm sân golf năm 1920' (Wikipedia, mytour) không dùng vì năm đó Bảo Đại mới 7 tuổi. 5) Khúc Trần Quốc Toản sát Vườn hoa thành phố: ranh giới phuong.json đặt trong Lâm Viên - Đà Lạt, bảng giá không ghi Phường 8 → chưa rõ.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Nguyễn Thái Học",
+   "thoi_gian": "tên cũ của một đoạn Trần Quốc Toản (Phường 1 cũ); năm đổi chưa rõ",
+   "ghi_chu": "Bảng giá đất 2020–2021 ghi 'Trần Quốc Toản (Nguyễn Thái Học cũ) – Phường 1'. Tòa Giám mục trên OSM vẫn ghi địa chỉ '9 Nguyễn Thái Học'. Em chưa tìm được văn bản đổi tên.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-nguyen-thai-hoc-cu-phuong-1",
+    "https://www.openstreetmap.org/way/361851710"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Bà Huyện Thanh Quan",
+   "thoi_gian": "tên cũ của đoạn Trần Quốc Toản từ ngã ba Yersin (Nhà khách Công Đoàn) tới Đinh Tiên Hoàng (Phường 10 cũ); năm đổi chưa rõ",
+   "ghi_chu": "Chỉ thấy trong bảng giá đất 2020–2021. OSM hiện vẫn có một đường khác tên Bà Huyện Thanh Quan gần đó.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-ba-huyen-thanh-quan-cu-phuong-10"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Yersin",
+   "thoi_gian": "tên cũ của đoạn Trần Quốc Toản từ Hồ Tùng Mậu tới ngã ba Yersin (Phường 10 cũ); năm đổi chưa rõ",
+   "ghi_chu": "Chỉ thấy trong bảng giá đất 2020–2021 ('Trần Quốc Toản (Yersin cũ)'). Đường Yersin hiện vẫn bắt đầu ở ngã ba này.",
+   "nguon": [
+    "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-yersin-cu-phuong-10"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Đà Lạt Central Square / Quảng trường trung tâm Đà Lạt",
+   "thoi_gian": "tên lúc đang xây, trước 10/11/2011",
+   "ghi_chu": "Wikipedia tiếng Anh: HĐND thông qua tên Quảng trường Lâm Viên ngày 10/11/2011. Tuổi Trẻ 10/10/2015 đưa tin lễ 'gắn tên' công trình nhưng không ghi tên cũ.",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Lam_Vien_Square"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "ten": "Vườn hoa Bích Câu / Công viên hoa Đà Lạt",
+   "thoi_gian": "tên cũ của Vườn hoa thành phố (từ 1966)",
+   "ghi_chu": "",
+   "nguon": [
+    "https://mytour.vn/vi/blog/bai-viet/vuon-hoa-da-lat-diem-den-noi-tieng-nhat-trong-xu-so-suong-mu.html",
+    "https://vinwonders.com/vi/wonderpedia/news/vuon-hoa-thanh-pho-da-lat/"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

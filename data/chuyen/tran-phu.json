@@ -1,24 +1,147 @@
 {
-  "slug": "tran-phu",
-  "ten_cu": [
-    {"ten": "Yersin (đại lộ Yersin)", "duong_nay": "Trần Phú", "thoi_gian": "thời Pháp tới 1975", "nguon": ["https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t", "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/", "https://lamdong.gov.vn/sites/book/diachidalat/Phan4/c4-3.htm"], "mot_nguon": false, "ghi_chu": "Bảng của blog ghi đổi tên từ năm 1975. Sách Địa chí Đà Lạt (trên trang tỉnh) viết 'đối diện qua đường Yersin (nay là đường Trần Phú)', câu này em đọc qua đoạn trích của máy tìm kiếm. Đừng lẫn với đường Yersin bây giờ: đường đó thời Pháp tên Albert Sarraut, sau thành Thống Nhất, tới năm 1993 mới mang tên Yersin."},
-    {"ten": "Maréchal Foch", "duong_nay": "Ba Tháng Hai", "thoi_gian": "thời Pháp (bảng của blog ghi là 'trước 1953')", "nguon": ["https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm", "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"], "mot_nguon": false},
-    {"ten": "Duy Tân (dốc Duy Tân)", "duong_nay": "Ba Tháng Hai", "thoi_gian": "khoảng 1953 tới 1975", "nguon": ["https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html", "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t", "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"], "mot_nguon": false, "ghi_chu": "Ba nguồn đều ghi Duy Tân nay là đường 3/2. Các năm 1953 và 1975 chỉ có ở bảng của blog (tên cũ 'trước 1953', đổi tên 'từ 1975'), chưa có nguồn thứ hai."}
-  ],
-  "moc": [
-    {"nam": "1915/1916 – 1922", "su_kien": "Toàn quyền Roume cho xây khách sạn Lang-Bian Palace bên hồ (nay là số 2 Trần Phú). Khởi công năm 1916, mở cửa năm 1922.", "nguon": ["https://en.wikipedia.org/wiki/Dalat_Palace_Hotel", "https://www.sggp.org.vn/dalat-palace-heritage-hotel-tram-nam-noi-qua-khu-va-hien-dai-hoa-tron-duoc-gin-giu-post858558.html", "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Langbiang_Palace.pdf"], "mot_nguon": false, "ghi_chu": "Các nguồn lệch năm. Báo L'Éveil économique ra ngày 9/7/1922 viết Roume quyết định xây năm 1915 và khách sạn 'khánh thành năm ngoái lúc cuối mùa', tức khoảng 1921. Báo Les Annales coloniales ngày 23/3/1923 viết khách sạn mở cửa ngày 1 tháng 2 (năm 1923, sau đợt sửa chữa). Hai bài báo cũ này em đọc qua bản tổng hợp trên entreprises-coloniales.fr."},
-    {"nam": "1925", "su_kien": "Đình An Hòa được dựng, nay ở số 65 đường 3/2. Đây là ngôi đình cổ nhất Đà Lạt, tới năm 2025 tròn 100 tuổi.", "nguon": ["https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html", "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm"], "mot_nguon": false},
-    {"nam": "1929–1934", "su_kien": "Xây Hôtel du Parc (nay là số 15 Trần Phú) làm khách sạn phụ, giá vừa phải, cho Lang-Bian Palace. Tháng 2/1931 khách sạn gần xong, có 70 phòng. Tháng 4/1934 mới mở cửa một phần.", "nguon": ["https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Hotel_du_Parc.pdf", "https://www.fodors.com/world/asia/vietnam/the-south-central-coasts-and-highlands/hotels/reviews/du-parc-hotel-dalat-615069"], "mot_nguon": false, "ghi_chu": "Nhiều trang du lịch ghi năm 1932. Bản tổng hợp báo cũ thì cho thấy năm 1931 khách sạn gần xong, cuối 1933 mới giao cho người quản lý, và tháng 4/1934 mở một phần."},
-    {"nam": "1931–1942", "su_kien": "Xây nhà thờ chính tòa Thánh Nicôla, tức nhà thờ Con Gà. Đặt viên đá đầu tiên ngày 19/7/1931, gắn thánh giá có con gà trên tháp chuông ngày 14/11/1934, khánh thành năm 1942.", "nguon": ["https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t", "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat", "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html"], "mot_nguon": false, "ghi_chu": "Wikipedia tiếng Việt ghi khánh thành ngày 25/1/1942 và làm phép tháng 2/1942. Wikipedia tiếng Anh chỉ ghi làm phép tháng 2/1942."},
-    {"nam": "1941 hoặc 1943", "su_kien": "Mặt tiền Lang-Bian Palace bị sửa lại cho đơn giản hơn: bỏ bớt trang trí, thêm nét Art Deco.", "nguon": ["https://en.wikipedia.org/wiki/Dalat_Palace_Hotel", "https://www.sggp.org.vn/dalat-palace-heritage-hotel-tram-nam-noi-qua-khu-va-hien-dai-hoa-tron-duoc-gin-giu-post858558.html"], "mot_nguon": false, "ghi_chu": "Hai nguồn ghi năm khác nhau. Wikipedia ghi năm 1943, do Toàn quyền Decoux cho sửa. SGGP ghi năm 1941, tân trang thêm nét Art Deco."},
-    {"nam": "1993–1995", "su_kien": "Larry Hillblom, một trong những người sáng lập DHL, bỏ tiền phục dựng khách sạn Palace. Năm 1995 khách sạn mở lại dưới tên Sofitel.", "nguon": ["https://en.wikipedia.org/wiki/Dalat_Palace_Hotel", "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Langbiang_Palace.pdf"], "mot_nguon": false}
-  ],
-  "chuyen": [
-    {"tieu_de": "Con gà chỉ hướng gió", "noi_dung": "Trên đỉnh tháp chuông có con gà bằng đồng dài 0,66 m, quay theo chiều gió. Con gà được hiểu là gà trống Gaulois của Pháp, hoặc nhắc chuyện thánh Phêrô chối Chúa ba lần trước khi gà gáy.", "nguon": ["https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t", "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat", "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html"], "mot_nguon": false},
-    {"tieu_de": "Khách sạn xây ngược hướng", "noi_dung": "Một bài báo năm 1922 kể khách sạn Lang-Bian Palace xây gần xong mới biết phòng quay ra phía sau, khách muốn ngắm cảnh phải đứng ở cửa sổ phòng tắm, nên lại phải sửa. Khánh thành được vài tuần thì ống thoát nước nhà vệ sinh xây kín trong tường bị nứt, khách sạn phải đóng cửa để sửa lớn.", "nguon": ["https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Langbiang_Palace.pdf"], "mot_nguon": true, "ghi_chu": "Trích từ báo L'Éveil économique de l'Indochine (9/7/1922), đọc qua bản tổng hợp trên entreprises-coloniales.fr. Chỉ có một trang chép lại."},
-    {"tieu_de": "Ngôi đình làm lễ quay mặt", "noi_dung": "Theo Thanh Niên, khi người Pháp mở đường Maréchal Foch (nay là đường 3/2), đình An Hòa làm \"lễ quay mặt\" để đổi hướng ra con đường mới. Lễ này là nghi thức cáo yết với thần khi đổi hướng đình.", "nguon": ["https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm", "https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html"], "mot_nguon": true, "ghi_chu": "Chuyện quay mặt chỉ có Thanh Niên kể (báo dẫn lại cổng thông tin tỉnh). Báo Lâm Đồng thì viết khác: lúc xây, đình tựa vào dốc Duy Tân (đường 3/2) và cửa chính nhìn xuống phía Phan Đình Phùng. Cả hai báo đều kể đình do một chủ thầu người Việt bỏ tiền mua vật liệu, còn dân phu làm đường góp công xây."},
-    {"tieu_de": "Khách sạn phụ cho Palace", "noi_dung": "Hôtel du Parc được xây làm khách sạn phụ, giá vừa phải, cho khách mà Lang-Bian Palace không còn chỗ. Từ năm 1934, hai khách sạn do cùng một người là Édouard Féraudy quản lý.", "nguon": ["https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Hotel_du_Parc.pdf", "https://www.fodors.com/world/asia/vietnam/the-south-central-coasts-and-highlands/hotels/reviews/du-parc-hotel-dalat-615069"], "mot_nguon": false, "ghi_chu": "Ý 'khách sạn phụ, giá vừa phải' có ở cả hai nguồn. Ý Féraudy quản lý cả hai khách sạn chỉ có ở entreprises-coloniales."}
-  ],
-  "mon": [],
-  "ghi_chu": "1) Đoạn Trần Phú và đoạn Ba Tháng Hai có tên cũ khác nhau: Trần Phú thời trước là Yersin, Ba Tháng Hai là Foch rồi Duy Tân. 2) Em không mở được trang lamdong.gov.vn, nên câu 'đường Yersin (nay là Trần Phú)' trong Địa chí Đà Lạt chỉ đọc qua đoạn trích của máy tìm kiếm. 3) Năm khánh thành Lang-Bian Palace lệch nhau: 1921 theo báo năm 1922, 1922 theo Wikipedia và SGGP, mở lại ngày 1/2/1923. Năm xây Du Parc cũng lệch: các trang du lịch ghi 1932, báo cũ cho thấy xây 1929–1931 và mở năm 1934. 4) Wikipedia tiếng Việt ghi 'Bài thánh ca buồn' của nhạc sĩ Nguyễn Vũ (1944) lấy cảm hứng từ nhà thờ Con Gà. Nhưng năm 1944 là năm sinh của nhạc sĩ, còn báo Người Quan Sát ghi bài viết tháng 10/1972. Chưa có nguồn chắc nối bài hát với nhà thờ, nên em không đưa vào. 5) Mục món để trống. Tiệm bánh Liên Hoa đã có trong data/pho/tran-phu.json, còn tiệm mở năm nào thì em không tìm ra nguồn. 6) Wikipedia tiếng Việt có ghi Thư viện tỉnh ở số 22 Trần Phú vốn là tòa thị chính cũ, thành thư viện năm 1958. Chỉ có một nguồn nên em chưa đưa vào mốc."
+ "slug": "tran-phu",
+ "ten_cu": [
+  {
+   "ten": "Yersin (đại lộ Yersin)",
+   "duong_nay": "Trần Phú",
+   "thoi_gian": "thời Pháp tới 1975",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+    "https://lamdong.gov.vn/sites/book/diachidalat/Phan4/c4-3.htm"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Bảng của blog ghi đổi tên từ năm 1975. Sách Địa chí Đà Lạt (trên trang tỉnh) viết 'đối diện qua đường Yersin (nay là đường Trần Phú)', câu này em đọc qua đoạn trích của máy tìm kiếm. Đừng lẫn với đường Yersin bây giờ: đường đó thời Pháp tên Albert Sarraut, sau thành Thống Nhất, tới năm 1993 mới mang tên Yersin."
+  },
+  {
+   "ten": "Maréchal Foch",
+   "duong_nay": "Ba Tháng Hai",
+   "thoi_gian": "thời Pháp (bảng của blog ghi là 'trước 1953')",
+   "nguon": [
+    "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "moc": [
+  {
+   "nam": "1915/1916 – 1922",
+   "su_kien": "Toàn quyền Roume cho xây khách sạn Lang-Bian Palace bên hồ (nay là số 2 Trần Phú). Khởi công năm 1916, mở cửa năm 1922.",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+    "https://www.sggp.org.vn/dalat-palace-heritage-hotel-tram-nam-noi-qua-khu-va-hien-dai-hoa-tron-duoc-gin-giu-post858558.html",
+    "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Langbiang_Palace.pdf"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Các nguồn lệch năm. Báo L'Éveil économique ra ngày 9/7/1922 viết Roume quyết định xây năm 1915 và khách sạn 'khánh thành năm ngoái lúc cuối mùa', tức khoảng 1921. Báo Les Annales coloniales ngày 23/3/1923 viết khách sạn mở cửa ngày 1 tháng 2 (năm 1923, sau đợt sửa chữa). Hai bài báo cũ này em đọc qua bản tổng hợp trên entreprises-coloniales.fr."
+  },
+  {
+   "nam": "1925",
+   "su_kien": "Đình An Hòa được dựng, nay ở số 65 đường 3/2. Đây là ngôi đình cổ nhất Đà Lạt, tới năm 2025 tròn 100 tuổi.",
+   "nguon": [
+    "https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html",
+    "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "1929–1934",
+   "su_kien": "Xây Hôtel du Parc (nay là số 15 Trần Phú) làm khách sạn phụ, giá vừa phải, cho Lang-Bian Palace. Tháng 2/1931 khách sạn gần xong, có 70 phòng. Tháng 4/1934 mới mở cửa một phần.",
+   "nguon": [
+    "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Hotel_du_Parc.pdf",
+    "https://www.fodors.com/world/asia/vietnam/the-south-central-coasts-and-highlands/hotels/reviews/du-parc-hotel-dalat-615069"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Nhiều trang du lịch ghi năm 1932. Bản tổng hợp báo cũ thì cho thấy năm 1931 khách sạn gần xong, cuối 1933 mới giao cho người quản lý, và tháng 4/1934 mở một phần."
+  },
+  {
+   "nam": "1931–1942",
+   "su_kien": "Xây nhà thờ chính tòa Thánh Nicôla, tức nhà thờ Con Gà. Đặt viên đá đầu tiên ngày 19/7/1931, gắn thánh giá có con gà trên tháp chuông ngày 14/11/1934, khánh thành năm 1942.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+    "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Wikipedia tiếng Việt ghi khánh thành ngày 25/1/1942 và làm phép tháng 2/1942. Wikipedia tiếng Anh chỉ ghi làm phép tháng 2/1942."
+  },
+  {
+   "nam": "1941 hoặc 1943",
+   "su_kien": "Mặt tiền Lang-Bian Palace bị sửa lại cho đơn giản hơn: bỏ bớt trang trí, thêm nét Art Deco.",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+    "https://www.sggp.org.vn/dalat-palace-heritage-hotel-tram-nam-noi-qua-khu-va-hien-dai-hoa-tron-duoc-gin-giu-post858558.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Hai nguồn ghi năm khác nhau. Wikipedia ghi năm 1943, do Toàn quyền Decoux cho sửa. SGGP ghi năm 1941, tân trang thêm nét Art Deco."
+  },
+  {
+   "nam": "1993–1995",
+   "su_kien": "Larry Hillblom, một trong những người sáng lập DHL, bỏ tiền phục dựng khách sạn Palace. Năm 1995 khách sạn mở lại dưới tên Sofitel.",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+    "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Langbiang_Palace.pdf"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Con gà chỉ hướng gió",
+   "noi_dung": "Trên đỉnh tháp chuông có con gà bằng đồng dài 0,66 m, quay theo chiều gió. Con gà được hiểu là gà trống Gaulois của Pháp, hoặc nhắc chuyện thánh Phêrô chối Chúa ba lần trước khi gà gáy.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+    "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "tieu_de": "Khách sạn xây ngược hướng",
+   "noi_dung": "Một bài báo năm 1922 kể khách sạn Lang-Bian Palace xây gần xong mới biết phòng quay ra phía sau, khách muốn ngắm cảnh phải đứng ở cửa sổ phòng tắm, nên lại phải sửa. Khánh thành được vài tuần thì ống thoát nước nhà vệ sinh xây kín trong tường bị nứt, khách sạn phải đóng cửa để sửa lớn.",
+   "nguon": [
+    "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Langbiang_Palace.pdf"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Trích từ báo L'Éveil économique de l'Indochine (9/7/1922), đọc qua bản tổng hợp trên entreprises-coloniales.fr. Chỉ có một trang chép lại."
+  },
+  {
+   "tieu_de": "Ngôi đình làm lễ quay mặt",
+   "noi_dung": "Theo Thanh Niên, khi người Pháp mở đường Maréchal Foch (nay là đường 3/2), đình An Hòa làm \"lễ quay mặt\" để đổi hướng ra con đường mới. Lễ này là nghi thức cáo yết với thần khi đổi hướng đình.",
+   "nguon": [
+    "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm",
+    "https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Chuyện quay mặt chỉ có Thanh Niên kể (báo dẫn lại cổng thông tin tỉnh). Báo Lâm Đồng thì viết khác: lúc xây, đình tựa vào dốc Duy Tân (đường 3/2) và cửa chính nhìn xuống phía Phan Đình Phùng. Cả hai báo đều kể đình do một chủ thầu người Việt bỏ tiền mua vật liệu, còn dân phu làm đường góp công xây."
+  },
+  {
+   "tieu_de": "Khách sạn phụ cho Palace",
+   "noi_dung": "Hôtel du Parc được xây làm khách sạn phụ, giá vừa phải, cho khách mà Lang-Bian Palace không còn chỗ. Từ năm 1934, hai khách sạn do cùng một người là Édouard Féraudy quản lý.",
+   "nguon": [
+    "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Hotel_du_Parc.pdf",
+    "https://www.fodors.com/world/asia/vietnam/the-south-central-coasts-and-highlands/hotels/reviews/du-parc-hotel-dalat-615069"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Ý 'khách sạn phụ, giá vừa phải' có ở cả hai nguồn. Ý Féraudy quản lý cả hai khách sạn chỉ có ở entreprises-coloniales."
+  }
+ ],
+ "mon": [],
+ "ghi_chu": "1) Đoạn Trần Phú và đoạn Ba Tháng Hai có tên cũ khác nhau: Trần Phú thời trước là Yersin, Ba Tháng Hai là Foch rồi Duy Tân. 2) Em không mở được trang lamdong.gov.vn, nên câu 'đường Yersin (nay là Trần Phú)' trong Địa chí Đà Lạt chỉ đọc qua đoạn trích của máy tìm kiếm. 3) Năm khánh thành Lang-Bian Palace lệch nhau: 1921 theo báo năm 1922, 1922 theo Wikipedia và SGGP, mở lại ngày 1/2/1923. Năm xây Du Parc cũng lệch: các trang du lịch ghi 1932, báo cũ cho thấy xây 1929–1931 và mở năm 1934. 4) Wikipedia tiếng Việt ghi 'Bài thánh ca buồn' của nhạc sĩ Nguyễn Vũ (1944) lấy cảm hứng từ nhà thờ Con Gà. Nhưng năm 1944 là năm sinh của nhạc sĩ, còn báo Người Quan Sát ghi bài viết tháng 10/1972. Chưa có nguồn chắc nối bài hát với nhà thờ, nên em không đưa vào. 5) Mục món để trống. Tiệm bánh Liên Hoa đã có trong data/pho/tran-phu.json, còn tiệm mở năm nào thì em không tìm ra nguồn. 6) Wikipedia tiếng Việt có ghi Thư viện tỉnh ở số 22 Trần Phú vốn là tòa thị chính cũ, thành thư viện năm 1958. Chỉ có một nguồn nên em chưa đưa vào mốc.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Duy Tân (dốc Duy Tân)",
+   "duong_nay": "Ba Tháng Hai",
+   "thoi_gian": "khoảng 1953 tới 1975",
+   "nguon": [
+    "https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html",
+    "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Ba nguồn đều ghi Duy Tân nay là đường 3/2. Các năm 1953 và 1975 chỉ có ở bảng của blog (tên cũ 'trước 1953', đổi tên 'từ 1975'), chưa có nguồn thứ hai."
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

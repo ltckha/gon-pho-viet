@@ -458,48 +458,7 @@
    "can_kiem_them": 10,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_tang-bat-ho.md",
    "chuyen": {
-    "ten_cu": [
-     {
-      "ten": "Minh Mạng (nay là Trương Công Định)",
-      "thoi_gian": "thời Pháp đến 1975/1976; nguồn vênh năm đổi: tinbds (chép trang Đường phố Đà Lạt của tỉnh) ghi 1976, trangdulichdalat ghi đổi từ 1975",
-      "nguon": [
-       {
-        "link": "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-        "trang": "baolamdong.vn"
-       },
-       {
-        "link": "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
-        "trang": "trangdulichdalat.wordpress.com"
-       },
-       {
-        "link": "https://tinbds.com/lam-dong/da-lat/duong-truong-cong-dinh",
-        "trang": "tinbds.com"
-       },
-       {
-        "link": "https://znews.vn/anh-da-lat-xua-post1602502.html",
-        "trang": "znews.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Tăng Bạt Hổ (kèm hai đoạn ngắn Nguyễn Quyền, Lương Văn Can, nay gộp làm một)",
-      "thoi_gian": "đặt từ năm 1953",
-      "nguon": [
-       {
-        "link": "https://tinbds.com/lam-dong/da-lat/duong-tang-bat-ho",
-        "trang": "tinbds.com"
-       },
-       {
-        "link": "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t",
-        "trang": "vi.wikipedia.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "wiki"
-     }
-    ],
+    "ten_cu": [],
     "moc": [
      {
       "nam": "1929",
@@ -907,50 +866,6 @@
        {
         "link": "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html",
         "trang": "thuonggiaonline.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Gia Long (đường Lê Đại Hành bây giờ)",
-      "thoi_gian": "thời Pháp đến năm 1953",
-      "nguon": [
-       {
-        "link": "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/le-dai-hanh.aspx",
-        "trang": "lamdong.gov.vn"
-       },
-       {
-        "link": "https://tinbds.com/lam-dong/da-lat/duong-le-dai-hanh",
-        "trang": "tinbds.com"
-       },
-       {
-        "link": "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-        "trang": "baolamdong.vn"
-       },
-       {
-        "link": "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
-        "trang": "trangdulichdalat.wordpress.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Place du Marché / Quảng trường Chợ (Khu Hòa Bình bây giờ)",
-      "thoi_gian": "thời Pháp đến năm 1953",
-      "nguon": [
-       {
-        "link": "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html",
-        "trang": "nguoidothi.net.vn"
-       },
-       {
-        "link": "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-        "trang": "baolamdong.vn"
-       },
-       {
-        "link": "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
-        "trang": "trangdulichdalat.wordpress.com"
        }
       ],
       "mot_nguon": false,
@@ -1545,18 +1460,6 @@
       ],
       "mot_nguon": false,
       "muc": "chac"
-     },
-     {
-      "ten": "Rue des Jardins",
-      "thoi_gian": "thời Pháp — chỉ blog Mực Tím Sơn Đen ghi",
-      "nguon": [
-       {
-        "link": "https://www.muctimsonden.com/2026/08/cau-queo-lat-xua.html",
-        "trang": "muctimsonden.com"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "blog"
      }
     ],
     "moc": [
@@ -3118,26 +3021,6 @@
       ],
       "mot_nguon": false,
       "muc": "chac"
-     },
-     {
-      "ten": "Duy Tân (dốc Duy Tân)",
-      "thoi_gian": "khoảng 1953 tới 1975",
-      "nguon": [
-       {
-        "link": "https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html",
-        "trang": "baolamdong.vn"
-       },
-       {
-        "link": "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
-        "trang": "didulichdalat.wordpress.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
      }
     ],
     "moc": [
@@ -3951,60 +3834,12 @@
    "chuyen": {
     "ten_cu": [
      {
-      "ten": "Quốc lộ 20 - xã Xuân Trường / xã Trạm Hành",
-      "thoi_gian": "trước 1/7/2025",
-      "nguon": [
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-xuan-truong",
-        "trang": "thuviennhadat.vn"
-       },
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mat-tien-quoc-lo-20-xa-tram-hanh",
-        "trang": "thuviennhadat.vn"
-       },
-       {
-        "link": "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
-        "trang": "baolamdong.vn"
-       },
-       {
-        "link": "https://vi.wikipedia.org/wiki/Xu%C3%A2n_Tr%C6%B0%E1%BB%9Dng_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
-        "trang": "vi.wikipedia.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
       "ten": "L'Arbre Broyé (tên đầu của Sở trà Cầu Đất)",
       "thoi_gian": "thời Pháp",
       "nguon": [
        {
         "link": "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
         "trang": "vietnamplus.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "ten": "Entrerays (tên Pháp của ga Cầu Đất)",
-      "thoi_gian": "thời Pháp",
-      "nguon": [
-       {
-        "link": "https://en.wikipedia.org/wiki/Da_Lat%E2%80%93Thap_Cham_railway",
-        "trang": "en.wikipedia.org"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "wiki"
-     },
-     {
-      "ten": "Cầu Đất (tên vùng)",
-      "thoi_gian": "chưa rõ",
-      "nguon": [
-       {
-        "link": "https://vnexpress.net/thoi-su/ly-do-tra-cau-dat-qua-tram-nam-van-thom-ngon-3765604.html",
-        "trang": "vnexpress.net"
        }
       ],
       "mot_nguon": true,
@@ -4892,38 +4727,6 @@
       ],
       "mot_nguon": true,
       "muc": "chac"
-     },
-     {
-      "ten": "Văn Võ phòng Quốc trưởng",
-      "thoi_gian": "từ khi Bảo Đại mua lại (cuối 1951 theo Nguyễn Đắc Xuân)",
-      "nguon": [
-       {
-        "link": "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
-        "trang": "tuoitre.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "ten": "King Palace",
-      "thoi_gian": "tên dự án du lịch của Công ty CP Hoàn Cầu Đà Lạt, từ 2014",
-      "nguon": [
-       {
-        "link": "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
-        "trang": "sggp.org.vn"
-       },
-       {
-        "link": "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
-        "trang": "tuoitre.vn"
-       },
-       {
-        "link": "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
-        "trang": "vietnamplus.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
      }
     ],
     "moc": [
@@ -5494,96 +5297,7 @@
    "can_kiem_them": 6,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_domaine-de-marie.md",
    "chuyen": {
-    "ten_cu": [
-     {
-      "ten": "Domaine de Marie – 'Lãnh địa của Đức Bà'",
-      "thoi_gian": "tên đặt từ khi xây, còn dùng",
-      "nguon": [
-       {
-        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
-        "trang": "thanhnien.vn"
-       },
-       {
-        "link": "https://en.wikipedia.org/wiki/Domaine_de_Marie",
-        "trang": "en.wikipedia.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Nhà thờ Mai Anh",
-      "thoi_gian": "cách người Đà Lạt thường gọi",
-      "nguon": [
-       {
-        "link": "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
-        "trang": "vnexpress.net"
-       },
-       {
-        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
-        "trang": "vinhson.net"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Nhà thờ Vinh Sơn",
-      "thoi_gian": "tên gọi khác",
-      "nguon": [
-       {
-        "link": "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
-        "trang": "thanhnien.vn"
-       },
-       {
-        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
-        "trang": "vi.wikipedia.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Đường Calmette (nay là Ngô Quyền và Thi Sách)",
-      "thoi_gian": "trước 1953",
-      "nguon": [
-       {
-        "link": "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-        "trang": "baolamdong.vn"
-       },
-       {
-        "link": "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
-        "trang": "trangdulichdalat.wordpress.com"
-       },
-       {
-        "link": "https://tinbds.com/lam-dong/da-lat/duong-ngo-quyen",
-        "trang": "tinbds.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Đường Cassaigne (nay là Mai Hắc Đế)",
-      "thoi_gian": "trước 1953",
-      "nguon": [
-       {
-        "link": "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-        "trang": "baolamdong.vn"
-       },
-       {
-        "link": "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
-        "trang": "trangdulichdalat.wordpress.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     }
-    ],
+    "ten_cu": [],
     "moc": [
      {
       "nam": "1939",
@@ -6019,48 +5733,7 @@
    "can_kiem_them": 3,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_duong-ham-dat-set.md",
    "chuyen": {
-    "ten_cu": [
-     {
-      "ten": "Làng đất sét",
-      "thoi_gian": "tên báo dùng năm 2016, nay trang du lịch vẫn gọi",
-      "nguon": [
-       {
-        "link": "https://daidoanket.vn/lang-dat-set-10046325.html",
-        "trang": "daidoanket.vn"
-       },
-       {
-        "link": "https://www.vietnambooking.com/du-lich/blog-du-lich/lang-dat-set-da-lat.html",
-        "trang": "vietnambooking.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Khu du lịch Sao Đà Lạt (Dalat Star, Dalatstars)",
-      "thoi_gian": "tên khu du lịch chứa đường hầm",
-      "nguon": [
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-du-lich-ho-tuyen-lam-phuong-4",
-        "trang": "thuviennhadat.vn"
-       },
-       {
-        "link": "https://doanhnhan.baophapluat.vn/ngoi-nha-dat-do-bazan-doc-dao-nhat-viet-nam-34488.html",
-        "trang": "doanhnhan.baophapluat.vn"
-       },
-       {
-        "link": "https://dtinews.dantri.com.vn/print/20150331210930940.htm",
-        "trang": "dtinews.dantri.com.vn"
-       },
-       {
-        "link": "https://www.openstreetmap.org/node/4368051989",
-        "trang": "openstreetmap.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     }
-    ],
+    "ten_cu": [],
     "moc": [
      {
       "nam": "2008",
@@ -7603,60 +7276,7 @@
    "can_kiem_them": 4,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_hang-nga.md",
    "chuyen": {
-    "ten_cu": [
-     {
-      "ten": "Crazy House, Ngôi nhà điên, nhà gốc cây, lâu đài mạng nhện",
-      "thoi_gian": "các tên người ta gọi, từ những năm 1990 đến nay",
-      "nguon": [
-       {
-        "link": "https://vnexpress.net/cong-nhan-nha-dien-tai-da-lat-2100046.html",
-        "trang": "vnexpress.net"
-       },
-       {
-        "link": "https://nguoiquansat.vn/phat-hien-ngoi-nha-dien-o-viet-nam-gay-sot-tren-truyen-thong-quoc-te-tung-lot-top-15-ky-quan-ngoan-muc-nhat-the-gioi-317413.html",
-        "trang": "nguoiquansat.vn"
-       },
-       {
-        "link": "https://vinwonders.com/vi/wonderpedia/news/biet-thu-hang-nga/",
-        "trang": "vinwonders.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Institut Pasteur de Dalat (Viện Pasteur Đà Lạt)",
-      "thoi_gian": "1936–2010, nay là Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC)",
-      "nguon": [
-       {
-        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
-        "trang": "en.wikipedia.org"
-       },
-       {
-        "link": "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
-        "trang": "baolamdong.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Couvent des Oiseaux (trường Đức Bà Lâm Viên, Notre-Dame du Langbian)",
-      "thoi_gian": "1935/1936–1975, nay là Trường PT Dân tộc Nội trú Lâm Đồng",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html",
-        "trang": "vir.com.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "wiki"
-     }
-    ],
+    "ten_cu": [],
     "moc": [
      {
       "nam": "1933–1936",
@@ -8858,46 +8478,6 @@
    "chuyen": {
     "ten_cu": [
      {
-      "ten": "Nguyễn Thái Học",
-      "thoi_gian": "tên cũ của một đoạn Trần Quốc Toản (Phường 1 cũ); năm đổi chưa rõ",
-      "nguon": [
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-nguyen-thai-hoc-cu-phuong-1",
-        "trang": "thuviennhadat.vn"
-       },
-       {
-        "link": "https://www.openstreetmap.org/way/361851710",
-        "trang": "openstreetmap.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Bà Huyện Thanh Quan",
-      "thoi_gian": "tên cũ của đoạn Trần Quốc Toản từ ngã ba Yersin (Nhà khách Công Đoàn) tới Đinh Tiên Hoàng (Phường 10 cũ); năm đổi chưa rõ",
-      "nguon": [
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-ba-huyen-thanh-quan-cu-phuong-10",
-        "trang": "thuviennhadat.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "ten": "Yersin",
-      "thoi_gian": "tên cũ của đoạn Trần Quốc Toản từ Hồ Tùng Mậu tới ngã ba Yersin (Phường 10 cũ); năm đổi chưa rõ",
-      "nguon": [
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-quoc-toan-yersin-cu-phuong-10",
-        "trang": "thuviennhadat.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
       "ten": "Grand Lac (Hồ Lớn)",
       "thoi_gian": "tên thời Pháp của hồ, tới năm 1953",
       "nguon": [
@@ -8928,34 +8508,6 @@
       ],
       "mot_nguon": false,
       "muc": "chac"
-     },
-     {
-      "ten": "Đà Lạt Central Square / Quảng trường trung tâm Đà Lạt",
-      "thoi_gian": "tên lúc đang xây, trước 10/11/2011",
-      "nguon": [
-       {
-        "link": "https://en.wikipedia.org/wiki/Lam_Vien_Square",
-        "trang": "en.wikipedia.org"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "wiki"
-     },
-     {
-      "ten": "Vườn hoa Bích Câu / Công viên hoa Đà Lạt",
-      "thoi_gian": "tên cũ của Vườn hoa thành phố (từ 1966)",
-      "nguon": [
-       {
-        "link": "https://mytour.vn/vi/blog/bai-viet/vuon-hoa-da-lat-diem-den-noi-tieng-nhat-trong-xu-so-suong-mu.html",
-        "trang": "mytour.vn"
-       },
-       {
-        "link": "https://vinwonders.com/vi/wonderpedia/news/vuon-hoa-thanh-pho-da-lat/",
-        "trang": "vinwonders.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "blog"
      }
     ],
     "moc": [
@@ -10752,24 +10304,7 @@
    "can_kiem_them": 9,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_lang-biang.md",
    "chuyen": {
-    "ten_cu": [
-     {
-      "ten": "Đường Lang Biang - thị trấn Lạc Dương",
-      "thoi_gian": "trước 1/7/2025",
-      "nguon": [
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/huyen-lac-duong/duong-lang-biang-thi-tran-lac-duong",
-        "trang": "thuviennhadat.vn"
-       },
-       {
-        "link": "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
-        "trang": "baolamdong.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     }
-    ],
+    "ten_cu": [],
     "moc": [
      {
       "nam": "1893",
@@ -12759,26 +12294,6 @@
    "chuyen": {
     "ten_cu": [
      {
-      "ten": "Vùng săn bắn của vua Bảo Đại",
-      "thoi_gian": "trước 1945 – 1954",
-      "nguon": [
-       {
-        "link": "http://www.dfa.com.vn/content-c/tin-tuc/lang-nghe-truyen-thong-lang-hoa-thai-phien-phuong-12-thanh-pho-da-lat.html",
-        "trang": "dfa.com.vn"
-       },
-       {
-        "link": "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
-        "trang": "suckhoedoisong.vn"
-       },
-       {
-        "link": "https://thanhnien.vn/lang-hoa-ti-phu-185262951.htm",
-        "trang": "thanhnien.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
       "ten": "Ấp Thái Phiên (xã Xuân Thọ, quận Lạc Dương)",
       "thoi_gian": "từ năm 1956 tới trước 1975",
       "nguon": [
@@ -12797,38 +12312,6 @@
        {
         "link": "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/thai-phien.aspx",
         "trang": "lamdong.gov.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Phường 12, TP Đà Lạt",
-      "thoi_gian": "sau 1975 – 30/6/2025",
-      "nguon": [
-       {
-        "link": "https://suckhoedoisong.vn/thai-phien-lang-hoa-lang-du-lich-16921470.htm",
-        "trang": "suckhoedoisong.vn"
-       },
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/thai-phien-phuong-12",
-        "trang": "thuviennhadat.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Phường Lâm Viên - Đà Lạt",
-      "thoi_gian": "từ 1/7/2025",
-      "nguon": [
-       {
-        "link": "https://baolamdong.vn/lam-vien-da-lat-noi-hoi-tu-cac-lang-hoa-noi-tieng-384040.html",
-        "trang": "baolamdong.vn"
-       },
-       {
-        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/nq1671.json",
-        "trang": "Nghị quyết 1671/NQ-UBTVQH15"
        }
       ],
       "mot_nguon": false,
@@ -13525,34 +13008,6 @@
       ],
       "mot_nguon": false,
       "muc": "chac"
-     },
-     {
-      "ten": "Đập 3 / hồ Đa Thiện 3",
-      "thoi_gian": "từ năm 1972",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu",
-        "trang": "vi.wikipedia.org"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "wiki"
-     },
-     {
-      "ten": "Khu du lịch Hồ Rồng",
-      "thoi_gian": "trước khi đổi tên Đồi Mộng Mơ",
-      "nguon": [
-       {
-        "link": "https://vinwonders.com/vi/wonderpedia/news/doi-mong-mo-da-lat/",
-        "trang": "vinwonders.com"
-       },
-       {
-        "link": "https://mytour.vn/vi/blog/bai-viet/doi-mong-mo-da-lat-ve-dep-tho-mong-cua-xu-so-ngan-hoa.html",
-        "trang": "mytour.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "blog"
      }
     ],
     "moc": [
@@ -14096,52 +13551,7 @@
    "can_kiem_them": 9,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_trai-mat.md",
    "chuyen": {
-    "ten_cu": [
-     {
-      "ten": "Hùng Vương (Quốc lộ 20)",
-      "thoi_gian": "tên trong bảng giá đất 2020–2021",
-      "nguon": [
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-quoc-lo-20-phuong-11",
-        "trang": "thuviennhadat.vn"
-       },
-       {
-        "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
-        "trang": "tuoitre.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "ĐT723 (Đường tỉnh 723)",
-      "thoi_gian": "song song với tên Huỳnh Tấn Phát",
-      "nguon": [
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/huynh-ten-phat-dt723-phuong-11",
-        "trang": "thuviennhadat.vn"
-       },
-       {
-        "link": "https://www.foody.vn/lam-dong/panorama-da-lat-cafe",
-        "trang": "foody.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Trại Mát (tên vùng)",
-      "thoi_gian": "chưa rõ",
-      "nguon": [
-       {
-        "link": "https://mia.vn/cam-nang-du-lich/trai-mat-da-lat-co-gi-18974",
-        "trang": "mia.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "blog"
-     }
-    ],
+    "ten_cu": [],
     "moc": [
      {
       "nam": "1908",
@@ -15238,40 +14648,7 @@
    "can_kiem_them": 10,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_trieu-viet-vuong.md",
    "chuyen": {
-    "ten_cu": [
-     {
-      "ten": "Darles",
-      "thoi_gian": "thời Pháp, tới năm 1953",
-      "nguon": [
-       {
-        "link": "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
-        "trang": "tinbds.com"
-       },
-       {
-        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
-        "trang": "didulichdalat.wordpress.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "blog"
-     },
-     {
-      "ten": "Triệu Việt Vương",
-      "thoi_gian": "từ năm 1953",
-      "nguon": [
-       {
-        "link": "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong",
-        "trang": "tinbds.com"
-       },
-       {
-        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
-        "trang": "didulichdalat.wordpress.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "blog"
-     }
-    ],
+    "ten_cu": [],
     "moc": [
      {
       "nam": "1933–1938 (có nguồn ghi 1937–1941)",
@@ -16303,46 +15680,6 @@
        }
       ],
       "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "ten": "Hoàng Văn Thụ (đoạn cuối)",
-      "thoi_gian": "ít nhất tới bảng giá đất 2020–2021; chưa rõ năm đổi",
-      "nguon": [
-       {
-        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hoang-van-thu-phuong-5",
-        "trang": "thuviennhadat.vn"
-       },
-       {
-        "link": "https://mia.vn/cam-nang-du-lich/bo-tui-kinh-nghiem-vui-choi-tai-dalat-fairytale-land-chi-tiet-nhat-1665",
-        "trang": "mia.vn"
-       },
-       {
-        "link": "https://www.foody.vn/lam-dong/dalat-fairytale-land",
-        "trang": "foody.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Vạn Thành",
-      "thoi_gian": "tên đường hiện nay; năm đặt chưa rõ",
-      "nguon": [
-       {
-        "link": "https://saigoneer.com/saigon-food-culture/15538-da-lat,-the-unlikely-home-of-el-salvador-s-rare-pacamara-coffee-beans",
-        "trang": "saigoneer.com"
-       },
-       {
-        "link": "https://znews.vn/ngon-doi-song-ao-moi-noi-o-da-lat-post1203440.html",
-        "trang": "znews.vn"
-       },
-       {
-        "link": "https://www.vietnamairlines.com/en/useful-information/travel-guide/vuon-hoa-da-lat",
-        "trang": "vietnamairlines.com"
-       }
-      ],
-      "mot_nguon": false,
       "muc": "chac"
      }
     ],

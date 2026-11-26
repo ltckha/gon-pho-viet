@@ -13,15 +13,6 @@
    ],
    "mot_nguon": false,
    "ghi_chu": "Trang Đường phố Đà Lạt của tỉnh (lamdong.gov.vn, qua bản chép trên tinbds) ghi đổi tên năm 1953."
-  },
-  {
-   "ten": "Rue des Jardins",
-   "thoi_gian": "thời Pháp — chỉ blog Mực Tím Sơn Đen ghi",
-   "nguon": [
-    "https://www.muctimsonden.com/2026/08/cau-queo-lat-xua.html"
-   ],
-   "mot_nguon": true,
-   "ghi_chu": "Nghi: bảng tên đường của trangdulichdalat ghi đường Jardins (vườn rau) nay là La Sơn Phu Tử, không phải Phan Đình Phùng."
   }
  ],
  "moc": [
@@ -105,5 +96,17 @@
    "mot_nguon": true
   }
  ],
- "ghi_chu": "Tên Cầu Quẹo chắc (5 nguồn). 'Rue des Jardins' chỉ một blog ghi và mâu thuẫn bảng tên đường khác — không nên đưa lên bản đồ. Vị trí đúng của cây cầu vênh giữa hai nguồn (khúc cua Trương Công Định hay gần Ngã Ba Chùa). Em không mở được trang lamdong.gov.vn (máy chủ ngắt kết nối); nội dung lấy qua bản chép trên tinbds.com và đoạn trích của máy tìm kiếm. Kết quả tìm kiếm cho thấy trang tỉnh ghi đường có 369 số nhà, nhiều nhất Đà Lạt, và có hộ người Hoa — em chưa đọc tận mắt nên không đưa vào. Chưa tìm được năm cụ thể quán nào lâu đời nhất trên đường."
+ "ghi_chu": "Tên Cầu Quẹo chắc (5 nguồn). 'Rue des Jardins' chỉ một blog ghi và mâu thuẫn bảng tên đường khác — không nên đưa lên bản đồ. Vị trí đúng của cây cầu vênh giữa hai nguồn (khúc cua Trương Công Định hay gần Ngã Ba Chùa). Em không mở được trang lamdong.gov.vn (máy chủ ngắt kết nối); nội dung lấy qua bản chép trên tinbds.com và đoạn trích của máy tìm kiếm. Kết quả tìm kiếm cho thấy trang tỉnh ghi đường có 369 số nhà, nhiều nhất Đà Lạt, và có hộ người Hoa — em chưa đọc tận mắt nên không đưa vào. Chưa tìm được năm cụ thể quán nào lâu đời nhất trên đường.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Rue des Jardins",
+   "thoi_gian": "thời Pháp — chỉ blog Mực Tím Sơn Đen ghi",
+   "nguon": [
+    "https://www.muctimsonden.com/2026/08/cau-queo-lat-xua.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Nghi: bảng tên đường của trangdulichdalat ghi đường Jardins (vườn rau) nay là La Sơn Phu Tử, không phải Phan Đình Phùng."
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
 }

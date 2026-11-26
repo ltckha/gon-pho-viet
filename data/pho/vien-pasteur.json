@@ -1,0 +1,150 @@
+{
+ "road": "Lê Hồng Phong",
+ "duong": [
+  "Lê Hồng Phong",
+  "Pasteur"
+ ],
+ "ten_osm": [
+  "Lê Hồng Phong",
+  "Pasteur"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Địa chỉ chính thức số 18 Lê Hồng Phong (DAVAC trang Liên hệ ghi cả địa chỉ cũ 'Phường 4, TP Đà Lạt' và mới 'Phường Xuân Hương - Đà Lạt'; trungtamthuoc, Wikipedia tiếng Việt cũng ghi 18 Lê Hồng Phong). Thanh Niên 15/09/2024 lại ghi '18 đường Pasteur'. Khối nhà trên OSM (way/1305208733) cách đường Pasteur khoảng 44 m, Lê Hồng Phong khoảng 60 m — viện nằm giữa hai đường. Bảng giá đất trên thuviennhadat có cả 'Lê Hồng Phong - PHƯỜNG 4' và 'Pasteur - PHƯỜNG 4'. NQ 1671 mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt. Điểm OSM nằm trong ranh Xuân Hương - Đà Lạt của phuong.json; Nominatim cũng ghi 'Phường Xuân Hương - Đà Lạt'.",
+ "doan": [
+  {
+   "doan": "Lê Hồng Phong: trọn đường (Viện Pasteur số 18)",
+   "phuong_cu": "Phường 4",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/le-hong-phong-phuong-4"
+  },
+  {
+   "doan": "Pasteur: đoạn ngang khu viện",
+   "phuong_cu": "Phường 4",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/pasteur-phuong-4"
+  },
+  {
+   "doan": "Công ty Vắc xin Pasteur Đà Lạt (địa chỉ cũ và mới)",
+   "phuong_cu": "Phường 4",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://www.davac.com.vn/lien-he/"
+  }
+ ],
+ "ten_pho": "Viện Pasteur Đà Lạt",
+ "gioi_thieu": "Viện Pasteur Đà Lạt: viện Pasteur cuối cùng ở Đông Dương, mở năm 1936 theo đề xuất của bác sĩ Yersin để làm vắc xin nơi trời mát; toà nhà chính hai tầng có chân dung Louis Pasteur đắp nổi trên mặt tiền, nay là Công ty Vắc xin Pasteur Đà Lạt (DAVAC), làm vắc xin thương hàn.",
+ "dia_diem": [
+  {
+   "ten": "Toà nhà chính Viện Pasteur Đà Lạt",
+   "loai": "công trình thời Pháp (1930s), trụ sở viện",
+   "dac_trung": "Khối nhà chính hai tầng làm văn phòng, mặt ngoài gần như đối xứng, cửa sổ nhiều kiểu, một phần tường tầng trệt xây thô; mái bằng có tường xây cao hơn mái hắt — chịu ảnh hưởng 'trào lưu kiến trúc mới' (Wikipedia tiếng Việt theo Địa chí Đà Lạt, DAVAC); Thanh Niên 2024 ghi ảnh hưởng Bauhaus và Art Deco. Bên cạnh là phòng thí nghiệm, phòng vô trùng, phòng vắc xin, phòng lạnh. Kiến trúc sư: Paul Veysseyre cùng một đồng nghiệp người Việt (entreprises-coloniales, Wikipedia tiếng Anh).",
+   "dia_chi": "18 Lê Hồng Phong, phường Xuân Hương - Đà Lạt",
+   "duong": "Lê Hồng Phong",
+   "so_nha": "18",
+   "nguon": [
+    "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+    "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm",
+    "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+    "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+    "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie3.pdf",
+    "https://www.openstreetmap.org/way/1305208733"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đang là trụ sở, nơi sản xuất của Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC); chưa thấy nguồn nào nói mở cửa cho khách tham quan — chỉ nhìn từ ngoài.",
+   "ghi_chu": "Đoạn tả kiến trúc trên trang DAVAC gần như trùng chữ với Wikipedia tiếng Việt (dẫn Địa chí Đà Lạt 2008 tr. 319) → coi như một dòng tư liệu; Thanh Niên 2024 (Lam Yên) là nguồn độc lập. EFEO (triển lãm Đà Lạt, phần 3) có ảnh chú thích 'Tòa nhà chính của Viện Pasteur'. Năm xây lệch: 1932 – 6/1935 (DAVAC, Wikipedia tiếng Việt theo Nguyễn Tri Diện 2000) hay 1933–1934, trang bị bên trong 1935 (ghi chú của Dr L. Souchard, L'Avenir du Tonkin 21/9/1936). DAVAC còn tả 'hai khối nhà chính nối với nhau bằng một hàng rào có mái che', nhà phụ rải rác giữa rặng thông (1 nguồn). Cách Chợ Đà Lạt khoảng 1,6 km chim bay, Dinh III khoảng 450 m, nhà thờ Thánh Tâm khoảng 580 m (đo theo OSM).",
+   "vi_tri": {
+    "lon": 108.4272447,
+    "lat": 11.9333644,
+    "nguon": "OSM way/1305208733 (building, office=research, name 'Công ty Vắc xin Pasteur Đà Lạt', name:fr 'Institut Pasteur de Dalat', building:architecture=french_colonial), tâm khối nhà theo Nominatim 26/11/2026"
+   }
+  },
+  {
+   "ten": "Chân dung Louis Pasteur đắp nổi trên mặt tiền",
+   "loai": "phù điêu trên mặt tiền",
+   "dac_trung": "Mặt chính của viện có chân dung Louis Pasteur đắp nổi, phía trên là dòng chữ 'Viện Pasteur Việt Nam - Chi nhánh Đà Lạt' (Wikipedia tiếng Việt, DAVAC, Thanh Niên 2024 — Thanh Niên tả phù điêu tròn ở lối vào chính).",
+   "dia_chi": "mặt tiền toà nhà chính, 18 Lê Hồng Phong",
+   "duong": "Lê Hồng Phong",
+   "so_nha": "18",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+    "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "nhìn từ ngoài.",
+   "ghi_chu": "Chưa rõ phù điêu và dòng chữ có từ năm nào. Dòng chữ 'Viện Pasteur Việt Nam' hợp với giai đoạn sau thoả ước 25/11/1958, khi viện Đà Lạt là một trong 3 cơ sở của Viện Pasteur Việt Nam (DAVAC) — đây là em suy ra, không có nguồn ghi năm gắn chữ. Không tìm thấy tượng hay bia Yersin trong khuôn viên (đã tìm, không có nguồn nào nói có)."
+  },
+  {
+   "ten": "Các biệt thự của bác sĩ quanh viện",
+   "loai": "nhà ở thời Pháp",
+   "dac_trung": "Quanh viện có một số biệt thự, trước là nơi ở của các bác sĩ làm việc trong viện (Wikipedia tiếng Việt theo Nguyễn Tri Diện, 'Đà Lạt: Điểm hẹn năm 2000' tr. 223; DAVAC).",
+   "dia_chi": "quanh khu viện, giữa Lê Hồng Phong và Pasteur",
+   "duong": "Lê Hồng Phong",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/"
+   ],
+   "do_tin_cay": "trung bình",
+   "con_mo": "chưa rõ (không nguồn nào chỉ rõ từng căn).",
+   "ghi_chu": "Hai nguồn ở hai trang khác nhau nhưng câu chữ giống nhau, có thể cùng gốc sách → tin cậy trung bình. Không nguồn nào chỉ căn nào. Trên OSM gần đó có 'Khu Biệt Thự Nguyễn Viết Xuân' (way/1238335794, ghi năm 1939) và một khối nhà ghi architect 'Paul Veysseyre', năm 1939 (way/777432576), nhưng không có nguồn nói đó là nhà bác sĩ của viện → không gắn."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Tượng / bia Yersin trong khuôn viên viện",
+   "duong": "Lê Hồng Phong",
+   "so_nha": "18",
+   "nguon": [],
+   "ly_do": "đã tìm (báo, DAVAC, Wikipedia), không thấy nguồn nào nói có → không đưa vào."
+  },
+  {
+   "ten": "Nhà máy vắc xin xây năm 2004 (hơn 5 triệu USD, công suất thiết kế 6 triệu liều/năm)",
+   "duong": "Lê Hồng Phong",
+   "so_nha": "18",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://baophapluat.vn/cong-ty-vac-xin-pasteur-da-lat-chon-huong-di-dung-dan-den-thanh-cong-post142494.html"
+   ],
+   "ly_do": "có 2 nguồn cho việc đầu tư nhưng không nguồn nào chỉ toà nhà nào trong khu → ghi thành mốc 2004 trong chuyện, không thành địa điểm."
+  },
+  {
+   "ten": "Khu trồng canh ki na của viện ở xã Xuân Thọ",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/"
+   ],
+   "ly_do": "không nằm trong khu viện (xa ở Xuân Thọ, nay thuộc phường Xuân Trường - Đà Lạt? chưa kiểm); chưa rõ năm, chưa rõ vị trí. EFEO ghi Viện Pasteur có đồn điền canh ki na ở Dran từ 1924 — có thể là nơi khác."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/le-hong-phong-phuong-4",
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/pasteur-phuong-4",
+  "https://www.davac.com.vn/lien-he/",
+  "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+  "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+  "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+  "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+  "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie2.pdf",
+  "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie3.pdf",
+  "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm",
+  "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
+  "https://baolamdong.vn/da-lat-nam-1937-tiep-theo-va-het-283844.html",
+  "https://baophapluat.vn/cong-ty-vac-xin-pasteur-da-lat-chon-huong-di-dung-dan-den-thanh-cong-post142494.html",
+  "https://trungtamthuoc.com/thuong-hieu/davac",
+  "https://wwwnc.cdc.gov/eid/article/27/9/21-0318_article",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC1360277",
+  "https://www.openstreetmap.org/way/1305208733",
+  "data/lam-dong/nq1671.json (mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt)",
+  "data/lam-dong/phuong.json (điểm OSM nằm trong Xuân Hương - Đà Lạt)",
+  "data/lam-dong/da-lat/duong.json (tên đường: Lê Hồng Phong, Pasteur)"
+ ],
+ "cap_nhat": "2026-11-26"
+}

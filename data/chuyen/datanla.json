@@ -1,0 +1,167 @@
+{
+ "slug": "datanla",
+ "ten_cu": [
+  {
+   "ten": "Đạh Tam N'ha (Đạ Tam Nha)",
+   "thoi_gian": "tên tiếng K'Ho, có trước khi người Pháp tới",
+   "ghi_chu": "Nghĩa 'dưới lá có nước' (Wikipedia, Dân trí 2016); Thanh Niên 2026 dịch 'nước giấu dưới tán lá'. Dân trí: người Pháp phát âm thành Datanla. Cách viết lệch: Đạh-Tam-N'ha (Wikipedia), Đạh Tam N'ha / Đạ Tam Nha (Dân trí).",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+    "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+    "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Dalanta",
+   "thoi_gian": "cách chép nhầm, gặp trên báo và trang tỉnh",
+   "ghi_chu": "Wikipedia ghi một số tài liệu chép nhầm thành 'Dalanta'; trang tiếng Anh của tỉnh Lâm Đồng đặt tiêu đề 'Dalanta waterfall'; 24h năm 2016 cũng viết 'thác Dalanta'. (Tiêu đề trang tỉnh và bài 24h em thấy qua kết quả tìm kiếm/danh mục nguồn Wikipedia; trang tỉnh lỗi 503 khi mở.)",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+    "https://lamdong.gov.vn/sites/en/tourist/famous-landscape/SitePages/dalanta-waterfall.aspx",
+    "https://www.24h.com.vn/tin-tuc-trong-ngay/3-du-khach-anh-tu-nan-khi-vuot-thac-dalanta-da-lat-c46a772285.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Liang Đam Rơpu Kwăng",
+   "thoi_gian": "tên người Lạch gọi (theo trang lamdong.gov.vn)",
+   "ghi_chu": "Nghĩa 'thác con trâu đực té'. Em chỉ thấy qua đoạn trích của công cụ tìm kiếm; trang tỉnh lỗi 503, chưa đọc được nguyên văn → chưa dùng.",
+   "nguon": [
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/deo-prenn.aspx"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "moc": [
+  {
+   "nam": "1943",
+   "su_kien": "Tháng 2/1943 người Pháp khởi công đèo Prenn, con đường đi ngang thác Datanla.",
+   "nguon": [
+    "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+    "https://dtinews.dantri.com.vn/print/20231214134302770.htm"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Thanh Niên 2026: 'khởi công vào tháng 2.1943', nhà thầu Gross, theo tư liệu địa chí Đà Lạt. DTiNews 2023: 'built by France in 1943'."
+  },
+  {
+   "nam": "1976",
+   "su_kien": "Thành lập Công ty Du lịch Lâm Đồng (Dalat Tourist), đơn vị sau này quản lý khu thác.",
+   "nguon": [
+    "https://baolamdong.vn/print/423389.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Chỉ Báo Lâm Đồng 02/2026 ghi năm 1976."
+  },
+  {
+   "nam": "2006",
+   "su_kien": "Muộn nhất năm này khu thác đã có đường xe trượt đầu tiên — một trong hai đường xe trượt đầu tiên ở Việt Nam.",
+   "nguon": [
+    "https://rcdb.com/14139.htm",
+    "https://www.vccinews.com/prode/20789/.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "RCDB ghi 'since ≤ 2006' (không rõ năm đúng). VCCI 07/2010: đường ở Đambri là đường thứ ba của Việt Nam, sau Datanla (Lâm Đồng) và một nơi ở Kiên Giang."
+  },
+  {
+   "nam": "2007",
+   "su_kien": "UBND tỉnh ra Quyết định 298/QĐ-UBND (18/1/2007) về phí vào cổng Khu du lịch thác Đatanla, giao Công ty Du lịch Lâm Đồng thu.",
+   "nguon": [
+    "https://caselaw.vn/van-ban-phap-luat/219276-quyet-dinh-so-298-qd-ubnd-ngay-18-01-2007-ve-muc-thu-nop-che-do-quan-ly-su-dung-phi-vao-cong-tham-quan-va-phi-trong-giu-xe-tai-khu-du-lich-thac-datanla-da-lat-lam-dong-do-uy-ban-nhan-dan-tinh-lam-dong-ban-hanh-van-ban-het-hieu-luc"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Văn bản nhà nước (nay hết hiệu lực); không có nguồn thứ hai."
+  },
+  {
+   "nam": "2016",
+   "su_kien": "Ngày 26/2: ba du khách người Anh tử nạn khi vượt thác theo tour của một công ty tư nhân không thuộc khu du lịch; báo chí sau đó bàn nhiều về quản lý du lịch mạo hiểm.",
+   "nguon": [
+    "https://tuoitre.vn/3-du-khach-nuoc-ngoai-tu-nan-tai-thac-datanla-da-lat-1057687.htm",
+    "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+    "https://www.lonelyplanet.com/news/tours-suspended-at-vietnam-waterfall-following-tourist-deaths",
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Trò gì thì lệch: 'đu dây vượt thác' (Tuổi Trẻ) / tự thả mình theo dòng thác (PLO). Dalat Tourist nói đơn vị tổ chức không dùng thiết bị của họ (Wikipedia)."
+  },
+  {
+   "nam": "2017",
+   "su_kien": "Ngày 10/4/2017 tỉnh chấp thuận dự án Khu du lịch sinh thái thác Datanla (324,2 tỷ đồng) của Công ty CP Du lịch Lâm Đồng; RCDB ghi đường xe trượt mới mở năm này.",
+   "nguon": [
+    "https://thanhtra.com.vn/ket-luan-thanh-tra-E17BD7A25/lam-dong-thanh-tra-chi-ro-ton-tai-kien-nghi-thao-go-vuong-mac-tai-du-an-khu-du-lich-sinh-thai-thac-datanla-818acd62f.html",
+    "https://doanhnhan.baophapluat.vn/lam-dong-dau-tu-3242-ty-xay-dung-khu-du-lich-sinh-thai-thac-datanla-1647.html",
+    "https://rcdb.com/18600.htm"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "QĐ 686/QĐ-UBND ngày 10/4/2017 (Báo Thanh Tra); bài Doanh nhân 22/4/2017 ghi 'vừa được chấp thuận'. Năm mở đường xe trượt mới chỉ RCDB ghi."
+  },
+  {
+   "nam": "2023–2024",
+   "su_kien": "Mở rộng đèo Prenn lên 4 làn; tháng 12/2023 đoạn 3 km từ thác Datanla tới đường 3 Tháng 4 thông xe trước, toàn tuyến 31/1/2024.",
+   "nguon": [
+    "https://dtinews.dantri.com.vn/print/20231214134302770.htm",
+    "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
+    "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "2025",
+   "su_kien": "Từ 1/7/2025 Phường 3 cũ vào phường Xuân Hương - Đà Lạt. Trưa 4/12/2025 đèo Prenn sạt lở gần thác Datanla, phải đóng đèo.",
+   "nguon": [
+    "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
+    "data/lam-dong/nq1671.json (mục 99)",
+    "https://thanhtra.com.vn/an-sinh-AFA9C5670/lam-dong-sat-lo-tai-deo-prenn-phuong-xuan-huong-da-lat-fd59ebaab.html",
+    "https://dtinews.dantri.com.vn/print/20251205120247590.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "nam": "2026",
+   "su_kien": "Kết luận thanh tra 10/6/2026: phần lớn công trình đã khai thác nhưng dự án chậm tiến độ (khu thác chậm 65 tháng).",
+   "nguon": [
+    "https://thanhtra.com.vn/ket-luan-thanh-tra-E17BD7A25/lam-dong-thanh-tra-chi-ro-ton-tai-kien-nghi-thao-go-vuong-mac-tai-du-an-khu-du-lich-sinh-thai-thac-datanla-818acd62f.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Chỉ Báo Thanh Tra đưa tin; con số khoảng 1,2 triệu lượt khách/năm cũng từ bài này."
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Dưới lá có nước",
+   "noi_dung": "Tên Datanla đến từ tiếng K'Ho 'Đạh Tam N'ha' – dưới lá có nước. Có ba chuyện kể vì sao: người Lạt đánh nhau với quân Chăm, nhờ tìm thấy nước ở thác mà thắng, quân Chăm thua vì không biết dưới lá có nước, nên người Lạt đặt tên để con cháu nhớ; hoặc nơi đây nước trong, che kín bởi nhiều tầng lá nên tiên hay xuống tắm; hoặc đây là chỗ dũng sĩ K'Lang đánh bầy thú dữ rồi gặp nàng Hơbiang, cây đổ trong trận đánh tạo thành các hố sâu, trong đó có Vực Tử Thần.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+    "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+    "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+    "https://doanhnghiephoinhap.vn/thac-datanla-da-lat-net-dep-tho-mong-hoang-so-tru-tinh-76440.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Đây là truyền thuyết, không phải sử. Wikipedia gắn chuyện người Chăm với xung đột Chăm – Lạch – Chil thế kỷ XV–XVII (không dẫn nguồn riêng). Chi tiết bầy thú lệch: Dân trí kể 2 rắn hổ tinh, 7 sói, 2 cáo."
+  },
+  {
+   "tieu_de": "Vực Tử Thần và bài học du lịch mạo hiểm",
+   "noi_dung": "Phía trên thác có vực sâu người ta gọi Vực Tử Thần. Ngày 26/2/2016 ba du khách người Anh tử nạn ở thác khi đi tour vượt thác của một công ty tư nhân; khu du lịch nói đơn vị đó không thuộc họ. Vụ việc khiến báo trong và ngoài nước bàn về luật lệ cho du lịch mạo hiểm; nay Công ty CP Du lịch Lâm Đồng tự làm tour vượt thác (canyoning) có hướng dẫn.",
+   "nguon": [
+    "https://tuoitre.vn/3-du-khach-nuoc-ngoai-tu-nan-tai-thac-datanla-da-lat-1057687.htm",
+    "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+    "https://www.lonelyplanet.com/news/tours-suspended-at-vietnam-waterfall-following-tourist-deaths",
+    "https://tuoitre.vn/cam-nang-du-lich-da-lat-diem-den-da-ngoai-ket-hop-the-thao-20230408171213813.htm",
+    "https://baolamdong.vn/print/423389.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Không ghi tên người mất. Tour vượt thác có hướng dẫn: Tuổi Trẻ 2023, Báo Lâm Đồng 2026."
+  },
+  {
+   "tieu_de": "Cảnh phim Ván bài lật ngửa",
+   "noi_dung": "Đạo diễn Lê Hoàng Hoa từng dùng cảnh Đà Lạt, đèo Prenn và thác Datanla trong một số tập phim Ván bài lật ngửa (thập niên 1980).",
+   "nguon": [
+    "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Chỉ Thanh Niên 25/11/2026 ghi; em chưa tìm được nguồn thứ hai."
+  }
+ ],
+ "mon": [],
+ "ghi_chu": "1) Chiều dài xe trượt lệch: 2.400 m (Tuổi Trẻ 2023) / khoảng 1.000 m (Wikipedia) / 805 m và 1.700 m (RCDB, hai đường) → không ghi. 2) Diện tích: 312 ha (Dân trí 2016) / dự án 106,09 ha (Báo Thanh Tra 2026). 3) Năm có xe trượt đầu tiên chưa rõ, chỉ biết muộn nhất 2006 (RCDB). 4) Không tìm thấy văn bản xếp hạng di tích/danh thắng cho thác Datanla. 5) Wikipedia ghi 'cách thác Prenn 8 km', OSM đo khoảng 3,6 km chim bay → không dùng. 6) Không ghi giá vé (các trang ghi khác nhau, hay đổi)."
+}

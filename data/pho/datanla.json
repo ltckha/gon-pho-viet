@@ -1,0 +1,214 @@
+{
+ "road": "Đèo Prenn",
+ "duong": [
+  "Đèo Prenn",
+  "Quốc lộ 20"
+ ],
+ "ten_osm": [
+  "Đèo Prenn",
+  "Quốc lộ 20"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Thác nằm bên đường Đèo Prenn (OSM: điểm thác node/4502225092 cách đoạn 'Đèo Prenn' gần nhất trong duong.json khoảng 130 m). Bảng giá đất QĐ 02/2020 trên thuviennhadat ghi 'Đèo Prenn - PHƯỜNG 3' (2 đoạn, tới Cầu Prenn); Doanh nhân (Báo Pháp luật) 22/04/2017 ghi dự án khu du lịch sinh thái thác Datanla 'phường 3, TP. Đà Lạt'; mia ghi 'QL20 Đèo Prenn, Phường 3'. NQ 1671 mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt. Báo Thanh Tra 07/2026 ghi dự án ở phường Xuân Hương - Đà Lạt; Nominatim (OSM) cũng ghi 'Phường Xuân Hương - Đà Lạt'. Em kiểm bằng ranh phuong.json: điểm thác, ga xe trượt và thác Prenn đều nằm trong Xuân Hương - Đà Lạt. Trên OSM, tên 'Quốc lộ 20' trong duong.json chủ yếu là đoạn đi Trại Mát (Xuân Trường - Đà Lạt); đoạn đèo ngang thác mang tên 'Đèo Prenn'.",
+ "doan": [
+  {
+   "doan": "Đèo Prenn: ngã ba Mimosa – Prenn đến Cầu Prenn (đoạn có thác Datanla)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/deo-prenn-phuong-3"
+  },
+  {
+   "doan": "Khu du lịch sinh thái thác Datanla (dự án)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://doanhnhan.baophapluat.vn/lam-dong-dau-tu-3242-ty-xay-dung-khu-du-lich-sinh-thai-thac-datanla-1647.html",
+   "ghi_chu": "Báo Thanh Tra 07/2026 ghi phường Xuân Hương - Đà Lạt."
+  }
+ ],
+ "ten_pho": "Thác Datanla",
+ "gioi_thieu": "Thác Datanla: thác cao khoảng 20 m bên đèo Prenn (người Pháp mở năm 1943), cách trung tâm Đà Lạt khoảng 5 km; tên gốc tiếng K'Ho 'Đạh Tam N'ha' nghĩa là 'dưới lá có nước', nay là khu du lịch có đường xe trượt xuyên rừng thông xuống chân thác.",
+ "dia_diem": [
+  {
+   "ten": "Thác Datanla (Đatanla)",
+   "loai": "thác nước",
+   "dac_trung": "Thác đổ từ ghềnh đá cao khoảng 20 m (Wikipedia, Dân trí 2016) qua nhiều thềm đá; nước phía dưới gọi là Suối Tiên, phía trên có vực sâu gọi Vực Tử Thần (Wikipedia, Dân trí). Từ Quốc lộ 20 rẽ xuống dốc khoảng 300 m là tới thung lũng có thác (Dân trí). Tên gốc K'Ho 'Đạh Tam N'ha' – 'dưới lá có nước'; người Pháp đọc thành Datanla (Dân trí, Wikipedia, Thanh Niên 2026).",
+   "dia_chi": "bên đèo Prenn (Quốc lộ 20), phường Xuân Hương - Đà Lạt",
+   "duong": "Đèo Prenn",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+    "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+    "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+    "https://www.openstreetmap.org/node/4502225092"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở (trong khu du lịch; mia 09/2026 ghi 7:00–17:00).",
+   "ghi_chu": "Trên OSM thác nằm trên dòng suối tên 'Đa Tan La' (way/753496276) — chỉ OSM, chưa có nguồn chữ. Cách Chợ Đà Lạt khoảng 4,9 km đường chim bay (theo OSM); báo ghi khoảng 5 km. Wikipedia ghi 'cách thác Prenn 8 km' nhưng theo OSM hai thác cách nhau khoảng 3,6 km chim bay → không dùng con số 8 km.",
+   "vi_tri": {
+    "lon": 108.4488444,
+    "lat": 11.9011774,
+    "nguon": "OSM node/4502225092 (waterway=waterfall, name 'Thác Datanla', qua Nominatim 26/11/2026)"
+   }
+  },
+  {
+   "ten": "Đường xe trượt (máng trượt) Datanla",
+   "loai": "xe trượt ống / alpine coaster",
+   "dac_trung": "Xe trượt hai chỗ có phanh chạy xuyên rừng thông xuống chân thác, thay cho đoạn đi bộ xuống dốc. Có ít nhất từ năm 2006 (RCDB: 'since ≤ 2006'); tin VCCI tháng 7/2010 viết đường xe trượt mới ở Đambri là đường thứ ba của Việt Nam, sau Datanla và một nơi ở Kiên Giang. RCDB ghi thêm một đường mới mở năm 2017. Dự án năm 2017 có hạng mục 'nhà máng trượt' (Doanh nhân – Báo Pháp luật).",
+   "dia_chi": "khu du lịch thác Datanla, đèo Prenn, phường Xuân Hương - Đà Lạt",
+   "duong": "Đèo Prenn",
+   "so_nha": "",
+   "nguon": [
+    "https://tuoitre.vn/cam-nang-du-lich-da-lat-diem-den-da-ngoai-ket-hop-the-thao-20230408171213813.htm",
+    "https://rcdb.com/14139.htm",
+    "https://rcdb.com/18600.htm",
+    "https://www.vccinews.com/prode/20789/.html",
+    "https://baolamdong.vn/print/423389.html",
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở (RCDB ghi 'Operating'; Báo Lâm Đồng 02/2026 còn nhắc 'xe trượt thác').",
+   "ghi_chu": "Chiều dài lệch nhiều: Tuổi Trẻ 2023 ghi 2.400 m; Wikipedia khoảng 1.000 m; RCDB đường cũ 2.641,1 ft (khoảng 805 m), đường mới 5.577,4 ft (khoảng 1.700 m) → không ghi một con số chắc. Năm mở đường mới 2017 chỉ RCDB ghi. Không ghi giá vé (đổi theo năm).",
+   "vi_tri": {
+    "lon": 108.4475498,
+    "lat": 11.90299,
+    "nguon": "OSM way/1275560475 ('Xe Truot Moi' / Alpine Coaster 3, quầy vé, addr:street Đèo Prenn; tâm khối, qua Nominatim 26/11/2026)"
+   }
+  },
+  {
+   "ten": "Khu du lịch sinh thái thác Datanla",
+   "loai": "khu du lịch mạo hiểm, rừng thông",
+   "dac_trung": "Do Công ty Cổ phần Du lịch Lâm Đồng (Dalat Tourist) quản lý (Tuổi Trẻ 2016, QĐ 298/QĐ-UBND năm 2007). Năm 2017 tỉnh chấp thuận dự án khu du lịch sinh thái 324,2 tỷ đồng, thuộc quần thể khu du lịch hồ Tuyền Lâm (Doanh nhân – Báo Pháp luật 04/2017; Báo Thanh Tra 07/2026: 106,09 ha gồm 99,09 ha khu thác và 7 ha bãi xe dưới tán rừng). Ngoài xe trượt còn zipline xuyên rừng, hành trình trên cao (high rope) và vượt thác (canyoning) (Báo Lâm Đồng 02/2026, Tuổi Trẻ 2023).",
+   "dia_chi": "Quốc lộ 20 – đèo Prenn, phường Xuân Hương - Đà Lạt",
+   "duong": "Đèo Prenn",
+   "so_nha": "",
+   "nguon": [
+    "https://thanhtra.com.vn/ket-luan-thanh-tra-E17BD7A25/lam-dong-thanh-tra-chi-ro-ton-tai-kien-nghi-thao-go-vuong-mac-tai-du-an-khu-du-lich-sinh-thai-thac-datanla-818acd62f.html",
+    "https://doanhnhan.baophapluat.vn/lam-dong-dau-tu-3242-ty-xay-dung-khu-du-lich-sinh-thai-thac-datanla-1647.html",
+    "https://baolamdong.vn/print/423389.html",
+    "https://tuoitre.vn/3-du-khach-nuoc-ngoai-tu-nan-tai-thac-datanla-da-lat-1057687.htm",
+    "https://caselaw.vn/van-ban-phap-luat/219276-quyet-dinh-so-298-qd-ubnd-ngay-18-01-2007-ve-muc-thu-nop-che-do-quan-ly-su-dung-phi-vao-cong-tham-quan-va-phi-trong-giu-xe-tai-khu-du-lich-thac-datanla-da-lat-lam-dong-do-uy-ban-nhan-dan-tinh-lam-dong-ban-hanh-van-ban-het-hieu-luc"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở (Báo Thanh Tra 07/2026: phần lớn công trình đã khai thác; dự án chậm tiến độ, khu thác chậm 65 tháng).",
+   "ghi_chu": "Diện tích lệch: Dân trí 2016 ghi khu du lịch rộng 312 ha; Báo Thanh Tra 2026 ghi dự án 106,09 ha → có thể khác phạm vi, không gộp. Báo Thanh Tra ghi khoảng 1,2 triệu lượt khách/năm (1 nguồn). OSM chỉ có điểm 'Thác Datanla' tourism=attraction (node/1164597191) trùng chỗ thác, không có ranh khu → không ghim riêng.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Đèo Prenn",
+   "loai": "con đèo, cửa ngõ phía nam Đà Lạt",
+   "dac_trung": "Người Pháp khởi công tháng 2/1943 (Thanh Niên 2026, theo tư liệu địa chí; DTiNews 2023: 'built by France in 1943'), đặt tên theo thác Prenn dưới chân đèo. Năm 2023–2024 mở rộng lên 4 làn, dài khoảng 7,4 km; 12/2023 đoạn khoảng 3 km từ thác Datanla tới đường 3 Tháng 4 đưa vào sử dụng, thông xe toàn tuyến 31/1/2024.",
+   "dia_chi": "từ ngã ba đường 3 Tháng 4 – Đống Đa xuống Cầu Prenn, phường Xuân Hương - Đà Lạt",
+   "duong": "Đèo Prenn",
+   "so_nha": "",
+   "nguon": [
+    "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+    "https://dtinews.dantri.com.vn/print/20231214134302770.htm",
+    "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
+    "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đang dùng; cuối 2025 sạt lở hai lần, lần 4/12/2025 gần thác Datanla (Báo Thanh Tra, DTiNews).",
+   "ghi_chu": "Nghĩa tên Prenn lệch: gốc Chăm cổ 'vùng xâm lấn' (nhà nghiên cứu Nguyễn Hữu Tranh) hoặc K'Ho 'Prềnh' = cà đắng (Thanh Niên 2026, nêu cả hai). Nơi này là đường, không ghim điểm.",
+   "vi_tri": null
+  },
+  {
+   "ten": "Thác Prenn",
+   "loai": "thác nước, khu du lịch",
+   "dac_trung": "Thác dưới chân đèo Prenn, cao gần 10 m (mia) hay hơn 10 m (SGGP); con đèo mang tên thác (Thanh Niên 2026). Vùng này là nơi sinh sống lâu đời của người Lạch và Cil (nhóm K'Ho) (Thanh Niên). Có Đền thờ Âu Lạc dựng 2001–2002 (SGGP).",
+   "dia_chi": "cuối đèo Prenn, cạnh Quốc lộ 20, phường Xuân Hương - Đà Lạt",
+   "duong": "Quốc lộ 20",
+   "so_nha": "",
+   "nguon": [
+    "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+    "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465",
+    "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+    "https://www.openstreetmap.org/node/4096525696"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở (SGGP 08/10/2026).",
+   "ghi_chu": "Cách thác Datanla khoảng 3,6 km chim bay về phía đông nam (theo OSM). Đã có trong nơi 'Thiền viện Trúc Lâm – Hồ Tuyền Lâm'.",
+   "vi_tri": {
+    "lon": 108.4701041,
+    "lat": 11.8765192,
+    "nguon": "OSM node/4096525696 (waterway=waterfall, 'Thác Prenn', qua Nominatim 26/11/2026)"
+   }
+  },
+  {
+   "ten": "Thiền viện Trúc Lâm",
+   "loai": "thiền viện",
+   "dac_trung": "Thiền viện trên núi Phụng Hoàng nhìn xuống hồ Tuyền Lâm, khởi công 1993, khánh thành 1994; cách thác Datanla khoảng 1,6 km chim bay về phía tây, vào từ đường Trúc Lâm Yên Tử rẽ khỏi đèo Prenn cạnh thác.",
+   "dia_chi": "đường Trúc Lâm Yên Tử, phường Xuân Hương - Đà Lạt",
+   "duong": "Trúc Lâm Yên Tử",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_(%C4%90%C3%A0_L%E1%BA%A1t)",
+    "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m_Monastery_of_Da_Lat",
+    "https://www.vietnamtourism.com/vi/thien-vien-truc-lam-da-lat-lich-su-diem-tham-quan-va-cach",
+    "https://www.openstreetmap.org/way/1356287796"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "mở cho khách viếng (vietnamtourism.com 10/2026).",
+   "ghi_chu": "Đã là nơi riêng 'truc-lam' trên bản đồ; ở đây chỉ ghi làm mốc gần.",
+   "vi_tri": {
+    "lon": 108.4347865,
+    "lat": 11.9041575,
+    "nguon": "OSM way/1356287796 ('Thiền Viện Trúc Lâm', qua Nominatim 26/11/2026)"
+   }
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Suối Đa Tan La (dòng suối chảy qua thác)",
+   "duong": "Đèo Prenn",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/753496276"
+   ],
+   "ly_do": "chỉ OSM ghi tên suối; chưa thấy báo/văn bản nào."
+  },
+  {
+   "ten": "Tên người Lạch gọi thác: 'Liang Đam Rơpu Kwăng' (thác con trâu đực té)",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/deo-prenn.aspx"
+   ],
+   "ly_do": "chỉ thấy qua đoạn trích của công cụ tìm kiếm từ trang lamdong.gov.vn; trang báo lỗi 503 khi em mở, chưa đọc được nguyên văn."
+  },
+  {
+   "ten": "Datanla Pine Karts (xe điện địa hình, mới năm 2026)",
+   "duong": "Đèo Prenn",
+   "so_nha": "",
+   "nguon": [
+    "https://baolamdong.vn/print/423389.html"
+   ],
+   "ly_do": "1 nguồn (Báo Lâm Đồng 02/2026)."
+  },
+  {
+   "ten": "Tai nạn 25/3/2010: hai sinh viên Trường Cao đẳng Nghề Đà Lạt rơi xuống thác",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla"
+   ],
+   "ly_do": "chỉ Wikipedia; chưa mở được bài báo gốc."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/deo-prenn-phuong-3",
+  "https://doanhnhan.baophapluat.vn/lam-dong-dau-tu-3242-ty-xay-dung-khu-du-lich-sinh-thai-thac-datanla-1647.html",
+  "data/lam-dong/nq1671.json (mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json (tên đường: Đèo Prenn, Quốc lộ 20, Trúc Lâm Yên Tử)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.440,11.893,108.458,11.908 (tải 26/11/2026)",
+  "https://nominatim.openstreetmap.org (Thác Datanla, Thác Prenn, Thiền Viện Trúc Lâm, Xe Truot Moi; 26/11/2026)",
+  "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+  "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+  "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm"
+ ],
+ "cap_nhat": "2026-11-26"
+}

@@ -3612,18 +3612,6 @@
       "muc": "chac"
      },
      {
-      "nam": "2016",
-      "su_kien": "Ladofoods khánh thành nhà làm rượu vang Ladora Winery trên 6 ha ở Phát Chi.",
-      "nguon": [
-       {
-        "link": "https://doanhnhanplus.vn/ladofoods-khanh-thanh-nha-lam-ruou-vang-va-ra-mat-san-pham-moi-206787.html",
-        "trang": "doanhnhanplus.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
       "nam": "2017",
       "su_kien": "Đà Lạt trao quyền dùng nhãn hiệu chứng nhận 'Cà phê Cầu Đất Đà Lạt' đợt đầu cho 10 đơn vị.",
       "nguon": [
@@ -6902,70 +6890,6 @@
     "ten_cu": [],
     "moc": [
      {
-      "nam": "1933–1936",
-      "su_kien": "Viện Pasteur Đà Lạt được xây (1933–1934), trang bị bên trong (1935) và mở cửa ngày 1/1/1936, theo đề xuất của bác sĩ Alexandre Yersin; kiến trúc sư Paul Veysseyre cùng một đồng nghiệp người Việt.",
-      "nguon": [
-       {
-        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
-        "trang": "entreprises-coloniales.fr"
-       },
-       {
-        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
-        "trang": "en.wikipedia.org"
-       },
-       {
-        "link": "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
-        "trang": "baolamdong.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "1935–1936",
-      "su_kien": "Mười hai nữ tu dòng Đức Bà đến Đà Lạt (3/10/1935), dựng trường nữ Couvent des Oiseaux trên đường nay là Huyền Trân Công Chúa; khai giảng ngày 26/10/1936.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html",
-        "trang": "vir.com.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "wiki"
-     },
-     {
-      "nam": "1951",
-      "su_kien": "Ngày 11/5: đội cảm tử Phan Như Thạch đột nhập biệt thự Hoa Hồng (nay số 17 Huỳnh Thúc Kháng), nhà của Haasz, Chánh Thanh tra mật thám Đà Lạt, và bắn chết y giữa sân.",
-      "nguon": [
-       {
-        "link": "https://baolamdong.vn/dai-tuong-niem-cam-ly-noi-mau-da-do-giua-ngan-hoa-388961.html",
-        "trang": "baolamdong.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "nam": "1955",
-      "su_kien": "Linh mục Thiên Phong Bửu Dưỡng cho xây nhà thờ Du Sinh trên đồi phía tây nam, theo lối kiến trúc Á Đông.",
-      "nguon": [
-       {
-        "link": "https://kienthuc.net.vn/kho-tri-thuc/top-nha-tho-hot-nhat-da-lat-mua-giang-sinh-793237.html",
-        "trang": "kienthuc.net.vn"
-       },
-       {
-        "link": "https://toplist.vn/top-list/nha-tho-dep-nhat-o-da-lat-5945.htm",
-        "trang": "toplist.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
       "nam": "1983",
       "su_kien": "Kiến trúc sư Đặng Việt Nga rời Hà Nội vào Đà Lạt.",
       "nguon": [
@@ -7060,22 +6984,6 @@
       ],
       "mot_nguon": false,
       "muc": "chac"
-     },
-     {
-      "nam": "2010",
-      "su_kien": "Viện Pasteur Đà Lạt chuyển thành Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC).",
-      "nguon": [
-       {
-        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
-        "trang": "en.wikipedia.org"
-       },
-       {
-        "link": "https://trungtamthuoc.com/thuong-hieu/davac",
-        "trang": "trungtamthuoc.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "wiki"
      },
      {
       "nam": "2025",
@@ -7173,58 +7081,6 @@
        }
       ],
       "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "tieu_de": "Vắc xin làm trên cao nguyên",
-      "noi_dung": "Phòng làm vắc xin vốn thuộc Viện Pasteur Sài Gòn được chuyển lên Đà Lạt đầu năm 1936, vì khí hậu mát hợp hơn để làm và giữ vắc xin. Năm 1936 viện làm ra hơn 3 triệu liều, phần lớn là vắc xin tả. Nay công ty kế thừa vẫn làm vắc xin thương hàn.",
-      "nguon": [
-       {
-        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
-        "trang": "entreprises-coloniales.fr"
-       },
-       {
-        "link": "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
-        "trang": "baolamdong.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "tieu_de": "Trường của các tiểu thư",
-      "noi_dung": "Couvent des Oiseaux là trường nữ của các nữ tu dòng Đức Bà, mở theo mong muốn của Hoàng hậu Nam Phương, dạy con gái nhà khá giả ở Đà Lạt và miền Nam cho tới năm 1975. Nay toà chính là trường nội trú cho học sinh dân tộc thiểu số của tỉnh.",
-      "nguon": [
-       {
-        "link": "https://vir.com.vn/a-historic-monastery-in-dalat-43154.html",
-        "trang": "vir.com.vn"
-       },
-       {
-        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Ph%E1%BB%95_th%C3%B4ng_D%C3%A2n_t%E1%BB%99c_N%E1%BB%99i_tr%C3%BA_L%C3%A2m_%C4%90%E1%BB%93ng",
-        "trang": "vi.wikipedia.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "wiki"
-     },
-     {
-      "tieu_de": "Nhà thờ dáng chùa",
-      "noi_dung": "Nhà thờ Du Sinh do linh mục Thiên Phong Bửu Dưỡng, người dòng dõi nhà Nguyễn, cho xây từ năm 1955; ông chọn lối kiến trúc Á Đông, nên nhà thờ mang dáng đình chùa giữa một thành phố nhiều nhà thờ kiểu Pháp.",
-      "nguon": [
-       {
-        "link": "https://kienthuc.net.vn/kho-tri-thuc/top-nha-tho-hot-nhat-da-lat-mua-giang-sinh-793237.html",
-        "trang": "kienthuc.net.vn"
-       },
-       {
-        "link": "https://toplist.vn/top-list/nha-tho-dep-nhat-o-da-lat-5945.htm",
-        "trang": "toplist.vn"
-       },
-       {
-        "link": "https://dalat.app/blog/news/du-sinh-church-unique-architecture-da-lat",
-        "trang": "dalat.app"
-       }
-      ],
-      "mot_nguon": false,
       "muc": "chac"
      }
     ]
@@ -7687,22 +7543,6 @@
       ],
       "mot_nguon": true,
       "muc": "chac"
-     },
-     {
-      "tieu_de": "Từ trường Võ bị đến Học viện Lục quân",
-      "noi_dung": "Cách hồ chừng một cây số về phía tây là khu trường quân sự: Trường Võ bị Quốc gia chuyển từ Huế lên Đà Lạt năm 1950; cuối năm 1975 Học viện Lục quân từ Hà Nội vào tiếp quản và ở đây đến nay.",
-      "nguon": [
-       {
-        "link": "https://en.wikipedia.org/wiki/Vietnamese_National_Military_Academy",
-        "trang": "en.wikipedia.org"
-       },
-       {
-        "link": "https://tuyendinh75.blogspot.com/2019/02/truong-ao-tao-cac-anh-hung-qlvnch.html",
-        "trang": "tuyendinh75.blogspot.com"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "wiki"
      }
     ]
    },
@@ -9959,26 +9799,6 @@
       "muc": "chac"
      },
      {
-      "nam": "1942–1946",
-      "su_kien": "Người Pháp khởi công thủy điện Ankroet (tháng 10/1942) ở thung lũng Đankia – Suối Vàng, khánh thành 1945, phát điện 1946 — thủy điện đầu tiên của Việt Nam và Đông Dương.",
-      "nguon": [
-       {
-        "link": "https://news.tuoitre.vn/a-visit-to-indochinas-first-hydroelectric-plant-near-vietnams-da-lat-10338454.htm",
-        "trang": "news.tuoitre.vn"
-       },
-       {
-        "link": "https://tapchicongthuong.vn/kham-pha-thuy-dien-co-nhat-viet-nam-110870.htm",
-        "trang": "tapchicongthuong.vn"
-       },
-       {
-        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_m%C3%A1y_th%E1%BB%A7y_%C4%91i%E1%BB%87n_Ankroet",
-        "trang": "vi.wikipedia.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
       "nam": "1977",
       "su_kien": "Xã Lát (khi ấy thuộc huyện Đức Trọng) được nhập về thành phố Đà Lạt (Quyết định 51-CP ngày 10/3/1977).",
       "nguon": [
@@ -10027,18 +9847,6 @@
       "muc": "chac"
      },
      {
-      "nam": "2008–2009",
-      "su_kien": "Vườn quốc gia Bidoup - Núi Bà làm đường mòn leo đỉnh núi Bà (khoảng 12 km cả đi lẫn về) để phát triển du lịch cộng đồng cho người địa phương.",
-      "nguon": [
-       {
-        "link": "https://baolamdong.vn/kham-pha-cung-duong-leo-nui-xuyen-rung-dep-nhat-da-lat-428005.html",
-        "trang": "baolamdong.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
       "nam": "2015",
       "su_kien": "Ngày 9/6/2015, UNESCO công nhận Khu dự trữ sinh quyển Lang Biang (275.439 ha; vùng lõi 34.943 ha ở Vườn quốc gia Bidoup - Núi Bà), khu thứ 9 của Việt Nam.",
       "nguon": [
@@ -10073,22 +9881,6 @@
        {
         "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/phuong.json",
         "trang": "Ranh giới mới (phuong.json)"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "2025",
-      "su_kien": "Langbiang Land mở cửa dịp Tết Ất Tỵ dưới chân núi (Đường Biđoúp).",
-      "nguon": [
-       {
-        "link": "https://baolamdong.vn/langbiang-land-noi-thien-nhien-hoa-cung-van-hoa-ban-dia-281535.html",
-        "trang": "baolamdong.vn"
-       },
-       {
-        "link": "https://mia.vn/cam-nang-du-lich/langbiang-land-da-lat-review-19858",
-        "trang": "mia.vn"
        }
       ],
       "mot_nguon": false,
@@ -12657,18 +12449,6 @@
       "muc": "chac"
      },
      {
-      "nam": "1939",
-      "su_kien": "Trường Thiếu sinh quân hỗn hợp Âu Á (École d'Enfants de Troupe de Dalat) được lập — cơ sở về sau Viện Đại học Đà Lạt kế thừa.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
-        "trang": "vi.wikipedia.org"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "wiki"
-     },
-     {
       "nam": "1953",
       "su_kien": "Đổi tên tiếng Việt: Thung lũng Tình Yêu (đề nghị của ông Nguyễn Vỹ, Chủ tịch Hội đồng thị xã Đà Lạt).",
       "nguon": [
@@ -12693,26 +12473,6 @@
       "muc": "chac"
      },
      {
-      "nam": "1957–1958",
-      "su_kien": "Viện Đại học Đà Lạt ra đời (Wikipedia: lập 1957, hoạt động từ 1958); khóa tuyển sinh đầu tiên năm 1958.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
-        "trang": "sggp.org.vn"
-       },
-       {
-        "link": "https://tuoitre.vn/truong-dai-hoc-da-lat-hanh-trinh-65-nam-thu-nhan-khai-phong-ban-sac-2023111610494645.htm",
-        "trang": "tuoitre.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
       "nam": "1972",
       "su_kien": "Đắp đập ngang thung lũng, thành hồ Đa Thiện.",
       "nguon": [
@@ -12731,46 +12491,6 @@
       ],
       "mot_nguon": false,
       "muc": "chac"
-     },
-     {
-      "nam": "1976",
-      "su_kien": "Ngày 27/10/1976, Thủ tướng ký Quyết định 426 lập Trường Đại học Đà Lạt trên cơ sở Viện Đại học Đà Lạt.",
-      "nguon": [
-       {
-        "link": "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
-        "trang": "sggp.org.vn"
-       },
-       {
-        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
-        "trang": "vi.wikipedia.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "1978 / 1992 / 2003",
-      "su_kien": "Đồi Mộng Mơ (từ Hồ Rồng) khởi công 1978, thành khu du lịch 1992, khai trương 2003 dịp 110 năm Đà Lạt.",
-      "nguon": [
-       {
-        "link": "https://vinwonders.com/vi/wonderpedia/news/doi-mong-mo-da-lat/",
-        "trang": "vinwonders.com"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "blog"
-     },
-     {
-      "nam": "1994",
-      "su_kien": "Lập làng tranh thêu XQ ở Đà Lạt với khoảng 20 nghệ nhân; năm 1996 thành Công ty XQ Sử Quán Đà Lạt.",
-      "nguon": [
-       {
-        "link": "https://mia.vn/cam-nang-du-lich/xq-su-quan-chiem-nguong-nghe-thuat-theu-tranh-truyen-thong-dinh-cao-1543",
-        "trang": "mia.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "blog"
      },
      {
       "nam": "1998",
@@ -12853,50 +12573,6 @@
       ],
       "mot_nguon": false,
       "muc": "chac"
-     },
-     {
-      "tieu_de": "Từ trường thiếu sinh quân tới Đại học Đà Lạt",
-      "noi_dung": "Khuôn viên Đại học Đà Lạt ở đầu đường Phù Đổng Thiên Vương từng là trường thiếu sinh quân thời Pháp (Wikipedia). Viện Đại học Đà Lạt tuyển khóa đầu năm 1958; sau năm 1975 trường được lập lại với tên Trường Đại học Đà Lạt (Quyết định 426 ngày 27/10/1976).",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
-        "trang": "sggp.org.vn"
-       },
-       {
-        "link": "https://tuoitre.vn/truong-dai-hoc-da-lat-hanh-trinh-65-nam-thu-nhan-khai-phong-ban-sac-2023111610494645.htm",
-        "trang": "tuoitre.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "tieu_de": "Hai khu du lịch thành một",
-      "noi_dung": "Đồi Mộng Mơ từng là khu du lịch riêng (trước gọi Hồ Rồng) nằm sát Thung lũng Tình Yêu. Nay hai khu được gộp thành TTC World – Thung Lũng Tình Yêu, còn Đồi Mộng Mơ thành khu nghỉ dưỡng TTC Đồi Mộng Mơ.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://uk.trip.com/hotels/dalat-hotel-detail-2550571/mong-mo-resort",
-        "trang": "uk.trip.com"
-       },
-       {
-        "link": "https://vinwonders.com/vi/wonderpedia/news/doi-mong-mo-da-lat/",
-        "trang": "vinwonders.com"
-       },
-       {
-        "link": "https://mytour.vn/vi/blog/bai-viet/doi-mong-mo-da-lat-ve-dep-tho-mong-cua-xu-so-ngan-hoa.html",
-        "trang": "mytour.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "wiki"
      }
     ]
    },
@@ -13211,70 +12887,6 @@
       "muc": "chac"
      },
      {
-      "nam": "1938",
-      "su_kien": "Đạo Cao Đài đến Đà Lạt; về sau thánh thất đặt ở tổ Đa Phước, gần ga Trại Mát.",
-      "nguon": [
-       {
-        "link": "https://vinwonders.com/vi/wonderpedia/news/thanh-that-da-phuoc/",
-        "trang": "vinwonders.com"
-       },
-       {
-        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/",
-        "trang": "localvietnam.com"
-       },
-       {
-        "link": "https://saigoneer.com/vietnam-travel/19619-at-da-lat-s-secluded-da-phuoc-temple,-insights-into-cao-dai-teachings",
-        "trang": "saigoneer.com"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "1949",
-      "su_kien": "Khởi công chùa Linh Phước ở Trại Mát.",
-      "nguon": [
-       {
-        "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
-        "trang": "tuoitre.vn"
-       },
-       {
-        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
-        "trang": "baophapluat.vn"
-       },
-       {
-        "link": "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
-        "trang": "vtcnews.vn"
-       },
-       {
-        "link": "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple",
-        "trang": "en.wikipedia.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "1990",
-      "su_kien": "Chùa Linh Phước đại trùng tu, bắt đầu khảm mảnh chai, sành sứ.",
-      "nguon": [
-       {
-        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
-        "trang": "baophapluat.vn"
-       },
-       {
-        "link": "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
-        "trang": "vtcnews.vn"
-       },
-       {
-        "link": "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple",
-        "trang": "en.wikipedia.org"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
       "nam": "1991",
       "su_kien": "Đoạn Đà Lạt – Trại Mát bắt đầu chạy tàu du lịch (tên dịch vụ Dalat Plateau Rail Road).",
       "nguon": [
@@ -13284,58 +12896,6 @@
        }
       ],
       "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "nam": "1999",
-      "su_kien": "Đúc Đại hồng chung treo trong tháp chuông 7 tầng của chùa Linh Phước (nghệ nhân Huế).",
-      "nguon": [
-       {
-        "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
-        "trang": "tuoitre.vn"
-       },
-       {
-        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
-        "trang": "baophapluat.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "2009",
-      "su_kien": "Dựng tượng Quan Âm cao 17 m kết bằng 600.000 bông hoa bất tử ở chùa Linh Phước.",
-      "nguon": [
-       {
-        "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
-        "trang": "tuoitre.vn"
-       },
-       {
-        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
-        "trang": "baophapluat.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "2010",
-      "su_kien": "Khánh thành Thánh thất Cao Đài Đa Phước xây lại theo mẫu số 2 của Tòa Thánh Tây Ninh (khởi công 2005).",
-      "nguon": [
-       {
-        "link": "https://thanhtra.com.vn/xa-hoi/van-hoa/kham-pha-thanh-that-lon-nhat-viet-nam-cua-dao-cao-dai-187973.html",
-        "trang": "thanhtra.com.vn"
-       },
-       {
-        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/",
-        "trang": "localvietnam.com"
-       },
-       {
-        "link": "https://vinwonders.com/vi/wonderpedia/news/thanh-that-da-phuoc/",
-        "trang": "vinwonders.com"
-       }
-      ],
-      "mot_nguon": false,
       "muc": "chac"
      },
      {
@@ -13398,18 +12958,6 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "tieu_de": "Ngôi chùa xin ve chai",
-      "noi_dung": "Để khảm chùa Linh Phước, các sư đi xin vỏ chai ở nhà máy bia rượu, mót chén bát vỡ ở một xưởng gần chùa; về sau xưởng tự gom chén bể mang tới bán. Chai được nung trên thanh sắt nóng rồi nhúng nước lạnh để cắt, thân rồng ghép bằng chai bia màu xanh. Thợ khảm là nghệ nhân từ Huế, làm không theo bản vẽ cố định.",
-      "nguon": [
-       {
-        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
-        "trang": "baophapluat.vn"
-       }
-      ],
-      "mot_nguon": true,
       "muc": "chac"
      },
      {
@@ -14817,18 +14365,6 @@
       "muc": "chac"
      },
      {
-      "nam": "2001–2002",
-      "su_kien": "Dựng Đền thờ Âu Lạc ở khu thác Prenn: khởi công 10/2001, hoạt động từ 1/2002; 1/11/2002 rước linh vật từ đất Tổ Phú Thọ về.",
-      "nguon": [
-       {
-        "link": "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
-        "trang": "sggp.org.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
       "nam": "2002",
       "su_kien": "Lắp tuyến cáp treo đồi Robin – Thiền viện Trúc Lâm (thiết bị Doppelmayr). mia ghi khởi công 2002, chạy chính thức từ tháng 2/2003.",
       "nguon": [
@@ -14861,22 +14397,6 @@
       "muc": "chac"
      },
      {
-      "nam": "2023–2024",
-      "su_kien": "Mở rộng đèo Prenn từ 2 lên 4 làn (dài khoảng 7,4 km): khởi công 10/2/2023, thông xe toàn tuyến 8 giờ sáng 31/1/2024.",
-      "nguon": [
-       {
-        "link": "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
-        "trang": "tienphong.vn"
-       },
-       {
-        "link": "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html",
-        "trang": "nhandan.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
       "nam": "2025",
       "su_kien": "Từ 1/7/2025 cả khu (Phường 3, Phường 4 cũ) thuộc phường Xuân Hương - Đà Lạt theo Nghị quyết 1671/NQ-UBTVQH15.",
       "nguon": [
@@ -14886,22 +14406,6 @@
        }
       ],
       "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "nam": "2025",
-      "su_kien": "Đèo Prenn sạt lở: sáng 17/11/2025 tại Km 223 phải cấm xe hai chiều, phân luồng qua đèo Mimosa và Sacom; trưa 4/12/2025 sạt gần thác Datanla, đèo mở tạm từ 5 đến 7/12 (trừ xe tải).",
-      "nguon": [
-       {
-        "link": "https://thanhtra.com.vn/an-sinh-AFA9C5670/lam-dong-sat-lo-tai-deo-prenn-phuong-xuan-huong-da-lat-fd59ebaab.html",
-        "trang": "thanhtra.com.vn"
-       },
-       {
-        "link": "https://dtinews.dantri.com.vn/print/20251205120247590.htm",
-        "trang": "dtinews.dantri.com.vn"
-       }
-      ],
-      "mot_nguon": false,
       "muc": "chac"
      }
     ],
@@ -14965,42 +14469,6 @@
       ],
       "mot_nguon": false,
       "muc": "chac"
-     },
-     {
-      "tieu_de": "Đèo cửa ngõ rộng ra rồi lại sạt",
-      "noi_dung": "Đèo Prenn — đường vào Đà Lạt từ phía Nam — được mở rộng lên 4 làn trong gần một năm (2/2023 – 1/2024). Cuối năm 2025 đèo vẫn sạt lở hai lần, có lần đất đá đổ xuống gần thác Datanla, phải đóng đèo, phân xe qua đèo Mimosa và Sacom.",
-      "nguon": [
-       {
-        "link": "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
-        "trang": "tienphong.vn"
-       },
-       {
-        "link": "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html",
-        "trang": "nhandan.vn"
-       },
-       {
-        "link": "https://thanhtra.com.vn/an-sinh-AFA9C5670/lam-dong-sat-lo-tai-deo-prenn-phuong-xuan-huong-da-lat-fd59ebaab.html",
-        "trang": "thanhtra.com.vn"
-       },
-       {
-        "link": "https://dtinews.dantri.com.vn/print/20251205120247590.htm",
-        "trang": "dtinews.dantri.com.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "tieu_de": "Datanla: nước dưới lá",
-      "noi_dung": "Một blog du lịch giải thích tên Datanla là 'nước dưới lá' theo tiếng người dân tộc bản địa, kèm truyền thuyết chàng K'Lang và cô gái H'Biang gặp nhau bên thác.",
-      "nguon": [
-       {
-        "link": "https://enjoydalat.blogspot.com/2012/11/dalat-datanla-waterfall.html",
-        "trang": "enjoydalat.blogspot.com"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "blog"
      }
     ]
    },
@@ -15279,38 +14747,6 @@
       "muc": "chac"
      },
      {
-      "nam": "1939–1941",
-      "su_kien": "Nam Phương hoàng hậu cho xây lăng cha mẹ (ông Nguyễn Hữu Hào) trên đồi gần thác Cam Ly; khởi công 1939, lễ quy lăng 10/9/1941 (Wikipedia).",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/L%C4%83ng_Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html",
-        "trang": "kienthuc.net.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "thời chiến tranh (Kiến Thức: khoảng cuối thập niên 1960)",
-      "su_kien": "Sân bay Cam Ly được dựng, đường băng dài 1.390 m.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html",
-        "trang": "kienthuc.net.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
       "nam": "1995",
       "su_kien": "Công ty Đà Lạt Hasfarm (trồng hoa theo công nghệ Hà Lan) đầu tư, Báo Văn Hoá gọi là mốc làm hoa Vạn Thành 'cất cánh'.",
       "nguon": [
@@ -15320,54 +14756,6 @@
        }
       ],
       "mot_nguon": true,
-      "muc": "chac"
-     },
-     {
-      "nam": "1995",
-      "su_kien": "Sân bay Cam Ly được sửa để bay máy bay cánh quạt TP.HCM – Đà Lạt; sau đó ngừng vì đường băng ngắn.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html",
-        "trang": "kienthuc.net.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "1998",
-      "su_kien": "Thác Cam Ly được công nhận thắng cảnh quốc gia (VinWonders).",
-      "nguon": [
-       {
-        "link": "https://vinwonders.com/en/wonderpedia/news/cam-ly-waterfall-da-lat/",
-        "trang": "vinwonders.com"
-       },
-       {
-        "link": "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html",
-        "trang": "vietnamnet.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "nam": "cuối 2010",
-      "su_kien": "Sân bay Cam Ly được Cục Hàng không bàn giao cho Quân chủng Phòng không – Không quân; đường băng thành đường đi lại của dân.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html",
-        "trang": "kienthuc.net.vn"
-       }
-      ],
-      "mot_nguon": false,
       "muc": "chac"
      },
      {
@@ -15405,18 +14793,6 @@
       ],
       "mot_nguon": true,
       "muc": "chac"
-     },
-     {
-      "nam": "2019",
-      "su_kien": "Fresh Garden (90B Vạn Thành) bắt đầu đón khách; Làng Cổ Tích 'gây sốt' đầu 2019.",
-      "nguon": [
-       {
-        "link": "https://mia.vn/cam-nang-du-lich/fresh-garden-dalat-vuon-hoa-khong-lo-khoe-sac-ruc-ro-giua-long-da-lat-1454",
-        "trang": "mia.vn"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "blog"
      }
     ],
     "chuyen": [
@@ -15467,58 +14843,6 @@
        {
         "link": "https://www.foody.vn/lam-dong/dalat-fairytale-land",
         "trang": "foody.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "tieu_de": "Đường băng thành đường làng",
-      "noi_dung": "Gần làng hoa là sân bay Cam Ly cũ, đường băng dài 1.390 m. Sân bay ngừng bay từ lâu; người dân lấy đường băng làm đường đi, bò gặm cỏ hai bên. Trên bản đồ OSM, con đường ấy mang tên Phi trường Cam Ly.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html",
-        "trang": "kienthuc.net.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "tieu_de": "Lăng của cha Nam Phương hoàng hậu",
-      "noi_dung": "Trên đồi cạnh thác Cam Ly là lăng ông Nguyễn Hữu Hào, cha của Nam Phương hoàng hậu, xây từ năm 1939, mái ngói lưu ly xanh, hai ngôi mộ đá xanh. Lăng nhiều năm bị bỏ quên. Con đường lên lăng trên OSM mang tên Long Mỹ Quận công — Wikipedia gọi ông là 'Long Mỹ Quận công Nguyễn Hữu Hào'.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/L%C4%83ng_Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html",
-        "trang": "kienthuc.net.vn"
-       },
-       {
-        "link": "https://mia.vn/cam-nang-du-lich/an-tuong-lang-nguyen-huu-hao-da-lat-voi-kien-truc-cung-dinh-hue-dac-trung-5012",
-        "trang": "mia.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "tieu_de": "Thác mang tên tù trưởng",
-      "noi_dung": "Thác Cam Ly được cho là mang tên một tù trưởng người Cơ Ho tên K'Mly, người Việt đọc trại thành Cam Ly.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_Cam_Ly",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html",
-        "trang": "kienthuc.net.vn"
        }
       ],
       "mot_nguon": false,

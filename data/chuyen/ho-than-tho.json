@@ -162,7 +162,11 @@
     "https://tienphong.vn/epaper/TP-2024-244/23/"
    ],
    "mot_nguon": true
-  },
+  }
+ ],
+ "mon": [],
+ "ghi_chu": "1) Diện tích mặt hồ lệch: 9 ha (Wikipedia) / 8,5 ha (VnExpress). 2) Năm đổi tên Sương Mai: 1975 (Nhân Dân, Wikipedia, VnExpress) / sau 1976 (vietnamnet). 3) Chuyện Tâm mất: hai cách kể (xem chuyện 'Tâm và Thảo'). 4) Ngày khai trương Delight Park: 25/4/2025 (Người Quan Sát) / lễ tối 26/4 (đoạn trích Báo Văn hóa, link nay 404). 5) Đồi thông hai mộ chưa có vị trí trên OSM; không lấy toạ độ Google Maps. 6) Không ghi giá vé Delight Park (các trang bán vé ghi khác nhau, hay đổi).",
+ "chuyen_khong_hien": [
   {
    "tieu_de": "Từ trường Võ bị đến Học viện Lục quân",
    "noi_dung": "Cách hồ chừng một cây số về phía tây là khu trường quân sự: Trường Võ bị Quốc gia chuyển từ Huế lên Đà Lạt năm 1950; cuối năm 1975 Học viện Lục quân từ Hà Nội vào tiếp quản và ở đây đến nay.",
@@ -171,9 +175,8 @@
     "https://tuyendinh75.blogspot.com/2019/02/truong-ao-tao-cac-anh-hung-qlvnch.html"
    ],
    "mot_nguon": true,
-   "ghi_chu": "Năm 1950: Wikipedia tiếng Anh + blog. Học viện Lục quân tiếp quản cuối 1975: chỉ Wikipedia tiếng Anh → đánh dấu 1 nguồn."
+   "ghi_chu": "Năm 1950: Wikipedia tiếng Anh + blog. Học viện Lục quân tiếp quản cuối 1975: chỉ Wikipedia tiếng Anh → đánh dấu 1 nguồn.",
+   "ly_do_an": "Soát 26/11/2026: chuyện của nơi khác — anh Kha: lịch sử chỉ của chính nơi đó."
   }
- ],
- "mon": [],
- "ghi_chu": "1) Diện tích mặt hồ lệch: 9 ha (Wikipedia) / 8,5 ha (VnExpress). 2) Năm đổi tên Sương Mai: 1975 (Nhân Dân, Wikipedia, VnExpress) / sau 1976 (vietnamnet). 3) Chuyện Tâm mất: hai cách kể (xem chuyện 'Tâm và Thảo'). 4) Ngày khai trương Delight Park: 25/4/2025 (Người Quan Sát) / lễ tối 26/4 (đoạn trích Báo Văn hóa, link nay 404). 5) Đồi thông hai mộ chưa có vị trí trên OSM; không lấy toạ độ Google Maps. 6) Không ghi giá vé Delight Park (các trang bán vé ghi khác nhau, hay đổi)."
+ ]
 }

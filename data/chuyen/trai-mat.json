@@ -24,75 +24,12 @@
    "ghi_chu": "VnExpress ghi 'hoàn thành năm 1932 và đưa vào sử dụng 4 năm sau đó'. Chưa có nguồn ghi năm xây riêng nhà ga Trại Mát (mytour ghi 1932 nhưng có vẻ lẫn với ga Đà Lạt) → không ghi."
   },
   {
-   "nam": "1938",
-   "su_kien": "Đạo Cao Đài đến Đà Lạt; về sau thánh thất đặt ở tổ Đa Phước, gần ga Trại Mát.",
-   "nguon": [
-    "https://vinwonders.com/vi/wonderpedia/news/thanh-that-da-phuoc/",
-    "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/",
-    "https://saigoneer.com/vietnam-travel/19619-at-da-lat-s-secluded-da-phuoc-temple,-insights-into-cao-dai-teachings"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "VinWonders ghi 'khởi công xây dựng năm 1938'; localvietnam ghi 'bàn thờ Cao Đài đầu tiên ở Đà Lạt lập năm 1938'."
-  },
-  {
-   "nam": "1949",
-   "su_kien": "Khởi công chùa Linh Phước ở Trại Mát.",
-   "nguon": [
-    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
-    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
-    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
-    "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Năm xong lệch: 1952 (Báo Pháp Luật, Wikipedia tiếng Anh); 1950 (Kiến Thức, em chỉ thấy qua kết quả tìm kiếm)."
-  },
-  {
-   "nam": "1990",
-   "su_kien": "Chùa Linh Phước đại trùng tu, bắt đầu khảm mảnh chai, sành sứ.",
-   "nguon": [
-    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
-    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
-    "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple"
-   ],
-   "mot_nguon": false
-  },
-  {
    "nam": "1991",
    "su_kien": "Đoạn Đà Lạt – Trại Mát bắt đầu chạy tàu du lịch (tên dịch vụ Dalat Plateau Rail Road).",
    "nguon": [
     "https://tuoitre.vn/tren-7km-duong-ray-539282.htm"
    ],
    "mot_nguon": true
-  },
-  {
-   "nam": "1999",
-   "su_kien": "Đúc Đại hồng chung treo trong tháp chuông 7 tầng của chùa Linh Phước (nghệ nhân Huế).",
-   "nguon": [
-    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
-    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Nặng 8.500 kg, cao 4,3 m: chỉ Báo Pháp Luật."
-  },
-  {
-   "nam": "2009",
-   "su_kien": "Dựng tượng Quan Âm cao 17 m kết bằng 600.000 bông hoa bất tử ở chùa Linh Phước.",
-   "nguon": [
-    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
-    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "nam": "2010",
-   "su_kien": "Khánh thành Thánh thất Cao Đài Đa Phước xây lại theo mẫu số 2 của Tòa Thánh Tây Ninh (khởi công 2005).",
-   "nguon": [
-    "https://thanhtra.com.vn/xa-hoi/van-hoa/kham-pha-thanh-that-lon-nhat-viet-nam-cua-dao-cao-dai-187973.html",
-    "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/",
-    "https://vinwonders.com/vi/wonderpedia/news/thanh-that-da-phuoc/"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Tháng 7/2010 chỉ Báo Thanh Tra ghi; năm 2005 khởi công có ở VinWonders và localvietnam."
   },
   {
    "nam": "2024",
@@ -127,15 +64,6 @@
    ],
    "mot_nguon": false,
    "ghi_chu": "Thời gian dừng lệch: Tuổi Trẻ 2013 ghi 30 phút; Đại Đoàn Kết 2024 chỉ ghi 'nghỉ lại'."
-  },
-  {
-   "tieu_de": "Ngôi chùa xin ve chai",
-   "noi_dung": "Để khảm chùa Linh Phước, các sư đi xin vỏ chai ở nhà máy bia rượu, mót chén bát vỡ ở một xưởng gần chùa; về sau xưởng tự gom chén bể mang tới bán. Chai được nung trên thanh sắt nóng rồi nhúng nước lạnh để cắt, thân rồng ghép bằng chai bia màu xanh. Thợ khảm là nghệ nhân từ Huế, làm không theo bản vẽ cố định.",
-   "nguon": [
-    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html"
-   ],
-   "mot_nguon": true,
-   "ghi_chu": "Các chi tiết xin ve chai, cắt chai chỉ có ở Báo Pháp Luật (2018, lời Đại đức Thích Hạnh Định). Việc rồng ghép bằng vỏ chai bia có thêm Tuổi Trẻ 2013."
   },
   {
    "tieu_de": "Thung lũng đèn",
@@ -226,5 +154,88 @@
    "mot_nguon": true
   }
  ],
- "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026).",
+ "moc_khong_hien": [
+  {
+   "nam": "1938",
+   "su_kien": "Đạo Cao Đài đến Đà Lạt; về sau thánh thất đặt ở tổ Đa Phước, gần ga Trại Mát.",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/thanh-that-da-phuoc/",
+    "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/",
+    "https://saigoneer.com/vietnam-travel/19619-at-da-lat-s-secluded-da-phuoc-temple,-insights-into-cao-dai-teachings"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "VinWonders ghi 'khởi công xây dựng năm 1938'; localvietnam ghi 'bàn thờ Cao Đài đầu tiên ở Đà Lạt lập năm 1938'.",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "1949",
+   "su_kien": "Khởi công chùa Linh Phước ở Trại Mát.",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+    "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Năm xong lệch: 1952 (Báo Pháp Luật, Wikipedia tiếng Anh); 1950 (Kiến Thức, em chỉ thấy qua kết quả tìm kiếm).",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "1990",
+   "su_kien": "Chùa Linh Phước đại trùng tu, bắt đầu khảm mảnh chai, sành sứ.",
+   "nguon": [
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+    "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple"
+   ],
+   "mot_nguon": false,
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "1999",
+   "su_kien": "Đúc Đại hồng chung treo trong tháp chuông 7 tầng của chùa Linh Phước (nghệ nhân Huế).",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Nặng 8.500 kg, cao 4,3 m: chỉ Báo Pháp Luật.",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "2009",
+   "su_kien": "Dựng tượng Quan Âm cao 17 m kết bằng 600.000 bông hoa bất tử ở chùa Linh Phước.",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html"
+   ],
+   "mot_nguon": false,
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "2010",
+   "su_kien": "Khánh thành Thánh thất Cao Đài Đa Phước xây lại theo mẫu số 2 của Tòa Thánh Tây Ninh (khởi công 2005).",
+   "nguon": [
+    "https://thanhtra.com.vn/xa-hoi/van-hoa/kham-pha-thanh-that-lon-nhat-viet-nam-cua-dao-cao-dai-187973.html",
+    "https://localvietnam.com/lam-dong/dalat/dalat-cao-dai-temple/",
+    "https://vinwonders.com/vi/wonderpedia/news/thanh-that-da-phuoc/"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Tháng 7/2010 chỉ Báo Thanh Tra ghi; năm 2005 khởi công có ở VinWonders và localvietnam.",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  }
+ ],
+ "chuyen_khong_hien": [
+  {
+   "tieu_de": "Ngôi chùa xin ve chai",
+   "noi_dung": "Để khảm chùa Linh Phước, các sư đi xin vỏ chai ở nhà máy bia rượu, mót chén bát vỡ ở một xưởng gần chùa; về sau xưởng tự gom chén bể mang tới bán. Chai được nung trên thanh sắt nóng rồi nhúng nước lạnh để cắt, thân rồng ghép bằng chai bia màu xanh. Thợ khảm là nghệ nhân từ Huế, làm không theo bản vẽ cố định.",
+   "nguon": [
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Các chi tiết xin ve chai, cắt chai chỉ có ở Báo Pháp Luật (2018, lời Đại đức Thích Hạnh Định). Việc rồng ghép bằng vỏ chai bia có thêm Tuổi Trẻ 2013.",
+   "ly_do_an": "Soát 26/11/2026: chuyện của nơi khác — anh Kha: lịch sử chỉ của chính nơi đó."
+  }
+ ]
 }

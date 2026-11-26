@@ -44,14 +44,6 @@
    "mot_nguon": false
   },
   {
-   "nam": "2001–2002",
-   "su_kien": "Dựng Đền thờ Âu Lạc ở khu thác Prenn: khởi công 10/2001, hoạt động từ 1/2002; 1/11/2002 rước linh vật từ đất Tổ Phú Thọ về.",
-   "nguon": [
-    "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html"
-   ],
-   "mot_nguon": true
-  },
-  {
    "nam": "2002",
    "su_kien": "Lắp tuyến cáp treo đồi Robin – Thiền viện Trúc Lâm (thiết bị Doppelmayr). mia ghi khởi công 2002, chạy chính thức từ tháng 2/2003.",
    "nguon": [
@@ -70,30 +62,12 @@
    "mot_nguon": false
   },
   {
-   "nam": "2023–2024",
-   "su_kien": "Mở rộng đèo Prenn từ 2 lên 4 làn (dài khoảng 7,4 km): khởi công 10/2/2023, thông xe toàn tuyến 8 giờ sáng 31/1/2024.",
-   "nguon": [
-    "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
-    "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html"
-   ],
-   "mot_nguon": false
-  },
-  {
    "nam": "2025",
    "su_kien": "Từ 1/7/2025 cả khu (Phường 3, Phường 4 cũ) thuộc phường Xuân Hương - Đà Lạt theo Nghị quyết 1671/NQ-UBTVQH15.",
    "nguon": [
     "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html"
    ],
    "mot_nguon": true
-  },
-  {
-   "nam": "2025",
-   "su_kien": "Đèo Prenn sạt lở: sáng 17/11/2025 tại Km 223 phải cấm xe hai chiều, phân luồng qua đèo Mimosa và Sacom; trưa 4/12/2025 sạt gần thác Datanla, đèo mở tạm từ 5 đến 7/12 (trừ xe tải).",
-   "nguon": [
-    "https://thanhtra.com.vn/an-sinh-AFA9C5670/lam-dong-sat-lo-tai-deo-prenn-phuong-xuan-huong-da-lat-fd59ebaab.html",
-    "https://dtinews.dantri.com.vn/print/20251205120247590.htm"
-   ],
-   "mot_nguon": false
   }
  ],
  "chuyen": [
@@ -129,7 +103,42 @@
    ],
    "mot_nguon": false,
    "ghi_chu": "Độ cao ga lệch, em không đưa vào: remontees-mecaniques ghi ga dưới (gần bến xe) 1.410 m, ga trên (phía chùa) 1.530 m; mia ghi đồi Robin cao 1.515–1.517 m."
+  }
+ ],
+ "mon": [],
+ "ghi_chu": "1) Khu này là phố tham quan, không phải phố ăn: em chưa tìm được quán ăn nào có ≥ 2 nguồn trên đúng các đường Trúc Lâm Yên Tử / Đèo Prenn, nên mục món để trống. 2) Số liệu lệch giữa các nguồn: diện tích mặt hồ (320 ha VnExpress / 360 ha mia), chiều dài cáp treo (2.227 / 2.267 m / 2,3 km), xe trượt Datanla (2.400 m Tuổi Trẻ / khoảng 1.700 m RCDB), đường hầm điêu khắc (1,2 km năm 2014 / hơn 2 km năm 2026). 3) Ngày khánh thành chính xác của thiền viện chưa thống nhất; dùng năm 1994. 4) Ý về Đền thờ Âu Lạc và nghĩa tên Datanla chỉ 1 nguồn.",
+ "moc_khong_hien": [
+  {
+   "nam": "2001–2002",
+   "su_kien": "Dựng Đền thờ Âu Lạc ở khu thác Prenn: khởi công 10/2001, hoạt động từ 1/2002; 1/11/2002 rước linh vật từ đất Tổ Phú Thọ về.",
+   "nguon": [
+    "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html"
+   ],
+   "mot_nguon": true,
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
   },
+  {
+   "nam": "2023–2024",
+   "su_kien": "Mở rộng đèo Prenn từ 2 lên 4 làn (dài khoảng 7,4 km): khởi công 10/2/2023, thông xe toàn tuyến 8 giờ sáng 31/1/2024.",
+   "nguon": [
+    "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
+    "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html"
+   ],
+   "mot_nguon": false,
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "2025",
+   "su_kien": "Đèo Prenn sạt lở: sáng 17/11/2025 tại Km 223 phải cấm xe hai chiều, phân luồng qua đèo Mimosa và Sacom; trưa 4/12/2025 sạt gần thác Datanla, đèo mở tạm từ 5 đến 7/12 (trừ xe tải).",
+   "nguon": [
+    "https://thanhtra.com.vn/an-sinh-AFA9C5670/lam-dong-sat-lo-tai-deo-prenn-phuong-xuan-huong-da-lat-fd59ebaab.html",
+    "https://dtinews.dantri.com.vn/print/20251205120247590.htm"
+   ],
+   "mot_nguon": false,
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  }
+ ],
+ "chuyen_khong_hien": [
   {
    "tieu_de": "Đèo cửa ngõ rộng ra rồi lại sạt",
    "noi_dung": "Đèo Prenn — đường vào Đà Lạt từ phía Nam — được mở rộng lên 4 làn trong gần một năm (2/2023 – 1/2024). Cuối năm 2025 đèo vẫn sạt lở hai lần, có lần đất đá đổ xuống gần thác Datanla, phải đóng đèo, phân xe qua đèo Mimosa và Sacom.",
@@ -139,7 +148,8 @@
     "https://thanhtra.com.vn/an-sinh-AFA9C5670/lam-dong-sat-lo-tai-deo-prenn-phuong-xuan-huong-da-lat-fd59ebaab.html",
     "https://dtinews.dantri.com.vn/print/20251205120247590.htm"
    ],
-   "mot_nguon": false
+   "mot_nguon": false,
+   "ly_do_an": "Soát 26/11/2026: chuyện của nơi khác — anh Kha: lịch sử chỉ của chính nơi đó."
   },
   {
    "tieu_de": "Datanla: nước dưới lá",
@@ -148,9 +158,8 @@
     "https://enjoydalat.blogspot.com/2012/11/dalat-datanla-waterfall.html"
    ],
    "mot_nguon": true,
-   "ghi_chu": "Chỉ có blog; chưa thấy nguồn chính thống hay tài liệu dân tộc học xác nhận."
+   "ghi_chu": "Chỉ có blog; chưa thấy nguồn chính thống hay tài liệu dân tộc học xác nhận.",
+   "ly_do_an": "Soát 26/11/2026: chuyện của nơi khác — anh Kha: lịch sử chỉ của chính nơi đó."
   }
- ],
- "mon": [],
- "ghi_chu": "1) Khu này là phố tham quan, không phải phố ăn: em chưa tìm được quán ăn nào có ≥ 2 nguồn trên đúng các đường Trúc Lâm Yên Tử / Đèo Prenn, nên mục món để trống. 2) Số liệu lệch giữa các nguồn: diện tích mặt hồ (320 ha VnExpress / 360 ha mia), chiều dài cáp treo (2.227 / 2.267 m / 2,3 km), xe trượt Datanla (2.400 m Tuổi Trẻ / khoảng 1.700 m RCDB), đường hầm điêu khắc (1,2 km năm 2014 / hơn 2 km năm 2026). 3) Ngày khánh thành chính xác của thiền viện chưa thống nhất; dùng năm 1994. 4) Ý về Đền thờ Âu Lạc và nghĩa tên Datanla chỉ 1 nguồn."
+ ]
 }

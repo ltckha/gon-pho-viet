@@ -13,17 +13,6 @@
    "ghi_chu": "Ngày 21/6/1893 có ở cả hai nguồn; chuyện đề nghị Dankia chỉ có ở yersin.edu.vn."
   },
   {
-   "nam": "1942–1946",
-   "su_kien": "Người Pháp khởi công thủy điện Ankroet (tháng 10/1942) ở thung lũng Đankia – Suối Vàng, khánh thành 1945, phát điện 1946 — thủy điện đầu tiên của Việt Nam và Đông Dương.",
-   "nguon": [
-    "https://news.tuoitre.vn/a-visit-to-indochinas-first-hydroelectric-plant-near-vietnams-da-lat-10338454.htm",
-    "https://tapchicongthuong.vn/kham-pha-thuy-dien-co-nhat-viet-nam-110870.htm",
-    "https://vi.wikipedia.org/wiki/Nh%C3%A0_m%C3%A1y_th%E1%BB%A7y_%C4%91i%E1%BB%87n_Ankroet"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Tuổi Trẻ (2015) chỉ ghi khởi công 10/1942 và vận hành 1946; mốc khánh thành 1945 có ở Tạp chí Công Thương và Wikipedia (17/10/1945)."
-  },
-  {
    "nam": "1977",
    "su_kien": "Xã Lát (khi ấy thuộc huyện Đức Trọng) được nhập về thành phố Đà Lạt (Quyết định 51-CP ngày 10/3/1977).",
    "nguon": [
@@ -58,14 +47,6 @@
    "ghi_chu": "Báo Lâm Đồng (10/02/2026) cũng viết khu du lịch Lang Biang giữ 'Không gian văn hóa Cồng chiêng được UNESCO công nhận' nhưng không ghi năm."
   },
   {
-   "nam": "2008–2009",
-   "su_kien": "Vườn quốc gia Bidoup - Núi Bà làm đường mòn leo đỉnh núi Bà (khoảng 12 km cả đi lẫn về) để phát triển du lịch cộng đồng cho người địa phương.",
-   "nguon": [
-    "https://baolamdong.vn/kham-pha-cung-duong-leo-nui-xuyen-rung-dep-nhat-da-lat-428005.html"
-   ],
-   "mot_nguon": true
-  },
-  {
    "nam": "2015",
    "su_kien": "Ngày 9/6/2015, UNESCO công nhận Khu dự trữ sinh quyển Lang Biang (275.439 ha; vùng lõi 34.943 ha ở Vườn quốc gia Bidoup - Núi Bà), khu thứ 9 của Việt Nam.",
    "nguon": [
@@ -83,15 +64,6 @@
     "https://vi.wikipedia.org/wiki/Lang_Biang_%E2%80%93_%C4%90%C3%A0_L%E1%BA%A1t",
     "data/lam-dong/nq1671.json",
     "data/lam-dong/phuong.json"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "nam": "2025",
-   "su_kien": "Langbiang Land mở cửa dịp Tết Ất Tỵ dưới chân núi (Đường Biđoúp).",
-   "nguon": [
-    "https://baolamdong.vn/langbiang-land-noi-thien-nhien-hoa-cung-van-hoa-ban-dia-281535.html",
-    "https://mia.vn/cam-nang-du-lich/langbiang-land-da-lat-review-19858"
    ],
    "mot_nguon": false
   },
@@ -232,5 +204,38 @@
    "mot_nguon": false
   }
  ],
- "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026).",
+ "moc_khong_hien": [
+  {
+   "nam": "1942–1946",
+   "su_kien": "Người Pháp khởi công thủy điện Ankroet (tháng 10/1942) ở thung lũng Đankia – Suối Vàng, khánh thành 1945, phát điện 1946 — thủy điện đầu tiên của Việt Nam và Đông Dương.",
+   "nguon": [
+    "https://news.tuoitre.vn/a-visit-to-indochinas-first-hydroelectric-plant-near-vietnams-da-lat-10338454.htm",
+    "https://tapchicongthuong.vn/kham-pha-thuy-dien-co-nhat-viet-nam-110870.htm",
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_m%C3%A1y_th%E1%BB%A7y_%C4%91i%E1%BB%87n_Ankroet"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Tuổi Trẻ (2015) chỉ ghi khởi công 10/1942 và vận hành 1946; mốc khánh thành 1945 có ở Tạp chí Công Thương và Wikipedia (17/10/1945).",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "2008–2009",
+   "su_kien": "Vườn quốc gia Bidoup - Núi Bà làm đường mòn leo đỉnh núi Bà (khoảng 12 km cả đi lẫn về) để phát triển du lịch cộng đồng cho người địa phương.",
+   "nguon": [
+    "https://baolamdong.vn/kham-pha-cung-duong-leo-nui-xuyen-rung-dep-nhat-da-lat-428005.html"
+   ],
+   "mot_nguon": true,
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "2025",
+   "su_kien": "Langbiang Land mở cửa dịp Tết Ất Tỵ dưới chân núi (Đường Biđoúp).",
+   "nguon": [
+    "https://baolamdong.vn/langbiang-land-noi-thien-nhien-hoa-cung-van-hoa-ban-dia-281535.html",
+    "https://mia.vn/cam-nang-du-lich/langbiang-land-da-lat-review-19858"
+   ],
+   "mot_nguon": false,
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  }
+ ]
 }

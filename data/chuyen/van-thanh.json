@@ -13,61 +13,12 @@
    "ghi_chu": "mia ghi 'những năm 1950', người từ Hà Nam; VnExpress 2013 cũng ghi người Hà Nam lập làng nhưng không có năm."
   },
   {
-   "nam": "1939–1941",
-   "su_kien": "Nam Phương hoàng hậu cho xây lăng cha mẹ (ông Nguyễn Hữu Hào) trên đồi gần thác Cam Ly; khởi công 1939, lễ quy lăng 10/9/1941 (Wikipedia).",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/L%C4%83ng_Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o",
-    "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Ngày 10/9/1941 chỉ có ở Wikipedia; Kiến Thức chỉ ghi năm 1939. mia ghi việc xây kéo dài khoảng 4 năm."
-  },
-  {
-   "nam": "thời chiến tranh (Kiến Thức: khoảng cuối thập niên 1960)",
-   "su_kien": "Sân bay Cam Ly được dựng, đường băng dài 1.390 m.",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
-    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Năm xây chỉ Kiến Thức ghi (ước 'cuối thập niên 1960'); chiều dài 1.390 m có ở cả hai."
-  },
-  {
    "nam": "1995",
    "su_kien": "Công ty Đà Lạt Hasfarm (trồng hoa theo công nghệ Hà Lan) đầu tư, Báo Văn Hoá gọi là mốc làm hoa Vạn Thành 'cất cánh'.",
    "nguon": [
     "https://baovanhoa.vn/du-lich/lang-hoa-vao-mua-tat-bat-75941.html"
    ],
    "mot_nguon": true
-  },
-  {
-   "nam": "1995",
-   "su_kien": "Sân bay Cam Ly được sửa để bay máy bay cánh quạt TP.HCM – Đà Lạt; sau đó ngừng vì đường băng ngắn.",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
-    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Năm 1995 chỉ có ở Wikipedia; Kiến Thức ghi 'thập niên 1990'."
-  },
-  {
-   "nam": "1998",
-   "su_kien": "Thác Cam Ly được công nhận thắng cảnh quốc gia (VinWonders).",
-   "nguon": [
-    "https://vinwonders.com/en/wonderpedia/news/cam-ly-waterfall-da-lat/",
-    "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Wikipedia có nhắc bài SGGP 2008 về '2 di tích quốc gia ở Lâm Đồng' liên quan thác, nhưng không ghi năm."
-  },
-  {
-   "nam": "cuối 2010",
-   "su_kien": "Sân bay Cam Ly được Cục Hàng không bàn giao cho Quân chủng Phòng không – Không quân; đường băng thành đường đi lại của dân.",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
-    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
-   ],
-   "mot_nguon": false
   },
   {
    "nam": "2011",
@@ -94,15 +45,6 @@
    ],
    "mot_nguon": true,
    "ghi_chu": "Báo Lâm Đồng 06/01/2022 không ghi năm công nhận."
-  },
-  {
-   "nam": "2019",
-   "su_kien": "Fresh Garden (90B Vạn Thành) bắt đầu đón khách; Làng Cổ Tích 'gây sốt' đầu 2019.",
-   "nguon": [
-    "https://mia.vn/cam-nang-du-lich/fresh-garden-dalat-vuon-hoa-khong-lo-khoe-sac-ruc-ro-giua-long-da-lat-1454"
-   ],
-   "mot_nguon": true,
-   "ghi_chu": "Cả hai ý đều chỉ từ mia (2 bài cùng trang tính 1)."
   }
  ],
  "chuyen": [
@@ -135,37 +77,6 @@
    ],
    "mot_nguon": false,
    "ghi_chu": "Việc đoạn Hoàng Văn Thụ cũ chính là đường Vạn Thành là em khớp qua điểm đầu–cuối trên OSM, chưa có văn bản đặt tên."
-  },
-  {
-   "tieu_de": "Đường băng thành đường làng",
-   "noi_dung": "Gần làng hoa là sân bay Cam Ly cũ, đường băng dài 1.390 m. Sân bay ngừng bay từ lâu; người dân lấy đường băng làm đường đi, bò gặm cỏ hai bên. Trên bản đồ OSM, con đường ấy mang tên Phi trường Cam Ly.",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
-    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Chi tiết bò gặm cỏ chỉ có ở Wikipedia."
-  },
-  {
-   "tieu_de": "Lăng của cha Nam Phương hoàng hậu",
-   "noi_dung": "Trên đồi cạnh thác Cam Ly là lăng ông Nguyễn Hữu Hào, cha của Nam Phương hoàng hậu, xây từ năm 1939, mái ngói lưu ly xanh, hai ngôi mộ đá xanh. Lăng nhiều năm bị bỏ quên. Con đường lên lăng trên OSM mang tên Long Mỹ Quận công — Wikipedia gọi ông là 'Long Mỹ Quận công Nguyễn Hữu Hào'.",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/L%C4%83ng_Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o",
-    "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html",
-    "https://mia.vn/cam-nang-du-lich/an-tuong-lang-nguyen-huu-hao-da-lat-voi-kien-truc-cung-dinh-hue-dac-trung-5012"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Tước Long Mỹ quận công chỉ có ở Wikipedia (bài 'Nguyễn Hữu Hào (điền chủ)', chính bài cũng ghi chưa hoàn toàn chắc)."
-  },
-  {
-   "tieu_de": "Thác mang tên tù trưởng",
-   "noi_dung": "Thác Cam Ly được cho là mang tên một tù trưởng người Cơ Ho tên K'Mly, người Việt đọc trại thành Cam Ly.",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/Th%C3%A1c_Cam_Ly",
-    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Cả hai trang đều nói đây là một giả thuyết/lời kể."
   }
  ],
  "mon": [
@@ -233,5 +144,107 @@
    "ly_do_an": "Giống tên nay, không phải tên cũ; chỉ 1 nguồn."
   }
  ],
- "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026).",
+ "moc_khong_hien": [
+  {
+   "nam": "1939–1941",
+   "su_kien": "Nam Phương hoàng hậu cho xây lăng cha mẹ (ông Nguyễn Hữu Hào) trên đồi gần thác Cam Ly; khởi công 1939, lễ quy lăng 10/9/1941 (Wikipedia).",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/L%C4%83ng_Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o",
+    "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Ngày 10/9/1941 chỉ có ở Wikipedia; Kiến Thức chỉ ghi năm 1939. mia ghi việc xây kéo dài khoảng 4 năm.",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "thời chiến tranh (Kiến Thức: khoảng cuối thập niên 1960)",
+   "su_kien": "Sân bay Cam Ly được dựng, đường băng dài 1.390 m.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Năm xây chỉ Kiến Thức ghi (ước 'cuối thập niên 1960'); chiều dài 1.390 m có ở cả hai.",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "1995",
+   "su_kien": "Sân bay Cam Ly được sửa để bay máy bay cánh quạt TP.HCM – Đà Lạt; sau đó ngừng vì đường băng ngắn.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Năm 1995 chỉ có ở Wikipedia; Kiến Thức ghi 'thập niên 1990'.",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "1998",
+   "su_kien": "Thác Cam Ly được công nhận thắng cảnh quốc gia (VinWonders).",
+   "nguon": [
+    "https://vinwonders.com/en/wonderpedia/news/cam-ly-waterfall-da-lat/",
+    "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Wikipedia có nhắc bài SGGP 2008 về '2 di tích quốc gia ở Lâm Đồng' liên quan thác, nhưng không ghi năm.",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "cuối 2010",
+   "su_kien": "Sân bay Cam Ly được Cục Hàng không bàn giao cho Quân chủng Phòng không – Không quân; đường băng thành đường đi lại của dân.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false,
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "nam": "2019",
+   "su_kien": "Fresh Garden (90B Vạn Thành) bắt đầu đón khách; Làng Cổ Tích 'gây sốt' đầu 2019.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/fresh-garden-dalat-vuon-hoa-khong-lo-khoe-sac-ruc-ro-giua-long-da-lat-1454"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Cả hai ý đều chỉ từ mia (2 bài cùng trang tính 1).",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  }
+ ],
+ "chuyen_khong_hien": [
+  {
+   "tieu_de": "Đường băng thành đường làng",
+   "noi_dung": "Gần làng hoa là sân bay Cam Ly cũ, đường băng dài 1.390 m. Sân bay ngừng bay từ lâu; người dân lấy đường băng làm đường đi, bò gặm cỏ hai bên. Trên bản đồ OSM, con đường ấy mang tên Phi trường Cam Ly.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Chi tiết bò gặm cỏ chỉ có ở Wikipedia.",
+   "ly_do_an": "Soát 26/11/2026: chuyện của nơi khác — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "tieu_de": "Lăng của cha Nam Phương hoàng hậu",
+   "noi_dung": "Trên đồi cạnh thác Cam Ly là lăng ông Nguyễn Hữu Hào, cha của Nam Phương hoàng hậu, xây từ năm 1939, mái ngói lưu ly xanh, hai ngôi mộ đá xanh. Lăng nhiều năm bị bỏ quên. Con đường lên lăng trên OSM mang tên Long Mỹ Quận công — Wikipedia gọi ông là 'Long Mỹ Quận công Nguyễn Hữu Hào'.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/L%C4%83ng_Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o",
+    "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html",
+    "https://mia.vn/cam-nang-du-lich/an-tuong-lang-nguyen-huu-hao-da-lat-voi-kien-truc-cung-dinh-hue-dac-trung-5012"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Tước Long Mỹ quận công chỉ có ở Wikipedia (bài 'Nguyễn Hữu Hào (điền chủ)', chính bài cũng ghi chưa hoàn toàn chắc).",
+   "ly_do_an": "Soát 26/11/2026: chuyện của nơi khác — anh Kha: lịch sử chỉ của chính nơi đó."
+  },
+  {
+   "tieu_de": "Thác mang tên tù trưởng",
+   "noi_dung": "Thác Cam Ly được cho là mang tên một tù trưởng người Cơ Ho tên K'Mly, người Việt đọc trại thành Cam Ly.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_Cam_Ly",
+    "https://kienthuc.net.vn/di-san/kham-pha-ba-dia-diem-mang-ten-cam-ly-cuc-hot-cua-da-lat-1896885.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Cả hai trang đều nói đây là một giả thuyết/lời kể.",
+   "ly_do_an": "Soát 26/11/2026: chuyện của nơi khác — anh Kha: lịch sử chỉ của chính nơi đó."
+  }
+ ]
 }

@@ -80,15 +80,6 @@
    "mot_nguon": false
   },
   {
-   "nam": "2016",
-   "su_kien": "Ladofoods khánh thành nhà làm rượu vang Ladora Winery trên 6 ha ở Phát Chi.",
-   "nguon": [
-    "https://doanhnhanplus.vn/ladofoods-khanh-thanh-nha-lam-ruou-vang-va-ra-mat-san-pham-moi-206787.html"
-   ],
-   "mot_nguon": true,
-   "ghi_chu": "Winetourism xác nhận nơi này có thật ở QL20 Trạm Hành nhưng không ghi năm."
-  },
-  {
    "nam": "2017",
    "su_kien": "Đà Lạt trao quyền dùng nhãn hiệu chứng nhận 'Cà phê Cầu Đất Đà Lạt' đợt đầu cho 10 đơn vị.",
    "nguon": [
@@ -215,5 +206,17 @@
    "mot_nguon": true
   }
  ],
- "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026).",
+ "moc_khong_hien": [
+  {
+   "nam": "2016",
+   "su_kien": "Ladofoods khánh thành nhà làm rượu vang Ladora Winery trên 6 ha ở Phát Chi.",
+   "nguon": [
+    "https://doanhnhanplus.vn/ladofoods-khanh-thanh-nha-lam-ruou-vang-va-ra-mat-san-pham-moi-206787.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Winetourism xác nhận nơi này có thật ở QL20 Trạm Hành nhưng không ghi năm.",
+   "ly_do_an": "Soát 26/11/2026: mốc của nơi khác (công trình, khu bên cạnh, quán/doanh nghiệp) — anh Kha: lịch sử chỉ của chính nơi đó."
+  }
+ ]
 }

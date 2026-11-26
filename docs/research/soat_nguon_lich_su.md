@@ -197,3 +197,4 @@ Nguồn nên dùng tiếp: bộ tài liệu triển lãm Đà Lạt của EFEO (
 - Nguyễn Công Trứ: gỡ mốc Tôn Thất Thuyết, Nguyễn Hoàng → Xô Viết Nghệ Tĩnh. Phan Bội Châu: gỡ chuyện quảng trường chợ. Domaine de Marie: gỡ chuyện đường Calmette.
 - Các mục này vẫn có ở trang đúng của chúng (Khu Hoà Bình, Chợ đêm…) hoặc giữ trong `moc_khong_hien` / `chuyen_khong_hien`.
 - Năm đổi tên: Bùi Thị Xuân, Nguyễn Văn Trỗi ghi 1976 (Niên biểu Đà Lạt).
+- Trang loại "điểm" (26/11): gỡ mốc/chuyện của công trình bên cạnh — Trúc Lâm (đền Âu Lạc, đèo Prenn, Datanla: nay có trang riêng), Hằng Nga (Viện Pasteur, Couvent, nhà thờ Du Sinh, biệt thự Hoa Hồng), Thung lũng Tình Yêu (Đại học Đà Lạt, Đồi Mộng Mơ, XQ), Vạn Thành (lăng Nguyễn Hữu Hào, sân bay Cam Ly, thác Cam Ly, Fresh Garden), Ga Trại Mát (chùa Linh Phước, thánh thất Cao Đài), Lang Biang (Ankroet, núi Bà, Langbiang Land), Cầu Đất (Ladora), Hồ Than Thở (trường Võ bị). Lịch sử các công trình này để khi chúng có trang riêng.

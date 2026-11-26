@@ -1,4 +1,4 @@
-# Spark đợt 47 (đánh số chung với game): hình cho các mốc lâu đời còn thiếu (26/11/2026)
+# Spark đợt 47 (đánh số chung với game): hình cho các mốc lâu đời còn thiếu (26/11/2026) — ĐÃ GHÉP 26/11/2026
 
 Lấy từ `moc_lau_doi` trong `data/lam-dong/da-lat/pho.json`, bỏ mốc đã có hình (đợt 36, 41, 42, 44, 46) và bỏ quán ăn (quán dùng hình món đợt 45). Anh báo "xong 47" là em tự ghép: thêm dòng vào `MOC_HINH` trong `app.js`; Lang Biang thay `rung_thong` trên bản đồ tỉnh.
 

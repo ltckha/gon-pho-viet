@@ -313,3 +313,4 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .dong-tg summary::after { content: ' ›'; color: #b08a4a; }
 .dong-tg details[open] summary::after { content: ' ⌄'; }
 .bd-list .quan-card { margin: 2px 0 8px; }
+.bd-list .moc-hinh.bt .bt-hinh { width: 44px; height: 44px; }

@@ -64,7 +64,7 @@ python3 tools/lich_trinh.py /tmp/osm
 - **Bản đồ minh hoạ trong trang phố đang TẠM TẮT** (anh Kha 26/11 muốn xem thử không có): công tắc `BAN_DO_PHO = false` trong `app.js`; bật lại là hiện như cũ, code và tranh nền vẫn giữ.
 - Hình mốc vẽ trong tranh nền Đà Lạt (chợ, nhà thờ, ga…) giữ cỡ ~80 điểm (~200 m). Từng để 140–160 điểm → hình đè lên chính các đường quanh mốc, anh Kha thấy dốc Nguyễn Chí Thanh "không ăn khớp".
 - Dòng thời gian Lịch sử chỉ hiện năm (anh Kha 26/11: "ai thích nhấn vô năm thì coi"), chạm năm mới mở chuyện + nguồn.
-- "Mốc lâu đời" trong trang phố dùng hình Spark (`hinhMoc()`/`MOC_HINH` khớp tên → `assets/vn/moc_*.webp`, có đợt 46). Thêm mốc mới thì thêm dòng vào `MOC_HINH`.
+- "Mốc lâu đời" trong trang phố dùng hình Spark (`hinhMoc()`/`MOC_HINH` khớp tên → `assets/vn/moc_*.webp`, đợt 46–47; quán lâu đời dùng hình món đợt 45). Thêm mốc mới thì thêm dòng vào `MOC_HINH`.
 - Ô "Nay có gì" dùng hình món Spark đợt 45 (`assets/bt/bt_*.webp`, hàm `hinhMon()` khớp từ khoá, cụ thể trước chung sau); chữ chưa có hình thì về biểu tượng cũ (`bieuTuong()`).
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 

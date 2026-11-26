@@ -25,6 +25,7 @@ Người dùng: anh Kha. Lộ trình (Artifact): https://claude.ai/artifact/U8sJ
 # 1. Ranh giới (MIT, dựng từ sapnhap.bando.com.vn) — ~4 GB, clone nông
 GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/ThangLeQuoc/vietnamese-provinces-database /tmp/vpd
 python3 tools/build_data.py /tmp/vpd/json/geojson          # viet-nam.json + lam-dong/phuong.json
+python3 tools/to_mau.py data/lam-dong/phuong.json        # màu xã/phường (hai nơi sát nhau khác màu) — chạy lại sau build_data
 # 2. Đường thật (OSM) cho phường cần vẽ
 python3 tools/tai_osm.py /tmp/vpd/json/geojson /tmp/osm '68_lam_dong/wards/*_da_lat'   # cả 5 phường Đà Lạt (~210 ô, ~100 MB)
 python3 tools/build_streets.py /tmp/osm /tmp/vpd/json/geojson
@@ -59,6 +60,7 @@ python3 tools/lich_trinh.py /tmp/osm
 - Số phố mỗi phường (`so_pho` trong `phuong.json`) do `build_pho.py` tự đếm, đừng gõ tay.
 - Bản đồ Việt Nam giống màn bản đồ game Gọn Phố (anh Kha chốt): đất xanh phẳng, bờ biển nâu đậm + quầng trắng (lớp `bo-bien`), biển xanh có sóng, biểu tượng mốc tỉnh Spark đợt 36 (`assets/vn/moc_*.webp`, chép từ `public/assets/ui/` của game). Ranh giới vẫn là dữ liệu thật. Không dùng nền cỏ trải (anh đã chê). Mốc hiện theo chỗ đang phóng: gần giữa màn hình hiện trước, tối đa 8 cái (`layoutMoc`, anh Kha nâng từ 5), ưu tiên Lâm Đồng, Hà Nội, rồi thành phố trực thuộc TW; chữ tên tỉnh không đè mốc. Đủ mốc 34 tỉnh: 14 từ game (đợt 36) + 20 Spark đợt 41 (anh Kha đánh số chung với game; khối gốc `docs/spark/dot2_viet_nam.md`) + 5 hình nhỏ `deco_*` (nằm dưới mốc, vướng thì ẩn). Ảnh Spark gốc ở Drive thư mục `dot41_moc_tinh`; công cụ Drive không tắt được chia sẻ link — nếu phải bật thì nhắc anh tự tắt.
 - Tầng tỉnh (Lâm Đồng) cùng nét bản đồ Việt Nam: mốc theo toạ độ thật (`mocDiem`: hình, kinh độ, vĩ độ, tên, mã phường, phóng từ, phóng tới). Cả tỉnh chỉ một mốc "Đà Lạt"; phóng ≥2,5 lần hiện Lang Biang, Cầu Đất; ≥7 lần hiện chợ, nhà thờ, ga… Phần còn lại của tỉnh: 12 mốc Spark đợt 42 (Drive `dot42_moc_lam_dong`, toạ độ OpenStreetMap qua Nominatim). Anh Kha để thư mục Drive Spark mở link, không cần tắt.
+- Tầng tỉnh tô mỗi xã/phường một màu pastel (trường `mau`, `tools/to_mau.py`), anh Kha chê "cùng một màu xanh đậm nhạt khó nhìn". Đà Lạt nổi bằng viền xanh đậm, không bằng màu.
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
 ## Anh Kha đã chốt hướng mới (sau đánh giá khả thi `docs/danh_gia_kha_thi.md`, nhánh `claude/danh-gia-kha-thi`)

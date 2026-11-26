@@ -270,3 +270,16 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .nen-spark .lbl.ctx { fill: #8d8f6e; stroke: #eef2dc; }
 .nen-spark .sw.dalat { background: #cde486; border-color: #3f7d2a; }
 .nen-spark .sw.ward { background: #b3d168; }
+/* Tầng tỉnh: mỗi xã/phường một màu pastel (trường `mau`), hai nơi sát nhau khác màu; Đà Lạt nổi bằng viền xanh đậm */
+.nen-spark .prov.m0 { fill: #c3de7c; }
+.nen-spark .prov.m1 { fill: #f2db8b; }
+.nen-spark .prov.m2 { fill: #f5c4a0; }
+.nen-spark .prov.m3 { fill: #a8dccb; }
+.nen-spark .prov.m4 { fill: #d6c6ea; }
+.nen-spark .prov.m5 { fill: #e7e2a2; }
+.nen-spark .prov[class*=" m"] { stroke: #8a7a5c; stroke-width: 0.9; }
+.nen-spark .prov.open[class*=" m"] { stroke: #1f5a2c; stroke-width: 3; }
+.nen-spark .prov.dalat[class*=" m"] { stroke: #3f7d2a; stroke-width: 2; }
+.nen-spark .prov.picked { fill: var(--pick); }
+.tang-tinh .sw.open { background: #fff8e0; border: 3px solid #1f5a2c; }
+.tang-tinh .sw.dalat { background: #fff8e0; border: 2px solid #3f7d2a; }

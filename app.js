@@ -57,7 +57,7 @@
                 ['bao_loc', 107.7429, 11.642, 'Thác Dambri', '24820'], ['ta_dung', 108.0362, 11.8889, 'Hồ Tà Đùng', '24637'],
                 ['krong_no', 107.8014, 12.4357, 'Hang núi lửa Krông Nô', '24688'], ['pongour', 108.2654, 11.6875, 'Thác Pongour', '24976'],
                 ['da_nhim', 108.6147, 11.8797, 'Hồ Đa Nhim', '24934'], ['bidoup', 108.4727, 12.1516, 'Bidoup Núi Bà', '24848']],
-      legend: [['open', 'Có phố đã nghiên cứu'], ['dalat', 'Phường khác của Đà Lạt (có đường)'], ['ward', 'Phường'], ['soon', 'Xã, đặc khu']],
+      legend: [['open', 'Viền xanh đậm: có phố đã nghiên cứu'], ['dalat', 'Viền xanh: phường khác của Đà Lạt']],
       card: cardPhuong
     },
     'da-lat': {
@@ -354,7 +354,8 @@
     }
     data[layer.list].forEach(function (t, i) {
       var c = layer.cls(t);
-      land.appendChild(el('path', { d: pathOf(t.hinh), 'class': 'prov' + (c ? ' ' + c : ''), 'data-i': i }));
+      // tầng tỉnh: mỗi xã/phường một màu nhạt, hai nơi sát nhau không trùng màu (tools/to_mau.py)
+      land.appendChild(el('path', { d: pathOf(t.hinh), 'class': 'prov' + (c ? ' ' + c : '') + (t.mau != null ? ' m' + t.mau : ''), 'data-i': i }));
       t.hinh.forEach(function (pl) {
         pl[0].forEach(function (q) {
           var x = px(q[0]), y = py(q[1]);
@@ -1049,7 +1050,8 @@
       loadExtra({ key: 'ngoai', file: 'data/lang-gieng.json' }).catch(function () { return null; })]).then(function (res) {
       var d = res[0];
       data = d; layer = L; layerId = id;
-      document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam' || id === 'lam-dong');   // tầng cả nước: nét bản đồ game Gọn Phố
+      document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam' || id === 'lam-dong');
+      document.getElementById('map').classList.toggle('tang-tinh', id === 'lam-dong');   // tầng cả nước: nét bản đồ game Gọn Phố
       document.querySelector('.osm-credit').hidden = L.kind !== 'duong';   // chỉ tầng đường dùng dữ liệu OpenStreetMap
       renderChrome();
       draw();

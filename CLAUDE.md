@@ -78,7 +78,7 @@ python3 tools/lich_trinh.py /tmp/osm
 - Tên hiện trên bản đồ là tên người ta thật sự gọi (`data/hien_thi.json`: `ten`, `dac_trung`, `ban_gi`, `moc`). **`ten_pho` giữ nguyên** vì dùng chung với game. Thêm nơi mới thì phải thêm dòng vào `hien_thi.json` (build_pho.py dừng nếu thiếu).
 - Vùng ven gọi theo cách người Đà Lạt gọi (Ga Trại Mát, Chân núi Lang Biang, Đồi chè Cầu Đất…), trung tâm gọi theo tên đường/khu (Đường Phan Đình Phùng, Khu Hoà Bình, Chợ đêm Đà Lạt…).
 - Kế hoạch 5 bước: (1) trang 3 phần ✔ (2) đổi tên ✔ (3) soát nguồn lịch sử ✔ (`docs/research/soat_nguon_lich_su.md`, mốc chỉ dựa blog có dấu ?) (4) thêm điểm tham quan lớn ✔ 26/11: Thác Datanla, Thác Prenn – đèo Prenn, Đường hầm đất sét (32 nơi; tranh + mốc Spark đợt 48 đã ghép) (5) © OpenStreetMap ✔, câu Google Maps ✔, ảnh: trang đầu ~635 KB, tranh bản đồ 1–3 MB chỉ tải khi bật `BAN_DO_PHO`.
-- "Tên xưa" chỉ hiện tên thật sự xưa; tên chép nhầm, tên du khách gọi, tên của đường khác để ở `ten_khac_khong_hien` trong `data/chuyen/<slug>.json`.
+- "Tên xưa" (soát 26/11, `docs/research/soat_nguon_lich_su.md`) chạm tên mới hiện năm + nguồn, tên nghi có dấu ? (`chua_chac`); chỉ hiện tên thật sự xưa của CHÍNH nơi đó; tên chép nhầm, tên du khách gọi, tên của đường khác để ở `ten_khac_khong_hien` trong `data/chuyen/<slug>.json`.
 
 ## Anh Kha đã chốt trước đó (25/11/2026)
 - Trang phố vẽ trên **bản đồ minh hoạ nét Spark, hướng Bắc ở trên, đúng tỉ lệ, có mốc quen** (Chợ, hồ, nhà thờ). Không xoay đường, không sơ đồ trừu tượng — người Đà Lạt nhìn phải nhận ra ngay.

@@ -3,12 +3,13 @@
  "ten_cu": [
   {
    "ten": "Khu An Nam",
-   "thoi_gian": "trước năm 1929 (tên vùng, trước khi có chợ)",
+   "thoi_gian": "khu dành cho người Việt trong quy hoạch Hébrard năm 1923",
    "ghi_chu": "VnExpress (10/10/2026): 'Chợ Cây tự phát xuất hiện ở khu An Nam, nay là khu Hòa Bình'. Thanh Niên lại kể chợ tự phát ban đầu ở ấp Ánh Sáng rồi mới dời lên đồi năm 1929.",
    "nguon": [
-    "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html"
+    "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
+    "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html"
    ],
-   "mot_nguon": true
+   "mot_nguon": false
   },
   {
    "ten": "Place du Marché (Quảng trường Chợ)",

@@ -744,9 +744,14 @@
     function dau(muc, one) { return muc === 'blog' || one ? ' <i class="chua-chac" title="chưa chắc">?</i>' : ''; }
     var h = '<section class="chuyen phan"><h3>🕰️ Lịch sử</h3>';
     if (c.ten_cu.length) {
-      h += '<div class="ten-xua"><span class="nhan">Tên xưa</span>' + c.ten_cu.map(function (t) {
-        return '<span class="chip-ten">' + esc(t.ten.replace(/\s*\(.*$/, '').split(' / ')[0]) + '</span>';
-      }).join('<span class="mui">→</span>') + '</div>';
+      // chạm tên xưa mới hiện năm + nguồn (ít chữ); tên còn nghi có dấu ?
+      h += '<div class="ten-xua"><span class="nhan">Tên xưa · chạm để xem năm</span>' + c.ten_cu.map(function (t, k) {
+        return '<button type="button" class="chip-ten" data-tc="' + k + '">' + esc(t.ten.replace(/\s*\(.*$/, '').split(' / ')[0]) +
+          (t.chua_chac || t.mot_nguon || t.muc === 'blog' ? ' <i class="chua-chac" title="chưa chắc">?</i>' : '') + '</button>';
+      }).join('<span class="mui">→</span>') + '</div>' + c.ten_cu.map(function (t, k) {
+        return '<div class="ten-ct" data-tc="' + k + '" hidden><b>' + esc(t.ten) + '</b>' + (t.thoi_gian ? '<span>' + esc(hoaDau(t.thoi_gian)) + '</span>' : '') +
+          (t.chua_chac ? '<span class="src warn">Chưa chắc</span>' : '') + src(t.nguon, t.mot_nguon, t.muc) + '</div>';
+      }).join('');
     }
     if (c.moc.length) {
       // gọn: hiện 6 mốc đầu, còn lại gập vào "Xem thêm"
@@ -1038,6 +1043,13 @@
     return out ? out + '.' : '';
   }
 
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('.chip-ten');
+    if (!b) return;
+    var box = b.closest('.chuyen'), k = b.getAttribute('data-tc');
+    Array.prototype.forEach.call(box.querySelectorAll('.ten-ct'), function (x) { x.hidden = x.getAttribute('data-tc') !== k || !x.hidden; });
+    Array.prototype.forEach.call(box.querySelectorAll('.chip-ten'), function (x) { x.classList.toggle('dang-mo', x === b && !box.querySelector('.ten-ct[data-tc="' + k + '"]').hidden); });
+  });
   function showQuan(ph, d) {
     var c = document.getElementById('quanCard');
     // thẻ hiện ngay dưới mốc vừa chạm (không dồn xuống cuối trang); chạm lại mốc đang mở thì đóng

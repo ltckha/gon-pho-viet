@@ -2,13 +2,15 @@
  "slug": "dinh-1",
  "ten_cu": [
   {
-   "ten": "Domain Bourgerie",
+   "ten": "Domaine Bourgery",
    "thoi_gian": "tên ban đầu của khu đất, khi còn là của Robert Clément Bourgery (khoảng 1940)",
-   "ghi_chu": "Tuổi Trẻ 2018 dẫn nhà nghiên cứu Nguyễn Đắc Xuân.",
+   "ghi_chu": "Tuổi Trẻ 2018 dẫn nhà nghiên cứu Nguyễn Đắc Xuân. Soát 26/11/2026: Tuổi Trẻ viết \"Domain Bourgerie\"; báo Pháp 1931 viết \"le domaine de M. Bourgery\" nên sửa chính tả. Vẫn chưa chắc là tên chính thức.",
    "nguon": [
-    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
+    "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+    "https://entreprises-coloniales.fr/inde-indochine/Domaine_Bourgery_Dalat.pdf"
    ],
-   "mot_nguon": true
+   "mot_nguon": false,
+   "chua_chac": true
   }
  ],
  "moc": [

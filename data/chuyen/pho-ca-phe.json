@@ -2,15 +2,18 @@
  "slug": "pho-ca-phe",
  "ten_cu": [
   {
-   "ten": "Đồng Khánh → Thành Thái (đường Nguyễn Chí Thanh bây giờ)",
-   "thoi_gian": "Đồng Khánh thời Pháp; 1953 đổi Thành Thái; 1975/1976 đổi Nguyễn Chí Thanh (tinbds ghi 1976, trangdulichdalat ghi 1975)",
+   "ten": "Đồng Khánh, Thành Thái (tên cũ đường Nguyễn Chí Thanh)",
+   "thoi_gian": "trước 1975; đổi Nguyễn Chí Thanh sau 1975 (đợt 1976)",
    "nguon": [
     "https://tinbds.com/lam-dong/da-lat/duong-nguyen-chi-thanh",
     "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/",
     "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-    "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html"
+    "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html",
+    "https://lamdong.gov.vn/sites/book/diachidalat/Tongluan/bai10.htm",
+    "https://lamdong.gov.vn/sites/book/diachidalat/Phan3/chuong4.htm"
    ],
-   "mot_nguon": false
+   "mot_nguon": false,
+   "ghi_chu": "Soát 26/11/2026: Hai tên đều đúng (Địa chí Đà Lạt) nhưng thứ tự và năm đổi giữa hai tên chưa có nguồn chắc, nên không ghi \"1953 đổi Thành Thái\"."
   }
  ],
  "moc": [

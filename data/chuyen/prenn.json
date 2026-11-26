@@ -4,14 +4,15 @@
   {
    "ten": "Prềnh (Prenh)",
    "thoi_gian": "tên theo lời già làng K'Ho, sau đọc chệch thành Prenn",
-   "ghi_chu": "Nghĩa 'cà đắng' — loài cà dại mọc nhiều ở thượng nguồn suối (Wikipedia, mia, vinwonders). Thuyết khác: gốc tiếng Chăm nghĩa 'vùng lấn chiếm' / 'xâm chiếm', gắn với giao tranh giữa người bản địa và quân Chăm Panduranga khoảng thế kỷ 15–17 (Wikipedia, VnExpress 2014, mia). vietnamnet EN 2016 lại ghi tên lấy từ một làng Prenn ở thượng nguồn.",
+   "ghi_chu": "Nghĩa 'cà đắng' — loài cà dại mọc nhiều ở thượng nguồn suối (Wikipedia, mia, vinwonders). Thuyết khác: gốc tiếng Chăm nghĩa 'vùng lấn chiếm' / 'xâm chiếm', gắn với giao tranh giữa người bản địa và quân Chăm Panduranga khoảng thế kỷ 15–17 (Wikipedia, VnExpress 2014, mia). vietnamnet EN 2016 lại ghi tên lấy từ một làng Prenn ở thượng nguồn. Soát 26/11/2026: chỉ là một thuyết (có thuyết gốc Chăm), nguồn Wikipedia và trang du lịch.",
    "nguon": [
     "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
     "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465",
     "https://vinwonders.com/vi/wonderpedia/news/thac-prenn-da-lat/",
     "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html"
    ],
-   "mot_nguon": false
+   "mot_nguon": false,
+   "chua_chac": true
   }
  ],
  "moc": [

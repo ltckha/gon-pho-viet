@@ -177,3 +177,15 @@ Thêm được nguồn báo, EFEO, tạp chí cho 14 ý: hồ Xuân Hương 8 ý
 5. Chùa Linh Quang: Tạp chí Nghiên cứu Phật học ghi có từ 1921 (dữ liệu đã ghi "1921 hoặc 1931").
 
 Nguồn nên dùng tiếp: bộ tài liệu triển lãm Đà Lạt của EFEO (efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie1..4.pdf); bài Tạp chí Nghiên cứu Phật học về Phật giáo Lâm Đồng.
+
+## Soát "Tên xưa" (26/11/2026)
+- 81 dòng → ẩn 42 dòng không phải tên cũ của chính nơi đó (tên đường/nơi khác, đơn vị hành chính, tên gọi khác hiện nay, nguồn nghi); giữ trong `ten_khac_khong_hien` của `data/chuyen/<slug>.json`.
+- Kiểm 42 dòng còn lại bằng Địa chí Đà Lạt, trang Đường phố Đà Lạt của tỉnh, Báo Lâm Đồng, báo lớn. Sửa:
+  - Trần Phú: bỏ "Maréchal Foch" (là đường 3 Tháng 2 — Địa chí Đà Lạt, Thanh Niên).
+  - Yersin: Thống Nhất từ 1953 (không phải "chưa rõ"), Yersin từ 1993.
+  - Đợt đổi tên sau giải phóng là năm 1976 (Niên biểu Đà Lạt: đổi tên 22 đường); "1975" chỉ ở blog.
+  - Trần Hưng Đạo: từ 1953. Nguyễn Chí Thanh: tên cũ Đồng Khánh, Thành Thái (thứ tự chưa chắc).
+  - Khu An Nam: khu người Việt trong quy hoạch Hébrard 1923. Dinh I: "Domaine Bourgery" (sửa chính tả, chưa chắc).
+  - Ẩn "Ga hỏa xa" (cách gọi, không phải tên đổi), "ấp Vạn Thành" (giống tên nay).
+  - Đánh dấu chưa chắc (?): Thung lũng Hòa Bình, Prềnh, L'Arbre Broyé, Domaine Bourgery.
+- Lưu ý: lamdong.gov.vn lỗi 503 lúc kiểm; các chỗ dẫn trang tỉnh đọc qua đoạn trích máy tìm kiếm.

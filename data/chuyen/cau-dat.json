@@ -4,11 +4,13 @@
   {
    "ten": "L'Arbre Broyé (tên đầu của Sở trà Cầu Đất)",
    "thoi_gian": "thời Pháp",
-   "ghi_chu": "Chỉ Vietnam+ (2019) ghi Sở trà Cầu Đất ban đầu tên 'L'Arbre Broyé'.",
+   "ghi_chu": "Chỉ Vietnam+ (2019) ghi Sở trà Cầu Đất ban đầu tên 'L'Arbre Broyé'. Soát 26/11/2026: Đúng là đồn điền chè thời Pháp ở vùng này; \"tên đầu của Sở trà Cầu Đất\" mới 1 bài báo.",
    "nguon": [
-    "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp"
+    "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
+    "https://www.entreprises-coloniales.fr/inde-indochine/Plant._indoch._the.pdf"
    ],
-   "mot_nguon": true
+   "mot_nguon": false,
+   "chua_chac": true
   }
  ],
  "moc": [

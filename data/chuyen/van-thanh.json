@@ -1,16 +1,6 @@
 {
  "slug": "van-thanh",
- "ten_cu": [
-  {
-   "ten": "ấp Vạn Thành",
-   "thoi_gian": "từ cuối thập niên 1950",
-   "ghi_chu": "Tên khu dân cư (ấp) của người gốc Bắc lập nghiệp; làng hoa và con đường sau này mang tên ấp. Chữ 'ấp Vạn Thành' em chỉ thấy ở VnExpress 2011.",
-   "nguon": [
-    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html"
-   ],
-   "mot_nguon": true
-  }
- ],
+ "ten_cu": [],
  "moc": [
   {
    "nam": "cuối thập niên 1950",
@@ -231,6 +221,16 @@
     "https://www.vietnamairlines.com/en/useful-information/travel-guide/vuon-hoa-da-lat"
    ],
    "mot_nguon": false
+  },
+  {
+   "ten": "ấp Vạn Thành",
+   "thoi_gian": "từ cuối thập niên 1950",
+   "ghi_chu": "Tên khu dân cư (ấp) của người gốc Bắc lập nghiệp; làng hoa và con đường sau này mang tên ấp. Chữ 'ấp Vạn Thành' em chỉ thấy ở VnExpress 2011.",
+   "nguon": [
+    "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html"
+   ],
+   "mot_nguon": true,
+   "ly_do_an": "Giống tên nay, không phải tên cũ; chỉ 1 nguồn."
   }
  ],
  "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."

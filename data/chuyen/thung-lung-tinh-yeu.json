@@ -17,14 +17,15 @@
   {
    "ten": "Thung lũng Hòa Bình",
    "thoi_gian": "thời vua Bảo Đại",
-   "ghi_chu": "Chưa rõ năm cụ thể.",
+   "ghi_chu": "Chưa rõ năm cụ thể. Soát 26/11/2026: chỉ bài du lịch tiếng Anh chép lại nhau, chưa có sách hay nhà nghiên cứu.",
    "nguon": [
     "https://vietnamnet.vn/en/the-valley-of-love-vietnams-most-romantic-sight-E166025.html",
     "https://baonghean.vn/en/thung-lung-tinh-yeu-noi-tieng-nhat-viet-nam-10118140.html",
     "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu",
     "https://mia.vn/cam-nang-du-lich/thung-lung-tinh-yeu-co-gi-18817"
    ],
-   "mot_nguon": false
+   "mot_nguon": false,
+   "chua_chac": true
   },
   {
    "ten": "Thung lũng Tình Yêu",

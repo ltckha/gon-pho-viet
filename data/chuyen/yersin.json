@@ -3,31 +3,34 @@
  "ten_cu": [
   {
    "ten": "Albert Sarraut",
-   "thoi_gian": "thời Pháp",
+   "thoi_gian": "thời Pháp – 1953",
    "ghi_chu": "Bảng tên đường xưa và nay của blog ghi 'Albert Sarraut → Thống Nhất, Yersin'. Chưa tìm được nguồn thứ hai cho tên Albert Sarraut.",
    "nguon": [
-    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/yersin.aspx"
    ],
-   "mot_nguon": true
+   "mot_nguon": false
   },
   {
    "ten": "Thống Nhất",
-   "thoi_gian": "trước năm 1993",
-   "ghi_chu": "Bảng giá đất tỉnh (QĐ 02/2020) vẫn ghi tên đường là 'Yersin (Thống Nhất cũ)'. Chưa rõ năm bắt đầu gọi Thống Nhất.",
+   "thoi_gian": "1953 – 1993",
+   "ghi_chu": "Bảng giá đất tỉnh (QĐ 02/2020) vẫn ghi tên đường là 'Yersin (Thống Nhất cũ)'. Chưa rõ năm bắt đầu gọi Thống Nhất. Soát 26/11/2026: trang đường phố của tỉnh ghi năm 1953 đổi Thống Nhất.",
    "nguon": [
     "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-10",
-    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/yersin.aspx"
    ],
    "mot_nguon": false
   },
   {
    "ten": "Yersin",
-   "thoi_gian": "từ năm 1993",
+   "thoi_gian": "từ năm 1993 (100 năm Đà Lạt)",
    "ghi_chu": "Năm 1993 chỉ có ở bảng của blog (chú thích '(5) đổi tên từ năm 1993'). Đừng lẫn: thời Pháp tới 1975, tên Yersin thuộc về đường nay là Trần Phú.",
    "nguon": [
-    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/yersin.aspx"
    ],
-   "mot_nguon": true
+   "mot_nguon": false
   }
  ],
  "moc": [

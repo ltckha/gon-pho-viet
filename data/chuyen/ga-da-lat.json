@@ -1,17 +1,6 @@
 {
  "slug": "ga-da-lat",
- "ten_cu": [
-  {
-   "ten": "Ga hỏa xa Đà Lạt",
-   "thoi_gian": "cách gọi cũ, còn dùng trên báo",
-   "ghi_chu": "Nhân Dân 06/2026 dùng 'Ga hỏa xa Đà Lạt' (dẫn Địa chí Đà Lạt); Báo Pháp luật TP.HCM có bài 'Ga hỏa xa Đà Lạt: Kiệt tác độc đáo nhất Đông Dương' (em chỉ thấy tiêu đề qua tìm kiếm).",
-   "nguon": [
-    "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
-    "https://plo.vn/ga-hoa-xa-da-lat-kiet-tac-doc-dao-nhat-dong-duong-post1058.html"
-   ],
-   "mot_nguon": false
-  }
- ],
+ "ten_cu": [],
  "moc": [
   {
    "nam": "1908",
@@ -183,5 +172,18 @@
    "mot_nguon": true
   }
  ],
- "ghi_chu": "1) Phường: nhà ga sát ranh Xuân Hương / Lâm Viên; bảng giá cũ ghi Quang Trung và Nguyễn Trãi (đoạn Yersin – ga) thuộc Phường 9 (→ Lâm Viên), còn mia/mytour ghi nhà ga Phường 10 (→ Xuân Hương), hai bài Nhân Dân 2026 ghi lệch nhau. 2) Năm xong nhà ga: 1938 (đa số) / khoảng 1936 (VnExpress 2018). 3) Năm công nhận di tích: 2001 (Nhân Dân) / 2011 (VinWonders). 4) Giá vé vào ga lệch (10.000 / 5.000 đ), giá vé tàu các bài đều cũ (2018–2023) → không ghi. 5) Chưa có nguồn nào kể biệt thự đường sắt cạnh ga xây năm nào, cho ai ở."
+ "ghi_chu": "1) Phường: nhà ga sát ranh Xuân Hương / Lâm Viên; bảng giá cũ ghi Quang Trung và Nguyễn Trãi (đoạn Yersin – ga) thuộc Phường 9 (→ Lâm Viên), còn mia/mytour ghi nhà ga Phường 10 (→ Xuân Hương), hai bài Nhân Dân 2026 ghi lệch nhau. 2) Năm xong nhà ga: 1938 (đa số) / khoảng 1936 (VnExpress 2018). 3) Năm công nhận di tích: 2001 (Nhân Dân) / 2011 (VinWonders). 4) Giá vé vào ga lệch (10.000 / 5.000 đ), giá vé tàu các bài đều cũ (2018–2023) → không ghi. 5) Chưa có nguồn nào kể biệt thự đường sắt cạnh ga xây năm nào, cho ai ở.",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Ga hỏa xa Đà Lạt",
+   "thoi_gian": "cách gọi cũ, còn dùng trên báo",
+   "ghi_chu": "Nhân Dân 06/2026 dùng 'Ga hỏa xa Đà Lạt' (dẫn Địa chí Đà Lạt); Báo Pháp luật TP.HCM có bài 'Ga hỏa xa Đà Lạt: Kiệt tác độc đáo nhất Đông Dương' (em chỉ thấy tiêu đề qua tìm kiếm).",
+   "nguon": [
+    "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+    "https://plo.vn/ga-hoa-xa-da-lat-kiet-tac-doc-dao-nhat-dong-duong-post1058.html"
+   ],
+   "mot_nguon": false,
+   "ly_do_an": "Cách gọi cũ, không phải tên đã đổi."
+  }
+ ]
 }

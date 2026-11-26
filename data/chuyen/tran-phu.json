@@ -4,24 +4,15 @@
   {
    "ten": "Yersin (đại lộ Yersin)",
    "duong_nay": "Trần Phú",
-   "thoi_gian": "thời Pháp tới 1975",
+   "thoi_gian": "thời Pháp – sau 1975 (đợt đổi tên chung năm 1976)",
    "nguon": [
     "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t",
     "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
-    "https://lamdong.gov.vn/sites/book/diachidalat/Phan4/c4-3.htm"
+    "https://lamdong.gov.vn/sites/book/diachidalat/Phan4/c4-3.htm",
+    "https://lamdong.gov.vn/sites/book/diachidalat/Phan3/chuong4.htm"
    ],
    "mot_nguon": false,
    "ghi_chu": "Bảng của blog ghi đổi tên từ năm 1975. Sách Địa chí Đà Lạt (trên trang tỉnh) viết 'đối diện qua đường Yersin (nay là đường Trần Phú)', câu này em đọc qua đoạn trích của máy tìm kiếm. Đừng lẫn với đường Yersin bây giờ: đường đó thời Pháp tên Albert Sarraut, sau thành Thống Nhất, tới năm 1993 mới mang tên Yersin."
-  },
-  {
-   "ten": "Maréchal Foch",
-   "duong_nay": "Ba Tháng Hai",
-   "thoi_gian": "thời Pháp (bảng của blog ghi là 'trước 1953')",
-   "nguon": [
-    "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm",
-    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
-   ],
-   "mot_nguon": false
   }
  ],
  "moc": [
@@ -141,6 +132,17 @@
    ],
    "mot_nguon": false,
    "ghi_chu": "Ba nguồn đều ghi Duy Tân nay là đường 3/2. Các năm 1953 và 1975 chỉ có ở bảng của blog (tên cũ 'trước 1953', đổi tên 'từ 1975'), chưa có nguồn thứ hai."
+  },
+  {
+   "ten": "Maréchal Foch",
+   "duong_nay": "Ba Tháng Hai",
+   "thoi_gian": "thời Pháp (bảng của blog ghi là 'trước 1953')",
+   "nguon": [
+    "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": false,
+   "ly_do_an": "Maréchal Foch là đường 3 Tháng 2 (Địa chí Đà Lạt, Thanh Niên), không phải Trần Phú."
   }
  ],
  "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."

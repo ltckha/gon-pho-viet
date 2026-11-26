@@ -848,8 +848,8 @@
    "chuyen": {
     "ten_cu": [
      {
-      "ten": "Đồng Khánh → Thành Thái (đường Nguyễn Chí Thanh bây giờ)",
-      "thoi_gian": "Đồng Khánh thời Pháp; 1953 đổi Thành Thái; 1975/1976 đổi Nguyễn Chí Thanh (tinbds ghi 1976, trangdulichdalat ghi 1975)",
+      "ten": "Đồng Khánh, Thành Thái (tên cũ đường Nguyễn Chí Thanh)",
+      "thoi_gian": "trước 1975; đổi Nguyễn Chí Thanh sau 1975 (đợt 1976)",
       "nguon": [
        {
         "link": "https://tinbds.com/lam-dong/da-lat/duong-nguyen-chi-thanh",
@@ -866,10 +866,19 @@
        {
         "link": "https://thuonggiaonline.vn/cafe-tung-tren-nhung-dau-chim-di-post553449.html",
         "trang": "thuonggiaonline.vn"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/book/diachidalat/Tongluan/bai10.htm",
+        "trang": "lamdong.gov.vn"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/book/diachidalat/Phan3/chuong4.htm",
+        "trang": "lamdong.gov.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -1459,7 +1468,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -2031,11 +2041,12 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Hàm Nghi",
-      "thoi_gian": "1953 – 1975/1976",
+      "thoi_gian": "1953 – 1976",
       "nguon": [
        {
         "link": "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/nguyen-van-troi.aspx",
@@ -2051,11 +2062,12 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Nguyễn Văn Trỗi",
-      "thoi_gian": "từ 1976 theo trang tỉnh; từ 1975 theo bảng của blog",
+      "thoi_gian": "từ năm 1976",
       "nguon": [
        {
         "link": "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/nguyen-van-troi.aspx",
@@ -2064,10 +2076,15 @@
        {
         "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
         "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/book/diachidalat/Tongluan/bai1.htm",
+        "trang": "lamdong.gov.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -2508,7 +2525,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Hoàng Diệu",
@@ -2524,7 +2542,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -2988,7 +3007,7 @@
     "ten_cu": [
      {
       "ten": "Yersin (đại lộ Yersin)",
-      "thoi_gian": "thời Pháp tới 1975",
+      "thoi_gian": "thời Pháp – sau 1975 (đợt đổi tên chung năm 1976)",
       "nguon": [
        {
         "link": "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t",
@@ -3001,26 +3020,15 @@
        {
         "link": "https://lamdong.gov.vn/sites/book/diachidalat/Phan4/c4-3.htm",
         "trang": "lamdong.gov.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
-      "ten": "Maréchal Foch",
-      "thoi_gian": "thời Pháp (bảng của blog ghi là 'trước 1953')",
-      "nguon": [
-       {
-        "link": "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm",
-        "trang": "thanhnien.vn"
        },
        {
-        "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
-        "trang": "didulichdalat.wordpress.com"
+        "link": "https://lamdong.gov.vn/sites/book/diachidalat/Phan3/chuong4.htm",
+        "trang": "lamdong.gov.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -3432,11 +3440,12 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "blog"
+      "muc": "blog",
+      "chua_chac": false
      },
      {
       "ten": "Võ Tánh",
-      "thoi_gian": "1953 – 1975 (hoặc 1976)",
+      "thoi_gian": "khoảng 1953 – 1976",
       "nguon": [
        {
         "link": "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
@@ -3445,14 +3454,19 @@
        {
         "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
         "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/book/diachidalat/Tongluan/bai10.htm",
+        "trang": "lamdong.gov.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "blog"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Bùi Thị Xuân",
-      "thoi_gian": "từ năm 1975 hoặc 1976 (nguồn vênh)",
+      "thoi_gian": "sau 1975 (đợt đổi tên chung năm 1976)",
       "nguon": [
        {
         "link": "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
@@ -3461,10 +3475,15 @@
        {
         "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
         "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/book/diachidalat/Tongluan/bai1.htm",
+        "trang": "lamdong.gov.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "blog"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -3840,10 +3859,15 @@
        {
         "link": "https://www.vietnamplus.vn/kham-pha-vung-trong-tra-gan-100-nam-tuoi-tai-da-lat-post613650.vnp",
         "trang": "vietnamplus.vn"
+       },
+       {
+        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Plant._indoch._the.pdf",
+        "trang": "entreprises-coloniales.fr"
        }
       ],
-      "mot_nguon": true,
-      "muc": "chac"
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": true
      }
     ],
     "moc": [
@@ -4344,7 +4368,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -4717,16 +4742,21 @@
    "chuyen": {
     "ten_cu": [
      {
-      "ten": "Domain Bourgerie",
+      "ten": "Domaine Bourgery",
       "thoi_gian": "tên ban đầu của khu đất, khi còn là của Robert Clément Bourgery (khoảng 1940)",
       "nguon": [
        {
         "link": "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
         "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://entreprises-coloniales.fr/inde-indochine/Domaine_Bourgery_Dalat.pdf",
+        "trang": "entreprises-coloniales.fr"
        }
       ],
-      "mot_nguon": true,
-      "muc": "chac"
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": true
      }
     ],
     "moc": [
@@ -6224,24 +6254,7 @@
    "can_kiem_them": 10,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_ga-da-lat.md",
    "chuyen": {
-    "ten_cu": [
-     {
-      "ten": "Ga hỏa xa Đà Lạt",
-      "thoi_gian": "cách gọi cũ, còn dùng trên báo",
-      "nguon": [
-       {
-        "link": "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
-        "trang": "nhandan.vn"
-       },
-       {
-        "link": "https://plo.vn/ga-hoa-xa-da-lat-kiet-tac-doc-dao-nhat-dong-duong-post1058.html",
-        "trang": "plo.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     }
-    ],
+    "ten_cu": [],
     "moc": [
      {
       "nam": "1908",
@@ -6894,7 +6907,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "blog"
+      "muc": "blog",
+      "chua_chac": false
      },
      {
       "ten": "Hai Bà Trưng",
@@ -6910,7 +6924,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "blog"
+      "muc": "blog",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -7780,7 +7795,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Lac des Soupirs",
@@ -7804,7 +7820,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Hồ Sương Mai",
@@ -7828,7 +7845,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -8507,7 +8525,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -9262,7 +9281,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "blog"
+      "muc": "blog",
+      "chua_chac": false
      },
      {
       "ten": "Hoàng Hoa Thám",
@@ -9278,7 +9298,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "blog"
+      "muc": "blog",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -9615,15 +9636,20 @@
     "ten_cu": [
      {
       "ten": "Khu An Nam",
-      "thoi_gian": "trước năm 1929 (tên vùng, trước khi có chợ)",
+      "thoi_gian": "khu dành cho người Việt trong quy hoạch Hébrard năm 1923",
       "nguon": [
        {
         "link": "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
         "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html",
+        "trang": "nguoidothi.net.vn"
        }
       ],
-      "mot_nguon": true,
-      "muc": "chac"
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Place du Marché (Quảng trường Chợ)",
@@ -9643,7 +9669,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Khu Hòa Bình",
@@ -9663,7 +9690,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -10817,7 +10845,8 @@
        }
       ],
       "mot_nguon": true,
-      "muc": "blog"
+      "muc": "blog",
+      "chua_chac": false
      },
      {
       "ten": "Nguyễn Công Trứ",
@@ -10833,7 +10862,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -11537,7 +11567,8 @@
        }
       ],
       "mot_nguon": true,
-      "muc": "blog"
+      "muc": "blog",
+      "chua_chac": false
      },
      {
       "ten": "Phan Bội Châu",
@@ -11553,7 +11584,8 @@
        }
       ],
       "mot_nguon": true,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -11887,7 +11919,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": true
      }
     ],
     "moc": [
@@ -12315,7 +12348,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -12959,7 +12993,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Thung lũng Hòa Bình",
@@ -12983,7 +13018,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": true
      },
      {
       "ten": "Thung lũng Tình Yêu",
@@ -13007,7 +13043,8 @@
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -14201,7 +14238,7 @@
     "ten_cu": [
      {
       "ten": "Paul Doumer",
-      "thoi_gian": "thời Pháp",
+      "thoi_gian": "thời Pháp – 1953",
       "nguon": [
        {
         "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
@@ -14210,14 +14247,19 @@
        {
         "link": "https://mia.vn/cam-nang-du-lich/dinh-2-da-lat-dinh-toan-quyen-decoux-dinh-thu-xa-hoa-long-lay-giua-doi-thong-1309",
         "trang": "mia.vn"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/tran-hung-dao.aspx",
+        "trang": "lamdong.gov.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "blog"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Trần Hưng Đạo",
-      "thoi_gian": "chưa rõ năm đổi",
+      "thoi_gian": "từ năm 1953",
       "nguon": [
        {
         "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
@@ -14226,10 +14268,15 @@
        {
         "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-hung-dao-phuong-3",
         "trang": "thuviennhadat.vn"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/tran-hung-dao.aspx",
+        "trang": "lamdong.gov.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [
@@ -15669,20 +15716,7 @@
    "can_kiem_them": 5,
    "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_van-thanh.md",
    "chuyen": {
-    "ten_cu": [
-     {
-      "ten": "ấp Vạn Thành",
-      "thoi_gian": "từ cuối thập niên 1950",
-      "nguon": [
-       {
-        "link": "https://vnexpress.net/lang-trong-hoa-sam-oto-di-lam-vuon-2285896.html",
-        "trang": "vnexpress.net"
-       }
-      ],
-      "mot_nguon": true,
-      "muc": "chac"
-     }
-    ],
+    "ten_cu": [],
     "moc": [
      {
       "nam": "cuối thập niên 1950",
@@ -16293,19 +16327,24 @@
     "ten_cu": [
      {
       "ten": "Albert Sarraut",
-      "thoi_gian": "thời Pháp",
+      "thoi_gian": "thời Pháp – 1953",
       "nguon": [
        {
         "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
         "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/yersin.aspx",
+        "trang": "lamdong.gov.vn"
        }
       ],
-      "mot_nguon": true,
-      "muc": "blog"
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Thống Nhất",
-      "thoi_gian": "trước năm 1993",
+      "thoi_gian": "1953 – 1993",
       "nguon": [
        {
         "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/yersin-thong-nhat-cu-phuong-10",
@@ -16314,22 +16353,32 @@
        {
         "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
         "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/yersin.aspx",
+        "trang": "lamdong.gov.vn"
        }
       ],
       "mot_nguon": false,
-      "muc": "chac"
+      "muc": "chac",
+      "chua_chac": false
      },
      {
       "ten": "Yersin",
-      "thoi_gian": "từ năm 1993",
+      "thoi_gian": "từ năm 1993 (100 năm Đà Lạt)",
       "nguon": [
        {
         "link": "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
         "trang": "didulichdalat.wordpress.com"
+       },
+       {
+        "link": "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/yersin.aspx",
+        "trang": "lamdong.gov.vn"
        }
       ],
-      "mot_nguon": true,
-      "muc": "blog"
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": false
      }
     ],
     "moc": [

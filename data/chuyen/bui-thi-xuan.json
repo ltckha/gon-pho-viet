@@ -1,154 +1,156 @@
 {
-  "slug": "bui-thi-xuan",
-  "ten_cu": [
-    {
-      "ten": "Thouard",
-      "thoi_gian": "thời Pháp, tới năm 1953",
-      "ghi_chu": "Mang tên đại uý Thouard (tinbds). Cùng tên với đại uý Thouard cầm đầu đoàn khảo sát đường lên cao nguyên Lâm Viên cuối thế kỷ 19 (xem mục chuyện).",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
-        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
-      ],
-      "mot_nguon": false
-    },
-    {
-      "ten": "Võ Tánh",
-      "thoi_gian": "1953 – 1975 (hoặc 1976)",
-      "ghi_chu": "tinbds ghi năm 1953 đổi thành Võ Tánh, trước năm 1975 khu này thuộc ấp Võ Tánh. Bảng tên đường xưa ghi tên sau Thouard là 'Võ Tánh, Bùi Thị Xuân'.",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
-        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
-      ],
-      "mot_nguon": false
-    },
-    {
-      "ten": "Bùi Thị Xuân",
-      "thoi_gian": "từ năm 1975 hoặc 1976 (nguồn vênh)",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
-        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Bảng tên đường xưa chú thích 'đổi tên từ năm 1975'. tinbds ghi 'từ năm 1976 đổi là Bùi Thị Xuân'."
-    }
-  ],
-  "moc": [
-    {
-      "nam": "1897 hoặc 1898 (nguồn vênh)",
-      "su_kien": "Đại uý Thouard, người sau này được đặt tên cho con đường, cầm đầu đoàn khảo sát đường từ Nha Trang lên Lâm Viên. Sau 11 tháng ông kết luận không làm được đường thẳng Nha Trang - Lâm Viên, và vạch hướng đi từ Phan Rang.",
-      "nguon": [
-        "https://vi.wikipedia.org/wiki/L%E1%BB%8Bch_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
-        "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie1.pdf"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Wikipedia tiếng Việt ghi năm 1897 Paul Doumer cử đoàn Thouard. Tài liệu triển lãm của Viện Viễn Đông Bác Cổ Pháp (EFEO) ghi bản đồ lộ trình 'Mission du capitaine Thouard et du lieutenant H. Wolff, 1898'. Có thể đoàn đi từ 1897 sang 1898, nhưng em chưa thấy nguồn nói thẳng."
-    },
-    {
-      "nam": "1953",
-      "su_kien": "Đường Thouard đổi tên thành Võ Tánh.",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan"
-      ],
-      "mot_nguon": true,
-      "ghi_chu": "Bảng tên đường xưa xác nhận hai tên nhưng không ghi năm 1953."
-    },
-    {
-      "nam": "1975 hoặc 1976",
-      "su_kien": "Đường Võ Tánh đổi tên thành Bùi Thị Xuân.",
-      "nguon": [
-        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
-        "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Bảng tên đường xưa ghi 1975, tinbds ghi 1976."
-    },
-    {
-      "nam": "2023",
-      "su_kien": "Kế hoạch của thành phố: nâng cấp, mở rộng đường Bùi Thị Xuân (Phường 2 và Phường 8), dài 1.551 m, từ Trần Quốc Toản - hồ Xuân Hương tới ngã năm Đại học, vốn 110 tỷ đồng, giai đoạn 2023–2024.",
-      "nguon": [
-        "https://nguoiquansat.vn/diem-ten-6-du-an-sap-khoi-cong-tai-tp-da-lat-lam-dong-75204.html"
-      ],
-      "mot_nguon": true
-    },
-    {
-      "nam": "2024",
-      "su_kien": "Dự án nâng cấp, mở rộng đường khởi công ngày 18/7/2024. Tới đầu tháng 12/2024, trước Festival Hoa, đường vẫn đang đào, việc buôn bán của người dân bị ảnh hưởng.",
-      "nguon": [
-        "https://www.sggp.org.vn/duong-pho-da-lat-ngon-ngang-truoc-ngay-khai-mac-festival-hoa-da-lat-2024-post771314.html"
-      ],
-      "mot_nguon": true
-    },
-    {
-      "nam": "2025",
-      "su_kien": "Tháng 11/2025 thu hồi trụ điện, dây điện nổi trên đường (đoạn từ trường Nguyễn Du tới hồ Xuân Hương), làm ngầm hạ tầng. Báo Lâm Đồng ghi dự án dài 1,65 km, vốn 109 tỷ đồng.",
-      "nguon": [
-        "https://baolamdong.vn/thu-hoi-duong-day-tru-dien-noi-tren-tuyen-duong-bui-thi-xuan-402489.html"
-      ],
-      "mot_nguon": true,
-      "ghi_chu": "Số liệu dự án lệch giữa hai thời điểm: 1.551 m / 110 tỷ (kế hoạch, Người Quan Sát 3/2023) và 1,65 km / 109 tỷ (Báo Lâm Đồng 13/11/2025). Chưa thấy tin dự án đã xong."
-    }
-  ],
-  "chuyen": [
-    {
-      "tieu_de": "Con đường mang tên người tìm đường lên Đà Lạt",
-      "noi_dung": "Tên đầu tiên của đường là Thouard, tên một đại uý Pháp. Cuối thế kỷ 19, ông dẫn đoàn đi gần một năm để tìm đường từ Nha Trang lên cao nguyên Lâm Viên. Ông kết luận không thể làm đường thẳng Nha Trang lên được, và đề xuất đi từ Phan Rang. Một người trong đoàn, ông Missigbrott, ở lại trồng rau, nuôi bò, mở đầu cho trạm nông nghiệp sau này.",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
-        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
-        "https://vi.wikipedia.org/wiki/L%E1%BB%8Bch_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
-        "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie1.pdf"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Chuyện ông Missigbrott ở lại chỉ có ở Wikipedia tiếng Việt. Chưa nguồn nào nói thẳng đường được đặt theo đúng vị đại uý trong đoàn khảo sát. Em ghép từ tên trùng 'đại uý Thouard', nên coi là khá chắc, chưa chắc hẳn."
-    },
-    {
-      "tieu_de": "Ba tên trong một thế kỷ",
-      "noi_dung": "Đường đổi tên hai lần: Thouard thời Pháp, Võ Tánh từ năm 1953, rồi Bùi Thị Xuân sau năm 1975. Tinbds kể thêm: trước năm 1975 khu này thuộc ấp Võ Tánh.",
-      "nguon": [
-        "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
-        "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
-      ],
-      "mot_nguon": false,
-      "ghi_chu": "Chuyện 'ấp Võ Tánh' chỉ có ở tinbds."
-    },
-    {
-      "tieu_de": "Đào đường giữa mùa Festival",
-      "noi_dung": "Đường bắt đầu được mở rộng từ tháng 7/2024. Đầu tháng 12/2024, ngay trước Festival Hoa Đà Lạt, Sài Gòn Giải Phóng thấy đường vẫn ngổn ngang. Nhiều người dân nói thời điểm đào đường làm việc buôn bán bị ảnh hưởng, nhà nhà phải xịt nước cho đỡ bụi. Tới tháng 11/2025 vẫn đang dỡ trụ điện, làm ngầm dây.",
-      "nguon": [
-        "https://www.sggp.org.vn/duong-pho-da-lat-ngon-ngang-truoc-ngay-khai-mac-festival-hoa-da-lat-2024-post771314.html",
-        "https://baolamdong.vn/thu-hoi-duong-day-tru-dien-noi-tren-tuyen-duong-bui-thi-xuan-402489.html"
-      ],
-      "mot_nguon": false
-    }
-  ],
-  "mon": [
-    {
-      "ten": "Lẩu gà lá é",
-      "ghi_chu": "Món gốc Phú Yên. Ở Đà Lạt món được nấu thanh hơn, ít cay hơn, thêm nhiều nấm. Trên đường có quán Tao Ngộ số 30.",
-      "nguon": [
-        "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/lau-ga-la-e-da-lat",
-        "https://mia.vn/cam-nang-du-lich/quan-lau-ga-la-e-tao-ngo-da-lat-16331"
-      ],
-      "mot_nguon": false
-    },
-    {
-      "ten": "Nem nướng",
-      "ghi_chu": "Quán nem nướng Bà Nghĩa ở số 45 (gần chợ và hồ Xuân Hương), thêm nem nướng Hùng Vân ở số 150.",
-      "nguon": [
-        "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/",
-        "https://www.foody.vn/lam-dong/nem-ba-nghia"
-      ],
-      "mot_nguon": false
-    },
-    {
-      "ten": "Bánh mì xíu mại",
-      "ghi_chu": "Quán BH số 79, nồi xíu mại đặt giữa bếp than, bánh mì xếp quanh. Quán dời từ Nguyễn Chí Thanh về.",
-      "nguon": [
-        "https://vinwonders.com/vi/wonderpedia/news/diem-mat-17-quan-banh-mi-da-lat/",
-        "https://mia.vn/cam-nang-du-lich/banh-mi-xiu-mai-da-lat-18910"
-      ],
-      "mot_nguon": false
-    }
-  ],
-  "ghi_chu": "1) Em không mở được trang lamdong.gov.vn, dùng bản tinbds.com. Bảng tên đường xưa ở trangdulichdalat.wordpress.com chép lại bảng didulichdalat, không tính là nguồn riêng. 2) Năm đổi tên Bùi Thị Xuân lệch: 1975 (bảng tên đường xưa) và 1976 (tinbds). 3) Năm đoàn Thouard lệch: 1897 (Wikipedia tiếng Việt) và 1898 (tài liệu EFEO). 4) tinbds ghi nhầm 'Đường An Tôn có chiều dài khoảng 1,6km' ngay trong trang Bùi Thị Xuân (chép nhầm từ đường khác), em không dùng số này. 5) Chưa có tin dự án mở rộng đường đã xong. Câu giới thiệu trong data/pho ghi 'đang được nâng cấp' là đúng tới tin 11/2025. 6) Phần món lấy lại các nguồn đã kiểm trong data/pho/bui-thi-xuan.json; em chỉ đọc lại Vietnam Airlines và VinWonders hôm nay."
+ "slug": "bui-thi-xuan",
+ "ten_cu": [
+  {
+   "ten": "Thouard",
+   "thoi_gian": "thời Pháp, tới năm 1953",
+   "ghi_chu": "Mang tên đại uý Thouard (tinbds). Cùng tên với đại uý Thouard cầm đầu đoàn khảo sát đường lên cao nguyên Lâm Viên cuối thế kỷ 19 (xem mục chuyện).",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Võ Tánh",
+   "thoi_gian": "khoảng 1953 – 1976",
+   "ghi_chu": "tinbds ghi năm 1953 đổi thành Võ Tánh, trước năm 1975 khu này thuộc ấp Võ Tánh. Bảng tên đường xưa ghi tên sau Thouard là 'Võ Tánh, Bùi Thị Xuân'.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+    "https://lamdong.gov.vn/sites/book/diachidalat/Tongluan/bai10.htm"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Bùi Thị Xuân",
+   "thoi_gian": "sau 1975 (đợt đổi tên chung năm 1976)",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+    "https://lamdong.gov.vn/sites/book/diachidalat/Tongluan/bai1.htm"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Bảng tên đường xưa chú thích 'đổi tên từ năm 1975'. tinbds ghi 'từ năm 1976 đổi là Bùi Thị Xuân'."
+  }
+ ],
+ "moc": [
+  {
+   "nam": "1897 hoặc 1898 (nguồn vênh)",
+   "su_kien": "Đại uý Thouard, người sau này được đặt tên cho con đường, cầm đầu đoàn khảo sát đường từ Nha Trang lên Lâm Viên. Sau 11 tháng ông kết luận không làm được đường thẳng Nha Trang - Lâm Viên, và vạch hướng đi từ Phan Rang.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/L%E1%BB%8Bch_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie1.pdf"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Wikipedia tiếng Việt ghi năm 1897 Paul Doumer cử đoàn Thouard. Tài liệu triển lãm của Viện Viễn Đông Bác Cổ Pháp (EFEO) ghi bản đồ lộ trình 'Mission du capitaine Thouard et du lieutenant H. Wolff, 1898'. Có thể đoàn đi từ 1897 sang 1898, nhưng em chưa thấy nguồn nói thẳng."
+  },
+  {
+   "nam": "1953",
+   "su_kien": "Đường Thouard đổi tên thành Võ Tánh.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Bảng tên đường xưa xác nhận hai tên nhưng không ghi năm 1953."
+  },
+  {
+   "nam": "1975 hoặc 1976",
+   "su_kien": "Đường Võ Tánh đổi tên thành Bùi Thị Xuân.",
+   "nguon": [
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+    "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Bảng tên đường xưa ghi 1975, tinbds ghi 1976."
+  },
+  {
+   "nam": "2023",
+   "su_kien": "Kế hoạch của thành phố: nâng cấp, mở rộng đường Bùi Thị Xuân (Phường 2 và Phường 8), dài 1.551 m, từ Trần Quốc Toản - hồ Xuân Hương tới ngã năm Đại học, vốn 110 tỷ đồng, giai đoạn 2023–2024.",
+   "nguon": [
+    "https://nguoiquansat.vn/diem-ten-6-du-an-sap-khoi-cong-tai-tp-da-lat-lam-dong-75204.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "2024",
+   "su_kien": "Dự án nâng cấp, mở rộng đường khởi công ngày 18/7/2024. Tới đầu tháng 12/2024, trước Festival Hoa, đường vẫn đang đào, việc buôn bán của người dân bị ảnh hưởng.",
+   "nguon": [
+    "https://www.sggp.org.vn/duong-pho-da-lat-ngon-ngang-truoc-ngay-khai-mac-festival-hoa-da-lat-2024-post771314.html"
+   ],
+   "mot_nguon": true
+  },
+  {
+   "nam": "2025",
+   "su_kien": "Tháng 11/2025 thu hồi trụ điện, dây điện nổi trên đường (đoạn từ trường Nguyễn Du tới hồ Xuân Hương), làm ngầm hạ tầng. Báo Lâm Đồng ghi dự án dài 1,65 km, vốn 109 tỷ đồng.",
+   "nguon": [
+    "https://baolamdong.vn/thu-hoi-duong-day-tru-dien-noi-tren-tuyen-duong-bui-thi-xuan-402489.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Số liệu dự án lệch giữa hai thời điểm: 1.551 m / 110 tỷ (kế hoạch, Người Quan Sát 3/2023) và 1,65 km / 109 tỷ (Báo Lâm Đồng 13/11/2025). Chưa thấy tin dự án đã xong."
+  }
+ ],
+ "chuyen": [
+  {
+   "tieu_de": "Con đường mang tên người tìm đường lên Đà Lạt",
+   "noi_dung": "Tên đầu tiên của đường là Thouard, tên một đại uý Pháp. Cuối thế kỷ 19, ông dẫn đoàn đi gần một năm để tìm đường từ Nha Trang lên cao nguyên Lâm Viên. Ông kết luận không thể làm đường thẳng Nha Trang lên được, và đề xuất đi từ Phan Rang. Một người trong đoàn, ông Missigbrott, ở lại trồng rau, nuôi bò, mở đầu cho trạm nông nghiệp sau này.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+    "https://vi.wikipedia.org/wiki/L%E1%BB%8Bch_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie1.pdf"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Chuyện ông Missigbrott ở lại chỉ có ở Wikipedia tiếng Việt. Chưa nguồn nào nói thẳng đường được đặt theo đúng vị đại uý trong đoàn khảo sát. Em ghép từ tên trùng 'đại uý Thouard', nên coi là khá chắc, chưa chắc hẳn."
+  },
+  {
+   "tieu_de": "Ba tên trong một thế kỷ",
+   "noi_dung": "Đường đổi tên hai lần: Thouard thời Pháp, Võ Tánh từ năm 1953, rồi Bùi Thị Xuân sau năm 1975. Tinbds kể thêm: trước năm 1975 khu này thuộc ấp Võ Tánh.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-bui-thi-xuan",
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Chuyện 'ấp Võ Tánh' chỉ có ở tinbds."
+  },
+  {
+   "tieu_de": "Đào đường giữa mùa Festival",
+   "noi_dung": "Đường bắt đầu được mở rộng từ tháng 7/2024. Đầu tháng 12/2024, ngay trước Festival Hoa Đà Lạt, Sài Gòn Giải Phóng thấy đường vẫn ngổn ngang. Nhiều người dân nói thời điểm đào đường làm việc buôn bán bị ảnh hưởng, nhà nhà phải xịt nước cho đỡ bụi. Tới tháng 11/2025 vẫn đang dỡ trụ điện, làm ngầm dây.",
+   "nguon": [
+    "https://www.sggp.org.vn/duong-pho-da-lat-ngon-ngang-truoc-ngay-khai-mac-festival-hoa-da-lat-2024-post771314.html",
+    "https://baolamdong.vn/thu-hoi-duong-day-tru-dien-noi-tren-tuyen-duong-bui-thi-xuan-402489.html"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "mon": [
+  {
+   "ten": "Lẩu gà lá é",
+   "ghi_chu": "Món gốc Phú Yên. Ở Đà Lạt món được nấu thanh hơn, ít cay hơn, thêm nhiều nấm. Trên đường có quán Tao Ngộ số 30.",
+   "nguon": [
+    "https://www.vietnamairlines.com/vn/vi/useful-information/travel-guide/lau-ga-la-e-da-lat",
+    "https://mia.vn/cam-nang-du-lich/quan-lau-ga-la-e-tao-ngo-da-lat-16331"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Nem nướng",
+   "ghi_chu": "Quán nem nướng Bà Nghĩa ở số 45 (gần chợ và hồ Xuân Hương), thêm nem nướng Hùng Vân ở số 150.",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/an-gi-o-da-lat/",
+    "https://www.foody.vn/lam-dong/nem-ba-nghia"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Bánh mì xíu mại",
+   "ghi_chu": "Quán BH số 79, nồi xíu mại đặt giữa bếp than, bánh mì xếp quanh. Quán dời từ Nguyễn Chí Thanh về.",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/diem-mat-17-quan-banh-mi-da-lat/",
+    "https://mia.vn/cam-nang-du-lich/banh-mi-xiu-mai-da-lat-18910"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ghi_chu": "1) Em không mở được trang lamdong.gov.vn, dùng bản tinbds.com. Bảng tên đường xưa ở trangdulichdalat.wordpress.com chép lại bảng didulichdalat, không tính là nguồn riêng. 2) Năm đổi tên Bùi Thị Xuân lệch: 1975 (bảng tên đường xưa) và 1976 (tinbds). 3) Năm đoàn Thouard lệch: 1897 (Wikipedia tiếng Việt) và 1898 (tài liệu EFEO). 4) tinbds ghi nhầm 'Đường An Tôn có chiều dài khoảng 1,6km' ngay trong trang Bùi Thị Xuân (chép nhầm từ đường khác), em không dùng số này. 5) Chưa có tin dự án mở rộng đường đã xong. Câu giới thiệu trong data/pho ghi 'đang được nâng cấp' là đúng tới tin 11/2025. 6) Phần món lấy lại các nguồn đã kiểm trong data/pho/bui-thi-xuan.json; em chỉ đọc lại Vietnam Airlines và VinWonders hôm nay."
 }

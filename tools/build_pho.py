@@ -120,7 +120,7 @@ def main(game):
                         out.append({'link': REPO_URL + f2, 'trang': 'Nghị quyết 1671/NQ-UBTVQH15' if 'nq1671' in f2 else 'Ranh giới mới (phuong.json)'})
                 return out
             o['chuyen'] = {
-                'ten_cu': [{'ten': t['ten'], 'thoi_gian': t.get('thoi_gian', ''), 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', len(t.get('nguon', [])) < 2), 'muc': muc_nguon(lk(t))} for t in c.get('ten_cu', [])],
+                'ten_cu': [{'ten': t['ten'], 'thoi_gian': t.get('thoi_gian', ''), 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', len(t.get('nguon', [])) < 2), 'muc': muc_nguon(lk(t)), 'chua_chac': t.get('chua_chac', False)} for t in c.get('ten_cu', [])],
                 'moc': [{'nam': m['nam'], 'su_kien': m['su_kien'], 'nguon': lk(m), 'mot_nguon': m.get('mot_nguon', False), 'muc': muc_nguon(lk(m))} for m in c.get('moc', [])],
                 'chuyen': [{'tieu_de': t['tieu_de'], 'noi_dung': t['noi_dung'], 'nguon': lk(t), 'mot_nguon': t.get('mot_nguon', False), 'muc': muc_nguon(lk(t))} for t in c.get('chuyen', [])],
             }

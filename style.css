@@ -316,3 +316,20 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .bd-list .moc-hinh.bt .bt-hinh { width: 44px; height: 44px; }
 .chip-ten.dang-mo { background: #f3dfae; border-color: #c9a45a; }
 .ten-ct { display: grid; gap: 2px; margin: -4px 0 10px; padding: 8px 10px; border-radius: 10px; background: #fff6e3; border: 1px solid #e6d3a8; font-size: .9rem; }
+
+/* Nay ↔ 1963: tên đường Đà Lạt năm 1963 (bản đồ AMS L909) */
+.nam { position: fixed; left: 50%; transform: translateX(-50%); top: calc(env(safe-area-inset-top, 0px) + 118px); z-index: 4;
+  display: flex; padding: 3px; gap: 2px; background: var(--card); border: 2px solid var(--edge); border-radius: 999px; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+.nam button { font: inherit; font-weight: 700; font-size: .9rem; color: var(--ink); background: none; border: 0; border-radius: 999px; padding: 6px 16px; cursor: pointer; }
+.nam button[aria-pressed="true"] { color: #fffaf0; background: #8a5a2b; }
+.nam-note { position: fixed; left: 50%; transform: translateX(-50%); top: calc(env(safe-area-inset-top, 0px) + 166px); z-index: 4; margin: 0;
+  width: max-content; max-width: calc(100vw - 150px); text-align: center; font-size: .75rem; line-height: 1.4; color: var(--ink);
+  padding: 4px 10px; background: color-mix(in srgb, var(--card) 92%, transparent); border: 1.5px solid var(--edge); border-radius: 8px; }
+.nam-note a { color: #8a5a2b; font-weight: 600; }
+.duong-1963 { display: none; }
+.duong-1963 path { fill: none; stroke: #c0803f; stroke-opacity: .45; stroke-width: 6; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
+#svg.y1963 .duong-1963 { display: inline; }
+#svg.y1963 #pins { display: none; }
+#svg.y1963 .road-fill .r1, #svg.y1963 .road-fill .r2 { stroke: #efe2c4; }
+.lbl.road-name.ten-1963 { fill: #6b3d12; font-weight: 700; }
+.lbl.diem-1963 { fill: #6b3d12; font-weight: 700; text-anchor: start; }

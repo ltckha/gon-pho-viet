@@ -107,8 +107,8 @@
     // Đà Lạt 1963: vẽ lại hoàn toàn từ bản đồ AMS L909 Đà Lạt 1:12.500 (tools/dung_1963.py) — không hiện gì của hiện tại
     'da-lat-1963': {
       kind: 'duong', y1963: true, file: 'data/lam-dong/da-lat/1963.json', prec: 5,
-      crumb: [['Việt Nam', ''], ['Lâm Đồng', 'lam-dong'], ['Đà Lạt', 'da-lat'], ['1963', 'da-lat-1963']],
-      sang: ['Về Đà Lạt hôm nay', 'da-lat'],
+      crumb: [['Đà Lạt', 'da-lat'], ['Năm 1963', 'da-lat-1963']],
+      sang: ['Hôm nay', 'da-lat'],
       legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['nha63', 'Khu nhà'], ['rung63', 'Rừng'], ['water', 'Hồ']],
       card: function () { return ''; }
     }
@@ -434,6 +434,7 @@
     pins = []; pinsRoot.textContent = '';
     bounds = { minX: px(k[0]), maxX: px(k[2]), minY: py(k[3]), maxY: py(k[1]) };
     fitAll();
+    zoomTo({ minX: px(108.432), maxX: px(108.45), minY: py(11.957), maxY: py(11.927) });   // mở vào trung tâm quanh Hồ Xuân Hương
   }
   // tìm tên đường: gõ tên năm 1963 hoặc tên nay → chạy tới, tô sáng đúng các đoạn
   function boDau(s) { return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase(); }
@@ -1279,10 +1280,16 @@
 
   /* ---------- đường dẫn tầng, chú thích ---------- */
   function veLegend(list) {
-    document.getElementById('legend').innerHTML = list.map(function (l) {
+    var lg = document.getElementById('legend');
+    lg.classList.toggle('gap', !!(layer && layer.y1963));    // Đà Lạt 1963: chú thích gập lại thành một nút nhỏ
+    lg.classList.remove('mo');
+    if (layer && layer.y1963) lg.removeAttribute('aria-hidden'); else lg.setAttribute('aria-hidden', 'true');
+    lg.innerHTML = (layer && layer.y1963 ? '<button type="button" class="lg-nut" aria-label="Chú thích">Chú thích</button>' : '') + list.map(function (l) {
       var sw = l[0] === 'star' ? '<i class="star">★</i>' : l[0] === 'pin' ? '<i class="star pin-ico">⬤</i>' : '<i class="sw ' + l[0] + '"></i>';
       return '<span>' + sw + esc(l[1]) + '</span>';
     }).join('');
+    var nut = lg.querySelector('.lg-nut');
+    if (nut) nut.addEventListener('click', function () { lg.classList.toggle('mo'); });
   }
   function renderChrome() {
     var c = document.getElementById('crumb');
@@ -1338,7 +1345,7 @@
       data = d; layer = L; layerId = id;
       document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam' || id === 'lam-dong');
       document.getElementById('map').classList.toggle('tang-tinh', id === 'lam-dong');   // tầng cả nước: nét bản đồ game Gọn Phố
-      document.querySelector('.osm-credit').hidden = L.kind !== 'duong';   // chỉ tầng đường dùng dữ liệu OpenStreetMap
+      document.querySelector('.osm-credit').hidden = L.kind !== 'duong' || !!L.y1963;   // 1963 vẽ từ bản đồ cũ; nguồn ghi ở "Nguồn dữ liệu"   // chỉ tầng đường dùng dữ liệu OpenStreetMap
       renderChrome();
       draw();
       loading.hidden = true;

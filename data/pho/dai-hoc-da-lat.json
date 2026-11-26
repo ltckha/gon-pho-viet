@@ -1,0 +1,174 @@
+{
+ "road": "Phù Đổng Thiên Vương",
+ "duong": [
+  "Phù Đổng Thiên Vương",
+  "Võ Trường Toản"
+ ],
+ "ten_osm": [
+  "Phù Đổng Thiên Vương",
+  "Võ Trường Toản",
+  "Đinh Tiên Hoàng"
+ ],
+ "ward": "Lâm Viên - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020 (sửa bởi QĐ 16/2021) trên thuviennhadat ghi 'Phù Đổng Thiên Vương - Phường 8' (đoạn từ Ngã năm Đại học đến đầu đường Nguyễn Hữu Cảnh, và đoạn còn lại). NQ 1671 mục 101: Phường 8, Phường 9 và Phường 12 → Lâm Viên - Đà Lạt. Nominatim (OSM) ghi trường ở '1, Phù Đổng Thiên Vương, ... Phường Lâm Viên - Đà Lạt'; Wikipedia ghi địa chỉ 'Số 1, Phù Đổng Thiên Vương, Phường Lâm Viên'. Em kiểm bằng ranh phuong.json: tâm khuôn viên, thư viện, nhà A1, A31, cổng trước, Hồ Đại Học và Ngã năm Đại học đều nằm trong Lâm Viên - Đà Lạt (phường Xuân Hương - Đà Lạt bắt đầu ngay phía nam, chỗ Vườn hoa thành phố).",
+ "doan": [
+  {
+   "doan": "Phù Đổng Thiên Vương: Ngã năm Đại học → đầu đường Nguyễn Hữu Cảnh (đoạn có cổng trường, số 1)",
+   "phuong_cu": "Phường 8",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/phu-dong-thien-vuong-phuong-8"
+  },
+  {
+   "doan": "Khuôn viên Trường Đại học Đà Lạt (OSM way/969458761)",
+   "phuong_cu": "Phường 8",
+   "phuong_moi": "Lâm Viên - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://www.openstreetmap.org/way/969458761",
+   "ghi_chu": "Nominatim 26/11/2026 ghi Phường Lâm Viên - Đà Lạt; ranh phuong.json cũng vậy."
+  }
+ ],
+ "ten_pho": "Đại học Đà Lạt",
+ "gioi_thieu": "Trường Đại học Đà Lạt: khuôn viên khoảng 38 ha trên đồi thông ở số 1 Phù Đổng Thiên Vương, cách Chợ Đà Lạt khoảng 1,7 km đường chim bay; năm 1939 là Trường Thiếu sinh quân Âu – Á của Pháp, năm 1957 thành Viện Đại học Đà Lạt (khóa đầu 1958), từ ngày 27/10/1976 là Trường Đại học Đà Lạt.",
+ "dia_diem": [
+  {
+   "ten": "Trường Đại học Đà Lạt",
+   "loai": "trường đại học, khuôn viên đồi thông",
+   "dac_trung": "Khuôn viên khoảng 38 ha với khoảng 40 công trình rải dọc các đường nhỏ trong rừng thông (Wikipedia dẫn sách 'Đường phố Đà Lạt' của Nguyễn Tiến Quỳnh; Thanh Niên 2024; Đỗ Hữu Nghiêm ghi khu đồi A 'chừng 38-40 ha'). Thập niên 1920 là trại lính, năm 1939 thành Trường Thiếu sinh quân Hỗn hợp Âu – Á (Thanh Niên 2024, Wikipedia). Viện Đại học Đà Lạt có giấy phép Nghị định 67/BNV/NA/P5 ngày 8/8/1957, khai giảng niên khóa 1958–1959; Quyết định 426 ngày 27/10/1976 lập Trường Đại học Đà Lạt trên cơ sở kế thừa khuôn viên và cơ sở vật chất của Viện (SGGP 2023, Báo Lâm Đồng 2026).",
+   "dia_chi": "1 Phù Đổng Thiên Vương, phường Lâm Viên - Đà Lạt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "1",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+    "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
+    "https://baolamdong.vn/truong-dai-hoc-da-lat-dot-pha-tu-duy-doi-moi-chat-luong-day-va-hoc-471080.html",
+    "http://vietcatholicnews.org/News/Html/55503.htm",
+    "https://www.openstreetmap.org/way/969458761"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đang là trường học. Giờ cho khách vào tham quan: chưa có nguồn.",
+   "ghi_chu": "Diện tích lệch: 38 ha (Wikipedia tiếng Việt, Thanh Niên, dulich24), 38–40 ha (Đỗ Hữu Nghiêm), 'gần 30 ha' (dulich24 phần mở đầu), Wikipedia tiếng Anh ghi cả 1,7 ha lẫn 40 ha → câu giới thiệu dùng 'khoảng 38 ha'. Ý 'thập niên 1920 là trại lính' chỉ Thanh Niên ghi. Tâm khuôn viên cách Chợ Đà Lạt khoảng 1,66 km, cách Ngã năm Đại học khoảng 370 m (chim bay, theo OSM).",
+   "vi_tri": {
+    "lon": 108.4453785,
+    "lat": 11.9560857,
+    "nguon": "OSM way/969458761 (amenity=university, name 'Trường Đại học Đà Lạt', addr 1 Phù Đổng Thiên Vương; tâm do Nominatim tính, 26/11/2026)"
+   }
+  },
+  {
+   "ten": "Nguyện đường Năng Tĩnh và tháp chuông (tháp Sao)",
+   "loai": "nhà nguyện cũ của Viện Đại học, nay là giảng đường",
+   "dac_trung": "Trước kia là nguyện đường Năng Tĩnh của Viện Đại học Đà Lạt, nay là khu giảng đường; tháp chuông là nét đặc trưng của khuôn viên (Tia Sáng 2019). Tháp xây theo khối tam giác, cao 38 m, các dãy nhà xếp hình quạt hướng về chân tháp (blog kiến trúc sư Trần Công Hòa). Thanh Niên 2024 gọi 'Tháp Sao cao 38 m là biểu tượng của trường'; blog Mực Tím Sơn Đen kể thánh giá trên tháp chuông nay đổi thành ngôi sao.",
+   "dia_chi": "trong khuôn viên Trường Đại học Đà Lạt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "",
+   "nguon": [
+    "https://tiasang.com.vn/truong-dai-hoc-da-lat-tham-lang-va-chuyen-tam-4973692.html",
+    "http://dalatarchi-tranconghoakts.blogspot.com/2014/10/dalatarchi-vien-ai-hoc-lat.html",
+    "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+    "https://www.muctimsonden.com/2024/01/vien-ai-hoc-lat-xua.html",
+    "https://dulich24.com.vn/du-lich-thanh-pho-da-lat/truong-dai-hoc-da-lat-id-4569"
+   ],
+   "do_tin_cay": "khá",
+   "con_mo": "đang dùng làm giảng đường (Tia Sáng 2019).",
+   "ghi_chu": "Năm xây chưa rõ: Đỗ Hữu Nghiêm chỉ ghi Hội Việt Nam Viện trợ Giáo dục Cao đẳng tài trợ 'xây dựng nhà hội để cử hành lễ nghi tôn giáo (1958-61)', không gọi tên Năng Tĩnh → không ghi năm. 'Tháp Sao' = tháp chuông Năng Tĩnh: em nối từ hai ý (cùng cao 38 m; thánh giá đổi thành sao), chưa có nguồn nói thẳng → độ tin 'khá'. Trang Giáo phận Đà Lạt (giaophandalat.com) có câu giống blog Trần Công Hòa ('tháp chuông hình tam giác cao 38m') nhưng em chỉ thấy qua đoạn trích tìm kiếm (trang báo 403). dulich24 ghi tháp Sao ở nhà A25 (OSM way/543357227) — chỉ 1 nguồn nên KHÔNG lấy toạ độ A25 làm vị trí."
+  },
+  {
+   "ten": "Các giảng đường mang tên chữ trong sách Nho (Thụ Nhân, Minh Thành, Tri Nhất, Thượng Chí, Đôn Hóa…)",
+   "loai": "giảng đường, đại học xá",
+   "dac_trung": "Các tòa nhà của Viện Đại học được đặt tên Thụ Nhân, Hội Hữu, Minh Thành, Tri Nhất, Thượng Chí, Đôn Hóa — lấy ý giáo dục trong Tứ thư Ngũ kinh (Wikipedia, dẫn Nguyễn Tiến Quỳnh). Thanh Niên 2024 kể giảng đường và đại học xá đặt tên theo Tứ thư Ngũ kinh như Thượng Chí, Minh Thành, Kiêm Ái, Lạc Thiện. 'Thụ nhân' nay là một phần khẩu hiệu của trường (Thụ nhân – Khai phóng – Bản sắc).",
+   "dia_chi": "trong khuôn viên Trường Đại học Đà Lạt",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+    "https://dulich24.com.vn/du-lich-thanh-pho-da-lat/truong-dai-hoc-da-lat-id-4569",
+    "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "đang dùng (giảng đường, văn phòng).",
+   "ghi_chu": "Wikipedia trang 'Viện Đại học Đà Lạt' nói tên lấy từ sách Trung Dung; trang 'Trường Đại học Đà Lạt' nói Tứ thư Ngũ kinh (Trung Dung là một trong Tứ thư, không mâu thuẫn). Trên OSM các nhà chỉ ghi số (A1…A32), không ghi tên chữ → không gắn được toạ độ cho từng tên. Khẩu hiệu: Tuổi Trẻ 2023 (tên bài), Thanh Niên 2024."
+  },
+  {
+   "ten": "Thư viện (Trung tâm Thông tin – Thư viện)",
+   "loai": "thư viện đại học",
+   "dac_trung": "Thư viện có từ thời Viện Đại học: Hội Việt Nam Viện trợ Giáo dục Cao đẳng tài trợ xây thư viện cùng phòng thí nghiệm, giảng đường trong khuôn viên (1958–1961, Đỗ Hữu Nghiêm). Năm 1970 thư viện Viện rộng 400 m², phòng đọc 108 chỗ, khoảng 20 ngàn cuốn sách; giáo sư Đỗ Long Vân làm quản thủ 1963–1965 (Nguyễn Vĩnh Nguyên, Doanh nhân Plus 2023). Nay là Trung tâm Thông tin – Thư viện; báo cáo năm học 2014–2015 ghi diện tích thư viện 8.400 m² (Wikipedia dẫn báo cáo công khai của trường).",
+   "dia_chi": "trong khuôn viên, phía đường Võ Trường Toản (theo OSM)",
+   "duong": "Võ Trường Toản",
+   "so_nha": "",
+   "nguon": [
+    "http://vietcatholicnews.org/News/Html/55503.htm",
+    "https://doanhnhanplus.vn/thanh-pho-thu-vien-625391.html",
+    "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.openstreetmap.org/way/542490161",
+    "https://dulich24.com.vn/du-lich-thanh-pho-da-lat/truong-dai-hoc-da-lat-id-4569"
+   ],
+   "do_tin_cay": "khá",
+   "con_mo": "đang hoạt động (thư viện của trường).",
+   "ghi_chu": "Chưa rõ tòa thư viện hiện nay có phải tòa thời Viện Đại học hay không: dulich24 kể thư viện cũ chật hẹp, thư viện mới làm ở cổng sau (1 nguồn, không ghi năm). Vì vậy độ tin 'khá' và không ghi năm xây cho tòa nhà hiện tại. Số liệu 1970 chỉ có ở bài Nguyễn Vĩnh Nguyên.",
+   "vi_tri": {
+    "lon": 108.4449192,
+    "lat": 11.9571918,
+    "nguon": "OSM way/542490161 (amenity=library, name 'Trung tâm Thông tin - Thư viện', 4 tầng; tâm do Nominatim tính, 26/11/2026)"
+   }
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Hồ Đại Học (hồ trong/sát khuôn viên)",
+   "duong": "Võ Trường Toản",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/99660981"
+   ],
+   "ly_do": "chỉ OSM ghi tên; chưa thấy báo/sách nào nói về hồ này."
+  },
+  {
+   "ten": "Nhà A1 – khu văn phòng 'xây cách đây gần 50 năm'",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "",
+   "nguon": [
+    "https://dulich24.com.vn/du-lich-thanh-pho-da-lat/truong-dai-hoc-da-lat-id-4569"
+   ],
+   "ly_do": "1 nguồn, không ghi năm bài viết nên 'gần 50 năm' không đổi ra năm được."
+  },
+  {
+   "ten": "Đồ án mở rộng Viện Đại học do KTS Ngô Viết Thụ (KTS Nguyễn Mỹ Lộc phụ tá)",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "http://dalatarchi-tranconghoakts.blogspot.com/2014/10/dalatarchi-vien-ai-hoc-lat.html"
+   ],
+   "ly_do": "chỉ blog Trần Công Hòa; blog tự ghi phần Nguyễn Mỹ Lộc chưa đối chiếu rõ. Wikipedia về Ngô Viết Thụ chỉ nhắc Trung tâm Nguyên tử Đà Lạt (nơi khác)."
+  },
+  {
+   "ten": "Sân khấu ngoài trời",
+   "duong": "Phù Đổng Thiên Vương",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1460217465"
+   ],
+   "ly_do": "chỉ OSM, không có lịch sử."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/phu-dong-thien-vuong-phuong-8",
+  "data/lam-dong/nq1671.json (mục 101: Phường 8, 9, 12 → Lâm Viên - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json (tên đường: Phù Đổng Thiên Vương, Võ Trường Toản, Đinh Tiên Hoàng)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.438,11.950,108.452,11.963 (tải 26/11/2026)",
+  "https://nominatim.openstreetmap.org (lookup W969458761, W542490161, W543357227 — 26/11/2026)",
+  "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+  "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+  "https://en.wikipedia.org/wiki/Dalat_University",
+  "http://vietcatholicnews.org/News/Html/55503.htm",
+  "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+  "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
+  "https://baolamdong.vn/truong-dai-hoc-da-lat-dot-pha-tu-duy-doi-moi-chat-luong-day-va-hoc-471080.html",
+  "https://tiasang.com.vn/truong-dai-hoc-da-lat-tham-lang-va-chuyen-tam-4973692.html"
+ ],
+ "cap_nhat": "2026-11-26"
+}

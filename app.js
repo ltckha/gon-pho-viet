@@ -753,6 +753,19 @@
     [/chè|trà/i, '🍵'], [/cà phê|cafe|café|coffee/i, '☕'], [/kem|chè|bánh ngọt|tiệm bánh|dâu/i, '🍨'],
     [/lẩu|nướng|nem|gà|bò|ốc|dê|cá|cơm|phở|bún|mì|hủ tiếu|bánh căn|bánh mì|bánh ướt|bánh bèo|bánh tráng|xíu mại|cháo|ăn/i, '🍲'],
     [/bar|bia|rượu|vang/i, '🍷'], [/áo len|đặc sản|thổ cẩm|nhà sách|thuốc|thuê xe/i, '🛍️'], [/golf|quảng trường|công viên|bảo tàng|cáp treo|tuabin|điện gió|khu du lịch|vui chơi|cắm trại|leo núi/i, '🎟️']];
+  // Hình Spark đợt 45 cho món, đặc sản, nghề (assets/bt/): khớp từ khoá cụ thể trước, không khớp thì dùng biểu tượng cũ
+  var BT_HINH = [[/bánh căn/i, 'banh_can'], [/bánh mì|xíu mại/i, 'banh_mi_xiu_mai'], [/bánh tráng/i, 'banh_trang_nuong'],
+    [/lẩu gà|lá é/i, 'lau_ga_la_e'], [/lẩu/i, 'lau_bo'], [/nem/i, 'nem_nuong'], [/gà nướng|cơm lam/i, 'ga_nuong_com_lam'],
+    [/ốc/i, 'oc_nhoi'], [/kem/i, 'kem_bo'], [/sữa đậu nành|bánh bò/i, 'sua_dau_nanh'], [/trà|đồi chè|chè cầu đất/i, 'tra'], [/chè/i, 'che'],
+    [/phở|bún|mì|hủ tiếu|bánh canh|cháo|bánh ướt|bánh bèo|cơm|quán ăn/i, 'bun_pho'], [/cà phê|cafe|café|coffee|xưởng rang/i, 'ca_phe'],
+    [/dâu/i, 'dau_tay'], [/atiso|atisô/i, 'atiso'], [/mứt|đặc sản|ăn vặt|bánh ngọt|tiệm bánh/i, 'mut_dac_san'],
+    [/vang|rượu/i, 'ruou_vang'], [/áo len|thổ cẩm/i, 'ao_len'], [/hoa|nhà kính/i, 'hoa'],
+    [/khách sạn|hostel|homestay|biệt thự|nghỉ dưỡng|ngủ lại/i, 'khach_san'], [/bar|cocktail/i, 'bar'], [/đạp vịt|xe đạp/i, 'xe_dap_doi'],
+    [/chợ|siêu thị|sạp/i, 'cho']];
+  function hinhMon(t) {
+    for (var i = 0; i < BT_HINH.length; i++) if (BT_HINH[i][0].test(t)) return '<img class="bt-hinh" src="assets/bt/bt_' + BT_HINH[i][1] + '.webp" alt="">';
+    return bieuTuong(t);
+  }
   function bieuTuong(t) { for (var i = 0; i < BT.length; i++) if (BT[i][0].test(t)) return BT[i][1]; return '•'; }
   // Anh Kha 26/11: tạm bỏ bản đồ minh hoạ trong trang phố để xem thử; đổi thành true là hiện lại
   var BAN_DO_PHO = false;
@@ -788,7 +801,7 @@
     if (ph.ban_gi) {
       h += '<div class="o-bt mon">' + ph.ban_gi.replace(/\.$/, '').split(/[;,]\s*|\s+và\s+/).map(function (x) {
         x = x.replace(/^(dọc phố có|dọc đường là|dọc đường có|quanh đó có|quanh ga có|quanh đó|gần đó|thêm|sáng có|buổi sáng|tối có|chiều tối|ban ngày là|tối thành|đầu dốc gần hồ có|rẽ sang Trương Công Định là|đi dạo quanh hồ|ven hồ có)\s*/i, '').trim();
-        return x ? '<span>' + bieuTuong(x) + ' ' + esc(x.charAt(0).toUpperCase() + x.slice(1)) + '</span>' : '';
+        return x ? '<span>' + hinhMon(x) + ' ' + esc(x.charAt(0).toUpperCase() + x.slice(1)) + '</span>' : '';
       }).join('') + '</div>';
     }
     if (moc.length) {

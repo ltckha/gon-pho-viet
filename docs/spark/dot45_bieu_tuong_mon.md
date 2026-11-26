@@ -1,3 +1,5 @@
+# ĐÃ GHÉP 26/11/2026
+
 # Spark đợt 45 (đánh số chung với game): biểu tượng món, đặc sản, nghề cho ô "Nay có gì" (26/11/2026)
 
 Thay các biểu tượng cảm xúc (🍲 ☕ 🛍️…) trong ô "Nay có gì", "Ở đây bán gì" bằng hình Spark cùng nét game (anh Kha dặn ít chữ, nhiều hình).

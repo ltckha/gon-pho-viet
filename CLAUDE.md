@@ -10,7 +10,7 @@ Người dùng: anh Kha. Lộ trình (Artifact): https://claude.ai/artifact/U8sJ
 - Số liệu phải thật, có nguồn; không biết thì nói không biết.
 - Tự kiểm trước khi báo xong (`tools/kiem_thu.js`), báo đúng sự thật kể cả khi sai.
 - Không đưa khoá, mật khẩu, token vào kho. Đưa lên mạng: Cloudflare Pages, tài khoản "Gọn" (anh tự đăng nhập).
-- Nhờ Spark (Gemini) vẽ: soạn 1 khối để anh dán theo mẫu của game: "Vẽ tiếp đợt N… nét vẽ y hệt <đợt trước>" · quy cách (cỡ, nền, không chữ) · danh sách đánh số `tên_file: mô tả` · dòng cuối "Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dotN_<tên>/, đúng tên file trên (.png)." (Spark tự lưu được; không bắt Spark mở Drive xem mẫu). Số đợt đánh chung với game. **Anh báo "xong N" là tự làm luôn, không hỏi lại**: tìm thư mục `dotN_*` trong Drive `Spark/Inbox/Game_ve_thu/`, bật link xem cho thư mục (anh cho để mở), lấy danh sách file qua `drive.google.com/embeddedfolderview?id=<thư mục>`, tải bằng `drive.usercontent.google.com/download?id=<file>&export=download`, soát hình, thu nhỏ webp, ghép, kiểm thử, đăng bản xem thử.
+- Nhờ Spark (Gemini) vẽ: soạn 1 khối để anh dán theo mẫu của game: "Vẽ tiếp đợt N… nét vẽ y hệt <đợt trước>" · quy cách (cỡ, nền, không chữ) · danh sách đánh số `tên_file: mô tả` · dòng cuối "Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dotN_<tên>/, đúng tên file trên (.png)." (Spark tự lưu được; không bắt Spark mở Drive xem mẫu). Số đợt đánh chung với game. **Anh báo "xong N" là tự làm luôn, không hỏi lại**: `python3 -I tools/lay_spark.py N <thư mục tạm>` (thư mục mẹ `Game_ve_thu` đã mở link xem từ 26/11 nên KHÔNG cần gọi công cụ chia sẻ Drive nữa — anh không muốn bấm cho phép mỗi đợt), soát hình, thu nhỏ webp, ghép, kiểm thử, đăng bản xem thử.
 - Kho game `ltckha/giang-ho-ai` chỉ đọc, không sửa. Thấy game ghi sai thì báo anh để phiên game sửa.
 - Tên brand viết đầy đủ. Không dùng chữ "ASMR".
 
@@ -63,6 +63,7 @@ python3 tools/lich_trinh.py /tmp/osm
 - Tầng tỉnh tô mỗi xã/phường một màu pastel (trường `mau`, `tools/to_mau.py`), anh Kha chê "cùng một màu xanh đậm nhạt khó nhìn". Đà Lạt nổi bằng viền xanh đậm, không bằng màu.
 - **Bản đồ minh hoạ trong trang phố đang TẠM TẮT** (anh Kha 26/11 muốn xem thử không có): công tắc `BAN_DO_PHO = false` trong `app.js`; bật lại là hiện như cũ, code và tranh nền vẫn giữ.
 - Hình mốc vẽ trong tranh nền Đà Lạt (chợ, nhà thờ, ga…) giữ cỡ ~80 điểm (~200 m). Từng để 140–160 điểm → hình đè lên chính các đường quanh mốc, anh Kha thấy dốc Nguyễn Chí Thanh "không ăn khớp".
+- Ô "Nay có gì" dùng hình món Spark đợt 45 (`assets/bt/bt_*.webp`, hàm `hinhMon()` khớp từ khoá, cụ thể trước chung sau); chữ chưa có hình thì về biểu tượng cũ (`bieuTuong()`).
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
 ## Anh Kha đã chốt hướng mới (sau đánh giá khả thi `docs/danh_gia_kha_thi.md`, nhánh `claude/danh-gia-kha-thi`)

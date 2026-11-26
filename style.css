@@ -332,18 +332,38 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .giay63 { fill: #f4efe2; }
 .rung63 path { fill: #cfe3b5; }
 .nuoc63 path { fill: #a9d3e3; stroke: #6fa9c0; }
-.nha63 path { fill: #9b7a58; }
-.duong63.road-casing .r1, .duong63.road-casing .r2 { stroke: #7a5230; stroke-width: 7; }
-.duong63.road-casing .r3 { stroke: #7a5230; stroke-width: 5; }
-.duong63.road-casing .r4 { stroke: #8f6d4a; stroke-width: 3.6; }
-.duong63.road-fill .r1, .duong63.road-fill .r2 { stroke: #f2d59a; stroke-width: 4.5; }
-.duong63.road-fill .r3 { stroke: #fbf3df; stroke-width: 3; }
-.duong63.road-fill .r4 { stroke: #fbf3df; stroke-width: 1.6; stroke-dasharray: none; }
+.nha63g path { fill: #9b7a58; }
+/* nét đường theo mức phóng: xa (0) chỉ đường lớn mảnh, vừa (1) thêm đường nhỏ, gần (2) đủ, có nhà */
+.khu63 path { fill: #e7d9bf; }
+.nha63g { display: none; }
+#svg.y63[data-zm="2"] .nha63g { display: inline; }
+#svg.y63[data-zm="2"] .khu63 path { fill: #ece2cc; }
+.duong63.road-casing .r1, .duong63.road-casing .r2 { stroke: #7a5230; stroke-width: 3.6; }
+.duong63.road-casing .r3 { stroke: #8f6d4a; stroke-width: 2.4; }
+.duong63.road-casing .r4 { stroke: #a88a66; stroke-width: 1.2; }
+.duong63.road-fill .r1, .duong63.road-fill .r2 { stroke: #f2d59a; stroke-width: 2; }
+.duong63.road-fill .r3 { stroke: #fbf3df; stroke-width: 1; }
+.duong63.road-fill .r4 { display: none; }
+.dat63 path { fill: none; stroke: #a88a66; stroke-width: 1; stroke-dasharray: 4 3; vector-effect: non-scaling-stroke; }
+#svg.y63[data-zm="0"] .duong63 .r4, #svg.y63[data-zm="0"] .dat63, #svg.y63[data-zm="0"] .duong63.road-fill .r3 { display: none; }
+#svg.y63[data-zm="0"] .duong63.road-casing .r3 { stroke: #b39a7c; stroke-width: 1; }
+#svg.y63[data-zm="1"] .duong63.road-casing .r1, #svg.y63[data-zm="1"] .duong63.road-casing .r2 { stroke-width: 5.5; }
+#svg.y63[data-zm="1"] .duong63.road-fill .r1, #svg.y63[data-zm="1"] .duong63.road-fill .r2 { stroke-width: 3.5; }
+#svg.y63[data-zm="1"] .duong63.road-casing .r3 { stroke-width: 4; }
+#svg.y63[data-zm="1"] .duong63.road-fill .r3 { stroke-width: 2.2; }
+#svg.y63[data-zm="2"] .duong63.road-casing .r1, #svg.y63[data-zm="2"] .duong63.road-casing .r2 { stroke-width: 8; }
+#svg.y63[data-zm="2"] .duong63.road-fill .r1, #svg.y63[data-zm="2"] .duong63.road-fill .r2 { stroke-width: 5.5; }
+#svg.y63[data-zm="2"] .duong63.road-casing .r3 { stroke-width: 6; }
+#svg.y63[data-zm="2"] .duong63.road-fill .r3 { stroke-width: 3.6; }
+#svg.y63[data-zm="2"] .duong63.road-casing .r4 { stroke: #7a5230; stroke-width: 4; }
+#svg.y63[data-zm="2"] .duong63.road-fill .r4 { display: inline; stroke: #fbf3df; stroke-width: 2; }
+#svg.y63[data-zm="2"] .dat63 path { stroke: #7a5230; stroke-width: 1.6; stroke-dasharray: 6 4; }
 .hl63 path { fill: none; stroke: #e0662f; stroke-opacity: .75; stroke-width: 9; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
 .lbl.road-name.ten-1963 { fill: #5a3410; font-weight: 700; }
 .lbl.diem-1963 { fill: #5a3410; font-weight: 700; text-anchor: start; }
 .lbl.ap63 { fill: #6b5a43; font-weight: 600; letter-spacing: .12em; text-anchor: middle; font-style: italic; }
 .sw.road63 { background: #f2d59a; border-color: #7a5230; border-width: 2px; }
-.sw.nha63 { background: #9b7a58; border-color: #9b7a58; }
+.sw.nha63 { background: #d9c39b; border-color: #a88a66; }
+.sw.dat63 { background: repeating-linear-gradient(90deg, #7a5230 0 4px, transparent 4px 7px); height: 3px; border: 0; }
 .sw.rung63 { background: #cfe3b5; border-color: #9bbf86; }
 .lbl.rung63-ten { fill: #4f7a3a; font-style: italic; font-weight: 600; }

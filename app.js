@@ -109,7 +109,7 @@
       kind: 'duong', y1963: true, file: 'data/lam-dong/da-lat/1963.json', prec: 5,
       crumb: [['Việt Nam', ''], ['Lâm Đồng', 'lam-dong'], ['Đà Lạt', 'da-lat'], ['1963', 'da-lat-1963']],
       sang: ['Về Đà Lạt hôm nay', 'da-lat'],
-      legend: [['road63', 'Đường năm 1963'], ['nha63', 'Nhà'], ['rung63', 'Rừng'], ['water', 'Hồ']],
+      legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['nha63', 'Khu nhà'], ['rung63', 'Rừng'], ['water', 'Hồ']],
       card: function () { return ''; }
     }
   };
@@ -374,6 +374,7 @@
     }
     land.appendChild(el('rect', { x: px(k[0]), y: py(k[3]), width: px(k[2]) - px(k[0]), height: py(k[1]) - py(k[3]), 'class': 'giay63' }));
     poly(data.rung, 'rung63');
+    poly(data.khu || [], 'khu63');
     poly(data.nuoc, 'water nuoc63');
     var dn = '';
     data.nha.forEach(function (f) {
@@ -382,7 +383,7 @@
       for (var i = 2; i < f.length; i += 2) { x += f[i]; y += f[i + 1]; dn += 'L' + px(ox + x / 1e5).toFixed(5) + ' ' + py(oy + y / 1e5).toFixed(5); }
       dn += 'Z';
     });
-    var gn = el('g', { 'class': 'nha63' }); gn.appendChild(el('path', { d: dn })); land.appendChild(gn);
+    var gn = el('g', { 'class': 'nha63g' }); gn.appendChild(el('path', { d: dn })); land.appendChild(gn);
     var roads = data.duong.slice().sort(function (a, b) { return b.loai - a.loai; });
     var casing = el('g', { 'class': 'road-casing duong63' }), fill = el('g', { 'class': 'road-fill duong63' });
     roads.forEach(function (r) {
@@ -391,6 +392,9 @@
       fill.appendChild(el('path', { d: d, 'class': 'r' + r.loai }));
     });
     land.appendChild(casing); land.appendChild(fill);
+    var dat = el('g', { 'class': 'dat63' });          // đường đất bản cũ có, nay không còn: nét đứt đôi
+    (data.duong_mat || []).forEach(function (r) { dat.appendChild(el('path', { d: lineOf(r.pts) })); });
+    land.appendChild(dat);
     var hl = el('g', { id: 'hl63', 'class': 'hl63' }); land.appendChild(hl);
     var defs = el('defs', {}); land.appendChild(defs);
     var roadLabels = el('g', {}); labels.appendChild(roadLabels);
@@ -605,6 +609,7 @@
   function apply() {
     world.setAttribute('transform', 'translate(' + view.x.toFixed(2) + ' ' + view.y.toFixed(2) + ') scale(' + view.s.toFixed(5) + ')');
     var z = view.s / fit.s;                       // 1 = vừa khung
+    if (layer && layer.y1963) svg.setAttribute('data-zm', z < 1.8 ? 0 : z < 3.5 ? 1 : 2);   // Đà Lạt 1963: nét theo mức phóng
     labels.setAttribute('font-size', (11 / view.s).toFixed(4));
     labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
     for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');

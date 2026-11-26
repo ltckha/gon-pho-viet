@@ -1034,6 +1034,12 @@
 
   function showQuan(ph, d) {
     var c = document.getElementById('quanCard');
+    // thẻ hiện ngay dưới mốc vừa chạm (không dồn xuống cuối trang); chạm lại mốc đang mở thì đóng
+    var nut = sheetBody.querySelector('.bd-list [data-q="' + ph.dia_diem.indexOf(d) + '"]');
+    if (nut) {
+      if (!c.hidden && c.parentNode === nut.parentNode) { c.hidden = true; return; }
+      nut.parentNode.appendChild(c);
+    }
     c.innerHTML = '<button class="close" type="button" id="quanClose" aria-label="Đóng">×</button>' +
       '<b>' + esc(d.ten) + '</b><span class="addr">' + esc(d.loai) + '</span>' +
       '<span>' + esc(gonQuan(d.dac_trung)) + '</span>' +

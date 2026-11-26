@@ -1,3 +1,5 @@
+# ĐÃ GHÉP 26/11/2026
+
 # Spark đợt 44 (đánh số chung với game): mốc cho các nơi nổi tiếng của Đà Lạt (26/11/2026)
 
 Dùng trên bản đồ tỉnh Lâm Đồng khi phóng vào Đà Lạt (hiện mới có chợ, nhà thờ, ga, hồ, vườn hoa, quảng trường, đồi chè, rừng thông) và làm hình mốc trong thẻ phường, trang phố.

@@ -70,7 +70,26 @@
                 ['ho_than_tho', 108.47849, 11.95707, 'Hồ Than Thở', '24778', 4],
                 ['thung_lung_tinh_yeu', 108.44992, 11.97819, 'Thung lũng Tình Yêu', '24778', 4],
                 ['lang_hoa', 108.41447, 11.94734, 'Làng hoa Vạn Thành', '24787', 4],
-                ['lang_hoa', 108.47698, 11.96869, 'Làng hoa Thái Phiên', '24778', 4]],
+                ['lang_hoa', 108.47698, 11.96869, 'Làng hoa Thái Phiên', '24778', 4],
+                // Spark đợt 46 — mốc lâu đời (vị trí từ dữ liệu phố, OpenStreetMap)
+                ['chua_linh_son', 108.43702, 11.95027, 'Chùa Linh Sơn', '24781', 7],
+                ['chua_linh_quang', 108.42842, 11.95694, 'Chùa Linh Quang', '24787', 7],
+                ['chua_linh_phong', 108.46494, 11.92958, 'Chùa Linh Phong', '24781', 7],
+                ['dinh_2', 108.44796, 11.93563, 'Dinh 2', '24781', 7],
+                ['bao_tang_lam_dong', 108.45990, 11.94058, 'Bảo tàng Lâm Đồng', '24781', 7],
+                ['thuy_ta', 108.44209, 11.94001, 'Thủy Tạ', '24781', 7],
+                ['san_golf', 108.44498, 11.94761, 'Sân golf Đồi Cù', '24781', 7],
+                ['vien_pasteur', 108.42730, 11.93332, 'Viện Pasteur', '24781', 7],
+                ['couvent_des_oiseaux', 108.42234, 11.93839, 'Couvent des Oiseaux', '24787', 7],
+                ['luu_tru_iv', 108.42653, 11.94619, 'Lưu trữ quốc gia IV', '24787', 7],
+                ['nha_tho_cam_ly', 108.42201, 11.94391, 'Nhà thờ Cam Ly', '24787', 7],
+                ['thac_cam_ly', 108.42048, 11.94185, 'Thác Cam Ly', '24787', 7],
+                ['lang_nguyen_huu_hao', 108.41513, 11.94299, 'Lăng Nguyễn Hữu Hào', '24787', 7],
+                ['rap_hoa_binh', 108.43598, 11.94348, 'Rạp Hoà Bình', '24781', 7],
+                ['thuy_dien_ankroet', 108.36055, 11.99687, 'Thuỷ điện Ankroet', '24846', 4],
+                ['nha_lao_thieu_nhi', 108.47075, 11.95208, 'Nhà lao thiếu nhi', '24778', 4],
+                ['cap_treo', 108.44343, 11.92304, 'Cáp treo Đà Lạt', '24781', 4],
+                ['bao_tang_tra', 108.56330, 11.88470, 'Bảo tàng trà Cầu Đất', '24805', 4]],
       legend: [['open', 'Viền xanh đậm: có phố đã nghiên cứu'], ['dalat', 'Viền xanh: phường khác của Đà Lạt']],
       card: cardPhuong
     },
@@ -730,7 +749,7 @@
     if (c.moc.length) {
       // gọn: hiện 6 mốc đầu, còn lại gập vào "Xem thêm"
       var li = c.moc.map(function (m) {
-        return '<li><details><summary><b class="nam">' + esc(m.nam) + '</b><span>' + esc(ngan(m.su_kien)) + dau(m.muc, m.mot_nguon) + '</span></summary>' +
+        return '<li><details><summary><b class="nam">' + esc(m.nam) + '</b>' + dau(m.muc, m.mot_nguon) + '</summary>' +
           '<p>' + esc(m.su_kien) + '</p>' + src(m.nguon, m.mot_nguon, m.muc) + '</details></li>';
       });
       h += '<ol class="dong-tg">' + li.slice(0, 6).join('') + '</ol>';
@@ -763,6 +782,23 @@
     [/vang|rượu/i, 'ruou_vang'], [/áo len|thổ cẩm/i, 'ao_len'], [/hoa|nhà kính/i, 'hoa'],
     [/khách sạn|hostel|homestay|biệt thự|nghỉ dưỡng|ngủ lại/i, 'khach_san'], [/bar|cocktail/i, 'bar'], [/đạp vịt|xe đạp/i, 'xe_dap_doi'],
     [/chợ|siêu thị|sạp/i, 'cho']];
+  // hình Spark cho "Mốc lâu đời" (assets/vn/moc_*.webp); không có thì về biểu tượng cũ
+  var MOC_HINH = [
+    [/ve chai|linh phước/i, 'chua_ve_chai'], [/linh sơn/i, 'chua_linh_son'], [/linh quang/i, 'chua_linh_quang'], [/linh phong/i, 'chua_linh_phong'],
+    [/trúc lâm/i, 'truc_lam'], [/con gà|chính tòa/i, 'nha_tho_con_ga'], [/domaine|mai anh/i, 'domaine_de_marie'], [/cam ly.*nhà thờ|nhà thờ cam ly|sơn cước/i, 'nha_tho_cam_ly'],
+    [/thác cam ly/i, 'thac_cam_ly'], [/chợ đà lạt/i, 'cho_da_lat'], [/ga đà lạt|ga hỏa xa/i, 'ga_da_lat'], [/hồ xuân hương/i, 'ho_xuan_huong'],
+    [/than thở/i, 'ho_than_tho'], [/dinh iii|dinh 3/i, 'dinh_3'], [/dinh 2|toàn quyền/i, 'dinh_2'], [/dinh i\b|dinh 1/i, 'dinh_1'],
+    [/hằng nga|crazy/i, 'hang_nga'], [/thung lũng tình yêu/i, 'thung_lung_tinh_yeu'], [/lang biang/i, 'rung_thong'], [/đồi chè|cầu đất farm –/i, 'doi_che'],
+    [/bảo tàng trà/i, 'bao_tang_tra'], [/bảo tàng lâm đồng/i, 'bao_tang_lam_dong'], [/thủy tạ/i, 'thuy_ta'], [/sân golf|đồi cù/i, 'san_golf'],
+    [/pasteur/i, 'vien_pasteur'], [/couvent/i, 'couvent_des_oiseaux'], [/lưu trữ/i, 'luu_tru_iv'], [/nguyễn hữu hào/i, 'lang_nguyen_huu_hao'],
+    [/đình thái phiên/i, 'dinh_thai_phien'], [/cao đài/i, 'thanh_that_cao_dai'], [/ankroet/i, 'thuy_dien_ankroet'], [/nhà lao/i, 'nha_lao_thieu_nhi'],
+    [/cáp treo/i, 'cap_treo'], [/rạp hòa bình|rạp hoà bình/i, 'rap_hoa_binh'], [/lycée|cao đẳng đà lạt/i, 'lycee_yersin'], [/đại học đà lạt/i, 'dai_hoc_da_lat'],
+    [/vạn thành|làng hoa/i, 'lang_hoa'], [/vườn hoa/i, 'vuon_hoa'], [/quảng trường/i, 'quang_truong']
+  ];
+  function hinhMoc(d) {
+    for (var i = 0; i < MOC_HINH.length; i++) if (MOC_HINH[i][0].test(d.ten)) return '<img class="moc-hinh" src="assets/vn/moc_' + MOC_HINH[i][1] + '.webp" alt="">';
+    return '<span class="moc-hinh bt">' + bieuTuong(d.ten + ' ' + d.loai) + '</span>';
+  }
   function hinhMon(t) {
     for (var i = 0; i < BT_HINH.length; i++) if (BT_HINH[i][0].test(t)) return '<img class="bt-hinh" src="assets/bt/bt_' + BT_HINH[i][1] + '.webp" alt="">';
     return bieuTuong(t);
@@ -815,7 +851,7 @@
       h += '<h4>Mốc lâu đời</h4><ol class="bd-list">' + moc.map(function (i, k) {
         var d = ph.dia_diem[i];
         return '<li><button type="button" data-q="' + i + '">' + (BAN_DO_PHO ? '<span class="so' + (d.vi_tri ? '' : ' none') + '">' + (d.vi_tri ? k + 1 : '–') + '</span>' : '') +
-          '<b>' + bieuTuong(d.ten + ' ' + d.loai) + ' ' + esc(d.ten.replace(/\s*\(.*\)$/, '')) + '</b></button></li>';
+          hinhMoc(d) + '<b>' + esc(d.ten.replace(/\s*\(.*\)$/, '')) + '</b></button></li>';
       }).join('') + '</ol>';
     }
     h += '<details class="doc-them"><summary>Đọc thêm giới thiệu</summary><p>' + esc(hoaDau(ph.gioi_thieu.replace(/^[^:]{0,60}:\s*/, ''))) + '</p></details>';

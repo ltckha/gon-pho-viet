@@ -1,4 +1,4 @@
-# Spark đợt 46 (đánh số chung với game): hình cho các mốc lâu đời trong trang mỗi nơi (26/11/2026)
+# Spark đợt 46 (đánh số chung với game): hình cho các mốc lâu đời trong trang mỗi nơi (26/11/2026) — ĐÃ GHÉP 26/11/2026
 
 Danh sách lấy từ `moc_lau_doi` trong `data/hien_thi.json` và các mốc có nguồn trong `data/pho/*.json`, bỏ những mốc đã có hình (đợt 36, 41, 42, 44). Anh báo "xong 46" là em tự ghép.
 

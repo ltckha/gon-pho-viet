@@ -56,7 +56,8 @@ const URL = process.env.URL || 'http://localhost:8765/';
   const nName = await p.locator('text.road-name:not([hidden])').count();
   if (nName < 5) fail(`Phóng gần mà chỉ hiện ${nName} tên đường`);
   // 4. Trang phố
-  await tapEl(p.locator('.pin-body').nth(2));
+  // ghim chồng nhau thì lần bấm đầu chỉ phóng to cho tách ra; bấm lại tới khi trang phố mở (tối đa 6 lần)
+  for (let k = 0; k < 6 && !(await p.isVisible('#sheet.full')); k++) await tapEl(p.locator('.pin-body').nth(2));
   if (!(await p.isVisible('#sheet.full'))) fail('Bấm ghim phố không ra trang phố');
   if (!/^#pho-/.test(await p.evaluate(() => location.hash))) fail('Trang phố không có địa chỉ riêng (#pho-…)');
   const phan = await p.locator('.phan > h3').allTextContents();

@@ -537,7 +537,19 @@
       start = { x: pts[k].x, y: pts[k].y, lx: pts[k].x, ly: pts[k].y, moved: true, target: null };
     }
     if (count() === 0 && start) {
-      if (!start.moved && e.type === 'pointerup') tap(start.target);
+      if (!start.moved && e.type === 'pointerup') {
+        var r0 = svg.getBoundingClientRect(), tx = start.x - r0.left, ty = start.y - r0.top;
+        var gan = layer && layer.kind === 'duong' ? pins.filter(function (g) {
+          if (g._fixed) return false;
+          var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y - 17;
+          return Math.hypot(sx - tx, sy - ty) < 26;
+        }) : [];
+        if (gan.length > 1 && view.s < fit.s * 12) { closeSheet(); zoomAt(2.6, tx, ty); }   // nhiều ghim chồng nhau: phóng to cho tách ra, không mở bừa
+        else if (gan.length > 1) {   // đã phóng gần mà vẫn chồng (2 phố gần như cùng một điểm): mở ghim gần ngón tay nhất
+          gan.sort(function (a, b) { return Math.hypot(a._x * view.s + view.x - tx, a._y * view.s + view.y - 17 - ty) - Math.hypot(b._x * view.s + view.x - tx, b._y * view.s + view.y - 17 - ty); });
+          tap(gan[0]);
+        } else tap(start.target);
+      }
       start = null;
     }
   }
@@ -1024,9 +1036,10 @@
   }
   document.getElementById('lichBtn').addEventListener('click', moLich);
 
-  function closeSheet() {
+  function closeSheet(giuDiaChi) {
     sheet.classList.remove('full');
-    if (/^#pho-/.test(location.hash)) location.replace('#da-lat');   // đóng trang phố = về bản đồ đường
+    // đóng trang phố = về bản đồ đường; riêng lúc đang chuyển tầng (go) thì giữ địa chỉ, kẻo tải bản đồ hai lần chồng nhau
+    if (!giuDiaChi && /^#pho-/.test(location.hash)) location.replace('#da-lat');
     sheet.hidden = true;
     if (picked) { picked.classList.remove('picked'); picked = null; }
   }
@@ -1065,7 +1078,7 @@
       else if (!phoSlug && sheet.classList.contains('full')) { sheet.classList.remove('full'); sheet.hidden = true; }
       return;
     }
-    closeSheet(); srcSheet.hidden = true;
+    closeSheet(true); srcSheet.hidden = true;
     loading.hidden = false; loading.textContent = 'Đang tải bản đồ…';
     var L = LAYERS[id];
     function load(k) {

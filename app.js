@@ -742,6 +742,8 @@
     [/lẩu|nướng|nem|gà|bò|ốc|dê|cá|cơm|phở|bún|mì|hủ tiếu|bánh căn|bánh mì|bánh ướt|bánh bèo|bánh tráng|xíu mại|cháo|ăn/i, '🍲'],
     [/bar|bia|rượu|vang/i, '🍷'], [/áo len|đặc sản|thổ cẩm|nhà sách|thuốc|thuê xe/i, '🛍️'], [/golf|quảng trường|công viên|bảo tàng|cáp treo|tuabin|điện gió|khu du lịch|vui chơi|cắm trại|leo núi/i, '🎟️']];
   function bieuTuong(t) { for (var i = 0; i < BT.length; i++) if (BT[i][0].test(t)) return BT[i][1]; return '•'; }
+  // Anh Kha 26/11: tạm bỏ bản đồ minh hoạ trong trang phố để xem thử; đổi thành true là hiện lại
+  var BAN_DO_PHO = false;
   function hoaDau(t) { return t ? t.charAt(0).toUpperCase() + t.slice(1) : t; }
   function showPho(ph) {
     phoBox = highlight(ph);
@@ -761,7 +763,7 @@
       '<h2>' + esc(ten) + '</h2>' +
       (ph.dac_trung ? '<p class="dac-trung">' + esc(ph.dac_trung) + '</p>' : '') +
       '<section class="phan dia-ly"><h3>🗺️ Địa lý</h3>' +
-      '<div id="soDo" class="so-do" aria-label="Bản đồ ' + esc(ten) + '"><p class="note">Đang vẽ bản đồ…</p></div>' +
+      (BAN_DO_PHO ? '<div id="soDo" class="so-do" aria-label="Bản đồ ' + esc(ten) + '"><p class="note">Đang vẽ bản đồ…</p></div>' : '') +
       '<div class="o-bt">' +
       '<span>📍 ' + esc(ph.ward.replace(' - Đà Lạt', '')) + '</span>' +
       '<span>🛣️ ' + ph.duong.filter(function (d) { return !/^Hẻm /.test(d); }).slice(0, 3).map(esc).join(', ') + '</span>' +
@@ -780,7 +782,7 @@
     if (moc.length) {
       h += '<h4>Mốc lâu đời</h4><ol class="bd-list">' + moc.map(function (i, k) {
         var d = ph.dia_diem[i];
-        return '<li><button type="button" data-q="' + i + '"><span class="so' + (d.vi_tri ? '' : ' none') + '">' + (d.vi_tri ? k + 1 : '–') + '</span>' +
+        return '<li><button type="button" data-q="' + i + '">' + (BAN_DO_PHO ? '<span class="so' + (d.vi_tri ? '' : ' none') + '">' + (d.vi_tri ? k + 1 : '–') + '</span>' : '') +
           '<b>' + bieuTuong(d.ten + ' ' + d.loai) + ' ' + esc(d.ten.replace(/\s*\(.*\)$/, '')) + '</b></button></li>';
       }).join('') + '</ol>';
     }
@@ -797,7 +799,7 @@
     Array.prototype.forEach.call(sheetBody.querySelectorAll('.bd-list [data-q]'), function (b2) {
       b2.addEventListener('click', function () { showQuan(ph, ph.dia_diem[Number(b2.getAttribute('data-q'))]); });
     });
-    renderSoDo(ph);
+    if (BAN_DO_PHO) renderSoDo(ph);
   }
 
   function goPlace(d, ph) {

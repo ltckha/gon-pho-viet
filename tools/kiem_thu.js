@@ -77,7 +77,7 @@ const URL = process.env.URL || 'http://localhost:8765/';
   await p.goto(URL + '#pho-hoang-dieu'); await p.waitForTimeout(2500);
   if (!(await p.isVisible('#sheet.full'))) fail('Mở link #pho-hoang-dieu không ra trang phố');
   const nTen = await p.locator('.bd-list li').count();
-  if ((await p.locator('.bd-cham').count()) < 1) fail('Bản đồ không có chấm mốc lâu đời nào');
+  if ((await p.locator('#soDo').count()) && (await p.locator('.bd-cham').count()) < 1) fail('Bản đồ không có chấm mốc lâu đời nào');   // bản đồ phố đang tạm tắt (BAN_DO_PHO)
   await shot('10_ban_do_pho');
   await p.locator('.bd-list button').first().click(); await p.waitForTimeout(400);
   if (!(await p.isVisible('#quanCard'))) fail('Bấm mốc lâu đời không ra thẻ mốc');

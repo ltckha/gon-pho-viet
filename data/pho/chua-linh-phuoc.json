@@ -1,0 +1,180 @@
+{
+ "road": "Tự Phước",
+ "duong": [
+  "Tự Phước",
+  "Lương Định Của"
+ ],
+ "ten_osm": [
+  "Tự Phước",
+  "Lương Định Của",
+  "Đường Lương Định Của"
+ ],
+ "ward": "Xuân Trường - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Báo ghi địa chỉ '120 Tự Phước, phường 11, Đà Lạt' (Tuổi Trẻ 04/12/2013, VietNamNet 01/11/2016, VTC News 15/11/2023); Báo Văn hóa 25/12/2017 và Báo Pháp Luật 10/12/2018 ghi 'phường 11'. NQ 1671 mục 102: Phường 11 + xã Xuân Thọ, Xuân Trường, Trạm Hành → phường Xuân Trường - Đà Lạt. Nominatim (OSM) ghi khuôn viên chùa (way/1048566814) và tháp (way/522159670) thuộc 'Phường Xuân Trường - Đà Lạt'; em kiểm bằng ranh phuong.json (mã 24805): cả hai điểm nằm trong Xuân Trường - Đà Lạt. mia.vn sửa bài 07/2026 cũng ghi 'phường Xuân Trường'. Khuôn viên chùa lùi vào trong, cách đường Tự Phước khoảng 180–230 m, sát đường Lương Định Của (khoảng 100 m, theo duong.json). Bảng giá đất QĐ 02/2020 không có tên 'Tự Phước'; đoạn qua ga ghi 'Hùng Vương (Quốc lộ 20) - PHƯỜNG 11' (đã ghi trong data/pho/trai-mat.json). Cách Chợ Đà Lạt khoảng 6,8 km chim bay (OSM); báo ghi khoảng 8 km theo quốc lộ 20.",
+ "doan": [
+  {
+   "doan": "Chùa Linh Phước, 120 Tự Phước (Trại Mát)",
+   "phuong_cu": "Phường 11",
+   "phuong_moi": "Xuân Trường - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+   "ghi_chu": "Thêm VietNamNet 2016, VTC News 2023 (phường 11); NQ 1671 mục 102; Nominatim và ranh phuong.json ra Xuân Trường - Đà Lạt."
+  },
+  {
+   "doan": "Tự Phước (bảng giá 2020 ghi 'Hùng Vương (Quốc lộ 20)'): Huỳnh Tấn Phát – Nhà Ga – giáp xã Xuân Thọ",
+   "phuong_cu": "Phường 11",
+   "phuong_moi": "Xuân Trường - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/hung-vuong-quoc-lo-20-phuong-11",
+   "ghi_chu": "Dùng lại từ data/pho/trai-mat.json."
+  }
+ ],
+ "ten_pho": "Chùa Linh Phước",
+ "gioi_thieu": "Chùa Linh Phước (chùa Ve Chai): chùa ở Trại Mát khởi công năm 1949, xây lại lớn từ năm 1990, khắp nơi khảm mảnh chai, mảnh sành — con rồng dài 49 m trong sân ghép từ khoảng 12.000 vỏ chai, tháp 7 tầng treo đại hồng chung đúc năm 1999 nặng 8.500 kg; cách ga Trại Mát khoảng 300 m.",
+ "dia_diem": [
+  {
+   "ten": "Chính điện khảm sành",
+   "loai": "chính điện",
+   "dac_trung": "Chính điện dài 33 m (Báo Pháp Luật 2018 ghi rộng 12 m; mia ghi rộng 27 m). Hai hàng cột rồng khảm sành dọc chánh điện; nội điện có tượng Phật Thích Ca thếp vàng cao 4,9 m; lầu trên có gian thờ tượng Quan Âm nghìn tay nghìn mắt (Thanh Tra 2012). Mặt ngoài, mái và cột khảm mảnh chai, chén bát vỡ, sành sứ (Báo Pháp Luật, Tuổi Trẻ).",
+   "dia_chi": "trong khuôn viên chùa, 120 Tự Phước, phường Xuân Trường - Đà Lạt",
+   "duong": "Tự Phước",
+   "so_nha": "120",
+   "nguon": [
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://www.vietnamtourism.com/vi/chua-linh-phuoc-ngoi-chua-kham-sanh-da-lat-lich-su-tham-quan"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Chiều dài 33 m: Báo Pháp Luật, vietnamtourism, mia. Chiều rộng lệch (12 m / 22 m / 27 m) → không ghi. Thanh Tra 2012 ghi '108 tượng Thiên thủ thiên nhãn' — chỉ một nguồn, không đưa vào câu chính. OSM có hai khối nhà place_of_worship không tên (way/1467651478, way/1467651479), không biết khối nào là chính điện → không gắn vị trí."
+  },
+  {
+   "ten": "Rồng ve chai ở Long Hoa Viên",
+   "loai": "tác phẩm khảm",
+   "dac_trung": "Con rồng dài 49 m uốn quanh tượng Phật Di Lặc trong vườn Long Hoa Viên (Thanh Tra 2012, Tuổi Trẻ 2013); thân ghép từ vỏ chai bia (Tuổi Trẻ: 'hàng nghìn vỏ chai bia'; Báo Pháp Luật, Wikipedia: khoảng 12.000 vỏ chai). Đây là chỗ sinh ra tên 'chùa Ve Chai'. Tổ chức Kỷ lục Việt Nam ghi là con rồng bằng vỏ chai bia lớn nhất (VTC 2023).",
+   "dia_chi": "Long Hoa Viên, sân chùa Linh Phước",
+   "duong": "Tự Phước",
+   "so_nha": "120",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+    "https://vietnamnet.vn/en/linh-phuoc-the-pagoda-of-records-E166161.html",
+    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+    "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Số vỏ chai lệch: 12.000 (Báo Pháp Luật, Wikipedia, mia) — Thanh Tra 2012 ghi 'vây rồng làm từ 50.000 mảnh vỏ chai' (đếm mảnh, không phải chai). Năm làm rồng chưa rõ (sau đợt xây lại 1990). Trên OSM có khối nhà tên 'Long hoa vien' (way/1510347216) nhưng gắn shop=farm, không chắc là chỗ con rồng → không gắn vị trí."
+  },
+  {
+   "ten": "Tháp chuông 7 tầng (Linh tháp)",
+   "loai": "tháp chuông",
+   "dac_trung": "Tòa Linh tháp 7 tầng thờ chư Bồ Tát, Hộ Pháp, tầng trên treo đại hồng chung (Tuổi Trẻ 2013). Nhiều báo ghi cao khoảng 36–37 m (Thanh Tra 2012: 36 m; Báo Pháp Luật 2018: trên 37 m; DTiNews 2017: 36 m) và gọi là tháp chuông cao nhất Việt Nam; Tổ chức Kỷ lục Việt Nam ghi 'ngôi chùa có tháp chuông cao nhất' (VTC 2023).",
+   "dia_chi": "sân chùa Linh Phước, sát đường Lương Định Của",
+   "duong": "Lương Định Của",
+   "so_nha": "",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://dtinews.dantri.com.vn/print/20171219094216580.htm",
+    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+    "https://www.openstreetmap.org/way/522159670"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Chiều cao lệch: 36 m (Thanh Tra, DTiNews, mia), 37 m (Báo Pháp Luật, Wikipedia), 27 m (VietNamNet 2016), OSM ghi height=20 → không ghi một con số chắc. Năm 2008 được ghi kỷ lục: chỉ mia.vn và vinpearl.com (blog) → chưa đưa vào mốc. OSM way/522159670: man_made=tower, tower:type=pagoda, building:levels=7, name 'Linh Phuoc', wikidata Q10748461.",
+   "vi_tri": {
+    "lon": 108.499451,
+    "lat": 11.944229,
+    "nguon": "OSM way/522159670 (tháp 7 tầng, name 'Linh Phuoc'; qua Nominatim lookup 26/11/2026)"
+   }
+  },
+  {
+   "ten": "Đại hồng chung",
+   "loai": "chuông chùa",
+   "dac_trung": "Quả chuông do nghệ nhân Huế đúc năm 1999 (Tuổi Trẻ), nặng 8.500 kg, cao khoảng 4,3–4,38 m (Báo Pháp Luật, Thanh Tra, VietNamNet), treo trong Linh tháp 7 tầng. Từng được gọi là chuông lớn nhất Việt Nam (Thanh Tra 2012); nay một số trang ghi đã bị chuông chùa Bái Đính vượt (mia, mytour).",
+   "dia_chi": "trong tháp chuông 7 tầng, chùa Linh Phước",
+   "duong": "Lương Định Của",
+   "so_nha": "",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+    "https://vietnamnet.vn/en/linh-phuoc-the-pagoda-of-records-E166161.html",
+    "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Chiều cao lệch nhẹ: 4,3 m (Báo Pháp Luật, Wikipedia) / 4,38 m (Thanh Tra, VietNamNet). Đường kính 2,33–2,34 m. Chi tiết 'xoay mặt theo bốn mùa' chỉ Thanh Tra 2012. Không gắn vị trí riêng (nằm trong tháp)."
+  },
+  {
+   "ten": "Tượng Quan Âm hoa bất tử",
+   "loai": "tượng Phật bằng hoa",
+   "dac_trung": "Tượng Quan Thế Âm cao 17 m kết bằng hoa bất tử, làm trong 36 ngày cuối năm 2009 (Báo Văn hóa: 25/11–31/12/2009), dựng dịp Festival Hoa Đà Lạt 2010; hai năm thay hoa một lần. Được ghi kỷ lục Việt Nam (2010), châu Á (2012), thế giới (2017) (DTiNews/VNS, Báo Văn hóa).",
+   "dia_chi": "khuôn viên chùa Linh Phước",
+   "duong": "Tự Phước",
+   "so_nha": "120",
+   "nguon": [
+    "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+    "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+    "https://baovanhoa.vn/di-san/chua-linh-phuoc-da-lat-xac-lap-ky-luc-the-gioi-45356.html",
+    "https://dtinews.dantri.com.vn/print/20171219094216580.htm"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Số bông lệch: 600.000 (Tuổi Trẻ 2013, Báo Pháp Luật 2018) / 650.000 (Báo Văn hóa 2017, DTiNews 2017, mia 2026) → câu chính không ghi số bông. OSM có 3 điểm tượng không tên (node/13806748163, 13806748172, 13806748173), không biết điểm nào là tượng hoa → không gắn vị trí. Hiện trạng: mia 07/2026 còn giới thiệu tượng."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Hòa thượng Thích Đức Liên chỉ đạo xây chùa năm 1949",
+   "duong": "",
+   "so_nha": "",
+   "nguon": [
+    "https://www.greensm.com/vn-vi/news/chua-linh-phuoc-da-lat"
+   ],
+   "ly_do": "chỉ một trang doanh nghiệp (greensm) ghi; báo và Wikipedia không nêu người khai sơn."
+  },
+  {
+   "ten": "Đường hầm 18 tầng địa ngục (cảnh Mục Liên tìm mẹ), dài khoảng 300 m",
+   "duong": "Tự Phước",
+   "so_nha": "120",
+   "nguon": [
+    "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+    "https://mia.vn/cam-nang-du-lich/chua-linh-phuoc-chua-ve-chai-kham-pha-ngoi-chua-co-11-cai-nhat-va-kien-truc-dac-sac-o-da-lat-1344"
+   ],
+   "ly_do": "có 2 trang nhưng VTC chỉ nêu tên kỷ lục, chiều dài 300 m chỉ mia (blog); năm làm chưa rõ. Để sau nếu cần thêm mốc."
+  },
+  {
+   "ten": "Tháp chuông được Trung tâm sách kỷ lục Việt Nam ghi nhận năm 2008",
+   "duong": "Lương Định Của",
+   "so_nha": "",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/chua-linh-phuoc-chua-ve-chai-kham-pha-ngoi-chua-co-11-cai-nhat-va-kien-truc-dac-sac-o-da-lat-1344",
+    "https://vinpearl.com/vi/chua-linh-phuoc-da-lat"
+   ],
+   "ly_do": "chỉ hai blog du lịch, chưa thấy báo hay trang Kỷ lục Việt Nam."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+  "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+  "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+  "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+  "https://vietnamnet.vn/en/linh-phuoc-the-pagoda-of-records-E166161.html",
+  "https://baovanhoa.vn/di-san/chua-linh-phuoc-da-lat-xac-lap-ky-luc-the-gioi-45356.html",
+  "https://dtinews.dantri.com.vn/print/20171219094216580.htm",
+  "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple",
+  "data/lam-dong/nq1671.json (mục 102: Phường 11 + Xuân Thọ, Xuân Trường, Trạm Hành → Xuân Trường - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường, mã 24805)",
+  "data/lam-dong/da-lat/duong.json (tên đường: Tự Phước, Lương Định Của)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.4965,11.9420,108.5025,11.9465 (tải 26/11/2026)",
+  "https://nominatim.openstreetmap.org (Chùa Linh Phước way/1048566814, tháp way/522159670; 26/11/2026)"
+ ],
+ "vi_tri": {
+  "lon": 108.4993994,
+  "lat": 11.9442799,
+  "nguon": "OSM way/1048566814 (landuse=religious, religion=buddhist, name 'Chùa Linh Phước'; tâm khuôn viên, qua Nominatim 26/11/2026)"
+ },
+ "cap_nhat": "2026-11-26"
+}

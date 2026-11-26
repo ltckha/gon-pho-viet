@@ -12,27 +12,6 @@
     "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html"
    ],
    "mot_nguon": false
-  },
-  {
-   "ten": "Thác Tiên Sa",
-   "thoi_gian": "tên một số du khách gọi (không chính thức)",
-   "ghi_chu": "",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
-    "https://vinwonders.com/vi/wonderpedia/news/thac-prenn-da-lat/"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Prenn 2",
-   "thoi_gian": "cách gọi đèo Mimosa — con đường Prenn cũ",
-   "ghi_chu": "VnExpress 2014 gọi Mimosa là 'Prenn 2'; Wikipedia, mia: Mimosa là đường cũ từ thác Prenn vào trung tâm, khôi phục đầu những năm 2000.",
-   "nguon": [
-    "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html",
-    "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
-    "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400"
-   ],
-   "mot_nguon": false
   }
  ],
  "moc": [
@@ -169,5 +148,29 @@
   }
  ],
  "mon": [],
- "ghi_chu": "1) Chiều cao thác lệch (gần 10 m / hơn 10 m / hơn 20 m) → không ghi. 2) Năm công nhận thắng cảnh: 1998 (Báo Văn hóa, vietnamnet) / 2000 (Wikipedia). 3) Chiều dài đèo 7,4 km / 11 km; tổng vốn mở rộng 514 / 522 / 552 / 553 tỷ → không ghi vốn. 4) Năm xây Đền thờ Âu Lạc 2002 / 2003 / 2004. 5) Tháng 1/2024 Đà Lạt phạt công ty quản lý khu thác 240 triệu đồng vì 6 bungalow sai phép và tượng rồng dài 70 m dọc suối không phép (chỉ Báo Văn hóa, 1 nguồn → không đưa vào mốc). 6) Không ghi giá vé (các trang ghi rất khác nhau). 7) Không trùng mốc với thác Datanla (phiên khác làm)."
+ "ghi_chu": "1) Chiều cao thác lệch (gần 10 m / hơn 10 m / hơn 20 m) → không ghi. 2) Năm công nhận thắng cảnh: 1998 (Báo Văn hóa, vietnamnet) / 2000 (Wikipedia). 3) Chiều dài đèo 7,4 km / 11 km; tổng vốn mở rộng 514 / 522 / 552 / 553 tỷ → không ghi vốn. 4) Năm xây Đền thờ Âu Lạc 2002 / 2003 / 2004. 5) Tháng 1/2024 Đà Lạt phạt công ty quản lý khu thác 240 triệu đồng vì 6 bungalow sai phép và tượng rồng dài 70 m dọc suối không phép (chỉ Báo Văn hóa, 1 nguồn → không đưa vào mốc). 6) Không ghi giá vé (các trang ghi rất khác nhau). 7) Không trùng mốc với thác Datanla (phiên khác làm).",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Thác Tiên Sa",
+   "thoi_gian": "tên một số du khách gọi (không chính thức)",
+   "ghi_chu": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+    "https://vinwonders.com/vi/wonderpedia/news/thac-prenn-da-lat/"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Prenn 2",
+   "thoi_gian": "cách gọi đèo Mimosa — con đường Prenn cũ",
+   "ghi_chu": "VnExpress 2014 gọi Mimosa là 'Prenn 2'; Wikipedia, mia: Mimosa là đường cũ từ thác Prenn vào trung tâm, khôi phục đầu những năm 2000.",
+   "nguon": [
+    "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html",
+    "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+    "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên của con đường khác, hoặc mới 1 nguồn chưa đọc được."
 }

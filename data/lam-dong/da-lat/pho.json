@@ -4281,6 +4281,474 @@
    ]
   },
   {
+   "id": "pho_datanla",
+   "slug": "datanla",
+   "ten_pho": "Thác Datanla",
+   "duong": [
+    "Đèo Prenn",
+    "Quốc lộ 20"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Thác Datanla: thác cao khoảng 20 m bên đèo Prenn (người Pháp mở năm 1943), cách trung tâm Đà Lạt khoảng 5 km; tên gốc tiếng K'Ho 'Đạh Tam N'ha' nghĩa là 'dưới lá có nước', nay là khu du lịch có đường xe trượt xuyên rừng thông xuống chân thác.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.44884,
+   "lat": 11.90118,
+   "dia_diem": [
+    {
+     "ten": "Thác Datanla (Đatanla)",
+     "loai": "thác nước",
+     "dac_trung": "Thác đổ từ ghềnh đá cao khoảng 20 m (Wikipedia, Dân trí 2016) qua nhiều thềm đá; nước phía dưới gọi là Suối Tiên, phía trên có vực sâu gọi Vực Tử Thần (Wikipedia, Dân trí). Từ Quốc lộ 20 rẽ xuống dốc khoảng 300 m là tới thung lũng có thác (Dân trí). Tên gốc K'Ho 'Đạh Tam N'ha' – 'dưới lá có nước'; người Pháp đọc thành Datanla (Dân trí, Wikipedia, Thanh Niên 2026).",
+     "dia_chi": "Đèo Prenn",
+     "duong": "Đèo Prenn",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+       "trang": "dantri.com.vn"
+      },
+      {
+       "link": "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/4502225092",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4488444,
+      "lat": 11.9011774,
+      "nguon": "OSM node/4502225092 (waterway=waterfall, name 'Thác Datanla', qua Nominatim 26/11/2026)"
+     },
+     "con_mo": "mở (trong khu du lịch; mia 09/2026 ghi 7:00–17:00)."
+    },
+    {
+     "ten": "Đường xe trượt (máng trượt) Datanla",
+     "loai": "xe trượt ống / alpine coaster",
+     "dac_trung": "Xe trượt hai chỗ có phanh chạy xuyên rừng thông xuống chân thác, thay cho đoạn đi bộ xuống dốc. Có ít nhất từ năm 2006 (RCDB: 'since ≤ 2006'); tin VCCI tháng 7/2010 viết đường xe trượt mới ở Đambri là đường thứ ba của Việt Nam, sau Datanla và một nơi ở Kiên Giang. RCDB ghi thêm một đường mới mở năm 2017. Dự án năm 2017 có hạng mục 'nhà máng trượt' (Doanh nhân – Báo Pháp luật).",
+     "dia_chi": "Đèo Prenn",
+     "duong": "Đèo Prenn",
+     "nguon": [
+      {
+       "link": "https://tuoitre.vn/cam-nang-du-lich-da-lat-diem-den-da-ngoai-ket-hop-the-thao-20230408171213813.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://rcdb.com/14139.htm",
+       "trang": "rcdb.com"
+      },
+      {
+       "link": "https://rcdb.com/18600.htm",
+       "trang": "rcdb.com"
+      },
+      {
+       "link": "https://www.vccinews.com/prode/20789/.html",
+       "trang": "vccinews.com"
+      },
+      {
+       "link": "https://baolamdong.vn/print/423389.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+       "trang": "vi.wikipedia.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4475498,
+      "lat": 11.90299,
+      "nguon": "OSM way/1275560475 ('Xe Truot Moi' / Alpine Coaster 3, quầy vé, addr:street Đèo Prenn; tâm khối, qua Nominatim 26/11/2026)"
+     },
+     "con_mo": "mở (RCDB ghi 'Operating'; Báo Lâm Đồng 02/2026 còn nhắc 'xe trượt thác')."
+    },
+    {
+     "ten": "Khu du lịch sinh thái thác Datanla",
+     "loai": "khu du lịch mạo hiểm, rừng thông",
+     "dac_trung": "Do Công ty Cổ phần Du lịch Lâm Đồng (Dalat Tourist) quản lý (Tuổi Trẻ 2016, QĐ 298/QĐ-UBND năm 2007). Năm 2017 tỉnh chấp thuận dự án khu du lịch sinh thái 324,2 tỷ đồng, thuộc quần thể khu du lịch hồ Tuyền Lâm (Doanh nhân – Báo Pháp luật 04/2017; Báo Thanh Tra 07/2026: 106,09 ha gồm 99,09 ha khu thác và 7 ha bãi xe dưới tán rừng). Ngoài xe trượt còn zipline xuyên rừng, hành trình trên cao (high rope) và vượt thác (canyoning) (Báo Lâm Đồng 02/2026, Tuổi Trẻ 2023).",
+     "dia_chi": "Đèo Prenn",
+     "duong": "Đèo Prenn",
+     "nguon": [
+      {
+       "link": "https://thanhtra.com.vn/ket-luan-thanh-tra-E17BD7A25/lam-dong-thanh-tra-chi-ro-ton-tai-kien-nghi-thao-go-vuong-mac-tai-du-an-khu-du-lich-sinh-thai-thac-datanla-818acd62f.html",
+       "trang": "thanhtra.com.vn"
+      },
+      {
+       "link": "https://doanhnhan.baophapluat.vn/lam-dong-dau-tu-3242-ty-xay-dung-khu-du-lich-sinh-thai-thac-datanla-1647.html",
+       "trang": "doanhnhan.baophapluat.vn"
+      },
+      {
+       "link": "https://baolamdong.vn/print/423389.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "https://tuoitre.vn/3-du-khach-nuoc-ngoai-tu-nan-tai-thac-datanla-da-lat-1057687.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://caselaw.vn/van-ban-phap-luat/219276-quyet-dinh-so-298-qd-ubnd-ngay-18-01-2007-ve-muc-thu-nop-che-do-quan-ly-su-dung-phi-vao-cong-tham-quan-va-phi-trong-giu-xe-tai-khu-du-lich-thac-datanla-da-lat-lam-dong-do-uy-ban-nhan-dan-tinh-lam-dong-ban-hanh-van-ban-het-hieu-luc",
+       "trang": "caselaw.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "mở (Báo Thanh Tra 07/2026: phần lớn công trình đã khai thác; dự án chậm tiến độ, khu thác chậm 65 tháng)."
+    },
+    {
+     "ten": "Đèo Prenn",
+     "loai": "con đèo, cửa ngõ phía nam Đà Lạt",
+     "dac_trung": "Người Pháp khởi công tháng 2/1943 (Thanh Niên 2026, theo tư liệu địa chí; DTiNews 2023: 'built by France in 1943'), đặt tên theo thác Prenn dưới chân đèo. Năm 2023–2024 mở rộng lên 4 làn, dài khoảng 7,4 km; 12/2023 đoạn khoảng 3 km từ thác Datanla tới đường 3 Tháng 4 đưa vào sử dụng, thông xe toàn tuyến 31/1/2024.",
+     "dia_chi": "Đèo Prenn",
+     "duong": "Đèo Prenn",
+     "nguon": [
+      {
+       "link": "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://dtinews.dantri.com.vn/print/20231214134302770.htm",
+       "trang": "dtinews.dantri.com.vn"
+      },
+      {
+       "link": "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
+       "trang": "tienphong.vn"
+      },
+      {
+       "link": "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html",
+       "trang": "nhandan.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "đang dùng; cuối 2025 sạt lở hai lần, lần 4/12/2025 gần thác Datanla (Báo Thanh Tra, DTiNews)."
+    },
+    {
+     "ten": "Thác Prenn",
+     "loai": "thác nước, khu du lịch",
+     "dac_trung": "Thác dưới chân đèo Prenn, cao gần 10 m (mia) hay hơn 10 m (SGGP); con đèo mang tên thác (Thanh Niên 2026). Vùng này là nơi sinh sống lâu đời của người Lạch và Cil (nhóm K'Ho) (Thanh Niên). Có Đền thờ Âu Lạc dựng 2001–2002 (SGGP).",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/4096525696",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4701041,
+      "lat": 11.8765192,
+      "nguon": "OSM node/4096525696 (waterway=waterfall, 'Thác Prenn', qua Nominatim 26/11/2026)"
+     },
+     "con_mo": "mở (SGGP 08/10/2026)."
+    },
+    {
+     "ten": "Thiền viện Trúc Lâm",
+     "loai": "thiền viện",
+     "dac_trung": "Thiền viện trên núi Phụng Hoàng nhìn xuống hồ Tuyền Lâm, khởi công 1993, khánh thành 1994; cách thác Datanla khoảng 1,6 km chim bay về phía tây, vào từ đường Trúc Lâm Yên Tử rẽ khỏi đèo Prenn cạnh thác.",
+     "dia_chi": "Trúc Lâm Yên Tử",
+     "duong": "Trúc Lâm Yên Tử",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_(%C4%90%C3%A0_L%E1%BA%A1t)",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/Tr%C3%BAc_L%C3%A2m_Monastery_of_Da_Lat",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://www.vietnamtourism.com/vi/thien-vien-truc-lam-da-lat-lich-su-diem-tham-quan-va-cach",
+       "trang": "vietnamtourism.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1356287796",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4347865,
+      "lat": 11.9041575,
+      "nguon": "OSM way/1356287796 ('Thiền Viện Trúc Lâm', qua Nominatim 26/11/2026)"
+     },
+     "con_mo": "mở cho khách viếng (vietnamtourism.com 10/2026)."
+    }
+   ],
+   "can_kiem_them": 4,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_datanla.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Đạh Tam N'ha (Đạ Tam Nha)",
+      "thoi_gian": "tên tiếng K'Ho, có trước khi người Pháp tới",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+        "trang": "dantri.com.vn"
+       },
+       {
+        "link": "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+        "trang": "thanhnien.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1943",
+      "su_kien": "Tháng 2/1943 người Pháp khởi công đèo Prenn, con đường đi ngang thác Datanla.",
+      "nguon": [
+       {
+        "link": "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20231214134302770.htm",
+        "trang": "dtinews.dantri.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1976",
+      "su_kien": "Thành lập Công ty Du lịch Lâm Đồng (Dalat Tourist), đơn vị sau này quản lý khu thác.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/print/423389.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "nam": "2006",
+      "su_kien": "Muộn nhất năm này khu thác đã có đường xe trượt đầu tiên — một trong hai đường xe trượt đầu tiên ở Việt Nam.",
+      "nguon": [
+       {
+        "link": "https://rcdb.com/14139.htm",
+        "trang": "rcdb.com"
+       },
+       {
+        "link": "https://www.vccinews.com/prode/20789/.html",
+        "trang": "vccinews.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "blog"
+     },
+     {
+      "nam": "2007",
+      "su_kien": "UBND tỉnh ra Quyết định 298/QĐ-UBND (18/1/2007) về phí vào cổng Khu du lịch thác Đatanla, giao Công ty Du lịch Lâm Đồng thu.",
+      "nguon": [
+       {
+        "link": "https://caselaw.vn/van-ban-phap-luat/219276-quyet-dinh-so-298-qd-ubnd-ngay-18-01-2007-ve-muc-thu-nop-che-do-quan-ly-su-dung-phi-vao-cong-tham-quan-va-phi-trong-giu-xe-tai-khu-du-lich-thac-datanla-da-lat-lam-dong-do-uy-ban-nhan-dan-tinh-lam-dong-ban-hanh-van-ban-het-hieu-luc",
+        "trang": "caselaw.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "blog"
+     },
+     {
+      "nam": "2016",
+      "su_kien": "Ngày 26/2: ba du khách người Anh tử nạn khi vượt thác theo tour của một công ty tư nhân không thuộc khu du lịch; báo chí sau đó bàn nhiều về quản lý du lịch mạo hiểm.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/3-du-khach-nuoc-ngoai-tu-nan-tai-thac-datanla-da-lat-1057687.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+        "trang": "dantri.com.vn"
+       },
+       {
+        "link": "https://www.lonelyplanet.com/news/tours-suspended-at-vietnam-waterfall-following-tourist-deaths",
+        "trang": "lonelyplanet.com"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2017",
+      "su_kien": "Ngày 10/4/2017 tỉnh chấp thuận dự án Khu du lịch sinh thái thác Datanla (324,2 tỷ đồng) của Công ty CP Du lịch Lâm Đồng; RCDB ghi đường xe trượt mới mở năm này.",
+      "nguon": [
+       {
+        "link": "https://thanhtra.com.vn/ket-luan-thanh-tra-E17BD7A25/lam-dong-thanh-tra-chi-ro-ton-tai-kien-nghi-thao-go-vuong-mac-tai-du-an-khu-du-lich-sinh-thai-thac-datanla-818acd62f.html",
+        "trang": "thanhtra.com.vn"
+       },
+       {
+        "link": "https://doanhnhan.baophapluat.vn/lam-dong-dau-tu-3242-ty-xay-dung-khu-du-lich-sinh-thai-thac-datanla-1647.html",
+        "trang": "doanhnhan.baophapluat.vn"
+       },
+       {
+        "link": "https://rcdb.com/18600.htm",
+        "trang": "rcdb.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2023–2024",
+      "su_kien": "Mở rộng đèo Prenn lên 4 làn; tháng 12/2023 đoạn 3 km từ thác Datanla tới đường 3 Tháng 4 thông xe trước, toàn tuyến 31/1/2024.",
+      "nguon": [
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20231214134302770.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
+        "trang": "tienphong.vn"
+       },
+       {
+        "link": "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html",
+        "trang": "nhandan.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Từ 1/7/2025 Phường 3 cũ vào phường Xuân Hương - Đà Lạt. Trưa 4/12/2025 đèo Prenn sạt lở gần thác Datanla, phải đóng đèo.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/toan-van-nghi-quyet-so-1671-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lam-dong-nam-2025-255777.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/nq1671.json",
+        "trang": "Nghị quyết 1671/NQ-UBTVQH15"
+       },
+       {
+        "link": "https://thanhtra.com.vn/an-sinh-AFA9C5670/lam-dong-sat-lo-tai-deo-prenn-phuong-xuan-huong-da-lat-fd59ebaab.html",
+        "trang": "thanhtra.com.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20251205120247590.htm",
+        "trang": "dtinews.dantri.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2026",
+      "su_kien": "Kết luận thanh tra 10/6/2026: phần lớn công trình đã khai thác nhưng dự án chậm tiến độ (khu thác chậm 65 tháng).",
+      "nguon": [
+       {
+        "link": "https://thanhtra.com.vn/ket-luan-thanh-tra-E17BD7A25/lam-dong-thanh-tra-chi-ro-ton-tai-kien-nghi-thao-go-vuong-mac-tai-du-an-khu-du-lich-sinh-thai-thac-datanla-818acd62f.html",
+        "trang": "thanhtra.com.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Dưới lá có nước",
+      "noi_dung": "Tên Datanla đến từ tiếng K'Ho 'Đạh Tam N'ha' – dưới lá có nước. Có ba chuyện kể vì sao: người Lạt đánh nhau với quân Chăm, nhờ tìm thấy nước ở thác mà thắng, quân Chăm thua vì không biết dưới lá có nước, nên người Lạt đặt tên để con cháu nhớ; hoặc nơi đây nước trong, che kín bởi nhiều tầng lá nên tiên hay xuống tắm; hoặc đây là chỗ dũng sĩ K'Lang đánh bầy thú dữ rồi gặp nàng Hơbiang, cây đổ trong trận đánh tạo thành các hố sâu, trong đó có Vực Tử Thần.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+        "trang": "dantri.com.vn"
+       },
+       {
+        "link": "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://doanhnghiephoinhap.vn/thac-datanla-da-lat-net-dep-tho-mong-hoang-so-tru-tinh-76440.html",
+        "trang": "doanhnghiephoinhap.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Vực Tử Thần và bài học du lịch mạo hiểm",
+      "noi_dung": "Phía trên thác có vực sâu người ta gọi Vực Tử Thần. Ngày 26/2/2016 ba du khách người Anh tử nạn ở thác khi đi tour vượt thác của một công ty tư nhân; khu du lịch nói đơn vị đó không thuộc họ. Vụ việc khiến báo trong và ngoài nước bàn về luật lệ cho du lịch mạo hiểm; nay Công ty CP Du lịch Lâm Đồng tự làm tour vượt thác (canyoning) có hướng dẫn.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/3-du-khach-nuoc-ngoai-tu-nan-tai-thac-datanla-da-lat-1057687.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://dantri.com.vn/du-lich/kham-pha-ngon-thac-tu-than-khien-ba-du-khach-tu-nan-tren-da-lat-20160226221337186.htm",
+        "trang": "dantri.com.vn"
+       },
+       {
+        "link": "https://www.lonelyplanet.com/news/tours-suspended-at-vietnam-waterfall-following-tourist-deaths",
+        "trang": "lonelyplanet.com"
+       },
+       {
+        "link": "https://tuoitre.vn/cam-nang-du-lich-da-lat-diem-den-da-ngoai-ket-hop-the-thao-20230408171213813.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/print/423389.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Cảnh phim Ván bài lật ngửa",
+      "noi_dung": "Đạo diễn Lê Hoàng Hoa từng dùng cảnh Đà Lạt, đèo Prenn và thác Datanla trong một số tập phim Ván bài lật ngửa (thập niên 1980).",
+      "nguon": [
+       {
+        "link": "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm",
+        "trang": "thanhnien.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     }
+    ]
+   },
+   "loai_noi": "diem",
+   "duong_hien": [],
+   "ten_ngan": "Thác Datanla",
+   "ten_hien": "Thác Datanla",
+   "dac_trung": "Thác 20 m, tên K'Ho 'dưới lá có nước'",
+   "ban_gi": "Thác giữa rừng thông bên đèo Prenn; xe trượt xuống chân thác, zipline, leo dây trên cao, tour vượt thác có hướng dẫn.",
+   "moc_lau_doi": [
+    "Thác Datanla (Đatanla)",
+    "Đường xe trượt (máng trượt) Datanla"
+   ]
+  },
+  {
    "id": "pho_dinh_1",
    "slug": "dinh-1",
    "ten_pho": "Dinh I",
@@ -5395,6 +5863,367 @@
     "Nhà thờ Domaine de Marie (nhà thờ Mai Anh, Lãnh địa Đức Bà)",
     "Trung tâm Lưu trữ quốc gia IV (Biệt điện Trần Lệ Xuân)",
     "Nhà thờ Cam Ly (nhà thờ Sơn Cước)"
+   ]
+  },
+  {
+   "id": "pho_duong_ham_dat_set",
+   "slug": "duong-ham-dat-set",
+   "ten_pho": "Đường hầm đất sét",
+   "duong": [
+    "Hoa Hồng"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Đường hầm đất sét: hầm lộ thiên đắp bằng đất đỏ bazan không nung bên hồ Tuyền Lâm, bắt đầu làm năm 2010, dài khoảng 1,2 km theo báo năm 2014, hai bên vách tái hiện Đà Lạt từ thời Yersin tới nay; ngôi nhà đất sét cạnh hầm có 2 kỷ lục Việt Nam.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.41122,
+   "lat": 11.88287,
+   "dia_diem": [
+    {
+     "ten": "Đường hầm điêu khắc (Đường hầm đất sét, Clay Tunnels - Dalat Star)",
+     "loai": "điểm tham quan, hầm điêu khắc đất sét lộ thiên",
+     "dac_trung": "Hầm lộ thiên đào giữa đồi thông, rộng 2–10 m, sâu 1–9 m; đào và chuyển khoảng 50.000 m³ đất (VnExpress 2014, Zing 2014, Đại Đoàn Kết 2016). Hai vách đắp nổi lịch sử Đà Lạt: nhà dài, đời sống người Cơ Ho, voi, ga xe lửa, Viện Pasteur, nhà thờ Con Gà, chợ Đà Lạt, Lycée Yersin, khách sạn Palace, cả bản nhạc 'Ai lên xứ hoa đào'; phần Đà Lạt hôm nay có sân bay Liên Khương, Thung lũng Tình Yêu, hồ Tuyền Lâm.",
+     "dia_chi": "Hoa Hồng",
+     "duong": "Hoa Hồng",
+     "nguon": [
+      {
+       "link": "https://vnexpress.net/cong-trinh-dieu-khac-dat-set-o-da-lat-3038274.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://znews.vn/can-canh-nha-dat-set-duong-ham-dieu-khac-doc-dao-tai-da-lat-post475603.html",
+       "trang": "znews.vn"
+      },
+      {
+       "link": "https://daidoanket.vn/lang-dat-set-10046325.html",
+       "trang": "daidoanket.vn"
+      },
+      {
+       "link": "https://en.sggp.org.vn/artist-creates-clay-replicas-of-buildings-by-da-lat-lake-post7042.html",
+       "trang": "en.sggp.org.vn"
+      },
+      {
+       "link": "https://dtinews.dantri.com.vn/print/20140404141122937.htm",
+       "trang": "dtinews.dantri.com.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/4368051989",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4112222,
+      "lat": 11.8828709,
+      "cach": "Nominatim: tên OSM 'Đường hầm điêu khắc' (name:en 'Clay Tunnels - Dalat Star')",
+      "osm": "node/4368051989"
+     },
+     "con_mo": "có dấu hiệu mở: mia 07/07/2026 và VinWonders 17/12/2025 còn hướng dẫn tham quan."
+    },
+    {
+     "ten": "Ngôi nhà đất sét (nhà đất đỏ bazan không nung)",
+     "loai": "nhà đất sét, công trình kỷ lục Việt Nam",
+     "dac_trung": "Nhà làm hoàn toàn bằng đất đỏ bazan không nung, nhìn ra hồ; mái đắp nổi bản đồ Việt Nam có Hoàng Sa, Trường Sa; đồ đạc (bồn tắm, lavabo, bàn ghế) cũng bằng đất. Trung tâm Sách Kỷ lục Việt Nam ghi 2 kỷ lục: nhà đất đỏ bazan không nung đầu tiên và có phong cách độc đáo nhất; nhà có mái đắp nổi bản đồ Việt Nam đầu tiên và lớn nhất.",
+     "dia_chi": "Hoa Hồng",
+     "duong": "Hoa Hồng",
+     "nguon": [
+      {
+       "link": "https://vnexpress.net/cong-trinh-dieu-khac-dat-set-o-da-lat-3038274.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://daidoanket.vn/lang-dat-set-10046325.html",
+       "trang": "daidoanket.vn"
+      },
+      {
+       "link": "https://doanhnhan.baophapluat.vn/ngoi-nha-dat-do-bazan-doc-dao-nhat-viet-nam-34488.html",
+       "trang": "doanhnhan.baophapluat.vn"
+      },
+      {
+       "link": "https://e.vnexpress.net/news/travel/places/mud-house-attracts-curiosity-seekers-in-da-lat-4182320.html",
+       "trang": "e.vnexpress.net"
+      },
+      {
+       "link": "https://znews.vn/can-canh-nha-dat-set-duong-ham-dieu-khac-doc-dao-tai-da-lat-post475603.html",
+       "trang": "znews.vn"
+      },
+      {
+       "link": "https://en.sggp.org.vn/artist-creates-clay-replicas-of-buildings-by-da-lat-lake-post7042.html",
+       "trang": "en.sggp.org.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "có dấu hiệu (mia 2026 còn nhắc)."
+    },
+    {
+     "ten": "Hồ Vô Cực (Infinity lake)",
+     "loai": "hồ nhỏ, điểm chụp ảnh",
+     "dac_trung": "Hồ nhỏ trong khuôn viên Đường hầm điêu khắc, mặt nước như nối liền trời; giữa hồ có hai bức tượng (mia gọi là K'Lang và H'Biang).",
+     "dia_chi": "Hoa Hồng",
+     "duong": "Hoa Hồng",
+     "nguon": [
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/duong-ham-dieu-khac-19769",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/duong-ham-dieu-khac/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/12646957834",
+       "trang": "openstreetmap.org"
+      },
+      {
+       "link": "https://baomoi.com/ngoai-ho-vo-cuc-duong-ham-dat-set-da-lat-con-goc-check-in-nao-c33178458.epi",
+       "trang": "baomoi.com"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.40997,
+      "lat": 11.88362,
+      "cach": "tên trên OpenStreetMap: Infinity lake (tourism=attraction)",
+      "osm": "node/12646957834"
+     },
+     "con_mo": "có dấu hiệu (mia 07/2026)."
+    },
+    {
+     "ten": "Khu du lịch Đá Tiên",
+     "loai": "khu du lịch rừng thông ven hồ",
+     "dac_trung": "Khu du lịch bên bờ hồ Tuyền Lâm, cuối nhánh trái của khu du lịch hồ (đường từ Trúc Lâm Yên Tử tới 'dự án Đá Tiên - công ty cổ phần Phương Nam' trong bảng giá đất); trang du lịch ghi khoảng 15 ha rừng thông, có cưỡi voi.",
+     "dia_chi": "Hoa Hồng",
+     "duong": "Hoa Hồng",
+     "nguon": [
+      {
+       "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-du-lich-ho-tuyen-lam-nhanh-trai-phuong-3",
+       "trang": "thuviennhadat.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/khu-du-lich-da-tien-da-lat-canh-sac-hoang-so-thien-nhien-huu-tinh-1536",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/4926652121",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4178,
+      "lat": 11.88297,
+      "cach": "tên trên OpenStreetMap: KDL Đá Tiên (leisure=park)",
+      "osm": "node/4926652121"
+     },
+     "con_mo": "chưa rõ."
+    }
+   ],
+   "can_kiem_them": 3,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_duong-ham-dat-set.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Làng đất sét",
+      "thoi_gian": "tên báo dùng năm 2016, nay trang du lịch vẫn gọi",
+      "nguon": [
+       {
+        "link": "https://daidoanket.vn/lang-dat-set-10046325.html",
+        "trang": "daidoanket.vn"
+       },
+       {
+        "link": "https://www.vietnambooking.com/du-lich/blog-du-lich/lang-dat-set-da-lat.html",
+        "trang": "vietnambooking.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "ten": "Khu du lịch Sao Đà Lạt (Dalat Star, Dalatstars)",
+      "thoi_gian": "tên khu du lịch chứa đường hầm",
+      "nguon": [
+       {
+        "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/khu-du-lich-ho-tuyen-lam-phuong-4",
+        "trang": "thuviennhadat.vn"
+       },
+       {
+        "link": "https://doanhnhan.baophapluat.vn/ngoi-nha-dat-do-bazan-doc-dao-nhat-viet-nam-34488.html",
+        "trang": "doanhnhan.baophapluat.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20150331210930940.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://www.openstreetmap.org/node/4368051989",
+        "trang": "openstreetmap.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "moc": [
+     {
+      "nam": "2008",
+      "su_kien": "Ông Trịnh Bá Dũng tìm ra công thức làm cứng đất đỏ bazan không cần nung, sau 4 năm nghiên cứu.",
+      "nguon": [
+       {
+        "link": "https://daidoanket.vn/lang-dat-set-10046325.html",
+        "trang": "daidoanket.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "nam": "2010",
+      "su_kien": "Bắt đầu xây: ngôi nhà đất bazan đầu tiên rồi đường hầm điêu khắc bên hồ Tuyền Lâm.",
+      "nguon": [
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20140404141122937.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://en.sggp.org.vn/artist-creates-clay-replicas-of-buildings-by-da-lat-lake-post7042.html",
+        "trang": "en.sggp.org.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20150331210930940.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/duong-ham-dieu-khac/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2014",
+      "su_kien": "Báo đưa tin công trình sắp xong (dự kiến cuối năm 2014); hầm lộ thiên dài khoảng 1,2 km, nhà đất sét đã được Sách Kỷ lục Việt Nam ghi 2 kỷ lục.",
+      "nguon": [
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20140404141122937.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://en.sggp.org.vn/artist-creates-clay-replicas-of-buildings-by-da-lat-lake-post7042.html",
+        "trang": "en.sggp.org.vn"
+       },
+       {
+        "link": "https://vnexpress.net/cong-trinh-dieu-khac-dat-set-o-da-lat-3038274.html",
+        "trang": "vnexpress.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2015",
+      "su_kien": "Công trình điêu khắc xong sau hơn 3 năm làm, đã bán vé đón khách.",
+      "nguon": [
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20150331210930940.htm",
+        "trang": "dtinews.dantri.com.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Người chinh phục đất",
+      "noi_dung": "Ông Trịnh Bá Dũng, doanh nhân (DTiNews 2014) và nghệ nhân (Báo Pháp Luật, SGGP), nghe bạn nói đất đỏ ở đây xây được nhà vững, bèn mất mấy năm thử trộn đất bazan với phụ gia để đất cứng mà không phải nung. Có công thức rồi, ông xây nhà đất, rồi đào cả một đường hầm giữa đồi thông để đắp tượng.",
+      "nguon": [
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20150331210930940.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://daidoanket.vn/lang-dat-set-10046325.html",
+        "trang": "daidoanket.vn"
+       },
+       {
+        "link": "https://doanhnhan.baophapluat.vn/ngoi-nha-dat-do-bazan-doc-dao-nhat-viet-nam-34488.html",
+        "trang": "doanhnhan.baophapluat.vn"
+       },
+       {
+        "link": "https://e.vnexpress.net/news/travel/places/mud-house-attracts-curiosity-seekers-in-da-lat-4182320.html",
+        "trang": "e.vnexpress.net"
+       },
+       {
+        "link": "https://znews.vn/can-canh-nha-dat-set-duong-ham-dieu-khac-doc-dao-tai-da-lat-post475603.html",
+        "trang": "znews.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Đà Lạt thu nhỏ trong vách đất",
+      "noi_dung": "Đi dọc hầm là đi qua lịch sử Đà Lạt: rừng nguyên sinh, voi, nhà người Cơ Ho, Yersin, xe ngựa, biệt thự Pháp, ga xe lửa, nhà thờ Con Gà, Viện Pasteur, chợ Đà Lạt, khách sạn Palace, Lycée Yersin, rồi tới Đà Lạt bây giờ với sân bay Liên Khương, Thung lũng Tình Yêu, hồ Tuyền Lâm.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/cong-trinh-dieu-khac-dat-set-o-da-lat-3038274.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://daidoanket.vn/lang-dat-set-10046325.html",
+        "trang": "daidoanket.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20140404141122937.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20150331210930940.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://en.sggp.org.vn/artist-creates-clay-replicas-of-buildings-by-da-lat-lake-post7042.html",
+        "trang": "en.sggp.org.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Bản đồ trên mái nhà",
+      "noi_dung": "Mái ngôi nhà đất sét đắp nổi bản đồ Việt Nam, có cả Hoàng Sa và Trường Sa; Zing gọi đó là 'lời nhắc nhủ về chủ quyền dân tộc', SGGP gọi là 'ngôi nhà chủ quyền'.",
+      "nguon": [
+       {
+        "link": "https://vnexpress.net/cong-trinh-dieu-khac-dat-set-o-da-lat-3038274.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://znews.vn/can-canh-nha-dat-set-duong-ham-dieu-khac-doc-dao-tai-da-lat-post475603.html",
+        "trang": "znews.vn"
+       },
+       {
+        "link": "https://en.sggp.org.vn/artist-creates-clay-replicas-of-buildings-by-da-lat-lake-post7042.html",
+        "trang": "en.sggp.org.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20150331210930940.htm",
+        "trang": "dtinews.dantri.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ]
+   },
+   "loai_noi": "diem",
+   "duong_hien": [],
+   "ten_ngan": "Đường hầm đất sét",
+   "ten_hien": "Đường hầm đất sét",
+   "dac_trung": "Hầm đắp đất đỏ kể chuyện Đà Lạt",
+   "ban_gi": "Hầm và nhà đất sét, Hồ Vô Cực; rừng thông ven hồ Tuyền Lâm, khu Đá Tiên; vài quán ăn, cà phê trong khu.",
+   "moc_lau_doi": [
+    "Đường hầm điêu khắc (Đường hầm đất sét, Clay Tunnels - Dalat Star)",
+    "Ngôi nhà đất sét (nhà đất đỏ bazan không nung)",
+    "Hồ Vô Cực (Infinity lake)"
    ]
   },
   {
@@ -11280,6 +12109,498 @@
    "moc_lau_doi": []
   },
   {
+   "id": "pho_prenn",
+   "slug": "prenn",
+   "ten_pho": "Thác Prenn",
+   "duong": [
+    "Đèo Prenn",
+    "Quốc lộ 20",
+    "Đèo Mimosa"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Thác Prenn: thác nước dưới chân đèo Prenn, cửa ngõ phía nam Đà Lạt, cách trung tâm khoảng 10 km; con đèo hiện nay do người Pháp làm từ năm 1943 thay con đường cũ đi từ thác lên phố (nay là đèo Mimosa), thác là thắng cảnh quốc gia từ năm 1998, và đèo được mở rộng lên 4 làn xe đầu năm 2024.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.4701,
+   "lat": 11.87652,
+   "dia_diem": [
+    {
+     "ten": "Thác Prenn",
+     "loai": "thác nước, thắng cảnh quốc gia",
+     "dac_trung": "Thác ngay chân đèo Prenn, nước đổ từ vách đá chồm ra phía trước, có lối đi phía sau màn nước. Người K'Ho gọi 'Prềnh' (cà đắng), cũng có thuyết cho là gốc tiếng Chăm nghĩa 'vùng lấn chiếm'; có du khách gọi thác Tiên Sa. Được công nhận thắng cảnh quốc gia năm 1998 (Báo Văn hóa 2024, vietnamnet 2016; Wikipedia ghi năm 2000). Do Công ty CP Dịch vụ Du lịch Đà Lạt quản lý.",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://baovanhoa.vn/van-hoa/lam-dong-xu-ly-nghiem-xay-dung-trai-phep-tai-thang-canh-quoc-gia-thac-prenn-34495.html",
+       "trang": "baovanhoa.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/node/4096525696",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.470104,
+      "lat": 11.876519,
+      "cach": "tên trên OpenStreetMap: Thác Prenn",
+      "osm": "node/4096525696",
+      "nguon": "OSM node/4096525696 (waterway=waterfall, tra qua Nominatim 26/11/2026)"
+     },
+     "con_mo": "mở (SGGP 08/10/2026: khu du lịch đông khách cuối tuần)."
+    },
+    {
+     "ten": "Đèo Prenn",
+     "loai": "đèo, cửa ngõ phía nam Đà Lạt",
+     "dac_trung": "Đèo dài khoảng 7,4 km từ cuối cao tốc Liên Khương – Prenn lên đầu đường Ba Tháng Tư. Nhà thầu Gross của Pháp làm từ tháng 2/1943, thay con đường cũ từ thác Prenn vào trung tâm; 79 khúc cua. Cuối 2016 thôi là quốc lộ, giao tỉnh Lâm Đồng quản lý. Mở rộng từ 2 lên 4 làn: khởi công 10/2/2023, thông xe toàn tuyến 31/1/2024.",
+     "dia_chi": "Đèo Prenn",
+     "duong": "Đèo Prenn",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://dtinews.dantri.com.vn/print/20231204113308107.htm",
+       "trang": "dtinews.dantri.com.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vinwonders.com/vi/wonderpedia/news/deo-prenn-da-lat/",
+       "trang": "vinwonders.com"
+      },
+      {
+       "link": "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
+       "trang": "tienphong.vn"
+      },
+      {
+       "link": "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html",
+       "trang": "nhandan.vn"
+      },
+      {
+       "link": "https://baodauthau.vn/cai-tao-duong-qua-deo-mimosa-theo-hinh-thuc-ppp-post19987.html",
+       "trang": "baodauthau.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1239534570",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.46186,
+      "lat": 11.889527,
+      "cach": "điểm trên đường OpenStreetMap: Đèo Prenn (giữa đèo)",
+      "osm": "way/1239534570",
+      "nguon": "OSM way/1239534570 (Nominatim)"
+     },
+     "con_mo": "đi được; cuối 2025 sạt lở phải đóng tạm (Thanh Tra 11/2025, DTiNews 12/2025)."
+    },
+    {
+     "ten": "Đèo Mimosa (con đường Prenn cũ)",
+     "loai": "đèo, đường cũ thời Pháp, nay là Quốc lộ 20",
+     "dac_trung": "Wikipedia và mia: đường lên Đà Lạt trước năm 1943 đi từ thác Prenn vào trung tâm; đầu những năm 2000 đường cũ được khôi phục chạy song song đèo Prenn, đặt tên đèo Mimosa (Wikipedia ghi xong năm 2002), VnExpress 2014 gọi là 'Prenn 2'. Tháng 11/2016 Thủ tướng cho chuyển đèo Mimosa (Km0 – Km10+796) thành quốc lộ, đèo Prenn giao tỉnh (Báo Đấu thầu).",
+     "dia_chi": "Đèo Mimosa",
+     "duong": "Đèo Mimosa",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400",
+       "trang": "mia.vn"
+      },
+      {
+       "link": "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html",
+       "trang": "vnexpress.net"
+      },
+      {
+       "link": "https://baodauthau.vn/cai-tao-duong-qua-deo-mimosa-theo-hinh-thuc-ppp-post19987.html",
+       "trang": "baodauthau.vn"
+      },
+      {
+       "link": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/mimosa-phuong-10",
+       "trang": "thuviennhadat.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1346631591",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.471329,
+      "lat": 11.880357,
+      "cach": "điểm trên đường OpenStreetMap: Đèo Mimosa (đoạn gần ngã ba Mimosa – Prenn)",
+      "osm": "way/1346631591",
+      "nguon": "OSM way/1346631591 (Nominatim)"
+     },
+     "con_mo": "đi được; cuối 2025 sạt lở, có lúc ban bố tình huống khẩn cấp (theo các bài báo 11/2025 trong truc-lam)."
+    },
+    {
+     "ten": "Đền thờ Âu Lạc (khu thác Prenn)",
+     "loai": "đền thờ Hùng Vương, Lạc Long Quân – Âu Cơ",
+     "dac_trung": "Quần thể đền Thượng, Trung, Hạ trên đồi nhìn xuống thác, mô phỏng Khu di tích Đền Hùng (Phú Thọ); trước đền có tượng Âu Cơ – Lạc Long Quân và 100 quả trứng chạm từ đá cuội Ninh Thuận. SGGP: khởi công 10/2001, hoạt động từ 1/2002, ngày 1/11/2002 rước bát nhang, đất, nước từ Phú Thọ về. Dịp giỗ Tổ 10/3 âm lịch có lễ hội (VOV 2024).",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://vov.vn/van-hoa/gio-to-hung-vuong-o-thac-prenn-da-lat-thu-hut-nhieu-du-khach-post1089895.vov",
+       "trang": "vov.vn"
+      },
+      {
+       "link": "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465",
+       "trang": "mia.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "mở (VOV 18/4/2024 tả lễ giỗ Tổ; SGGP 10/2026)."
+    },
+    {
+     "ten": "Biệt thự cổ trên đèo Prenn (\"nhà ma\")",
+     "loai": "biệt thự cũ, chuyện đồn",
+     "dac_trung": "Biệt thự cũ trên đỉnh đèo, nổi tiếng vì tin đồn ma. Người Lao Động (vietnamnet đăng lại, 2016) tả hai biệt thự giữa rừng, bỏ hoang lâu nên sinh đồn thổi; cán bộ Sở Xây dựng Lâm Đồng bác chuyện ma. Tháng 9/2014 một công ty mua lại từ Nhà nước, sửa sang. Kiến Thức 2018: nhà có người trông, là nhà tư, vào không xin phép có thể bị coi là xâm nhập.",
+     "dia_chi": "Đèo Prenn",
+     "duong": "Đèo Prenn",
+     "nguon": [
+      {
+       "link": "https://vietnamnet.vn/biet-thu-co-hon-da-lat-nha-ma-tren-deo-prenn-286325.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://kienthuc.net.vn/kho-tri-thuc/ngoi-nha-ma-tru-danh-da-lat-bay-gio-ra-sao-1088164.html",
+       "trang": "kienthuc.net.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "chưa rõ: nhà tư (2016, 2018); Foody có bình luận nói đã thành quán cà phê (1 nguồn)."
+    },
+    {
+     "ten": "Cao tốc Liên Khương – Prenn",
+     "loai": "đường cao tốc, đường tới",
+     "dac_trung": "Tuyến khoảng 19,2 km từ Liên Khương (sân bay) tới chân đèo Prenn, đưa vào dùng từng đoạn từ năm 2008, do Công ty TNHH Hùng Phát vận hành; thiếu đường gom dân sinh nên năm 2024 Lâm Đồng đề xuất làm thêm.",
+     "dia_chi": "Quốc lộ 20",
+     "duong": "Quốc lộ 20",
+     "nguon": [
+      {
+       "link": "https://www.sggp.org.vn/gan-280-ty-dong-lam-duong-gom-dan-sinh-tuyen-cao-toc-lien-khuong-prenn-post755959.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://baodautu.vn/de-xuat-dau-tu-xay-dung-duong-gom-cao-toc-lien-khuong---prenn-d257992.html",
+       "trang": "baodautu.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "đang dùng."
+    }
+   ],
+   "can_kiem_them": 5,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_prenn.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Prềnh (Prenh)",
+      "thoi_gian": "tên theo lời già làng K'Ho, sau đọc chệch thành Prenn",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/thac-prenn-da-lat/",
+        "trang": "vinwonders.com"
+       },
+       {
+        "link": "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html",
+        "trang": "vnexpress.net"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1943",
+      "su_kien": "Tháng 2/1943 nhà thầu Gross của Pháp bắt đầu làm đèo Prenn hiện nay, thay con đường cũ đi từ thác Prenn vào trung tâm.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20231204113308107.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/deo-prenn-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1998",
+      "su_kien": "Thác Prenn được Bộ Văn hóa công nhận thắng cảnh quốc gia.",
+      "nguon": [
+       {
+        "link": "https://baovanhoa.vn/van-hoa/lam-dong-xu-ly-nghiem-xay-dung-trai-phep-tai-thang-canh-quoc-gia-thac-prenn-34495.html",
+        "trang": "baovanhoa.vn"
+       },
+       {
+        "link": "https://vietnamnet.vn/en/the-most-famous-waterfalls-in-lam-dong-E163468.html",
+        "trang": "vietnamnet.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2002",
+      "su_kien": "Đền thờ Âu Lạc trên đồi cạnh thác đi vào hoạt động (khởi công 10/2001); tháng 11/2002 rước bát nhang, đất, nước từ Đền Hùng Phú Thọ về.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "đầu những năm 2000",
+      "su_kien": "Con đường Prenn cũ được khôi phục, chạy song song đèo Prenn, đặt tên đèo Mimosa.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "2008",
+      "su_kien": "Cao tốc Liên Khương – Prenn (khoảng 19,2 km) bắt đầu đưa vào dùng từng đoạn, nối sân bay tới chân đèo.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/gan-280-ty-dong-lam-duong-gom-dan-sinh-tuyen-cao-toc-lien-khuong-prenn-post755959.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://baodautu.vn/de-xuat-dau-tu-xay-dung-duong-gom-cao-toc-lien-khuong---prenn-d257992.html",
+        "trang": "baodautu.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2016",
+      "su_kien": "Tháng 11/2016 đèo Mimosa được chuyển thành Quốc lộ 20; đèo Prenn giao tỉnh Lâm Đồng quản lý.",
+      "nguon": [
+       {
+        "link": "https://baodauthau.vn/cai-tao-duong-qua-deo-mimosa-theo-hinh-thuc-ppp-post19987.html",
+        "trang": "baodauthau.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "2023–2024",
+      "su_kien": "Đèo Prenn đóng để mở rộng từ 2 lên 4 làn: khởi công 10/2/2023, thông xe toàn tuyến 8 giờ sáng 31/1/2024.",
+      "nguon": [
+       {
+        "link": "https://tienphong.vn/thong-xe-toan-tuyen-deo-prenn-tu-ngay-3112024-post1608879.tpo",
+        "trang": "tienphong.vn"
+       },
+       {
+        "link": "https://nhandan.vn/ocop/thong-xe-tuyen-deo-prenn-thanh-pho-da-lat-tu-sang-311-post794457.html",
+        "trang": "nhandan.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20231204113308107.htm",
+        "trang": "dtinews.dantri.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Mưa lớn làm đèo Prenn sạt lở, có lúc phải cấm xe hai chiều và phân luồng qua đèo Mimosa (11–12/2025).",
+      "nguon": [
+       {
+        "link": "https://thanhtra.com.vn/an-sinh-AFA9C5670/lam-dong-sat-lo-tai-deo-prenn-phuong-xuan-huong-da-lat-fd59ebaab.html",
+        "trang": "thanhtra.com.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20251205120247590.htm",
+        "trang": "dtinews.dantri.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Cà đắng hay vùng lấn chiếm",
+      "noi_dung": "Già làng K'Ho kể thác tên Prềnh, nghĩa là cà đắng — loài cà dại mọc nhiều ở đầu nguồn suối; lâu dần đọc thành Prenn. Các nhà dân tộc học lại cho rằng chữ này gốc tiếng Chăm, nghĩa là 'vùng lấn chiếm', nhắc thời người bản địa chống những lần quân Chăm từ Panduranga (Ninh Thuận) tiến lên cao nguyên. Đèo lấy tên theo thác.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-hung-vi-cua-thac-prenn-da-lat-1465",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://vinwonders.com/vi/wonderpedia/news/thac-prenn-da-lat/",
+        "trang": "vinwonders.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Hai con đèo cùng một tên",
+      "noi_dung": "Thuở trước, đường lên Đà Lạt đi từ thác Prenn thẳng vào phố. Từ tháng 2/1943 người Pháp làm con đèo mới, 79 khúc cua — chính là đèo Prenn ngày nay. Đường cũ bị bỏ, đến đầu những năm 2000 mới được sửa lại thành đèo Mimosa, người ta gọi vui là 'Prenn 2'. Năm 2016 hai con đèo đổi vai: Mimosa thành quốc lộ, Prenn thành đường của tỉnh.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/%C4%90%C3%A8o_Prenn",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/chinh-phuc-cung-duong-deo-prenn-ngoan-canh-da-lat-mong-mo-1400",
+        "trang": "mia.vn"
+       },
+       {
+        "link": "https://vnexpress.net/nhung-con-deo-no-hoa-dan-den-da-lat-2957340.html",
+        "trang": "vnexpress.net"
+       },
+       {
+        "link": "https://baodauthau.vn/cai-tao-duong-qua-deo-mimosa-theo-hinh-thuc-ppp-post19987.html",
+        "trang": "baodauthau.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Đền Hùng giữa rừng thông",
+      "noi_dung": "Năm 2002 trên ngọn đồi nhìn xuống thác mọc lên Đền thờ Âu Lạc, ba đền Thượng, Trung, Hạ mô phỏng Đền Hùng ở Phú Thọ; bát nhang, đất và nước được rước từ đất Tổ về. Mỗi dịp giỗ Tổ 10/3 âm lịch, khu thác có lễ rước, dâng hương, trò chơi dân gian.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/doi-thay-o-khu-du-lich-thac-prenn-post875448.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://vov.vn/van-hoa/gio-to-hung-vuong-o-thac-prenn-da-lat-thu-hut-nhieu-du-khach-post1089895.vov",
+        "trang": "vov.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Th%C3%A1c_Prenn",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Căn biệt thự bị đồn có ma",
+      "noi_dung": "Trên đỉnh đèo có hai biệt thự cũ nằm giữa rừng, bỏ hoang lâu năm nên sinh đủ chuyện ma; có người trông nhà còn dẫn khách vào xem mộ, thu tiền cúng và bị phạt. Năm 2014 một công ty mua lại, sửa sang. Cán bộ Sở Xây dựng Lâm Đồng nói không có ma, chỉ là tin đồn để kiếm lợi; giảng viên kiến trúc cho rằng nhà xa dân cư, ít người ở nên dễ sinh đồn thổi.",
+      "nguon": [
+       {
+        "link": "https://vietnamnet.vn/biet-thu-co-hon-da-lat-nha-ma-tren-deo-prenn-286325.html",
+        "trang": "vietnamnet.vn"
+       },
+       {
+        "link": "https://kienthuc.net.vn/kho-tri-thuc/ngoi-nha-ma-tru-danh-da-lat-bay-gio-ra-sao-1088164.html",
+        "trang": "kienthuc.net.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ]
+   },
+   "loai_noi": "diem",
+   "duong_hien": [],
+   "ten_ngan": "Thác Prenn",
+   "ten_hien": "Thác Prenn – đèo Prenn",
+   "dac_trung": "Thác dưới chân đèo cửa ngõ phía nam",
+   "ban_gi": "Thác và đường gỗ sau màn nước, đền thờ Hùng Vương trên đồi, khu nghỉ trong rừng thông; dọc đèo có điểm dừng ngắm cảnh.",
+   "moc_lau_doi": [
+    "Thác Prenn",
+    "Đèo Prenn",
+    "Đền thờ Âu Lạc (khu thác Prenn)"
+   ]
+  },
+  {
    "id": "pho_thai_phien",
    "slug": "thai-phien",
    "ten_pho": "Làng Hoa Thái Phiên",
@@ -14720,7 +16041,7 @@
    "ten_ngan": "Thiền viện Trúc Lâm",
    "ten_hien": "Thiền viện Trúc Lâm – Hồ Tuyền Lâm",
    "dac_trung": "Thiền viện trên núi, cáp treo, thác",
-   "ban_gi": "Cáp treo, thác Datanla, thác Prenn, đường hầm đất sét; cà phê ven suối, ven hồ.",
+   "ban_gi": "Cáp treo qua rừng thông, thuyền trên hồ Tuyền Lâm; cà phê ven suối, ven hồ.",
    "moc_lau_doi": [
     "Thiền viện Trúc Lâm",
     "Hồ Tuyền Lâm",

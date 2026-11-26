@@ -216,7 +216,7 @@
   "ten": "Thiền viện Trúc Lâm – Hồ Tuyền Lâm",
   "ten_ngan": "Thiền viện Trúc Lâm",
   "dac_trung": "Thiền viện trên núi, cáp treo, thác",
-  "ban_gi": "Cáp treo, thác Datanla, thác Prenn, đường hầm đất sét; cà phê ven suối, ven hồ.",
+  "ban_gi": "Cáp treo qua rừng thông, thuyền trên hồ Tuyền Lâm; cà phê ven suối, ven hồ.",
   "moc": [
    "Thiền viện Trúc Lâm",
    "Hồ Tuyền Lâm",
@@ -361,6 +361,51 @@
   "diem": [
    108.47849,
    11.95707
+  ]
+ },
+ "datanla": {
+  "ten": "Thác Datanla",
+  "dac_trung": "Thác 20 m, tên K'Ho 'dưới lá có nước'",
+  "ban_gi": "Thác giữa rừng thông bên đèo Prenn; xe trượt xuống chân thác, zipline, leo dây trên cao, tour vượt thác có hướng dẫn.",
+  "moc": [
+   "Thác Datanla (Đatanla)",
+   "Đường xe trượt (máng trượt) Datanla"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.44884,
+   11.90118
+  ]
+ },
+ "prenn": {
+  "ten": "Thác Prenn – đèo Prenn",
+  "ten_ngan": "Thác Prenn",
+  "dac_trung": "Thác dưới chân đèo cửa ngõ phía nam",
+  "ban_gi": "Thác và đường gỗ sau màn nước, đền thờ Hùng Vương trên đồi, khu nghỉ trong rừng thông; dọc đèo có điểm dừng ngắm cảnh.",
+  "moc": [
+   "Thác Prenn",
+   "Đèo Prenn",
+   "Đền thờ Âu Lạc (khu thác Prenn)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.4701,
+   11.87652
+  ]
+ },
+ "duong-ham-dat-set": {
+  "ten": "Đường hầm đất sét",
+  "dac_trung": "Hầm đắp đất đỏ kể chuyện Đà Lạt",
+  "ban_gi": "Hầm và nhà đất sét, Hồ Vô Cực; rừng thông ven hồ Tuyền Lâm, khu Đá Tiên; vài quán ăn, cà phê trong khu.",
+  "moc": [
+   "Đường hầm điêu khắc (Đường hầm đất sét, Clay Tunnels - Dalat Star)",
+   "Ngôi nhà đất sét (nhà đất đỏ bazan không nung)",
+   "Hồ Vô Cực (Infinity lake)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.41122,
+   11.88287
   ]
  }
 }

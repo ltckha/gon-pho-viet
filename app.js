@@ -790,7 +790,7 @@
     [/than thở/i, 'ho_than_tho'], [/dinh iii|dinh 3/i, 'dinh_3'], [/dinh 2|toàn quyền/i, 'dinh_2'], [/dinh i\b|dinh 1/i, 'dinh_1'],
     [/hằng nga|crazy/i, 'hang_nga'], [/thung lũng tình yêu/i, 'thung_lung_tinh_yeu'], [/lang biang/i, 'lang_biang'], [/trại mát/i, 'ga_trai_mat'], [/tuyền lâm/i, 'ho_tuyen_lam'], [/đa thiện/i, 'ho_da_thien'], [/suối vàng|đankia/i, 'ho_suoi_vang'],
     [/hồ thái phiên|đập thái phiên/i, 'ho_thai_phien'], [/chợ thái phiên/i, 'cho_thai_phien'], [/công viên yersin/i, 'cong_vien_yersin'], [/palace heritage/i, 'khach_san_palace'], [/du parc/i, 'khach_san_du_parc'],
-    [/lục quân|võ bị/i, 'hoc_vien_luc_quan'], [/sân bay cam ly/i, 'san_bay_cam_ly'], [/hầm hỏa xa|hầm xe lửa/i, 'duong_ham_hoa_xa'], [/hai mộ/i, 'doi_thong_hai_mo'], [/đồi chè|cầu đất farm –/i, 'doi_che'],
+    [/lục quân|võ bị/i, 'hoc_vien_luc_quan'], [/sân bay cam ly/i, 'san_bay_cam_ly'], [/hầm hỏa xa|hầm xe lửa/i, 'duong_ham_hoa_xa'], [/hai mộ/i, 'doi_thong_hai_mo'], [/^thác datanla/i, 'datanla'], [/đồi chè|cầu đất farm –/i, 'doi_che'],
     [/bảo tàng trà/i, 'bao_tang_tra'], [/bảo tàng lâm đồng/i, 'bao_tang_lam_dong'], [/thủy tạ/i, 'thuy_ta'], [/sân golf|đồi cù/i, 'san_golf'],
     [/pasteur/i, 'vien_pasteur'], [/couvent/i, 'couvent_des_oiseaux'], [/lưu trữ/i, 'luu_tru_iv'], [/nguyễn hữu hào/i, 'lang_nguyen_huu_hao'],
     [/đình thái phiên/i, 'dinh_thai_phien'], [/cao đài/i, 'thanh_that_cao_dai'], [/ankroet/i, 'thuy_dien_ankroet'], [/nhà lao/i, 'nha_lao_thieu_nhi'],

@@ -11,26 +11,6 @@
     "https://thanhnien.vn/ky-thu-nhung-cung-deo-giai-ma-ten-goi-deo-prenn-185261124202911093.htm"
    ],
    "mot_nguon": false
-  },
-  {
-   "ten": "Dalanta",
-   "thoi_gian": "cách chép nhầm, gặp trên báo và trang tỉnh",
-   "ghi_chu": "Wikipedia ghi một số tài liệu chép nhầm thành 'Dalanta'; trang tiếng Anh của tỉnh Lâm Đồng đặt tiêu đề 'Dalanta waterfall'; 24h năm 2016 cũng viết 'thác Dalanta'. (Tiêu đề trang tỉnh và bài 24h em thấy qua kết quả tìm kiếm/danh mục nguồn Wikipedia; trang tỉnh lỗi 503 khi mở.)",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
-    "https://lamdong.gov.vn/sites/en/tourist/famous-landscape/SitePages/dalanta-waterfall.aspx",
-    "https://www.24h.com.vn/tin-tuc-trong-ngay/3-du-khach-anh-tu-nan-khi-vuot-thac-dalanta-da-lat-c46a772285.html"
-   ],
-   "mot_nguon": false
-  },
-  {
-   "ten": "Liang Đam Rơpu Kwăng",
-   "thoi_gian": "tên người Lạch gọi (theo trang lamdong.gov.vn)",
-   "ghi_chu": "Nghĩa 'thác con trâu đực té'. Em chỉ thấy qua đoạn trích của công cụ tìm kiếm; trang tỉnh lỗi 503, chưa đọc được nguyên văn → chưa dùng.",
-   "nguon": [
-    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/deo-prenn.aspx"
-   ],
-   "mot_nguon": true
   }
  ],
  "moc": [
@@ -163,5 +143,28 @@
   }
  ],
  "mon": [],
- "ghi_chu": "1) Chiều dài xe trượt lệch: 2.400 m (Tuổi Trẻ 2023) / khoảng 1.000 m (Wikipedia) / 805 m và 1.700 m (RCDB, hai đường) → không ghi. 2) Diện tích: 312 ha (Dân trí 2016) / dự án 106,09 ha (Báo Thanh Tra 2026). 3) Năm có xe trượt đầu tiên chưa rõ, chỉ biết muộn nhất 2006 (RCDB). 4) Không tìm thấy văn bản xếp hạng di tích/danh thắng cho thác Datanla. 5) Wikipedia ghi 'cách thác Prenn 8 km', OSM đo khoảng 3,6 km chim bay → không dùng. 6) Không ghi giá vé (các trang ghi khác nhau, hay đổi)."
+ "ghi_chu": "1) Chiều dài xe trượt lệch: 2.400 m (Tuổi Trẻ 2023) / khoảng 1.000 m (Wikipedia) / 805 m và 1.700 m (RCDB, hai đường) → không ghi. 2) Diện tích: 312 ha (Dân trí 2016) / dự án 106,09 ha (Báo Thanh Tra 2026). 3) Năm có xe trượt đầu tiên chưa rõ, chỉ biết muộn nhất 2006 (RCDB). 4) Không tìm thấy văn bản xếp hạng di tích/danh thắng cho thác Datanla. 5) Wikipedia ghi 'cách thác Prenn 8 km', OSM đo khoảng 3,6 km chim bay → không dùng. 6) Không ghi giá vé (các trang ghi khác nhau, hay đổi).",
+ "ten_khac_khong_hien": [
+  {
+   "ten": "Dalanta",
+   "thoi_gian": "cách chép nhầm, gặp trên báo và trang tỉnh",
+   "ghi_chu": "Wikipedia ghi một số tài liệu chép nhầm thành 'Dalanta'; trang tiếng Anh của tỉnh Lâm Đồng đặt tiêu đề 'Dalanta waterfall'; 24h năm 2016 cũng viết 'thác Dalanta'. (Tiêu đề trang tỉnh và bài 24h em thấy qua kết quả tìm kiếm/danh mục nguồn Wikipedia; trang tỉnh lỗi 503 khi mở.)",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Th%C3%A1c_%C4%90atanla",
+    "https://lamdong.gov.vn/sites/en/tourist/famous-landscape/SitePages/dalanta-waterfall.aspx",
+    "https://www.24h.com.vn/tin-tuc-trong-ngay/3-du-khach-anh-tu-nan-khi-vuot-thac-dalanta-da-lat-c46a772285.html"
+   ],
+   "mot_nguon": false
+  },
+  {
+   "ten": "Liang Đam Rơpu Kwăng",
+   "thoi_gian": "tên người Lạch gọi (theo trang lamdong.gov.vn)",
+   "ghi_chu": "Nghĩa 'thác con trâu đực té'. Em chỉ thấy qua đoạn trích của công cụ tìm kiếm; trang tỉnh lỗi 503, chưa đọc được nguyên văn → chưa dùng.",
+   "nguon": [
+    "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/deo-prenn.aspx"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên của con đường khác, hoặc mới 1 nguồn chưa đọc được."
 }

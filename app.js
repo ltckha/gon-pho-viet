@@ -832,7 +832,7 @@
     function met(a, b) { return Math.hypot((a[0] - b[0]) * 108900, (a[1] - b[1]) * 110540); }
     var tenMoc = (ph.moc_lau_doi || []).join('|');
     var gan = (data && data.moc || []).map(function (m) { return { ten: m.ten, d: met([m.lon, m.lat], [ph.lon, ph.lat]) }; })
-      .filter(function (m) { return m.d < 1500 && tenMoc.indexOf(m.ten) < 0; })
+      .filter(function (m) { return m.d < 1500 && (ph.loai_noi !== 'diem' || m.d > 150) && tenMoc.indexOf(m.ten) < 0; })   // nơi loại điểm: mốc trong 150 m chính là nơi đó (nhà thờ Con Gà ≠ 'gần Nhà thờ Chánh tòa')
       .sort(function (a, b) { return a.d - b.d; }).slice(0, 3);
     var kc = Math.round(met([108.43721, 11.94342], [ph.lon, ph.lat]) / 50) * 50;
     var h = (ph.anh ? '<img class="banner" src="' + esc(ph.anh) + '" alt="Tranh đầu ' + esc(ten) + '">'

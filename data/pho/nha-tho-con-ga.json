@@ -1,0 +1,193 @@
+{
+ "road": "Trần Phú",
+ "duong": [
+  "Trần Phú",
+  "Nhà Chung",
+  "Lê Đại Hành"
+ ],
+ "ten_osm": [
+  "Trần Phú",
+  "Nhà Chung",
+  "Lê Đại Hành"
+ ],
+ "ward": "Xuân Hương - Đà Lạt",
+ "ward_check": "chắc",
+ "ward_ghi_chu": "Bảng giá đất QĐ 02/2020/QĐ-UBND (sửa bởi QĐ 16/2021) trên thuviennhadat ghi 'Trần Phú - PHƯỜNG 3' đoạn từ Trần Hưng Đạo (thửa khách sạn Palace) đến hết Công ty cổ phần Địa ốc Đà Lạt; cùng bảng có 'Hẻm 21 Trần Phú (giáp Công ty cổ phần Địa ốc Đà Lạt) - PHƯỜNG 3', tức nhà thờ (giữa hẻm 17 và hẻm 21 trên OSM) nằm trong đoạn Phường 3. GCatholic và mia cũng ghi Phường 3. NQ 1671 mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt. Kiểm bằng ranh phuong.json: điểm OSM way/452519411 nằm trong Xuân Hương - Đà Lạt (mã 24781); Nominatim cũng ghi 'Phường Xuân Hương - Đà Lạt'. Đoạn 'Trần Phú' gần nhất trong duong.json cách tâm nhà thờ khoảng 45 m.",
+ "doan": [
+  {
+   "doan": "Trần Phú: Trần Hưng Đạo (khách sạn Palace) → hết Công ty cổ phần Địa ốc Đà Lạt (đoạn có nhà thờ)",
+   "phuong_cu": "Phường 3",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-phu-phuong-3"
+  },
+  {
+   "doan": "Nhà thờ Chính tòa Đà Lạt",
+   "phuong_cu": "Phường 3 (GCatholic, mia)",
+   "phuong_moi": "Xuân Hương - Đà Lạt",
+   "do_chac": "chắc",
+   "nguon": "https://gcatholic.org/churches/asia/1902",
+   "ghi_chu": "Wikipedia tiếng Việt và Nominatim ghi phường Xuân Hương - Đà Lạt."
+  }
+ ],
+ "ten_pho": "Nhà thờ Con Gà",
+ "gioi_thieu": "Nhà thờ Con Gà: nhà thờ chính tòa Thánh Nicôla Bari trên đường Trần Phú, xây từ 1931 đến 1942 theo đồ án của linh mục Céleste Nicolas; tháp chuông cao 47 m, trên đỉnh có con gà chỉ hướng gió, trong nhà thờ có 70 ô kính màu làm ở Pháp; cách Chợ Đà Lạt khoảng 800 m.",
+ "gioi_thieu_nguon": {
+  "1931–1942": [
+   "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+   "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+   "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+   "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+   "https://vietnamnet.vn/chiem-nguong-kien-truc-chau-au-gan-100-tuoi-cua-nha-tho-con-ga-giua-pho-da-lat-2390652.html"
+  ],
+  "Céleste Nicolas": [
+   "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+   "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/"
+  ],
+  "47 m": [
+   "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+   "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+   "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+   "https://giaophandalat.com/nha-tho-chinh-toa.html",
+   "https://vietnamnet.vn/chiem-nguong-kien-truc-chau-au-gan-100-tuoi-cua-nha-tho-con-ga-giua-pho-da-lat-2390652.html"
+  ],
+  "70 ô kính màu, làm ở Pháp": [
+   "https://giaophandalat.com/nha-tho-chinh-toa.html",
+   "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+   "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+   "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t"
+  ],
+  "khoảng 800 m": "đo đường chim bay trên OSM: tâm way/452519411 tới điểm Chợ Đà Lạt trong duong.json (108.43721, 11.94352) khoảng 810 m"
+ },
+ "dia_diem": [
+  {
+   "ten": "Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)",
+   "loai": "nhà thờ chính tòa",
+   "dac_trung": "Nhà thờ chính tòa Thánh Nicôla Bari của Giáo phận Đà Lạt. Đặt viên đá đầu tiên 19/7/1931, khánh thành 25/1/1942 (Wikipedia, localvietnam). Mặt bằng hình chữ thập dài 65 m, rộng 14 m, tháp chuông 47 m (Wikipedia, VOV, Thanh Niên, Giáo phận Đà Lạt); cửa chính hướng về núi Lang Biang (Wikipedia, Thanh Niên, Giáo phận). Lối Roman, trong có ba gian (Wikipedia, Thanh Niên, Vietnamnet).",
+   "dia_chi": "đường Trần Phú, phường Xuân Hương - Đà Lạt (số nhà các nguồn ghi khác nhau: 13, 15, 17)",
+   "duong": "Trần Phú",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+    "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+    "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+    "https://giaophandalat.com/nha-tho-chinh-toa.html",
+    "https://gcatholic.org/churches/asia/1902",
+    "https://www.openstreetmap.org/way/452519411"
+   ],
+   "do_tin_cay": "cao",
+   "con_mo": "còn hoạt động: Báo Lâm Đồng 25/12/2025 tả lễ đêm Giáng sinh 20h–21h15; Vietnamnet 04/2025 ghi khách vào xem miễn phí.",
+   "ghi_chu": "Số nhà lệch: Wikipedia tiếng Việt ghi 13 Trần Phú, mia ghi 15, Thanh Niên 2023 ghi 17; OSM không ghi số → để trống. Cách Chợ Đà Lạt khoảng 810 m chim bay (OSM).",
+   "vi_tri": {
+    "lon": 108.4376882,
+    "lat": 11.9362368,
+    "nguon": "OSM way/452519411 (amenity=place_of_worship, building=church, name 'Nhà thờ Chánh tòa', name:fr 'Cathédrale Saint Nicolas'; tâm khối qua Nominatim 26/11/2026)"
+   }
+  },
+  {
+   "ten": "Tháp chuông và con gà chỉ hướng gió",
+   "loai": "tháp chuông, chong chóng gió",
+   "dac_trung": "Tháp chuông chính cao 47 m (Wikipedia, VOV, Thanh Niên, Giáo phận Đà Lạt). Thánh giá đặt lên đỉnh tháp ngày 14/11/1934 (Wikipedia tiếng Việt và tiếng Anh, localvietnam). Trên thánh giá có con gà dài 0,66 m, cao 0,58 m, quay theo chiều gió (Wikipedia, VOV, localvietnam); vì con gà này người ta gọi là nhà thờ Con Gà (Wikipedia, Thanh Niên, Giáo phận).",
+   "dia_chi": "đỉnh tháp chuông chính, mặt tiền nhà thờ",
+   "duong": "Trần Phú",
+   "so_nha": "",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+    "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+    "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+    "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+    "https://giaophandalat.com/nha-tho-chinh-toa.html"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Chất liệu lệch: VOV, Vietnamnet gọi 'bronze rooster' (con gà đồng); Wikipedia tiếng Việt và localvietnam ghi hợp kim nhẹ rỗng, phủ lớp hoá chất; Thanh Niên ghi hợp kim rỗng; trang Giáo phận gọi là cột thu lôi đúc hình con gà. Vietnamnet ghi con gà 'cao 66 cm' (lẫn với chiều dài). Wikipedia và localvietnam ghi con gà cách mặt đất 27 m — không khớp tháp 47 m nên không dùng. Wikipedia: cột thu lôi, đế đỡ con gà và chữ thập chỉ bốn hướng 'được sửa chữa, thay mới vài lần' (không rõ năm). OSM không vẽ riêng tháp chuông → không có vi_tri riêng."
+  },
+  {
+   "ten": "70 ô kính màu Louis Balmet",
+   "loai": "kính màu (vitrail)",
+   "dac_trung": "Phần áp mái có 70 tấm kính màu làm ở Pháp, vẽ cảnh Tin Mừng và chân dung các thánh (Giáo phận Đà Lạt, VOV, Thanh Niên). Wikipedia tiếng Việt và localvietnam ghi do xưởng Louis Balmet ở Grenoble (Pháp) làm, lắp ở các cửa sổ vòm dọc gian giữa và quanh cung thánh.",
+   "dia_chi": "cửa sổ vòm trong nhà thờ",
+   "duong": "Trần Phú",
+   "so_nha": "",
+   "nguon": [
+    "https://giaophandalat.com/nha-tho-chinh-toa.html",
+    "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+    "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Năm lắp kính: chưa rõ (không nguồn nào ghi). Tên xưởng Louis Balmet: Wikipedia (dẫn trang giáo xứ Hòa Hưng 2008) và localvietnam; trang Giáo phận chỉ ghi 'chế tạo từ Pháp'. Giáo phận có bài video 'Các bộ kiếng màu của Nhà thờ Chính tòa Đà Lạt' (02/06/2022) nhưng không có chữ."
+  },
+  {
+   "ten": "14 phù điêu Đàng Thánh Giá của Xuân Thi",
+   "loai": "phù điêu",
+   "dac_trung": "Trên tường trong nhà thờ gắn 14 bức phù điêu kể cuộc Thương khó của Chúa Giêsu (Thanh Niên 2023); mỗi bức khoảng 1 m x 0,8 m, do nhà điêu khắc Xuân Thi làm (Giáo phận Đà Lạt, Wikipedia), bằng xi măng và sắt (Wikipedia, localvietnam). Wikipedia ghi tháng 2/1942 làm phép và đặt 14 chặng đàng thánh giá trong gian chính.",
+   "dia_chi": "tường trong gian chính",
+   "duong": "Trần Phú",
+   "so_nha": "",
+   "nguon": [
+    "https://giaophandalat.com/nha-tho-chinh-toa.html",
+    "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/"
+   ],
+   "do_tin_cay": "cao",
+   "ghi_chu": "Năm làm phù điêu của Xuân Thi: chưa rõ. Mốc 2/1942 đặt 14 chặng chỉ Wikipedia ghi; chưa chắc 14 chặng năm 1942 có phải chính các bức của Xuân Thi hay không."
+  }
+ ],
+ "can_kiem_them": [
+  {
+   "ten": "Tượng Chúa Kitô bằng đá cẩm thạch (sân trước nhà thờ)",
+   "duong": "Trần Phú",
+   "so_nha": "",
+   "nguon": [
+    "https://www.openstreetmap.org/node/12869705006"
+   ],
+   "ly_do": "chỉ OSM (tourism=artwork, material=marble); chưa thấy báo nào."
+  },
+  {
+   "ten": "Vườn tượng Đức Mẹ dưới tán thông cạnh nhà thờ",
+   "duong": "Trần Phú",
+   "so_nha": "",
+   "nguon": [
+    "https://vietnamnet.vn/chiem-nguong-kien-truc-chau-au-gan-100-tuoi-cua-nha-tho-con-ga-giua-pho-da-lat-2390652.html"
+   ],
+   "ly_do": "chỉ Vietnamnet (bản tiếng Anh cùng tòa soạn, không tính là nguồn thứ hai)."
+  },
+  {
+   "ten": "Hiệu sách Phaolô phía sau nhà thờ",
+   "duong": "Trần Phú",
+   "so_nha": "",
+   "nguon": [
+    "https://vietnamnet.vn/chiem-nguong-kien-truc-chau-au-gan-100-tuoi-cua-nha-tho-con-ga-giua-pho-da-lat-2390652.html",
+    "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html"
+   ],
+   "ly_do": "hai bài cùng một báo Vietnamnet → coi như 1 nguồn."
+  },
+  {
+   "ten": "Chuông hiện nay trên tháp",
+   "duong": "Trần Phú",
+   "so_nha": "",
+   "nguon": [],
+   "ly_do": "không tìm thấy nguồn nào ghi số chuông, nơi đúc của nhà thờ hiện nay (chỉ có 4 chuông Paccard của nhà thờ cũ 1923)."
+  }
+ ],
+ "da_dong": [],
+ "nguon_chung": [
+  "https://thuviennhadat.vn/bang-gia-dat/lam-dong/thanh-pho-da-lat/tran-phu-phuong-3",
+  "data/lam-dong/nq1671.json (mục 99: Phường 1, 2, 3, 4, 10 → Xuân Hương - Đà Lạt)",
+  "data/lam-dong/phuong.json (kiểm điểm nằm trong phường)",
+  "data/lam-dong/da-lat/duong.json (tên đường: Trần Phú, Nhà Chung, Lê Đại Hành)",
+  "https://api.openstreetmap.org/api/0.6/map?bbox=108.4365,11.9350,108.4390,11.9372 (tải 26/11/2026)",
+  "https://nominatim.openstreetmap.org/lookup?osm_ids=W452519411 (26/11/2026)",
+  "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+  "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+  "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+  "https://giaophandalat.com/nha-tho-chinh-toa.html",
+  "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+  "https://gcatholic.org/churches/asia/1902"
+ ],
+ "cap_nhat": "2026-11-26"
+}

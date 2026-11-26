@@ -38,17 +38,6 @@
    "ghi_chu": "Nhiều trang du lịch ghi năm 1932. Bản tổng hợp báo cũ thì cho thấy năm 1931 khách sạn gần xong, cuối 1933 mới giao cho người quản lý, và tháng 4/1934 mở một phần."
   },
   {
-   "nam": "1931–1942",
-   "su_kien": "Xây nhà thờ chính tòa Thánh Nicôla, tức nhà thờ Con Gà. Đặt viên đá đầu tiên ngày 19/7/1931, gắn thánh giá có con gà trên tháp chuông ngày 14/11/1934, khánh thành năm 1942.",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
-    "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
-    "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Wikipedia tiếng Việt ghi khánh thành ngày 25/1/1942 và làm phép tháng 2/1942. Wikipedia tiếng Anh chỉ ghi làm phép tháng 2/1942."
-  },
-  {
    "nam": "1941 hoặc 1943",
    "su_kien": "Mặt tiền Lang-Bian Palace bị sửa lại cho đơn giản hơn: bỏ bớt trang trí, thêm nét Art Deco.",
    "nguon": [
@@ -69,16 +58,6 @@
   }
  ],
  "chuyen": [
-  {
-   "tieu_de": "Con gà chỉ hướng gió",
-   "noi_dung": "Trên đỉnh tháp chuông có con gà bằng đồng dài 0,66 m, quay theo chiều gió. Con gà được hiểu là gà trống Gaulois của Pháp, hoặc nhắc chuyện thánh Phêrô chối Chúa ba lần trước khi gà gáy.",
-   "nguon": [
-    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
-    "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
-    "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html"
-   ],
-   "mot_nguon": false
-  },
   {
    "tieu_de": "Khách sạn xây ngược hướng",
    "noi_dung": "Một bài báo năm 1922 kể khách sạn Lang-Bian Palace xây gần xong mới biết phòng quay ra phía sau, khách muốn ngắm cảnh phải đứng ở cửa sổ phòng tắm, nên lại phải sửa. Khánh thành được vài tuần thì ống thoát nước nhà vệ sinh xây kín trong tường bị nứt, khách sạn phải đóng cửa để sửa lớn.",
@@ -136,6 +115,18 @@
     "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm"
    ],
    "mot_nguon": false
+  },
+  {
+   "nam": "1931–1942",
+   "su_kien": "Xây nhà thờ chính tòa Thánh Nicôla, tức nhà thờ Con Gà. Đặt viên đá đầu tiên ngày 19/7/1931, gắn thánh giá có con gà trên tháp chuông ngày 14/11/1934, khánh thành năm 1942.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+    "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Wikipedia tiếng Việt ghi khánh thành ngày 25/1/1942 và làm phép tháng 2/1942. Wikipedia tiếng Anh chỉ ghi làm phép tháng 2/1942.",
+   "ly_do_an": "Soát 26/11/2026: nay ở trang riêng Nhà thờ Con Gà."
   }
  ],
  "chuyen_khong_hien": [
@@ -148,6 +139,17 @@
    ],
    "mot_nguon": true,
    "ghi_chu": "Chuyện quay mặt chỉ có Thanh Niên kể (báo dẫn lại cổng thông tin tỉnh). Báo Lâm Đồng thì viết khác: lúc xây, đình tựa vào dốc Duy Tân (đường 3/2) và cửa chính nhìn xuống phía Phan Đình Phùng. Cả hai báo đều kể đình do một chủ thầu người Việt bỏ tiền mua vật liệu, còn dân phu làm đường góp công xây."
+  },
+  {
+   "tieu_de": "Con gà chỉ hướng gió",
+   "noi_dung": "Trên đỉnh tháp chuông có con gà bằng đồng dài 0,66 m, quay theo chiều gió. Con gà được hiểu là gà trống Gaulois của Pháp, hoặc nhắc chuyện thánh Phêrô chối Chúa ba lần trước khi gà gáy.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+    "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html"
+   ],
+   "mot_nguon": false,
+   "ly_do_an": "Soát 26/11/2026: nay ở trang riêng Nhà thờ Con Gà."
   }
  ],
  "khong_hien_ghi_chu": "Soát 26/11/2026: chuyện của đường/nơi khác (anh Kha: không lấy lịch sử, tên đổi của nơi này đưa qua nơi kia); giữ làm tư liệu, không hiện."

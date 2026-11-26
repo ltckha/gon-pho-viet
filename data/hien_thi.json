@@ -57,7 +57,6 @@
   "dac_trung": "Nhà thờ Con Gà và khách sạn thời Pháp",
   "ban_gi": "Khách sạn cổ, tiệm bánh, quán phở, bánh canh, cơm gia đình; tối có cháo đêm.",
   "moc": [
-   "Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)",
    "Dalat Palace Heritage Hotel",
    "Du Parc Hotel Dalat"
   ],
@@ -203,7 +202,6 @@
   "ban_gi": "Khu du lịch, đồi hoa; dọc đường vào có gà nướng cơm lam, lẩu gà lá é, bún bò.",
   "moc": [
    "Khu du lịch Thung Lũng Tình Yêu (TTC World – Thung Lũng Tình Yêu)",
-   "Trường Đại học Đà Lạt",
    "Hồ Đa Thiện"
   ],
   "loai": "diem",
@@ -265,7 +263,6 @@
   "ban_gi": "Đi tàu từ ga Đà Lạt xuống; xem chùa, thánh thất; chiều tối cà phê ngắm thung lũng nhà kính lên đèn.",
   "moc": [
    "Ga Trại Mát",
-   "Chùa Linh Phước (chùa Ve Chai, chùa Mảnh Chai)",
    "Thánh thất Cao Đài Đa Phước (Thánh thất Cao Đài Đà Lạt)"
   ],
   "loai": "diem",
@@ -325,7 +322,6 @@
   "ban_gi": "Mua vé xem ngôi nhà gốc cây, hang động; ngủ lại phòng theo chủ đề con vật; Viện Pasteur mở năm 1936; trường dòng Couvent des Oiseaux; đi bộ tới Dinh III.",
   "moc": [
    "Biệt thự Hằng Nga (Crazy House)",
-   "Viện Pasteur Đà Lạt (nay Công ty Vắc xin Pasteur Đà Lạt)",
    "Couvent des Oiseaux (Tu viện Đức Bà Lâm Viên, nay Trường PT Dân tộc Nội trú Lâm Đồng)"
   ],
   "loai": "diem",
@@ -406,6 +402,65 @@
   "diem": [
    108.41122,
    11.88287
+  ]
+ },
+ "chua-linh-phuoc": {
+  "ten": "Chùa Linh Phước",
+  "ten_ngan": "Chùa Ve Chai",
+  "dac_trung": "Chùa khảm ve chai, rồng 49 m",
+  "ban_gi": "Chùa khảm mảnh chai, sành sứ; rồng ve chai trong sân, tháp chuông 7 tầng, tượng Quan Âm kết hoa bất tử.",
+  "moc": [
+   "Rồng ve chai ở Long Hoa Viên",
+   "Tháp chuông 7 tầng (Linh tháp)",
+   "Đại hồng chung"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.4994,
+   11.94428
+  ]
+ },
+ "dai-hoc-da-lat": {
+  "ten": "Đại học Đà Lạt",
+  "dac_trung": "Trường thiếu sinh quân thành đại học",
+  "ban_gi": "Khuôn viên trường giữa đồi thông: giảng đường cũ, nguyện đường có tháp cao, thư viện.",
+  "moc": [
+   "Nguyện đường Năng Tĩnh và tháp chuông (tháp Sao)",
+   "Thư viện (Trung tâm Thông tin – Thư viện)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.44538,
+   11.95609
+  ]
+ },
+ "vien-pasteur": {
+  "ten": "Viện Pasteur Đà Lạt",
+  "dac_trung": "Viện vắc xin thời Pháp, mở năm 1936",
+  "ban_gi": "Nhà máy vắc xin đang chạy, chưa thấy nguồn nói mở cửa tham quan; chỉ xem kiến trúc từ ngoài.",
+  "moc": [
+   "Toà nhà chính Viện Pasteur Đà Lạt",
+   "Chân dung Louis Pasteur đắp nổi trên mặt tiền"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.42724,
+   11.93336
+  ]
+ },
+ "nha-tho-con-ga": {
+  "ten": "Nhà thờ Con Gà",
+  "dac_trung": "Tháp 47 m, con gà chỉ hướng gió",
+  "ban_gi": "Nhà thờ chính tòa của giáo phận; khách vào xem kiến trúc, kính màu, phù điêu; đêm Giáng sinh rất đông người.",
+  "moc": [
+   "Tháp chuông và con gà chỉ hướng gió",
+   "70 ô kính màu Louis Balmet",
+   "14 phù điêu Đàng Thánh Giá của Xuân Thi"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.43769,
+   11.93624
   ]
  }
 }

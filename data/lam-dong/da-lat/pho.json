@@ -2721,26 +2721,6 @@
       "muc": "chac"
      },
      {
-      "nam": "1931–1942",
-      "su_kien": "Xây nhà thờ chính tòa Thánh Nicôla, tức nhà thờ Con Gà. Đặt viên đá đầu tiên ngày 19/7/1931, gắn thánh giá có con gà trên tháp chuông ngày 14/11/1934, khánh thành năm 1942.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
-        "trang": "en.wikipedia.org"
-       },
-       {
-        "link": "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html",
-        "trang": "vietnamnet.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
-     {
       "nam": "1941 hoặc 1943",
       "su_kien": "Mặt tiền Lang-Bian Palace bị sửa lại cho đơn giản hơn: bỏ bớt trang trí, thêm nét Art Deco.",
       "nguon": [
@@ -2774,26 +2754,6 @@
      }
     ],
     "chuyen": [
-     {
-      "tieu_de": "Con gà chỉ hướng gió",
-      "noi_dung": "Trên đỉnh tháp chuông có con gà bằng đồng dài 0,66 m, quay theo chiều gió. Con gà được hiểu là gà trống Gaulois của Pháp, hoặc nhắc chuyện thánh Phêrô chối Chúa ba lần trước khi gà gáy.",
-      "nguon": [
-       {
-        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
-        "trang": "vi.wikipedia.org"
-       },
-       {
-        "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
-        "trang": "en.wikipedia.org"
-       },
-       {
-        "link": "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html",
-        "trang": "vietnamnet.vn"
-       }
-      ],
-      "mot_nguon": false,
-      "muc": "chac"
-     },
      {
       "tieu_de": "Khách sạn xây ngược hướng",
       "noi_dung": "Một bài báo năm 1922 kể khách sạn Lang-Bian Palace xây gần xong mới biết phòng quay ra phía sau, khách muốn ngắm cảnh phải đứng ở cửa sổ phòng tắm, nên lại phải sửa. Khánh thành được vài tuần thì ống thoát nước nhà vệ sinh xây kín trong tường bị nứt, khách sạn phải đóng cửa để sửa lớn.",
@@ -2833,7 +2793,6 @@
    "dac_trung": "Nhà thờ Con Gà và khách sạn thời Pháp",
    "ban_gi": "Khách sạn cổ, tiệm bánh, quán phở, bánh canh, cơm gia đình; tối có cháo đêm.",
    "moc_lau_doi": [
-    "Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)",
     "Dalat Palace Heritage Hotel",
     "Du Parc Hotel Dalat"
    ]
@@ -3749,6 +3708,952 @@
     "Cầu Đất Farm – Đồi chè Cầu Đất",
     "Bảo tàng trà cổ Cầu Đất Farm (xưởng chè cũ)",
     "Đường hầm hỏa xa (hầm xe lửa cổ)"
+   ]
+  },
+  {
+   "id": "pho_chua_linh_phuoc",
+   "slug": "chua-linh-phuoc",
+   "ten_pho": "Chùa Linh Phước",
+   "duong": [
+    "Tự Phước",
+    "Lương Định Của"
+   ],
+   "ward": "Xuân Trường - Đà Lạt",
+   "gioi_thieu": "Chùa Linh Phước (chùa Ve Chai): chùa ở Trại Mát khởi công năm 1949, xây lại lớn từ năm 1990, khắp nơi khảm mảnh chai, mảnh sành — con rồng dài 49 m trong sân ghép từ khoảng 12.000 vỏ chai, tháp 7 tầng treo đại hồng chung đúc năm 1999 nặng 8.500 kg; cách ga Trại Mát khoảng 300 m.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.4994,
+   "lat": 11.94428,
+   "dia_diem": [
+    {
+     "ten": "Chính điện khảm sành",
+     "loai": "chính điện",
+     "dac_trung": "Chính điện dài 33 m (Báo Pháp Luật 2018 ghi rộng 12 m; mia ghi rộng 27 m). Hai hàng cột rồng khảm sành dọc chánh điện; nội điện có tượng Phật Thích Ca thếp vàng cao 4,9 m; lầu trên có gian thờ tượng Quan Âm nghìn tay nghìn mắt (Thanh Tra 2012). Mặt ngoài, mái và cột khảm mảnh chai, chén bát vỡ, sành sứ (Báo Pháp Luật, Tuổi Trẻ).",
+     "dia_chi": "120 Tự Phước",
+     "duong": "Tự Phước",
+     "nguon": [
+      {
+       "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+       "trang": "baophapluat.vn"
+      },
+      {
+       "link": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+       "trang": "thanhtra.com.vn"
+      },
+      {
+       "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://www.vietnamtourism.com/vi/chua-linh-phuoc-ngoi-chua-kham-sanh-da-lat-lich-su-tham-quan",
+       "trang": "vietnamtourism.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": null
+    },
+    {
+     "ten": "Rồng ve chai ở Long Hoa Viên",
+     "loai": "tác phẩm khảm",
+     "dac_trung": "Con rồng dài 49 m uốn quanh tượng Phật Di Lặc trong vườn Long Hoa Viên (Thanh Tra 2012, Tuổi Trẻ 2013); thân ghép từ vỏ chai bia (Tuổi Trẻ: 'hàng nghìn vỏ chai bia'; Báo Pháp Luật, Wikipedia: khoảng 12.000 vỏ chai). Đây là chỗ sinh ra tên 'chùa Ve Chai'. Tổ chức Kỷ lục Việt Nam ghi là con rồng bằng vỏ chai bia lớn nhất (VTC 2023).",
+     "dia_chi": "120 Tự Phước",
+     "duong": "Tự Phước",
+     "nguon": [
+      {
+       "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+       "trang": "baophapluat.vn"
+      },
+      {
+       "link": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+       "trang": "thanhtra.com.vn"
+      },
+      {
+       "link": "https://vietnamnet.vn/en/linh-phuoc-the-pagoda-of-records-E166161.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+       "trang": "vtcnews.vn"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple",
+       "trang": "en.wikipedia.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": null
+    },
+    {
+     "ten": "Tháp chuông 7 tầng (Linh tháp)",
+     "loai": "tháp chuông",
+     "dac_trung": "Tòa Linh tháp 7 tầng thờ chư Bồ Tát, Hộ Pháp, tầng trên treo đại hồng chung (Tuổi Trẻ 2013). Nhiều báo ghi cao khoảng 36–37 m (Thanh Tra 2012: 36 m; Báo Pháp Luật 2018: trên 37 m; DTiNews 2017: 36 m) và gọi là tháp chuông cao nhất Việt Nam; Tổ chức Kỷ lục Việt Nam ghi 'ngôi chùa có tháp chuông cao nhất' (VTC 2023).",
+     "dia_chi": "Lương Định Của",
+     "duong": "Lương Định Của",
+     "nguon": [
+      {
+       "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+       "trang": "thanhtra.com.vn"
+      },
+      {
+       "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+       "trang": "baophapluat.vn"
+      },
+      {
+       "link": "https://dtinews.dantri.com.vn/print/20171219094216580.htm",
+       "trang": "dtinews.dantri.com.vn"
+      },
+      {
+       "link": "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+       "trang": "vtcnews.vn"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/522159670",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.499451,
+      "lat": 11.944229,
+      "nguon": "OSM way/522159670 (tháp 7 tầng, name 'Linh Phuoc'; qua Nominatim lookup 26/11/2026)"
+     },
+     "con_mo": null
+    },
+    {
+     "ten": "Đại hồng chung",
+     "loai": "chuông chùa",
+     "dac_trung": "Quả chuông do nghệ nhân Huế đúc năm 1999 (Tuổi Trẻ), nặng 8.500 kg, cao khoảng 4,3–4,38 m (Báo Pháp Luật, Thanh Tra, VietNamNet), treo trong Linh tháp 7 tầng. Từng được gọi là chuông lớn nhất Việt Nam (Thanh Tra 2012); nay một số trang ghi đã bị chuông chùa Bái Đính vượt (mia, mytour).",
+     "dia_chi": "Lương Định Của",
+     "duong": "Lương Định Của",
+     "nguon": [
+      {
+       "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+       "trang": "baophapluat.vn"
+      },
+      {
+       "link": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+       "trang": "thanhtra.com.vn"
+      },
+      {
+       "link": "https://vietnamnet.vn/en/linh-phuoc-the-pagoda-of-records-E166161.html",
+       "trang": "vietnamnet.vn"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple",
+       "trang": "en.wikipedia.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": null
+    },
+    {
+     "ten": "Tượng Quan Âm hoa bất tử",
+     "loai": "tượng Phật bằng hoa",
+     "dac_trung": "Tượng Quan Thế Âm cao 17 m kết bằng hoa bất tử, làm trong 36 ngày cuối năm 2009 (Báo Văn hóa: 25/11–31/12/2009), dựng dịp Festival Hoa Đà Lạt 2010; hai năm thay hoa một lần. Được ghi kỷ lục Việt Nam (2010), châu Á (2012), thế giới (2017) (DTiNews/VNS, Báo Văn hóa).",
+     "dia_chi": "120 Tự Phước",
+     "duong": "Tự Phước",
+     "nguon": [
+      {
+       "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+       "trang": "tuoitre.vn"
+      },
+      {
+       "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+       "trang": "baophapluat.vn"
+      },
+      {
+       "link": "https://baovanhoa.vn/di-san/chua-linh-phuoc-da-lat-xac-lap-ky-luc-the-gioi-45356.html",
+       "trang": "baovanhoa.vn"
+      },
+      {
+       "link": "https://dtinews.dantri.com.vn/print/20171219094216580.htm",
+       "trang": "dtinews.dantri.com.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": null
+    }
+   ],
+   "can_kiem_them": 3,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_chua-linh-phuoc.md",
+   "chuyen": {
+    "ten_cu": [],
+    "moc": [
+     {
+      "nam": "1949",
+      "su_kien": "Khởi công xây chùa Linh Phước ở Trại Mát.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+        "trang": "baophapluat.vn"
+       },
+       {
+        "link": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+        "trang": "thanhtra.com.vn"
+       },
+       {
+        "link": "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+        "trang": "vtcnews.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/di-san/chua-linh-phuoc-da-lat-xac-lap-ky-luc-the-gioi-45356.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1951",
+      "su_kien": "Vị trụ trì đầu tiên được ghi tên: Thích Minh Thể (1951–1954); đến nay chùa qua 5 đời trụ trì.",
+      "nguon": [
+       {
+        "link": "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+        "trang": "vtcnews.vn"
+       },
+       {
+        "link": "https://vietnamnet.vn/en/linh-phuoc-the-pagoda-of-records-E166161.html",
+        "trang": "vietnamnet.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1952",
+      "su_kien": "Chùa xây xong.",
+      "nguon": [
+       {
+        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+        "trang": "baophapluat.vn"
+       },
+       {
+        "link": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+        "trang": "thanhtra.com.vn"
+       },
+       {
+        "link": "https://vietnamnet.vn/en/linh-phuoc-the-pagoda-of-records-E166161.html",
+        "trang": "vietnamnet.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1985",
+      "su_kien": "Thích Tâm Vị bắt đầu trụ trì chùa.",
+      "nguon": [
+       {
+        "link": "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+        "trang": "vtcnews.vn"
+       },
+       {
+        "link": "https://vietnamnet.vn/en/linh-phuoc-the-pagoda-of-records-E166161.html",
+        "trang": "vietnamnet.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Linh_Ph%C6%B0%E1%BB%9Bc_Temple",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1990",
+      "su_kien": "Chùa xây lại lớn, thêm nhiều công trình mới khảm mảnh chai, mảnh sành.",
+      "nguon": [
+       {
+        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+        "trang": "baophapluat.vn"
+       },
+       {
+        "link": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+        "trang": "thanhtra.com.vn"
+       },
+       {
+        "link": "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+        "trang": "vtcnews.vn"
+       },
+       {
+        "link": "https://vietnamnet.vn/en/linh-phuoc-the-pagoda-of-records-E166161.html",
+        "trang": "vietnamnet.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1999",
+      "su_kien": "Nghệ nhân Huế đúc đại hồng chung nặng 8.500 kg, treo trong tháp 7 tầng.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+        "trang": "baophapluat.vn"
+       },
+       {
+        "link": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+        "trang": "thanhtra.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2009",
+      "su_kien": "Kết tượng Quan Thế Âm cao 17 m bằng hoa bất tử trong 36 ngày (25/11–31/12/2009).",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+        "trang": "baophapluat.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/di-san/chua-linh-phuoc-da-lat-xac-lap-ky-luc-the-gioi-45356.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2010",
+      "su_kien": "Tượng Quan Âm hoa bất tử ra mắt dịp Festival Hoa Đà Lạt, được ghi kỷ lục Việt Nam.",
+      "nguon": [
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20171219094216580.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/di-san/chua-linh-phuoc-da-lat-xac-lap-ky-luc-the-gioi-45356.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2012",
+      "su_kien": "Tượng hoa được ghi kỷ lục châu Á.",
+      "nguon": [
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20171219094216580.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/di-san/chua-linh-phuoc-da-lat-xac-lap-ky-luc-the-gioi-45356.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2017",
+      "su_kien": "Tượng Quan Âm hoa bất tử được công nhận kỷ lục thế giới.",
+      "nguon": [
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20171219094216580.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://baovanhoa.vn/di-san/chua-linh-phuoc-da-lat-xac-lap-ky-luc-the-gioi-45356.html",
+        "trang": "baovanhoa.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Ngày 1/7/2025 chùa thuộc phường Xuân Trường - Đà Lạt (gộp từ Phường 11 cũ).",
+      "nguon": [
+       {
+        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/nq1671.json",
+        "trang": "Nghị quyết 1671/NQ-UBTVQH15"
+       },
+       {
+        "link": "https://nominatim.openstreetmap.org/lookup?format=json&osm_ids=W1048566814",
+        "trang": "nominatim.openstreetmap.org"
+       },
+       {
+        "link": "https://mia.vn/cam-nang-du-lich/chua-linh-phuoc-chua-ve-chai-kham-pha-ngoi-chua-co-11-cai-nhat-va-kien-truc-dac-sac-o-da-lat-1344",
+        "trang": "mia.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Vì sao gọi chùa Ve Chai",
+      "noi_dung": "Người Đà Lạt gọi Linh Phước là chùa Ve Chai, chùa Mảnh Chai, vì từ chính điện, cột rồng đến con rồng dài 49 m trong sân đều khảm bằng mảnh chai, chén bát vỡ, sành sứ. Riêng thân rồng ghép từ vỏ chai bia.",
+      "nguon": [
+       {
+        "link": "https://tuoitre.vn/chua-manh-chai---linh-phuoc-583186.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://thanhtra.com.vn/van-hoa-the-thao-BE2162E3A/ngoan-canh-chua-ve-chai-FE52732F.html",
+        "trang": "thanhtra.com.vn"
+       },
+       {
+        "link": "https://vtcnews.vn/ngoi-chua-nao-co-kien-truc-ve-chai-doc-dao-giu-nhieu-ky-luc-nhat-viet-nam-ar834043.html",
+        "trang": "vtcnews.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Đi xin ve chai",
+      "noi_dung": "Để có vật liệu khảm, các sư đi xin vỏ chai ở nhà máy bia rượu, gom chén bát vỡ của người dân và một xưởng làm chén gần chùa; về sau xưởng tự gom chén bể mang tới. Chai được nung nóng rồi nhúng nước lạnh cho nứt, mài tay thành từng mảnh. Thợ khảm là nghệ nhân từ Huế.",
+      "nguon": [
+       {
+        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Pho tượng kết bằng hoa",
+      "noi_dung": "Cuối năm 2009, Phật tử kết tượng Quan Thế Âm cao 17 m bằng hoa bất tử trong 36 ngày, kịp Festival Hoa 2010. Cứ hai năm tượng được thay hoa một lần. Tượng lần lượt được ghi kỷ lục Việt Nam, châu Á rồi thế giới năm 2017.",
+      "nguon": [
+       {
+        "link": "https://baovanhoa.vn/di-san/chua-linh-phuoc-da-lat-xac-lap-ky-luc-the-gioi-45356.html",
+        "trang": "baovanhoa.vn"
+       },
+       {
+        "link": "https://dtinews.dantri.com.vn/print/20171219094216580.htm",
+        "trang": "dtinews.dantri.com.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/nhung-duyen-ngo-ky-la-o-ngoi-chua-ket-thanh-tu-hang-trieu-manh-ve-chai-post293846.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ]
+   },
+   "loai_noi": "diem",
+   "duong_hien": [],
+   "ten_ngan": "Chùa Ve Chai",
+   "ten_hien": "Chùa Linh Phước",
+   "dac_trung": "Chùa khảm ve chai, rồng 49 m",
+   "ban_gi": "Chùa khảm mảnh chai, sành sứ; rồng ve chai trong sân, tháp chuông 7 tầng, tượng Quan Âm kết hoa bất tử.",
+   "moc_lau_doi": [
+    "Rồng ve chai ở Long Hoa Viên",
+    "Tháp chuông 7 tầng (Linh tháp)",
+    "Đại hồng chung"
+   ]
+  },
+  {
+   "id": "pho_dai_hoc_da_lat",
+   "slug": "dai-hoc-da-lat",
+   "ten_pho": "Đại học Đà Lạt",
+   "duong": [
+    "Phù Đổng Thiên Vương",
+    "Võ Trường Toản"
+   ],
+   "ward": "Lâm Viên - Đà Lạt",
+   "gioi_thieu": "Trường Đại học Đà Lạt: khuôn viên khoảng 38 ha trên đồi thông ở số 1 Phù Đổng Thiên Vương, cách Chợ Đà Lạt khoảng 1,7 km đường chim bay; năm 1939 là Trường Thiếu sinh quân Âu – Á của Pháp, năm 1957 thành Viện Đại học Đà Lạt (khóa đầu 1958), từ ngày 27/10/1976 là Trường Đại học Đà Lạt.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.44538,
+   "lat": 11.95609,
+   "dia_diem": [
+    {
+     "ten": "Trường Đại học Đà Lạt",
+     "loai": "trường đại học, khuôn viên đồi thông",
+     "dac_trung": "Khuôn viên khoảng 38 ha với khoảng 40 công trình rải dọc các đường nhỏ trong rừng thông (Wikipedia dẫn sách 'Đường phố Đà Lạt' của Nguyễn Tiến Quỳnh; Thanh Niên 2024; Đỗ Hữu Nghiêm ghi khu đồi A 'chừng 38-40 ha'). Thập niên 1920 là trại lính, năm 1939 thành Trường Thiếu sinh quân Hỗn hợp Âu – Á (Thanh Niên 2024, Wikipedia). Viện Đại học Đà Lạt có giấy phép Nghị định 67/BNV/NA/P5 ngày 8/8/1957, khai giảng niên khóa 1958–1959; Quyết định 426 ngày 27/10/1976 lập Trường Đại học Đà Lạt trên cơ sở kế thừa khuôn viên và cơ sở vật chất của Viện (SGGP 2023, Báo Lâm Đồng 2026).",
+     "dia_chi": "1 Phù Đổng Thiên Vương",
+     "duong": "Phù Đổng Thiên Vương",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
+       "trang": "sggp.org.vn"
+      },
+      {
+       "link": "https://baolamdong.vn/truong-dai-hoc-da-lat-dot-pha-tu-duy-doi-moi-chat-luong-day-va-hoc-471080.html",
+       "trang": "baolamdong.vn"
+      },
+      {
+       "link": "http://vietcatholicnews.org/News/Html/55503.htm",
+       "trang": "vietcatholicnews.org"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/969458761",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4453785,
+      "lat": 11.9560857,
+      "nguon": "OSM way/969458761 (amenity=university, name 'Trường Đại học Đà Lạt', addr 1 Phù Đổng Thiên Vương; tâm do Nominatim tính, 26/11/2026)"
+     },
+     "con_mo": "đang là trường học. Giờ cho khách vào tham quan: chưa có nguồn."
+    },
+    {
+     "ten": "Nguyện đường Năng Tĩnh và tháp chuông (tháp Sao)",
+     "loai": "nhà nguyện cũ của Viện Đại học, nay là giảng đường",
+     "dac_trung": "Trước kia là nguyện đường Năng Tĩnh của Viện Đại học Đà Lạt, nay là khu giảng đường; tháp chuông là nét đặc trưng của khuôn viên (Tia Sáng 2019). Tháp xây theo khối tam giác, cao 38 m, các dãy nhà xếp hình quạt hướng về chân tháp (blog kiến trúc sư Trần Công Hòa). Thanh Niên 2024 gọi 'Tháp Sao cao 38 m là biểu tượng của trường'; blog Mực Tím Sơn Đen kể thánh giá trên tháp chuông nay đổi thành ngôi sao.",
+     "dia_chi": "Phù Đổng Thiên Vương",
+     "duong": "Phù Đổng Thiên Vương",
+     "nguon": [
+      {
+       "link": "https://tiasang.com.vn/truong-dai-hoc-da-lat-tham-lang-va-chuyen-tam-4973692.html",
+       "trang": "tiasang.com.vn"
+      },
+      {
+       "link": "http://dalatarchi-tranconghoakts.blogspot.com/2014/10/dalatarchi-vien-ai-hoc-lat.html",
+       "trang": "dalatarchi-tranconghoakts.blogspot.com"
+      },
+      {
+       "link": "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://www.muctimsonden.com/2024/01/vien-ai-hoc-lat-xua.html",
+       "trang": "muctimsonden.com"
+      },
+      {
+       "link": "https://dulich24.com.vn/du-lich-thanh-pho-da-lat/truong-dai-hoc-da-lat-id-4569",
+       "trang": "dulich24.com.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "đang dùng làm giảng đường (Tia Sáng 2019)."
+    },
+    {
+     "ten": "Các giảng đường mang tên chữ trong sách Nho (Thụ Nhân, Minh Thành, Tri Nhất, Thượng Chí, Đôn Hóa…)",
+     "loai": "giảng đường, đại học xá",
+     "dac_trung": "Các tòa nhà của Viện Đại học được đặt tên Thụ Nhân, Hội Hữu, Minh Thành, Tri Nhất, Thượng Chí, Đôn Hóa — lấy ý giáo dục trong Tứ thư Ngũ kinh (Wikipedia, dẫn Nguyễn Tiến Quỳnh). Thanh Niên 2024 kể giảng đường và đại học xá đặt tên theo Tứ thư Ngũ kinh như Thượng Chí, Minh Thành, Kiêm Ái, Lạc Thiện. 'Thụ nhân' nay là một phần khẩu hiệu của trường (Thụ nhân – Khai phóng – Bản sắc).",
+     "dia_chi": "Phù Đổng Thiên Vương",
+     "duong": "Phù Đổng Thiên Vương",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://dulich24.com.vn/du-lich-thanh-pho-da-lat/truong-dai-hoc-da-lat-id-4569",
+       "trang": "dulich24.com.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "đang dùng (giảng đường, văn phòng)."
+    },
+    {
+     "ten": "Thư viện (Trung tâm Thông tin – Thư viện)",
+     "loai": "thư viện đại học",
+     "dac_trung": "Thư viện có từ thời Viện Đại học: Hội Việt Nam Viện trợ Giáo dục Cao đẳng tài trợ xây thư viện cùng phòng thí nghiệm, giảng đường trong khuôn viên (1958–1961, Đỗ Hữu Nghiêm). Năm 1970 thư viện Viện rộng 400 m², phòng đọc 108 chỗ, khoảng 20 ngàn cuốn sách; giáo sư Đỗ Long Vân làm quản thủ 1963–1965 (Nguyễn Vĩnh Nguyên, Doanh nhân Plus 2023). Nay là Trung tâm Thông tin – Thư viện; báo cáo năm học 2014–2015 ghi diện tích thư viện 8.400 m² (Wikipedia dẫn báo cáo công khai của trường).",
+     "dia_chi": "Võ Trường Toản",
+     "duong": "Võ Trường Toản",
+     "nguon": [
+      {
+       "link": "http://vietcatholicnews.org/News/Html/55503.htm",
+       "trang": "vietcatholicnews.org"
+      },
+      {
+       "link": "https://doanhnhanplus.vn/thanh-pho-thu-vien-625391.html",
+       "trang": "doanhnhanplus.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/542490161",
+       "trang": "openstreetmap.org"
+      },
+      {
+       "link": "https://dulich24.com.vn/du-lich-thanh-pho-da-lat/truong-dai-hoc-da-lat-id-4569",
+       "trang": "dulich24.com.vn"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4449192,
+      "lat": 11.9571918,
+      "nguon": "OSM way/542490161 (amenity=library, name 'Trung tâm Thông tin - Thư viện', 4 tầng; tâm do Nominatim tính, 26/11/2026)"
+     },
+     "con_mo": "đang hoạt động (thư viện của trường)."
+    }
+   ],
+   "can_kiem_them": 4,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_dai-hoc-da-lat.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Trường Thiếu sinh quân Hỗn hợp Âu – Á (École d'Enfants de Troupe de Dalat)",
+      "thoi_gian": "từ 1939",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://franco.wiki/fr/Enfant_de_troupe.html",
+        "trang": "franco.wiki"
+       },
+       {
+        "link": "https://www.efeo.fr/uploads/2026/01/alter-2025-2_dolin-violette.pdf",
+        "trang": "efeo.fr"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": false
+     },
+     {
+      "ten": "Camp Robert",
+      "thoi_gian": "tên trại khi chính quyền Việt Nam tiếp quản từ quân đội Pháp, trước khi giao cho Viện Đại học (thập niên 1950)",
+      "nguon": [
+       {
+        "link": "http://vietcatholicnews.org/News/Html/55503.htm",
+        "trang": "vietcatholicnews.org"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "http://dalatarchi-tranconghoakts.blogspot.com/2014/10/dalatarchi-vien-ai-hoc-lat.html",
+        "trang": "dalatarchi-tranconghoakts.blogspot.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki",
+      "chua_chac": true
+     },
+     {
+      "ten": "Viện Đại học Đà Lạt",
+      "thoi_gian": "1957 – 1975",
+      "nguon": [
+       {
+        "link": "http://vietcatholicnews.org/News/Html/55503.htm",
+        "trang": "vietcatholicnews.org"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Dalat_University",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://tiasang.com.vn/truong-dai-hoc-da-lat-tham-lang-va-chuyen-tam-4973692.html",
+        "trang": "tiasang.com.vn"
+       },
+       {
+        "link": "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
+        "trang": "sggp.org.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": false
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1939",
+      "su_kien": "Khu trại lính trên đồi thành Trường Thiếu sinh quân Hỗn hợp Âu – Á của Pháp.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://franco.wiki/fr/Enfant_de_troupe.html",
+        "trang": "franco.wiki"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1957",
+      "su_kien": "Ngày 8/8/1957, Nghị định 67/BNV/NA/P5 cho phép Hội Đại học Đà Lạt hoạt động — khai sinh Viện Đại học Đà Lạt.",
+      "nguon": [
+       {
+        "link": "http://vietcatholicnews.org/News/Html/55503.htm",
+        "trang": "vietcatholicnews.org"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Dalat_University",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "http://dalatarchi-tranconghoakts.blogspot.com/2014/10/dalatarchi-vien-ai-hoc-lat.html",
+        "trang": "dalatarchi-tranconghoakts.blogspot.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1958",
+      "su_kien": "Viện Đại học Đà Lạt khai giảng khóa đầu, niên khóa 1958–1959.",
+      "nguon": [
+       {
+        "link": "https://tiasang.com.vn/truong-dai-hoc-da-lat-tham-lang-va-chuyen-tam-4973692.html",
+        "trang": "tiasang.com.vn"
+       },
+       {
+        "link": "https://tuoitre.vn/truong-dai-hoc-da-lat-hanh-trinh-65-nam-thu-nhan-khai-phong-ban-sac-2023111610494645.htm",
+        "trang": "tuoitre.vn"
+       },
+       {
+        "link": "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "http://vietcatholicnews.org/News/Html/55503.htm",
+        "trang": "vietcatholicnews.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1958",
+      "su_kien": "Tháng 8/1958 chính quyền cho mở xổ số đặc biệt và ứng trước 5 triệu đồng để xây trường kịp khai giảng.",
+      "nguon": [
+       {
+        "link": "http://vietcatholicnews.org/News/Html/55503.htm",
+        "trang": "vietcatholicnews.org"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "blog"
+     },
+     {
+      "nam": "1960",
+      "su_kien": "Tháng 3/1960 Chính phủ cho Viện Đại học chiếm hữu khuôn viên vô hạn định.",
+      "nguon": [
+       {
+        "link": "http://vietcatholicnews.org/News/Html/55503.htm",
+        "trang": "vietcatholicnews.org"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "blog"
+     },
+     {
+      "nam": "1970",
+      "su_kien": "Thư viện Viện Đại học rộng 400 m², 108 chỗ đọc, khoảng 20 ngàn cuốn sách.",
+      "nguon": [
+       {
+        "link": "https://doanhnhanplus.vn/thanh-pho-thu-vien-625391.html",
+        "trang": "doanhnhanplus.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     },
+     {
+      "nam": "1976",
+      "su_kien": "Ngày 27/10/1976, Thủ tướng ký Quyết định 426 lập Trường Đại học Đà Lạt, kế thừa khuôn viên và cơ sở vật chất của Viện Đại học.",
+      "nguon": [
+       {
+        "link": "https://www.sggp.org.vn/truong-dai-hoc-da-lat-gap-mat-65-nam-hinh-thanh-va-phat-trien-post714660.html",
+        "trang": "sggp.org.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/truong-dai-hoc-da-lat-dot-pha-tu-duy-doi-moi-chat-luong-day-va-hoc-471080.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Ngày 1/7/2025 khuôn viên thuộc phường Lâm Viên - Đà Lạt (gộp Phường 8, 9, 12).",
+      "nguon": [
+       {
+        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/nq1671.json",
+        "trang": "Nghị quyết 1671/NQ-UBTVQH15"
+       },
+       {
+        "link": "https://nominatim.openstreetmap.org/lookup?osm_ids=W969458761",
+        "trang": "nominatim.openstreetmap.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2026",
+      "su_kien": "Ngày 24/10/2026 trường làm lễ kỷ niệm 50 năm Trường Đại học Đà Lạt (1976–2026).",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/truong-dai-hoc-da-lat-dot-pha-tu-duy-doi-moi-chat-luong-day-va-hoc-471080.html",
+        "trang": "baolamdong.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Trại lính thành giảng đường",
+      "noi_dung": "Đồi thông ở đầu đường Phù Đổng Thiên Vương từng là trại lính, rồi năm 1939 thành trường thiếu sinh quân cho con lai Âu – Á của quân đội Pháp. Chính quyền Việt Nam tiếp quản khu trại (lúc đó gọi Camp Robert) và giao cho Hội Đại học Đà Lạt; năm 1958 Viện Đại học Đà Lạt khai giảng khóa đầu, rồi trong những năm 1958–1961 xây thêm thư viện, phòng thí nghiệm, giảng đường.",
+      "nguon": [
+       {
+        "link": "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "http://vietcatholicnews.org/News/Html/55503.htm",
+        "trang": "vietcatholicnews.org"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Tháp chuông đổi thánh giá lấy ngôi sao",
+      "noi_dung": "Trên đỉnh đồi có tháp chuông hình khối tam giác cao 38 m của nguyện đường Năng Tĩnh, nhà nguyện của Viện Đại học Công giáo; các dãy nhà xếp hình quạt hướng về chân tháp. Sau này nguyện đường thành khu giảng đường, thánh giá trên đỉnh tháp được thay bằng ngôi sao — nay báo gọi là tháp Sao, biểu tượng của trường.",
+      "nguon": [
+       {
+        "link": "https://tiasang.com.vn/truong-dai-hoc-da-lat-tham-lang-va-chuyen-tam-4973692.html",
+        "trang": "tiasang.com.vn"
+       },
+       {
+        "link": "http://dalatarchi-tranconghoakts.blogspot.com/2014/10/dalatarchi-vien-ai-hoc-lat.html",
+        "trang": "dalatarchi-tranconghoakts.blogspot.com"
+       },
+       {
+        "link": "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://www.muctimsonden.com/2024/01/vien-ai-hoc-lat-xua.html",
+        "trang": "muctimsonden.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Tên nhà lấy từ sách Nho",
+      "noi_dung": "Các giảng đường, đại học xá của Viện mang tên Thụ Nhân, Minh Thành, Tri Nhất, Thượng Chí, Đôn Hóa, Hội Hữu… lấy ý dạy người trong Tứ thư Ngũ kinh. Chữ 'Thụ nhân' (trồng người) nay vẫn đứng đầu khẩu hiệu của trường: Thụ nhân – Khai phóng – Bản sắc.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://thanhnien.vn/goc-ky-hoa-truong-dai-hoc-da-lat-185240330224034094.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://tuoitre.vn/truong-dai-hoc-da-lat-hanh-trinh-65-nam-thu-nhan-khai-phong-ban-sac-2023111610494645.htm",
+        "trang": "tuoitre.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ]
+   },
+   "loai_noi": "diem",
+   "duong_hien": [],
+   "ten_ngan": "Đại học Đà Lạt",
+   "ten_hien": "Đại học Đà Lạt",
+   "dac_trung": "Trường thiếu sinh quân thành đại học",
+   "ban_gi": "Khuôn viên trường giữa đồi thông: giảng đường cũ, nguyện đường có tháp cao, thư viện.",
+   "moc_lau_doi": [
+    "Nguyện đường Năng Tĩnh và tháp chuông (tháp Sao)",
+    "Thư viện (Trung tâm Thông tin – Thư viện)"
    ]
   },
   {
@@ -7093,7 +7998,6 @@
    "ban_gi": "Mua vé xem ngôi nhà gốc cây, hang động; ngủ lại phòng theo chủ đề con vật; Viện Pasteur mở năm 1936; trường dòng Couvent des Oiseaux; đi bộ tới Dinh III.",
    "moc_lau_doi": [
     "Biệt thự Hằng Nga (Crazy House)",
-    "Viện Pasteur Đà Lạt (nay Công ty Vắc xin Pasteur Đà Lạt)",
     "Couvent des Oiseaux (Tu viện Đức Bà Lâm Viên, nay Trường PT Dân tộc Nội trú Lâm Đồng)"
    ]
   },
@@ -10758,6 +11662,439 @@
    ]
   },
   {
+   "id": "pho_nha_tho_con_ga",
+   "slug": "nha-tho-con-ga",
+   "ten_pho": "Nhà thờ Con Gà",
+   "duong": [
+    "Trần Phú",
+    "Nhà Chung",
+    "Lê Đại Hành"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Nhà thờ Con Gà: nhà thờ chính tòa Thánh Nicôla Bari trên đường Trần Phú, xây từ 1931 đến 1942 theo đồ án của linh mục Céleste Nicolas; tháp chuông cao 47 m, trên đỉnh có con gà chỉ hướng gió, trong nhà thờ có 70 ô kính màu làm ở Pháp; cách Chợ Đà Lạt khoảng 800 m.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.43769,
+   "lat": 11.93624,
+   "dia_diem": [
+    {
+     "ten": "Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)",
+     "loai": "nhà thờ chính tòa",
+     "dac_trung": "Nhà thờ chính tòa Thánh Nicôla Bari của Giáo phận Đà Lạt. Đặt viên đá đầu tiên 19/7/1931, khánh thành 25/1/1942 (Wikipedia, localvietnam). Mặt bằng hình chữ thập dài 65 m, rộng 14 m, tháp chuông 47 m (Wikipedia, VOV, Thanh Niên, Giáo phận Đà Lạt); cửa chính hướng về núi Lang Biang (Wikipedia, Thanh Niên, Giáo phận). Lối Roman, trong có ba gian (Wikipedia, Thanh Niên, Vietnamnet).",
+     "dia_chi": "Trần Phú",
+     "duong": "Trần Phú",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+       "trang": "english.vov.vn"
+      },
+      {
+       "link": "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://giaophandalat.com/nha-tho-chinh-toa.html",
+       "trang": "giaophandalat.com"
+      },
+      {
+       "link": "https://gcatholic.org/churches/asia/1902",
+       "trang": "gcatholic.org"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/452519411",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4376882,
+      "lat": 11.9362368,
+      "nguon": "OSM way/452519411 (amenity=place_of_worship, building=church, name 'Nhà thờ Chánh tòa', name:fr 'Cathédrale Saint Nicolas'; tâm khối qua Nominatim 26/11/2026)"
+     },
+     "con_mo": "còn hoạt động: Báo Lâm Đồng 25/12/2025 tả lễ đêm Giáng sinh 20h–21h15; Vietnamnet 04/2025 ghi khách vào xem miễn phí."
+    },
+    {
+     "ten": "Tháp chuông và con gà chỉ hướng gió",
+     "loai": "tháp chuông, chong chóng gió",
+     "dac_trung": "Tháp chuông chính cao 47 m (Wikipedia, VOV, Thanh Niên, Giáo phận Đà Lạt). Thánh giá đặt lên đỉnh tháp ngày 14/11/1934 (Wikipedia tiếng Việt và tiếng Anh, localvietnam). Trên thánh giá có con gà dài 0,66 m, cao 0,58 m, quay theo chiều gió (Wikipedia, VOV, localvietnam); vì con gà này người ta gọi là nhà thờ Con Gà (Wikipedia, Thanh Niên, Giáo phận).",
+     "dia_chi": "Trần Phú",
+     "duong": "Trần Phú",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+       "trang": "english.vov.vn"
+      },
+      {
+       "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+       "trang": "localvietnam.com"
+      },
+      {
+       "link": "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://giaophandalat.com/nha-tho-chinh-toa.html",
+       "trang": "giaophandalat.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": null
+    },
+    {
+     "ten": "70 ô kính màu Louis Balmet",
+     "loai": "kính màu (vitrail)",
+     "dac_trung": "Phần áp mái có 70 tấm kính màu làm ở Pháp, vẽ cảnh Tin Mừng và chân dung các thánh (Giáo phận Đà Lạt, VOV, Thanh Niên). Wikipedia tiếng Việt và localvietnam ghi do xưởng Louis Balmet ở Grenoble (Pháp) làm, lắp ở các cửa sổ vòm dọc gian giữa và quanh cung thánh.",
+     "dia_chi": "Trần Phú",
+     "duong": "Trần Phú",
+     "nguon": [
+      {
+       "link": "https://giaophandalat.com/nha-tho-chinh-toa.html",
+       "trang": "giaophandalat.com"
+      },
+      {
+       "link": "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+       "trang": "english.vov.vn"
+      },
+      {
+       "link": "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+       "trang": "localvietnam.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": null
+    },
+    {
+     "ten": "14 phù điêu Đàng Thánh Giá của Xuân Thi",
+     "loai": "phù điêu",
+     "dac_trung": "Trên tường trong nhà thờ gắn 14 bức phù điêu kể cuộc Thương khó của Chúa Giêsu (Thanh Niên 2023); mỗi bức khoảng 1 m x 0,8 m, do nhà điêu khắc Xuân Thi làm (Giáo phận Đà Lạt, Wikipedia), bằng xi măng và sắt (Wikipedia, localvietnam). Wikipedia ghi tháng 2/1942 làm phép và đặt 14 chặng đàng thánh giá trong gian chính.",
+     "dia_chi": "Trần Phú",
+     "duong": "Trần Phú",
+     "nguon": [
+      {
+       "link": "https://giaophandalat.com/nha-tho-chinh-toa.html",
+       "trang": "giaophandalat.com"
+      },
+      {
+       "link": "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+       "trang": "localvietnam.com"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": null
+    }
+   ],
+   "can_kiem_them": 4,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_nha-tho-con-ga.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Église Saint-Nicolas (nhà thờ Thánh Nicôla)",
+      "thoi_gian": "thời Pháp, những năm 1930–1940 (trước khi thành nhà thờ chính tòa năm 1960)",
+      "nguon": [
+       {
+        "link": "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie2.pdf",
+        "trang": "efeo.fr"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": false
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1917",
+      "su_kien": "Linh mục Nicolas Couveur (Hội Thừa sai Paris) xây dưỡng viện nghỉ cho các giáo sĩ; một phần nay là nhà xứ.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+        "trang": "localvietnam.com"
+       },
+       {
+        "link": "https://menthanhgianhatrang.com/nha-tho-con-ga-gio-le.html",
+        "trang": "menthanhgianhatrang.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1920",
+      "su_kien": "Ngày 10/5/1920 linh mục Frédéric Sidot làm cha xứ đầu tiên, dựng nhà thờ nhỏ dài 24 m, trên cửa khắc chữ 'Hic Domus Est Dei'.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+        "trang": "localvietnam.com"
+       },
+       {
+        "link": "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+        "trang": "english.vov.vn"
+       },
+       {
+        "link": "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1922–1923",
+      "su_kien": "Xây nhà thờ thứ hai dài 26 m, rộng 8 m, tháp chuông 16 m; khánh thành 17/2/1923. Ngôi này nay không còn.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+        "trang": "english.vov.vn"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+        "trang": "localvietnam.com"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1931",
+      "su_kien": "Ngày 19/7/1931 Khâm sứ Colomban Dreyer đặt viên đá đầu tiên nhà thờ hiện nay, theo đồ án của cha xứ Céleste Nicolas.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+        "trang": "localvietnam.com"
+       },
+       {
+        "link": "https://menthanhgianhatrang.com/nha-tho-con-ga-gio-le.html",
+        "trang": "menthanhgianhatrang.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1932",
+      "su_kien": "Ngày 30/3/1932 xong đợt đầu: cung thánh, hậu tẩm và hai gian cánh.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+        "trang": "localvietnam.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1934",
+      "su_kien": "Ngày 14/11/1934 đặt thánh giá có con gà lên đỉnh tháp chuông chính.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+        "trang": "localvietnam.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1942",
+      "su_kien": "Ngày 25/1/1942 khánh thành nhà thờ; tháng 2/1942 làm phép.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+        "trang": "localvietnam.com"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+        "trang": "english.vov.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1960",
+      "su_kien": "Ngày 24/11/1960 lập Giáo phận Đà Lạt; nhà thờ thành nhà thờ chính tòa.",
+      "nguon": [
+       {
+        "link": "https://gcatholic.org/dioceses/diocese/dala0.htm",
+        "trang": "gcatholic.org"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Roman_Catholic_Diocese_of_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Con gà chỉ hướng gió",
+      "noi_dung": "Trên thánh giá đỉnh tháp chuông có con gà dài 0,66 m, cao 0,58 m, quay theo chiều gió. Con gà được hiểu là gà trống Gaulois của Pháp, hoặc nhắc chuyện thánh Phêrô chối Chúa ba lần trước khi gà gáy. Người Đà Lạt từng đồn con gà là 'đài dự báo thời tiết': quay hướng nào là gió hướng ấy.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+        "trang": "english.vov.vn"
+       },
+       {
+        "link": "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vietnamnet.vn/en/da-lat-s-chicken-church-showcases-french-architecture-from-the-1930s-2393617.html",
+        "trang": "vietnamnet.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Hai ngôi nhà thờ trước nhà thờ Con Gà",
+      "noi_dung": "Trước nhà thờ bây giờ đã có hai ngôi nhỏ hơn. Năm 1920 cha Sidot dựng nhà thờ dài 24 m, trên cửa vòng cung khắc chữ Latin 'Hic Domus Est Dei' – đây là nhà của Thiên Chúa. Năm 1923 khánh thành ngôi thứ hai dài 26 m, có tháp chuông 16 m. Ngôi ấy nay không còn; nhà thờ hiện nay dài 65 m, tháp chuông 47 m.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+        "trang": "english.vov.vn"
+       },
+       {
+        "link": "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+        "trang": "localvietnam.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Bài thánh ca buồn",
+      "noi_dung": "Bài hát 'Bài thánh ca buồn' của nhạc sĩ Nguyễn Vũ được nói là lấy bối cảnh nhà thờ Con Gà.",
+      "nguon": [
+       {
+        "link": "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ]
+   },
+   "loai_noi": "diem",
+   "duong_hien": [],
+   "ten_ngan": "Nhà thờ Con Gà",
+   "ten_hien": "Nhà thờ Con Gà",
+   "dac_trung": "Tháp 47 m, con gà chỉ hướng gió",
+   "ban_gi": "Nhà thờ chính tòa của giáo phận; khách vào xem kiến trúc, kính màu, phù điêu; đêm Giáng sinh rất đông người.",
+   "moc_lau_doi": [
+    "Tháp chuông và con gà chỉ hướng gió",
+    "70 ô kính màu Louis Balmet",
+    "14 phù điêu Đàng Thánh Giá của Xuân Thi"
+   ]
+  },
+  {
    "id": "pho_phan_boi_chau",
    "slug": "phan-boi-chau",
    "ten_pho": "Phố Khách Sạn Cạnh Chợ",
@@ -12584,7 +13921,6 @@
    "ban_gi": "Khu du lịch, đồi hoa; dọc đường vào có gà nướng cơm lam, lẩu gà lá é, bún bò.",
    "moc_lau_doi": [
     "Khu du lịch Thung Lũng Tình Yêu (TTC World – Thung Lũng Tình Yêu)",
-    "Trường Đại học Đà Lạt",
     "Hồ Đa Thiện"
    ]
   },
@@ -13010,7 +14346,6 @@
    "ban_gi": "Đi tàu từ ga Đà Lạt xuống; xem chùa, thánh thất; chiều tối cà phê ngắm thung lũng nhà kính lên đèn.",
    "moc_lau_doi": [
     "Ga Trại Mát",
-    "Chùa Linh Phước (chùa Ve Chai, chùa Mảnh Chai)",
     "Thánh thất Cao Đài Đa Phước (Thánh thất Cao Đài Đà Lạt)"
    ]
   },
@@ -14861,6 +16196,492 @@
     "Thác Cam Ly",
     "Lăng Nguyễn Hữu Hào",
     "Sân bay Cam Ly (đường băng cũ)"
+   ]
+  },
+  {
+   "id": "pho_vien_pasteur",
+   "slug": "vien-pasteur",
+   "ten_pho": "Viện Pasteur Đà Lạt",
+   "duong": [
+    "Lê Hồng Phong",
+    "Pasteur"
+   ],
+   "ward": "Xuân Hương - Đà Lạt",
+   "gioi_thieu": "Viện Pasteur Đà Lạt: viện Pasteur cuối cùng ở Đông Dương, mở năm 1936 theo đề xuất của bác sĩ Yersin để làm vắc xin nơi trời mát; toà nhà chính hai tầng có chân dung Louis Pasteur đắp nổi trên mặt tiền, nay là Công ty Vắc xin Pasteur Đà Lạt (DAVAC), làm vắc xin thương hàn.",
+   "anh": null,
+   "ten_that": true,
+   "moi": true,
+   "lon": 108.42724,
+   "lat": 11.93336,
+   "dia_diem": [
+    {
+     "ten": "Toà nhà chính Viện Pasteur Đà Lạt",
+     "loai": "công trình thời Pháp (1930s), trụ sở viện",
+     "dac_trung": "Khối nhà chính hai tầng làm văn phòng, mặt ngoài gần như đối xứng, cửa sổ nhiều kiểu, một phần tường tầng trệt xây thô; mái bằng có tường xây cao hơn mái hắt — chịu ảnh hưởng 'trào lưu kiến trúc mới' (Wikipedia tiếng Việt theo Địa chí Đà Lạt, DAVAC); Thanh Niên 2024 ghi ảnh hưởng Bauhaus và Art Deco. Bên cạnh là phòng thí nghiệm, phòng vô trùng, phòng vắc xin, phòng lạnh. Kiến trúc sư: Paul Veysseyre cùng một đồng nghiệp người Việt (entreprises-coloniales, Wikipedia tiếng Anh).",
+     "dia_chi": "18 Lê Hồng Phong",
+     "duong": "Lê Hồng Phong",
+     "nguon": [
+      {
+       "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+       "trang": "davac.com.vn"
+      },
+      {
+       "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm",
+       "trang": "thanhnien.vn"
+      },
+      {
+       "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+       "trang": "entreprises-coloniales.fr"
+      },
+      {
+       "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+       "trang": "en.wikipedia.org"
+      },
+      {
+       "link": "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie3.pdf",
+       "trang": "efeo.fr"
+      },
+      {
+       "link": "https://www.openstreetmap.org/way/1305208733",
+       "trang": "openstreetmap.org"
+      }
+     ],
+     "vi_tri": {
+      "lon": 108.4272447,
+      "lat": 11.9333644,
+      "nguon": "OSM way/1305208733 (building, office=research, name 'Công ty Vắc xin Pasteur Đà Lạt', name:fr 'Institut Pasteur de Dalat', building:architecture=french_colonial), tâm khối nhà theo Nominatim 26/11/2026"
+     },
+     "con_mo": "đang là trụ sở, nơi sản xuất của Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC); chưa thấy nguồn nào nói mở cửa cho khách tham quan — chỉ nhìn từ ngoài."
+    },
+    {
+     "ten": "Chân dung Louis Pasteur đắp nổi trên mặt tiền",
+     "loai": "phù điêu trên mặt tiền",
+     "dac_trung": "Mặt chính của viện có chân dung Louis Pasteur đắp nổi, phía trên là dòng chữ 'Viện Pasteur Việt Nam - Chi nhánh Đà Lạt' (Wikipedia tiếng Việt, DAVAC, Thanh Niên 2024 — Thanh Niên tả phù điêu tròn ở lối vào chính).",
+     "dia_chi": "18 Lê Hồng Phong",
+     "duong": "Lê Hồng Phong",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+       "trang": "davac.com.vn"
+      },
+      {
+       "link": "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm",
+       "trang": "thanhnien.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "nhìn từ ngoài."
+    },
+    {
+     "ten": "Các biệt thự của bác sĩ quanh viện",
+     "loai": "nhà ở thời Pháp",
+     "dac_trung": "Quanh viện có một số biệt thự, trước là nơi ở của các bác sĩ làm việc trong viện (Wikipedia tiếng Việt theo Nguyễn Tri Diện, 'Đà Lạt: Điểm hẹn năm 2000' tr. 223; DAVAC).",
+     "dia_chi": "Lê Hồng Phong",
+     "duong": "Lê Hồng Phong",
+     "nguon": [
+      {
+       "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+       "trang": "vi.wikipedia.org"
+      },
+      {
+       "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+       "trang": "davac.com.vn"
+      }
+     ],
+     "vi_tri": null,
+     "con_mo": "chưa rõ (không nguồn nào chỉ rõ từng căn)."
+    }
+   ],
+   "can_kiem_them": 3,
+   "nghien_cuu": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/docs/research/pho_vien-pasteur.md",
+   "chuyen": {
+    "ten_cu": [
+     {
+      "ten": "Institut Pasteur de Dalat",
+      "thoi_gian": "1936 – 1975 (tên thời Pháp và thời Việt Nam Cộng hoà)",
+      "nguon": [
+       {
+        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+        "trang": "entreprises-coloniales.fr"
+       },
+       {
+        "link": "https://www.efeo.fr/exposition-virtuelle/da-lat/Expo_Dalat_Partie2.pdf",
+        "trang": "efeo.fr"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": false
+     },
+     {
+      "ten": "Viện Pasteur Việt Nam – Chi nhánh Đà Lạt",
+      "thoi_gian": "từ thoả ước 25/11/1958 (viện Đà Lạt là một trong 3 cơ sở của Viện Pasteur Việt Nam); dòng chữ còn trên mặt tiền",
+      "nguon": [
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm",
+        "trang": "thanhnien.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": true
+     },
+     {
+      "ten": "Phân viện Vắc xin Đà Lạt",
+      "thoi_gian": "1982 – 2007",
+      "nguon": [
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://baophapluat.vn/cong-ty-vac-xin-pasteur-da-lat-chon-huong-di-dung-dan-den-thanh-cong-post142494.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac",
+      "chua_chac": false
+     }
+    ],
+    "moc": [
+     {
+      "nam": "1932–1935",
+      "su_kien": "Xây toà nhà viện bằng tiền trợ cấp của Phủ Toàn quyền Đông Dương.",
+      "nguon": [
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+        "trang": "entreprises-coloniales.fr"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1936",
+      "su_kien": "Viện mở cửa ngày 1/1/1936, theo đề xuất của bác sĩ Alexandre Yersin; là viện Pasteur cuối cùng ở Đông Dương.",
+      "nguon": [
+       {
+        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+        "trang": "entreprises-coloniales.fr"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1936",
+      "su_kien": "Năm đầu viện làm hơn 3 triệu liều vắc xin, phần lớn là vắc xin tả.",
+      "nguon": [
+       {
+        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+        "trang": "entreprises-coloniales.fr"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm",
+        "trang": "thanhnien.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "1946",
+      "su_kien": "Viện bị đập phá, người châu Âu ở viện và gia đình bị giam giữ (theo DAVAC).",
+      "nguon": [
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "blog"
+     },
+     {
+      "nam": "1955–1956",
+      "su_kien": "Các nhà khoa học ở viện tìm ra nấm Penicillium marneffei (nay là Talaromyces marneffei) trên chuột tre.",
+      "nguon": [
+       {
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1360277",
+        "trang": "pmc.ncbi.nlm.nih.gov"
+       },
+       {
+        "link": "https://wwwnc.cdc.gov/eid/article/27/9/21-0318_article",
+        "trang": "wwwnc.cdc.gov"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1963",
+      "su_kien": "Dây chuyền sản xuất thứ hai, cơ khí hoá hơn, đi vào hoạt động.",
+      "nguon": [
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       }
+      ],
+      "mot_nguon": true,
+      "muc": "blog"
+     },
+     {
+      "nam": "1975",
+      "su_kien": "Chính quyền mới tiếp quản viện; viện thành cơ sở của hệ thống vắc xin quốc gia.",
+      "nguon": [
+       {
+        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1982",
+      "su_kien": "Đổi tên thành Phân viện Vắc xin Đà Lạt.",
+      "nguon": [
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       },
+       {
+        "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "1995–1996",
+      "su_kien": "Nhận chuyển giao từ Mỹ cách làm vắc xin thương hàn, sản phẩm chính đến nay.",
+      "nguon": [
+       {
+        "link": "https://baolamdong.vn/vac-xin-tu-da-lat-289397.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2004",
+      "su_kien": "Nhà nước đầu tư hơn 5 triệu USD xây nhà máy vắc xin mới, công suất thiết kế 6 triệu liều/năm.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://baophapluat.vn/cong-ty-vac-xin-pasteur-da-lat-chon-huong-di-dung-dan-den-thanh-cong-post142494.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2007",
+      "su_kien": "Phân viện thành Công ty Vắc xin Pasteur Đà Lạt.",
+      "nguon": [
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       },
+       {
+        "link": "https://baophapluat.vn/cong-ty-vac-xin-pasteur-da-lat-chon-huong-di-dung-dan-den-thanh-cong-post142494.html",
+        "trang": "baophapluat.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "nam": "2010",
+      "su_kien": "Thành Công ty TNHH MTV Vắc xin Pasteur Đà Lạt (DAVAC).",
+      "nguon": [
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+        "trang": "en.wikipedia.org"
+       },
+       {
+        "link": "https://trungtamthuoc.com/thuong-hieu/davac",
+        "trang": "trungtamthuoc.com"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     },
+     {
+      "nam": "2025",
+      "su_kien": "Từ 1/7/2025 địa chỉ viện thuộc phường Xuân Hương - Đà Lạt (trước là Phường 4).",
+      "nguon": [
+       {
+        "link": "https://github.com/ltckha/gon-pho-viet/blob/claude/nghien-cuu-phuong/data/lam-dong/nq1671.json",
+        "trang": "Nghị quyết 1671/NQ-UBTVQH15"
+       },
+       {
+        "link": "https://www.davac.com.vn/lien-he/",
+        "trang": "davac.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     }
+    ],
+    "chuyen": [
+     {
+      "tieu_de": "Vắc xin cần trời mát",
+      "noi_dung": "Làm vắc xin ở Sài Gòn, Nha Trang hay gặp khó vì nóng ẩm. Bác sĩ Yersin đề xuất lập viện trên cao nguyên Đà Lạt, đúng lúc dịch tả ở Trung Quốc và Bắc Kỳ. Đầu năm 1936, phòng làm vắc xin của Viện Pasteur Sài Gòn được chuyển lên Đà Lạt vì khí trời ở đây hợp hơn để làm và giữ vắc xin; ngay năm đầu viện làm hơn 3 triệu liều, phần lớn là vắc xin tả.",
+      "nguon": [
+       {
+        "link": "https://www.entreprises-coloniales.fr/inde-indochine/Institut_Pasteur_Dalat.pdf",
+        "trang": "entreprises-coloniales.fr"
+       },
+       {
+        "link": "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm",
+        "trang": "thanhnien.vn"
+       },
+       {
+        "link": "https://baolamdong.vn/da-lat-nam-1937-tiep-theo-va-het-283844.html",
+        "trang": "baolamdong.vn"
+       },
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Chân dung Pasteur trên mặt tiền",
+      "noi_dung": "Toà nhà chính hai tầng, gần như đối xứng, mái bằng, đường nét đơn giản theo lối kiến trúc mới thời đó. Giữa mặt tiền đắp nổi chân dung Louis Pasteur, trên có dòng chữ 'Viện Pasteur Việt Nam - Chi nhánh Đà Lạt'. Quanh viện là mấy căn biệt thự xưa của các bác sĩ.",
+      "nguon": [
+       {
+        "link": "https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_V%E1%BA%AFc_xin_Pasteur_%C4%90%C3%A0_L%E1%BA%A1t",
+        "trang": "vi.wikipedia.org"
+       },
+       {
+        "link": "https://www.davac.com.vn/gioi-thieu/lich-su-hinh-thanh/",
+        "trang": "davac.com.vn"
+       },
+       {
+        "link": "https://thanhnien.vn/noi-tung-la-co-so-san-xuat-vac-xin-lon-nhat-dong-duong-185240914202442191.htm",
+        "trang": "thanhnien.vn"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "chac"
+     },
+     {
+      "tieu_de": "Một loài nấm mang tên Đà Lạt",
+      "noi_dung": "Giữa thập niên 1950, ở viện, các nhà khoa học phân lập được một loài nấm từ gan chuột tre nuôi làm thí nghiệm, đặt tên Penicillium marneffei theo giám đốc Viện Pasteur Đông Dương Hubert Marneffe. Nay nấm này (Talaromyces marneffei) được biết là gây bệnh nặng ở người suy giảm miễn dịch tại Đông Nam Á.",
+      "nguon": [
+       {
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1360277",
+        "trang": "pmc.ncbi.nlm.nih.gov"
+       },
+       {
+        "link": "https://wwwnc.cdc.gov/eid/article/27/9/21-0318_article",
+        "trang": "wwwnc.cdc.gov"
+       },
+       {
+        "link": "https://en.wikipedia.org/wiki/Institut_Pasteur_de_Dalat",
+        "trang": "en.wikipedia.org"
+       }
+      ],
+      "mot_nguon": false,
+      "muc": "wiki"
+     }
+    ]
+   },
+   "loai_noi": "diem",
+   "duong_hien": [],
+   "ten_ngan": "Viện Pasteur Đà Lạt",
+   "ten_hien": "Viện Pasteur Đà Lạt",
+   "dac_trung": "Viện vắc xin thời Pháp, mở năm 1936",
+   "ban_gi": "Nhà máy vắc xin đang chạy, chưa thấy nguồn nói mở cửa tham quan; chỉ xem kiến trúc từ ngoài.",
+   "moc_lau_doi": [
+    "Toà nhà chính Viện Pasteur Đà Lạt",
+    "Chân dung Louis Pasteur đắp nổi trên mặt tiền"
    ]
   },
   {

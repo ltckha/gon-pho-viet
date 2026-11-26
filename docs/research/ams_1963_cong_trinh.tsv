@@ -1,0 +1,110 @@
+so	o_luoi	nhom	ten_anh	ten_viet	moc_utm	ghi_chu
+1	215218	thuong	Boarding House	Học Xá
+2	215204	thuong	Đà Lạt Hotel	Khách Sạn Đà Lạt
+3	217206	thuong	Đà Lạt Palace Hotel	Khách Sạn Đà Lạt Palace
+4	214217	thuong	Labor Youth Inn	Lữ Quán Thanh Niên
+5	234200	thuong	Les Ravines Inn	Lữ Quán Les Ravines
+6	213212	cho	Market	Chợ Mới
+7	206209	thuong	Slaughterhouse	Lò Tể Sinh
+8	203202	cong	Agriculture Office	Ty Nông Vụ
+9	241220	cong	Army District Engineer	Phân Khu Tạo Tác
+10	207202	cong	Cadastral Office	Ty Điền Địa
+11	214211	cong	Civil Guard	Tỉnh Đoàn Bảo An
+12	205213	cong	Customhouse	Ty Quan Thuế
+13	209202	cong	Education Office	Ty Học Chánh
+14	240210	cong	Forest Products Experimental Office	Liên Khu Thực Nghiệm Lâm Sản
+15	215213	cong	Forestry Office	Khu và Hạt Thủy Lâm
+16	221206	cong	Information Office	Ty Thông Tin
+17	219206	cong	Labor Office	Ty Lao Động
+18	214215	cong	Mayor's Residence	Dinh Thị Trưởng
+19	227206	cong	National Gendarmery	Hiến Binh Quốc Gia
+20	230212	cong	National Geographic Service	Nha Địa Dư Quốc Gia
+21	237213	cong	National Geographic Service Club	Câu Lạc Bộ Địa Dư
+22	213204	cong	Police Bureau	Ty Cảnh Sát
+23	214205	cong	Post Office	Ty Bưu Điện
+24	249213	dinh	Presidential Residence	Dinh Tổng Thống
+25	225203	dinh	Presidential Residence	Dinh Tổng Thống
+26	205197	dinh	Presidential Residence	Dinh Tổng Thống
+27	204201	cong	Public Works Office	Ty Công Chánh
+28	214221	cong	Radio Center	Trụ Sở Vô Tuyến Điện
+29	203200	cong	Reconstruction Office	Ty Kiến Thiết
+30	214210	cong	Re-education Center	Trung Tâm Cải Huấn
+31	202214	cong	Security Office	Ty Công An
+32	241232	cong	Soldier's Housing Area	Trại Gia Đình Binh Sĩ
+33	220206	cong	Tax Office	Ty Thuế Vụ
+34	215205	cong	Town Office	Tòa Thị Chánh
+35	217204	cong	Treasury	Ty Ngân Khố
+36	205205	cong	Tribunal	Tòa Án
+37	219204	cong	Tuyên Đức Provincial Administrative Office	Tòa Hành Chánh Tỉnh Tuyên Đức
+38	207203	cong	Veterinary Service	Ty Mục Súc
+39	230226	cong	Vietnam Atomic Center	Trung Tâm Nguyên Tử Lực Việt Nam
+40	222206	cong	Youth Office	Ty Thanh Niên
+41	206215	benh	Civil Hospital	Dân Y Viện
+42	227209	benh	Clinic	Dưỡng Đường
+43	245222	benh	Military Hospital	Quân Y Viện
+44	214204	tho	Catholic Church	Nhà Thờ Lớn
+45	245212	tho	Chapel	Nhà Thờ
+46	197249	tho	Church	Nhà Thờ
+47	209247	tho	Church	Nhà Thờ
+48	210221	tho	Church	Nhà Thờ
+49	206205	tho	Church	Nhà Thờ
+50	206203	tho	Church	Nhà Thờ
+51	238202	tho	Church	Nhà Thờ
+52	222207	choi	Golf Course	Sân Cù	222259,1321749	bảng in trùng ô với số 76; neo theo vị trí số 52 trên bản đồ
+53	212212	choi	Hòa Bình Movie Theater	Hội Trường Hòa Bình
+54	211205	cong	Library	Thư Viện
+55	220205	cong	Library and National Archives	Thư Viện Và Văn Khố Quốc Gia
+56	204227	chua	Linh Quang Pagoda	Chùa Linh Quang
+57	213219	chua	Linh Sơn Pagoda	Chùa Linh Sơn
+58	205225	chua	Minor Pagoda	Miếu Âm Hồn
+59	214232	chua	Minor Pagoda	Miếu
+60	215232	chua	Minor Pagoda	Miếu
+61	209200	chua	Minor Pagoda	Miếu
+62	208229	chua	Minor Pagoda	Miếu
+63	210208	chua	Minor Pagoda	Miếu
+64	232212	chua	Minor Pagoda	Miếu
+65	212219	choi	Movie Theater	Rạp Chiếu Bóng
+66	219208	choi	Nautical Pavilion	Nhà Thủy Tạ
+67	244197	chua	Pagoda	Chùa Sư Nữ
+68	201237	chua	Pagoda	Chùa
+69	212216	tho	Protestant Church	Nhà Thờ Tin Lành
+70	197243	tho	Redemptorist Monastery	Tu Viện Dòng Chúa Cứu Thế
+71	206219	tho	Saint Mary's Church	Nhà Thờ Đức Bà
+72	206220	tho	Saint Mary's Convent	Lãnh Địa Đức Bà
+73	212205	tho	Saint Paul's Convent	Tu Viện Saint Paul
+74	209227	choi	Soldier's Monument	Đài Chiến Sĩ
+75	219207	choi	Sports Club	Câu Lạc Bộ Thể Thao
+76	222207	choi	Stadium	Sân Vận Động
+77	245225	choi	Stadium	Sân Vận Động
+78	189212	choi	Tomb of Duke of Long Mỹ	Lăng Quận Công Long Mỹ
+79	219199	truong	Adran School	Trường Adran
+80	217221	truong	Bùi Thị Xuân High School	Trường Trung Học Bùi Thị Xuân
+81	221225	truong	Đà Lạt University	Trường Đại Học Đà Lạt
+82	215224	truong	Gendarmery Training Center	Trung Tâm Huấn Luyện Hiến Binh
+83	244230	truong	Military University	Trường Đại Học Quân Sự
+84	248237	truong	National Military Academy	Trường Võ Bị Quốc Gia
+85	204225	truong	Nursery	Ký Nhi Viện
+86	197207	truong	Oiseaux Girls' School	Trường Nữ Học Oiseaux
+87	202201	truong	Pasteur Institute	Viện Pasteur
+88	242218	truong	Phan Chu Trinh School	Trường Tiểu Học Phan Chu Trinh
+89	211211	truong	School	Trường Học
+90	204241	truong	School	Trường Học
+91	201238	truong	School	Trường Học
+92	200232	truong	School	Trường Học
+93	215204	truong	School	Trường Học
+94	207200	truong	School	Trường Học
+95	197212	truong	School	Trường Học
+96	207210	truong	School	Trường Học
+97	209212	truong	School	Trường Học
+98	217227	truong	School	Trường Học
+99	214202	truong	School	Trường Học
+100	258216	truong	Tây Hồ School	Trường Tiểu Học Tây Hồ
+101	212235	truong	Trần Hưng Đạo High School	Trường Trung Học Trần Hưng Đạo
+102	231215	truong	Yersin High School	Trường Trung Học Yersin
+103	203207	truong	Yersin Primary School	Trường Tiểu Học Yersin
+104	184220	ga	Cam Ly Airfield	Sân Bay Cam Ly
+105	234211	ga	Đà Lạt Railroad Station	Ga Đà Lạt
+106	209206	cong	Electric Power Station	Nhà Máy Điện
+107	185250	cong	Electric Power Transformer Station	Trạm Biến Điện
+108	257223	cong	Waterworks	Nhà Máy Nước
+109	218212	cong	Waterworks	Nhà Máy Nước

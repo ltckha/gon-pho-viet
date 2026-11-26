@@ -421,30 +421,60 @@
       labels.appendChild(t);
       pointLbl.push({ el: t, x: px(p.lon), y: py(p.lat), n: p.ten.length + 2, minZ: p.loai in MINZ ? MINZ[p.loai] : 2.5, mid: mid });
     });
+    // 109 công trình đánh số in ở lề bản đồ (chợ, nhà thờ, chùa, trường, dinh, ga…): dấu + tên tiếng Việt in trên bản đồ
+    var DAU = { tho: '✝', chua: '卍', truong: '▲', dinh: '★', cho: '■', ga: '■', benh: '✚', choi: '●', cong: '●', thuong: '●' };
+    var CHUNG = { 'Trường Học': 1, 'Miếu': 1, 'Nhà Thờ': 1, 'Chùa': 1, 'Nhà Máy Nước': 1 };
+    var gct = el('g', { 'class': 'ct63' }); labels.appendChild(gct);
+    (data.cong_trinh || []).forEach(function (c) {
+      var t = el('text', { x: px(c.lon), y: py(c.lat), 'class': 'lbl ct63-ten n-' + c.nhom, hidden: '' }, DAU[c.nhom] + ' ' + c.ten);
+      gct.appendChild(t);
+      var lon = { dinh: 1, cho: 1, ga: 1 }[c.nhom] || c.ten === 'Nhà Thờ Lớn' || c.ten === 'Sân Cù';
+      pointLbl.push({ el: t, x: px(c.lon), y: py(c.lat), n: c.ten.length + 2, minZ: lon ? 1.6 : CHUNG[c.ten] ? 5 : 3, mid: false });
+    });
     pins = []; pinsRoot.textContent = '';
     bounds = { minX: px(k[0]), maxX: px(k[2]), minY: py(k[3]), maxY: py(k[1]) };
     fitAll();
   }
   // tìm tên đường: gõ tên năm 1963 hoặc tên nay → chạy tới, tô sáng đúng các đoạn
   function boDau(s) { return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase(); }
+  // khớp từ đầu một chữ ("cho" ≠ "school"); gõ có dấu thì so có dấu ("dinh" ra cả Đinh, "dinh" có dấu chỉ ra Dinh)
+  var coDau = false;
+  function khop(chu, q) { var c = coDau ? (chu || '').toLowerCase() : boDau(chu || ''); return (' ' + c).indexOf(' ' + q) >= 0; }
   function timDuong() {
-    var q = boDau(tim63.value.trim());
+    var raw = tim63.value.trim().toLowerCase();
+    coDau = boDau(raw) !== raw;
+    var q = coDau ? raw : boDau(raw);
     timKq.textContent = '';
     if (q.length < 2 || !data || !layer.y1963) { timKq.hidden = true; return; }
     var seen = {}, kq = [];
     data.ten_duong.forEach(function (r) {
       if (seen[r.ten]) return;
-      if (boDau(r.ten).indexOf(q) >= 0 || boDau(r.nay || '').indexOf(q) >= 0) { seen[r.ten] = 1; kq.push(r); }
+      if (khop(r.ten, q) || khop(r.nay, q)) { seen[r.ten] = 1; kq.push(r); }
     });
-    kq.slice(0, 6).forEach(function (r) {
+    (data.cong_trinh || []).forEach(function (c) {
+      if (khop(c.ten, q) || khop(c.anh, q)) kq.push({ ct: c });
+    });
+    kq.slice(0, 8).forEach(function (r) {
       var b = document.createElement('button');
       b.type = 'button';
-      b.innerHTML = '<b>' + esc(r.ten) + '</b><span>nay: ' + esc(r.nay || '—') + '</span>';
-      b.addEventListener('click', function () { denDuong(r.ten); });
+      if (r.ct) {
+        b.innerHTML = '<b>' + esc(r.ct.ten) + '</b><span>số ' + r.ct.so + ' trên bản đồ 1963</span>';
+        b.addEventListener('click', function () { denDiem(r.ct); });
+      } else {
+        b.innerHTML = '<b>' + esc(r.ten) + '</b><span>nay: ' + esc(r.nay || '—') + '</span>';
+        b.addEventListener('click', function () { denDuong(r.ten); });
+      }
       timKq.appendChild(b);
     });
     if (!kq.length) timKq.innerHTML = '<p>Không có tên này trên bản đồ 1963 (hoặc em chưa dò được).</p>';
     timKq.hidden = false;
+  }
+  function denDiem(c) {
+    var hl = document.getElementById('hl63'); hl.textContent = '';
+    hl.appendChild(el('circle', { cx: px(c.lon), cy: py(c.lat), r: 0.0006 * K, 'class': 'hl63-diem' }));
+    timKq.hidden = true; tim63.blur();
+    var pad = 0.004 * K, x = px(c.lon), y = py(c.lat);
+    zoomTo({ minX: x - pad, maxX: x + pad, minY: y - pad, maxY: y + pad });
   }
   function denDuong(ten) {
     var hl = document.getElementById('hl63'), b = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity }, d = '';

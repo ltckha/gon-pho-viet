@@ -12,4 +12,6 @@ Anh Kha chốt 26/11: vẽ lại kiểu "cách 2" (phẳng, gọn), mọi nét c
     - Bỏ: dò thuần khung xương ảnh (vụn), lấp nét rồi dò khe (vụn), đòi hai mép liền (sót đường đất).
   - Khu dân cư: gom nhà cách ≤ ~16 m thành mảng (`khu`); nhà riêng chỉ hiện khi phóng gần. Nét đường đổi theo mức phóng (`data-zm`).
   - Hồ, rừng: tách màu in. Nhà: khối đen đặc, nén số nguyên.
-- Còn thiếu (đã báo anh): đường còn đứt ở vài ngã ba và khu chợ đã xây lại; đường đất nét đứt bắt được một phần; công trình đánh số (bảng lề trái) chưa chép.
+- Công trình: `docs/research/ams_1963_cong_trinh.tsv` — 109 công trình đánh số in ở lề trái (tên Anh + tên Việt in trên bản đồ, ô lưới 100 m); số 52 Sân Cù bảng in trùng ô với số 76 nên neo theo vị trí số 52 trên bản đồ. Tìm kiếm trên trang tìm cả tên đường (1963 hoặc nay) và công trình; khớp từ đầu chữ, gõ có dấu thì so có dấu.
+- Đường đất đã mất: lọc vết ranh lô (≥ 2 vết song song sát bên) — soát mẫu khu sân cù, Lâm Sơn: phần lớn vết bám đúng nét đôi.
+- Còn thiếu (đã báo anh): đường còn đứt ở vài ngã ba và khu chợ đã xây lại; đường đất nét đứt bắt được một phần; đường quanh khu chợ cũ còn đứt (khu này nay xây khác, máy dò theo đường nay nên hụt).

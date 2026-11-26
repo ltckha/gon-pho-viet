@@ -46,6 +46,20 @@ def dia_danh():
     return out
 
 
+def cong_trinh():
+    """109 công trình đánh số in ở lề trái bản đồ (docs/research/ams_1963_cong_trinh.tsv): tâm ô lưới 100 m, hoặc mốc UTM ghi riêng."""
+    rows = [l.rstrip('\n').split('\t') for l in open(os.path.join(ROOT, 'docs/research/ams_1963_cong_trinh.tsv'), encoding='utf-8')]
+    head = rows[0]; out = []
+    for r in rows[1:]:
+        d = dict(zip(head, r + [''] * (len(head) - len(r))))
+        if d.get('moc_utm'):
+            lon, lat = B.utm_to_wgs(*map(float, d['moc_utm'].split(',')))
+        else:
+            lon, lat = B.o_luoi(d['o_luoi'])
+        out.append({'so': int(d['so']), 'nhom': d['nhom'], 'ten': d['ten_viet'], 'anh': d['ten_anh'], 'lon': round(lon, 5), 'lat': round(lat, 5)})
+    return out
+
+
 def main(pdf, soat=None):
     nx0, nx1, ny0, ny1 = neatline(pdf)
     X0, X1 = int(nx0 * DPI / 72) + 2, int(nx1 * DPI / 72) - 2
@@ -314,8 +328,26 @@ def main(pdf, soat=None):
         tracks.append(P)
         for x, y in P: covered[max(0, int(y) - 6):int(y) + 7, max(0, int(x) - 6):int(x) + 7] = True
 
+    # bỏ vết nhầm ở khu chia lô: ranh lô in nét đứt song song dày — vết có ≥ 2 vết khác song song (|cos| > 0,94) cách < 30 điểm ảnh
+    #   trên ≥ 40% chiều dài thì coi là ranh lô. Cũng bỏ vết hầu như nằm trên đường đã có.
+    def huong(P):
+        m = P.mean(0); _, _, vt = np.linalg.svd(P - m); return vt[0]
+    HU = [huong(t) for t in tracks]
+    TT = cKDTree(np.vstack(tracks)); owner = np.concatenate([np.full(len(t), k) for k, t in enumerate(tracks)])
+    bo = set()
+    for k, t in enumerate(tracks):
+        ke = {}
+        for i_, nb in enumerate(TT.query_ball_point(t, 30)):
+            for j_ in {owner[q] for q in nb}:
+                if j_ != k and abs(HU[k] @ HU[j_]) > 0.94:
+                    ke.setdefault(j_, set()).add(i_)
+        if sum(1 for v in ke.values() if len(v) >= 0.4 * len(t)) >= 2:
+            bo.add(k)
+    print('bỏ vết ranh lô:', len(bo))
     duong_mat = []
-    for Pc in tracks:
+    for k, Pc in enumerate(tracks):
+        if k in bo:
+            continue
         xi = np.clip(Pc[:, 0].astype(int), 0, W - 1); yi = np.clip(Pc[:, 1].astype(int), 0, H - 1)
         if used[yi, xi].mean() > 0.3:
             continue
@@ -397,7 +429,7 @@ def main(pdf, soat=None):
     data = {
         'nam': 1963,
         'khung': [round(lo0, 5), round(la0, 5), round(lo1, 5), round(la1, 5)],
-        'duong': duong, 'duong_mat': duong_mat, 'ten_duong': ten_duong, 'diem': t63['diem'], 'dia_danh': dia_danh(), 'nuoc': nuoc, 'rung': rung, 'khu': khu, 'nha': nha,
+        'duong': duong, 'duong_mat': duong_mat, 'ten_duong': ten_duong, 'diem': t63['diem'], 'dia_danh': dia_danh(), 'cong_trinh': cong_trinh(), 'nuoc': nuoc, 'rung': rung, 'khu': khu, 'nha': nha,
         'nguon': [{'ten': 'Bản đồ Đà Lạt 1:12.500, Army Map Service (quân đội Mỹ), loạt L909, ấn bản 1-AMS 1963 — vẽ lại toàn bộ từ bản này. Phạm vi công cộng.',
                    'link': 'https://catalog.archives.gov/id/74797741'},
                   {'ten': 'Tên đường năm 1963: bảng chỉ dẫn đường phố in trên bản đồ (103 tên), dò từng số',

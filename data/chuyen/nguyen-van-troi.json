@@ -74,11 +74,12 @@
    "ghi_chu": "tinbds chép lại câu chữ của trang tỉnh, nên chỉ tính là một nguồn."
   },
   {
-   "nam": "1976 (có nguồn ghi 1975)",
+   "nam": "1976",
    "su_kien": "Đường Hàm Nghi đổi tên thành Nguyễn Văn Trỗi.",
    "nguon": [
     "https://lamdong.gov.vn/sites/duongpho/tpdalat/SitePages/nguyen-van-troi.aspx",
-    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/",
+    "https://lamdong.gov.vn/sites/book/diachidalat/Tongluan/bai1.htm"
    ],
    "mot_nguon": false
   },

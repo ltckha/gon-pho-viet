@@ -26,15 +26,6 @@
    "ghi_chu": "VietNamNet ghi khoảng 1950–1953."
   },
   {
-   "nam": "1953",
-   "su_kien": "Đường Darles đổi tên thành Triệu Việt Vương.",
-   "nguon": [
-    "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong"
-   ],
-   "mot_nguon": true,
-   "ghi_chu": "Bảng tên đường xưa xác nhận hai tên nhưng không ghi năm."
-  },
-  {
    "nam": "sau 1954",
    "su_kien": "Bảo Đại sang Pháp sống lưu vong. Dinh thành chỗ nghỉ mát cao cấp của chính quyền Ngô Đình Diệm, sau đó là của Nguyễn Văn Thiệu.",
    "nguon": [
@@ -88,24 +79,6 @@
    ],
    "mot_nguon": false,
    "ghi_chu": "Chưa rõ bên nào đúng, nên em chỉ kể là các nguồn ghi khác nhau."
-  },
-  {
-   "tieu_de": "Quán cà phê của các bạn trẻ người điếc",
-   "noi_dung": "Dưới một con dốc nhỏ trên Triệu Việt Vương có Quán Của Thời Thanh Xuân. Người phục vụ và làm bánh ở đây đều là người điếc, khách gọi món bằng giấy bút. Bức tường quầy nước dán kín hàng nghìn mẩu giấy khách viết từ ngày đầu mở quán. Báo Lâm Đồng (8/2025) ghi quán đã hoạt động gần 10 năm.",
-   "nguon": [
-    "https://baolamdong.vn/noi-luu-giu-huong-hoa-cho-doi-388319.html",
-    "https://mia.vn/cam-nang-du-lich/ca-phe-thoi-thanh-xuan-noi-luu-giu-nhung-hanh-phuc-6289"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Ý 'gần 10 năm' chỉ có ở Báo Lâm Đồng."
-  },
-  {
-   "tieu_de": "Đường nằm trên ranh hai khu phố",
-   "noi_dung": "Khi mới đổi tên năm 1953, đường thuộc khu phố VII và VIII, chạy đúng trên ranh giới hai khu phố.",
-   "nguon": [
-    "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong"
-   ],
-   "mot_nguon": true
   }
  ],
  "mon": [
@@ -142,5 +115,37 @@
    "ghi_chu": "tinbds ghi rõ năm 1953. Bảng của blog chỉ ghi tên cũ là tên 'trước năm 1953'. Tên được giữ sau năm 1975."
   }
  ],
- "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026).",
+ "moc_khong_hien": [
+  {
+   "nam": "1953",
+   "su_kien": "Đường Darles đổi tên thành Triệu Việt Vương.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Bảng tên đường xưa xác nhận hai tên nhưng không ghi năm."
+  }
+ ],
+ "chuyen_khong_hien": [
+  {
+   "tieu_de": "Quán cà phê của các bạn trẻ người điếc",
+   "noi_dung": "Dưới một con dốc nhỏ trên Triệu Việt Vương có Quán Của Thời Thanh Xuân. Người phục vụ và làm bánh ở đây đều là người điếc, khách gọi món bằng giấy bút. Bức tường quầy nước dán kín hàng nghìn mẩu giấy khách viết từ ngày đầu mở quán. Báo Lâm Đồng (8/2025) ghi quán đã hoạt động gần 10 năm.",
+   "nguon": [
+    "https://baolamdong.vn/noi-luu-giu-huong-hoa-cho-doi-388319.html",
+    "https://mia.vn/cam-nang-du-lich/ca-phe-thoi-thanh-xuan-noi-luu-giu-nhung-hanh-phuc-6289"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Ý 'gần 10 năm' chỉ có ở Báo Lâm Đồng."
+  },
+  {
+   "tieu_de": "Đường nằm trên ranh hai khu phố",
+   "noi_dung": "Khi mới đổi tên năm 1953, đường thuộc khu phố VII và VIII, chạy đúng trên ranh giới hai khu phố.",
+   "nguon": [
+    "https://tinbds.com/lam-dong/da-lat/duong-trieu-viet-vuong"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "khong_hien_ghi_chu": "Soát 26/11/2026: chuyện của đường/nơi khác (anh Kha: không lấy lịch sử, tên đổi của nơi này đưa qua nơi kia); giữ làm tư liệu, không hiện."
 }

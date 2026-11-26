@@ -28,15 +28,6 @@
    "ghi_chu": "Các nguồn lệch năm. Báo L'Éveil économique ra ngày 9/7/1922 viết Roume quyết định xây năm 1915 và khách sạn 'khánh thành năm ngoái lúc cuối mùa', tức khoảng 1921. Báo Les Annales coloniales ngày 23/3/1923 viết khách sạn mở cửa ngày 1 tháng 2 (năm 1923, sau đợt sửa chữa). Hai bài báo cũ này em đọc qua bản tổng hợp trên entreprises-coloniales.fr."
   },
   {
-   "nam": "1925",
-   "su_kien": "Đình An Hòa được dựng, nay ở số 65 đường 3/2. Đây là ngôi đình cổ nhất Đà Lạt, tới năm 2025 tròn 100 tuổi.",
-   "nguon": [
-    "https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html",
-    "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm"
-   ],
-   "mot_nguon": false
-  },
-  {
    "nam": "1929–1934",
    "su_kien": "Xây Hôtel du Parc (nay là số 15 Trần Phú) làm khách sạn phụ, giá vừa phải, cho Lang-Bian Palace. Tháng 2/1931 khách sạn gần xong, có 70 phòng. Tháng 4/1934 mới mở cửa một phần.",
    "nguon": [
@@ -98,16 +89,6 @@
    "ghi_chu": "Trích từ báo L'Éveil économique de l'Indochine (9/7/1922), đọc qua bản tổng hợp trên entreprises-coloniales.fr. Chỉ có một trang chép lại."
   },
   {
-   "tieu_de": "Ngôi đình làm lễ quay mặt",
-   "noi_dung": "Theo Thanh Niên, khi người Pháp mở đường Maréchal Foch (nay là đường 3/2), đình An Hòa làm \"lễ quay mặt\" để đổi hướng ra con đường mới. Lễ này là nghi thức cáo yết với thần khi đổi hướng đình.",
-   "nguon": [
-    "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm",
-    "https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html"
-   ],
-   "mot_nguon": true,
-   "ghi_chu": "Chuyện quay mặt chỉ có Thanh Niên kể (báo dẫn lại cổng thông tin tỉnh). Báo Lâm Đồng thì viết khác: lúc xây, đình tựa vào dốc Duy Tân (đường 3/2) và cửa chính nhìn xuống phía Phan Đình Phùng. Cả hai báo đều kể đình do một chủ thầu người Việt bỏ tiền mua vật liệu, còn dân phu làm đường góp công xây."
-  },
-  {
    "tieu_de": "Khách sạn phụ cho Palace",
    "noi_dung": "Hôtel du Parc được xây làm khách sạn phụ, giá vừa phải, cho khách mà Lang-Bian Palace không còn chỗ. Từ năm 1934, hai khách sạn do cùng một người là Édouard Féraudy quản lý.",
    "nguon": [
@@ -145,5 +126,29 @@
    "ly_do_an": "Maréchal Foch là đường 3 Tháng 2 (Địa chí Đà Lạt, Thanh Niên), không phải Trần Phú."
   }
  ],
- "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026).",
+ "moc_khong_hien": [
+  {
+   "nam": "1925",
+   "su_kien": "Đình An Hòa được dựng, nay ở số 65 đường 3/2. Đây là ngôi đình cổ nhất Đà Lạt, tới năm 2025 tròn 100 tuổi.",
+   "nguon": [
+    "https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html",
+    "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm"
+   ],
+   "mot_nguon": false
+  }
+ ],
+ "chuyen_khong_hien": [
+  {
+   "tieu_de": "Ngôi đình làm lễ quay mặt",
+   "noi_dung": "Theo Thanh Niên, khi người Pháp mở đường Maréchal Foch (nay là đường 3/2), đình An Hòa làm \"lễ quay mặt\" để đổi hướng ra con đường mới. Lễ này là nghi thức cáo yết với thần khi đổi hướng đình.",
+   "nguon": [
+    "https://thanhnien.vn/doc-nha-lang-da-lat-co-ngoi-dinh-tung-lam-le-quay-mat-185261121203336488.htm",
+    "https://baolamdong.vn/dinh-an-hoa-ngoi-dinh-100-tuoi-giua-long-pho-404744.html"
+   ],
+   "mot_nguon": true,
+   "ghi_chu": "Chuyện quay mặt chỉ có Thanh Niên kể (báo dẫn lại cổng thông tin tỉnh). Báo Lâm Đồng thì viết khác: lúc xây, đình tựa vào dốc Duy Tân (đường 3/2) và cửa chính nhìn xuống phía Phan Đình Phùng. Cả hai báo đều kể đình do một chủ thầu người Việt bỏ tiền mua vật liệu, còn dân phu làm đường góp công xây."
+  }
+ ],
+ "khong_hien_ghi_chu": "Soát 26/11/2026: chuyện của đường/nơi khác (anh Kha: không lấy lịch sử, tên đổi của nơi này đưa qua nơi kia); giữ làm tư liệu, không hiện."
 }

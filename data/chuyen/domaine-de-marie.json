@@ -143,16 +143,6 @@
     "https://giothanhle.net/gio-le/nha-tho-vinh-son-da-lat/"
    ],
    "mot_nguon": false
-  },
-  {
-   "tieu_de": "Con đường mang tên bác sĩ Calmette",
-   "noi_dung": "Thời Pháp, con đường chạy qua chân đồi tên là Calmette; về sau đoạn này đổi thành Ngô Quyền và Thi Sách. Đường Mai Hắc Đế bên cạnh khi ấy mang tên Cassaigne.",
-   "nguon": [
-    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
-    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
-   ],
-   "mot_nguon": false,
-   "ghi_chu": "Báo Lâm Đồng 2013 chỉ ghi 'tên trước năm 1953 và tên ngày nay', không ghi năm đổi. Tên Calmette hẳn là bác sĩ Albert Calmette (Viện Pasteur) nhưng nguồn không nói rõ người nào → câu chuyện chỉ ghi 'Calmette'."
   }
  ],
  "mon": [
@@ -221,5 +211,18 @@
    "mot_nguon": false
   }
  ],
- "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026)."
+ "ten_khac_khong_hien_ghi_chu": "Không hiện ở \"Tên xưa\": tên chép nhầm, tên du khách gọi, tên gọi khác hiện nay, tên của đường/nơi khác, đơn vị hành chính, hoặc nguồn nghi (soát 26/11/2026).",
+ "chuyen_khong_hien": [
+  {
+   "tieu_de": "Con đường mang tên bác sĩ Calmette",
+   "noi_dung": "Thời Pháp, con đường chạy qua chân đồi tên là Calmette; về sau đoạn này đổi thành Ngô Quyền và Thi Sách. Đường Mai Hắc Đế bên cạnh khi ấy mang tên Cassaigne.",
+   "nguon": [
+    "https://baolamdong.vn/dalatxuanay/201311/da-lat-nhung-con-duong-ap-cu-pho-xua-2446126/",
+    "https://trangdulichdalat.wordpress.com/2018/12/08/da-lat-ten-duong-xua-va-nay/"
+   ],
+   "mot_nguon": false,
+   "ghi_chu": "Báo Lâm Đồng 2013 chỉ ghi 'tên trước năm 1953 và tên ngày nay', không ghi năm đổi. Tên Calmette hẳn là bác sĩ Albert Calmette (Viện Pasteur) nhưng nguồn không nói rõ người nào → câu chuyện chỉ ghi 'Calmette'."
+  }
+ ],
+ "khong_hien_ghi_chu": "Soát 26/11/2026: chuyện của đường/nơi khác (anh Kha: không lấy lịch sử, tên đổi của nơi này đưa qua nơi kia); giữ làm tư liệu, không hiện."
 }

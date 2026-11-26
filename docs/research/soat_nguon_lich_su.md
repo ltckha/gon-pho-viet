@@ -189,3 +189,11 @@ Nguồn nên dùng tiếp: bộ tài liệu triển lãm Đà Lạt của EFEO (
   - Ẩn "Ga hỏa xa" (cách gọi, không phải tên đổi), "ấp Vạn Thành" (giống tên nay).
   - Đánh dấu chưa chắc (?): Thung lũng Hòa Bình, Prềnh, L'Arbre Broyé, Domaine Bourgery.
 - Lưu ý: lamdong.gov.vn lỗi 503 lúc kiểm; các chỗ dẫn trang tỉnh đọc qua đoạn trích máy tìm kiếm.
+
+## Gỡ lịch sử của nơi khác khỏi từng trang (26/11/2026, anh Kha dặn)
+- Tăng Bạt Hổ: gỡ 8 mốc về Chợ Cây/Khu Hoà Bình, đường Minh Mạng → Trương Công Định, "phố Tây" Trương Công Định, phạt một quán; 2 chuyện về Trương Công Định.
+- Dốc Nguyễn Chí Thanh: gỡ 7 mốc về chợ, Khu Hoà Bình, quy hoạch Hoà Bình; 3 chuyện (tên Hoà Bình, ba ngọn tháp, rạp Eden).
+- Trần Phú: gỡ mốc và chuyện Đình An Hoà (đường 3 Tháng 2). Dinh III: gỡ mốc đường Darles → Triệu Việt Vương và 2 chuyện về con đường.
+- Nguyễn Công Trứ: gỡ mốc Tôn Thất Thuyết, Nguyễn Hoàng → Xô Viết Nghệ Tĩnh. Phan Bội Châu: gỡ chuyện quảng trường chợ. Domaine de Marie: gỡ chuyện đường Calmette.
+- Các mục này vẫn có ở trang đúng của chúng (Khu Hoà Bình, Chợ đêm…) hoặc giữ trong `moc_khong_hien` / `chuyen_khong_hien`.
+- Năm đổi tên: Bùi Thị Xuân, Nguyễn Văn Trỗi ghi 1976 (Niên biểu Đà Lạt).

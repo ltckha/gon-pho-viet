@@ -32,14 +32,6 @@
    "ghi_chu": "Vị trí trường sát ngã năm có thêm OSM (way 969458761, addr 1 Phù Đổng Thiên Vương), nhưng năm 1957 chỉ có Wikipedia."
   },
   {
-   "nam": "1975",
-   "su_kien": "Đường Tôn Thất Thuyết và Nguyễn Hoàng (cùng gốc đường Dankir thời Pháp với Nguyễn Công Trứ) đổi thành Xô Viết Nghệ Tĩnh — con đường ở cuối Nguyễn Công Trứ.",
-   "nguon": [
-    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
-   ],
-   "mot_nguon": true
-  },
-  {
    "nam": "2013",
    "su_kien": "Là Việt Coffee ra đời ở Đà Lạt: 'quán cà phê công xưởng đầu tiên' mở năm 2013 (Đại biểu Nhân dân); công ty đăng ký kinh doanh ngày 29/08/2013 (trang Là Việt). Nay quán kiêm xưởng rang ở 200 Nguyễn Công Trứ.",
    "nguon": [
@@ -150,5 +142,16 @@
    "mot_nguon": false
   }
  ],
- "ghi_chu": "1) Tên cũ 'Dankir' và mốc 1975 (Xô Viết Nghệ Tĩnh) chỉ dựa vào bảng của blog didulichdalat. 2) Trường Đại học Đà Lạt ở đường Phù Đổng Thiên Vương, không ở Nguyễn Công Trứ; chỉ là mốc quen ở ngã năm đầu đường. 3) Năm 2013 của Là Việt là năm thương hiệu/quán đầu tiên, không rõ có phải ở số 200 hay không. 4) Ranh phường trên phuong.json lệch khỏi tim đường 50–100 m về phía nam."
+ "ghi_chu": "1) Tên cũ 'Dankir' và mốc 1975 (Xô Viết Nghệ Tĩnh) chỉ dựa vào bảng của blog didulichdalat. 2) Trường Đại học Đà Lạt ở đường Phù Đổng Thiên Vương, không ở Nguyễn Công Trứ; chỉ là mốc quen ở ngã năm đầu đường. 3) Năm 2013 của Là Việt là năm thương hiệu/quán đầu tiên, không rõ có phải ở số 200 hay không. 4) Ranh phường trên phuong.json lệch khỏi tim đường 50–100 m về phía nam.",
+ "moc_khong_hien": [
+  {
+   "nam": "1975",
+   "su_kien": "Đường Tôn Thất Thuyết và Nguyễn Hoàng (cùng gốc đường Dankir thời Pháp với Nguyễn Công Trứ) đổi thành Xô Viết Nghệ Tĩnh — con đường ở cuối Nguyễn Công Trứ.",
+   "nguon": [
+    "https://didulichdalat.wordpress.com/2010/10/24/ten-d%C6%B0%E1%BB%9Dng-da-l%E1%BA%A1t-x%C6%B0a-va-nay/"
+   ],
+   "mot_nguon": true
+  }
+ ],
+ "khong_hien_ghi_chu": "Soát 26/11/2026: chuyện của đường/nơi khác (anh Kha: không lấy lịch sử, tên đổi của nơi này đưa qua nơi kia); giữ làm tư liệu, không hiện."
 }

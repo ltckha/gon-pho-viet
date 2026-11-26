@@ -1,12 +1,14 @@
 {
- "_ghi_chu": "Tên hiện trên bản đồ, dòng đặc trưng, 'ở đây bán gì' (mức cả khu) và mốc lâu đời của mỗi nơi. Không đổi ten_pho trong dữ liệu (dùng chung với game). Mọi ý rút từ data/pho/*.json và data/chuyen/*.json đã có nguồn; mốc lâu đời là tên nơi trong dia_diem.",
+ "_ghi_chu": "Tên hiện trên bản đồ, dòng đặc trưng, 'ở đây bán gì' (mức cả khu) và mốc lâu đời của mỗi nơi. Không đổi ten_pho trong dữ liệu (dùng chung với game). Mọi ý rút từ data/pho/*.json và data/chuyen/*.json đã có nguồn; mốc lâu đời là tên nơi trong dia_diem. loai: 'duong' (một con đường, ghim giữa đường duong_chinh, tô sáng đúng đường đó) hoặc 'diem' (hồ, dinh, ga, làng, núi…: ghim đúng toạ độ diem, không tô sáng đường) — anh Kha chốt 26/11 để không còn đường dùng chung, ghim chồng nhau.",
  "tang-bat-ho": {
   "ten": "Đường Tăng Bạt Hổ",
   "dac_trung": "Ăn sáng và ăn đêm sau Chợ Đà Lạt",
   "ban_gi": "Bánh căn, bánh ướt lòng gà, sữa đậu nành nóng buổi tối; rẽ sang Trương Công Định là hostel, cà phê và các quán bar nhỏ dưới tầng hầm.",
   "moc": [
    "Bánh căn 14 (hai Cô)"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Tăng Bạt Hổ"
  },
  "pho-ca-phe": {
   "ten": "Dốc Nguyễn Chí Thanh",
@@ -14,7 +16,9 @@
   "ban_gi": "Cà phê truyền thống mở từ sáng sớm xen tiệm trà, cà phê kiểu mới và tiệm bánh.",
   "moc": [
    "Café Nga"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Nguyễn Chí Thanh"
  },
  "phan-dinh-phung": {
   "ten": "Đường Phan Đình Phùng",
@@ -22,7 +26,9 @@
   "ban_gi": "Sáng có bánh bèo, mì hoành thánh, bún bò, phở; dọc phố có nhà sách, nhà thuốc, quán nem nướng, bánh ướt lòng gà và chỗ thuê xe máy.",
   "moc": [
    "Bún bò Bà Sồi"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Phan Đình Phùng"
  },
  "nguyen-van-troi": {
   "ten": "Đường Nguyễn Văn Trỗi",
@@ -32,7 +38,9 @@
    "Chùa Linh Sơn",
    "Kem bơ Thanh Thảo",
    "Bánh tráng nướng Bà Khùng"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Nguyễn Văn Trỗi"
  },
  "hoang-dieu": {
   "ten": "Ba Toa – đường Hoàng Diệu",
@@ -40,7 +48,9 @@
   "ban_gi": "Hơn 20 quán lẩu bò trên một đoạn ngắn; buổi sáng bánh mì xíu mại; tối có bánh tráng nướng, cơm gà.",
   "moc": [
    "Bánh Mì Xíu Mại Bé Linh"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Hoàng Diệu"
  },
  "tran-phu": {
   "ten": "Đường Trần Phú",
@@ -50,13 +60,17 @@
    "Nhà thờ Chính tòa Đà Lạt (nhà thờ Con Gà)",
    "Dalat Palace Heritage Hotel",
    "Du Parc Hotel Dalat"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Trần Phú"
  },
  "bui-thi-xuan": {
   "ten": "Đường Bùi Thị Xuân",
   "dac_trung": "Đường dài từ hồ lên ngã năm Đại học",
   "ban_gi": "Lẩu gà lá é, lẩu bò, nem nướng, bánh mì xíu mại và nhiều khách sạn.",
-  "moc": []
+  "moc": [],
+  "loai": "duong",
+  "duong_chinh": "Bùi Thị Xuân"
  },
  "hai-ba-trung": {
   "ten": "Đường Hai Bà Trưng",
@@ -64,7 +78,9 @@
   "ban_gi": "Các quán ốc nhồi thịt, lẩu gà lá é, gà nướng cơm lam, bún đậu, hủ tiếu, lẩu cá tầm, lẩu dê.",
   "moc": [
    "Chùa Linh Quang"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Hai Bà Trưng"
  },
  "hoang-hoa-tham": {
   "ten": "Đường Hoàng Hoa Thám",
@@ -72,7 +88,9 @@
   "ban_gi": "Quán cà phê và homestay trên đồi nhìn ra thung lũng, có quán mở từ rạng sáng để đón bình minh.",
   "moc": [
    "Chùa Linh Phong"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Hoàng Hoa Thám"
  },
  "khu-hoa-binh": {
   "ten": "Khu Hoà Bình",
@@ -81,13 +99,20 @@
   "moc": [
    "Rạp Hòa Bình (Rạp 3 Tháng 4)",
    "Cafe Tùng"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.43598,
+   11.94348
   ]
  },
  "nguyen-cong-tru": {
   "ten": "Đường Nguyễn Công Trứ",
   "dac_trung": "Quán ăn bình dân gần Đại học Đà Lạt",
   "ban_gi": "Cơm tấm sáng, mì Quảng, hủ tiếu Nam Vang, cơm quê, quán nướng và quán cà phê kiêm xưởng rang.",
-  "moc": []
+  "moc": [],
+  "loai": "duong",
+  "duong_chinh": "Nguyễn Công Trứ"
  },
  "nguyen-thi-minh-khai": {
   "ten": "Chợ đêm Đà Lạt",
@@ -95,13 +120,17 @@
   "ban_gi": "Ban ngày là chợ; tối thành chợ đêm bán áo len, đặc sản, đồ ăn vặt như bánh tráng nướng, dâu lắc; quanh đó nhiều khách sạn.",
   "moc": [
    "Chợ Đà Lạt"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Nguyễn Thị Minh Khai"
  },
  "phan-boi-chau": {
   "ten": "Đường Phan Bội Châu",
   "dac_trung": "Khách sạn sát Chợ Đà Lạt",
   "ban_gi": "Khách sạn lớn, quán bar kiến trúc mê cung, quán nướng, lẩu cháo mở khuya, kem xôi dừa.",
-  "moc": []
+  "moc": [],
+  "loai": "duong",
+  "duong_chinh": "Phan Bội Châu"
  },
  "tran-hung-dao": {
   "ten": "Đường Trần Hưng Đạo",
@@ -109,7 +138,9 @@
   "ban_gi": "Cà phê trong biệt thự và nhìn ra hồ, bánh canh chả cá, quán chay, gà nướng cơm lam, nem nướng.",
   "moc": [
    "Dinh 2 (Dinh Toàn quyền, Governor Palace)"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Trần Hưng Đạo"
  },
  "trieu-viet-vuong": {
   "ten": "Dinh III Bảo Đại",
@@ -117,6 +148,11 @@
   "ban_gi": "Cà phê vườn, tiệm bánh ngọt, bánh ướt lòng gà, nhà hàng cá tầm.",
   "moc": [
    "Dinh III (Dinh Bảo Đại)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.42967,
+   11.93005
   ]
  },
  "yersin": {
@@ -126,7 +162,9 @@
   "moc": [
    "Trường Cao đẳng Đà Lạt (Lycée Yersin cũ, Cao đẳng Sư phạm Đà Lạt)",
    "Công viên Yersin"
-  ]
+  ],
+  "loai": "duong",
+  "duong_chinh": "Yersin"
  },
  "ga-da-lat": {
   "ten": "Ga Đà Lạt",
@@ -135,6 +173,11 @@
   "moc": [
    "Ga Đà Lạt (Ga hỏa xa Đà Lạt)",
    "Bảo tàng Lâm Đồng"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.45424,
+   11.94156
   ]
  },
  "ho-xuan-huong": {
@@ -147,6 +190,11 @@
    "Sân golf Dalat Palace (Đồi Cù)",
    "Vườn hoa thành phố Đà Lạt",
    "Quảng trường Lâm Viên"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.4436,
+   11.9418
   ]
  },
  "thung-lung-tinh-yeu": {
@@ -157,6 +205,11 @@
    "Khu du lịch Thung Lũng Tình Yêu (TTC World – Thung Lũng Tình Yêu)",
    "Trường Đại học Đà Lạt",
    "Hồ Đa Thiện"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.44992,
+   11.97819
   ]
  },
  "truc-lam": {
@@ -168,6 +221,11 @@
    "Thiền viện Trúc Lâm",
    "Hồ Tuyền Lâm",
    "Cáp treo Đà Lạt (ga đồi Robin)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.43456,
+   11.90388
   ]
  },
  "thai-phien": {
@@ -178,6 +236,11 @@
    "Đình Thái Phiên (đình ấp Thái Phiên)",
    "Chợ Thái Phiên",
    "Hồ Thái Phiên (đập Thái Phiên)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.47698,
+   11.96869
   ]
  },
  "van-thanh": {
@@ -189,6 +252,11 @@
    "Thác Cam Ly",
    "Lăng Nguyễn Hữu Hào",
    "Sân bay Cam Ly (đường băng cũ)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.41447,
+   11.94734
   ]
  },
  "trai-mat": {
@@ -199,6 +267,11 @@
    "Ga Trại Mát",
    "Chùa Linh Phước (chùa Ve Chai, chùa Mảnh Chai)",
    "Thánh thất Cao Đài Đa Phước (Thánh thất Cao Đài Đà Lạt)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.50146,
+   11.94612
   ]
  },
  "lang-biang": {
@@ -209,6 +282,11 @@
    "Khu du lịch Lang Biang (núi Lang Biang)",
    "Nhà máy thủy điện Ankroet",
    "Hồ Đankia – Suối Vàng"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.41379,
+   12.03256
   ]
  },
  "cau-dat": {
@@ -219,6 +297,11 @@
    "Cầu Đất Farm – Đồi chè Cầu Đất",
    "Bảo tàng trà cổ Cầu Đất Farm (xưởng chè cũ)",
    "Đường hầm hỏa xa (hầm xe lửa cổ)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.55748,
+   11.88225
   ]
  },
  "domaine-de-marie": {
@@ -229,6 +312,11 @@
    "Nhà thờ Domaine de Marie (nhà thờ Mai Anh, Lãnh địa Đức Bà)",
    "Trung tâm Lưu trữ quốc gia IV (Biệt điện Trần Lệ Xuân)",
    "Nhà thờ Cam Ly (nhà thờ Sơn Cước)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.43012,
+   11.94971
   ]
  },
  "hang-nga": {
@@ -239,6 +327,11 @@
    "Biệt thự Hằng Nga (Crazy House)",
    "Viện Pasteur Đà Lạt (nay Công ty Vắc xin Pasteur Đà Lạt)",
    "Couvent des Oiseaux (Tu viện Đức Bà Lâm Viên, nay Trường PT Dân tộc Nội trú Lâm Đồng)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.43093,
+   11.93476
   ]
  },
  "dinh-1": {
@@ -248,6 +341,11 @@
   "moc": [
    "Dinh I (Dinh 1, Dinh Bảo Đại 1, nay là King Palace)",
    "Nhà lao thiếu nhi Đà Lạt (Trung tâm giáo huấn thiếu nhi Đà Lạt)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.46756,
+   11.94328
   ]
  },
  "ho-than-tho": {
@@ -258,6 +356,11 @@
    "Hồ Than Thở (có thời tên Hồ Sương Mai)",
    "Đồi thông hai mộ",
    "Học viện Lục quân (khuôn viên Trường Võ bị Quốc gia Đà Lạt cũ)"
+  ],
+  "loai": "diem",
+  "diem": [
+   108.47849,
+   11.95707
   ]
  }
 }

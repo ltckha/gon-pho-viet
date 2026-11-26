@@ -713,6 +713,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Tăng Bạt Hổ"
+   ],
    "ten_ngan": "Đường Tăng Bạt Hổ",
    "ten_hien": "Đường Tăng Bạt Hổ",
    "dac_trung": "Ăn sáng và ăn đêm sau Chợ Đà Lạt",
@@ -733,8 +737,8 @@
    "gioi_thieu": "Phố Cà Phê: con dốc Nguyễn Chí Thanh lên Khu Hòa Bình, có Café Nga mở từ 5 giờ sáng đã hơn 20 năm, bên cạnh tiệm trà chuỗi mới Phê La.",
    "anh": "assets/dau_pho/dau_pho_ca_phe.webp",
    "ten_that": true,
-   "lon": 108.43587,
-   "lat": 11.94286,
+   "lon": 108.43628,
+   "lat": 11.94012,
    "dia_diem": [
     {
      "ten": "Café Nga",
@@ -1206,6 +1210,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Nguyễn Chí Thanh"
+   ],
    "ten_ngan": "Dốc Nguyễn Chí Thanh",
    "ten_hien": "Dốc Nguyễn Chí Thanh",
    "dac_trung": "Con dốc cà phê lên Khu Hoà Bình",
@@ -1225,8 +1233,8 @@
    "gioi_thieu": "Phố Dân Sinh: phố cũ của dân phố núi — sáng có bánh bèo, mì hoành thánh, bún bò, phở thố đá; dọc phố có nhà sách lớn, nhà thuốc, quán nem nướng và chỗ thuê xe máy.",
    "anh": "assets/dau_pho/dau_pho_phan_dinh_phung.webp",
    "ten_that": true,
-   "lon": 108.43416,
-   "lat": 11.94466,
+   "lon": 108.43479,
+   "lat": 11.94613,
    "dia_diem": [
     {
      "ten": "Nhà sách Phương Nam Đà Lạt",
@@ -1664,6 +1672,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Phan Đình Phùng"
+   ],
    "ten_ngan": "Đường Phan Đình Phùng",
    "ten_hien": "Đường Phan Đình Phùng",
    "dac_trung": "Phố buôn bán lâu đời của người Đà Lạt",
@@ -1683,8 +1695,8 @@
    "gioi_thieu": "Phố Kem Bơ: đường một chiều có những hàng kem bơ 30–40 năm tuổi, chiều tối có bánh tráng nướng bếp than, cuối dốc là chùa Linh Sơn.",
    "anh": "assets/dau_pho/dau_pho_nguyen_van_troi.webp",
    "ten_that": true,
-   "lon": 108.43668,
-   "lat": 11.94938,
+   "lon": 108.43696,
+   "lat": 11.94735,
    "dia_diem": [
     {
      "ten": "Kem Phụng",
@@ -2316,6 +2328,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Nguyễn Văn Trỗi"
+   ],
    "ten_ngan": "Đường Nguyễn Văn Trỗi",
    "ten_hien": "Đường Nguyễn Văn Trỗi",
    "dac_trung": "Kem bơ, chè và bánh tráng nướng",
@@ -2337,8 +2353,8 @@
    "gioi_thieu": "Phố lẩu bò Ba Toa: hơn 20 quán lẩu bò trên đoạn dưới 300 m (cùng Nguyễn Thị Định, Tô Ngọc Vân), sáng bán bánh mì xíu mại",
    "anh": "assets/dau_pho/dau_pho_hoang_dieu.webp",
    "ten_that": true,
-   "lon": 108.42732,
-   "lat": 11.94281,
+   "lon": 108.42757,
+   "lat": 11.94292,
    "dia_diem": [
     {
      "ten": "Lẩu Bò Quán Gỗ (Lẩu Bò ABa Toa)",
@@ -2753,6 +2769,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Hoàng Diệu"
+   ],
    "ten_ngan": "Ba Toa – đường Hoàng Diệu",
    "ten_hien": "Ba Toa – đường Hoàng Diệu",
    "dac_trung": "Lẩu bò Ba Toa, bánh mì xíu mại",
@@ -2773,8 +2793,8 @@
    "gioi_thieu": "Phố Di Sản: khách sạn Lang-Bian Palace xây xong năm 1922 bên hồ Xuân Hương, nhà thờ Con Gà xây 1931–1942, tiệm bánh Liên Hoa mở từ 5 giờ sáng tới nửa đêm.",
    "anh": "assets/dau_pho/dau_pho_tran_phu.webp",
    "ten_that": true,
-   "lon": 108.43433,
-   "lat": 11.93647,
+   "lon": 108.43505,
+   "lat": 11.93662,
    "dia_diem": [
     {
      "ten": "Dalat Palace Heritage Hotel",
@@ -3293,6 +3313,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Trần Phú"
+   ],
    "ten_ngan": "Đường Trần Phú",
    "ten_hien": "Đường Trần Phú",
    "dac_trung": "Nhà thờ Con Gà và khách sạn thời Pháp",
@@ -3701,6 +3725,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Bùi Thị Xuân"
+   ],
    "ten_ngan": "Đường Bùi Thị Xuân",
    "ten_hien": "Đường Bùi Thị Xuân",
    "dac_trung": "Đường dài từ hồ lên ngã năm Đại học",
@@ -3719,8 +3747,8 @@
    "anh": "assets/dau_pho/dau_pho_cau_dat.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.55703,
-   "lat": 11.87603,
+   "lon": 108.55748,
+   "lat": 11.88225,
    "dia_diem": [
     {
      "ten": "Cầu Đất Farm – Đồi chè Cầu Đất",
@@ -4240,6 +4268,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Đồi chè Cầu Đất",
    "ten_hien": "Đồi chè Cầu Đất",
    "dac_trung": "Sở trà người Pháp lập năm 1927",
@@ -4265,8 +4295,8 @@
    "anh": "assets/dau_pho/dau_pho_dinh_1.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.46751,
-   "lat": 11.94327,
+   "lon": 108.46756,
+   "lat": 11.94328,
    "dia_diem": [
     {
      "ten": "Dinh I (Dinh 1, Dinh Bảo Đại 1, nay là King Palace)",
@@ -4733,6 +4763,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Dinh I",
    "ten_hien": "Dinh I",
    "dac_trung": "Biệt thự đồi thông, dinh cũ Bảo Đại",
@@ -4759,8 +4791,8 @@
    "anh": "assets/dau_pho/dau_pho_domaine_de_marie.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.42921,
-   "lat": 11.94653,
+   "lon": 108.43012,
+   "lat": 11.94971,
    "dia_diem": [
     {
      "ten": "Nhà thờ Domaine de Marie (nhà thờ Mai Anh, Lãnh địa Đức Bà)",
@@ -5353,6 +5385,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Nhà thờ Domaine de Marie",
    "ten_hien": "Nhà thờ Domaine de Marie",
    "dac_trung": "Nhà thờ hồng trên đồi Mai Anh",
@@ -5380,8 +5414,8 @@
    "anh": "assets/dau_pho/dau_pho_ga_da_lat.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.454,
-   "lat": 11.94203,
+   "lon": 108.45424,
+   "lat": 11.94156,
    "dia_diem": [
     {
      "ten": "Ga Đà Lạt (Ga hỏa xa Đà Lạt)",
@@ -5951,6 +5985,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Ga Đà Lạt",
    "ten_hien": "Ga Đà Lạt",
    "dac_trung": "Nhà ga ba chóp mái 1932–1938",
@@ -5972,8 +6008,8 @@
    "anh": "assets/dau_pho/dau_pho_hai_ba_trung.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.43311,
-   "lat": 11.94881,
+   "lon": 108.43155,
+   "lat": 11.95178,
    "dia_diem": [
     {
      "ten": "Quán 33 – Ốc nhồi thịt & lẩu đuôi bò (quán gốc)",
@@ -6528,6 +6564,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Hai Bà Trưng"
+   ],
    "ten_ngan": "Đường Hai Bà Trưng",
    "ten_hien": "Đường Hai Bà Trưng",
    "dac_trung": "Ốc nhồi thịt và chùa Linh Quang",
@@ -6551,8 +6591,8 @@
    "anh": "assets/dau_pho/dau_pho_hang_nga.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.42687,
-   "lat": 11.93493,
+   "lon": 108.43093,
+   "lat": 11.93476,
    "dia_diem": [
     {
      "ten": "Biệt thự Hằng Nga (Crazy House)",
@@ -7117,6 +7157,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Biệt thự Hằng Nga",
    "ten_hien": "Biệt thự Hằng Nga",
    "dac_trung": "Nhà gốc cây bê tông, xây từ 1990",
@@ -7141,8 +7183,8 @@
    "anh": "assets/dau_pho/dau_pho_ho_than_tho.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.47074,
-   "lat": 11.95391,
+   "lon": 108.47849,
+   "lat": 11.95707,
    "dia_diem": [
     {
      "ten": "Hồ Than Thở (có thời tên Hồ Sương Mai)",
@@ -7589,6 +7631,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Hồ Than Thở",
    "ten_hien": "Hồ Than Thở",
    "dac_trung": "Hồ Pháp đắp 1917, Đồi thông hai mộ",
@@ -7613,8 +7657,8 @@
    "anh": "assets/dau_pho/dau_pho_ho_xuan_huong.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.44489,
-   "lat": 11.94263,
+   "lon": 108.4436,
+   "lat": 11.9418,
    "dia_diem": [
     {
      "ten": "Hồ Xuân Hương",
@@ -8550,6 +8594,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Quanh hồ Xuân Hương",
    "ten_hien": "Quanh hồ Xuân Hương",
    "dac_trung": "Hồ giữa lòng Đà Lạt, có từ năm 1919",
@@ -8574,8 +8620,8 @@
    "anh": "assets/dau_pho/dau_pho_hoang_hoa_tham.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.46387,
-   "lat": 11.93676,
+   "lon": 108.46474,
+   "lat": 11.93218,
    "dia_diem": [
     {
      "ten": "Tiệm Cà Phê Bình Minh Ơi",
@@ -8959,6 +9005,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Hoàng Hoa Thám"
+   ],
    "ten_ngan": "Đường Hoàng Hoa Thám",
    "ten_hien": "Đường Hoàng Hoa Thám",
    "dac_trung": "Cà phê đồi thông nhìn núi",
@@ -8979,8 +9029,8 @@
    "anh": "assets/dau_pho/dau_pho_khu_hoa_binh.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.43574,
-   "lat": 11.94312,
+   "lon": 108.43598,
+   "lat": 11.94348,
    "dia_diem": [
     {
      "ten": "Rạp Hòa Bình (Rạp 3 Tháng 4)",
@@ -9552,6 +9602,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Khu Hoà Bình",
    "ten_hien": "Khu Hoà Bình",
    "dac_trung": "Rạp Hoà Bình trên nền chợ cũ",
@@ -9578,8 +9630,8 @@
    "anh": "assets/dau_pho/dau_pho_lang_biang.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.37615,
-   "lat": 12.01306,
+   "lon": 108.41379,
+   "lat": 12.03256,
    "dia_diem": [
     {
      "ten": "Khu du lịch Lang Biang (núi Lang Biang)",
@@ -10166,6 +10218,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Chân núi Lang Biang",
    "ten_hien": "Chân núi Lang Biang",
    "dac_trung": "Núi cao nhất quanh Đà Lạt, buôn người K'Ho",
@@ -10188,8 +10242,8 @@
    "anh": "assets/dau_pho/dau_pho_nguyen_cong_tru.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.43553,
-   "lat": 11.95689,
+   "lon": 108.43409,
+   "lat": 11.95586,
    "dia_diem": [
     {
      "ten": "La Viet Coffee (Là Việt Coffee)",
@@ -10559,6 +10613,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Nguyễn Công Trứ"
+   ],
    "ten_ngan": "Đường Nguyễn Công Trứ",
    "ten_hien": "Đường Nguyễn Công Trứ",
    "dac_trung": "Quán ăn bình dân gần Đại học Đà Lạt",
@@ -10577,8 +10635,8 @@
    "anh": "assets/dau_pho/dau_pho_nguyen_thi_minh_khai.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.43717,
-   "lat": 11.94266,
+   "lon": 108.43694,
+   "lat": 11.94287,
    "dia_diem": [
     {
      "ten": "Chợ Đà Lạt",
@@ -10905,6 +10963,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Nguyễn Thị Minh Khai"
+   ],
    "ten_ngan": "Chợ đêm Đà Lạt",
    "ten_hien": "Chợ đêm Đà Lạt",
    "dac_trung": "Dốc Nguyễn Thị Minh Khai trước Chợ Đà Lạt",
@@ -10925,8 +10987,8 @@
    "anh": "assets/dau_pho/dau_pho_phan_boi_chau.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.43843,
-   "lat": 11.94403,
+   "lon": 108.43864,
+   "lat": 11.94373,
    "dia_diem": [
     {
      "ten": "Hôtel Colline (Colline Dalat)",
@@ -11207,6 +11269,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Phan Bội Châu"
+   ],
    "ten_ngan": "Đường Phan Bội Châu",
    "ten_hien": "Đường Phan Bội Châu",
    "dac_trung": "Khách sạn sát Chợ Đà Lạt",
@@ -11225,8 +11291,8 @@
    "anh": "assets/dau_pho/dau_pho_thai_phien.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.48232,
-   "lat": 11.97473,
+   "lon": 108.47698,
+   "lat": 11.96869,
    "dia_diem": [
     {
      "ten": "Đình Thái Phiên (đình ấp Thái Phiên)",
@@ -11709,6 +11775,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Làng Hoa Thái Phiên",
    "ten_hien": "Làng Hoa Thái Phiên",
    "dac_trung": "Làng hoa nhà kính lập năm 1956",
@@ -11732,8 +11800,8 @@
    "anh": "assets/dau_pho/dau_pho_thung_lung_tinh_yeu.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.4431,
-   "lat": 11.96342,
+   "lon": 108.44992,
+   "lat": 11.97819,
    "dia_diem": [
     {
      "ten": "Khu du lịch Thung Lũng Tình Yêu (TTC World – Thung Lũng Tình Yêu)",
@@ -12435,6 +12503,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Thung lũng Tình Yêu",
    "ten_hien": "Thung lũng Tình Yêu",
    "dac_trung": "Thung lũng rừng thông, hồ Đa Thiện",
@@ -12461,8 +12531,8 @@
    "anh": "assets/dau_pho/dau_pho_trai_mat.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.49531,
-   "lat": 11.94462,
+   "lon": 108.50146,
+   "lat": 11.94612,
    "dia_diem": [
     {
      "ten": "Ga Trại Mát",
@@ -13032,6 +13102,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Ga Trại Mát",
    "ten_hien": "Ga Trại Mát",
    "dac_trung": "Ga cuối tàu du lịch, chùa Ve Chai",
@@ -13626,6 +13698,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Trần Hưng Đạo"
+   ],
    "ten_ngan": "Đường Trần Hưng Đạo",
    "ten_hien": "Đường Trần Hưng Đạo",
    "dac_trung": "Biệt thự Pháp trên đồi thông",
@@ -13646,8 +13722,8 @@
    "anh": "assets/dau_pho/dau_pho_trieu_viet_vuong.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.42881,
-   "lat": 11.93064,
+   "lon": 108.42967,
+   "lat": 11.93005,
    "dia_diem": [
     {
      "ten": "Dinh III (Dinh Bảo Đại)",
@@ -14060,6 +14136,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Dinh III Bảo Đại",
    "ten_hien": "Dinh III Bảo Đại",
    "dac_trung": "Đường Triệu Việt Vương",
@@ -14085,8 +14163,8 @@
    "anh": "assets/dau_pho/dau_pho_truc_lam.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.43822,
-   "lat": 11.90257,
+   "lon": 108.43456,
+   "lat": 11.90388,
    "dia_diem": [
     {
      "ten": "Thiền viện Trúc Lâm",
@@ -14637,6 +14715,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Thiền viện Trúc Lâm",
    "ten_hien": "Thiền viện Trúc Lâm – Hồ Tuyền Lâm",
    "dac_trung": "Thiền viện trên núi, cáp treo, thác",
@@ -14662,8 +14742,8 @@
    "anh": "assets/dau_pho/dau_pho_van_thanh.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.41276,
-   "lat": 11.94688,
+   "lon": 108.41447,
+   "lat": 11.94734,
    "dia_diem": [
     {
      "ten": "Làng hoa Vạn Thành",
@@ -15210,6 +15290,8 @@
      }
     ]
    },
+   "loai_noi": "diem",
+   "duong_hien": [],
    "ten_ngan": "Làng Hoa Vạn Thành",
    "ten_hien": "Làng Hoa Vạn Thành",
    "dac_trung": "Thung lũng nhà kính hoa ly, cúc, hồng",
@@ -15233,8 +15315,8 @@
    "anh": "assets/dau_pho/dau_pho_yersin.webp",
    "ten_that": true,
    "moi": true,
-   "lon": 108.45207,
-   "lat": 11.94322,
+   "lon": 108.45192,
+   "lat": 11.94387,
    "dia_diem": [
     {
      "ten": "Trường Cao đẳng Đà Lạt (Lycée Yersin cũ, Cao đẳng Sư phạm Đà Lạt)",
@@ -15825,6 +15907,10 @@
      }
     ]
    },
+   "loai_noi": "duong",
+   "duong_hien": [
+    "Yersin"
+   ],
    "ten_ngan": "Đường Yersin",
    "ten_hien": "Đường Yersin",
    "dac_trung": "Trường gạch đỏ Lycée Yersin",

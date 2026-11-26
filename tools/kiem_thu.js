@@ -69,14 +69,16 @@ const URL = process.env.URL || 'http://localhost:8765/';
   await shot('7_trang_pho');
   await p.locator('#sheet').evaluate((e) => e.scrollTo(0, e.scrollHeight)); await p.waitForTimeout(200);
   await shot('8_trang_pho_cuoi');
+  const laDiem = (await p.locator('#sheetBody .o-bt span', { hasText: 'Đường tới' }).count()) > 0;   // nơi loại 'điểm' không tô đường
   await p.click('#seeMap'); await p.waitForTimeout(500);
   if (await p.isVisible('#sheet')) fail('Bấm "Xem cả phố trên bản đồ" mà trang không đóng');
-  if ((await p.locator('#hl path').count()) < 1) fail('Không tô sáng đường của phố');
+  if (!laDiem && (await p.locator('#hl path').count()) < 1) fail('Không tô sáng đường của phố');
   await shot('9_pho_tren_ban_do');
 
   // 5. Mở thẳng link trang phố, rồi nút quay lại
   await p.goto(URL + '#pho-hoang-dieu'); await p.waitForTimeout(2500);
   if (!(await p.isVisible('#sheet.full'))) fail('Mở link #pho-hoang-dieu không ra trang phố');
+  if ((await p.evaluate(() => { const s = document.querySelectorAll('#hl path'); return s.length; })) < 1) fail('Trang Ba Toa không tô sáng đường Hoàng Diệu');
   const nTen = await p.locator('.bd-list li').count();
   if ((await p.locator('#soDo').count()) && (await p.locator('.bd-cham').count()) < 1) fail('Bản đồ không có chấm mốc lâu đời nào');   // bản đồ phố đang tạm tắt (BAN_DO_PHO)
   await shot('10_ban_do_pho');

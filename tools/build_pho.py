@@ -135,6 +135,21 @@ def main(game):
         for m in x['moc']:
             if m not in names:
                 raise SystemExit('Mốc "%s" của %s không có trong danh sách nơi đã nghiên cứu' % (m, o['slug']))
+        # loại nơi (anh Kha 26/11): 'duong' = đúng một con đường, ghim giữa đường; 'diem' = ghim đúng chỗ, không tô đường
+        o['loai_noi'] = x['loai']
+        if x['loai'] == 'duong':
+            if x['duong_chinh'] not in o['duong']:
+                raise SystemExit('%s: đường chính "%s" không có trong danh sách đường' % (o['slug'], x['duong_chinh']))
+            o['duong_hien'] = [x['duong_chinh']]
+            pts = [pt for dd in duong['duong'] if dd.get('ten') == x['duong_chinh'] for pt in dd['pts']]
+            an = [(o['lon'], o['lat'])] + [(d['vi_tri']['lon'], d['vi_tri']['lat']) for d in o['dia_diem'] if d.get('vi_tri')]
+            pts = [q for q in pts if min(math.hypot((q[0] - a[0]) * 108900, (q[1] - a[1]) * 110540) for a in an) < 2200] or pts
+            cx = sum(q[0] for q in pts) / len(pts); cy = sum(q[1] for q in pts) / len(pts)
+            mid = min(pts, key=lambda q: math.hypot((q[0] - cx) * 108900, (q[1] - cy) * 110540))   # điểm trên đường gần giữa đoạn đường nhất
+            o['lon'], o['lat'] = mid[0], mid[1]
+        else:
+            o['duong_hien'] = []
+            o['lon'], o['lat'] = x['diem'][0], x['diem'][1]
         o.update({'ten_ngan': x.get('ten_ngan', x['ten']), 'ten_hien': x['ten'], 'dac_trung': x['dac_trung'], 'ban_gi': x['ban_gi'], 'moc_lau_doi': x['moc']})
     write(out)
 

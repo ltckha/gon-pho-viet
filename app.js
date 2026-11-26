@@ -656,7 +656,8 @@
     var an = [[ph.lon, ph.lat]];
     (ph.dia_diem || []).forEach(function (d) { if (d.vi_tri) an.push([d.vi_tri.lon, d.vi_tri.lat]); });
     return data.duong.filter(function (r) {
-      if (!r.ten || ph.duong.indexOf(r.ten) < 0) return false;
+      var ds = ph.duong_hien || ph.duong;   // loại 'diem' không tô đường nào
+      if (!r.ten || ds.indexOf(r.ten) < 0) return false;
       if (ph.lon == null) return true;
       return r.pts.some(function (q) {
         return an.some(function (a) { return Math.hypot((q[0] - a[0]) * 108900, (q[1] - a[1]) * 110540) < 2200; });
@@ -772,6 +773,10 @@
   function hoaDau(t) { return t ? t.charAt(0).toUpperCase() + t.slice(1) : t; }
   function showPho(ph) {
     phoBox = highlight(ph);
+    if (ph.loai_noi === 'diem' || !(phoBox.maxX > phoBox.minX)) {   // điểm: khung ~400 m quanh ghim
+      var cxp = px(ph.lon), cyp = py(ph.lat), mm = 0.0036 * K;
+      phoBox = { minX: cxp - mm, maxX: cxp + mm, minY: cyp - mm, maxY: cyp + mm };
+    }
     var ten = ph.ten_hien || ph.ten_pho;
     var moc = (ph.moc_lau_doi || []).map(function (t) { for (var i = 0; i < ph.dia_diem.length; i++) if (ph.dia_diem[i].ten === t) return i; return -1; })
       .filter(function (i) { return i >= 0; });
@@ -791,7 +796,9 @@
       (BAN_DO_PHO ? '<div id="soDo" class="so-do" aria-label="Bản đồ ' + esc(ten) + '"><p class="note">Đang vẽ bản đồ…</p></div>' : '') +
       '<div class="o-bt">' +
       '<span>📍 ' + esc(ph.ward.replace(' - Đà Lạt', '')) + '</span>' +
-      '<span>🛣️ ' + ph.duong.filter(function (d) { return !/^Hẻm /.test(d); }).slice(0, 3).map(esc).join(', ') + '</span>' +
+      (ph.loai_noi === 'diem'
+        ? '<span>🛣️ Đường tới: ' + ph.duong.filter(function (d) { return !/^(Hẻm |Đường tỉnh|Quốc lộ)/.test(d); }).slice(0, 3).map(esc).join(', ') + '</span>'
+        : '<span>🛣️ Đường ' + esc((ph.duong_hien || ph.duong)[0]) + '</span>') +
       '<span>🚶 ' + (kc <= 100 ? 'sát Chợ Đà Lạt' : (kc >= 2000 ? fmt(kc / 100) / 10 + ' km' : fmt(kc) + ' m') + ' tới Chợ Đà Lạt') + '</span>' +
       gan.map(function (m) { return '<span>' + bieuTuong(m.ten) + ' ' + esc(m.ten) + '</span>'; }).join('') +
       '</div>' +

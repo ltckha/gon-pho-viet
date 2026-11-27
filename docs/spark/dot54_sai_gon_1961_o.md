@@ -1,4 +1,4 @@
-# Spark đợt 54 (đánh số chung với game): vẽ lại bản đồ Sài Gòn 1961 — 4 ô góc quanh trung tâm (27/11/2026)
+# Spark đợt 54 (đánh số chung với game): vẽ lại bản đồ Sài Gòn 1961 — 4 ô góc quanh trung tâm (27/11/2026) — ĐÃ GHÉP 27/11/2026 (4 ô khớp)
 
 Đợt 52 (ô trung tâm) Spark vẽ trùng khít bản gốc (lệch < 1 m) → làm cả thành phố theo ô. Mỗi ô 1200×1200 điểm ảnh của tờ quét
 (~1,7 km), chồng mép 100 điểm ảnh với ô bên cạnh. Tên ô = tờ + toạ độ góc trên-trái trên tờ quét.

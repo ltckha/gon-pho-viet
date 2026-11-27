@@ -251,10 +251,11 @@
     // Đà Lạt 1963: biểu tượng theo hạng và mức phóng — xa chỉ mốc lớn (≤ 8), vừa thêm nơi có hình (≤ 16), gần hiện hết;
     // cái nào chồng lên cái hạng cao hơn thì ẩn (cách "ưu tiên + chống chồng" của Mapbox, Google).
     if (layer.y1963) {
-      var hangMax = z < 1.8 ? 1 : z < 3.5 ? 2 : 3, tran = z < 1.8 ? 8 : z < 3.5 ? 16 : 99, dem = 0;
-      pins.slice().sort(function (a, b) { return a._hang - b._hang; }).forEach(function (g) {
+      // (anh Kha 27/11 "to, thô, đè nhau"): hình nhỏ lại; chừa 6 điểm quanh mỗi hình; xa ≤ 6, vừa ≤ 12 (OpenMapTiles: mỗi ô ~100 điểm một hình)
+      var hangMax = z < 1.8 ? 1 : z < 3.5 ? 2 : 3, tran = z < 1.8 ? 6 : z < 3.5 ? 12 : 30, dem = 0;
+      pins.slice().sort(function (a, b) { return a._hang - b._hang || a._thu - b._thu; }).forEach(function (g) {
         var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y, rr = g._r, ok = g._hang <= hangMax && dem < tran;
-        var bx = { x0: sx - rr, x1: sx + rr, y0: sy - 2 * rr, y1: sy };
+        var bx = { x0: sx - rr - 6, x1: sx + rr + 6, y0: sy - 2 * rr - 6, y1: sy + 4 };
         if (ok && (sx < -30 || sy < -30 || sx > r.width + 30 || sy > r.height + 30)) ok = false;
         else if (ok && !free(bx)) ok = false;
         g.parentNode.style.display = ok ? '' : 'none';
@@ -270,18 +271,18 @@
     function nhanGhim() { pins.forEach(function (g) {
       if (g._fixed || g._an) return;
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
-      var w = g._n * 13 * 0.6 + 6, lb = g.lastChild, o = g._r ? g._r + 1 : 12, cy = g._r ? -g._r : -16;
+      var w = g._n * (layer.y1963 ? 11.5 : 13) * 0.6 + 6, lb = g.lastChild, o = g._r ? g._r + (layer.y1963 ? 7 : 1) : 12, cy = g._r ? -g._r : -16;
       var right = { x0: sx + o, x1: sx + o + 2 + w, y0: sy + cy - 10, y1: sy + cy + 10 };
       var left = { x0: sx - o - 2 - w, x1: sx - o, y0: sy + cy - 10, y1: sy + cy + 10 };
       // chữ không được tràn khỏi mép màn hình (tên dài như "Thiền viện Trúc Lâm – Hồ Tuyền Lâm")
       var vuaPhai = right.x1 < r.width - 6, vuaTrai = left.x0 > 6;
       if (!vuaPhai && !vuaTrai) { if (sx > r.width / 2) vuaTrai = true; else vuaPhai = true; }
       if (g._r) lb.setAttribute('y', cy + 4);
-      if (vuaPhai && free(right)) { lb.setAttribute('x', o + 2); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
-      else if (vuaTrai && free(left)) { lb.setAttribute('x', -o - 2); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
+      if (vuaPhai && free(right)) { lb.setAttribute('x', o + 2 - (layer.y1963 ? 5 : 0)); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
+      else if (vuaTrai && free(left)) { lb.setAttribute('x', -o - 2 + (layer.y1963 ? 5 : 0)); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
       else lb.setAttribute('hidden', '');
     }); }
-    if (!layer.y1963) nhanGhim();
+    nhanGhim();          // 1963 cũng đặt tên cạnh hình: phải, không chỗ thì trái, vướng nữa thì giữ hình bỏ chữ
     var daDat = {};
     roadLbl.slice().sort(function (a, b) { return a.rank - b.rank || b.len - a.len; }).forEach(function (L) {
       var show = z >= L.minZ && L.n * fs * 0.64 < L.len * 0.92;
@@ -305,7 +306,6 @@
       }
       if (show) L.el.removeAttribute('hidden'); else L.el.setAttribute('hidden', '');
     });
-    if (layer.y1963) nhanGhim();
     // hồ, mốc: sau tên đường, chỗ nào còn trống mới hiện
     pointLbl.forEach(function (L) {
       var show = z >= L.minZ;
@@ -552,27 +552,39 @@
     // mốc lớn: chợ, nhà thờ lớn, 3 dinh, ga, Palace, Võ Bị, Đại học, sân cù
     var HANG1 = { 6: 1, 44: 1, 24: 1, 25: 1, 26: 1, 105: 1, 3: 1, 84: 1, 81: 1, 52: 1 };
     pins = []; var pinLayer = el('g', {});
+    // vị trí: tâm khung khuôn viên nếu có (đúng chỗ), không thì tâm ô lưới 100 m của bảng chỉ dẫn
+    var tamKV = {};
+    (data.khuon_vien || []).forEach(function (k) {
+      var sx = 0, sy = 0; k.pts.forEach(function (p) { sx += p[0]; sy += p[1]; });
+      tamKV[k.so] = [sx / k.pts.length, sy / k.pts.length];
+    });
+    var THU = [6, 44, 105, 52, 24, 25, 26, 3, 84, 81];
     (data.cong_trinh || []).forEach(function (c) {
       var x = dd[c.so];
       if (!x) return;
-      var g = el('g', { 'class': 'pin dd63', transform: 'translate(' + px(c.lon).toFixed(5) + ' ' + py(c.lat).toFixed(5) + ')' });
+      var lon = tamKV[c.so] ? tamKV[c.so][0] : c.lon, lat = tamKV[c.so] ? tamKV[c.so][1] : c.lat;
+      // tên hiện: ba "Dinh Tổng Thống" ghi thêm Dinh I / II / III cho khỏi trùng
+      var ten = c.ten, m = x.nay && x.nay.ten && x.nay.ten.match(/^Dinh (I{1,3})\b/);
+      if (m) ten = 'Dinh ' + m[1];
+      var g = el('g', { 'class': 'pin dd63', transform: 'translate(' + px(lon).toFixed(5) + ' ' + py(lat).toFixed(5) + ')' });
       var inner = el('g', { 'data-ct': c.so });
-      inner._x = px(c.lon); inner._y = py(c.lat); inner._n = c.ten.length;
+      inner._x = px(lon); inner._y = py(lat); inner._n = ten.length;
       // hạng: 1 = mốc lớn ai cũng biết (hiện từ xa), 2 = có hình, 3 = chấm theo loại (chỉ khi phóng gần)
       inner._hang = HANG1[c.so] ? 1 : x.hinh ? 2 : 3;
-      inner._r = x.hinh ? 20 : 11;
+      inner._thu = THU.indexOf(c.so) < 0 ? 99 : THU.indexOf(c.so);
+      inner._r = x.hinh ? 15 : 8;
       if (x.hinh) {
-        inner.appendChild(el('image', { href: 'assets/vn/moc_' + x.hinh + '.webp', x: -22, y: -40, width: 44, height: 39, 'class': 'dd63-hinh', 'data-ct': c.so }));
+        inner.appendChild(el('image', { href: 'assets/vn/moc_' + x.hinh + '.webp', x: -15, y: -27, width: 30, height: 26.4, 'class': 'dd63-hinh', 'data-ct': c.so }));
       } else {
-        inner.appendChild(el('circle', { cx: 0, cy: -11, r: 10, 'class': 'dd63-tron n-' + c.nhom, 'data-ct': c.so }));
-        inner.appendChild(el('text', { x: 0, y: -11, 'class': 'dd63-dau', 'data-ct': c.so }, DAU[c.nhom]));
+        inner.appendChild(el('circle', { cx: 0, cy: -8, r: 7, 'class': 'dd63-tron n-' + c.nhom, 'data-ct': c.so }));
+        inner.appendChild(el('text', { x: 0, y: -8, 'class': 'dd63-dau', 'data-ct': c.so }, DAU[c.nhom]));
       }
-      inner.appendChild(el('text', { x: 14, y: -14, 'class': 'pin-label dd63-ten', 'data-ct': c.so }, c.ten));
+      inner.appendChild(el('text', { x: 14, y: -14, 'class': 'pin-label dd63-ten', 'data-ct': c.so, hidden: '' }, ten));
       g.appendChild(inner); pinLayer.appendChild(g); pins.push(inner);
       c._co = 1;
     });
     (data.cong_trinh || []).forEach(function (c) {
-      if (c._co || !BIEU_TUONG_63) return;
+      if (c._co || !BIEU_TUONG_63 || CHUNG[c.ten]) return;      // nhãn chung chung (Trường Học, Miếu…) không hiện — bản đồ lớn cũng bỏ nơi không tên
       var t = el('text', { x: px(c.lon), y: py(c.lat), 'class': 'lbl ct63-ten n-' + c.nhom, hidden: '' }, DAU[c.nhom] + ' ' + c.ten);
       gct.appendChild(t);
       var lon = { dinh: 1, cho: 1, ga: 1 }[c.nhom] || c.ten === 'Nhà Thờ Lớn' || c.ten === 'Sân Cù';
@@ -954,9 +966,10 @@
     h += '</section>';
     if (x.moc.length) {
       h += '<section class="phan"><h3>🕰️ Qua các năm</h3><ol class="dong-tg">' + x.moc.map(function (m) {
+        // chỉ hiện năm (anh Kha 27/11: "các mốc năm ko ghi gì hết, ai cần nhấn vô sẽ thả xuống"); chạm năm → đoạn kể dài + nguồn
         return '<li><details><summary><b class="nam">' + esc(m.nam) + '</b>' + (m.mot_nguon ? ' <i class="chua-chac" title="chưa chắc">?</i>' : '') +
-          ' <span class="tg-ngan">' + esc(m.su_kien.length > 46 ? m.su_kien.slice(0, m.su_kien.lastIndexOf(' ', 44)) + '…' : m.su_kien) + '</span></summary>' +
-          '<p>' + esc(m.su_kien) + '</p>' + nguon(m.nguon, m.mot_nguon) + '</details></li>';
+          '</summary>' + (m.chi_tiet || m.su_kien).split(/\n+/).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') +
+          nguon(m.nguon, m.mot_nguon) + '</details></li>';
       }).join('') + (x.nay && x.nay.ten ? '<li class="tg-nay"><b class="nam">Nay</b> <span class="tg-ngan">' + esc(x.nay.ten) + '</span></li>' : '') + '</ol></section>';
     }
     if (x.trang) h += '<button class="go lon" type="button" data-go="pho-' + esc(x.trang) + '">Xem trang hôm nay →</button>';

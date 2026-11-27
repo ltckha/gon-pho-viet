@@ -4,7 +4,7 @@ thành data/lam-dong/da-lat/1963_dia_diem.json, gắn hình Spark có sẵn (ass
 Đầu vào: các file JSON kết quả nghiên cứu (mảng; mỗi phần tử: so, ten_1963, nay{ten, mo_ta, nguon}, cung_cho,
 cung_cho_ghi_chu, moc[{nam, su_kien, nguon, chua_chac}], trang). Kết quả gốc lưu ở docs/research/1963_dia_diem/.
 
-Chạy: python3 -I tools/build_1963_dia_diem.py docs/research/1963_dia_diem/*.json
+Chạy: python3 -I tools/build_1963_dia_diem.py docs/research/1963_dia_diem/nhom_*.json docs/research/1963_dia_diem/bo_sung_*.json
 """
 import json, os, re, sys
 from urllib.parse import urlparse
@@ -126,6 +126,25 @@ def main(files):
                 'nay': ({'ten': nay.get('ten', ''), 'mo_ta': nay.get('mo_ta', ''), 'nguon': nguon(nay.get('nguon'))} if nay else None),
                 'moc': moc,
             })
+    # đoạn kể dài cho từng mốc (anh Kha 27/11 "nội dung cần dài hơn"): docs/research/1963_dia_diem/chi_tiet_*.json
+    #   [{so, nam, chi_tiet, nguon[], chua_chac, khong_them}] — khớp theo (số, năm)
+    import glob
+    ct_dai = {}
+    for f in sorted(glob.glob(os.path.join(ROOT, 'docs/research/1963_dia_diem/chi_tiet_*.json'))):
+        for r in json.load(open(f, encoding='utf-8')):
+            if r.get('chi_tiet') and not r.get('khong_them'):
+                ct_dai[(int(r['so']), str(r['nam']))] = r
+    gan = 0
+    for x in out:
+        for m in x['moc']:
+            r = ct_dai.get((x['so'], m['nam']))
+            if not r:
+                continue
+            m['chi_tiet'] = r['chi_tiet'].strip(); gan += 1
+            have_l = {n['link'] for n in m['nguon']}
+            m['nguon'] += [n for n in nguon(r.get('nguon')) if n['link'] not in have_l]
+            m['mot_nguon'] = len({n['trang'] for n in m['nguon']}) < 2 or bool(r.get('chua_chac')) or (m['mot_nguon'] and bool(r.get('chua_chac')))
+    print('mốc có đoạn kể dài:', gan)
     out.sort(key=lambda x: x['so'])
     p = os.path.join(ROOT, 'data/lam-dong/da-lat/1963_dia_diem.json')
     json.dump({'nguon': 'Nghiên cứu 27/11/2026 (mỗi mốc ≥ 2 nguồn ở 2 trang khác nhau; 1 nguồn thì ghi chưa chắc). Kết quả gốc: docs/research/1963_dia_diem/',

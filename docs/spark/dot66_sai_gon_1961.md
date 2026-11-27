@@ -1,4 +1,4 @@
-# Spark đợt 66: dải mép trái tờ 2 Sài Gòn 1961 — 7 ô gộp một đợt (27/11/2026)
+# Spark đợt 66: dải mép trái tờ 2 Sài Gòn 1961 — 7 ô gộp một đợt (27/11/2026) — ĐÃ GHÉP 27/11/2026 (lề trong suốt; khép mối nối hai tờ, lệch 35–60 m chia đôi)
 
 Ghép đợt 59–60 lộ khe trống ~500 m giữa tờ 1 (Chợ Lớn) và tờ 2 (trung tâm): dải x 120–600 của tờ 2 trước tưởng trùng tờ 1 nên bỏ, đo lại thì không trùng.
 7 ô x100 (tờ 2), ghép dưới các ô x600 đã có; cắt lề trái ~140 điểm ảnh. Ảnh gốc: dot66_anh_goc_sai_gon_1961_7o.zip.

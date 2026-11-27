@@ -1,0 +1,327 @@
+[
+ {
+  "so": 7,
+  "ten_1963": "Lò Tể Sinh",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ nay nằm trong khu phố Lê Quý Đôn – Nguyễn Văn Cừ (phường Xuân Hương - Đà Lạt); OpenStreetMap quanh đó chỉ có quán ăn, nhà nghỉ, một bảo tàng tư nhân 'Ngộ quán' (~35 m). Toà nhà OSM ghi 'Điện lực Đà Lạt thời Pháp thuộc' cách ~105 m là công trình khác, không phải lò sát sinh. Một sơ đồ thời Pháp trong triển lãm EFEO có mục 'Abattoir – Lò mổ' nhưng không cho toạ độ để đối chiếu. Không tìm được nguồn nào nói lò sát sinh năm 1963 ở đây nay thành gì.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 10,
+  "ten_1963": "Ty Điền Địa",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ nay ở khúc đường Lê Hồng Phong gần Huỳnh Thúc Kháng; OpenStreetMap quanh đó (<100 m) chỉ có quán cà phê, quán ăn, nhà nghỉ, văn phòng luật; cơ quan nhà nước gần nhất là Viện Kiểm sát tỉnh (~136 m) và Toà án tỉnh Lâm Đồng (~164 m), nhưng không có nguồn nào nói đó là chỗ Ty Điền Địa cũ. Không tìm được nguồn về trụ sở Ty Điền Địa năm 1963.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 13,
+  "ten_1963": "Ty Học Chánh",
+  "nay": {
+   "ten": "Trường Tiểu học Mê Linh 2",
+   "mo_ta": "Trường tiểu học trên đường Đào Duy Từ (ấp An Lạc, phường Xuân Hương - Đà Lạt), cách toạ độ bản đồ 1963 khoảng 40 m theo OpenStreetMap.",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1514597931"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Chỉ dựa vào vị trí: trường Mê Linh 2 là công trình có tên gần toạ độ nhất (~40 m). Không tìm được nguồn nào nói Ty Học Chánh năm 1963 đặt ở khu đất này hay trường này kế thừa trụ sở cũ; ô lưới 100 m của bản đồ cũng có thể lệch sang nhà bên cạnh.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 16,
+  "ten_1963": "Ty Thông Tin",
+  "nay": {
+   "ten": "Trung tâm thương mại GO! Đà Lạt (trước là Big C Đà Lạt)",
+   "mo_ta": "Đại siêu thị và trung tâm thương mại ở Quảng trường Lâm Viên, đường Hồ Tùng Mậu, gần hồ Xuân Hương; OpenStreetMap ghi tên 'GO! Da Lat', số 1 Hồ Tùng Mậu. Khai trương năm 2013 với tên Big C Đà Lạt.",
+   "nguon": [
+    "https://www.openstreetmap.org/?mlat=11.93807&mlon=108.44432#map=18/11.93807/108.44432",
+    "https://baodautu.vn/big-c-khai-truong-sieu-thi-thu-25-d3836.html"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Toạ độ rơi vào khu Quảng trường Lâm Viên; khối trung tâm thương mại GO! cách điểm ~57–63 m (tâm toà nhà) nên điểm gần như nằm trong khuôn viên. Không tìm được nguồn nào nói Ty Thông Tin năm 1963 ở đúng khu đất này hay khu đất trước khi xây siêu thị là gì, nên chỉ ghi 'chưa chắc'.",
+  "moc": [
+   {
+    "nam": "2013",
+    "su_kien": "Siêu thị Big C Đà Lạt khai trương ở Quảng trường Lâm Viên.",
+    "chi_tiet": "Năm 2013, chuỗi Big C khai trương siêu thị thứ 25 tại Việt Nam ở Quảng trường Lâm Viên, Đà Lạt. Báo Đầu tư (21/8/2013) cho biết công trình có tổng diện tích sử dụng hơn 13.500 m², trong đó khu siêu thị tự chọn khoảng 4.358 m² và khu cho thuê khoảng 3.000 m². Bài báo không nói khu đất trước đó dùng làm gì. Ngày nay trên OpenStreetMap nơi này mang tên GO! Đà Lạt.",
+    "nguon": [
+     "https://baodautu.vn/big-c-khai-truong-sieu-thi-thu-25-d3836.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 21,
+  "ten_1963": "Câu Lạc Bộ Địa Dư",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ nay ở đoạn đường Ký Con, phía đông hồ Xuân Hương; trong ~110 m OpenStreetMap không có công trình có tên, gần nhất là Mercure Dalat Resort (~119 m), công viên Nguyễn Du (~131 m), Báo Lâm Đồng (~166 m). Nha Địa dư Đà Lạt nay là Xí nghiệp Bản đồ Đà Lạt (Báo Lâm Đồng 30/4/2026) nhưng câu lạc bộ là một nơi riêng, không có nguồn nào nói câu lạc bộ ở đâu và nay là gì.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 28,
+  "ten_1963": "Trụ Sở Vô Tuyến Điện",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ nay ở khu đường Thông Thiên Học – Bùi Thị Xuân; OpenStreetMap quanh đó có nhà nghỉ, quán ăn, một hẻm có địa chỉ 'Cư xá Bưu Điện' (~87 m), Hội dòng nữ Đa Minh Rosa Lima (~115 m), Trường THCS Nguyễn Du (~139 m). Tên 'Cư xá Bưu Điện' gợi ý khu này từng gắn với ngành bưu điện nhưng chưa đủ để kết luận. Biên niên sử Đà Lạt (Wikipedia) ghi năm 1921 xây trạm thu phát sóng vô tuyến, EFEO có hồ sơ năm 1924 'Nha Vô tuyến điện xin đất ở Đà Lạt' — cả hai đều không cho vị trí nên không gán vào đây.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 31,
+  "ten_1963": "Ty Công An",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ nay ở khu Nguyễn Thượng Hiền – Trần Bình Trọng; trong ~120 m OpenStreetMap không có công trình có tên. Gần nhất là Trung tâm Lưu trữ Quốc gia IV (~121 m), Phòng xuất nhập cảnh (OSM ghi 'Immigration office', ~148 m), biệt thự Trần Lệ Xuân (~145 m). Không tìm được nguồn nào nói Ty Công An năm 1963 đặt ở đâu và nay là gì.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 34,
+  "ten_1963": "Tòa Thị Chánh",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Giữ kết luận lần trước: toạ độ nằm trên đường Trần Phú, giữa toà Vinaphone/Trung tâm Viễn thông Đà Lạt (~23–48 m) và khách sạn Du Parc (~50 m); Bưu điện Đà Lạt ~62 m. Không tìm được nguồn nào nói Tòa Thị Chánh năm 1963 ở toà nào và nay là gì. Các mốc dưới đây là của chính cơ quan Tòa Thị chính Đà Lạt (theo Biên niên sử Đà Lạt), không phải của toà nhà ở toạ độ này.",
+  "moc": [
+   {
+    "nam": "1961",
+    "su_kien": "Tòa thị chính Đà Lạt tách khỏi Tòa hành chính tỉnh Tuyên Đức.",
+    "chi_tiet": "Biên niên sử Đà Lạt trên Wikipedia tiếng Việt ghi năm 1961 Tòa thị chính Đà Lạt tách khỏi Tòa hành chính Tuyên Đức, tức thành phố có cơ quan hành chính riêng. Đây là cơ quan được ghi trên bản đồ năm 1963. Nguồn không cho biết trụ sở đặt ở toà nhà nào, nên chưa thể nói chắc là toà nhà ở toạ độ này.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Biên_niên_sử_Đà_Lạt"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1964",
+    "su_kien": "Tòa thị chính Đà Lạt lại sáp nhập vào Tòa hành chính tỉnh Tuyên Đức.",
+    "chi_tiet": "Theo Biên niên sử Đà Lạt trên Wikipedia tiếng Việt, năm 1964 Tòa thị chính Đà Lạt và Tòa hành chính tỉnh Tuyên Đức được sáp nhập làm một. Như vậy cơ quan ghi trên bản đồ 1963 chỉ tồn tại riêng khoảng ba năm trước khi nhập lại. Nguồn không nói gì về toà nhà trụ sở.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Biên_niên_sử_Đà_Lạt"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1966",
+    "su_kien": "Tòa thị chính Đà Lạt tách ra khỏi Tòa hành chính tỉnh Tuyên Đức lần nữa.",
+    "chi_tiet": "Biên niên sử Đà Lạt trên Wikipedia tiếng Việt ghi năm 1966 Tòa thị chính Đà Lạt lại được tách khỏi Tòa hành chính tỉnh Tuyên Đức. Đây là lần tách thứ hai sau lần năm 1961. Nguồn chỉ nói về cơ quan, không nói trụ sở đặt ở đâu.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Biên_niên_sử_Đà_Lạt"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 38,
+  "ten_1963": "Ty Mục Súc",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ nay ở khu Huỳnh Thúc Kháng – Lê Hồng Phong; trong ~70 m OpenStreetMap không có công trình có tên, gần nhất là Toà án tỉnh Lâm Đồng (~71 m, số 27 Trần Phú), quán ăn, Biệt thự Hằng Nga (~88 m). Không tìm được nguồn nào nói Ty Mục Súc năm 1963 ở đâu và nay là gì. (Một sơ đồ quân sự thời Pháp trong triển lãm EFEO có 'trạm thú y' của pháo binh nhưng không cho vị trí để đối chiếu.)",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 43,
+  "ten_1963": "Quân Y Viện",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Giữ kết luận lần trước: toạ độ nay là khu nhà dân giữa đường Phan Chu Trinh và Lữ Gia (OpenStreetMap), gần nhất là điểm '2B Lữ Gia' (~160 m); khu Học viện Lục quân cách ~300 m, Bệnh xá Học viện Lục quân ~486 m. Tìm thêm lần này vẫn không có nguồn nào nói Quân Y Viện Đà Lạt năm 1963 ở đâu và nay là gì.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 47,
+  "ten_1963": "Nhà Thờ",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở vùng phía bắc thành phố, cách đường Dankia ~800 m; OpenStreetMap quanh đó (~300 m) không có nhà thờ nào, chỉ có vườn (Vườn dâu 88, ~111 m). Nhà thờ gần nhất trên OSM là Trung tâm Mục vụ Giáo phận Đà Lạt (đường Thánh Mẫu) cách ~443 m — quá xa so với ô lưới 100 m nên không gán. Đã kiểm Giáo hoàng Học viện Piô X: nguồn Wikipedia ghi ở số 13 Đinh Tiên Hoàng, tức chỗ khác. Không xác định được nhà thờ năm 1963 này là nhà thờ nào.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 50,
+  "ten_1963": "Nhà Thờ",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ nay ở khu Huỳnh Thúc Kháng (gần Biệt thự Hằng Nga ~67 m, quán ăn ~39 m); trong ~240 m OpenStreetMap không có nhà thờ nào. Nhà thờ gần nhất là Nhà thờ Thánh Tâm (đường Đoàn Thị Điểm) ~246 m — quá xa để gán. Không tìm được nguồn nào nói có nhà thờ hay nhà nguyện ở đây năm 1963 và nay là gì.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 55,
+  "ten_1963": "Thư Viện Và Văn Khố Quốc Gia",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Giữ kết luận lần trước: toạ độ ở góc Vườn hoa Trần Hưng Đạo (~77 m), cách UBND tỉnh ~145 m; quanh đó trên OpenStreetMap chỉ có nhà không tên, nhà hàng, khách sạn. Không có nguồn nói Chi nhánh Nha Văn khố hay thư viện đặt ở toà nào chỗ này. Thư viện Đà Lạt khai trương 1958 ở villa 22 Yersin (chỗ khác) nên không gán. Mốc dưới đây là của cơ quan Nha Văn khố, không phải của toà nhà.",
+  "moc": [
+   {
+    "nam": "1960",
+    "su_kien": "Thành lập Nha Văn khố.",
+    "chi_tiet": "Biên niên sử Đà Lạt trên Wikipedia tiếng Việt ghi năm 1960 thành lập Nha Văn khố. Đây là cơ quan lưu trữ mà bản đồ năm 1963 ghi chung với thư viện ở điểm này. Nguồn không cho biết trụ sở đặt ở toà nhà nào, nên chưa thể khẳng định cơ quan này ở đúng toạ độ trên bản đồ.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Biên_niên_sử_Đà_Lạt"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 60,
+  "ten_1963": "Miếu",
+  "nay": {
+   "ten": "Nơi thờ tự 'Hà Đông' trên đường Lý Nam Đế",
+   "mo_ta": "Một nơi thờ tự mà OpenStreetMap ghi tên 'Hà Dông' (có lẽ là Hà Đông), trên đường Lý Nam Đế, ấp Hà Đông, phường Lâm Viên - Đà Lạt; cách toạ độ bản đồ 1963 khoảng 77 m. Ấp Hà Đông là làng trồng rau, trồng hoa do người từ tỉnh Hà Đông cũ lên lập năm 1938.",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13130396001",
+    "https://journal.hcmue.edu.vn/index.php/hcmuejos/article/viewFile/2447/2408"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Chỉ dựa vào vị trí: đây là nơi thờ tự duy nhất OpenStreetMap ghi trong ~280 m quanh toạ độ (chùa Linh Giác cách ~284 m). Không tìm được nguồn nào viết riêng về nơi thờ này (tên đầy đủ, năm lập), nên chưa thể nói chắc 'Miếu' năm 1963 chính là nó. Chuyện lập ấp Hà Đông năm 1938 là của cả ấp, không phải của riêng nơi thờ, nên không đưa vào mốc.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 63,
+  "ten_1963": "Miếu",
+  "nay": {
+   "ten": "Đình Đà Lạt (Đình Đa Lạc) và Đền Thánh Mẫu Thiên Ya Na",
+   "mo_ta": "Cụm thờ tự cổ của người Việt ở Đà Lạt: Đình Đà Lạt (còn gọi Đình Đa Lạc, đường Nguyễn Chí Thanh theo OpenStreetMap, cách toạ độ ~58 m) và Đền Thánh Mẫu Thiên Ya Na ngay bên cạnh (số 2 Nguyễn Văn Cừ), được coi là đền thờ Mẫu độc lập đầu tiên ở Đà Lạt, lập khoảng 1923–1927.",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1427339834",
+    "https://journal.hcmue.edu.vn/index.php/hcmuejos/article/viewFile/2447/2408",
+    "https://ssh.vnuhcmjournal.com.vn/index.php/stdjssh/article/download/508/886",
+    "https://vi.wikipedia.org/wiki/Biên_niên_sử_Đà_Lạt"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Toạ độ cách Đình Đà Lạt ~58 m; theo bài của Bùi Thị Thoa, Đền Thánh Mẫu Thiên Ya Na 'được dựng ngay bên cạnh đình'. Bản đồ 1963 ghi 'Miếu' (Minor Pagoda) nên có thể là đền Thiên Ya Na hoặc chính đình — chưa phân biệt được, vì vậy ghi 'chưa chắc'. Các mốc dưới đây là của Đình Đà Lạt.",
+  "moc": [
+   {
+    "nam": "1920",
+    "su_kien": "Dựng Đình Đà Lạt (Đình Đa Lạc), ngôi đình sớm nhất ở Đà Lạt.",
+    "chi_tiet": "Theo nghiên cứu của Phùng Thị Vải được Bùi Thị Thoa dẫn lại, Đình Đa Lạc (tức Đình Đà Lạt) là ngôi đình xây sớm nhất ở Đà Lạt, năm 1920, gắn với việc hình thành làng Đa Lạc. Tháng 6 năm Khải Định thứ tư (1920), vua ban cho đình một bức hoành phi sắc tứ bằng gỗ khảm xà cừ, khắc bốn chữ 'Hảo nghĩa khả gia'. Biên niên sử Đà Lạt trên Wikipedia cũng ghi năm 1920 xây đình Đa Lạc và lập ấp Tân Lạc.",
+    "nguon": [
+     "https://journal.hcmue.edu.vn/index.php/hcmuejos/article/viewFile/2447/2408",
+     "https://vi.wikipedia.org/wiki/Biên_niên_sử_Đà_Lạt"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1936",
+    "su_kien": "Đình Đà Lạt được đại trùng tu, kiến trúc giữ đến nay.",
+    "chi_tiet": "Bài nghiên cứu của Bùi Thị Thoa (2019) cho biết ở gian chính điện có bức hoành phi đề 'Đa Lạc Đình', ghi năm Bảo Đại thứ 11, tức 1936. Theo Phùng Thị Vải và Địa chí Lâm Đồng được bài dẫn lại, năm 1936 đình được đại trùng tu và kiến trúc lần đó còn giữ đến nay. Tại đình còn tấm bia đá ghi danh ban đại diện trùng tu lần thứ nhất.",
+    "nguon": [
+     "https://journal.hcmue.edu.vn/index.php/hcmuejos/article/viewFile/2447/2408"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 68,
+  "ten_1963": "Chùa",
+  "nay": {
+   "ten": "Đình làng Đa Thành",
+   "mo_ta": "Đình của ấp Đa Thành, đường Nguyễn Siêu, phường Lang Biang - Đà Lạt; cách toạ độ bản đồ 1963 khoảng 78 m theo OpenStreetMap. Làng Đa Thành là một trong những làng người Việt lập sau năm 1940 ở Đà Lạt.",
+   "nguon": [
+    "https://www.openstreetmap.org/node/12854496501",
+    "https://journal.hcmue.edu.vn/index.php/hcmuejos/article/viewFile/2447/2408"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Chỉ dựa vào vị trí: đình Đa Thành là nơi thờ tự gần nhất (~78 m), trong ~450 m không có chùa nào trên OpenStreetMap (chùa Linh Bảo cách ~750 m). Nhưng bản đồ 1963 ghi 'Chùa' (Pagoda), mà đây là đình, nên chưa chắc là một. Không tìm được nguồn nào viết riêng về đình này (năm dựng…), nên không có mốc.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 88,
+  "ten_1963": "Trường Tiểu Học Phan Chu Trinh",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Giữ kết luận lần trước: toạ độ rơi vào ngã tư Phan Chu Trinh (phường Lâm Viên - Đà Lạt), cạnh chỗ chợ Phan Chu Trinh cũ (OSM ~48 m) và bưu cục Phan Chu Trinh (~96 m). Không tìm được nguồn nào nói Trường Tiểu học Phan Chu Trinh năm 1963 nay thành gì; Trường THCS Phan Chu Trinh hiện ở 10 Hùng Vương, xa vài trăm mét, không có lược sử nên không gán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 91,
+  "ten_1963": "Trường Học",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở khu ấp Đa Thành gần đường Bạch Đằng; trong ~170 m OpenStreetMap không có trường nào. Trường gần nhất là Trường Tiểu học Đa Thành (~390 m) và Trường Tiểu học Bạch Đằng (~630 m) — quá xa để gán. Không tìm được nguồn nào nói trường học năm 1963 ở đây là trường nào.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 94,
+  "ten_1963": "Trường Học",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở khu ấp An Lạc giữa Lê Hồng Phong và Triệu Việt Vương; trong ~110 m OpenStreetMap không có công trình có tên (chỉ có tên khu 'Ấp An Lạc' ~74 m). Trường gần nhất là Trường Tiểu học Mê Linh 2 (~245 m) — quá xa để gán. Không tìm được nguồn về trường học năm 1963 ở đây.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 97,
+  "ten_1963": "Trường Học",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở khu giữa Hai Bà Trưng và Phan Đình Phùng; OpenStreetMap quanh đó chỉ có nhà nghỉ, quán, cửa hàng. Trường gần nhất là Trường Mầm non 1 (~199 m) và Trường Tiểu học Đoàn Thị Điểm (~252 m) — quá xa để gán. Không tìm được nguồn nói trường học năm 1963 ở đây là trường nào.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 106,
+  "ten_1963": "Nhà Máy Điện",
+  "nay": {
+   "ten": "Tu viện Thiên Hương và trường mầm non Thiên Hương",
+   "mo_ta": "Tu viện Thiên Hương trên đường Bà Triệu (ấp Ánh Sáng, phường Xuân Hương - Đà Lạt), cách toạ độ bản đồ 1963 chỉ ~6 m theo OpenStreetMap; bên cạnh là trường mầm non Thiên Hương (~43 m) và Trường Tiểu học Mê Linh (~53 m).",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1458257295",
+    "https://www.openstreetmap.org/way/1551059185"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Vị trí khớp sát (~6 m) nên đây đúng là chỗ toạ độ rơi vào ngày nay, nhưng không có nguồn nào nói khu đất tu viện từng là nhà máy điện, nên ghi 'chưa chắc'. Biên niên sử Đà Lạt (Wikipedia) ghi năm 1918 xây nhà máy điện và 1928 khánh thành nhà máy điện, nhưng không nói ở đâu, nên không gán mốc vào đây. Không tìm được nguồn nào về lịch sử Tu viện Thiên Hương.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 109,
+  "ten_1963": "Nhà Máy Nước",
+  "nay": {
+   "ten": "Hồ Nhà Máy Nước (đường Đinh Tiên Hoàng)",
+   "mo_ta": "Một hồ nhỏ OpenStreetMap ghi tên 'Hồ Nhà Máy Nước', thuộc phường Xuân Hương - Đà Lạt, cách toạ độ bản đồ 1963 khoảng 90 m, gần đường Đinh Tiên Hoàng và phía bắc hồ Xuân Hương. Chính cái tên hồ còn giữ dấu nhà máy nước cũ.",
+   "nguon": [
+    "https://www.openstreetmap.org/way/99661107"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Tên 'Hồ Nhà Máy Nước' trên OpenStreetMap và vị trí ~90 m là dấu hiệu tốt, nhưng không có nguồn nào mô tả nhà máy nước năm 1963 ở đây và hiện nay khu đất cạnh hồ dùng làm gì (còn là nhà máy nước hay không) — nên ghi 'chưa chắc'. Mốc 1949 lấy từ Biên niên sử Đà Lạt ('nhà máy nước gần hồ Xuân Hương'), hợp với vị trí nhưng nguồn không nói rõ chỗ.",
+  "moc": [
+   {
+    "nam": "1949",
+    "su_kien": "Xây nhà máy nước gần hồ Xuân Hương.",
+    "chi_tiet": "Biên niên sử Đà Lạt trên Wikipedia tiếng Việt ghi năm 1949 xây dựng nhà máy nước gần hồ Xuân Hương. Trước đó, năm 1938, thành phố đã có một nhà máy nước khác gần hồ Than Thở, ở xa điểm này. Điểm trên bản đồ 1963 nằm cạnh đường Đinh Tiên Hoàng, sát một hồ nhỏ nay vẫn mang tên Hồ Nhà Máy Nước, nên nhiều khả năng là nhà máy năm 1949, nhưng nguồn không ghi rõ vị trí.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Biên_niên_sử_Đà_Lạt"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ }
+]

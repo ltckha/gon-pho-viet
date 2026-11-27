@@ -110,7 +110,7 @@
       extra: { key: 'dd63', file: 'data/lam-dong/da-lat/1963_dia_diem.json' },   // năm 1963 là gì → nay → qua các năm
       crumb: [['Đà Lạt', 'da-lat'], ['Năm 1963', 'da-lat-1963']],
       sang: ['Hôm nay', 'da-lat'],
-      legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['mon63', 'Đường mòn'], ['nha63', 'Khu nhà'], ['rung63', 'Rừng'], ['water', 'Hồ']],
+      legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['mon63', 'Đường mòn'], ['nha63', 'Khu nhà'], ['vuon63', 'Vườn'], ['rung63', 'Rừng'], ['dam63', 'Đầm lầy'], ['water', 'Hồ'], ['dm63', 'Vòng cao độ (cách 5 m), • số = độ cao đỉnh (m)']],
       card: function () { return ''; }
     }
   };
@@ -403,9 +403,23 @@
       land.appendChild(g);
     }
     land.appendChild(el('rect', { x: px(k[0]), y: py(k[3]), width: px(k[2]) - px(k[0]), height: py(k[1]) - py(k[3]), 'class': 'giay63' }));
+    // vườn (ô kẻ có chấm) và đầm lầy (búi cỏ) theo chú thích bản đồ: tô nền nhạt + hoa văn chấm / búi cỏ, ~25 m một ô
+    var o25 = px(ox + 0.00025) - px(ox), pd = el('defs', {}); land.appendChild(pd);
+    var pv = el('pattern', { id: 'vuon63p', patternUnits: 'userSpaceOnUse', width: o25, height: o25 });
+    pv.appendChild(el('rect', { width: o25, height: o25, 'class': 'vuon63-nen' }));
+    pv.appendChild(el('circle', { cx: o25 / 2, cy: o25 / 2, r: o25 * 0.07, 'class': 'vuon63-cham' })); pd.appendChild(pv);
+    var pdm = el('pattern', { id: 'dam63p', patternUnits: 'userSpaceOnUse', width: o25 * 1.4, height: o25 });
+    pdm.appendChild(el('path', { d: 'M' + o25 * 0.45 + ' ' + o25 * 0.6 + 'h' + o25 * 0.5 + 'M' + o25 * 0.6 + ' ' + o25 * 0.6 + 'l-' + o25 * 0.08 + ' -' + o25 * 0.2 +
+      'M' + o25 * 0.7 + ' ' + o25 * 0.6 + 'v-' + o25 * 0.24 + 'M' + o25 * 0.8 + ' ' + o25 * 0.6 + 'l' + o25 * 0.08 + ' -' + o25 * 0.2, 'class': 'dam63-bui' })); pd.appendChild(pdm);
     poly(data.rung, 'rung63');
+    poly(data.vuon || [], 'vuon63');
+    poly(data.dam || [], 'dam63');
     poly(data.khu || [], 'khu63');
     poly(data.nuoc, 'water nuoc63');
+    // vòng cao độ (đường đồng mức cách 5 m) — nét nâu mờ dưới đường, nhà
+    var gdm = el('g', { 'class': 'dm63' }), ddm = '';
+    (data.dong_muc || []).forEach(function (p) { ddm += lineOf(p); });
+    gdm.appendChild(el('path', { d: ddm })); land.appendChild(gdm);
     var dn = '';
     data.nha.forEach(function (f) {
       var x = f[0], y = f[1];
@@ -471,6 +485,12 @@
       var t = el('text', { x: px(p.lon), y: py(p.lat), 'class': 'lbl ' + (c || 'diem-1963'), hidden: '' }, mid ? p.ten : '◆ ' + p.ten);
       labels.appendChild(t);
       pointLbl.push({ el: t, x: px(p.lon), y: py(p.lat), n: p.ten.length + 2, minZ: p.loai in MINZ ? MINZ[p.loai] : 2.5, mid: mid });
+    });
+    // điểm cao độ in trên bản đồ (mét so với mực biển) — chỉ hiện khi phóng gần
+    (data.do_cao || []).forEach(function (p) {
+      var t = el('text', { x: px(p.lon), y: py(p.lat), 'class': 'lbl cao63', hidden: '' }, '• ' + p.m);
+      labels.appendChild(t);
+      pointLbl.push({ el: t, x: px(p.lon), y: py(p.lat), n: p.m.length + 2, minZ: 2.6, mid: false });
     });
     // 109 công trình đánh số in ở lề bản đồ (chợ, nhà thờ, chùa, trường, dinh, ga…): dấu + tên tiếng Việt in trên bản đồ
     var DAU = { tho: '✝', chua: '卍', truong: '▲', dinh: '★', cho: '■', ga: '■', benh: '✚', choi: '●', cong: '●', thuong: '●' };

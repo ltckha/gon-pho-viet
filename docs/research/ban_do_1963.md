@@ -41,3 +41,19 @@ Anh Kha chốt 26/11: vẽ lại kiểu "cách 2" (phẳng, gọn), mọi nét c
 - f.6 Hai công trình trùng ô lưới (#2, #93): biểu tượng đang tạm ẩn — sửa khi bật lại.
 - e. Mở rộng cả nước: `o_luoi()` đang gắn cứng ô 100 km của tờ Đà Lạt (200000/1300000, múi 49N) — PHẢI sửa trước khi làm tờ khác; tờ photomap (Cần Thơ) không dùng được cách tách màu.
 - b. Học sâu (U-Net/SegFormer) cho đường đất: chưa làm (cần máy có GPU, công cài đặt) — để sau.
+
+## Ký hiệu trên tờ bản đồ và lớp địa hình (27/11/2026)
+
+Đọc theo bảng chú thích in ở góc phải dưới tờ AMS L909 (anh Kha hỏi "chỗ vẽ địa hình hay chia lô là gì"):
+
+| Trên bản đồ | Nghĩa (chú thích in) | Trên trang | Cách lấy |
+|---|---|---|---|
+| Vòng nâu uốn lượn | Đường đồng mức, cách đều 5 m (mực biển trung bình Hà Tiên) | `dong_muc` — nét nâu mờ | màu nâu → khung xương → làm mềm (tools/dia_hinh_1963.py) |
+| Số lẻ "1508,4" cạnh chấm đen | Điểm cao độ (mét) | `do_cao` — "• 1508,4", hiện khi phóng gần | máy khoanh chữ số, em đọc bằng mắt 35 điểm: docs/research/ams_1963_do_cao.tsv (chưa đủ hết, số bị nét khác đè thì máy bỏ sót) |
+| Ô kẻ nét đứt, có chấm giữa | Vườn / vườn cây trái (Jardin, Verger) | `vuon` — nền vàng nhạt có chấm | chấm đen tròn đứng riêng mọc thành cụm, bỏ trong rừng, khu phố xám |
+| Búi cỏ xanh dương | Đầm lầy, đất ngập ven suối | `dam` — búi cỏ xanh | búi xanh nhỏ mọc thành cụm, bỏ trên mặt hồ |
+| Khung viền đỏ mảnh quanh số đỏ | Khuôn viên công trình đánh số | CHƯA làm | thử 3 cách đều hỏng: nét đỏ bị nhà, mép đường in đè mất đoạn dài 50–80 điểm ảnh; vẽ tay khi bật lại biểu tượng |
+| Nét nâu có răng cưa | (chú thích không ghi) — có lẽ bờ đất đào đắp, taluy | không vẽ | chưa chắc nghĩa |
+| Khác | Nhà xây đen / nhà gỗ xám; nghĩa địa (thập đỏ); cầu xây/sắt/gỗ; dây điện cao thế; tường chắn đất; sân quần vợt; bể nước; rừng rậm/thưa/thông; vườn cam, vườn cà phê | nhà, rừng đã có | |
+
+Chạy lại: `python3 -I tools/dung_1963.py <pdf>` → `python3 -I tools/gan_ten_1963.py` → `python3 -I tools/dia_hinh_1963.py <pdf>`.

@@ -334,6 +334,17 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .nuoc63 path { fill: #a9d3e3; stroke: #6fa9c0; }
 .nha63g path { fill: #9b7a58; }
 /* nét đường theo mức phóng: xa (0) chỉ đường lớn mảnh, vừa (1) thêm đường nhỏ, gần (2) đủ, có nhà */
+.vuon63 path { fill: url(#vuon63p); }
+.vuon63-nen { fill: #ece6c8; }
+.vuon63-cham { fill: #9c8a5a; }
+.dam63 path { fill: url(#dam63p); }
+.dam63-bui { fill: none; stroke: #4f7fb0; stroke-width: .9; vector-effect: non-scaling-stroke; }
+.dm63 path { fill: none; stroke: #b98a52; stroke-width: .7; opacity: .55; vector-effect: non-scaling-stroke; }
+#svg.y63[data-zm="0"] .dm63 path { opacity: .35; }
+.lbl.cao63 { fill: #6b4f2e; font-size: .72em; font-weight: 500; }
+.sw.vuon63 { background: radial-gradient(circle, #9c8a5a 1.2px, #ece6c8 1.6px) 0 0 / 6px 6px; }
+.sw.dam63 { background: repeating-linear-gradient(90deg, #4f7fb0 0 1px, transparent 1px 4px) bottom / 100% 5px no-repeat, #f4efe2; }
+.sw.dm63 { background: none; border: 0; border-top: 1.5px solid #b98a52; border-bottom: 1.5px solid #b98a52; height: 4px; opacity: .8; }
 .khu63 path { fill: #e7d9bf; }
 .nha63g { display: none; }
 #svg.y63[data-zm="2"] .nha63g { display: inline; }

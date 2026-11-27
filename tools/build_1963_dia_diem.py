@@ -80,6 +80,8 @@ def main(files):
                     continue
                 moc.append({'nam': str(m['nam']), 'su_kien': m['su_kien'].strip(), 'nguon': ng,
                             'mot_nguon': len({n['trang'] for n in ng}) < 2 or bool(m.get('chua_chac'))})
+                if m.get('chi_tiet'):
+                    moc[-1]['chi_tiet'] = m['chi_tiet'].strip()
             # Dòng thời gian gọn (anh Kha 27/11: "đặt năm tùm lum"): cột năm chỉ là MỘT năm 4 số, xếp đúng thứ tự;
             # ngày tháng, khoảng năm, "khoảng/trước/sau" chuyển vào đầu câu; mốc không có năm thì bỏ (mốc "nay" nhập vào dòng Nay);
             # các mốc cùng năm gộp một dòng.
@@ -94,6 +96,8 @@ def main(files):
                 y = ys[0]
                 ghi = '' if g == y else g[0].upper() + g[1:]
                 gon.append({'nam': y, 'su_kien': (ghi + ': ' if ghi else '') + m['su_kien'], 'nguon': m['nguon'], 'mot_nguon': m['mot_nguon']})
+                if m.get('chi_tiet'):
+                    gon[-1]['chi_tiet'] = m['chi_tiet']
             gon.sort(key=lambda m: m['nam'])
             moc = []
             for m in gon:
@@ -104,6 +108,8 @@ def main(files):
                     t['su_kien'] += ' ' + m['su_kien'] if t['su_kien'].endswith('.') else '. ' + m['su_kien']
                     t['nguon'] += [n for n in m['nguon'] if n['link'] not in {k['link'] for k in t['nguon']}]
                     t['mot_nguon'] = t['mot_nguon'] and m['mot_nguon']
+                    if m.get('chi_tiet'):
+                        t['chi_tiet'] = (t.get('chi_tiet', t['su_kien'].split('. ')[0]) + '\n' + m['chi_tiet']).strip()
                 else:
                     moc.append(m)
             if nay_txt and nay:
@@ -145,6 +151,10 @@ def main(files):
             m['nguon'] += [n for n in nguon(r.get('nguon')) if n['link'] not in have_l]
             m['mot_nguon'] = len({n['trang'] for n in m['nguon']}) < 2 or bool(r.get('chua_chac')) or (m['mot_nguon'] and bool(r.get('chua_chac')))
     print('mốc có đoạn kể dài:', gan)
+    # mốc là chuyện của nơi KHÁC (luật "lịch sử chỉ của chính nơi đó"): gỡ khỏi trang này
+    BO_MOC = {(102, '1927'): 'Petit Lycée 1927 học ở khu nhà số 103 (01 Hoàng Văn Thụ), không phải toà 109 Yersin — mốc đã có ở số 103'}
+    for x in out:
+        x['moc'] = [m for m in x['moc'] if (x['so'], m['nam']) not in BO_MOC]
     out.sort(key=lambda x: x['so'])
     p = os.path.join(ROOT, 'data/lam-dong/da-lat/1963_dia_diem.json')
     json.dump({'nguon': 'Nghiên cứu 27/11/2026 (mỗi mốc ≥ 2 nguồn ở 2 trang khác nhau; 1 nguồn thì ghi chưa chắc). Kết quả gốc: docs/research/1963_dia_diem/',

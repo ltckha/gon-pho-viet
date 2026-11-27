@@ -341,7 +341,7 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .vuon63-cham { fill: #9c8a5a; }
 .dam63 path { fill: url(#dam63p); }
 .dam63-bui { fill: none; stroke: #4f7fb0; stroke-width: .9; vector-effect: non-scaling-stroke; }
-.dm63 path { fill: none; stroke: #b98a52; stroke-width: .7; opacity: .55; vector-effect: non-scaling-stroke; }
+.dm63 path { fill: none; stroke: #b98a52; stroke-width: .7; stroke-opacity: .55; vector-effect: non-scaling-stroke; }
 .lbl.cao63 { fill: #6b4f2e; font-size: .72em; font-weight: 500; }
 .sw.vuon63 { background: radial-gradient(circle, #9c8a5a 1.2px, #ece6c8 1.6px) 0 0 / 6px 6px; }
 .sw.dam63 { background: repeating-linear-gradient(90deg, #4f7fb0 0 1px, transparent 1px 4px) bottom / 100% 5px no-repeat, #f4efe2; }
@@ -358,13 +358,14 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .duong63.road-fill .r3 { stroke: #fffdf7; stroke-width: var(--f3, 0); }
 .duong63.road-fill .r4 { stroke: #f3ead6; stroke-width: var(--f4, 0); }
 #svg.y63[data-zm="0"] .duong63 .r4, #svg.y63[data-zm="0"] .duong63.road-fill .r3, #svg.y63[data-zm="1"] .duong63.road-fill .r4 { display: none; }
-.dat63 path { fill: none; stroke: #9c7046; stroke-width: 1.3; stroke-dasharray: 4 3; opacity: .6; vector-effect: non-scaling-stroke; }
+.dat63 path { fill: none; stroke: #9c7046; stroke-width: 1.3; stroke-dasharray: 4 3; stroke-opacity: .6; vector-effect: non-scaling-stroke; }
 #svg.y63[data-zm="0"] .dat63, #svg.y63[data-zm="1"] .dat63 { display: none; }
-#svg.y63[data-zm="3"] .dat63 path { stroke-width: 1.6; stroke-dasharray: 5 3; opacity: .85; }
+#svg.y63[data-zm="3"] .dat63 path { stroke-width: 1.6; stroke-dasharray: 5 3; stroke-opacity: .85; }
 /* nền theo mức: xa tắt vòng cao độ, khuôn viên; vườn, đầm tô phẳng tới mức 2 (ô hoa văn 25 m còn nhỏ quá) */
-#svg.y63[data-zm="0"] .dm63, #svg.y63[data-zm="1"] .dm63 path { opacity: .22; }
-#svg.y63[data-zm="2"] .dm63 path { opacity: .42; }
-#svg.y63[data-zm="3"] .dm63 path { opacity: .52; }
+#svg.y63[data-zm="0"] .dm63, #svg.y63[data-zm="0"] .kv63 { display: none; }
+#svg.y63[data-zm="1"] .dm63 path { stroke-opacity: .22; }
+#svg.y63[data-zm="2"] .dm63 path { stroke-opacity: .42; }
+#svg.y63[data-zm="3"] .dm63 path { stroke-opacity: .52; }
 #svg.y63[data-zm="1"] .kv63 path { stroke-opacity: .35; }
 #svg.y63[data-zm="0"] .vuon63 path, #svg.y63[data-zm="1"] .vuon63 path { fill: #ece6c8; }
 #svg.y63[data-zm="0"] .dam63 path, #svg.y63[data-zm="1"] .dam63 path { fill: #dceae8; }
@@ -372,7 +373,7 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 #svg.y63:not([data-nha]) .nha63g { display: none; }
 #svg.y63[data-nha] .nha63g { display: inline; }
 #svg.y63[data-nha] .khu63 path { fill: #ece2cc; }
-#svg.y63[data-zm="3"] .khu63 path { opacity: .35; }
+#svg.y63[data-zm="3"] .khu63 path { fill-opacity: .35; }
 .hl63 path { fill: none; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
 .hl63 .hl-quang { stroke: #e0662f; stroke-opacity: .3; stroke-width: 26; animation: hl63nhay 1.4s ease-in-out 4; }
 .hl63 .hl-vien { stroke: #fff; stroke-width: 13; }
@@ -423,8 +424,8 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .dong-tg .tg-nay::before { background: #2f6b4f; }
 .mon63 path { fill: none; stroke: #8f6d4a; stroke-width: .9; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; }
 #svg.y63[data-zm="0"] .mon63, #svg.y63[data-zm="1"] .mon63 { display: none; }
-.mon63 path { stroke-dasharray: 2 3; opacity: .65; }
-#svg.y63[data-zm="3"] .mon63 path { stroke-width: 1.1; stroke-dasharray: 3 3; opacity: .8; }
+.mon63 path { stroke-dasharray: 2 3; stroke-opacity: .65; }
+#svg.y63[data-zm="3"] .mon63 path { stroke-width: 1.1; stroke-dasharray: 3 3; stroke-opacity: .8; }
 .sw.mon63 { background: repeating-linear-gradient(90deg, #8f6d4a 0 3px, transparent 3px 6px); height: 2px; border: 0; }
 .cao63-ico { color: #6b4f2e; }
 
@@ -439,4 +440,5 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .dd63-ten { font-size: 11.5px; fill: #5a3a22; stroke-width: 3px; }
 .dd63-dau { font-size: 8.5px; }
 .dong-tg details p { margin: 4px 0 6px; line-height: 1.5; }
-.lbl.ct63-ten.chung63 { font-size: .86em; opacity: .75; }
+.lbl.ct63-ten.chung63 { font-size: .86em; fill-opacity: .75; }
+/* Không dùng opacity cho cả lớp lớn: Safari iPhone phải vẽ cả lớp ra một tấm ảnh trung gian to bằng cả bản đồ khi phóng gần → hết bộ nhớ, trang tự thoát (anh Kha 27/11). Dùng stroke-opacity / fill-opacity. */

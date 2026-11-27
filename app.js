@@ -907,7 +907,7 @@
   }
 
   function zoomAt(f, cx, cy) {
-    var ns = Math.max(fit.s * 0.8, Math.min(fit.s * (layer && layer.kind === 'duong' ? 120 : 60), view.s * f));
+    var ns = Math.max(fit.s * 0.8, Math.min(fit.s * (layer && layer.y1963 ? 20 : layer && layer.kind === 'duong' ? 120 : 60), view.s * f));
     f = ns / view.s;
     view.x = cx - (cx - view.x) * f;
     view.y = cy - (cy - view.y) * f;
@@ -1143,7 +1143,7 @@
     var r = svg.getBoundingClientRect(), top = 70, pad = 40, bottom = 140;  // chừa chỗ ô chú thích phía dưới
     var w = r.width - pad * 2, h = r.height - top - pad - bottom;
     var s = Math.min(w / Math.max(b.maxX - b.minX, 0.01), h / Math.max(b.maxY - b.minY, 0.01));
-    s = Math.min(s, fit.s * 120);
+    s = Math.min(s, fit.s * (layer && layer.y1963 ? 20 : 120));   // 1963: tối đa ~1 m/điểm ảnh — sâu hơn Safari iPhone dễ hết bộ nhớ
     view = { s: s, x: pad + (w - (b.maxX - b.minX) * s) / 2 - b.minX * s, y: top + pad + (h - (b.maxY - b.minY) * s) / 2 - b.minY * s };
     apply();
   }

@@ -585,7 +585,7 @@
   function denDiem(c) {
     var hl = document.getElementById('hl63'); hl.textContent = '';
     hl.appendChild(el('circle', { cx: px(c.lon), cy: py(c.lat), r: 0.0006 * K, 'class': 'hl63-diem' }));
-    tim63.value = c.ten;
+    tim63.value = c.ten; hl._ten = c.ten; timXoa.hidden = false;
     timKq.hidden = true; timTruoc = null; tim63.blur();
     var pad = 0.004 * K, x = px(c.lon), y = py(c.lat);
     zoomTo({ minX: x - pad, maxX: x + pad, minY: y - pad, maxY: y + pad });
@@ -605,11 +605,23 @@
     hl.appendChild(el('path', { d: d, 'class': 'hl-quang' }));
     hl.appendChild(el('path', { d: d, 'class': 'hl-vien' }));
     hl.appendChild(el('path', { d: d, 'class': 'hl-net' }));
-    tim63.value = ten; timTruoc = null;       // ô tìm ghi đủ tên đã chọn
+    tim63.value = ten; timTruoc = null; hl._ten = ten; timXoa.hidden = false;       // ô tìm ghi đủ tên đã chọn
     timKq.hidden = true; timTruoc = null; tim63.blur();
     var pad = 0.003 * K;
     zoomTo({ minX: b.minX - pad, maxX: b.maxX + pad, minY: b.minY - pad, maxY: b.maxY + pad });
   }
+  // thôi tìm (anh Kha 27/11 "nhấn ko kiếm nữa vẫn hiện đỏ"): nút × xoá chữ + bỏ tô; xoá hết chữ hoặc gõ tên khác cũng bỏ tô
+  var timXoa = document.getElementById('timXoa');
+  function boTo() {
+    var hl = document.getElementById('hl63'); if (hl) hl.textContent = '';
+    timXoa.hidden = !tim63.value;
+  }
+  timXoa.addEventListener('click', function () { tim63.value = ''; timKq.hidden = true; timTruoc = null; boTo(); });
+  tim63.addEventListener('input', function () {
+    var hl = document.getElementById('hl63');
+    if (hl && hl.childNodes.length && tim63.value !== hl._ten) boTo();
+    timXoa.hidden = !tim63.value;
+  });
   tim63.addEventListener('input', timDuong);
   tim63.addEventListener('keydown', function (e) { if (e.key === 'Enter') { var f = timKq.querySelector('button'); if (f) f.click(); } });
 
@@ -1462,7 +1474,7 @@
     if (layer.sang) { sang.textContent = layer.sang[0]; sang.setAttribute('data-go', layer.sang[1]); }
     svg.classList.toggle('y63', !!layer.y1963);
     document.getElementById('timBox').hidden = !layer.y1963;
-    if (layer.y1963) { document.getElementById('lichBtn').hidden = true; tim63.value = ''; timKq.hidden = true; }
+    if (layer.y1963) { document.getElementById('lichBtn').hidden = true; tim63.value = ''; timKq.hidden = true; timXoa.hidden = true; }
     var name = layer.crumb[layer.crumb.length - 1][0];
     svg.setAttribute('aria-label', layer.y1963 ? 'Bản đồ Đà Lạt năm 1963' : name === 'Việt Nam' ? 'Bản đồ 34 tỉnh, thành phố Việt Nam' : 'Bản đồ xã, phường tỉnh ' + name);
   }

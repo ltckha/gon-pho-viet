@@ -112,6 +112,14 @@
       sang: ['Hôm nay', 'da-lat'],
       legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['mon63', 'Đường mòn'], ['nha63', 'Khu nhà'], ['nhago63', 'Nhà gỗ, nhà lá (phóng gần thấy)'], ['vuon63', 'Vườn'], ['rung63', 'Rừng thưa'], ['ram63', 'Rừng rậm'], ['dam63', 'Đầm lầy'], ['water', 'Hồ'], ['kv63', 'Khuôn viên công trình'], ['dm63', 'Vòng cao độ, cách nhau 5 m'], ['cao63', 'Độ cao đỉnh (mét)']],
       card: function () { return ''; }
+    },
+    // Sài Gòn 1961: vẽ lại từ bản đồ Sài Gòn 1:10.000, ấn bản 2-AMS 1961 (tools/sg1961/) — đang làm, mới khu trung tâm
+    'sai-gon-1961': {
+      kind: 'duong', y1963: true, file: 'data/sai-gon/1961.json', prec: 5,
+      mo: [106.688, 10.768, 106.712, 10.792],
+      crumb: [['Việt Nam', ''], ['Sài Gòn 1961', 'sai-gon-1961']],
+      legend: [['road63', 'Đường năm 1961'], ['nha63', 'Khối phố'], ['rung63', 'Công viên'], ['water', 'Sông rạch']],
+      card: function () { return ''; }
     }
   };
 
@@ -646,7 +654,8 @@
     pinsRoot.textContent = ''; pinsRoot.appendChild(pinLayer);
     bounds = { minX: px(k[0]), maxX: px(k[2]), minY: py(k[3]), maxY: py(k[1]) };
     fitAll();
-    zoomTo({ minX: px(108.432), maxX: px(108.45), minY: py(11.957), maxY: py(11.927) });   // mở vào trung tâm quanh Hồ Xuân Hương
+    var mo = layer.mo || [108.432, 11.927, 108.45, 11.957];   // Đà Lạt: mở vào trung tâm quanh Hồ Xuân Hương
+    zoomTo({ minX: px(mo[0]), maxX: px(mo[2]), minY: py(mo[3]), maxY: py(mo[1]) });
   }
   // tìm tên đường: gõ tên năm 1963 hoặc tên nay → chạy tới, tô sáng đúng các đoạn
   function boDau(s) { return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase(); }

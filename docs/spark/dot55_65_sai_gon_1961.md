@@ -108,7 +108,7 @@ Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ
 Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dot58_sai_gon_1961_o/, đúng tên file trên (.png).
 ```
 
-## Đợt 59
+## Đợt 59 — ĐÃ GHÉP 27/11/2026 (cắt lề dưới, lề phải)
 
 Ảnh gốc: dot59_anh_goc_sai_gon_1961.zip (sg1961_t2_x1700_y5700, sg1961_t2_x2800_y5700, sg1961_t2_x3300_y5700, sg1961_t1_x3850_y2550)
 
@@ -134,7 +134,7 @@ Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ
 Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dot59_sai_gon_1961_o/, đúng tên file trên (.png).
 ```
 
-## Đợt 60
+## Đợt 60 — ĐÃ GHÉP 27/11/2026 (tờ 1 đầu tiên; cắt khung phải x4940, khung trái x855)
 
 Ảnh gốc: dot60_anh_goc_sai_gon_1961.zip (sg1961_t1_x2970_y2550, sg1961_t1_x1870_y2550, sg1961_t1_x770_y2550, sg1961_t1_x3850_y3650)
 

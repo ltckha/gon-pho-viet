@@ -1068,7 +1068,10 @@
       h += '<section class="phan"><h3>🕰️ Qua các năm</h3><ol class="dong-tg">' + x.moc.map(function (m) {
         // chỉ hiện năm (anh Kha 27/11: "các mốc năm ko ghi gì hết, ai cần nhấn vô sẽ thả xuống"); chạm năm → đoạn kể dài + nguồn
         return '<li><details><summary><b class="nam">' + esc(m.nam) + '</b>' + (m.mot_nguon ? ' <i class="chua-chac" title="chưa chắc">?</i>' : '') +
-          '</summary>' + (m.chi_tiet || m.su_kien).split(/\n+/).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') +
+          // gọn như trang Hôm nay (anh Kha 27/11): một câu ngắn + nguồn; đoạn kể dài gập sau "Kể thêm"
+          '</summary><p>' + esc(m.su_kien) + '</p>' +
+          (m.chi_tiet && m.chi_tiet !== m.su_kien ? '<details class="ke-them"><summary>Kể thêm</summary>' +
+            m.chi_tiet.split(/\n+/).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') + '</details>' : '') +
           nguon(m.nguon, m.mot_nguon) + '</details></li>';
       }).join('') + (x.nay && x.nay.ten ? '<li class="tg-nay"><b class="nam">Nay</b> <span class="tg-ngan">' + esc(x.nay.ten) + '</span></li>' : '') + '</ol></section>';
     }

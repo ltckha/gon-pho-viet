@@ -951,6 +951,7 @@
   var ve63 = null, lop63 = null;                // ve63: khung nhìn đã vẽ thật vào SVG
   // Sài Gòn 1961 (anh Kha 27/11 "chưa coi được"): 57 tranh nét bung ra ~550 MB, điện thoại không mở nổi. Mỗi tranh có 3 cỡ
   // (nho = 1/4, vua = 1/2, gốc); nhìn xa dùng cỡ nhỏ, chỉ ô đang trong màn hình và đủ to mới đổi sang cỡ nét. Ô ra khỏi màn hình về cỡ nhỏ.
+  var NEN_GOC = true;                          // bản xem thử trên Artifact đặt false (giới hạn 16 MB), chỉ dùng cỡ nhỏ / vừa
   function nenSac() {
     var b = khungSvg(), dpr = Math.min(window.devicePixelRatio || 1, 2.5);
     var vx1 = -view.x / view.s, vy1 = -view.y / view.s, vx2 = vx1 + b.width / view.s, vy2 = vy1 + b.height / view.s;
@@ -958,7 +959,7 @@
     for (var i = 0; i < ds.length; i++) {
       var n = ds[i]._nen; if (!n) continue;
       var thay = n.x2 > vx1 && n.x1 < vx2 && n.y2 > vy1 && n.y1 < vy2;
-      var dp = n.w * view.s * dpr, m = !thay || dp < 500 ? 'nho' : dp < 1000 ? 'vua' : 'goc';
+      var dp = n.w * view.s * dpr, m = !thay || dp < 500 ? 'nho' : dp < 1000 || !NEN_GOC ? 'vua' : 'goc';
       if (m !== n.m) { n.m = m; ds[i].setAttribute('href', m === 'goc' ? n.f : n.f.replace('sg1961/', 'sg1961/' + m + '/')); }
     }
   }

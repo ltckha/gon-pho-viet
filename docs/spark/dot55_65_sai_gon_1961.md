@@ -4,7 +4,7 @@ Tiếp đợt 52–54 (khớp ≤ 1,5 m). 41 ô còn lại, mỗi đợt 4 ô, �
 tờ 1 = Chợ Lớn, Phú Thọ, Bình Tây. Ảnh gốc mỗi đợt nén trong một file dotNN.zip em gửi kèm. Tên ô = tờ + toạ độ góc trên-trái trên tờ quét.
 Ghép: anh gửi hình Spark vào chat (một tin riêng), em đo khớp từng ô rồi thêm vào `anh_nen` (data/sai-gon/1961.json).
 
-## Đợt 55
+## Đợt 55 — ĐÃ GHÉP 27/11/2026 (cắt lề trên Spark vẽ thêm)
 
 Ảnh gốc: dot55_anh_goc_sai_gon_1961.zip (sg1961_t2_x600_y0, sg1961_t2_x1700_y0, sg1961_t2_x2800_y0, sg1961_t2_x3300_y0)
 

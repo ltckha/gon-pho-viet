@@ -160,6 +160,9 @@ def main(pdf, soat=None):
     cand = skeletonize(ndi.binary_dilation(cand, np.ones((3, 3), bool)))
     distc = dist
     print('khe đường (điểm ảnh):', int(cand.sum()))
+    red_d = ndi.maximum_filter(red, 3)
+    inkd = binary_closing(remove_small_objects(dark, 5, connectivity=2), disk(2))   # chỉ mực đen: mép đường
+    used_img = Image.new('L', (W, H), 0); used_dr = __import__('PIL.ImageDraw', fromlist=['x']).Draw(used_img)
 
     # 2) đường còn tới nay: dọc mốc OSM, tìm tâm khe trên bản cũ trong ±9 điểm ảnh (~15 m)
     osm = json.load(open(os.path.join(ROOT, 'data/lam-dong/da-lat/duong.json'), encoding='utf-8'))
@@ -193,12 +196,12 @@ def main(pdf, soat=None):
                     qx = np.rint(X_ + NX * S4 + TX * T4 + side * NX * (H4 + dd)).astype(int)
                     qy = np.rint(Y_ + NY * S4 + TY * T4 + side * NY * (H4 + dd)).astype(int)
                     okb = (qx >= 0) & (qx < W) & (qy >= 0) & (qy < H)
-                    cnt |= okb & inkc[np.clip(qy, 0, H - 1), np.clip(qx, 0, W - 1)]
+                    cnt |= okb & inkd[np.clip(qy, 0, H - 1), np.clip(qx, 0, W - 1)]
                 return cnt.sum(3)                            # N×S×H
             L_ = hit(-1); R_ = hit(1)
             cx = np.rint(X_[..., 0] + NX[..., 0] * ss[None, :, None]).astype(int)[..., 0]
             cy = np.rint(Y_[..., 0] + NY[..., 0] * ss[None, :, None]).astype(int)[..., 0]
-            giua_sang = ~inkc[np.clip(cy, 0, H - 1), np.clip(cx, 0, W - 1)] & ~dens[np.clip(cy, 0, H - 1), np.clip(cx, 0, W - 1)]
+            giua_sang = ~inkd[np.clip(cy, 0, H - 1), np.clip(cx, 0, W - 1)] & ~dens[np.clip(cy, 0, H - 1), np.clip(cx, 0, W - 1)]   # lòng đỏ vẫn tính là lòng đường
             good_ = (np.minimum(L_, R_) >= EDGE_MIN) & giua_sang[:, :, None]
             # chọn s gần mốc nhất, h nhỏ nhất hợp lệ
             for n_ in range(len(SA)):
@@ -241,21 +244,25 @@ def main(pdf, soat=None):
             idx = np.arange(len(offs)); m_ = ~np.isnan(offs)
             offs = np.clip(np.interp(idx, idx[m_], offs[m_]), -9, 9)
             offs = np.convolve(np.pad(offs, 7, mode='edge'), np.ones(15) / 15, 'valid')
-            pts = [(samp[k][0] + samp[k][2] * o, samp[k][1] + samp[k][3] * o) for k, o in zip(range(i, j), offs)]
+            pts = np.array([(samp[k][0] + samp[k][2] * o, samp[k][1] + samp[k][3] * o) for k, o in zip(range(i, j), offs)])
+            # làm mượt 2D (dịch theo pháp tuyến từng đoạn tạo gập ngược ở đỉnh góc — góp ý f.3)
+            if len(pts) >= 5:
+                pts = np.array([np.convolve(np.pad(pts[:, c], 3, mode='edge'), np.ones(7) / 7, 'valid') for c in (0, 1)]).T
+            # cấp đường theo cách bản AMS in: lòng đường tô đỏ = đường trải nhựa chính (cấp 1) — đo trên mọi điểm, trước khi rút gọn (f.2)
+            red3 = red_d[np.clip(pts[:, 1].astype(int), 0, H - 1), np.clip(pts[:, 0].astype(int), 0, W - 1)]
+            do = float(red3.mean()) if len(pts) else 0
+            pts = [tuple(q) for q in pts]
             if j == n_s:                # chạm đúng đầu đường (nút chung với đường khác) để mạng đường liền
                 pts[-1] = P[-1]
             if i == 0:
                 pts[0] = P[0]
             pts = approximate_polygon(np.array(pts), 0.7)
             w = 2 * float(np.median(wid))
-            # cấp đường theo cách bản AMS in: lòng đường tô đỏ = đường trải nhựa chính (cấp 1); còn lại theo bề rộng in
-            Pa = np.array(pts)
-            do = red[np.clip(Pa[:, 1].astype(int), 0, H - 1), np.clip(Pa[:, 0].astype(int), 0, W - 1)].mean() if len(Pa) else 0
             loai = 1 if do >= 0.3 else 2 if w >= 10 else 3 if w >= 6 else 4
             duong.append({'id': r['id'], 'loai': loai, 'pts': [[round(v, 5) for v in to_ll(x, y)] for x, y in pts]})
-            for x, y in pts:
-                used[max(0, int(y) - 9):int(y) + 10, max(0, int(x) - 9):int(x) + 10] = True
+            used_dr.line([tuple(q) for q in pts], fill=255, width=19)     # đánh dấu cả đoạn, không chỉ quanh đỉnh (f.5)
 
+    used = np.asarray(used_img) > 0
     # 3) đường đất nét đứt bản cũ có mà nay không còn — "dò theo vết" (so 7 cách 26/11):
     #    hạt = cặp gạch xám song song (hai mép đường đất); từ mỗi hạt bước 5 điểm ảnh dọc hướng, rẽ ≤ 14°/bước,
     #    mỗi bước hai bên còn gạch trong ±10 điểm ảnh, giữa sáng; dừng khi chạm đường đã có hoặc hụt 4 bước.
@@ -366,6 +373,69 @@ def main(pdf, soat=None):
         Pc = approximate_polygon(np.array([np.convolve(np.pad(Pc[:, k], 2, mode='edge'), np.ones(5) / 5, 'valid') for k in (0, 1)]).T, 0.8)
         duong_mat.append({'loai': 4, 'dat': 1, 'pts': [[round(v, 5) for v in to_ll(x, y)] for x, y in Pc]})
     print('đường đất đã mất (dò theo vết):', len(duong_mat))
+    # 4) đường mòn một nét đứt (anh Kha 27/11 "vẽ nốt phần thiếu"): chuỗi ≥ 5 gạch xám thẳng hàng, cách 10–30 điểm ảnh, không có gạch
+    #    song song bên cạnh (không phải đường đất đôi). So 2 cách: cách này ít nhầm nhưng chưa bắt hết; "nối liền nét đứt theo hướng" nhầm nhiều — bỏ.
+    gray_m = (mx < 175) & (sat < 32) & (g[..., 1] <= g[..., 0] + 6)
+    D = []
+    for rp in regionprops(label(gray_m, connectivity=2)):
+        if rp.area < 8 or rp.area > 80: continue
+        L = rp.axis_major_length; w = rp.axis_minor_length
+        if L < 6 or L > 26 or w > 3.3 or L < 2.6 * max(w, 1): continue
+        cy, cx = rp.centroid; yy, xx = rp.coords[:, 0] - cy, rp.coords[:, 1] - cx
+        ev, evec = np.linalg.eigh(np.cov(np.vstack([xx, yy]))); v = evec[:, 1]
+        D.append((cx, cy, v[0], v[1], L))
+    D = np.array(D); T = cKDTree(D[:, :2]); 
+    # gạch có bạn song song (đường đôi) → loại
+    cap = np.zeros(len(D), bool)
+    for i, j in T.query_pairs(13):
+        a, b = D[i], D[j]
+        if abs(a[2] * b[2] + a[3] * b[3]) < 0.94: continue
+        dx, dy = b[0] - a[0], b[1] - a[1]; al = dx * a[2] + dy * a[3]; pe = -dx * a[3] + dy * a[2]
+        if 3.5 <= abs(pe) <= 11 and abs(al) < 8: cap[i] = cap[j] = True
+    # nối gạch đơn thẳng hàng: gạch kế cách tâm 10–30, cùng hướng, lệch ngang < 2.5
+    adj = {}
+    idx = np.nonzero(~cap)[0]
+    T2 = cKDTree(D[idx, :2])
+    for ii, i in enumerate(idx):
+        c = D[i]
+        for k in T2.query_ball_point(c[:2], 30):
+            j = idx[k]
+            if j <= i: continue
+            d = D[j]
+            if abs(c[2] * d[2] + c[3] * d[3]) < 0.92: continue
+            dx, dy = d[0] - c[0], d[1] - c[1]; al = dx * c[2] + dy * c[3]; pe = abs(-dx * c[3] + dy * c[2])
+            if 10 <= abs(al) <= 30 and pe < 2.5 + 0.08 * abs(al):
+                adj.setdefault(i, set()).add(j); adj.setdefault(j, set()).add(i)
+    seen = set(); mon = []
+    for s0 in adj:
+        if s0 in seen: continue
+        comp = []; st = [s0]
+        while st:
+            u = st.pop()
+            if u in seen: continue
+            seen.add(u); comp.append(u); st += list(adj[u])
+        if len(comp) < 5: continue
+        cs = set(comp)
+        def far(src):
+            dist_ = {src: 0}; par = {src: None}; q = [src]
+            for u in q:
+                for v in adj[u]:
+                    if v in cs and v not in dist_: dist_[v] = dist_[u] + 1; par[v] = u; q.append(v)
+            e = max(dist_, key=dist_.get); return e, par
+        e1, _ = far(comp[0]); e2, par = far(e1); path = [e2]
+        while par[path[-1]] is not None: path.append(par[path[-1]])
+        if len(path) < 5: continue
+        P = D[path, :2]
+        if np.hypot(*(P[-1] - P[0])) < 70: continue
+        mon.append(P)
+
+    duong_mon = []
+    for Pc in mon:
+        xi = np.clip(Pc[:, 0].astype(int), 0, W - 1); yi = np.clip(Pc[:, 1].astype(int), 0, H - 1)
+        if used[yi, xi].mean() > 0.3:
+            continue
+        duong_mon.append({'pts': [[round(v, 5) for v in to_ll(x, y)] for x, y in approximate_polygon(Pc, 1.0)]})
+    print('đường mòn:', len(duong_mon))
     print('đoạn đường dò được:', len(duong), ' dài', round(sum(
         sum(math.hypot((b[0] - a_[0]) * 108900, (b[1] - a_[1]) * 110574) for a_, b in zip(d['pts'], d['pts'][1:])) for d in duong) / 1000, 1), 'km')
 
@@ -415,6 +485,16 @@ def main(pdf, soat=None):
                 best = (dd, s_)
         if best and best[0] < 1500:
             d['ten'] = best[1]['ten']; d['so'] = best[1]['so']; d['nay'] = nay
+    # Tên 1963 đã chắc (bảng chỉ dẫn, đúng chỗ) nhưng máy không dò ra nét đường (khu chợ cũ, đường hẹp): vẽ theo hình đường nay
+    # của đúng khúc đó (ten_1963.json), đánh dấu 'theo_nay': 1 để biết nét không lấy từ bản cũ (Antigravity 27/11: khu chợ nên đồ tay).
+    co_ten = {d['ten'] for d in duong if d.get('ten')}
+    them = 0
+    for s_ in t63['duong']:
+        if s_['ten'] in co_ten:
+            continue
+        duong.append({'loai': 3, 'theo_nay': 1, 'ten': s_['ten'], 'so': s_['so'], 'nay': s_['nay'], 'pts': s_['pts']})
+        them += 1
+    print('đường vẽ theo hình đường nay (có tên 1963, máy chưa dò ra):', them)
     # nối các đoạn cùng tên chạm nhau để đặt chữ
     by = {}
     for d in duong:
@@ -469,7 +549,7 @@ def main(pdf, soat=None):
     data = {
         'nam': 1963,
         'khung': [round(lo0, 5), round(la0, 5), round(lo1, 5), round(la1, 5)],
-        'duong': duong, 'duong_mat': duong_mat, 'ten_duong': ten_duong, 'diem': t63['diem'], 'dia_danh': dia_danh(), 'cong_trinh': cong_trinh(), 'nuoc': nuoc, 'rung': rung, 'khu': khu, 'nha': nha,
+        'duong': duong, 'duong_mat': duong_mat, 'duong_mon': duong_mon, 'ten_duong': ten_duong, 'diem': t63['diem'], 'dia_danh': dia_danh(), 'cong_trinh': cong_trinh(), 'nuoc': nuoc, 'rung': rung, 'khu': khu, 'nha': nha,
         'nguon': [{'ten': 'Bản đồ Đà Lạt 1:12.500, Army Map Service (quân đội Mỹ), loạt L909, ấn bản 1-AMS 1963 — vẽ lại toàn bộ từ bản này. Phạm vi công cộng.',
                    'link': 'https://catalog.archives.gov/id/74797741'},
                   {'ten': 'Tên đường năm 1963: bảng chỉ dẫn đường phố in trên bản đồ (103 tên), dò từng số',

@@ -110,7 +110,7 @@
       extra: { key: 'dd63', file: 'data/lam-dong/da-lat/1963_dia_diem.json' },   // năm 1963 là gì → nay → qua các năm
       crumb: [['Đà Lạt', 'da-lat'], ['Năm 1963', 'da-lat-1963']],
       sang: ['Hôm nay', 'da-lat'],
-      legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['nha63', 'Khu nhà'], ['rung63', 'Rừng'], ['water', 'Hồ']],
+      legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['mon63', 'Đường mòn'], ['nha63', 'Khu nhà'], ['rung63', 'Rừng'], ['water', 'Hồ']],
       card: function () { return ''; }
     }
   };
@@ -262,13 +262,13 @@
     if (!layer.y1963) nhanGhim();
     var daDat = {};
     roadLbl.slice().sort(function (a, b) { return a.rank - b.rank || b.len - a.len; }).forEach(function (L) {
-      var show = z >= L.minZ && L.n * fs * 0.56 < L.len * 0.9;
+      var show = z >= L.minZ && L.n * fs * 0.64 < L.len * 0.92;
       if (show) {
         var sx = L.x * view.s + view.x, sy = L.y * view.s + view.y, hw = L.n * 11 * 0.58 / 2 + 4;
         if (sx < -50 || sy < -50 || sx > r.width + 50 || sy > r.height + 50) show = false;
         else if (L.pe) {
           // chữ chạy dọc đường: đo bằng các ô nhỏ dọc theo đúng đoạn chữ nằm (không dùng một hình chữ nhật ngang lớn)
-          var hl = L.n * fs * 0.58 / 2 + 3 / view.s, bs = [];
+          var hl = L.n * fs * 0.64 / 2 + 3 / view.s, bs = [];
           for (var t = -hl; t <= hl + 1e-9; t += Math.max(hl / 4, 1e-6)) {
             var q = L.pe.getPointAtLength(Math.max(0, Math.min(L.len, L.len / 2 + t)));
             var qx = q.x * view.s + view.x, qy = q.y * view.s + view.y;
@@ -391,6 +391,7 @@
   /* ---------- Đà Lạt 1963 (tầng riêng) ----------
      Mọi nét lấy từ bản đồ quân đội Mỹ AMS L909 Đà Lạt 1:12.500 năm 1963 (tools/dung_1963.py): đường (tâm khe giữa hai mép in),
      hồ, rừng, nhà; tên đường theo bảng chỉ dẫn in trên bản đồ. Anh Kha chốt 26/11: không ghép gì của hiện tại. */
+  var BIEU_TUONG_63 = false;
   var tim63 = document.getElementById('tim63'), timKq = document.getElementById('timKq');
   function draw1963() {
     var k = data.khung, ox = k[0], oy = k[1];
@@ -421,6 +422,9 @@
       fill.appendChild(el('path', { d: d, 'class': 'r' + r.loai }));
     });
     land.appendChild(casing); land.appendChild(fill);
+    var mon = el('g', { 'class': 'mon63' });          // đường mòn một nét đứt
+    (data.duong_mon || []).forEach(function (r) { mon.appendChild(el('path', { d: lineOf(r.pts) })); });
+    land.appendChild(mon);
     var dat = el('g', { 'class': 'dat63' });          // đường đất bản cũ có, nay không còn: nét đứt đôi
     (data.duong_mat || []).forEach(function (r) { dat.appendChild(el('path', { d: lineOf(r.pts) })); });
     land.appendChild(dat);
@@ -472,7 +476,9 @@
     var DAU = { tho: '✝', chua: '卍', truong: '▲', dinh: '★', cho: '■', ga: '■', benh: '✚', choi: '●', cong: '●', thuong: '●' };
     var CHUNG = { 'Trường Học': 1, 'Miếu': 1, 'Nhà Thờ': 1, 'Chùa': 1, 'Nhà Máy Nước': 1 };
     var gct = el('g', { 'class': 'ct63' }); labels.appendChild(gct);
-    var dd = {}; ((cache.dd63 && cache.dd63.dia_diem) || []).forEach(function (x) { dd[x.so] = x; });
+    var dd = {};
+    // TẠM ẨN biểu tượng địa điểm (anh Kha 27/11: "tạm thời bỏ các biểu tượng ra"); bật lại: BIEU_TUONG_63 = true
+    if (BIEU_TUONG_63) ((cache.dd63 && cache.dd63.dia_diem) || []).forEach(function (x) { dd[x.so] = x; });
     // mốc lớn: chợ, nhà thờ lớn, 3 dinh, ga, Palace, Võ Bị, Đại học, sân cù
     var HANG1 = { 6: 1, 44: 1, 24: 1, 25: 1, 26: 1, 105: 1, 3: 1, 84: 1, 81: 1, 52: 1 };
     pins = []; var pinLayer = el('g', {});
@@ -496,7 +502,7 @@
       c._co = 1;
     });
     (data.cong_trinh || []).forEach(function (c) {
-      if (c._co) return;
+      if (c._co || !BIEU_TUONG_63) return;
       var t = el('text', { x: px(c.lon), y: py(c.lat), 'class': 'lbl ct63-ten n-' + c.nhom, hidden: '' }, DAU[c.nhom] + ' ' + c.ten);
       gct.appendChild(t);
       var lon = { dinh: 1, cho: 1, ga: 1 }[c.nhom] || c.ten === 'Nhà Thờ Lớn' || c.ten === 'Sân Cù';
@@ -848,7 +854,7 @@
     h += '<section class="phan"><h3>📍 Nay</h3>';
     if (x.nay && x.nay.ten) {
       h += '<p class="nay63"><b>' + esc(x.nay.ten) + '</b>' + (x.cung_cho !== 'chắc' ? ' <i class="chua-chac" title="chưa chắc là cùng chỗ">?</i>' : '') +
-        (x.nay.mo_ta ? '<br>' + esc(x.nay.mo_ta) : '') + '</p>' + (x.nay.nguon.length ? nguon(x.nay.nguon, x.nay.nguon.length < 2) : '') +
+        (x.nay.mo_ta ? '<br>' + esc(x.nay.mo_ta) : '') + '</p>' + (x.nay.nguon.length ? nguon(x.nay.nguon, new Set(x.nay.nguon.map(function (n) { return n.trang; })).size < 2) : '') +
         (x.cung_cho !== 'chắc' && x.cung_cho_ghi_chu ? '<span class="src warn">' + esc(x.cung_cho_ghi_chu) + '</span>' : '');
     } else h += '<p class="nay63">Chưa rõ nay là gì.</p>';
     h += '</section>';
@@ -1417,7 +1423,7 @@
     document.getElementById('timBox').hidden = !layer.y1963;
     if (layer.y1963) { document.getElementById('lichBtn').hidden = true; tim63.value = ''; timKq.hidden = true; }
     var name = layer.crumb[layer.crumb.length - 1][0];
-    svg.setAttribute('aria-label', name === 'Việt Nam' ? 'Bản đồ 34 tỉnh, thành phố Việt Nam' : 'Bản đồ xã, phường tỉnh ' + name);
+    svg.setAttribute('aria-label', layer.y1963 ? 'Bản đồ Đà Lạt năm 1963' : name === 'Việt Nam' ? 'Bản đồ 34 tỉnh, thành phố Việt Nam' : 'Bản đồ xã, phường tỉnh ' + name);
   }
 
   /* ---------- tải tầng ---------- */
@@ -1452,7 +1458,7 @@
       data = d; layer = L; layerId = id;
       document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam' || id === 'lam-dong');
       document.getElementById('map').classList.toggle('tang-tinh', id === 'lam-dong');   // tầng cả nước: nét bản đồ game Gọn Phố
-      document.querySelector('.osm-credit').hidden = L.kind !== 'duong' || !!L.y1963;   // 1963 vẽ từ bản đồ cũ; nguồn ghi ở "Nguồn dữ liệu"   // chỉ tầng đường dùng dữ liệu OpenStreetMap
+      document.querySelector('.osm-credit').hidden = L.kind !== 'duong';   // cả tầng 1963: đường dò theo mốc OpenStreetMap → phải ghi công (ODbL)   // chỉ tầng đường dùng dữ liệu OpenStreetMap
       renderChrome();
       draw();
       loading.hidden = true;

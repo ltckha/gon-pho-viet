@@ -82,7 +82,7 @@ Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ
 Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dot57_sai_gon_1961_o/, đúng tên file trên (.png).
 ```
 
-## Đợt 58
+## Đợt 58 — ĐÃ GHÉP 27/11/2026
 
 Ảnh gốc: dot58_anh_goc_sai_gon_1961.zip (sg1961_t2_x1700_y5100, sg1961_t2_x2800_y5100, sg1961_t2_x3300_y5100, sg1961_t2_x600_y5700)
 

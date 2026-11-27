@@ -24,3 +24,11 @@ xin ghi rõ phần nào có tài liệu, phần nào là kinh nghiệm.
 
 Trả lời giúp: bảng "mức phóng → hiện gì, rộng bao nhiêu" + quy tắc biểu tượng (số, ưu tiên, chống đè) + 5 việc nên sửa ngay trong app.js/style.css (chỉ ra hàm/dòng).
 ```
+
+## Antigravity trả lời (27/11/2026) — đã áp
+1. 4 mức data-zm ở z 2,2 / 4,8 / 9 (vùng trễ 10% khi thu nhỏ); bề rộng đường nội suy theo log2 z qua biến CSS --f1..--c4 (bảng mốc z 1,5 / 3,3 / 6,5 / 12); lòng đường sáng, viền be-nâu mảnh; tách màu r1/r2/r3/r4.
+2. Nhà hiện từ z ≥ 6,5; vòng cao độ tắt ở mức 0, mờ dần; khuôn viên tắt ở mức 0; vườn, đầm tô phẳng ở mức 0–1; đường mòn, đường mất từ mức 2.
+3. Biểu tượng: trần 6 / 10 / 16 / không trần; bỏ vùng thanh tìm (115) và nút đáy (65); xếp hạng → độ nổi tiếng → đã hiện (khi phóng to) → nằm thấp hơn trước; hạng 1 đặt trước tên đường; chữ thử dưới chân hình → phải → trái → trên (chấm: phải → trái → dưới → trên); chấm không chữ thì ẩn; mờ dần 200/120 ms; bỏ drop-shadow.
+4. Tên đường: Đại lộ từ z 1,6, còn lại từ 2,5; cách lặp 310 điểm; cửa sổ 450 / 900 / cả khúc; điểm mẫu tính sẵn.
+5. Độ cao từ z 5,5; công trình có tên riêng từ 4,8; nhãn chung chung ("Trường Học"…) từ z 9, chữ nhỏ mờ, ưu tiên cuối.
+Chưa làm: cỡ hình theo bậc (0,78 / 0,88 / 1×) — anh Kha đã chê hình to nên giữ 30 điểm cố định.

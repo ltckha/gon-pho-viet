@@ -250,39 +250,70 @@
     }
     // Đà Lạt 1963: biểu tượng theo hạng và mức phóng — xa chỉ mốc lớn (≤ 8), vừa thêm nơi có hình (≤ 16), gần hiện hết;
     // cái nào chồng lên cái hạng cao hơn thì ẩn (cách "ưu tiên + chống chồng" của Mapbox, Google).
+    // Đà Lạt 1963 — biểu tượng (góp ý Antigravity 27/11, theo Mapbox/Google: ưu tiên + chống đè):
+    //  trần theo mức 6 / 10 / 16 / không trần; bỏ vùng bị thanh tìm (trên 115) và nút đáy (65) che; xếp hạng → độ nổi tiếng →
+    //  đã hiện ở lần trước (phóng to không làm mất mốc đang thấy) → nằm thấp hơn trên màn hình trước (quy tắc Google CollisionBehavior).
+    //  Hạng 1: đặt hình + chữ TRƯỚC tên đường; hạng 2, 3: chữ đặt sau tên đường; hạng 3 vướng chữ thì ẩn cả chấm.
+    var pinDat = [];
     if (layer.y1963) {
-      // (anh Kha 27/11 "to, thô, đè nhau"): hình nhỏ lại; chừa 6 điểm quanh mỗi hình; xa ≤ 6, vừa ≤ 12 (OpenMapTiles: mỗi ô ~100 điểm một hình)
-      var hangMax = z < 1.8 ? 1 : z < 3.5 ? 2 : 3, tran = z < 1.8 ? 6 : z < 3.5 ? 12 : 30, dem = 0;
-      pins.slice().sort(function (a, b) { return a._hang - b._hang || a._thu - b._thu; }).forEach(function (g) {
+      var muc = +svg.getAttribute('data-zm') || 0, tran = [6, 10, 16, 999][muc], hangMax = muc === 0 ? 1 : muc === 1 ? 2 : 3, dem = 0;
+      var tren = 115, duoi = r.height - 65, phongTo = z >= (layout._zTruoc || 0);
+      layout._zTruoc = z;
+      pins.slice().sort(function (a, b) {
+        return a._hang - b._hang || a._thu - b._thu || (phongTo ? (b._daHien ? 1 : 0) - (a._daHien ? 1 : 0) : 0) || b._y - a._y;
+      }).forEach(function (g) {
         var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y, rr = g._r, ok = g._hang <= hangMax && dem < tran;
-        var bx = { x0: sx - rr - 6, x1: sx + rr + 6, y0: sy - 2 * rr - 6, y1: sy + 4 };
-        if (ok && (sx < -30 || sy < -30 || sx > r.width + 30 || sy > r.height + 30)) ok = false;
+        var bx = { x0: sx - rr - 4, x1: sx + rr + 4, y0: sy - 2 * rr - 4, y1: sy + 4 };
+        if (ok && (sx < -30 || sy < tren - 20 || sx > r.width + 30 || sy > duoi + 30)) ok = false;
         else if (ok && !free(bx)) ok = false;
-        g.parentNode.style.display = ok ? '' : 'none';
         g._an = !ok;
-        if (ok) { boxes.push(bx); if (sx > 0 && sy > 0 && sx < r.width && sy < r.height) dem++; }
+        if (ok) { boxes.push(bx); pinDat.push(g); if (sx > 0 && sy > tren && sx < r.width && sy < duoi) dem++; }
       });
+      pins.forEach(function (g) { g._daHien = !g._an; });
     }
-    // ghim trước (quan trọng nhất): chỗ của mọi ghim, rồi mới tới chữ. Chế độ 1963 ẩn ghim, nhường chỗ cho tên đường xưa.
+    // ghim trước (quan trọng nhất): chỗ của mọi ghim, rồi mới tới chữ.
     if (!layer.y1963) pins.forEach(function (g) {
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
       boxes.push({ x0: sx - 11, x1: sx + 11, y0: sy - 28, y1: sy });
     });
-    function nhanGhim() { pins.forEach(function (g) {
+    // chữ cạnh ghim. 1963: hình Spark thử DƯỚI chân hình → phải → trái → trên; chấm nhỏ thử phải → trái → dưới → trên
+    function nhanGhim(ds) { ds.forEach(function (g) {
       if (g._fixed || g._an) return;
-      var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
-      var w = g._n * (layer.y1963 ? 11.5 : 13) * 0.6 + 6, lb = g.lastChild, o = g._r ? g._r + (layer.y1963 ? 7 : 1) : 12, cy = g._r ? -g._r : -16;
+      var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y, lb = g.lastChild;
+      if (layer.y1963) {
+        var w = g._n * 11.5 * 0.58 + 4, rr = g._r, hinh = g._hinh, cy = hinh ? -rr : -8;
+        var cho = {
+          duoi: { b: { x0: sx - w / 2, x1: sx + w / 2, y0: sy + 5, y1: sy + 19 }, x: 0, y: 14, a: 'middle' },
+          phai: { b: { x0: sx + rr + 5, x1: sx + rr + 5 + w, y0: sy + cy - 8, y1: sy + cy + 8 }, x: rr + 3, y: cy + 4, a: 'start' },
+          trai: { b: { x0: sx - rr - 5 - w, x1: sx - rr - 5, y0: sy + cy - 8, y1: sy + cy + 8 }, x: -rr - 3, y: cy + 4, a: 'end' },
+          tren: { b: { x0: sx - w / 2, x1: sx + w / 2, y0: sy - 2 * rr - 19, y1: sy - 2 * rr - 5 }, x: 0, y: -2 * rr - 6, a: 'middle' }
+        };
+        var thu = hinh ? ['duoi', 'phai', 'trai', 'tren'] : ['phai', 'trai', 'duoi', 'tren'], dat = null;
+        for (var k = 0; k < thu.length; k++) {
+          var c = cho[thu[k]];
+          if (c.b.x0 > 4 && c.b.x1 < r.width - 4 && free(c.b)) { dat = c; break; }
+        }
+        if (dat) {
+          lb.setAttribute('x', dat.x); lb.setAttribute('y', dat.y); lb.setAttribute('text-anchor', dat.a); lb.removeAttribute('hidden'); boxes.push(dat.b);
+        } else {
+          lb.setAttribute('hidden', '');
+          if (!hinh) g._an = true;          // chấm vô danh không chữ chỉ là rác — ẩn luôn
+        }
+        return;
+      }
+      var w = g._n * 13 * 0.6 + 6, o = g._r ? g._r + 1 : 12, cy = g._r ? -g._r : -16;
       var right = { x0: sx + o, x1: sx + o + 2 + w, y0: sy + cy - 10, y1: sy + cy + 10 };
       var left = { x0: sx - o - 2 - w, x1: sx - o, y0: sy + cy - 10, y1: sy + cy + 10 };
       // chữ không được tràn khỏi mép màn hình (tên dài như "Thiền viện Trúc Lâm – Hồ Tuyền Lâm")
       var vuaPhai = right.x1 < r.width - 6, vuaTrai = left.x0 > 6;
       if (!vuaPhai && !vuaTrai) { if (sx > r.width / 2) vuaTrai = true; else vuaPhai = true; }
       if (g._r) lb.setAttribute('y', cy + 4);
-      if (vuaPhai && free(right)) { lb.setAttribute('x', o + 2 - (layer.y1963 ? 5 : 0)); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
-      else if (vuaTrai && free(left)) { lb.setAttribute('x', -o - 2 + (layer.y1963 ? 5 : 0)); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
+      if (vuaPhai && free(right)) { lb.setAttribute('x', o + 2); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
+      else if (vuaTrai && free(left)) { lb.setAttribute('x', -o - 2); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
       else lb.setAttribute('hidden', '');
     }); }
-    nhanGhim();          // 1963 cũng đặt tên cạnh hình: phải, không chỗ thì trái, vướng nữa thì giữ hình bỏ chữ
+    if (!layer.y1963) nhanGhim(pins);
+    else nhanGhim(pinDat.filter(function (g) { return g._hang === 1; }));
     var daDat = {};
     roadLbl.slice().sort(function (a, b) { return a.rank - b.rank || b.len - a.len; }).forEach(function (L) {
       var show = z >= L.minZ && L.n * fs * 0.64 < L.len * 0.92;
@@ -293,11 +324,11 @@
           // chữ chạy dọc đường: đo bằng các ô nhỏ dọc theo đúng đoạn chữ nằm (không dùng một hình chữ nhật ngang lớn)
           var hl = L.n * fs * 0.64 / 2 + 3 / view.s, bs = [];
           for (var t = -hl; t <= hl + 1e-9; t += Math.max(hl / 4, 1e-6)) {
-            var q = L.pe.getPointAtLength(Math.max(0, Math.min(L.len, L.len / 2 + t)));
-            var qx = q.x * view.s + view.x, qy = q.y * view.s + view.y;
+            var q = L.mau ? L.mau[Math.round(Math.max(0, Math.min(1, 0.5 + t / L.len)) * 40)] : null, qp = q ? null : L.pe.getPointAtLength(Math.max(0, Math.min(L.len, L.len / 2 + t)));
+            var qx = (q ? q[0] : qp.x) * view.s + view.x, qy = (q ? q[1] : qp.y) * view.s + view.y;
             bs.push({ x0: qx - 6, x1: qx + 6, y0: qy - 7, y1: qy + 7 });
           }
-          var gan = (daDat[L.ten] || []).some(function (q) { return Math.hypot(q[0] - sx, q[1] - sy) < 220; });
+          var gan = (daDat[L.ten] || []).some(function (q) { return Math.hypot(q[0] - sx, q[1] - sy) < (layer.y1963 ? 310 : 220); });
           if (!gan && bs.every(free)) { bs.forEach(function (b) { boxes.push(b); }); (daDat[L.ten] = daDat[L.ten] || []).push([sx, sy]); } else show = false;
         } else {
           var b = { x0: sx - hw, x1: sx + hw, y0: sy - hw * 0.5 - 7, y1: sy + hw * 0.5 + 7 };
@@ -306,8 +337,13 @@
       }
       if (show) L.el.removeAttribute('hidden'); else L.el.setAttribute('hidden', '');
     });
+    if (layer.y1963) {
+      nhanGhim(pinDat.filter(function (g) { return g._hang === 2; }));
+      nhanGhim(pinDat.filter(function (g) { return g._hang === 3; }));
+      pins.forEach(function (g) { g.parentNode.classList.toggle('an', !!g._an); g._daHien = !g._an; });
+    }
     // hồ, mốc: sau tên đường, chỗ nào còn trống mới hiện
-    pointLbl.forEach(function (L) {
+    pointLbl.slice().sort(function (a, b) { return (a.cuoi ? 1 : 0) - (b.cuoi ? 1 : 0); }).forEach(function (L) {
       var show = z >= L.minZ;
       if (show) {
         var sx = L.x * view.s + view.x, sy = L.y * view.s + view.y, w = L.n * 11 * 0.58;
@@ -507,7 +543,7 @@
       if (tong < 50) return;
       // nhiều cỡ cửa sổ (300, 600, 1200 m, cả khúc): phóng xa dùng cửa sổ dài, phóng gần dùng cửa sổ ngắn
       var cua = [];
-      [300, 600, 1200, tong].forEach(function (c) {
+      [450, 900, tong].forEach(function (c) {      // ít cỡ cửa sổ (Antigravity: 499 cửa sổ quá nhiều)
         if (c > tong * 1.01 && c !== tong) return;
         var so = Math.max(1, Math.round(tong / c)), buoc = tong / so;
         for (var w = 0; w < so; w++) cua.push([w * buoc, (w + 1) * buoc]);
@@ -524,8 +560,9 @@
         var t = el('text', { 'class': 'lbl road-name ten-1963', dy: '0.35em', 'font-size': '0.88em', hidden: '' });
         t.appendChild(el('textPath', { href: '#' + id, startOffset: '50%' }, ten));
         roadLabels.appendChild(t);
-        var m = pe.getPointAtLength(L / 2);
-        roadLbl.push({ el: t, pe: pe, len: L, x: m.x, y: m.y, n: ten.length * 0.88, ten: ten, minZ: 1.1, rank: /^(Đại lộ|Công trường)/.test(r.ten) ? 1 : 2 });
+        var m = pe.getPointAtLength(L / 2), mau = [];
+        for (var u = 0; u <= 40; u++) { var pq = pe.getPointAtLength(L * u / 40); mau.push([pq.x, pq.y]); }    // điểm mẫu tính sẵn
+        roadLbl.push({ el: t, pe: pe, len: L, x: m.x, y: m.y, n: ten.length * 0.88, ten: ten, minZ: /^(Đại lộ|Công trường)/.test(r.ten) ? 1.6 : 2.5, rank: /^(Đại lộ|Công trường)/.test(r.ten) ? 1 : 2, mau: mau });
       });
     });
     // tên ấp, khu, hồ, rừng in trên bản đồ (chép tay) + quảng trường trong bảng chỉ dẫn
@@ -540,7 +577,7 @@
     (data.do_cao || []).forEach(function (p) {
       var t = el('text', { x: px(p.lon), y: py(p.lat), 'class': 'lbl cao63', hidden: '' }, '• ' + p.m);
       labels.appendChild(t);
-      pointLbl.push({ el: t, x: px(p.lon), y: py(p.lat), n: p.m.length + 2, minZ: 2.6, mid: false });
+      pointLbl.push({ el: t, x: px(p.lon), y: py(p.lat), n: p.m.length + 2, minZ: 5.5, mid: false });
     });
     // 109 công trình đánh số in ở lề bản đồ (chợ, nhà thờ, chùa, trường, dinh, ga…): dấu + tên tiếng Việt in trên bản đồ
     var DAU = { tho: '✝', chua: '卍', truong: '▲', dinh: '★', cho: '■', ga: '■', benh: '✚', choi: '●', cong: '●', thuong: '●' };
@@ -572,7 +609,7 @@
       // hạng: 1 = mốc lớn ai cũng biết (hiện từ xa), 2 = có hình, 3 = chấm theo loại (chỉ khi phóng gần)
       inner._hang = HANG1[c.so] ? 1 : x.hinh ? 2 : 3;
       inner._thu = THU.indexOf(c.so) < 0 ? 99 : THU.indexOf(c.so);
-      inner._r = x.hinh ? 15 : 8;
+      inner._r = x.hinh ? 15 : 8; inner._hinh = !!x.hinh;
       if (x.hinh) {
         inner.appendChild(el('image', { href: 'assets/vn/moc_' + x.hinh + '.webp', x: -15, y: -27, width: 30, height: 26.4, 'class': 'dd63-hinh', 'data-ct': c.so }));
       } else {
@@ -584,11 +621,11 @@
       c._co = 1;
     });
     (data.cong_trinh || []).forEach(function (c) {
-      if (c._co || !BIEU_TUONG_63 || CHUNG[c.ten]) return;      // nhãn chung chung (Trường Học, Miếu…) không hiện — bản đồ lớn cũng bỏ nơi không tên
-      var t = el('text', { x: px(c.lon), y: py(c.lat), 'class': 'lbl ct63-ten n-' + c.nhom, hidden: '' }, DAU[c.nhom] + ' ' + c.ten);
+      if (c._co || !BIEU_TUONG_63) return;
+      var t = el('text', { x: px(c.lon), y: py(c.lat), 'class': 'lbl ct63-ten n-' + c.nhom + (CHUNG[c.ten] ? ' chung63' : ''), hidden: '' }, DAU[c.nhom] + ' ' + c.ten);
       gct.appendChild(t);
       var lon = { dinh: 1, cho: 1, ga: 1 }[c.nhom] || c.ten === 'Nhà Thờ Lớn' || c.ten === 'Sân Cù';
-      pointLbl.push({ el: t, x: px(c.lon), y: py(c.lat), n: c.ten.length + 2, minZ: lon ? 1.6 : CHUNG[c.ten] ? 5 : 3, mid: false });
+      pointLbl.push({ el: t, x: px(c.lon), y: py(c.lat), n: c.ten.length + 2, minZ: lon ? 1.6 : CHUNG[c.ten] ? 9 : 4.8, mid: false, cuoi: !!CHUNG[c.ten] });
     });
     pinsRoot.textContent = ''; pinsRoot.appendChild(pinLayer);
     bounds = { minX: px(k[0]), maxX: px(k[2]), minY: py(k[3]), maxY: py(k[1]) };
@@ -820,10 +857,28 @@
     apply();
   }
 
+  // Đà Lạt 1963 (góp ý Antigravity 27/11): 4 mức nét ở z 2,2 / 4,8 / 9 (thu nhỏ lùi 10% mới đổi, khỏi nhấp nháy);
+  // bề rộng đường nội suy mượt theo log2 z giữa các mốc (lòng / tổng có viền, điểm màn hình).
+  var MUC63 = [2.2, 4.8, 9], mucCu = -1;
+  var RONG63 = { z: [1.5, 3.3, 6.5, 12], f1: [2.6, 4.4, 7.2, 11], c1: [4, 6, 9.2, 13.4], f2: [1.8, 3.2, 5.4, 8.2], c2: [3, 4.6, 7.2, 10.4],
+    f3: [0, 1.8, 3.6, 5.8], c3: [1, 3, 5.2, 7.6], f4: [0, 0, 2, 3.6], c4: [0, 1.1, 3.2, 5] };
+  function datMuc63(z) {
+    var m = 0; while (m < 3 && z >= MUC63[m]) m++;
+    if (mucCu > 0 && m < mucCu && z >= MUC63[mucCu - 1] * 0.9) m = mucCu;      // vùng trễ khi thu nhỏ
+    mucCu = m; svg.setAttribute('data-zm', m);
+    if (z >= 6.5) svg.setAttribute('data-nha', ''); else svg.removeAttribute('data-nha');
+    var L = Math.log2(z), Z = RONG63.z.map(Math.log2), i = 0;
+    while (i < Z.length - 2 && L > Z[i + 1]) i++;
+    var t = Math.max(0, Math.min(1, (L - Z[i]) / (Z[i + 1] - Z[i])));
+    ['f1', 'c1', 'f2', 'c2', 'f3', 'c3', 'f4', 'c4'].forEach(function (k) {
+      var v = RONG63[k][i] + (RONG63[k][i + 1] - RONG63[k][i]) * t;
+      svg.style.setProperty('--' + k, v.toFixed(2) + 'px');
+    });
+  }
   function apply() {
     world.setAttribute('transform', 'translate(' + view.x.toFixed(2) + ' ' + view.y.toFixed(2) + ') scale(' + view.s.toFixed(5) + ')');
     var z = view.s / fit.s;                       // 1 = vừa khung
-    if (layer && layer.y1963) svg.setAttribute('data-zm', z < 1.8 ? 0 : z < 3.5 ? 1 : 2);   // Đà Lạt 1963: nét theo mức phóng
+    if (layer && layer.y1963) datMuc63(z);
     labels.setAttribute('font-size', (11 / view.s).toFixed(4));
     labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
     for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');

@@ -455,5 +455,11 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 #svg.sg61 .nha63g path { fill: #cdb68f; stroke: #9a8260; stroke-width: .5; vector-effect: non-scaling-stroke; }
 .dac63 path { fill: #6e5a44; }
 #svg.sg61 .duong63.road-casing path { display: none; }
-#svg.sg61 .duong63, #svg.sg61 .mon63, #svg.sg61 .dat63 { display: none; }
+#svg.sg61 .mon63, #svg.sg61 .dat63, #svg.sg61 .duong63.road-casing { display: none; }
+#svg.sg61 .duong63.road-fill path { stroke: #fbf6ea; stroke-linecap: round; }
+#svg.sg61 .duong63.road-fill .r1 { stroke-width: calc(var(--f1, 3px) + 3px); }
+#svg.sg61 .duong63.road-fill .r2 { stroke-width: calc(var(--f2, 2px) + 2px); }
+#svg.sg61 .duong63.road-fill .r3 { display: inline; stroke-width: calc(var(--f3, 1px) + 1.5px); }
+#svg.sg61 .nha63g, #svg.sg61 .dac63 { }
 #svg.sg61 .rung63 path { fill: #cfe0b5; }
+.vien61 path { fill: none; stroke: #7d6849; stroke-width: .9; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }

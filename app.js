@@ -488,6 +488,11 @@
     poly(data.dam || [], 'dam63');
     poly(data.khu || [], 'khu63');
     poly(data.nha_dac || [], 'dac63');           // Sài Gòn 1961: công trình lớn in đen đặc
+    if (data.vien) {                             // Sài Gòn 1961: nét in mảnh chép từ bản gốc (viền khối, lề đường)
+      var gv = el('g', { 'class': 'vien61' }), dv = '';
+      data.vien.forEach(function (p) { dv += lineOf(p); });
+      gv.appendChild(el('path', { d: dv })); land.appendChild(gv);
+    }
     poly(data.nuoc, 'water nuoc63');
     // khuôn viên công trình (khung đỏ mảnh in trên bản đồ) — 13 nơi lớn, hiện khi phóng vừa trở lên
     var gkv = el('g', { 'class': 'kv63' }), dkv = '';

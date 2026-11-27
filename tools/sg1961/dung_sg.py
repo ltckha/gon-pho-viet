@@ -90,17 +90,18 @@ def main(anh, toado, x0, y0, x1, y1, ra):
                 out.append(ll([(p[1] * scale, p[0] * scale) for p in c]))
         return out
     sm = lambda m: np.asarray(Image.fromarray(m.astype(np.uint8) * 255).resize((W // 2, H // 2), Image.BOX)) > 127
-    nuoc = polys(sm(nuoc_m), 1.0, 2); cv = polys(sm(cv_m), 1.0, 2); khu = polys(khu_m, 1.0); dac = polys(dac_m, 1.0)
+    nuoc = polys(sm(nuoc_m), 1.0, 2); cv = polys(sm(cv_m), 1.0, 2); khu = polys(ndi.gaussian_filter(khu_m.astype(np.float32), 1.5) > 0.5, 1.8); dac = polys(dac_m, 1.0)
 
     # nhà: chữ nhật nhỏ nhất nếu đầy ≥ 72%, không thì đa giác gọn
     nha = []
-    for rp in regionprops(label(nha_m, connectivity=1)):
+    nha_mm = ndi.gaussian_filter(nha_m.astype(np.float32), 1.6) > 0.5      # viền nhà mượt, bớt răng cưa
+    for rp in regionprops(label(nha_mm, connectivity=1)):
         if rp.area < 25 or rp.area > 40000:
             continue
         cs = find_contours(np.pad(rp.image, 1).astype(float), 0.5)
         if not cs:
             continue
-        c = approximate_polygon(max(cs, key=len) - 1, 1.3)
+        c = approximate_polygon(max(cs, key=len) - 1, 1.8)
         P = np.array([(p[1] + rp.bbox[1], p[0] + rp.bbox[0]) for p in c])
         if len(P) < 4:
             continue
@@ -120,13 +121,19 @@ def main(anh, toado, x0, y0, x1, y1, ra):
 
     # ---- phố: lần theo đường OpenStreetMap hôm nay làm MỐC TÌM (như Đà Lạt bước 2): mỗi 3 m tìm tim khe sáng trên bản 1961
     #      trong ±6 điểm ảnh; đoạn nào bản cũ không có khe sáng thì bỏ. Nét vẽ là tim khe trên bản cũ, bề rộng khe → cấp đường.
+    # ---- ĐƯỜNG (anh Kha 27/11 "còn nhiều đường bị đứt, nét méo"): lần theo TỪNG con đường OpenStreetMap hôm nay làm mốc tìm;
+    #      trên tờ 1961 điểm nào nằm trên giấy trống (không gạch nhà, không nằm trong khối) thì đường có ở 1961.
+    #      Lấp lỗ ≤ 30 m (chữ tên đường, ngã tư in đè); giữ khúc dài ≥ 25 m mà ≥ 70% điểm có. Nét vẽ = tim khe giấy gần nhất
+    #      (dời ≤ 5 điểm ảnh) rồi làm mượt mạnh → nét liền, thẳng; bề rộng đo trên tờ.
     ll2px, _ = nap(toado)
-    dt = ndi.distance_transform_edt(light)
-    sk = skeletonize(light) & (dt >= 1.5)
-    dsk, isk = ndi.distance_transform_edt(~sk, return_indices=True)
-    KX = 111320 * math.cos(math.radians(10.78)); KY = 110574
+    giay = ~nha_m & ~dac_m & ~nuoc_m & (ndi.uniform_filter(g, 5) > 118)
+    dtg2 = ndi.distance_transform_edt(giay)
+    tim = skeletonize(giay) & (dtg2 >= 2)
+    dsk, isk = ndi.distance_transform_edt(~tim, return_indices=True)
     duong = []
     for e in json.load(open(os.environ['SG_OSM'], encoding='utf-8')):
+        if e.get('loai') in ('footway', 'path', 'steps', 'service', 'pedestrian', 'cycleway', 'corridor', 'track'):
+            continue
         g2 = e['pts']
         if len(g2) < 2:
             continue
@@ -136,23 +143,21 @@ def main(anh, toado, x0, y0, x1, y1, ra):
             n = max(1, int(np.hypot(*(b1 - a1)) / 2))
             Q += [a1 + (b1 - a1) * t for t in np.linspace(0, 1, n + 1)[1:]]
         Q = np.array(Q)
-        ok = (Q[:, 0] >= 1) & (Q[:, 1] >= 1) & (Q[:, 0] < W - 1) & (Q[:, 1] < H - 1)
+        ok = (Q[:, 0] >= 2) & (Q[:, 1] >= 2) & (Q[:, 0] < W - 2) & (Q[:, 1] < H - 2)
         xi = np.clip(Q[:, 0].astype(int), 0, W - 1); yi = np.clip(Q[:, 1].astype(int), 0, H - 1)
-        hit = ok & (dsk[yi, xi] <= 6)
-        # lấp lỗ ≤ 6 mẫu (~8 m: ngã tư, chữ in đè lên đường)
-        h = hit.copy(); i = 0; n = len(h)
+        hit = ok & (dsk[yi, xi] <= 5)
+        n = len(hit); h = hit.copy(); i = 0
         while i < n:
             if not h[i]:
                 j = i
                 while j < n and not h[j]:
                     j += 1
-                if 0 < i and j < n and j - i <= 6:
+                if 0 < i and j < n and j - i <= 11 and ok[i:j].all():
                     h[i:j] = True
                 i = j
             else:
                 i += 1
-        h &= ok
-        sx = np.where(hit, isk[1][yi, xi], Q[:, 0]); sy = np.where(hit, isk[0][yi, xi], Q[:, 1])
+        sx = np.where(hit, isk[1][yi, xi], Q[:, 0]).astype(float); sy = np.where(hit, isk[0][yi, xi], Q[:, 1]).astype(float)
         i = 0
         while i < n:
             if not h[i]:
@@ -160,13 +165,28 @@ def main(anh, toado, x0, y0, x1, y1, ra):
             j = i
             while j < n and h[j]:
                 j += 1
-            if j - i >= 12:
-                R = np.c_[sx[i:j], sy[i:j]].astype(float)
-                R = ndi.uniform_filter1d(R, 9, axis=0, mode='nearest')
-                w = float(np.median(dt[sy[i:j].astype(int), sx[i:j].astype(int)]))
-                loai = 1 if w >= 9 else 2 if w >= 6 else 3
-                duong.append({'loai': loai, 'pts': ll(approximate_polygon(R, 0.8).tolist())})
+            if j - i >= 9 and hit[i:j].mean() >= 0.7:
+                # nét: lấy đường OSM (thẳng, đúng hình) dời theo độ lệch trung bình tới tim khe 1961 — không lấy từng điểm tim (méo)
+                d = np.c_[sx[i:j] - Q[i:j, 0], sy[i:j] - Q[i:j, 1]][hit[i:j]]
+                R = Q[i:j] + np.median(d, 0)
+                w = float(np.median(dtg2[sy[i:j][hit[i:j]].astype(int), sx[i:j][hit[i:j]].astype(int)]))
+                loai = 1 if w >= 8 else 2 if w >= 5 else 3
+                duong.append({'loai': loai, 'pts': ll(approximate_polygon(R, 0.5).tolist())})
             i = j
+    # ---- NÉT VIỀN (anh Kha 27/11 "bản đồ này nó đơn giản mà"): chép y nét in mảnh — viền khối, lề đường, đường sắt —
+    #      không đoán đường nữa; đường là khoảng giấy giữa các nét như bản gốc. Bỏ: phần gạch nhà, khối đặc, chữ (mẩu ngắn).
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
+    from dia_hinh_1963 import nhanh
+    net = ink2 & ~ndi.binary_dilation(nha_m | dac_m, iterations=1) & ~nuoc_m
+    net = remove_small_objects(net, 30, connectivity=2)
+    vien = []
+    for Pn in nhanh(skeletonize(net), 12):
+        Pn = ndi.uniform_filter1d(Pn, 5, axis=0, mode='nearest')
+        Pn = approximate_polygon(Pn, 0.9)
+        if len(Pn) >= 2:
+            vien.append(ll(Pn.tolist()))
+    duong = []
+    print('nét viền', len(vien))
     print('phố', len(duong), 'nhà', len(nha), 'khối', len(khu), 'đặc', len(dac), 'sông', len(nuoc), 'công viên', len(cv))
 
     lo0, la0 = px2ll(np.array([x0]), np.array([y1]))[0]; lo1, la1 = px2ll(np.array([x1]), np.array([y0]))[0]
@@ -181,7 +201,7 @@ def main(anh, toado, x0, y0, x1, y1, ra):
         if len(f) >= 6:
             nen.append(f)
     data = {'nam': 1961, 'khung': khung, 'duong': duong, 'duong_mat': [], 'duong_mon': [], 'ten_duong': [], 'diem': [], 'dia_danh': [],
-            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': khu, 'nha_dac': dac, 'nha': nen,
+            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': [], 'vien': vien, 'nha_dac': dac, 'nha': nen,
             'nha_cach_ghi': 'mỗi khối: [x0, y0, dx, dy, ...] đơn vị 1e-5 độ tính từ khung[0], khung[1]',
             'nguon': [{'ten': 'Bản đồ Sài Gòn 1:10.000 (Indochina City Plans), ấn bản 2-AMS 1961 — vẽ lại từ bản này. Tài liệu chính phủ Mỹ.',
                        'link': 'https://maps.lib.utexas.edu/maps/vietnam.html'}]}

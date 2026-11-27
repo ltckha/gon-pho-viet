@@ -30,7 +30,7 @@ Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ
 Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dot55_sai_gon_1961_o/, đúng tên file trên (.png).
 ```
 
-## Đợt 56
+## Đợt 56 — ĐÃ GHÉP 27/11/2026 (cắt lề phải; ô x600_y4000 còn vài chữ Spark vẽ sót)
 
 Ảnh gốc: dot56_anh_goc_sai_gon_1961.zip (sg1961_t2_x3300_y700, sg1961_t2_x3300_y1800, sg1961_t2_x3300_y2900, sg1961_t2_x600_y4000)
 

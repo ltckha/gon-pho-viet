@@ -78,14 +78,35 @@ def main(files):
                     continue
                 moc.append({'nam': str(m['nam']), 'su_kien': m['su_kien'].strip(), 'nguon': ng,
                             'mot_nguon': len({n['trang'] for n in ng}) < 2 or bool(m.get('chua_chac'))})
-            # bỏ mốc trùng (cùng năm và trùng nguồn — mốc bổ sung chép lại từ trang có sẵn)
-            uniq = []
+            # Dòng thời gian gọn (anh Kha 27/11: "đặt năm tùm lum"): cột năm chỉ là MỘT năm 4 số, xếp đúng thứ tự;
+            # ngày tháng, khoảng năm, "khoảng/trước/sau" chuyển vào đầu câu; mốc không có năm thì bỏ (mốc "nay" nhập vào dòng Nay);
+            # các mốc cùng năm gộp một dòng.
+            gon, nay_txt = [], []
             for m in moc:
-                if any(u['nam'] == m['nam'] and {n['link'] for n in u['nguon']} & {n['link'] for n in m['nguon']} for u in uniq):
+                g = m['nam'].strip()
+                ys = re.findall(r'(1[89]\d\d|20\d\d)', g)
+                if not ys:
+                    if g.lower() == 'nay':
+                        nay_txt.append(m)
                     continue
-                uniq.append(m)
-            moc = uniq
-            moc.sort(key=lambda m: re.sub(r'\D', '', m['nam'])[:4] or '9999')
+                y = ys[0]
+                ghi = '' if g == y else g[0].upper() + g[1:]
+                gon.append({'nam': y, 'su_kien': (ghi + ': ' if ghi else '') + m['su_kien'], 'nguon': m['nguon'], 'mot_nguon': m['mot_nguon']})
+            gon.sort(key=lambda m: m['nam'])
+            moc = []
+            for m in gon:
+                if moc and moc[-1]['nam'] == m['nam']:
+                    t = moc[-1]
+                    if m['su_kien'] in t['su_kien']:
+                        continue
+                    t['su_kien'] += ' ' + m['su_kien'] if t['su_kien'].endswith('.') else '. ' + m['su_kien']
+                    t['nguon'] += [n for n in m['nguon'] if n['link'] not in {k['link'] for k in t['nguon']}]
+                    t['mot_nguon'] = t['mot_nguon'] and m['mot_nguon']
+                else:
+                    moc.append(m)
+            if nay_txt and nay:
+                nay = dict(nay)
+                nay['mo_ta'] = (nay.get('mo_ta') or '').rstrip('. ') + ('. ' if nay.get('mo_ta') else '') + ' '.join(t['su_kien'] for t in nay_txt)
             if not nay and not moc:
                 bo.append((so, 'chưa rõ nay là gì, không có mốc')); continue
             hinh = HINH.get(so)

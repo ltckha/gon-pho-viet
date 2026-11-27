@@ -16,7 +16,7 @@ KX = 111320 * math.cos(math.radians(10.78)); KY = 110574
 
 
 def chuan(s):
-    s = unicodedata.normalize('NFC', s or '').strip().lower()
+    s = unicodedata.normalize('NFC', s or '').replace('Ð', 'Đ').replace('ð', 'đ').strip().lower()
     for p in ('đường ', 'đại lộ ', 'bến ', 'công trường ', 'hẻm '):
         if s.startswith(p):
             s = s[len(p):]
@@ -49,8 +49,8 @@ def main():
     out, co, khong = [], 0, []
     for l in open(os.path.join(D, 'bang_duong.tsv'), encoding='utf-8').read().strip().split('\n')[1:]:
         loai, ten, tu, den, chac = l.split('\t')
-        nay = doi.get(ten, ten if ten not in doi else '')
-        ways = osm.get(chuan(nay), [])
+        nay = doi.get(ten, ten)
+        ways = [w for n_ in nay.split(' / ') for w in osm.get(chuan(n_), [])]   # vài đường cũ nay thành 2 đường
         a, b = o_ll(tu), o_ll(den)
         lo0, lo1 = min(a[0], b[0]) - 0.012, max(a[0], b[0]) + 0.012
         la0, la1 = min(a[1], b[1]) - 0.012, max(a[1], b[1]) + 0.012

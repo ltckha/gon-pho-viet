@@ -501,14 +501,20 @@
         return d;
       };
       var lop = data.net_lop || { vien: data.net };
-      ['nen_nha', 'gach', 'dac', 'vien'].forEach(function (k) {
+      // gạch chéo nhà: mẫu SVG ~4 m một vạch (như bản in), sắc ở mọi mức phóng
+      var o4 = px(ox + 0.00004) - px(ox), pdn = el('defs', {}); land.appendChild(pdn);
+      var ph = el('pattern', { id: 'gach61', patternUnits: 'userSpaceOnUse', width: o4, height: o4, patternTransform: 'rotate(45)' });
+      ph.appendChild(el('rect', { width: o4, height: o4, 'class': 'gach61-nen' }));
+      ph.appendChild(el('rect', { width: o4 * 0.32, height: o4, 'class': 'gach61-vach' }));
+      pdn.appendChild(ph);
+      ['nen_nha', 'gach', 'dac'].forEach(function (k) {
         if (!lop[k] || !lop[k].length) return;
         var gl = el('g', { 'class': 'net61 n61-' + k }); gl.appendChild(el('path', { d: veNet(lop[k]) })); land.appendChild(gl);
       });
     }
     if (data.vien) {                             // Sài Gòn 1961: nét in mảnh chép từ bản gốc (viền khối, lề đường)
       var gv = el('g', { 'class': 'vien61' }), dv = '';
-      data.vien.forEach(function (p) { dv += lineOf(p); });
+      data.vien.forEach(function (p) { dv += congOf(p); });
       gv.appendChild(el('path', { d: dv })); land.appendChild(gv);
     }
     poly(data.nuoc, 'water nuoc63');

@@ -203,21 +203,69 @@ def main(anh, toado, x0, y0, x1, y1, ra):
             if quanh[cy, cx] > 0.55 and not cv_m[cy, cx]:
                 bo.append(k + 1)
     netm &= ~np.isin(lbn, bo)
+    # (anh Kha 27/11 "tên đường cũ xoá chưa kĩ, còn rác đầy đường"): dọn kỹ trong LÒNG ĐƯỜNG — dải dọc theo đường OSM hôm nay
+    #   (rộng ~16 m, đã khớp ~5 m với tờ). Mẩu mực nằm trong dải mà ngắn (< 70 điểm ảnh ~ 95 m) là chữ, số, dấu → bỏ;
+    #   nét viền dài chạy dọc mép đường thì giữ. Phần chữ dính vào nét viền: mở theo hướng — cắt bỏ phần mực trong lòng đường
+    #   cách mép ≥ 3 điểm ảnh.
+    from PIL import ImageDraw as _ID
+    ll2px_, _ = nap(toado)
+    lg = Image.new('L', (W, H), 0); dlg = _ID.Draw(lg)
+    for e in json.load(open(os.environ['SG_OSM'], encoding='utf-8')):
+        if e.get('loai') in ('footway', 'path', 'steps', 'service', 'pedestrian', 'cycleway', 'corridor', 'track', 'construction'):
+            continue
+        if len(e['pts']) < 2:
+            continue
+        P = ll2px_(np.array([q[0] for q in e['pts']]), np.array([q[1] for q in e['pts']])) - [x0, y0]
+        if (P[:, 0].max() < 0) or (P[:, 1].max() < 0) or (P[:, 0].min() > W) or (P[:, 1].min() > H):
+            continue
+        dlg.line([tuple(q) for q in P], fill=255, width=11)
+    long_ = np.asarray(lg) > 0
+    lbn, _ = ndi.label(netm, np.ones((3, 3)))
+    bo2 = []
+    for k, sl in enumerate(ndi.find_objects(lbn)):
+        mk = lbn[sl] == k + 1
+        h, w = sl[0].stop - sl[0].start, sl[1].stop - sl[1].start
+        trong = (long_[sl] & mk).sum() / max(1, mk.sum())
+        if max(h, w) < 70 and trong > 0.5 and not cv_m[sl][mk].any():
+            bo2.append(k + 1)
+    netm &= ~np.isin(lbn, bo2)
+    # phần mực còn lại nằm sâu trong lòng đường (xa mép giấy-khối ≥ 3 điểm ảnh) cũng bỏ — chữ dính vào viền
+    sau = ndi.binary_erosion(long_, iterations=2) & (ndi.uniform_filter((g > 140).astype(np.float32), 25) > 0.55)
+    netm &= ~(sau & ~ndi.binary_dilation(ndi.binary_opening(netm, np.ones((1, 25))) | ndi.binary_opening(netm, np.ones((25, 1))), iterations=1))
+    netm = remove_small_objects(netm, 12)
+    print('dọn thêm', len(bo2), 'mẩu chữ trong lòng đường')
     # tô màu theo loại nét (anh Kha 27/11 "nghiên cứu làm màu"): đặc (công trình lớn in đen kín) · gạch (trong vùng nhà) · viền (còn lại)
     dac_n = netm & ndi.binary_dilation(dac_m, iterations=2)
     gach_n = netm & ~dac_n & ndi.binary_dilation(nha_m, iterations=2)
     vien_n = netm & ~dac_n & ~gach_n
     def vec(m):
         out = []
-        for c in find_contours(np.pad(m, 1).astype(np.float32), 0.5):
-            c = approximate_polygon(c - 1, 0.7)
+        mf = ndi.gaussian_filter(np.pad(m, 2).astype(np.float32), 0.75)      # viền mượt dưới điểm ảnh — phóng to không răng cưa
+        for c in find_contours(mf, 0.42):
+            c = approximate_polygon(c - 2, 0.45)
             if len(c) >= 3:
                 out.append(ll([(q[1], q[0]) for q in c]))
         return out
-    net_lop = {'dac': vec(dac_n), 'gach': vec(gach_n), 'vien': vec(vien_n)}
+    # (anh Kha 27/11 "zoom lên là méo mó"): không chép nét gạch từ ảnh quét (1,4 m/điểm ảnh, phóng to thành vệt) —
+    #   nhà = hình khối mượt + gạch chéo tự kẻ (mẫu SVG, sắc ở mọi mức phóng); viền khối = khung xương → nét mảnh trơn.
+    def vec_muot(m, sig):
+        out = []
+        for c in find_contours(ndi.gaussian_filter(np.pad(m, 2).astype(np.float32), sig), 0.5):
+            c = approximate_polygon(c - 2, 0.8)
+            if len(c) >= 4:
+                out.append(ll([(q[1], q[0]) for q in c]))
+        return out
+    from dia_hinh_1963 import nhanh as _nhanh
+    vien_l = []
+    for Pn in _nhanh(skeletonize(remove_small_objects(vien_n, 20, connectivity=2)), 10):
+        Pn = ndi.uniform_filter1d(Pn, 7, axis=0, mode='nearest')
+        Pn = approximate_polygon(Pn, 0.6)
+        if len(Pn) >= 2:
+            vien_l.append(ll(Pn.tolist()))
+    net_lop = {'dac': vec_muot(remove_small_objects(dac_n, 30), 1.2)}
     net = []
     # nền nhà: tô nhạt dưới nét gạch cho khối nhà rõ (mặt nạ nhà mượt)
-    nen_nha = vec(ndi.gaussian_filter(nha_m.astype(np.float32), 1.5) > 0.5)
+    nen_nha = vec_muot(remove_small_objects(nha_m & ~dac_n, 40), 1.6)
     print('nét in', len(net), 'đa giác, bỏ', len(bo), 'mẩu chữ')
     print('phố', len(duong), 'nhà', len(nha), 'khối', len(khu), 'đặc', len(dac), 'sông', len(nuoc), 'công viên', len(cv))
 
@@ -244,6 +292,7 @@ def main(anh, toado, x0, y0, x1, y1, ra):
                 o.append(f)
         return o
     net_lop = {k: nen2(v) for k, v in net_lop.items()}; net_lop['nen_nha'] = nen2(nen_nha)
+    vien_l2 = vien_l
     nen_net = []
     for poly in net:
         q = [(round((a - ox) * 2e5), round((b - oy) * 2e5)) for a, b in poly]
@@ -254,7 +303,7 @@ def main(anh, toado, x0, y0, x1, y1, ra):
         if len(f) >= 6:
             nen_net.append(f)
     data = {'nam': 1961, 'khung': khung, 'duong': duong, 'duong_mat': [], 'duong_mon': [], 'ten_duong': [], 'diem': [], 'dia_danh': [],
-            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': [], 'net': nen_net, 'net_lop': net_lop, 'net_tl': 2e5, 'nha': [],
+            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': [], 'net': nen_net, 'net_lop': net_lop, 'vien': vien_l2, 'net_tl': 2e5, 'nha': [],
             'nha_cach_ghi': 'mỗi khối: [x0, y0, dx, dy, ...] đơn vị 1e-5 độ tính từ khung[0], khung[1]',
             'nguon': [{'ten': 'Bản đồ Sài Gòn 1:10.000 (Indochina City Plans), ấn bản 2-AMS 1961 — vẽ lại từ bản này. Tài liệu chính phủ Mỹ.',
                        'link': 'https://maps.lib.utexas.edu/maps/vietnam.html'}]}

@@ -462,10 +462,12 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 #svg.sg61 .duong63.road-fill .r3 { display: inline; stroke-width: calc(var(--f3, 1px) + 1.5px); }
 #svg.sg61 .nha63g, #svg.sg61 .dac63 { }
 #svg.sg61 .rung63 path { fill: #cfe0b5; }
-.vien61 path { fill: none; stroke: #7d6849; stroke-width: .9; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.vien61 path { fill: none; stroke: #4a3b2c; stroke-width: 1.1; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
 .net61 path { fill: #4e3f2e; fill-rule: evenodd; stroke: none; }
 /* màu Sài Gòn 1961: nền giấy kem, nhà tô cam đất nhạt + nét gạch nâu đỏ, công trình lớn đỏ gạch, viền khối nâu sẫm, cỏ xanh, sông xanh */
-.n61-nen_nha path { fill: #ecd3b0; fill-rule: nonzero; }
+.n61-nen_nha path { fill: url(#gach61); fill-rule: nonzero; stroke: #a8643f; stroke-width: .8; vector-effect: non-scaling-stroke; }
+.gach61-nen { fill: #f0d9b8; } .gach61-vach { fill: #c08156; }
+.n61-dac path { stroke: #7e2c1f; stroke-width: .6; vector-effect: non-scaling-stroke; }
 .n61-gach path { fill: #a8643f; }
 .n61-dac path { fill: #9c3b2a; }
 .n61-vien path { fill: #4a3b2c; }

@@ -1,0 +1,877 @@
+[
+ {
+  "so": 18,
+  "ten_1963": "Dinh Thị Trưởng",
+  "nay": {
+   "ten": "Dinh Tỉnh trưởng (cũ), 1 Lý Tự Trọng",
+   "mo_ta": "Trung tâm Văn hoá Nghệ thuật Lâm Đồng dùng làm nơi trưng bày kỷ vật Đà Lạt xưa (hơn 1.000 hiện vật).",
+   "nguon": [
+    "https://tuoitre.vn/plo/nuoi-tiec-cong-trinh-kien-truc-dinh-tinh-truong-o-da-lat-se-bi-di-doi-post760283.html",
+    "https://www.sggp.org.vn/dau-an-nhung-ky-vat-post646688.html",
+    "https://mia.vn/cam-nang-du-lich/dinh-tinh-truong-da-lat-18451"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OSM 'Dinh Tỉnh Trưởng' (https://www.openstreetmap.org/way/618049072) cách toạ độ ~65 m. Báo ghi đây là dinh của Thị trưởng Đà Lạt kiêm Tỉnh trưởng Tuyên Đức, nên bản đồ 1963 gọi 'Dinh Thị Trưởng'.",
+  "moc": [
+   {
+    "nam": "trước 1910",
+    "su_kien": "Người Pháp xây dinh trên đồi, làm nơi ở và làm việc của người đứng đầu tỉnh.",
+    "nguon": [
+     "https://tuoitre.vn/plo/nuoi-tiec-cong-trinh-kien-truc-dinh-tinh-truong-o-da-lat-se-bi-di-doi-post760283.html",
+     "https://vtcnews.vn/anh-ve-dep-reu-phong-cua-dinh-tinh-truong-hon-100-tuoi-giua-long-da-lat-ar691440.html",
+     "https://mia.vn/cam-nang-du-lich/dinh-tinh-truong-da-lat-18451"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VTC, PLO ghi 'trước 1910'; mia ghi 'khoảng 1910'. SGGP 2023 (bài Đồng Nai Thượng) ghi 1916 → còn lệch."
+   },
+   {
+    "nam": "1960",
+    "su_kien": "Thị trưởng Đà Lạt kiêm luôn Tỉnh trưởng Tuyên Đức; dinh là nơi ở của ông.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://vtcnews.vn/anh-ve-dep-reu-phong-cua-dinh-tinh-truong-hon-100-tuoi-giua-long-da-lat-ar691440.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Năm 1960 (sự vụ lệnh 68 VP/NV) chỉ Wikipedia Biên niên sử ghi; VTC chỉ nói dinh của Thị trưởng kiêm Tỉnh trưởng, không ghi năm."
+   },
+   {
+    "nam": "sau 1975",
+    "su_kien": "Dinh thành Cung thiếu nhi, rồi Bảo tàng Lâm Đồng dùng làm kho, nơi trưng bày.",
+    "nguon": [
+     "https://tuoitre.vn/plo/nuoi-tiec-cong-trinh-kien-truc-dinh-tinh-truong-o-da-lat-se-bi-di-doi-post760283.html",
+     "https://mia.vn/cam-nang-du-lich/dinh-tinh-truong-da-lat-18451"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Cung thiếu nhi chỉ mia ghi; việc Bảo tàng Lâm Đồng dùng thì cả hai ghi."
+   },
+   {
+    "nam": "1999",
+    "su_kien": "Dinh bỏ trống, xuống cấp.",
+    "nguon": [
+     "https://mia.vn/cam-nang-du-lich/dinh-tinh-truong-da-lat-18451"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "2014",
+    "su_kien": "Được sửa sang, mở đón khách dịp Festival Hoa.",
+    "nguon": [
+     "https://mia.vn/cam-nang-du-lich/dinh-tinh-truong-da-lat-18451"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "2020",
+    "su_kien": "Tỉnh lấy ý kiến phương án đồi Dinh: giữ dinh làm bảo tàng, nâng cao 28 m, xây khách sạn.",
+    "nguon": [
+     "https://nhandan.vn/di-san/trung-bay-lay-y-kien-phuong-an-kien-truc-khu-vuc-doi-dinh-da-lat-612881/",
+     "https://tuoitre.vn/plo/nuoi-tiec-cong-trinh-kien-truc-dinh-tinh-truong-o-da-lat-se-bi-di-doi-post760283.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "PLO 11/2023 viết dinh sẽ bị 'di dời lên cao gần 30 m' cho dự án khách sạn 7 tầng; Nhân Dân 14/8/2020 ghi 28 m. Chưa rõ đã làm hay chưa."
+   },
+   {
+    "nam": "2023",
+    "su_kien": "Tháng 9: dinh bị hạ từ nhóm bảo tồn 1 xuống nhóm 2.",
+    "nguon": [
+     "https://www.sggp.org.vn/nhieu-biet-thu-co-da-lat-duoc-phan-loai-lai-post704760.html",
+     "https://tuoitre.vn/plo/nuoi-tiec-cong-trinh-kien-truc-dinh-tinh-truong-o-da-lat-se-bi-di-doi-post760283.html"
+    ],
+    "chua_chac": false
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 24,
+  "ten_1963": "Dinh Tổng Thống (Dinh I)",
+  "nay": {
+   "ten": "Dinh I (Dinh Bảo Đại 1, khu du lịch King Palace)",
+   "mo_ta": "Khu du lịch do Công ty Hoàn Cầu Đà Lạt thuê; đóng từ 4/2024, năm 2026 tỉnh cho thuê tiếp và dinh mở lại đón khách.",
+   "nguon": [
+    "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+    "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+    "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Toạ độ trùng điểm OSM 'Dinh Bao Dai 1' (https://www.openstreetmap.org/node/1152345096, cách ~20 m). Trong 3 'Dinh Tổng Thống' của bản đồ, đây là dinh xa nhất về phía Đông (đồi Hùng Vương / Trần Quang Diệu).",
+  "moc": [
+   {
+    "nam": "1940",
+    "su_kien": "Xây biệt thự trên đồi thông cho Robert Clément Bourgery, triệu phú và viên chức người Pháp.",
+    "nguon": [
+     "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm",
+     "https://vi.wikipedia.org/wiki/Dinh_I",
+     "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+     "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VietnamPlus ghi 'xây dựng từ năm 1940', Báo Pháp luật ghi 'thập niên 1940'. Bảng thuyết minh cũ và website dinhbaodai.com ghi 1929 → Nguyễn Đắc Xuân nói là nhầm (Tuổi Trẻ 2018)."
+   },
+   {
+    "nam": "1949 hoặc cuối 1951",
+    "su_kien": "Bảo Đại mua lại khu dinh.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Dinh_I",
+     "https://mia.vn/cam-nang-du-lich/dinh-1-da-lat-dinh-bao-dai-dinh-thu-do-so-kieu-au-giua-rung-thong-da-lat-1281",
+     "https://tuoitre.vn/dinh-i-va-nhung-thong-tin-sai-lech-20180926103022948.htm"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Có việc mua thì nhiều nguồn khớp; năm thì lệch: 1949 (Wikipedia, mia — mia thêm chi tiết bố vợ góp tiền) / khoảng cuối 1951 (Tuổi Trẻ dẫn Nguyễn Đắc Xuân)."
+   },
+   {
+    "nam": "1963–1975",
+    "su_kien": "Sau năm 1963, dinh vẫn là nơi nghỉ mát của các nguyên thủ chế độ Sài Gòn đến 1975.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Dinh_I",
+     "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VietnamPlus viết chung 'nơi nghỉ dưỡng của lãnh đạo chế độ cũ', không ghi năm."
+   },
+   {
+    "nam": "2014",
+    "su_kien": "Tỉnh cho Công ty Hoàn Cầu Đà Lạt thuê dinh 50 năm, làm khu du lịch King Palace.",
+    "nguon": [
+     "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+     "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+     "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+     "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VietnamPlus: tổng vốn dự án 700 tỉ đồng, khoảng 100 tỉ để trùng tu dinh và biệt thự (1 nguồn)."
+   },
+   {
+    "nam": "2015",
+    "su_kien": "Tháng 9: King Palace mở đón khách tham quan.",
+    "nguon": [
+     "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+     "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Tuổi Trẻ: trước dịch COVID-19 khoảng 1.000 khách mỗi ngày (1 nguồn)."
+   },
+   {
+    "nam": "2024",
+    "su_kien": "Ngày 26/4 dinh ngừng đón khách, chờ thu hồi dự án.",
+    "nguon": [
+     "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+     "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm",
+     "https://baophapluat.vn/giac-ngu-cua-dinh-1-post529034.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Báo Pháp luật 10/2024: hai bên còn thương lượng bồi thường; công ty nói đã đầu tư hơn 140 tỉ đồng, Sở Tài chính chỉ công nhận khoảng 17 tỉ có chứng từ (Tuổi Trẻ 2026)."
+   },
+   {
+    "nam": "2026",
+    "su_kien": "Tháng 6 dinh mở lại đón khách; tháng 8 tỉnh cho công ty thuê tiếp đất dự án.",
+    "nguon": [
+     "https://www.sggp.org.vn/dinh-1-bao-dai-mo-cua-tro-lai-sau-hon-2-nam-tam-ngung-don-khach-post857458.html",
+     "https://www.vietnamplus.vn/lam-dong-thao-go-vuong-mac-dua-dinh-1-da-lat-tro-lai-hoat-dong-post1131535.vnp",
+     "https://tuoitre.vn/lam-dong-tiep-tuc-cho-hoan-cau-da-lat-thue-dinh-1-sau-nhieu-nam-vuong-viec-thu-hoi-100260821103738552.htm"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Lệch: ngày mở lại 15/6 chỉ SGGP (và blog go365) ghi; VietnamPlus 21/08/2026 lại viết dinh đã đóng hơn hai năm, công ty dự kiến mở lại tháng 8/2026. Số quyết định 4218 và ngày 19/8 chỉ VietnamPlus ghi; Tuổi Trẻ đưa tin cùng ngày 21/8."
+   }
+  ],
+  "trang": "dinh-1"
+ },
+ {
+  "so": 25,
+  "ten_1963": "Dinh Tổng Thống (Dinh II)",
+  "nay": {
+   "ten": "Dinh II (Dinh Toàn quyền), 12 Trần Hưng Đạo",
+   "mo_ta": "Nhà khách, nơi hội nghị của UBND tỉnh Lâm Đồng; ít mở cho khách tham quan; tỉnh có chủ trương trùng tu làm điểm du lịch.",
+   "nguon": [
+    "https://tuoitre.vn/chuyen-da-lat-khong-phai-ai-cung-biet-ky-3-buc-binh-phong-trong-dinh-2-20171226112353537.htm",
+    "https://vnexpress.net/trung-tu-dinh-thu-bao-dai-o-da-lat-phuc-vu-du-lich-4612753.html",
+    "https://tienphong.vn/trung-tu-nang-cap-dinh-ii-da-lat-phuc-vu-du-lich-post1539298.tpo"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OSM 'Dinh Toàn Quyền' (https://www.openstreetmap.org/way/777438901) cách toạ độ ~30 m. Là dinh ở giữa (đồi Trần Hưng Đạo – Khởi Nghĩa Bắc Sơn).",
+  "moc": [
+   {
+    "nam": "1933",
+    "su_kien": "Khởi công dinh Toàn quyền Đông Dương trên đồi thông.",
+    "nguon": [
+     "https://tuoitre.vn/chuyen-da-lat-khong-phai-ai-cung-biet-ky-3-buc-binh-phong-trong-dinh-2-20171226112353537.htm",
+     "https://tienphong.vn/trung-tu-nang-cap-dinh-ii-da-lat-phuc-vu-du-lich-post1539298.tpo",
+     "https://vi.wikipedia.org/wiki/Dinh_II",
+     "https://news.tuoitre.vn/untold-stories-of-da-lat-p3-royal-partition-10344111.htm",
+     "https://mia.vn/cam-nang-du-lich/dinh-2-da-lat-dinh-toan-quyen-decoux-dinh-thu-xa-hoa-long-lay-giua-doi-thong-1309"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1937",
+    "su_kien": "Dinh xây xong.",
+    "nguon": [
+     "https://tuoitre.vn/chuyen-da-lat-khong-phai-ai-cung-biet-ky-3-buc-binh-phong-trong-dinh-2-20171226112353537.htm",
+     "https://vnexpress.net/trung-tu-dinh-thu-bao-dai-o-da-lat-phuc-vu-du-lich-4612753.html",
+     "https://news.tuoitre.vn/untold-stories-of-da-lat-p3-royal-partition-10344111.htm",
+     "https://mia.vn/cam-nang-du-lich/dinh-2-da-lat-dinh-toan-quyen-decoux-dinh-thu-xa-hoa-long-lay-giua-doi-thong-1309"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VnExpress viết 'xây năm 1937'."
+   },
+   {
+    "nam": "1940–1945",
+    "su_kien": "Toàn quyền Jean Decoux dùng làm dinh nghỉ hè và làm việc (khoảng tháng 5–10).",
+    "nguon": [
+     "https://tuoitre.vn/chuyen-da-lat-khong-phai-ai-cung-biet-ky-3-buc-binh-phong-trong-dinh-2-20171226112353537.htm",
+     "https://vi.wikipedia.org/wiki/Dinh_II",
+     "https://vnexpress.net/trung-tu-dinh-thu-bao-dai-o-da-lat-phuc-vu-du-lich-4612753.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Năm là nhiệm kỳ Toàn quyền của Decoux (1940–1945); các bài không ghi năm cụ thể."
+   },
+   {
+    "nam": "thời Ngô Đình Diệm",
+    "su_kien": "Ông bà Ngô Đình Nhu dùng làm nơi nghỉ mát.",
+    "nguon": [
+     "https://tuoitre.vn/chuyen-da-lat-khong-phai-ai-cung-biet-ky-3-buc-binh-phong-trong-dinh-2-20171226112353537.htm",
+     "https://vi.wikipedia.org/wiki/Dinh_II"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1964",
+    "su_kien": "Tướng Nguyễn Khánh chọn dinh làm tổng hành dinh mùa hè.",
+    "nguon": [
+     "https://mia.vn/cam-nang-du-lich/dinh-2-da-lat-dinh-toan-quyen-decoux-dinh-thu-xa-hoa-long-lay-giua-doi-thong-1309",
+     "https://vi.wikipedia.org/wiki/Dinh_II"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Năm 1964 chỉ mia ghi; Wikipedia có ý nhưng không ghi năm."
+   },
+   {
+    "nam": "sau 1975",
+    "su_kien": "Thành nhà khách Trung ương, nay là nhà khách UBND tỉnh.",
+    "nguon": [
+     "https://tienphong.vn/trung-tu-nang-cap-dinh-ii-da-lat-phuc-vu-du-lich-post1539298.tpo",
+     "https://vnexpress.net/trung-tu-dinh-thu-bao-dai-o-da-lat-phuc-vu-du-lich-4612753.html",
+     "https://tuoitre.vn/chuyen-da-lat-khong-phai-ai-cung-biet-ky-3-buc-binh-phong-trong-dinh-2-20171226112353537.htm"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "'Nhà khách Trung ương' chỉ Tiền Phong ghi; 'nhà khách UBND tỉnh' cả ba báo ghi."
+   },
+   {
+    "nam": "2023",
+    "su_kien": "Tỉnh thống nhất lập dự án trùng tu theo mẫu thời Decoux để đón khách; dinh xếp nhóm bảo tồn 1.",
+    "nguon": [
+     "https://vnexpress.net/trung-tu-dinh-thu-bao-dai-o-da-lat-phuc-vu-du-lich-4612753.html",
+     "https://tienphong.vn/trung-tu-nang-cap-dinh-ii-da-lat-phuc-vu-du-lich-post1539298.tpo",
+     "https://www.sggp.org.vn/nhieu-biet-thu-co-da-lat-duoc-phan-loai-lai-post704760.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Xếp nhóm 1: chỉ SGGP. Chưa rõ trùng tu đã làm tới đâu."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 26,
+  "ten_1963": "Dinh Tổng Thống (Dinh III)",
+  "nay": {
+   "ten": "Dinh III (Dinh Bảo Đại), 1 Triệu Việt Vương",
+   "mo_ta": "Khu di tích mở cho khách tham quan, trưng bày phòng ốc, đồ dùng của gia đình Bảo Đại.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Dinh_III",
+    "https://mia.vn/cam-nang-du-lich/dinh-3-da-lat-biet-dien-vua-bao-dai-kham-pha-kien-truc-co-dien-phap-tai-da-lat-1385",
+    "https://caselaw.vn/van-ban-phap-luat/198888-quyet-dinh-so-01-2010-qd-ubnd-ngay-15-01-2010-ve-muc-thu-nop-che-do-quan-ly-su-dung-phi-vao-cong-tham-quan-tai-khu-di-tich-dinh-iii-dinh-bao-dai-thanh-pho-da-lat-tinh-lam-dong-do-uy-ban-nhan-dan-tinh-lam-dong-ban-hanh-van-ban-het-hieu-luc"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OSM 'Dinh III Bảo Đại' (https://www.openstreetmap.org/node/5274759821) cách toạ độ ~35 m. Là dinh xa nhất về phía Tây Nam.",
+  "moc": [
+   {
+    "nam": "1933–1938",
+    "su_kien": "Xây biệt điện của vua Bảo Đại.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Dinh_III",
+     "https://vietnamnet.vn/cuu-hoang-bao-dai-va-chung-tich-tinh-yeu-o-da-lat-64026.html",
+     "https://znews.vn/noi-o-xa-hoa-cua-vua-bao-dai-post377517.html",
+     "https://tuoitre.vn/plo/biet-dien-mua-he-cua-vua-bao-dai-o-da-lat-post318549.html",
+     "https://mia.vn/cam-nang-du-lich/dinh-3-da-lat-biet-dien-vua-bao-dai-kham-pha-kien-truc-co-dien-phap-tai-da-lat-1385"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Báo Thế giới & Việt Nam (2020) ghi 1937–1941 (xem data/chuyen/trieu-viet-vuong.json)."
+   },
+   {
+    "nam": "1949",
+    "su_kien": "Hoàng hậu Nam Phương đưa các con sang Pháp; Bảo Đại ở lại dinh.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Dinh_III",
+     "https://tuoitre.vn/plo/biet-dien-mua-he-cua-vua-bao-dai-o-da-lat-post318549.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VietNamNet ghi 1950–1953."
+   },
+   {
+    "nam": "1950",
+    "su_kien": "Bảo Đại làm Quốc trưởng, dùng dinh làm nơi ở và làm việc.",
+    "nguon": [
+     "https://tuoitre.vn/plo/biet-dien-mua-he-cua-vua-bao-dai-o-da-lat-post318549.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "sau 1963",
+    "su_kien": "Thành nơi nghỉ mát của Tổng thống Nguyễn Văn Thiệu (trước đó chính quyền Ngô Đình Diệm dùng).",
+    "nguon": [
+     "https://vietnamnet.vn/cuu-hoang-bao-dai-va-chung-tich-tinh-yeu-o-da-lat-64026.html",
+     "https://vi.wikipedia.org/wiki/Dinh_III"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "giữa năm 2000",
+    "su_kien": "Giao Công ty du lịch dịch vụ Xuân Hương quản lý (sau 1975 do Tỉnh uỷ quản lý).",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Dinh_III"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Chép từ data/chuyen/trieu-viet-vuong.json, vẫn chỉ Wikipedia."
+   },
+   {
+    "nam": "2023",
+    "su_kien": "Xếp nhóm biệt thự bảo tồn 1 (giữ nguyên dáng ngoài, kết cấu, chiều cao).",
+    "nguon": [
+     "https://www.sggp.org.vn/nhieu-biet-thu-co-da-lat-duoc-phan-loai-lai-post704760.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 20,
+  "ten_1963": "Nha Địa Dư Quốc Gia",
+  "nay": {
+   "ten": "Xí nghiệp Bản đồ Đà Lạt (Cục Bản đồ, Bộ Quốc phòng), 14 Yersin",
+   "mo_ta": "Cơ sở in và làm bản đồ của quân đội.",
+   "nguon": [
+    "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/lam-dong-chay-no-lon-tai-xi-nghiep-ban-do-da-lat-481E5834.html",
+    "https://news.tuoitre.vn/news/society/20140610/french-style-historical-edifice-in-vietnam-resort-city-destroyed-in-fire/3268.html",
+    "https://www.openstreetmap.org/way/515288591"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OSM 'Cục Bản đồ Đà Lạt' (old_name 'Nha Địa dư Quốc gia') cách toạ độ ~30 m; hai báo ghi toà nhà 14 Yersin trước 1975 là Nha Địa dư Quốc gia.",
+  "moc": [
+   {
+    "nam": "1939",
+    "su_kien": "Khởi công toà nhà.",
+    "nguon": [
+     "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/lam-dong-chay-no-lon-tai-xi-nghiep-ban-do-da-lat-481E5834.html",
+     "https://news.tuoitre.vn/news/society/20140610/french-style-historical-edifice-in-vietnam-resort-city-destroyed-in-fire/3268.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "OSM ghi year_of_construction 1944 (không nguồn)."
+   },
+   {
+    "nam": "1943",
+    "su_kien": "Toà nhà xây xong.",
+    "nguon": [
+     "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/lam-dong-chay-no-lon-tai-xi-nghiep-ban-do-da-lat-481E5834.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1944",
+    "su_kien": "Sở Địa dư Đông Dương dời từ Gia Định lên Đà Lạt.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Wikipedia không nói rõ dời vào chính toà nhà này."
+   },
+   {
+    "nam": "1955",
+    "su_kien": "Thành lập Nha Địa dư Quốc gia.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "sau 1975",
+    "su_kien": "Thành Xưởng in số 2 của Cục Bản đồ (Bộ Tổng Tham mưu), sau là Xí nghiệp Bản đồ Đà Lạt.",
+    "nguon": [
+     "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/lam-dong-chay-no-lon-tai-xi-nghiep-ban-do-da-lat-481E5834.html",
+     "https://news.tuoitre.vn/news/society/20140610/french-style-historical-edifice-in-vietnam-resort-city-destroyed-in-fire/3268.html"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2014",
+    "su_kien": "Rạng sáng 9/6: cháy lớn, thiêu rụi khoảng 1/3 toà nhà.",
+    "nguon": [
+     "https://thanhtra.com.vn/an-ninh-trat-tu-D718A18CA/lam-dong-chay-no-lon-tai-xi-nghiep-ban-do-da-lat-481E5834.html",
+     "https://news.tuoitre.vn/news/society/20140610/french-style-historical-edifice-in-vietnam-resort-city-destroyed-in-fire/3268.html",
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 23,
+  "ten_1963": "Ty Bưu Điện",
+  "nay": {
+   "ten": "Cơ sở Bưu điện – Viễn thông (VNPT) trên đường Trần Phú, cạnh tháp viễn thông",
+   "mo_ta": "Nơi giao dịch bưu điện/viễn thông; cạnh đó là tháp viễn thông VNPT cao ~70 m.",
+   "nguon": [
+    "https://www.openstreetmap.org/node/1152319272",
+    "https://www.openstreetmap.org/node/12832750937",
+    "https://nhandan.vn/thap-eiffel-da-lat-bieu-tuong-sinh-dong-tren-xu-ngan-hoa-post956498.html"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "OSM có điểm bưu điện 'V. thông Lâm Đồng' cách ~20 m và 'Bưu Điện Thành Phố Đà Lạt Đường Trần Phú' cách ~155 m. Không tìm được bài nào nói bưu điện 1963 chính là cơ sở này; số 23 và số 34 (Tòa Thị Chánh) chỉ cách nhau ~100 m nên dễ lẫn.",
+  "moc": [
+   {
+    "nam": "1915",
+    "su_kien": "Xây trạm bưu điện ở Đà Lạt.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Không rõ có phải đúng chỗ này."
+   },
+   {
+    "nam": "1994",
+    "su_kien": "Dựng tháp viễn thông thép cao ~70 m ở số 6 Trần Phú, sát bên.",
+    "nguon": [
+     "https://nhandan.vn/thap-eiffel-da-lat-bieu-tuong-sinh-dong-tren-xu-ngan-hoa-post956498.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Wikipedia Biên niên sử ghi 'khánh thành tháp bưu điện' năm 1996; mia ghi tháp ở số 8 Trần Phú. Tháp là công trình bên cạnh, không chắc thuộc khu bưu điện 1963."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 34,
+  "ten_1963": "Tòa Thị Chánh",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ nằm trên đường Trần Phú, giữa toà Vinaphone/Trung tâm Viễn thông (~30–55 m) và khách sạn Du Parc (~40 m). Không tìm được nguồn nào nói Tòa Thị Chánh 1963 đặt ở toà nào, nay là gì. EFEO (triển lãm Đà Lạt) chỉ ghi thời 1915–1930 'Tòa Thị chính và ngân khố gần hồ về phía Nam'. Wikipedia Biên niên sử: 1961 tách khỏi Tòa hành chính Tuyên Đức, 1964 nhập lại, 1966 tách ra — không ghi trụ sở.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 37,
+  "ten_1963": "Tòa Hành Chánh Tỉnh Tuyên Đức",
+  "nay": {
+   "ten": "Trụ sở UBND tỉnh Lâm Đồng, 4 Trần Hưng Đạo",
+   "mo_ta": "Trụ sở UBND tỉnh Lâm Đồng (sau 1/7/2025 là tỉnh Lâm Đồng mới).",
+   "nguon": [
+    "https://nguoidothi.net.vn/da-lat-tram-nam-tram-dieu-duong-tren-cao-nguyen-35505.html",
+    "https://chinhphu.vn/thong-tin-tinh-thanh?city=1365",
+    "https://baolamdong.vn/chuan-bi-tru-so-lam-viec-va-cho-o-cho-can-bo-cong-chuc-den-da-lat-lam-viec-tu-ngay-1-7-270634.html"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OSM 'Uỷ ban nhân dân tỉnh Lâm Đồng' (https://www.openstreetmap.org/way/542486101) cách ~45 m; Người Đô Thị chú thích ảnh: 'Trước 1975 là tòa Hành chánh tỉnh Tuyên Đức, nay là UBND tỉnh Lâm Đồng'.",
+  "moc": [
+   {
+    "nam": "1937–1938",
+    "su_kien": "Toà nhà đã có trong ảnh chụp Đà Lạt của Lucienne Delmas.",
+    "nguon": [
+     "https://nguoidothi.net.vn/da-lat-tram-nam-tram-dieu-duong-tren-cao-nguyen-35505.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Không rõ năm xây, không rõ thời Pháp dùng làm gì."
+   },
+   {
+    "nam": "1958",
+    "su_kien": "Lập tỉnh Tuyên Đức, tỉnh lỵ ở Đà Lạt.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Việc của tỉnh, không nói riêng toà nhà; nguồn không ghi toà hành chính đặt ở đây từ năm nào."
+   },
+   {
+    "nam": "1976",
+    "su_kien": "Hợp nhất Lâm Đồng, Tuyên Đức, Đà Lạt thành tỉnh Lâm Đồng; toà nhà thành trụ sở UBND tỉnh.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://nguoidothi.net.vn/da-lat-tram-nam-tram-dieu-duong-tren-cao-nguyen-35505.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Năm hợp nhất có ở Wikipedia; việc toà nhà thành trụ sở UBND tỉnh chỉ suy từ chú thích ảnh, không có năm."
+   },
+   {
+    "nam": "2025",
+    "su_kien": "Sau sáp nhập tỉnh 1/7/2025, nơi đây vẫn là trụ sở UBND tỉnh Lâm Đồng mới.",
+    "nguon": [
+     "https://baolamdong.vn/chuan-bi-tru-so-lam-viec-va-cho-o-cho-can-bo-cong-chuc-den-da-lat-lam-viec-tu-ngay-1-7-270634.html",
+     "https://cafef.vn/phuong-an-sap-xep-cac-tru-so-lam-viec-cua-tinh-lam-dong-moi-188250615144549459.chn"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "CafeF (dự thảo 15/6/2025) ghi số 4 dành cho khối Đảng, phần 3.872 m² cho Văn phòng UBND; Báo Lâm Đồng 17/6/2025 ghi trụ sở UBND tỉnh mới bên cạnh số 4 → còn lệch chi tiết."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 39,
+  "ten_1963": "Trung Tâm Nguyên Tử Lực Việt Nam",
+  "nay": {
+   "ten": "Viện Nghiên cứu Hạt nhân (Đà Lạt), 01 Nguyên Tử Lực",
+   "mo_ta": "Viện nghiên cứu thuộc Viện Năng lượng nguyên tử Việt Nam, vận hành lò phản ứng nghiên cứu duy nhất cả nước, làm đồng vị phóng xạ cho y tế.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_Nghi%C3%AAn_c%E1%BB%A9u_H%E1%BA%A1t_nh%C3%A2n_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.sggp.org.vn/tiep-noi-giac-mo-ngon-lua-xanh-post853651.html",
+    "https://www.openstreetmap.org/way/543357216"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OSM 'Viện Nghiên Cứu Hạt Nhân' cách toạ độ ~50 m; các nguồn ghi viện ở ngay khu Trung tâm Nguyên tử cũ.",
+  "moc": [
+   {
+    "nam": "1963",
+    "su_kien": "Lò phản ứng TRIGA Mark II 250 kW của Trung tâm Nguyên tử đi vào hoạt động.",
+    "nguon": [
+     "https://www.sggp.org.vn/tiep-noi-giac-mo-ngon-lua-xanh-post853651.html",
+     "https://nhandan.vn/ocop/20-nam-van-hanh-lo-phan-ung-hat-nhan-da-lat-post464687.html",
+     "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_Nghi%C3%AAn_c%E1%BB%A9u_H%E1%BA%A1t_nh%C3%A2n_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Năm khởi công lệch: 1960 (Nhân Dân) / 1961 (Wikipedia). Wikipedia Biên niên sử ghi khánh thành trung tâm năm 1963."
+   },
+   {
+    "nam": "1968",
+    "su_kien": "Lò phải dừng hoạt động.",
+    "nguon": [
+     "https://www.sggp.org.vn/tiep-noi-giac-mo-ngon-lua-xanh-post853651.html",
+     "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_Nghi%C3%AAn_c%E1%BB%A9u_H%E1%BA%A1t_nh%C3%A2n_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1975",
+    "su_kien": "Đêm 30 rạng 31/3: các bó nhiên liệu được rút khỏi lò, đưa về Mỹ.",
+    "nguon": [
+     "https://www.sggp.org.vn/tiep-noi-giac-mo-ngon-lua-xanh-post853651.html",
+     "https://nhandan.vn/ocop/20-nam-van-hanh-lo-phan-ung-hat-nhan-da-lat-post464687.html",
+     "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_Nghi%C3%AAn_c%E1%BB%A9u_H%E1%BA%A1t_nh%C3%A2n_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1976",
+    "su_kien": "Thành lập Viện Nghiên cứu Hạt nhân Đà Lạt.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Wikipedia trang viện chỉ ghi 'sau 1975'."
+   },
+   {
+    "nam": "1984",
+    "su_kien": "Ngày 20/3: lò khôi phục xong, chạy lại với công suất 500 kW (Liên Xô giúp).",
+    "nguon": [
+     "https://www.sggp.org.vn/tiep-noi-giac-mo-ngon-lua-xanh-post853651.html",
+     "https://nhandan.vn/ocop/20-nam-van-hanh-lo-phan-ung-hat-nhan-da-lat-post464687.html",
+     "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_Nghi%C3%AAn_c%E1%BB%A9u_H%E1%BA%A1t_nh%C3%A2n_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2011–2013",
+    "su_kien": "Đổi sang nhiên liệu độ giàu thấp; 7/2013 trả hết nhiên liệu độ giàu cao về Nga.",
+    "nguon": [
+     "https://tapchicongthuong.vn/viet-nam-hoan-thanh-chuong-trinh-chuyen-doi-nhien-lieu-hat-nhan-lo-phan-ung-nghien-cuu-da-lat-30668.htm",
+     "https://www.sggp.org.vn/tiep-noi-giac-mo-ngon-lua-xanh-post853651.html",
+     "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_Nghi%C3%AAn_c%E1%BB%A9u_H%E1%BA%A1t_nh%C3%A2n_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 55,
+  "ten_1963": "Thư Viện Và Văn Khố Quốc Gia",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở góc Vườn hoa Trần Hưng Đạo (~70 m), cách UBND tỉnh ~140 m; trên OSM quanh đó chỉ có nhà không tên, nhà hàng, khách sạn. Không tìm được nguồn ghi chỗ đặt Chi nhánh Nha Văn khố (lập 1960) hay thư viện ở đây. Lưu ý: Thư viện thành phố Đà Lạt khai trương 15/8/1958 ở villa 22 Yersin (nay đường Trần Phú — Doanh nhân Plus 18/11/2023), tức là chỗ khác, không phải điểm này. Mộc bản triều Nguyễn thì từng cất ở Nha Ngân khố, rồi nhà dòng Chúa Cứu Thế, từ 1983/1984 ở biệt điện Trần Lệ Xuân (nay Trung tâm Lưu trữ Quốc gia IV, xa điểm này ~1,8 km).",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 41,
+  "ten_1963": "Dân Y Viện",
+  "nay": {
+   "ten": "Bệnh viện Đa khoa tỉnh Lâm Đồng, 1 Phạm Ngọc Thạch",
+   "mo_ta": "Bệnh viện đa khoa lớn nhất Đà Lạt, khám chữa bệnh cho cả tỉnh.",
+   "nguon": [
+    "https://hellobacsi.com/care/benh-vien/benh-vien-da-khoa-tinh-lam-dong-2247/",
+    "https://nhathuoclongchau.com.vn/bai-viet/gioi-thieu-tong-quan-ve-benh-vien-da-khoa-lam-dong.html",
+    "https://www.openstreetmap.org/way/473556887"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OSM 'Bệnh viện Đa khoa tỉnh Lâm Đồng' cách toạ độ ~30 m; nguồn ghi tiền thân là Dân Y Viện Đà Lạt.",
+  "moc": [
+   {
+    "nam": "1922",
+    "su_kien": "Khởi công Bệnh viện Đà Lạt.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "EFEO có bản vẽ 'bệnh viện hiện nay, 15/12/1921'; không chắc là đúng khu Phạm Ngọc Thạch."
+   },
+   {
+    "nam": "thập niên 1930",
+    "su_kien": "Dân Y Viện Đà Lạt ra đời, phục vụ người dân Đà Lạt.",
+    "nguon": [
+     "https://hellobacsi.com/care/benh-vien/benh-vien-da-khoa-tinh-lam-dong-2247/",
+     "https://nhathuoclongchau.com.vn/bai-viet/gioi-thieu-tong-quan-ve-benh-vien-da-khoa-lam-dong.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Long Châu ghi năm 1930, 100 giường; Wikipedia Biên niên sử ghi xây xong bệnh viện 1938. Trang Long Châu chặn máy tải (403) — em chỉ đọc được qua kết quả tìm kiếm."
+   },
+   {
+    "nam": "1962–1964",
+    "su_kien": "Xây thêm khoa sản, khu mổ, khoa X-quang; lên 300 giường.",
+    "nguon": [
+     "https://nhathuoclongchau.com.vn/bai-viet/gioi-thieu-tong-quan-ve-benh-vien-da-khoa-lam-dong.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1975",
+    "su_kien": "Ngày 3/4 được tiếp quản, gọi là Bệnh viện Thành phố Đà Lạt.",
+    "nguon": [
+     "https://nhathuoclongchau.com.vn/bai-viet/gioi-thieu-tong-quan-ve-benh-vien-da-khoa-lam-dong.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1976",
+    "su_kien": "Thành bệnh viện tỉnh Lâm Đồng sau khi hợp nhất tỉnh.",
+    "nguon": [
+     "https://hellobacsi.com/care/benh-vien/benh-vien-da-khoa-tinh-lam-dong-2247/",
+     "https://nhathuoclongchau.com.vn/bai-viet/gioi-thieu-tong-quan-ve-benh-vien-da-khoa-lam-dong.html"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "khoảng 1995",
+    "su_kien": "Đổi tên thành Bệnh viện Đa khoa tỉnh Lâm Đồng.",
+    "nguon": [
+     "https://hellobacsi.com/care/benh-vien/benh-vien-da-khoa-tinh-lam-dong-2247/"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Nguồn chỉ ghi 'gần 20 năm sau' 1976."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 43,
+  "ten_1963": "Quân Y Viện",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ nay là khu nhà dân giữa đường Phan Chu Trinh và Lữ Gia (OSM: landuse residential); gần nhất là điểm '2B Lữ Gia' của Học viện Lục quân (~165 m). Không tìm được nguồn nào nói Quân Y Viện Đà Lạt 1963 ở đâu và nay là gì. Một trang tổng hợp (sites.google) có nhắc Đoàn an điều dưỡng 198 ở số 2 Lữ Gia nhưng không nói đó là quân y viện cũ → không dùng.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 78,
+  "ten_1963": "Lăng Quận Công Long Mỹ",
+  "nay": {
+   "ten": "Lăng Nguyễn Hữu Hào (cha Nam Phương Hoàng hậu), gần thác Cam Ly",
+   "mo_ta": "Khu lăng đá trên đồi thông, ít người trông coi, đang xuống cấp; khách lên thăm phải leo 158 bậc.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o_(%C4%91i%E1%BB%81n_ch%E1%BB%A7)",
+    "https://mytour.vn/vi/blog/bai-viet/lang-nguyen-huu-hao.html",
+    "https://mia.vn/cam-nang-du-lich/lang-mo-quan-cong-nguyen-huu-hao-kien-truc-co-kinh-tai-da-lat-11304",
+    "https://www.openstreetmap.org/way/1244767000"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OSM 'Lăng Nguyễn Hữu Hào' cách toạ độ ~25 m; Nguyễn Hữu Hào là Long Mỹ Quận công.",
+  "moc": [
+   {
+    "nam": "1939",
+    "su_kien": "Ngày 13/9 Long Mỹ Quận công Nguyễn Hữu Hào mất; cuối năm Nam Phương Hoàng hậu cho xây lăng.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o_(%C4%91i%E1%BB%81n_ch%E1%BB%A7)",
+     "https://mytour.vn/vi/blog/bai-viet/lang-nguyen-huu-hao.html",
+     "https://kienthuc.net.vn/kho-tri-thuc/loat-dia-diem-mang-dau-an-hoang-hau-nam-phuong-o-da-lat-1909010.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "mia (bài 5012) kể năm 1937 ông bệnh nặng, muốn được chôn ở Đà Lạt."
+   },
+   {
+    "nam": "1941",
+    "su_kien": "Ngày 10/9 làm lễ đưa vào lăng; lăng xây xong.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o_(%C4%91i%E1%BB%81n_ch%E1%BB%A7)",
+     "https://mytour.vn/vi/blog/bai-viet/lang-nguyen-huu-hao.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Hai nguồn đều viết 'sau 4 năm xây' dù từ 1939 tới 1941 chỉ 2 năm → chi tiết này lệch."
+   },
+   {
+    "nam": "nay",
+    "su_kien": "Lăng bị bỏ quên, bậc thềm nứt vỡ, cây cỏ mọc um tùm.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_H%E1%BB%AFu_H%C3%A0o_(%C4%91i%E1%BB%81n_ch%E1%BB%A7)",
+     "https://mytour.vn/vi/blog/bai-viet/lang-nguyen-huu-hao.html"
+    ],
+    "chua_chac": false
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 104,
+  "ten_1963": "Sân Bay Cam Ly",
+  "nay": {
+   "ten": "Sân bay Cam Ly (bỏ không)",
+   "mo_ta": "Sân bay ngừng hoạt động từ lâu, do quân đội quản lý; đường băng thành lối đi, phần đất trống bị trồng trọt, đổ rác.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+    "https://en.wikipedia.org/wiki/Cam_Ly_Airport",
+    "https://www.sggp.org.vn/da-lat-trung-dung-san-bay-cam-ly-lam-kho-bai-giao-nhan-hang-hoa-post603719.html",
+    "http://redsvn.net/chum-anh-san-bay-cam-ly-duong-bang-bo-khong-giua-long-da-lat/"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OSM 'Phi trường Cam Ly' (https://www.openstreetmap.org/way/103362831) cách ~15 m; Wikipedia đặt tâm sân bay ở 11,9428 / 108,415 (cách ~950 m) vì đường băng dài ~1,4 km — cùng một sân bay.",
+  "moc": [
+   {
+    "nam": "1975",
+    "su_kien": "Sau 30/4 thành sân bay của Học viện Lục quân.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+     "https://en.wikipedia.org/wiki/Cam_Ly_Airport"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Wikipedia tiếng Anh chỉ ghi 'nơi đặt Học viện Lục quân trước đây', không ghi năm; hai bản Wikipedia tính là 1 nguồn."
+   },
+   {
+    "nam": "1995",
+    "su_kien": "Được sửa lại để bay máy bay cánh quạt TP.HCM – Đà Lạt; sau ngừng vì kém hiệu quả.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+     "http://redsvn.net/chum-anh-san-bay-cam-ly-duong-bang-bo-khong-giua-long-da-lat/"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2010",
+    "su_kien": "Cuối năm: Cục Hàng không bàn giao sân bay cho Quân chủng Phòng không – Không quân.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/S%C3%A2n_bay_Cam_Ly",
+     "http://redsvn.net/chum-anh-san-bay-cam-ly-duong-bang-bo-khong-giua-long-da-lat/",
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2021",
+    "su_kien": "UBND Đà Lạt khảo sát dùng sân bay làm bãi giao nhận hàng hoá thời Covid-19.",
+    "nguon": [
+     "https://www.sggp.org.vn/da-lat-trung-dung-san-bay-cam-ly-lam-kho-bai-giao-nhan-hang-hoa-post603719.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 105,
+  "ten_1963": "Ga Đà Lạt",
+  "nay": {
+   "ten": "Ga Đà Lạt (di tích, ga tàu du lịch Đà Lạt – Trại Mát)",
+   "mo_ta": "Nhà ga cổ đón khách tham quan, chạy tàu du lịch Đà Lạt – Trại Mát (cả tàu đêm).",
+   "nguon": [
+    "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+    "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+    "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Toạ độ cách nhà ga trên OSM (https://www.openstreetmap.org/relation/17877171) ~220 m về phía Đông Bắc — xa hơn 150 m, có lẽ ô lưới đặt ở bãi đường ray; quanh đó không có ga nào khác nên vẫn là cùng một nơi.",
+  "moc": [
+   {
+    "nam": "1932",
+    "su_kien": "Khởi công nhà ga Đà Lạt; thiết kế: kiến trúc sư Pháp Reveron, Moncet hoàn chỉnh chi tiết và giám sát.",
+    "nguon": [
+     "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+     "https://vnexpress.net/nha-ga-xe-lua-co-nhat-dong-duong-o-da-lat-3824481.html",
+     "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://vinwonders.com/vi/wonderpedia/news/ga-xe-lua-da-lat/"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Phân vai Reveron thiết kế / Moncet giám sát chỉ Nhân Dân nói rõ. Nhà thầu Võ Đình Dung, giá 200.000 franc: chỉ Wikipedia."
+   },
+   {
+    "nam": "1938",
+    "su_kien": "Nhà ga hoàn thành.",
+    "nguon": [
+     "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+     "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://vinwonders.com/vi/wonderpedia/news/ga-xe-lua-da-lat/"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VnExpress 2018 ghi 'đưa vào sử dụng 4 năm sau' (tức khoảng 1936)."
+   },
+   {
+    "nam": "1972",
+    "su_kien": "Tuyến Tháp Chàm – Đà Lạt ngừng chạy; nhà ga bị hư hại.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://vinwonders.com/vi/wonderpedia/news/ga-xe-lua-da-lat/",
+     "https://daidoanket.vn/trai-nghiem-hoa-xa-da-lat-10291022.html",
+     "https://www.sggp.org.vn/theo-dau-tich-duong-sat-co-da-lat-phan-rang-post435805.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Wikipedia ghi 'ngừng hoạt động 1972'; VinWonders ghi nhà ga bị hư hại năm 1972 rồi được sửa lại sau 1975."
+   },
+   {
+    "nam": "1991",
+    "su_kien": "Khôi phục đoạn Đà Lạt – Trại Mát (gần 7 km) để chạy tàu du lịch.",
+    "nguon": [
+     "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+     "https://tuoitre.vn/tren-7km-duong-ray-539282.htm"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2001",
+    "su_kien": "Ga Đà Lạt được công nhận di tích quốc gia.",
+    "nguon": [
+     "https://nhandan.vn/doc-dao-kien-truc-ga-da-lat-post968689.html",
+     "https://nhandan.vn/mang-lai-trai-nghiem-thu-vi-cho-du-khach-post946628.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Hai bài cùng báo Nhân Dân (tính 1 trang). VinWonders ghi năm 2011; Wikipedia không ghi năm → còn lệch."
+   },
+   {
+    "nam": "2024",
+    "su_kien": "Ngày 14/4 mở tàu đêm Đà Lạt – Trại Mát và phòng chiếu phim tư liệu ở ga.",
+    "nguon": [
+     "https://tuoitre.vn/saigontimes/tuyen-tau-co-da-lat-trai-mat-chay-them-buoi-toi-tu-giua-thang-4-106908518.htm",
+     "https://vnexpress.net/mo-tau-dem-da-lat-trai-mat-4733423.html",
+     "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Phòng chiếu phim: Thời báo Sài Gòn (nay trên tuoitre.vn); Nhân Dân 03/2026 cũng nhắc khách xem phim tư liệu ở ga."
+   }
+  ],
+  "trang": "ga-da-lat"
+ }
+]

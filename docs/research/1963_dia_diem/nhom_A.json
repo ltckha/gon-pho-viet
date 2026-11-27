@@ -1,0 +1,518 @@
+[
+ {
+  "so": 2,
+  "ten_1963": "Khách Sạn Đà Lạt",
+  "nay": {
+   "ten": "Du Parc Hotel Dalat (Hôtel du Parc, 15 Trần Phú)",
+   "mo_ta": "Vẫn là khách sạn, kiến trúc Art Deco cạnh nhà thờ Con Gà, đối diện bưu điện.",
+   "nguon": [
+    "https://mia.vn/cam-nang-du-lich/du-parc-hotel-dalat-review-19738",
+    "https://vietnamcoracle.com/hotel-du-parc-dalat",
+    "https://www.openstreetmap.org/node/1152351891"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Điểm OSM 'Du Parc' cách toạ độ 63 m. Một bản dịch bài lịch sử Đà Lạt (Google Groups dalatvanhoc) liệt kê khách sạn hạng trung thời 1964–1975 'Dalat (formerly Hôtel du Parc)', khớp tên 'Dalat Hotel' trên bản đồ. Gần đó có Nhà Chung, trường Tây Sơn nhưng không phải khách sạn.",
+  "moc": [
+   {
+    "nam": "1929–1934",
+    "su_kien": "Xây Hôtel du Parc làm khách sạn phụ, giá vừa, cho Lang-Bian Palace; tháng 4/1934 mở một phần.",
+    "nguon": [
+     "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Hotel_du_Parc.pdf",
+     "https://www.fodors.com/world/asia/vietnam/the-south-central-coasts-and-highlands/hotels/reviews/du-parc-hotel-dalat-615069"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Chép từ data/chuyen/tran-phu.json. Trang du lịch (mia.vn) ghi khánh thành 1932."
+   },
+   {
+    "nam": "1949",
+    "su_kien": "Đài phát thanh Radio Dalat đặt trên tầng ba khách sạn.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Wikipedia dẫn Địa chí Đà Lạt (Trần Sỹ Thứ 2008, tr. 298)."
+   },
+   {
+    "nam": "1964–1975",
+    "su_kien": "Mang tên khách sạn Đà Lạt (Dalat Hotel), hạng trung.",
+    "nguon": [
+     "https://groups.google.com/g/dalatvanhoc/c/_wSXANl-hQs"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Bản đồ AMS 1963 cũng ghi 'Khách Sạn Đà Lạt / Dalat Hotel' ở đúng chỗ này."
+   },
+   {
+    "nam": "1997",
+    "su_kien": "Sửa lại toàn bộ, mở cửa lại với tên Novotel Dalat.",
+    "nguon": [
+     "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Hotel_du_Parc.pdf",
+     "https://mia.vn/cam-nang-du-lich/du-parc-hotel-dalat-review-19738",
+     "https://dtinews.dantri.com.vn/print/20091217200917000.htm"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Dân Trí (12/2009) chỉ nói Novotel Dalat trước là Hotel Du Parc, Accor định đổi sang Mercure."
+   },
+   {
+    "nam": "2010",
+    "su_kien": "Bỏ tên Novotel, lấy lại tên Du Parc Hotel Dalat.",
+    "nguon": [
+     "https://mia.vn/cam-nang-du-lich/du-parc-hotel-dalat-review-19738",
+     "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Hotel_du_Parc.pdf"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "entreprises-coloniales ghi 2010–2011."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 3,
+  "ten_1963": "Khách Sạn Đà Lạt Palace",
+  "nay": {
+   "ten": "Dalat Palace Heritage Hotel (2 Trần Phú)",
+   "mo_ta": "Khách sạn di sản bên hồ Xuân Hương, vẫn đón khách.",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+    "https://uk.trip.com/hotels/dalat-hotel-detail-993587/dalat-palace-heritage-hotel/review.html",
+    "https://www.openstreetmap.org/way/407699702"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Toà nhà Dalat Palace Hotel trên OSM cách toạ độ ~60 m; cùng tên.",
+  "moc": [
+   {
+    "nam": "1916–1922",
+    "su_kien": "Toàn quyền Roume cho xây khách sạn Lang-Bian Palace bên hồ; khởi công 1916, mở cửa 1922.",
+    "nguon": [
+     "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+     "https://www.sggp.org.vn/dalat-palace-heritage-hotel-tram-nam-noi-qua-khu-va-hien-dai-hoa-tron-duoc-gin-giu-post858558.html",
+     "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Langbiang_Palace.pdf"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Chép từ data/chuyen/tran-phu.json; các nguồn lệch năm (báo cũ: khánh thành khoảng 1921, mở lại 1/2/1923)."
+   },
+   {
+    "nam": "1941 hoặc 1943",
+    "su_kien": "Mặt tiền sửa cho đơn giản, bỏ bớt trang trí, thêm nét Art Deco.",
+    "nguon": [
+     "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+     "https://www.sggp.org.vn/dalat-palace-heritage-hotel-tram-nam-noi-qua-khu-va-hien-dai-hoa-tron-duoc-gin-giu-post858558.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Wikipedia ghi 1943, SGGP ghi 1941."
+   },
+   {
+    "nam": "Sau Thế chiến II",
+    "su_kien": "Đổi tên từ Lang-Bian Palace thành Dalat Palace.",
+    "nguon": [
+     "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1993–1995",
+    "su_kien": "Larry Hillblom (đồng sáng lập DHL) bỏ tiền phục dựng; 1995 mở lại tên Sofitel.",
+    "nguon": [
+     "https://en.wikipedia.org/wiki/Dalat_Palace_Hotel",
+     "https://www.entreprises-coloniales.fr/inde-indochine/Dalat-Langbiang_Palace.pdf"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Chép từ data/chuyen/tran-phu.json."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 4,
+  "ten_1963": "Lữ Quán Thanh Niên",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Blog Mực Tím Sơn Đen (hồi ức Võ Văn Điểm) tả lữ quán trên đồi khúc đường Võ Tánh, gần nhà thờ Tin Lành (nay 72 Nguyễn Văn Trỗi, cách toạ độ ~190 m), cổng chính từ ngã ba Phan Bội Châu – Võ Tánh – Cộng Hòa. Tác giả viết khoảng 1993 nhà cửa đã phủ kín ngọn đồi, không biết dãy nhà lữ quán còn hay mất. Chỗ toạ độ nay là khu nhà dân, khách sạn nhỏ quanh Nguyễn Văn Trỗi – Lý Tự Trọng (OSM); không có nguồn nói rõ công trình nào đứng trên nền lữ quán.",
+  "moc": [
+   {
+    "nam": "1962–1965",
+    "su_kien": "Học sinh, sinh viên thuê phòng ở dài hạn; có Quán cơm học sinh, bữa khoảng 7 đồng.",
+    "nguon": [
+     "https://www.muctimsonden.com/2021/09/lu-quan-thanh-nien-alat-vo-van-iem.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Năm xây không rõ (chính tác giả nói vậy)."
+   },
+   {
+    "nam": "Khoảng 1993",
+    "su_kien": "Ngọn đồi đã phủ kín nhà dân; không rõ dãy nhà lữ quán còn hay mất.",
+    "nguon": [
+     "https://www.muctimsonden.com/2021/09/lu-quan-thanh-nien-alat-vo-van-iem.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 5,
+  "ten_1963": "Lữ Quán Les Ravines",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Không tìm được nguồn nào nhắc 'Les Ravines' ở Đà Lạt (tiếng Việt, Anh, Pháp). Toạ độ rơi vào đường Khe Sanh; gần nhất trên OSM là khách sạn/vườn Minh Tâm (20 Khe Sanh, cách ~70–85 m), nhưng không có nguồn nối Minh Tâm với Les Ravines — không đoán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 6,
+  "ten_1963": "Chợ Mới",
+  "nay": {
+   "ten": "Chợ Đà Lạt (chợ trung tâm)",
+   "mo_ta": "Chợ trung tâm thành phố, ba tầng, bán rau, trái cây, hoa, đặc sản, áo len.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://www.openstreetmap.org/relation/4119185",
+    "https://vinwonders.com/vi/wonderpedia/news/cho-da-lat/"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Toạ độ nằm trong khối chợ Đà Lạt trên OSM. 'Chợ Mới' là tên gọi chợ xây 1958–1960 để phân biệt với Chợ Cây cũ (nay là rạp Hòa Bình, số 53).",
+  "moc": [
+   {
+    "nam": "1958",
+    "su_kien": "Khởi công trên đất sình lầy trồng xà lách son, kiến trúc sư Nguyễn Duy Đức thiết kế.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://vinwonders.com/vi/wonderpedia/news/cho-da-lat/"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Hai trang gần cùng câu chữ, có thể chép nhau."
+   },
+   {
+    "nam": "1960",
+    "su_kien": "Chợ xây xong; Chợ Cây cũ trên đồi được sửa thành rạp Hòa Bình.",
+    "nguon": [
+     "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+     "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
+     "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Chép từ data/chuyen/khu-hoa-binh.json (mốc 1958–1960)."
+   },
+   {
+    "nam": "3/4/1993",
+    "su_kien": "Khởi công khối B của chợ (kiến trúc sư Lê Văn Rọt, Trần Hùng).",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://vinwonders.com/vi/wonderpedia/news/cho-da-lat/"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Vinwonders có thể chép Wikipedia."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 52,
+  "ten_1963": "Sân Cù",
+  "nay": {
+   "ten": "Sân golf Dalat Palace (Đồi Cù)",
+   "mo_ta": "Sân golf tư nhân 18 lỗ bên bờ bắc hồ Xuân Hương.",
+   "nguon": [
+    "https://www.golfpass.com/courses/22024-dalat-palace-golf-club/",
+    "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93i_C%C3%B9",
+    "https://www.openstreetmap.org/way/99661171"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Toạ độ nằm trong vùng 'Sân Golf Đà Lạt' trên OSM.",
+  "moc": [
+   {
+    "nam": "1922",
+    "su_kien": "Sân golf Đồi Cù mở, được gọi là sân golf đầu tiên của Việt Nam.",
+    "nguon": [
+     "https://www.golfpass.com/courses/22024-dalat-palace-golf-club/",
+     "https://vietnamnet.vn/en/the-age-of-golf-in-vietnam-2066698.html",
+     "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93i_C%C3%B9"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Người thiết kế H. S. Colt, C. H. Alison theo golfpass."
+   },
+   {
+    "nam": "8/8/1990",
+    "su_kien": "Tỉnh cấp phép nâng lên sân 18 lỗ tên Dalat Palace Golf Club.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93i_C%C3%B9",
+     "https://mytour.vn/vi/blog/bai-viet/doi-cu.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Chép từ data/chuyen/ho-xuan-huong.json: hai trang cùng câu chữ, coi như 1 nguồn."
+   },
+   {
+    "nam": "1994–1995",
+    "su_kien": "Sửa lớn, mở rộng thành sân 18 lỗ.",
+    "nguon": [
+     "https://www.golfpass.com/courses/22024-dalat-palace-golf-club/",
+     "https://golfcoursearchitecture.net/content/famous-vietnam-course-is-sold"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Golfpass ghi IMG thiết kế lại năm 1994; Golf Course Architecture ghi xong năm 1995."
+   },
+   {
+    "nam": "2010",
+    "su_kien": "Công ty Vina Properties mua lại sân từ Danao International Holdings (Mỹ).",
+    "nguon": [
+     "https://golfcoursearchitecture.net/content/famous-vietnam-course-is-sold"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Bài đăng 12/10/2010."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 53,
+  "ten_1963": "Hội Trường Hòa Bình",
+  "nay": {
+   "ten": "Rạp Hòa Bình (rạp 3 Tháng 4), Khu Hòa Bình",
+   "mo_ta": "Rạp cũ thôi chiếu phim từ 2018; từ 9/2026 đang tháo dỡ bên trong, giữ mặt tiền, có lúc làm sân khấu sự kiện.",
+   "nguon": [
+    "https://tuoitre.vn/rap-hoa-binh-da-lat-va-nhieu-biet-thu-cong-dang-bi-hu-hai-20260326164128795.htm",
+    "https://nguoiquansat.vn/chinh-thuc-thao-do-rap-chieu-phim-hon-70-nam-cua-viet-nam-317761.html",
+    "https://www.openstreetmap.org/way/308446691"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Toạ độ nằm sát toà nhà 'Rạp hát Hòa Bình' trên OSM; tên Anh trên bản đồ là 'Hòa Bình Movie Theater'.",
+  "moc": [
+   {
+    "nam": "1929",
+    "su_kien": "Chợ Cây (gỗ, mái tôn) dựng trên ngọn đồi, đúng chỗ rạp bây giờ.",
+    "nguon": [
+     "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+     "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
+     "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1934 hoặc 1937",
+    "su_kien": "Sau trận cháy năm 1931, chợ xây lại bằng gạch đá trên nền cũ, có tháp giật cấp.",
+    "nguon": [
+     "https://nguoidothi.net.vn/khu-hoa-binh-mot-khong-gian-lich-su-nhan-van-dac-thu-da-lat-17913.html",
+     "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+     "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Chép từ data/chuyen/khu-hoa-binh.json: Người Đô Thị ghi 1934, Thanh Niên và Wikipedia ghi 1937."
+   },
+   {
+    "nam": "1960",
+    "su_kien": "Chợ dời xuống Chợ Mới; chợ cũ sửa thành rạp chiếu bóng Hòa Bình khoảng 800 chỗ.",
+    "nguon": [
+     "https://thanhnien.vn/da-lat-chuyen-khu-hoa-binh-tu-cho-cay-xua-den-rap-hoa-binh-nay-185839710.htm",
+     "https://vnexpress.net/rap-hoa-binh-ky-uc-vang-son-giua-long-da-lat-5127901.html",
+     "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2018",
+    "su_kien": "Rạp thôi chiếu phim.",
+    "nguon": [
+     "https://tuoitre.vn/rap-hoa-binh-da-lat-va-nhieu-biet-thu-cong-dang-bi-hu-hai-20260326164128795.htm"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Theo kết luận thanh tra tỉnh (Tuổi Trẻ 26/3/2026)."
+   },
+   {
+    "nam": "17/9/2026",
+    "su_kien": "Bắt đầu tháo dỡ bên trong rạp, giữ mặt tiền và trần vòm.",
+    "nguon": [
+     "https://nguoiquansat.vn/chinh-thuc-thao-do-rap-chieu-phim-hon-70-nam-cua-viet-nam-317761.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Người Quan Sát dẫn lại Tuổi Trẻ."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 65,
+  "ten_1963": "Rạp Chiếu Bóng",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở ngay ngã ba Phan Đình Phùng – Nguyễn Văn Trỗi (Nguyễn Văn Trỗi xưa là đường An Nam rồi Hàm Nghi). Các rạp cũ có nguồn: Ngọc Hiệp và Langbian ở chỗ Trương Công Định (Minh Mạng) gặp Phan Đình Phùng — cách đây ~550 m; rạp Annam/Kinh Đô 'số 55 đường Annam, gần nhà thờ Tin Lành' (blog Mực Tím Sơn Đen) — nhà thờ Tin Lành cách ~300 m. Không rạp nào chắc nằm trong 150 m; không đoán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 66,
+  "ten_1963": "Nhà Thủy Tạ",
+  "nay": {
+   "ten": "Nhà hàng Thủy Tạ (Thủy Tạ – Nhà hàng & Cafe)",
+   "mo_ta": "Nhà hàng, cà phê trên ốc đảo nhỏ sát bờ nam hồ Xuân Hương; thuộc danh thắng hồ nên không được đổi tên.",
+   "nguon": [
+    "https://baolamdong.vn/print/388586.html",
+    "https://tuoitre.vn/khong-duoc-doi-ten-thuy-ta-o-ho-xuan-huong-nguoi-trung-thau-bo-coc-rut-lui-20231123100938959.htm",
+    "https://www.openstreetmap.org/node/1150940211"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Điểm OSM 'Nhà hàng Thủy Tạ' cách toạ độ ~50 m; cùng tên.",
+  "moc": [
+   {
+    "nam": "Đầu thập niên 1930",
+    "su_kien": "Sau trận lũ 1932, người Pháp đắp ốc đảo, dựng câu lạc bộ thể thao nước La Grenouillère (Đầm Ếch).",
+    "nguon": [
+     "https://baolamdong.vn/print/388586.html",
+     "https://www.muctimsonden.com/2023/04/thuy-ta-lat.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Không nguồn nào có năm xây chính xác; Mực Tím Sơn Đen nói 'sau 1932', Báo Lâm Đồng nói 'đầu thập niên 1930'."
+   },
+   {
+    "nam": "10/2023",
+    "su_kien": "Đấu giá cho thuê, giá trúng hơn 15 tỉ/năm; người trúng bỏ cọc vì không được đổi tên.",
+    "nguon": [
+     "https://tuoitre.vn/khong-duoc-doi-ten-thuy-ta-o-ho-xuan-huong-nguoi-trung-thau-bo-coc-rut-lui-20231123100938959.htm",
+     "https://baolamdong.vn/print/388586.html",
+     "https://tuoitre.vn/saigontimes/chuan-bi-dau-gia-nhieu-cong-trinh-noi-tieng-tai-da-lat-106906242.htm"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Chép từ data/chuyen/ho-xuan-huong.json."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 74,
+  "ten_1963": "Đài Chiến Sĩ",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở ngã ba Xô Viết Nghệ Tĩnh – Nguyễn Công Trứ, cách Sân vận động Đà Lạt nay ~290 m. Trên OSM không có tượng đài hay mốc lịch sử nào trong 150 m. Không tìm được nguồn nào về đài chiến sĩ/đài tử sĩ trước 1975 ở chỗ này (đài liệt sĩ ở Nghĩa trang liệt sĩ Đà Lạt là công trình sau 1975, chỗ khác).",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 75,
+  "ten_1963": "Câu Lạc Bộ Thể Thao",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Đây gần như chắc là Cercle Sportif de Dalat (dân gọi 'Xẹc'): sân quần vợt, nhà hàng La Chaumière sau đổi tên Đào Nguyên, nằm giữa Thủy Tạ và thao trường/sân vận động (blog Mực Tím Sơn Đen, 2 bài). Toạ độ nay nằm giữa Thủy Tạ (~130 m) và rìa Quảng trường Lâm Viên/siêu thị GO! (~160–230 m); điểm OSM gần nhất là 'Ngân Hàng Nhà Nước' (~90 m). Không có nguồn nói khu đất câu lạc bộ nay là công trình gì.",
+  "moc": [
+   {
+    "nam": "Sau 1954",
+    "su_kien": "Nhà hàng La Chaumière của câu lạc bộ đổi tên Đào Nguyên, sau xây lại hai tầng Art Deco.",
+    "nguon": [
+     "https://www.muctimsonden.com/2023/04/thuy-ta-lat.html",
+     "https://www.muctimsonden.com/2025/01/xec-lat-xua.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Hai bài cùng một blog, tính 1 nguồn."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 76,
+  "ten_1963": "Sân Vận Động",
+  "nay": {
+   "ten": "Quảng trường Lâm Viên (bên dưới là siêu thị GO!, trước là Big C)",
+   "mo_ta": "Quảng trường trung tâm bên bờ nam hồ Xuân Hương, có nụ hoa atiso và hoa dã quỳ kính; dưới hầm là siêu thị.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Qu%E1%BA%A3ng_tr%C6%B0%E1%BB%9Dng_L%C3%A2m_Vi%C3%AAn",
+    "https://lifestyle.zingnews.vn/quang-truong-lon-o-trung-tam-da-lat-co-ten-la-gi-post1078115.html",
+    "https://www.muctimsonden.com/2021/09/san-van-ong-alat-xua.html",
+    "https://www.openstreetmap.org/way/1303837487"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Toạ độ cách đường bao Quảng trường Lâm Viên ~60 m, khối siêu thị GO! ~80 m. Blog Mực Tím Sơn Đen nói sân vận động cũ (cạnh Thao trường) bị thay bằng siêu thị Big C, mặt trên là nền xi măng có tượng dâu, atiso; Wikipedia và Zing nói chỗ quảng trường trước là Thao trường Lâm Viên (từ giữa thập niên 1950). Sân và thao trường nằm sát nhau, nay cùng thuộc quảng trường.",
+  "moc": [
+   {
+    "nam": "Thời Ngô Đình Diệm (1955–1963)",
+    "su_kien": "Sân vận động được xây tường, cổng bằng gạch bê tông thay hàng rào gỗ thời Bảo Đại.",
+    "nguon": [
+     "https://www.muctimsonden.com/2021/09/san-van-ong-alat-xua.html",
+     "https://www.muctimsonden.com/2025/01/xec-lat-xua.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Hai bài cùng một blog."
+   },
+   {
+    "nam": "8/2009",
+    "su_kien": "Khởi công Quảng trường Lâm Viên (lúc đầu gọi Trung tâm Đà Lạt) trên khu đất này.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Qu%E1%BA%A3ng_tr%C6%B0%E1%BB%9Dng_L%C3%A2m_Vi%C3%AAn",
+     "https://lifestyle.zingnews.vn/quang-truong-lon-o-trung-tam-da-lat-co-ten-la-gi-post1078115.html",
+     "https://tuoitre.vn/xay-quang-truong-lam-vien-da-lat-xong-du-111-ti-983047.htm"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "10/11/2011",
+    "su_kien": "Hội đồng nhân dân thành phố đặt tên Quảng trường Lâm Viên.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Qu%E1%BA%A3ng_tr%C6%B0%E1%BB%9Dng_L%C3%A2m_Vi%C3%AAn",
+     "https://lifestyle.zingnews.vn/quang-truong-lon-o-trung-tam-da-lat-co-ten-la-gi-post1078115.html"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "10/10/2015",
+    "su_kien": "Gắn biển khánh thành quảng trường.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Qu%E1%BA%A3ng_tr%C6%B0%E1%BB%9Dng_L%C3%A2m_Vi%C3%AAn",
+     "https://lifestyle.zingnews.vn/quang-truong-lon-o-trung-tam-da-lat-co-ten-la-gi-post1078115.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "data/chuyen/ho-xuan-huong.json ghi hoạt động 2016."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 77,
+  "ten_1963": "Sân Vận Động",
+  "nay": {
+   "ten": "Sân tập trong khuôn viên Học viện Lục quân (trường Võ bị Quốc gia cũ)",
+   "mo_ta": "Thuộc khu học viện quân sự trên đồi 1515, đường Lữ Gia; không phải nơi tham quan tự do.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_L%E1%BB%A5c_qu%C3%A2n_(Vi%E1%BB%87t_Nam)",
+    "https://chientruongvietnam.com/2018/06/28/truong-vo-bi-quoc-gia-da-lat-truong-si-quan-da-lat",
+    "https://www.openstreetmap.org/way/1355564844"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Toạ độ nằm trong vùng 'Học viện Lục quân' trên OSM (~25 m), nên chắc là trong khuôn viên trường Võ bị cũ. Nhưng không có nguồn nào tả sân vận động này hay nói nó nay còn là sân hay đã thành công trình khác; sân bóng trên OSM gần nhất cách ~200 m.",
+  "moc": [
+   {
+    "nam": "1961",
+    "su_kien": "Trường Võ bị Quốc gia xây cơ sở mới trên đồi 1515, gồm cả khu sân bãi này.",
+    "nguon": [
+     "https://chientruongvietnam.com/2018/06/28/truong-vo-bi-quoc-gia-da-lat-truong-si-quan-da-lat",
+     "https://nhayduwdc.org/ls/vbdl/2025/ndwdc_ls_vbdl_2025_tsvbqgvnDL_2025MAR23_sun.htm"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Nguồn chỉ nói trường xây mới năm 1961, không nói riêng về sân."
+   },
+   {
+    "nam": "Cuối 1975",
+    "su_kien": "Học viện Quân sự từ Hà Nội dời vào, đóng ở khu trường Võ bị cũ.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_L%E1%BB%A5c_qu%C3%A2n_(Vi%E1%BB%87t_Nam)",
+     "https://chientruongvietnam.com/2018/06/28/truong-vo-bi-quoc-gia-da-lat-truong-si-quan-da-lat"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Chiến Trường Việt Nam chỉ nói 'sau giải phóng tiếp quản', không ghi 'cuối 1975'."
+   },
+   {
+    "nam": "16/12/1981",
+    "su_kien": "Đổi tên thành Học viện Lục quân Đà Lạt.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_L%E1%BB%A5c_qu%C3%A2n_(Vi%E1%BB%87t_Nam)"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ }
+]

@@ -1,0 +1,657 @@
+[
+ {
+  "so": 44,
+  "ten_1963": "Nhà Thờ Lớn",
+  "nay": {
+   "ten": "Nhà thờ Chánh tòa Đà Lạt (Nhà thờ Con Gà)",
+   "mo_ta": "Nhà thờ chính tòa của Giáo phận Đà Lạt ở số 15 Trần Phú, vẫn làm lễ hằng ngày, khách tới tham quan đông.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+    "https://gcatholic.org/dioceses/diocese/dala0.htm",
+    "https://www.openstreetmap.org/way/452519411"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Điểm OSM \"Nhà thờ Chánh tòa\" (way/452519411) cách toạ độ 29 m.",
+  "moc": [
+   {
+    "nam": "1917",
+    "su_kien": "Linh mục Nicolas Couveur (Hội Thừa sai Paris) xây dưỡng viện nghỉ cho các giáo sĩ; một phần nay là nhà xứ.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+     "https://menthanhgianhatrang.com/nha-tho-con-ga-gio-le.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Wikipedia tiếng Anh lại ghi 'một nhà thờ xây năm 1917' → lệch. Wikipedia tiếng Việt dẫn trang dalatgis.vn (Trung tâm thông tin địa lý TP Đà Lạt, bản lưu 2016, em không mở được)."
+   },
+   {
+    "nam": "1920",
+    "su_kien": "Ngày 10/5/1920 linh mục Frédéric Sidot làm cha xứ đầu tiên, dựng nhà thờ nhỏ dài 24 m, trên cửa khắc chữ 'Hic Domus Est Dei'.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+     "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+     "https://thanhnien.vn/goc-ky-hoa-nha-tho-con-ga-da-lat-185230617211949771.htm",
+     "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VOV 2005: 'small chapel built by the French in 1920, named Hic Domus Est Dei'. Thanh Niên 2023: năm 1920 nơi đây chỉ là dưỡng viện và nhà nguyện cho linh mục. Ngày 10/5 và kích thước 24 x 7 m: Wikipedia, localvietnam. Wikipedia tiếng Việt viết tháng 4/1920 'thành lập Giáo phận Đà Lạt' — đúng ra là giáo xứ/giáo sở (giáo phận lập năm 1960), em không dùng chữ đó."
+   },
+   {
+    "nam": "1922–1923",
+    "su_kien": "Xây nhà thờ thứ hai dài 26 m, rộng 8 m, tháp chuông 16 m; khánh thành 17/2/1923. Ngôi này nay không còn.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov",
+     "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+     "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Wikipedia tiếng Việt: Giám mục Quinton cho phép ngày 5/7/1922, khánh thành 17/2/1923, tháp treo 4 chuông hãng 'Pacard' (Paccard) ở Savoie (Pháp). VOV ghi 1922 'rebuilt' 26 x 8 m, tháp 16 m. localvietnam ghi 1923 và 4 chuông Paccard. Wikipedia tiếng Anh: 'rebuilt in 1922'. Chi tiết 4 chuông chỉ Wikipedia và localvietnam (có thể chung một gốc)."
+   },
+   {
+    "nam": "1931",
+    "su_kien": "Ngày 19/7/1931 Khâm sứ Colomban Dreyer đặt viên đá đầu tiên nhà thờ hiện nay, theo đồ án của cha xứ Céleste Nicolas.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+     "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+     "https://menthanhgianhatrang.com/nha-tho-con-ga-gio-le.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Tên người vẽ đồ án (Céleste Nicolas) chỉ Wikipedia tiếng Việt và localvietnam."
+   },
+   {
+    "nam": "1932",
+    "su_kien": "Ngày 30/3/1932 xong đợt đầu: cung thánh, hậu tẩm và hai gian cánh.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Ngày 30/3 chỉ Wikipedia (và trang menthanhgianhatrang chép lại); localvietnam chỉ ghi năm 1932."
+   },
+   {
+    "nam": "1934",
+    "su_kien": "Ngày 14/11/1934 đặt thánh giá có con gà lên đỉnh tháp chuông chính.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+     "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1942",
+    "su_kien": "Ngày 25/1/1942 khánh thành nhà thờ; tháng 2/1942 làm phép.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://localvietnam.com/lam-dong/dalat/dalat-cathedral/",
+     "https://en.wikipedia.org/wiki/St._Nicholas_Cathedral,_Da_Lat",
+     "https://english.vov.vn/en/travel/beautiful-churches-in-the-central-highland-city-of-da-lat-35342.vov"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Ngày 25/1: Wikipedia tiếng Việt, localvietnam. Wikipedia tiếng Anh: làm phép tháng 2/1942, nội thất xong năm 1942. VOV: 'July 1931 to January 1942'."
+   },
+   {
+    "nam": "1960",
+    "su_kien": "Ngày 24/11/1960 lập Giáo phận Đà Lạt; nhà thờ thành nhà thờ chính tòa.",
+    "nguon": [
+     "https://gcatholic.org/dioceses/diocese/dala0.htm",
+     "https://en.wikipedia.org/wiki/Roman_Catholic_Diocese_of_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Hai nguồn ghi ngày lập giáo phận và tên nhà thờ chính tòa; không nguồn nào ghi riêng ngày nâng lên chính tòa."
+   }
+  ],
+  "trang": "nha-tho-con-ga"
+ },
+ {
+  "so": 56,
+  "ten_1963": "Chùa Linh Quang",
+  "nay": {
+   "ten": "Chùa Linh Quang (Sắc tứ Linh Quang tự)",
+   "mo_ta": "Vẫn là chùa Phật giáo, số 133 Hai Bà Trưng, phường Cam Ly - Đà Lạt; được coi là chùa đầu tiên ở Đà Lạt.",
+   "nguon": [
+    "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+    "https://mytour.vn/vi/blog/bai-viet/chua-linh-quang-noi-sinh-soi-van-hoa-tin-nguong-o-da-lat.html",
+    "https://www.openstreetmap.org/way/232458166"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Điểm OSM \"Chùa Linh Quang\" (way/232458166) cách toạ độ 22 m; cùng tên.",
+  "moc": [
+   {
+    "nam": "1921",
+    "su_kien": "Hoà thượng Nhơn Thứ từ Khánh Hoà lên, dựng thảo am đặt tên Linh Quang tự.",
+    "nguon": [
+     "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
+     "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+     "https://vi.wikipedia.org/wiki/T%C3%B4n_gi%C3%A1o_t%E1%BA%A1i_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Nhiều trang du lịch (mytour, kienthuc) ghi 1931; Tạp chí Nghiên cứu Phật học, vinwonders và Wikipedia (dẫn Địa chí Đà Lạt tr.385) ghi 1921."
+   },
+   {
+    "nam": "1933",
+    "su_kien": "Phật tử cúng dường, am tranh được dựng thành ngôi Tam bảo.",
+    "nguon": [
+     "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+     "https://mytour.vn/vi/blog/bai-viet/chua-linh-quang-noi-sinh-soi-van-hoa-tin-nguong-o-da-lat.html"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1938",
+    "su_kien": "Vua Bảo Đại ban sắc tứ, biển ghi năm Bảo Đại thứ 13.",
+    "nguon": [
+     "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+     "https://mytour.vn/vi/blog/bai-viet/chua-linh-quang-noi-sinh-soi-van-hoa-tin-nguong-o-da-lat.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "vinwonders ghi 1938 và chép nguyên biển \"Bảo Đại thập tam niên\" (= 1938); mytour ghi \"1983\" (gõ nhầm). Coi như chỉ một nguồn rõ."
+   },
+   {
+    "nam": "1958",
+    "su_kien": "Hoà thượng Minh Cảnh (trụ trì đời thứ 3) trùng tu chùa.",
+    "nguon": [
+     "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
+     "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+     "https://mytour.vn/vi/blog/bai-viet/chua-linh-quang-noi-sinh-soi-van-hoa-tin-nguong-o-da-lat.html"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1968",
+    "su_kien": "Chùa bị tàn phá nặng trong Tết Mậu Thân, sau đó sửa lại.",
+    "nguon": [
+     "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1972",
+    "su_kien": "Trùng tu lớn lần nữa.",
+    "nguon": [
+     "https://vinwonders.com/vi/wonderpedia/news/chua-linh-quang-da-lat/",
+     "https://mytour.vn/vi/blog/bai-viet/chua-linh-quang-noi-sinh-soi-van-hoa-tin-nguong-o-da-lat.html",
+     "https://kienthuc.net.vn/kho-tri-thuc/trung-hop-la-ky-cua-ba-ngoi-chua-thieng-noi-tieng-da-lat-1177306.html"
+    ],
+    "chua_chac": false
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 57,
+  "ten_1963": "Chùa Linh Sơn",
+  "nay": {
+   "ten": "Chùa Linh Sơn",
+   "mo_ta": "Vẫn là chùa, số 120 Nguyễn Văn Trỗi; là nơi đặt văn phòng Ban Trị sự Phật giáo tỉnh Lâm Đồng.",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Linh_S%C6%A1n_Temple",
+    "https://vinwonders.com/vi/wonderpedia/news/chua-linh-son/",
+    "https://www.openstreetmap.org/way/361851927"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Điểm OSM \"Chùa Linh Sơn\" (way/361851927) cách toạ độ 65 m; cùng tên.",
+  "moc": [
+   {
+    "nam": "1936",
+    "su_kien": "Bà Từ Cung (mẹ vua Bảo Đại) đề nghị dựng một ngôi chùa ở Đà Lạt.",
+    "nguon": [
+     "https://vinwonders.com/vi/wonderpedia/news/chua-linh-son/"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Tạp chí Nghiên cứu Phật học cũng nói chùa xây theo đề nghị của bà Từ Cung nhưng không ghi năm 1936."
+   },
+   {
+    "nam": "1938",
+    "su_kien": "Hội Phật học Trung phần cùng Phật tử khởi công xây chùa.",
+    "nguon": [
+     "https://www.tapchinghiencuuphathoc.vn/giai-doan-dau-trong-qua-trinh-dinh-hinh-va-on-dinh-phat-giao-lam-dong.html",
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://kienthuc.net.vn/kho-tri-thuc/dieu-dac-biet-cua-chua-linh-son-noi-tieng-nhat-da-lat-1175727.html",
+     "https://en.wikipedia.org/wiki/Linh_S%C6%A1n_Temple"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1940",
+    "su_kien": "Chùa xây xong, Hoà thượng Thích Trí Thủ làm trụ trì đầu tiên.",
+    "nguon": [
+     "https://en.wikipedia.org/wiki/Linh_S%C6%A1n_Temple",
+     "https://vinwonders.com/vi/wonderpedia/news/chua-linh-son/",
+     "https://kienthuc.net.vn/kho-tri-thuc/dieu-dac-biet-cua-chua-linh-son-noi-tieng-nhat-da-lat-1175727.html",
+     "https://vi.wikipedia.org/wiki/T%C3%B4n_gi%C3%A1o_t%E1%BA%A1i_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1952",
+    "su_kien": "Đúc tượng Phật Thích Ca bằng đồng nặng 1.250 kg đặt ở chính điện.",
+    "nguon": [
+     "https://en.wikipedia.org/wiki/Linh_S%C6%A1n_Temple",
+     "https://kienthuc.net.vn/kho-tri-thuc/dieu-dac-biet-cua-chua-linh-son-noi-tieng-nhat-da-lat-1175727.html"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1958",
+    "su_kien": "Đúc đại hồng chung bằng đồng nặng 700 kg.",
+    "nguon": [
+     "https://kienthuc.net.vn/kho-tri-thuc/dieu-dac-biet-cua-chua-linh-son-noi-tieng-nhat-da-lat-1175727.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 58,
+  "ten_1963": "Miếu Âm Hồn",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Quanh toạ độ (gần chỗ Kim Đồng – hẻm 1 La Sơn Phu Tử – Hai Bà Trưng) OSM không có miếu/đền nào; tìm web không thấy nguồn nào nói về Miếu Âm Hồn ở Đà Lạt. Gần nhất là Ni viện Tuệ Quang (OSM cách 156–220 m về phía nam) nhưng không có gì cho thấy là cùng một nơi.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 67,
+  "ten_1963": "Chùa Sư Nữ",
+  "nay": {
+   "ten": "Chùa Linh Phong (Chùa sư nữ Linh Phong)",
+   "mo_ta": "Chùa ni (sư cô) trên đồi, số 72C Hoàng Hoa Thám, Đà Lạt.",
+   "nguon": [
+    "https://kienthuc.net.vn/kho-tri-thuc/trung-hop-la-ky-cua-ba-ngoi-chua-thieng-noi-tieng-da-lat-1177306.html",
+    "https://www.anphat.org/tieng-viet/chua-viet/mien-trung/lam-dong/chua-linh-phong/",
+    "https://www.openstreetmap.org/node/11277754062"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Điểm OSM \"Chùa Linh Phong\" (node/11277754062) cách toạ độ 84 m; tên đầy đủ là \"Chùa sư nữ Linh Phong\" (kienthuc), chùa dành cho sư cô đầu tiên ở Đà Lạt.",
+  "moc": [
+   {
+    "nam": "1940",
+    "su_kien": "Chùa hình thành (theo Địa chí Đà Lạt).",
+    "nguon": [
+     "https://kienthuc.net.vn/kho-tri-thuc/trung-hop-la-ky-cua-ba-ngoi-chua-thieng-noi-tieng-da-lat-1177306.html",
+     "https://vi.wikipedia.org/wiki/T%C3%B4n_gi%C3%A1o_t%E1%BA%A1i_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Lệch với mốc 1944 bên dưới; Wikipedia dẫn Địa chí Đà Lạt tr.400. Để chưa chắc vì hai bên mâu thuẫn."
+   },
+   {
+    "nam": "1944",
+    "su_kien": "Hoà thượng Bích Nguyên dựng thảo am, làm niệm Phật đường.",
+    "nguon": [
+     "https://tapchinghiencuuphathoc.vn/ni-truong-tu-huong-nguoi-mo-duong-cho-ni-gioi-phat-giao-lam-dong.html",
+     "https://www.anphat.org/tieng-viet/chua-viet/mien-trung/lam-dong/chua-linh-phong/"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1947",
+    "su_kien": "Ni trưởng Từ Hương từ Phan Rang lên nhận am, lo lập chùa ni.",
+    "nguon": [
+     "https://tapchinghiencuuphathoc.vn/ni-truong-tu-huong-nguoi-mo-duong-cho-ni-gioi-phat-giao-lam-dong.html",
+     "https://www.anphat.org/tieng-viet/chua-viet/mien-trung/lam-dong/chua-linh-phong/"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "anphat ghi \"từ năm 1848 đến 1962\" (gõ nhầm), chỉ Tạp chí Nghiên cứu Phật học ghi rõ 1947."
+   },
+   {
+    "nam": "1959",
+    "su_kien": "Niệm Phật đường hư hẳn, xin phép xây lại thành Linh Phong Ni tự.",
+    "nguon": [
+     "https://tapchinghiencuuphathoc.vn/ni-truong-tu-huong-nguoi-mo-duong-cho-ni-gioi-phat-giao-lam-dong.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1962",
+    "su_kien": "Ngôi chùa mới xây xong.",
+    "nguon": [
+     "https://tapchinghiencuuphathoc.vn/ni-truong-tu-huong-nguoi-mo-duong-cho-ni-gioi-phat-giao-lam-dong.html",
+     "https://www.anphat.org/tieng-viet/chua-viet/mien-trung/lam-dong/chua-linh-phong/",
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 69,
+  "ten_1963": "Nhà Thờ Tin Lành",
+  "nay": {
+   "ten": "Nhà thờ Tin Lành Đà Lạt (Hội Thánh Tin Lành Việt Nam, chi hội Đà Lạt)",
+   "mo_ta": "Vẫn là nhà thờ Tin Lành, số 72 Nguyễn Văn Trỗi; ngôi hiện nay xây lại năm 2011–2012.",
+   "nguon": [
+    "https://httlvn.org/le-cung-hien-nha-tho-tin-lanh-da-lat.html",
+    "https://thanhnien.vn/nha-tho-tin-lanh-dau-tien-o-da-lat-va-5000-tan-uoc-kho-18526101022112103.htm",
+    "https://www.openstreetmap.org/way/618049068"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Điểm OSM nhà thờ Tin Lành (way/618049068, 72 Nguyễn Văn Trỗi) cách toạ độ 41 m. Ngôi nhà thờ in trên bản đồ 1963 là ngôi 1942, đã được thay bằng ngôi mới 2011–2012.",
+  "moc": [
+   {
+    "nam": "1929",
+    "su_kien": "Tín hữu Tin Lành đầu tiên nhóm trong căn nhà nhỏ đường Minh Mạng (nay Trương Công Định).",
+    "nguon": [
+     "https://thanhnien.vn/nha-tho-tin-lanh-dau-tien-o-da-lat-va-5000-tan-uoc-kho-18526101022112103.htm",
+     "https://lamdong360.net/post/nha-tho-hoi-thanh-tin-lanh-da-lat"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Nhóm ở chỗ khác, chưa phải khu đồi này."
+   },
+   {
+    "nam": "1942",
+    "su_kien": "Khánh thành nhà thờ Tin Lành đầu tiên trên đồi cạnh đường Hàm Nghi (nay 72 Nguyễn Văn Trỗi).",
+    "nguon": [
+     "https://thanhnien.vn/nha-tho-tin-lanh-dau-tien-o-da-lat-va-5000-tan-uoc-kho-18526101022112103.htm",
+     "https://vi.wikipedia.org/wiki/T%C3%B4n_gi%C3%A1o_t%E1%BA%A1i_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://lamdong360.net/post/nha-tho-hoi-thanh-tin-lanh-da-lat",
+     "https://httlvn.org/le-cung-hien-nha-tho-tin-lanh-da-lat.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Wikipedia dẫn Địa chí Đà Lạt tr.394. Biên niên sử Đà Lạt trên Wikipedia lại ghi 1936 là năm xây — lệch."
+   },
+   {
+    "nam": "2011",
+    "su_kien": "Tháng 6 khởi công xây lại nhà thờ mới.",
+    "nguon": [
+     "https://httlvn.org/le-cung-hien-nha-tho-tin-lanh-da-lat.html",
+     "https://thanhnien.vn/nha-tho-tin-lanh-dau-tien-o-da-lat-va-5000-tan-uoc-kho-18526101022112103.htm"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2012",
+    "su_kien": "Ngày 10/2/2012 cung hiến nhà thờ mới.",
+    "nguon": [
+     "https://httlvn.org/le-cung-hien-nha-tho-tin-lanh-da-lat.html",
+     "https://thanhnien.vn/nha-tho-tin-lanh-dau-tien-o-da-lat-va-5000-tan-uoc-kho-18526101022112103.htm",
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": false
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 70,
+  "ten_1963": "Tu Viện Dòng Chúa Cứu Thế",
+  "nay": {
+   "ten": "Viện Khoa học sự sống, cơ sở Đà Lạt (trước là Viện Nghiên cứu Khoa học Tây Nguyên / Viện Sinh học Tây Nguyên)",
+   "mo_ta": "Viện nghiên cứu sinh học thuộc Viện Hàn lâm KH&CN Việt Nam, số 116 Xô Viết Nghệ Tĩnh; tầng hai làm bảo tàng sinh học cho khách xem.",
+   "nguon": [
+    "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_Nghi%C3%AAn_c%E1%BB%A9u_Khoa_h%E1%BB%8Dc_T%C3%A2y_Nguy%C3%AAn",
+    "https://baolamdong.vn/hoi-thao-quoc-te-ve-phat-trien-cong-nghiep-sinh-hoc-o-lam-dong-380983.html",
+    "https://vnexpress.net/bao-tang-trong-tu-vien-co-giua-rung-thong-o-da-lat-3895805.html",
+    "https://www.openstreetmap.org/way/473088090"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Toà nhà OSM way/473088090 (kiến trúc Pháp, ghi xây 1952) cách toạ độ 27 m; toạ độ Wikipedia của viện (11°58′16,75″B 108°25′19,86″Đ) cách ~20 m. Nhiều nguồn nói đây vốn là tu viện Dòng Chúa Cứu Thế.",
+  "moc": [
+   {
+    "nam": "1948–1952",
+    "su_kien": "Dòng Chúa Cứu Thế xây tu viện bằng đá trên đồi Tùng Lâm.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t",
+     "https://vnexpress.net/bao-tang-trong-tu-vien-co-giua-rung-thong-o-da-lat-3895805.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Biên niên sử Đà Lạt (Wikipedia): khởi công 1948, xong 1952. VnExpress: xây 1949, xong sau ba năm. Thanh Niên, mia, yeudalat ghi 1950. Địa chí Đà Lạt (lamdong.gov.vn, em không mở được, chỉ đọc qua đoạn trích tìm kiếm) ghi 1948–1952."
+   },
+   {
+    "nam": "trước 1975",
+    "su_kien": "Là tu viện (học viện) của tỉnh dòng Chúa Cứu Thế Việt Nam.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_Nghi%C3%AAn_c%E1%BB%A9u_Khoa_h%E1%BB%8Dc_T%C3%A2y_Nguy%C3%AAn",
+     "https://vnexpress.net/bao-tang-trong-tu-vien-co-giua-rung-thong-o-da-lat-3895805.html",
+     "https://www.yeudalat.com/vien-sinh-hoc-tay-nguyen/",
+     "https://thanhnien.vn/goc-ky-hoa-phan-vien-sinh-hoc-da-lat-185231014194100197.htm"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1978",
+    "su_kien": "Lập Trung tâm Nghiên cứu Khoa học tại Đà Lạt, tiền thân viện sinh học, đặt ở đây.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Bi%C3%AAn_ni%C3%AAn_s%E1%BB%AD_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Đoạn trích Địa chí Đà Lạt (không mở được) ghi chuyển giao ngày 5/9/1978."
+   },
+   {
+    "nam": "1985",
+    "su_kien": "Thành Phân viện Sinh học Đà Lạt.",
+    "nguon": [
+     "https://thanhnien.vn/goc-ky-hoa-phan-vien-sinh-hoc-da-lat-185231014194100197.htm",
+     "https://mia.vn/cam-nang-du-lich/kham-pha-ve-dep-ma-mi-ben-trong-phan-vien-sinh-hoc-da-lat-1473"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1991",
+    "su_kien": "Giao về Viện Sinh học Nhiệt đới, gọi Phân viện Sinh học tại Đà Lạt.",
+    "nguon": [
+     "https://www.yeudalat.com/vien-sinh-hoc-tay-nguyen/"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "2008",
+    "su_kien": "Ngày 20/2/2008 đổi tên thành Viện Sinh học Tây Nguyên.",
+    "nguon": [
+     "https://www.yeudalat.com/vien-sinh-hoc-tay-nguyen/",
+     "https://vi.wikipedia.org/wiki/Vi%E1%BB%87n_Nghi%C3%AAn_c%E1%BB%A9u_Khoa_h%E1%BB%8Dc_T%C3%A2y_Nguy%C3%AAn"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2025",
+    "su_kien": "Đã mang tên Viện Khoa học sự sống (trước là Viện Nghiên cứu Khoa học Tây Nguyên).",
+    "nguon": [
+     "https://baolamdong.vn/hoi-thao-quoc-te-ve-phat-trien-cong-nghiep-sinh-hoc-o-lam-dong-380983.html",
+     "https://www.openstreetmap.org/way/473088090"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Báo Lâm Đồng 3/7/2025 gọi tên mới; chưa tìm được năm đổi tên chính xác."
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 71,
+  "ten_1963": "Nhà Thờ Đức Bà",
+  "nay": {
+   "ten": "Nhà thờ Domaine de Marie (nhà thờ giáo xứ Mai Anh, Lãnh địa Đức Bà)",
+   "mo_ta": "Nhà thờ giáo xứ Mai Anh ở số 1 Ngô Quyền, do Tu hội Truyền giáo Vinh Sơn coi sóc; khách tham quan đông.",
+   "nguon": [
+    "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+    "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+    "https://www.openstreetmap.org/way/361692265"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Điểm OSM \"Nhà thờ Domaine de Marie\" (way/361692265) cách toạ độ 40 m.",
+  "moc": [
+   {
+    "nam": "1939",
+    "su_kien": "Tháng 8: đặt viên đá đầu tiên, Đức cha Jean Cassaigne chủ trì.",
+    "nguon": [
+     "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html"
+    ],
+    "chua_chac": true,
+    "ghi_chu": "Chỉ trang giáo xứ (vinhson.net 02/03/2020); báo và Wikipedia ghi khởi công 1940."
+   },
+   {
+    "nam": "1940",
+    "su_kien": "Khởi công khu nhà thờ – tu viện, bà Suzanne Humbert (phu nhân Toàn quyền Jean Decoux) vận động quyên góp.",
+    "nguon": [
+     "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+     "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+     "https://en.wikipedia.org/wiki/Domaine_de_Marie"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VnExpress ghi xây trong giai đoạn 1940–1944."
+   },
+   {
+    "nam": "1941",
+    "su_kien": "Hai nữ tu Bác Ái lên Đà Lạt tìm đất; cuối tháng 10 có 30 nữ tu đến ở.",
+    "nguon": [
+     "https://en.wikipedia.org/wiki/Domaine_de_Marie"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1942",
+    "su_kien": "Nhà nguyện xong (vinhson.net), khánh thành tháng 11 với 60 nữ tu và một linh mục (Wikipedia tiếng Anh).",
+    "nguon": [
+     "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+     "https://en.wikipedia.org/wiki/Domaine_de_Marie"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Năm xong lệch: 1942 (vinhson.net, Wikipedia tiếng Anh) / 1944 (VnExpress 'giai đoạn 1940–1944') / 1943 (vài trang du lịch, OSM)."
+   },
+   {
+    "nam": "1943",
+    "su_kien": "Tượng Đức Mẹ đứng trên quả địa cầu (cao khoảng 3 m, nặng khoảng 1 tấn) do kiến trúc sư Pháp Jonchère thiết kế, bà Decoux dâng tặng.",
+    "nguon": [
+     "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+     "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+     "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "vinhson.net ghi tượng làm ở Hà Nội, đưa về đồi Mai Anh ngày 15/08/1944 (1 nguồn)."
+   },
+   {
+    "nam": "1944",
+    "su_kien": "Bà Suzanne Humbert mất sau tai nạn xe trên đèo Prenn khi từ Sài Gòn lên Đà Lạt; mộ đặt phía sau nhà thờ theo ý nguyện.",
+    "nguon": [
+     "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+     "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+     "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_Domaine_de_Marie",
+     "https://en.wikipedia.org/wiki/Domaine_de_Marie"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Ngày mất 6/1/1944 chỉ có ở một blog → không ghi."
+   },
+   {
+    "nam": "trước 1975",
+    "su_kien": "Tu viện chính của hơn 50 nữ tu, mở nhà trẻ, trại mồ côi, trường tiểu học dạy chương trình Pháp.",
+    "nguon": [
+     "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+     "https://mapstore.vn/tin-tuc/nha-tho-giao-xu-mai-anh-giao-hat-da-lat-giao-phan-da-lat"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1975–1976",
+    "su_kien": "Tòa Giám mục Đà Lạt lập giáo xứ Mai Anh; linh mục Giuse Nguyễn Văn Hân quản xứ từ 12/1975.",
+    "nguon": [
+     "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+     "https://mapstore.vn/tin-tuc/nha-tho-giao-xu-mai-anh-giao-hat-da-lat-giao-phan-da-lat"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "Ngày thành lập 29/06/1976 chỉ có ở mapstore."
+   },
+   {
+    "nam": "2000",
+    "su_kien": "Tháng 4: giáo xứ giao cho Tu hội Truyền giáo Vinh Sơn coi sóc.",
+    "nguon": [
+     "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": "domaine-de-marie"
+ },
+ {
+  "so": 72,
+  "ten_1963": "Lãnh Địa Đức Bà",
+  "nay": {
+   "ten": "Tu viện Nữ tử Bác ái Vinh Sơn trong khuôn viên Domaine de Marie",
+   "mo_ta": "Khu nhà dòng của các nữ tu Bác Ái Vinh Sơn phía bắc nhà thờ; các sơ vẫn ở, lo trẻ khuyết tật, bán hàng thủ công.",
+   "nguon": [
+    "https://en.wikipedia.org/wiki/Domaine_de_Marie",
+    "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+    "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Toạ độ cách nhà thờ Domaine de Marie (OSM way/361692265) 99 m về phía bắc, nằm trong khuôn viên ~12 ha có nhà thờ và hai tu viện (Wikipedia). \"Lãnh địa Đức Bà\" là tên dịch của Domaine de Marie; số 71 là nhà thờ, số 72 là khu tu viện.",
+  "moc": [
+   {
+    "nam": "1940",
+    "su_kien": "Khởi công khu nhà thờ – tu viện, bà Suzanne Humbert (phu nhân Toàn quyền Jean Decoux) vận động quyên góp.",
+    "nguon": [
+     "https://thanhnien.vn/nha-tho-domaine-de-marie-lanh-dia-duc-ba-giua-long-da-lat-185260329222936747.htm",
+     "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+     "https://en.wikipedia.org/wiki/Domaine_de_Marie"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VnExpress ghi xây trong giai đoạn 1940–1944."
+   },
+   {
+    "nam": "1941",
+    "su_kien": "Hai nữ tu Bác Ái lên Đà Lạt tìm đất; cuối tháng 10 có 30 nữ tu đến ở.",
+    "nguon": [
+     "https://en.wikipedia.org/wiki/Domaine_de_Marie"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "trước 1975",
+    "su_kien": "Tu viện chính của hơn 50 nữ tu, mở nhà trẻ, trại mồ côi, trường tiểu học dạy chương trình Pháp.",
+    "nguon": [
+     "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html",
+     "https://mapstore.vn/tin-tuc/nha-tho-giao-xu-mai-anh-giao-hat-da-lat-giao-phan-da-lat"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2007",
+    "su_kien": "Còn 23 nữ tu dòng Nữ tử Bác ái Vinh Sơn sống trong tu viện.",
+    "nguon": [
+     "https://en.wikipedia.org/wiki/Domaine_de_Marie"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "nay",
+    "su_kien": "Cộng đoàn Nữ tử Bác ái Vinh Sơn vẫn dự lễ sáng hằng ngày ở nhà thờ.",
+    "nguon": [
+     "https://vinhson.net/giao-xu-mai-anh-domaine-de-marie.html",
+     "https://vnexpress.net/nha-tho-doc-dao-tren-doi-mai-anh-dao-da-lat-2964644.html"
+    ],
+    "chua_chac": false,
+    "ghi_chu": "VnExpress 2014: các sơ vẫn làm việc xã hội (chăm trẻ chậm phát triển)."
+   }
+  ],
+  "trang": "domaine-de-marie"
+ },
+ {
+  "so": 73,
+  "ten_1963": "Tu Viện Saint Paul",
+  "nay": {
+   "ten": "Cộng đoàn Nagiarét (Nazareth) – Dòng Thánh Phaolô Thành Chartres",
+   "mo_ta": "Vẫn là nhà của các nữ tu dòng Thánh Phaolô Thành Chartres (tỉnh dòng Sài Gòn), số 20 Trần Phú.",
+   "nguon": [
+    "https://www.openstreetmap.org/way/475362783",
+    "https://wikimapia.org/13472035/vi/%E2%9C%A0-d%C3%B2ng-Th%C3%A1nh-Phaol%C3%B4-Th%C3%A0nh-Chartres"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Ba toà nhà OSM \"Nữ Tu Thánh Phaolô Nazareth / Sisters of St. Paul de Chartres Nazareth\" cách toạ độ 25–47 m; Wikimapia ghi điểm (11,93728; 108,43583) cách ~30 m. Saint Paul = Thánh Phaolô, cùng dòng tu. Hai nguồn đều do người dùng đóng góp.",
+  "moc": [],
+  "trang": null
+ }
+]

@@ -174,21 +174,26 @@
   // Đường cong mềm đi QUA đúng các điểm (Catmull-Rom → Bézier), tay nắm ≤ 40% đoạn kề để không vọt lố
   // (anh Kha 27/11 "các đường cong… chưa đẹp"). kin = true: vùng khép kín (rừng, vườn, hồ).
   function congOf(pts, kin) {
+    // Làm mềm sẵn thành nhiều đoạn thẳng ngắn (Catmull-Rom, chia mỗi đoạn theo độ dài) — KHÔNG dùng lệnh cong 'C' của SVG:
+    // điện thoại vẽ hàng nghìn đường cong Bézier rất chậm khi phóng gần (anh Kha 27/11 "zoom vô là chậm, treo"; đo: kéo 105 s → 0,5 s).
     var n = layer.prec || 1, P = pts.map(function (p) { return [px(p[0]), py(p[1])]; }), m = P.length;
     if (m < 3) return lineOf(pts) + (kin ? 'Z' : '');
     if (kin && P[0][0] === P[m - 1][0] && P[0][1] === P[m - 1][1]) { P.pop(); m--; }
     function at(i) { return kin ? P[(i + m) % m] : P[Math.max(0, Math.min(m - 1, i))]; }
-    function f(v) { return v.toFixed(n); }
-    var d = 'M' + f(P[0][0]) + ' ' + f(P[0][1]), end = kin ? m : m - 1;
+    var buoc = 0.00006 * K;                       // ~6 m một đoạn nhỏ
+    var d = 'M' + P[0][0].toFixed(n) + ' ' + P[0][1].toFixed(n), end = kin ? m : m - 1;
     for (var i = 0; i < end; i++) {
       var p0 = at(i - 1), p1 = at(i), p2 = at(i + 1), p3 = at(i + 2);
-      var L = Math.hypot(p2[0] - p1[0], p2[1] - p1[1]);
-      function tay(a, b) {
-        var tx = (b[0] - a[0]) / 6, ty = (b[1] - a[1]) / 6, l = Math.hypot(tx, ty), cap = 0.4 * L;
-        return l > cap && l > 0 ? [tx * cap / l, ty * cap / l] : [tx, ty];
+      var L = Math.hypot(p2[0] - p1[0], p2[1] - p1[1]), k = Math.max(1, Math.min(6, Math.round(L / buoc)));
+      for (var j = 1; j <= k; j++) {
+        var t = j / k, t2 = t * t, t3 = t2 * t, x, y;
+        if (j === k) { x = p2[0]; y = p2[1]; }
+        else {
+          x = 0.5 * (2 * p1[0] + (-p0[0] + p2[0]) * t + (2 * p0[0] - 5 * p1[0] + 4 * p2[0] - p3[0]) * t2 + (-p0[0] + 3 * p1[0] - 3 * p2[0] + p3[0]) * t3);
+          y = 0.5 * (2 * p1[1] + (-p0[1] + p2[1]) * t + (2 * p0[1] - 5 * p1[1] + 4 * p2[1] - p3[1]) * t2 + (-p0[1] + 3 * p1[1] - 3 * p2[1] + p3[1]) * t3);
+        }
+        d += 'L' + x.toFixed(n) + ' ' + y.toFixed(n);
       }
-      var t1 = tay(p0, p2), t2 = tay(p1, p3);
-      d += 'C' + f(p1[0] + t1[0]) + ' ' + f(p1[1] + t1[1]) + ' ' + f(p2[0] - t2[0]) + ' ' + f(p2[1] - t2[1]) + ' ' + f(p2[0]) + ' ' + f(p2[1]);
     }
     return d + (kin ? 'Z' : '');
   }

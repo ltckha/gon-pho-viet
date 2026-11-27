@@ -491,8 +491,10 @@
     // Sài Gòn 1961: tranh nền Spark vẽ lại theo bản quét (đặt bằng 3 góc: trên-trái, trên-phải, dưới-trái) — đè lên nét dò máy
     (data.anh_nen || []).forEach(function (a) {
       var x0 = px(a.tt[0]), y0 = py(a.tt[1]), ax = px(a.tp[0]) - x0, ay = py(a.tp[1]) - y0, bx = px(a.dt[0]) - x0, by = py(a.dt[1]) - y0;
-      var im = el('image', { href: a.file.replace('sg1961/', 'sg1961/nho/'), x: 0, y: 0, width: 1, height: 1, preserveAspectRatio: 'none', 'class': 'nen61',
-        transform: 'matrix(' + [ax, ay, bx, by, x0, y0].map(function (v) { return v.toFixed(7); }).join(' ') + ')' });
+      // khung 1000×1000 (không phải 1×1): trình duyệt làm tròn toạ độ ảnh ở hệ riêng của nó — khung 1×1 làm tranh lệch 20–30 m
+      // so với tên đường (anh Kha 27/11 "tên lệch ra nhiều lắm")
+      var im = el('image', { href: a.file.replace('sg1961/', 'sg1961/nho/'), x: 0, y: 0, width: 1000, height: 1000, preserveAspectRatio: 'none', 'class': 'nen61',
+        transform: 'matrix(' + [ax / 1000, ay / 1000, bx / 1000, by / 1000, x0, y0].map(function (v) { return v.toPrecision(10); }).join(' ') + ')' });
       // khung ô (toạ độ bản đồ) + bề ngang → chọn tranh nhỏ / vừa / nét theo chỗ đang nhìn (nenSac)
       im._nen = { f: a.file, m: 'nho', w: Math.hypot(ax, ay), x1: Math.min(x0, x0 + ax, x0 + bx, x0 + ax + bx), x2: Math.max(x0, x0 + ax, x0 + bx, x0 + ax + bx),
         y1: Math.min(y0, y0 + ay, y0 + by, y0 + ay + by), y2: Math.max(y0, y0 + ay, y0 + by, y0 + ay + by) };
@@ -1688,7 +1690,7 @@
     veLegend(layer.legend);
     var nguon = data.nguon.concat(cache.ngoai && layer.kind !== 'duong' ? [cache.ngoai.nguon] : []);
     document.getElementById('srcList').innerHTML = nguon.map(function (n) {
-      return '<li>' + esc(n.ten) + '<br><a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.link) + '</a></li>';
+      return '<li>' + esc(n.ten) + (n.link ? '<br><a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.link) + '</a>' : '') + '</li>';
     }).join('');
     document.getElementById('lichBtn').hidden = layer.kind !== 'duong';
     var sang = document.getElementById('sangBtn');

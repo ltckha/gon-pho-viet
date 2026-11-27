@@ -463,3 +463,5 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 #svg.sg61 .nha63g, #svg.sg61 .dac63 { }
 #svg.sg61 .rung63 path { fill: #cfe0b5; }
 .vien61 path { fill: none; stroke: #7d6849; stroke-width: .9; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.net61 path { fill: #4e3f2e; fill-rule: evenodd; stroke: none; }
+#svg.sg61 .rung63 path { fill: #d5e6c0; }

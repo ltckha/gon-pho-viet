@@ -488,6 +488,16 @@
     poly(data.dam || [], 'dam63');
     poly(data.khu || [], 'khu63');
     poly(data.nha_dac || [], 'dac63');           // Sài Gòn 1961: công trình lớn in đen đặc
+    if (data.net) {                              // Sài Gòn 1961: CHÉP Y NÉT IN của bản gốc (viền, gạch nhà, khối đặc) — một đường path
+      var tl = data.net_tl || 1e5, dnet = '';
+      data.net.forEach(function (f) {
+        var x = f[0], y = f[1];
+        dnet += 'M' + px(ox + x / tl).toFixed(5) + ' ' + py(oy + y / tl).toFixed(5);
+        for (var i = 2; i < f.length; i += 2) { x += f[i]; y += f[i + 1]; dnet += 'L' + px(ox + x / tl).toFixed(5) + ' ' + py(oy + y / tl).toFixed(5); }
+        dnet += 'Z';
+      });
+      var gnet = el('g', { 'class': 'net61' }); gnet.appendChild(el('path', { d: dnet })); land.appendChild(gnet);
+    }
     if (data.vien) {                             // Sài Gòn 1961: nét in mảnh chép từ bản gốc (viền khối, lề đường)
       var gv = el('g', { 'class': 'vien61' }), dv = '';
       data.vien.forEach(function (p) { dv += lineOf(p); });

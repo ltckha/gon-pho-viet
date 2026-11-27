@@ -187,6 +187,28 @@ def main(anh, toado, x0, y0, x1, y1, ra):
             vien.append(ll(Pn.tolist()))
     duong = []
     print('nét viền', len(vien))
+    # ---- CHÉP Y NÉT IN (anh Kha 27/11: "chỉ vẽ y nét cũ là ra, kể cả khối nhà, chỉ có tên đường gắn lại"): mực đậm (< 70)
+    #      — viền khối, gạch nhà, khối đặc, đường sắt — đổi thành đa giác vector y hình in. Bỏ: lưới toạ độ, chấm cỏ lẻ (< 12 điểm ảnh),
+    #      CHỮ in trong lòng đường (mẩu nhỏ cao 6–22 điểm ảnh nằm giữa giấy trống) — tên đường gắn lại bằng chữ mới.
+    netm = g < 70
+    netm &= ~(luoi & (ndi.uniform_filter(netm.astype(np.float32), 9) < 0.35))
+    netm = remove_small_objects(netm, 12)
+    lbn, _ = ndi.label(netm, np.ones((3, 3)))
+    quanh = ndi.uniform_filter((g > 140).astype(np.float32), 41)       # tỉ lệ giấy trống quanh (~55 m)
+    bo = []
+    for k, sl in enumerate(ndi.find_objects(lbn)):
+        h, w = sl[0].stop - sl[0].start, sl[1].stop - sl[1].start
+        if 5 <= h <= 22 and w <= 26 and (lbn[sl] == k + 1).sum() <= 160:
+            cy, cx = (sl[0].start + sl[0].stop) // 2, (sl[1].start + sl[1].stop) // 2
+            if quanh[cy, cx] > 0.55 and not cv_m[cy, cx]:
+                bo.append(k + 1)
+    netm &= ~np.isin(lbn, bo)
+    net = []
+    for c in find_contours(np.pad(netm, 1).astype(np.float32), 0.5):
+        c = approximate_polygon(c - 1, 0.7)
+        if len(c) >= 3:
+            net.append(ll([(q[1], q[0]) for q in c]))
+    print('nét in', len(net), 'đa giác, bỏ', len(bo), 'mẩu chữ')
     print('phố', len(duong), 'nhà', len(nha), 'khối', len(khu), 'đặc', len(dac), 'sông', len(nuoc), 'công viên', len(cv))
 
     lo0, la0 = px2ll(np.array([x0]), np.array([y1]))[0]; lo1, la1 = px2ll(np.array([x1]), np.array([y0]))[0]
@@ -200,8 +222,17 @@ def main(anh, toado, x0, y0, x1, y1, ra):
                 f += [a2 - a1, b2 - b1]
         if len(f) >= 6:
             nen.append(f)
+    nen_net = []
+    for poly in net:
+        q = [(round((a - ox) * 2e5), round((b - oy) * 2e5)) for a, b in poly]
+        f = [q[0][0], q[0][1]]
+        for (a1, b1), (a2, b2) in zip(q, q[1:]):
+            if (a2, b2) != (a1, b1):
+                f += [a2 - a1, b2 - b1]
+        if len(f) >= 6:
+            nen_net.append(f)
     data = {'nam': 1961, 'khung': khung, 'duong': duong, 'duong_mat': [], 'duong_mon': [], 'ten_duong': [], 'diem': [], 'dia_danh': [],
-            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': [], 'vien': vien, 'nha_dac': dac, 'nha': nen,
+            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': [], 'net': nen_net, 'net_tl': 2e5, 'nha': [],
             'nha_cach_ghi': 'mỗi khối: [x0, y0, dx, dy, ...] đơn vị 1e-5 độ tính từ khung[0], khung[1]',
             'nguon': [{'ten': 'Bản đồ Sài Gòn 1:10.000 (Indochina City Plans), ấn bản 2-AMS 1961 — vẽ lại từ bản này. Tài liệu chính phủ Mỹ.',
                        'link': 'https://maps.lib.utexas.edu/maps/vietnam.html'}]}

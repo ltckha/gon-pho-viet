@@ -891,7 +891,22 @@
   function apply() {
     world.setAttribute('transform', 'translate(' + view.x.toFixed(2) + ' ' + view.y.toFixed(2) + ') scale(' + view.s.toFixed(5) + ')');
     var z = view.s / fit.s;                       // 1 = vừa khung
-    if (layer && layer.y1963) datMuc63(z);
+    if (layer && layer.y1963) {
+      // Đà Lạt 1963 (anh Kha 27/11: phóng ra vào nhanh → cả app Claude khởi động lại vì hết bộ nhớ): TRONG LÚC kéo / phóng chỉ dời
+      // và co giãn nền + đường chính; nhà, vòng đồi, hoa văn, chữ, biểu tượng tạm ẩn. Ngừng tay 0,25 giây mới đổi mức, vẽ lại chữ.
+      svg.classList.add('dong');
+      clearTimeout(apply._ngung);
+      apply._ngung = setTimeout(function () {
+        var z2 = view.s / fit.s;
+        datMuc63(z2);
+        labels.setAttribute('font-size', (11 / view.s).toFixed(4));
+        labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
+        for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');
+        layout();
+        svg.classList.remove('dong');
+      }, 250);
+      return;
+    }
     labels.setAttribute('font-size', (11 / view.s).toFixed(4));
     labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
     for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');

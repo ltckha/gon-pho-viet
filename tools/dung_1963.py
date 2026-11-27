@@ -92,7 +92,6 @@ def main(pdf, soat=None):
     dens = np.asarray(Image.fromarray(water.astype(np.uint8) * 255).resize((W // 4, H // 4), Image.BOX)) > 90
     nuoc_m = remove_small_holes(remove_small_objects(binary_closing(dens, disk(2)), 30), 200)
     # ---------- rừng ----------
-    gd = np.asarray(Image.fromarray(green.astype(np.uint8) * 255).resize((W // 4, H // 4), Image.BOX)) > 70
     gd = np.asarray(Image.fromarray(green.astype(np.uint8) * 255).resize((W // 4, H // 4), Image.BOX)).astype(np.float32) / 255
     from scipy.ndimage import gaussian_filter
     rung_m = gaussian_filter(gd, 2.0) > 0.22                          # làm trơn viền rừng
@@ -112,10 +111,17 @@ def main(pdf, soat=None):
 
     # ---------- nhà: khối đen đặc, gần chữ nhật ----------
     solid = binary_opening(dark, np.ones((3, 3), bool))
+    # vùng vòng số in (đọc từ docs/research/ams_1963_vong_so.tsv): chữ số trong vòng không phải nhà
+    vong_nha = np.zeros((H, W), bool)
+    for l in open(os.path.join(ROOT, 'docs/research/ams_1963_vong_so.tsv'), encoding='utf-8').read().split('\n')[1:]:
+        c = l.split('\t')
+        if len(c) > 2:
+            vx, vy = to_px(float(c[1]), float(c[2])); vx, vy = int(vx), int(vy)
+            vong_nha[max(0, vy - 16):vy + 17, max(0, vx - 16):vx + 17] = True
     nha = []
     for rp in regionprops(label(solid, connectivity=1)):
         h, w = rp.bbox[2] - rp.bbox[0], rp.bbox[3] - rp.bbox[1]
-        if rp.area < 10 or rp.area > 4000 or rp.extent < 0.55 or min(h, w) < 3:
+        if rp.area < 12 or rp.area > 4000 or rp.extent < 0.55 or min(h, w) < 3 or vong_nha[int(rp.centroid[0]), int(rp.centroid[1])]:
             continue
         sub = np.pad(rp.image, 1).astype(float)
         cs = find_contours(sub, 0.5)

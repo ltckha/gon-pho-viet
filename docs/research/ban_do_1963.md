@@ -31,3 +31,12 @@ Anh Kha chốt 26/11: vẽ lại kiểu "cách 2" (phẳng, gọn), mọi nét c
 - Thêm nét: đường tô ĐỎ trong khu phố (bản AMS không viền đen) — vd. Đại lộ Phan Đình Phùng, Minh Mạng; 4 đường vẽ tay theo nét in quanh vòng 39, 45, 76, 92 (`docs/research/ams_1963_duong_tay.json`).
 - Kết quả: 99/99 tên đường có trên bản đồ (4 số còn lại là quảng trường, khu — điểm).
 - Còn nghi: vòng có mũi tên chỉ đường nhỏ trong khu chợ (46, 38, 61, 84) — bám khúc gần nhất, có thể lệch sang đường bên.
+
+## Soát lại góp ý Antigravity (27/11/2026, lần 2)
+- a.2 Kiểm phép nắn PDF: đo 104 chỗ lưới UTM 1 km in trên bản đồ so với vị trí phép CTM dự đoán — lệch trung vị 2,4 m (10% chỗ chạm biên cửa sổ tìm 12,7 m, nhiều khả năng bắt nhầm nét khác, chưa soát từng chỗ). Phép nắn trang khớp lưới in.
+- a.1/a.3 Sai số datum Indian 1960 → WGS84 (EPSG:1542 ±25 m/trục): CHƯA kiểm độc lập (cần cài PROJ/pyproj để đối chiếu, hoặc điểm khống chế thực địa) — ghi rõ, không khẳng định "< 1 m".
+- d. Đống Đa / Tô Hiến Thành: tên nay gắn theo vòng số in trên bản đồ 1963 (31 và 96); vị trí ngược với tên hiện nay là đúng như bản in — chưa có nguồn nói là đổi tên cho nhau hay lỗi in.
+- f.5 Nhà: bỏ khối < ~30 m² và chữ số trong vòng số (11.669 → 11.510 khối). Bỏ dòng thừa.
+- f.6 Hai công trình trùng ô lưới (#2, #93): biểu tượng đang tạm ẩn — sửa khi bật lại.
+- e. Mở rộng cả nước: `o_luoi()` đang gắn cứng ô 100 km của tờ Đà Lạt (200000/1300000, múi 49N) — PHẢI sửa trước khi làm tờ khác; tờ photomap (Cần Thơ) không dùng được cách tách màu.
+- b. Học sâu (U-Net/SegFormer) cho đường đất: chưa làm (cần máy có GPU, công cài đặt) — để sau.

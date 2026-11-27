@@ -82,6 +82,17 @@ def main():
         for x in ds:
             if len(x) >= 2:
                 out.append({'ten': (loai + ' ' if loai else '') + ten, 'nay': nay if chuan(nay) != chuan(ten) else '', 'pts': [[round(q[0], 6), round(q[1], 6)] for q in x]})
+    # nắn cục bộ (anh Kha 27/11 "tên đường lệch, nằm ngang khối nhà"): dời đường dẫn chữ theo lưới dời đo trên tờ quét
+    f2 = os.path.join(D, 'to2_doi.json')
+    if os.path.exists(f2):
+        import sys
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from geo import nap
+        from nan_cuc_bo import doi
+        ll2px, px2ll = nap(os.path.join(D, 'to2_toa_do.json')); h = doi(f2)
+        for r in out:
+            P = np.array(r['pts']); q = ll2px(P[:, 0], P[:, 1]); x, y = h(q[:, 0], q[:, 1])
+            r['pts'] = [[round(a, 6), round(b, 6)] for a, b in px2ll(x, y)]
     d['ten_duong'] = out
     json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     print('tên gắn được:', co, '/', co + len(khong), ' đoạn chữ:', len(out))

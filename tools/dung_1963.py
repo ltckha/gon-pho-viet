@@ -524,6 +524,48 @@ def main(pdf, soat=None):
         them_do += 1
     print('đường tô đỏ thêm:', them_do)
 
+    # 7) Đường trong RỪNG (anh Kha 27/11 "dò thêm đường đất trong rừng phía nam"): bản AMS in đường qua rừng là một DẢI TRẮNG
+    #    xuyên nền xanh (viền răng cưa/gạch đen) — khác hai hàng gạch ngoài trống. Lấy khung xương dải trắng hẹp (nửa bề rộng
+    #    1,5–7 điểm ảnh) trong vùng rừng, bỏ phần trùng đường đã có, giữ thành phần dài ít nhánh (≥ 60 điểm ảnh ~ 95 m).
+    rung_z = ndi.uniform_filter(green.astype(np.float32), 41) > 0.30
+    wr = (mx > 225) & (sat < 30) & ndi.binary_dilation(rung_z, iterations=10)
+    wr = binary_opening(binary_closing(wr, disk(1)), disk(1))
+    dwr = ndi.distance_transform_edt(wr)
+    skw = _sk(remove_small_objects(wr, 120)) & (dwr >= 1.5) & (dwr <= 7)
+    used_now = np.asarray(used_img) > 0
+    for x_ in duong:
+        if x_.get('do'):
+            used_dr.line([to_px(*q) for q in x_['pts']], fill=255, width=19)
+    used_now = np.asarray(used_img) > 0
+    skw &= ~ndi.binary_dilation(used_now | used, iterations=4)
+    degw = (ndi.convolve(skw.astype(np.uint8), K3, mode='constant') - 1) * skw
+    nhw = skw & ~ndi.binary_dilation(degw >= 3, np.ones((3, 3), bool))
+    labw, _ = ndi.label(nhw, np.ones((3, 3)))
+    them_rung = 0
+    for k, sl in enumerate(ndi.find_objects(labw)):
+        ys, xs = np.nonzero(labw[sl] == k + 1)
+        if len(ys) < 60:
+            continue
+        hh, ww = sl[0].stop - sl[0].start, sl[1].stop - sl[1].start
+        if max(hh, ww) < 0.45 * len(ys):
+            continue
+        ys = ys + sl[0].start; xs = xs + sl[1].start
+        pts_ = {(int(x), int(y)) for x, y in zip(xs, ys)}
+        nb = lambda p: [(p[0] + dx, p[1] + dy) for dx in (-1, 0, 1) for dy in (-1, 0, 1) if (dx or dy) and (p[0] + dx, p[1] + dy) in pts_]
+        ends = [p for p in pts_ if len(nb(p)) == 1]
+        cur = ends[0] if ends else next(iter(pts_)); path = [cur]; seen_ = {cur}
+        while True:
+            nx_ = [q for q in nb(cur) if q not in seen_]
+            if not nx_:
+                break
+            cur = min(nx_, key=lambda q: abs(q[0] - path[-1][0]) + abs(q[1] - path[-1][1])); path.append(cur); seen_.add(cur)
+        if len(path) < 50:
+            continue
+        Pw = approximate_polygon(np.array(path, float), 1.0)
+        duong.append({'loai': 4, 'rung': 1, 'pts': [[round(v, 5) for v in to_ll(x, y)] for x, y in Pw]})
+        them_rung += 1
+    print('đường trong rừng thêm:', them_rung)
+
     # 6) đường vẽ tay theo nét in (docs/research/ams_1963_duong_tay.json) — chỗ có vòng số mà máy không dò ra
     tay_p = os.path.join(ROOT, 'docs/research/ams_1963_duong_tay.json')
     if os.path.exists(tay_p):

@@ -43,8 +43,27 @@ def main(files):
     ct = {c['so']: c for c in t63['cong_trinh']}
     have = set(os.listdir(os.path.join(ROOT, 'assets/vn')))
     out, bo = [], []
+    # file bổ sung (phần tử có "moc_them"): gộp vào bản gốc cùng số — thêm mốc, thay "nay" nếu có "nay_moi"
+    goc, them = [], {}
     for f in files:
         for r in json.load(open(f, encoding='utf-8')):
+            if 'moc_them' in r:
+                t = them.setdefault(int(r['so']), {'moc': [], 'nay': None})
+                t['moc'] += r.get('moc_them') or []
+                if r.get('nay_moi'):
+                    t['nay'] = r['nay_moi']
+            else:
+                goc.append(r)
+    for r in goc:
+        t = them.get(int(r['so']))
+        if t:
+            r['moc'] = (r.get('moc') or []) + t['moc']
+            if t['nay']:
+                r['nay'] = t['nay']
+                if r.get('cung_cho') == 'không rõ':
+                    r['cung_cho'] = 'chưa chắc'
+    for _ in [0]:
+        for r in goc:
             so = int(r['so'])
             if so not in ct:
                 bo.append((so, 'không có trong bảng')); continue

@@ -807,7 +807,7 @@
         return '<li><details><summary><b class="nam">' + esc(m.nam) + '</b>' + (m.mot_nguon ? ' <i class="chua-chac" title="chưa chắc">?</i>' : '') +
           ' <span class="tg-ngan">' + esc(m.su_kien.length > 46 ? m.su_kien.slice(0, m.su_kien.lastIndexOf(' ', 44)) + '…' : m.su_kien) + '</span></summary>' +
           '<p>' + esc(m.su_kien) + '</p>' + nguon(m.nguon, m.mot_nguon) + '</details></li>';
-      }).join('') + '</ol></section>';
+      }).join('') + (x.nay && x.nay.ten ? '<li class="tg-nay"><b class="nam">Nay</b> <span class="tg-ngan">' + esc(x.nay.ten) + '</span></li>' : '') + '</ol></section>';
     }
     if (x.trang) h += '<button class="go lon" type="button" data-go="pho-' + esc(x.trang) + '">Xem trang hôm nay →</button>';
     sheetBody.innerHTML = h;

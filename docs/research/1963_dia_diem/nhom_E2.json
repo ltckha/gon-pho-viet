@@ -1,0 +1,361 @@
+[
+ {
+  "so": 1,
+  "ten_1963": "Học Xá",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ rơi vào hẻm Võ Thị Sáu, ấp Võ Tánh (phường Xuân Hương - Đà Lạt), gần đường Bùi Thị Xuân; OpenStreetMap quanh 150 m chỉ có nhà dân, quán, nhà nghỉ, một trường mầm non. Không tìm được nguồn nào nói học xá (nhà nội trú) nào ở đúng chỗ này năm 1963 hay nay là gì. Các học xá của Viện Đại học (Rạng Đông ở đồi Minh Hoà – Thông Thiên Học, Kiêm Ái ở đồi Năng Tĩnh) nằm chỗ khác nên không gán. Lần này soát lại OpenStreetMap trong 170 m: vẫn chỉ có quán, nhà nghỉ, một trường mầm non (Trường Mầm non 2, cách ~43 m) — không có gì cho thấy là học xá cũ.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 8,
+  "ten_1963": "Ty Nông Vụ",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở đường Nguyễn Viết Xuân gần Pasteur/Lê Hồng Phong (ấp An Lạc, phường Xuân Hương - Đà Lạt). OpenStreetMap trong ~100–180 m có Toà án nhân dân thành phố Đà Lạt (~91 m), Sở Tư pháp tỉnh Lâm Đồng (~130 m), Công ty Vắc xin Pasteur Đà Lạt (~124 m) và vài nhà công sở không tên. Không tìm được nguồn nào nói Ty Nông vụ Tuyên Đức ở đúng chỗ nào hay nay là cơ quan gì, nên không gán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 11,
+  "ten_1963": "Tỉnh Đoàn Bảo An",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở ấp Ánh Sáng gần đường Lê Thị Hồng Gấm – Nguyễn Thị Minh Khai, sát khu Chợ Đà Lạt. OpenStreetMap trong 100 m chỉ có khách sạn (Golf 3, ~69 m), quán ăn, bảo tàng 3D World, chợ đêm; có một điểm 'historic=monument' không tên (~98 m) không rõ là gì. Tìm web không thấy nguồn nào nói trụ sở Tỉnh đoàn Bảo an Tuyên Đức ở đâu hay nay là gì.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 14,
+  "ten_1963": "Liên Khu Thực Nghiệm Lâm Sản",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở đường Hùng Vương gần Yên Thế (ấp Hồng Lạc). Trong 170 m OpenStreetMap chỉ có homestay, quán ăn (Ben Ben Casa ~18 m); xa hơn ~310 m là Trạm biến áp 110 kV Đà Lạt 1, ~326 m là Trường Tiểu học Trần Phú. Tìm web không thấy nguồn nào nhắc 'Liên khu Thực nghiệm Lâm sản' ở Đà Lạt (chỉ thấy các trạm thực nghiệm lâm nghiệp khác, không rõ có liên quan), nên không gán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 17,
+  "ten_1963": "Ty Lao Động",
+  "nay": {
+   "ten": "Ngân hàng Nhà nước (chi nhánh tại Đà Lạt)",
+   "mo_ta": "Điểm OpenStreetMap ghi 'Ngân Hàng Nhà Nước' trên đường Hồ Tùng Mậu, ấp Xuân An, phường Xuân Hương - Đà Lạt, gần như trùng toạ độ (cách ~3 m). Chưa tìm được trang nào ghi số nhà hay lịch sử toà nhà.",
+   "nguon": [
+    "https://www.openstreetmap.org/node/1152351101"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Chỉ dựa vị trí: ô lưới 1963 (sai số cỡ ±70 m) rơi đúng chỗ OpenStreetMap ghi Ngân hàng Nhà nước. Không có nguồn nào nói Ty Lao động 1963 nằm trong chính toà nhà này hay toà nhà nay xây lại; chỉ biết cùng khu đất trên đường Hồ Tùng Mậu (Nguyễn Trường Tộ cũ).",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 22,
+  "ten_1963": "Ty Cảnh Sát",
+  "nay": {
+   "ten": "Trụ sở Công an thành phố Đà Lạt (cũ)",
+   "mo_ta": "Trên đường Trần Phú, gần Nhà thờ Chánh tòa (Nhà thờ Con Gà); OpenStreetMap ghi 'Công an Thành phố Đà Lạt' cách điểm 1963 ~48 m. Một trang danh bạ ghi địa chỉ 19 Trần Phú (chưa đọc được trang gốc). Từ 1/7/2025 Đà Lạt không còn công an thành phố; báo Lâm Đồng ghi Công an phường Xuân Hương - Đà Lạt làm việc ở hai trụ sở trên đường Ba Tháng Tư và Hùng Vương, nên toà nhà trên Trần Phú nay dùng vào việc gì thì chưa rõ.",
+   "nguon": [
+    "https://www.openstreetmap.org/node/5634047223",
+    "https://baolamdong.vn/ngay-dau-van-hanh-thong-suot-tai-cong-an-phuong-xuan-huong-da-lat-292955.html"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Ty Cảnh sát 1963 trên Đại lộ Yersin (nay Trần Phú) và trụ sở công an thành phố sau này cách nhau ~48 m — rất có thể cùng khu đất, nhưng chưa tìm được nguồn nào nói thẳng trụ sở công an nay chính là Ty Cảnh sát cũ. Không tìm được mốc năm nào có nguồn cho riêng nơi này.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 29,
+  "ten_1963": "Ty Kiến Thiết",
+  "nay": {
+   "ten": "Phòng Báo chí Xuất bản (toà nhà kiểu Pháp)",
+   "mo_ta": "Toà nhà kiến trúc Pháp trên đường Lê Hồng Phong (Đại lộ Pasteur cũ), ấp An Lạc, phường Xuân Hương - Đà Lạt; OpenStreetMap ghi tên 'Phòng Báo Chí Xuất Bản', cách điểm 1963 ~37 m. Gần đó có vài nhà công an, công sở không tên và Công ty Vắc xin Pasteur Đà Lạt (~109 m).",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1308353562"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Chỉ dựa vị trí và kiểu nhà: điểm 1963 cách toà nhà kiểu Pháp mang tên Phòng Báo chí Xuất bản ~37 m. Không có nguồn nào nói Ty Kiến thiết từng ở đúng toà nhà này; tên trên OpenStreetMap cũng chưa đối chiếu được với trang chính thức.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 32,
+  "ten_1963": "Trại Gia Đình Binh Sĩ",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ cách đường gần nhất năm 1963 tới 573 m, nay thuộc khu đường Chi Lăng, phường Lâm Viên - Đà Lạt. OpenStreetMap trong 450 m không có công trình nào có tên (chỉ nhà, vườn). Không tìm được nguồn nào nói trại gia binh 1963 ở đúng chỗ nào hay nay là gì.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 35,
+  "ten_1963": "Ty Ngân Khố",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở hẻm 28 Hà Huy Tập (Bá Đa Lộc cũ), ấp Ánh Sáng, gần đầu đường Trần Hưng Đạo. Trong 100 m OpenStreetMap chỉ có quán cà phê, khách sạn, nhà trọ; toà Hội đồng nhân dân tỉnh Lâm Đồng cách ~108 m, Uỷ ban nhân dân tỉnh ~241 m. Một điểm 'Kho Bạc' trên OpenStreetMap nằm ở phía đường Trần Phú, cách xa hơn 300 m. Không có nguồn nói Ty Ngân khố 1963 nay là gì nên không gán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 40,
+  "ten_1963": "Ty Thanh Niên",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ trên đường Hồ Tùng Mậu (Nguyễn Trường Tộ cũ), cạnh Quảng trường Lâm Viên. Trong 100 m OpenStreetMap có Nhà sách Fahasa (~54 m), lối vào siêu thị GO! (~84 m), cửa hàng. Khu này đã san lấp, xây lại nhiều (quảng trường, siêu thị), không tìm được nguồn nào nói Ty Thanh niên 1963 ở đâu chính xác hay nay là gì.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 45,
+  "ten_1963": "Nhà Thờ",
+  "nay": {
+   "ten": "Nhà nguyện và tu viện cổ (Đan viện Biển Đức cũ, sau là tu viện dòng Franciscaines) — cơ sở Đà Lạt của Trường Đại học Kiến trúc TP. Hồ Chí Minh",
+   "mo_ta": "Khuôn viên ~7 ha nằm giữa hai đường song song Trần Quang Diệu và Hùng Vương (báo Thanh Niên ghi số 20 Hùng Vương), phường Xuân Hương - Đà Lạt. Nhà nguyện kiến trúc Gothic do hai kiến trúc sư Alexandre Léonard và Paul Veysseyre thiết kế, xây cuối thập niên 1930 – đầu 1940. Từ 2014 thuộc Trường Đại học Kiến trúc TP. Hồ Chí Minh; năm 2021 trường trùng tu, định dùng nhà nguyện làm thư viện, nơi tổ chức hội thảo kiến trúc, mỹ thuật.",
+   "nguon": [
+    "https://tuoitre.vn/so-phan-nao-cho-tu-vien-co-cua-da-lat-20210303084826729.htm",
+    "https://thanhnien.vn/thuc-hu-chuyen-truong-dai-hoc-kien-truc-thao-do-tu-vien-co-o-da-lat-1851253420.htm",
+    "https://tienphong.vn/tu-vien-co-bi-don-ma-am-o-da-lat-dang-trung-tu-post1318169.tpo",
+    "https://www.openstreetmap.org/way/1303825521"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OpenStreetMap có một nhà nguyện Công giáo kiểu Pháp (không tên) cách điểm 1963 ~23 m, nằm giữa các toà nhà ghi 'Ho Chi Minh City University of Architecture'. Báo Người Lao Động ghi đan viện cũ ở 'số 5 Gia Long' trên đường Trần Quang Diệu — Gia Long chính là tên năm 1963 của đường gần nhất. Năm 1963 đây là tu viện dòng Phanxicô Thừa sai Đức Mẹ (Franciscaines Missionnaires de Marie, FMM). Lưu ý: bài Người Lao Động còn nói các nữ tu mua lại từ các linh mục Salêdiêng, khác với các báo khác (mua lại của dòng Biển Đức).",
+  "moc": [
+   {
+    "nam": "1954",
+    "su_kien": "Các đan sĩ dòng Biển Đức chuyển ra Huế, nhượng tu viện cho các nữ tu dòng Franciscaines.",
+    "chi_tiet": "Theo báo Tuổi Trẻ, Thanh Niên và Tiền Phong, nhà nguyện và đan viện ở đây là nơi các đan sĩ dòng Biển Đức (Benedict) từ phương Tây đặt chân đầu tiên tại Việt Nam, xây vào cuối thập niên 1930, đầu 1940. Từ năm 1954 các đan sĩ chuyển ra Huế lập Đan viện Thiên An. Công trình ở Đà Lạt được nhượng lại cho các nữ tu dòng Franciscaines. Từ đó nhà nguyện trên đường Gia Long (nay Trần Quang Diệu) thuộc dòng nữ này cho tới sau năm 1975.",
+    "nguon": [
+     "https://tuoitre.vn/so-phan-nao-cho-tu-vien-co-cua-da-lat-20210303084826729.htm",
+     "https://thanhnien.vn/thuc-hu-chuyen-truong-dai-hoc-kien-truc-thao-do-tu-vien-co-o-da-lat-1851253420.htm",
+     "https://tienphong.vn/tu-vien-co-bi-don-ma-am-o-da-lat-dang-trung-tu-post1318169.tpo"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1958",
+    "su_kien": "Dòng FMM mở nhà tập (tập viện) tại Đà Lạt vào tháng 5/1958.",
+    "chi_tiet": "Bài của báo Người Lao Động kể dòng Phanxicô Thừa sai Đức Mẹ (FMM) lập năm 1877, có mặt ở Việt Nam từ 1932. Các nữ tu mở tập viện ở Vinh năm 1936 và ở Đà Lạt vào tháng 5/1958. Tập viện Đà Lạt đặt trong khuôn viên tu viện cũ trên đường Trần Quang Diệu. Mốc này mới thấy ở một bài báo nên còn để dấu hỏi.",
+    "nguon": [
+     "https://tuoitre.vn/nld/dia-phuong/bi-an-tu-vien-bo-hoang-hut-khach-tai-da-lat-20170529173149286.htm"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1961",
+    "su_kien": "Kiến trúc sư Phạm Khánh Chù vẽ khu trường học của dòng Franciscaines.",
+    "chi_tiet": "Báo Tuổi Trẻ và Thanh Niên cùng ghi bản thiết kế khu trường học Franciscaines Missionnaires de Marie do kiến trúc sư Phạm Khánh Chù thực hiện năm 1961. Các nữ tu xây thêm các dãy lớp học bên cạnh nhà nguyện và tu viện cũ. Vì vậy trên bản đồ năm 1963 khuôn viên này vừa là nơi tu hành vừa là trường học.",
+    "nguon": [
+     "https://tuoitre.vn/so-phan-nao-cho-tu-vien-co-cua-da-lat-20210303084826729.htm",
+     "https://thanhnien.vn/thuc-hu-chuyen-truong-dai-hoc-kien-truc-thao-do-tu-vien-co-o-da-lat-1851253420.htm"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1969",
+    "su_kien": "Khuôn viên trở thành Trường Thương mại Việt Nữ.",
+    "chi_tiet": "Báo Tuổi Trẻ (2021) và Người Lao Động (2017) cùng ghi từ năm 1969 nơi đây chính thức thành Trường Thương mại Việt Nữ, do các nữ tu điều hành. Nhà nguyện vẫn là trung tâm của khu tu viện. Trường hoạt động tới sau năm 1975.",
+    "nguon": [
+     "https://tuoitre.vn/so-phan-nao-cho-tu-vien-co-cua-da-lat-20210303084826729.htm",
+     "https://nld.com.vn/dia-phuong/bi-an-tu-vien-bo-hoang-hut-khach-tai-da-lat-20170529173149286.htm"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1979",
+    "su_kien": "Tập viện đóng cửa, toàn bộ 7 ha bàn giao cho Nhà nước.",
+    "chi_tiet": "Sau năm 1975 các nữ tu dòng Franciscaines dần rời đi. Báo Tuổi Trẻ và Người Lao Động ghi năm 1979 tập viện đóng cửa vì các nữ tu ngoại quốc về nước, toàn bộ khuôn viên 7 ha được bàn giao cho Nhà nước. Những năm sau, nhà nguyện bị bỏ hoang, có lúc hơn 20 hộ gia đình ở nhờ trong khuôn viên.",
+    "nguon": [
+     "https://tuoitre.vn/so-phan-nao-cho-tu-vien-co-cua-da-lat-20210303084826729.htm",
+     "https://nld.com.vn/dia-phuong/bi-an-tu-vien-bo-hoang-hut-khach-tai-da-lat-20170529173149286.htm"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2014",
+    "su_kien": "Cụm tu viện được giao cho Trường Đại học Kiến trúc TP. Hồ Chí Minh.",
+    "chi_tiet": "Theo báo Thanh Niên và Tiền Phong, từ năm 2014 toàn bộ tu viện cùng khuôn viên rộng 7 ha được chuyển giao cho Trường Đại học Kiến trúc TP. Hồ Chí Minh để lập trung tâm đào tạo tại Đà Lạt. Các hộ ở nhờ dần được giải toả. Nhà nguyện cổ khi đó vẫn bỏ trống, xuống cấp.",
+    "nguon": [
+     "https://thanhnien.vn/thuc-hu-chuyen-truong-dai-hoc-kien-truc-thao-do-tu-vien-co-o-da-lat-1851253420.htm",
+     "https://tienphong.vn/tu-vien-co-bi-don-ma-am-o-da-lat-dang-trung-tu-post1318169.tpo"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2021",
+    "su_kien": "Bắt đầu trùng tu nhà nguyện và các khối tu viện cũ.",
+    "chi_tiet": "Đầu năm 2021, việc tháo dỡ một phần tu viện khiến dư luận lo bị phá bỏ. Nhà trường giải thích chỉ tháo để trùng tu, giữ tối đa kiến trúc gốc. Báo Thanh Niên và Tiền Phong ghi một công ty trúng thầu trùng tu 5 khối công trình trong 360 ngày. Nhà nguyện dự kiến thành thư viện, nơi tổ chức hội thảo về kiến trúc và mỹ thuật.",
+    "nguon": [
+     "https://thanhnien.vn/thuc-hu-chuyen-truong-dai-hoc-kien-truc-thao-do-tu-vien-co-o-da-lat-1851253420.htm",
+     "https://tienphong.vn/tu-vien-co-bi-don-ma-am-o-da-lat-dang-trung-tu-post1318169.tpo",
+     "https://tuoitre.vn/so-phan-nao-cho-tu-vien-co-cua-da-lat-20210303084826729.htm"
+    ],
+    "chua_chac": false
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 48,
+  "ten_1963": "Nhà Thờ",
+  "nay": {
+   "ten": "Nhà nguyện Trinh Vương",
+   "mo_ta": "Nhà nguyện Công giáo ở số 253 Phan Đình Phùng, Đà Lạt, thuộc Giáo hạt Đà Lạt (giáo phận ghi do linh mục quản xứ Chính tòa coi sóc). Gần đó OpenStreetMap có quán ghi số 249 Phan Đình Phùng, cách điểm 1963 ~71 m.",
+   "nguon": [
+    "https://giaophandalat.com/gioi-thieu/giao-hat-va-giao-xu/giao-hat-da-lat",
+    "https://www.openstreetmap.org/node/4285738191"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Điểm 'Church' 1963 nằm sát đường Phan Đình Phùng; nơi thờ phượng Công giáo duy nhất giáo phận ghi trên đoạn này là Nhà nguyện Trinh Vương số 253, ngay cạnh số 249 (cách ~71 m). Chưa tìm được nguồn nào kể lịch sử nhà nguyện này hay xác nhận nó đã có từ năm 1963, nên chỉ ghi chưa chắc và không có mốc năm.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 51,
+  "ten_1963": "Nhà Thờ",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Điểm 1963 nằm trong ấp Đa Lợi (Trại Hầm) theo OpenStreetMap; giáo phận ghi nhà nguyện Trại Hầm có từ 1947 nên năm 1963 đã có. Nhưng OpenStreetMap không vẽ nhà thờ nào quanh điểm, và đường Hoàng Hoa Thám cách điểm ~490 m (đường gần nhất nay là Khe Sanh, ~150 m) — nên chưa chắc đây đúng là nhà thờ trên bản đồ 1963.",
+  "moc": [],
+  "trang": null,
+  "ghi_chu_bo": "Giáo sở Trại Hầm cách điểm ~490 m — không đủ để gán; để không rõ."
+ },
+ {
+  "so": 58,
+  "ten_1963": "Miếu Âm Hồn",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Quanh toạ độ (gần chỗ Kim Đồng – hẻm 1 La Sơn Phu Tử – Hai Bà Trưng) OSM không có miếu/đền nào; tìm web không thấy nguồn nào nói về Miếu Âm Hồn ở Đà Lạt. Gần nhất là Ni viện Tuệ Quang (OSM cách 156–220 m về phía nam) nhưng không có gì cho thấy là cùng một nơi.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 61,
+  "ten_1963": "Miếu",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ trên đường Đào Duy Từ (ấp An Lạc, phường Xuân Hương - Đà Lạt). Trong 150 m OpenStreetMap chỉ có quán, nhà nghỉ, chung cư Đào Duy Từ, Trường Tiểu học Mê Linh 2 (~162 m); chùa gần nhất là Chùa Lộc Uyển (~180 m) nhưng là chùa, không phải miếu, và không có nguồn nào nối hai nơi. Không tìm được nguồn về miếu này.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 64,
+  "ten_1963": "Miếu",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ngay đầu đường Quang Trung gần Ga Đà Lạt; nay chỗ đó là Dalat Train Villa & Cafe (1 Quang Trung, cách ~12 m theo OpenStreetMap). Không thấy miếu nào trong 450 m trên OpenStreetMap và không tìm được nguồn nào nói về miếu này.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 74,
+  "ten_1963": "Đài Chiến Sĩ",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở ngã ba Xô Viết Nghệ Tĩnh – Nguyễn Công Trứ, cách Sân vận động Đà Lạt nay ~290 m. Trên OSM không có tượng đài hay mốc lịch sử nào trong 150 m. Không tìm được nguồn nào về đài chiến sĩ/đài tử sĩ trước 1975 ở chỗ này (đài liệt sĩ ở Nghĩa trang liệt sĩ Đà Lạt là công trình sau 1975, chỗ khác).",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 89,
+  "ten_1963": "Trường Học",
+  "nay": {
+   "ten": "Trường Tiểu học Đoàn Thị Điểm",
+   "mo_ta": "Trường tiểu học công lập ở số 2 Nam Kỳ Khởi Nghĩa (Trương Vĩnh Ký cũ), sát Khu Hoà Bình, phường Xuân Hương - Đà Lạt; OpenStreetMap vẽ trường cách điểm 1963 ~35 m. Blog Mực Tím Sơn Đen cho biết toà trường trên đường Trương Vĩnh Ký đã xây trước 1960; tiền thân là trường công đầu tiên cho học sinh Việt ở Đà Lạt.",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1580407668",
+    "https://toplist.vn/top-list/truong-tieu-hoc-tot-nhat-da-lat-64870.htm",
+    "https://www.muctimsonden.com/2019/11/khu-hoa-binh-alat-xua-tam-anh-nay-1.html",
+    "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "Trường tiểu học trên OpenStreetMap cách điểm 1963 chỉ ~35 m, và hai bài Mực Tím Sơn Đen đều ghi trường tiểu học Đoàn Thị Điểm đã có trên đường Trương Vĩnh Ký trước 1960. Năm thành lập các nguồn vênh nhau: Wikipedia ghi 1928 (École communale de Dalat), blog Laiweb ghi 1930 (École Primaire complémentaire), Toplist ghi 1937.",
+  "moc": [
+   {
+    "nam": "1928",
+    "su_kien": "Trường công đầu tiên cho học sinh Việt (École communale de Dalat) khai giảng khoá đầu.",
+    "chi_tiet": "Wikipedia tiếng Việt (trích sách của Trần Sỹ Thứ) ghi năm 1928 ngôi trường công dành cho học sinh Việt mang tên École communale de Dalat khai giảng khoá đầu tiên, và ngày nay là Trường Tiểu học Đoàn Thị Điểm. Trước đó trẻ em Việt chỉ học ở lớp tư gia. Các nguồn khác ghi năm khác (1930, 1937), nên mốc này còn để dấu hỏi.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1930",
+    "su_kien": "Trường tiểu học bổ túc Đà Lạt (École Primaire complémentaire de Dalat) ra đời.",
+    "chi_tiet": "Blog Laiweb kể năm 1930 học trò từ ba lớp đầu được chuyển lên trường tiểu học bổ túc Đà Lạt (École Primaire complémentaire de Dalat), và gọi đây là tiền thân của trường Đoàn Thị Điểm ngày nay. Mốc này chỉ thấy ở một blog và lệch với mốc 1928 của Wikipedia.",
+    "nguon": [
+     "http://laiweb.blogspot.com/2014/05/nhung-ngoi-truong-o-alat-truoc-1975.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1953",
+    "su_kien": "Trường trung học Bùi Thị Xuân mượn tạm trường tiểu học bổ túc Đà Lạt.",
+    "chi_tiet": "Wikipedia tiếng Việt về Trường THPT Bùi Thị Xuân ghi năm 1953 trường này chuyển sang mượn tạm địa điểm tại trường tiểu học bổ túc Đà Lạt, nay là Trường Tiểu học Đoàn Thị Điểm. Như vậy cùng một khu trường từng chứa cả học sinh trung học trước khi Bùi Thị Xuân có trường riêng.",
+    "nguon": [
+     "https://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Trung_h%E1%BB%8Dc_ph%E1%BB%95_th%C3%B4ng_B%C3%B9i_Th%E1%BB%8B_Xu%C3%A2n_-_%C4%90%C3%A0_L%E1%BA%A1t"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1986",
+    "su_kien": "Tách cấp II, trường thành trường tiểu học riêng.",
+    "chi_tiet": "Theo Toplist, sau năm 1975 trường dạy cả cấp I và cấp II. Đến năm học 1986, cấp II được tách ra, trường thành trường tiểu học độc lập, tức Trường Tiểu học Đoàn Thị Điểm như ngày nay. Trang này cũng ghi trường 'thành lập từ năm 1937', lệch với các nguồn khác.",
+    "nguon": [
+     "https://toplist.vn/top-list/truong-tieu-hoc-tot-nhat-da-lat-64870.htm"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 92,
+  "ten_1963": "Trường Học",
+  "nay": {
+   "ten": "Trường Tiểu học Bạch Đằng",
+   "mo_ta": "Trường tiểu học công lập trên đường Bạch Đằng (gần Cao Thắng), phường Lang Biang - Đà Lạt (phường 7 cũ); OpenStreetMap vẽ trường cách điểm 1963 ~16 m. Cách ~130 m có một nhà thờ nhỏ (OpenStreetMap không ghi tên; giáo phận có Giáo xứ Bạch Đằng ở phường 7).",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1338765336",
+    "https://giaophandalat.com/gioi-thieu/giao-hat-va-giao-xu/giao-hat-da-lat"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Chỉ dựa vị trí: trường tiểu học nay cách điểm 'School' 1963 chỉ ~16 m. Chưa tìm được nguồn nào kể lịch sử trường hay nói trường đã có từ trước 1975, nên không có mốc năm.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 95,
+  "ten_1963": "Trường Học",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ trên đường Trần Bình Trọng gần Nguyễn Khuyến (Cư xá Ngoạn Mục, phường Cam Ly - Đà Lạt). Trong 150 m có Nhà thờ Cam Ly (~73 m) và Trung tâm Giáo dục hoà nhập trẻ khuyết tật ở 1 Nguyễn Khuyến (~120 m). Không tìm được nguồn nào nói trường năm 1963 ở đây là trường gì hay khu đất trung tâm hoà nhập trước kia là trường nào, nên không gán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 98,
+  "ten_1963": "Trường Học",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ ở hẻm 33 Trần Khánh Dư (ấp Nghệ Tĩnh, phường Lâm Viên - Đà Lạt). OpenStreetMap trong 170 m không có trường nào, chỉ quán, cửa hàng; khu đất quân sự Bộ Chỉ huy Quân sự tỉnh cách ~337 m. Không tìm được nguồn về trường 1963 ở đây.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 107,
+  "ten_1963": "Trạm Biến Điện",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Toạ độ cách đường Ankroet ~134 m, vùng ven phường Lang Biang - Đà Lạt. OpenStreetMap trong 450 m không có trạm điện nào (chỉ một cây xăng ~154 m). Tìm web chỉ thấy lịch sử nhà máy thuỷ điện Ankroet (cách ~17 km), không thấy gì về trạm biến điện này.",
+  "moc": [],
+  "trang": null
+ }
+]

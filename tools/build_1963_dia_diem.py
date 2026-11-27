@@ -59,6 +59,13 @@ def main(files):
                     t['nay'] = r['nay_moi']
             else:
                 goc.append(r)
+    # cùng một số có ở nhiều đợt nghiên cứu: giữ bản nhiều nội dung hơn (có "nay", nhiều mốc hơn)
+    tot = {}
+    for r in goc:
+        k = int(r['so']); diem = (1 if r.get('nay') else 0, len(r.get('moc') or []))
+        if k not in tot or diem >= tot[k][0]:
+            tot[k] = (diem, r)
+    goc = [v[1] for v in tot.values()]
     for r in goc:
         t = them.get(int(r['so']))
         if t:

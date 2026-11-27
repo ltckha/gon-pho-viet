@@ -262,7 +262,7 @@
     var pinDat = [];
     if (layer.y1963) {
       var muc = +svg.getAttribute('data-zm') || 0, tran = [6, 10, 16, 999][muc], hangMax = muc === 0 ? 1 : muc === 1 ? 2 : 3, dem = 0;
-      var tren = 115, duoi = r.height - 65, phongTo = z >= (layout._zTruoc || 0);
+      var tren = 115, duoi = r.height - 110, phongTo = z >= (layout._zTruoc || 0);
       layout._zTruoc = z;
       pins.slice().sort(function (a, b) {
         return a._hang - b._hang || a._thu - b._thu || (phongTo ? (b._daHien ? 1 : 0) - (a._daHien ? 1 : 0) : 0) || b._y - a._y;

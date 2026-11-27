@@ -1,0 +1,504 @@
+[
+ {
+  "so": 5,
+  "ten_1963": "Lữ Quán Les Ravines",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Vẫn chưa tìm được nguồn nào nhắc 'Les Ravines' ở Đà Lạt. Ngay chỗ này trên OpenStreetMap là khách sạn/vườn Minh Tâm (20 Khe Sanh, cách khoảng 65–80 m), nhưng không có nguồn nào nối Minh Tâm với lữ quán Les Ravines nên không ghép.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 9,
+  "ten_1963": "Phân Khu Tạo Tác",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Đã rõ thời 1963: trang Giáo phận Đà Lạt kể 'khu Tạo Tác' có viên chức và một hội trường, nằm đối diện khu đất đầu đường Nguyễn Đình Chiểu, nơi năm 1969 dựng nhà thờ Tạo Tác (OpenStreetMap: nhà thờ cách điểm 137 m). Nhưng không có nguồn nói khu Tạo Tác nay là cơ quan nào; quanh điểm trên OpenStreetMap chỉ có nhà dân, một biệt thự kiểu Pháp không tên, khách sạn La Vy và bến xe Thành Bưởi (5 Lữ Gia) — không đoán.",
+  "moc": [
+   {
+    "nam": "1967",
+    "su_kien": "Một linh mục mượn hội trường khu Tạo Tác để giáo dân xóm Cô Giang nhóm họp và dự lễ.",
+    "chi_tiet": "Theo trang Giáo phận Đà Lạt, năm 1967 cha Giuse Phùng Cảnh đến với bà con giáo dân xóm Cô Giang và các nhân viên khu Tạo Tác. Lúc đó người Công giáo trong xóm chưa có nơi hội họp và thờ phượng, nên mọi người xin mượn tạm hội trường của khu Tạo Tác. Họ hẹn gặp nhau mỗi thứ Bảy đầu tháng tại hội trường này để dự lễ chung. Đây là chuyện của chính khu Tạo Tác, nơi bản đồ 1963 ghi là Phân khu Tạo tác (công binh).",
+    "nguon": [
+     "https://giaophandalat.com/gioi-thieu-hinh-anh-nha-tho-tao-tac-da-lat.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1968",
+    "su_kien": "Viên chức khu Tạo Tác cùng dân Cô Giang lập ban xây nhà thờ trên khu đất đối diện.",
+    "chi_tiet": "Năm 1968, khi giáo dân mới có 26 hộ, người ta đề nghị xây một ngôi nhà thờ nhỏ trên khu đất trống đầu đường Nguyễn Đình Chiểu, đối diện khu Tạo Tác, gần bến xe. Ngày 1/11/1968 một cuộc họp lập Ban Xây cất gồm đại diện các viên chức trong khu Tạo Tác và đại diện dân trong vùng Cô Giang. Ngôi nhà thờ xây sau đó mang luôn tên Tạo Tác, cho thấy tên khu công binh đã thành tên gọi của cả vùng.",
+    "nguon": [
+     "https://giaophandalat.com/gioi-thieu-hinh-anh-nha-tho-tao-tac-da-lat.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 12,
+  "ten_1963": "Ty Quan Thuế",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Vị trí 1963 khớp lời kể: blog Mực Tím Sơn Đen nhắc 'Ty Quan Thuế' trên đường Hải Thượng, trên lối từ Hải Thượng lên nhà thương, rẽ xuống dốc thì gặp Trần Bình Trọng. Nhưng không có nguồn nào cho biết toà nhà đó nay là gì. Quanh điểm trên OpenStreetMap có nhiều nhà kiểu Pháp không tên, một nhà trẻ, nhà nghỉ — không đoán. Nguồn: https://www.muctimsonden.com/2022/07/trung-tam-canh-sat-da-chien-lat.html ; https://www.muctimsonden.com/2026/11/nhung-bong-hong-van-hoc-lat.html",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 15,
+  "ten_1963": "Khu và Hạt Thủy Lâm",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Không tìm được nguồn nào về trụ sở Thủy lâm (Kiểm lâm) trên đường Phan Bội Châu. Quanh điểm (≤100 m) trên OpenStreetMap chỉ có quán ăn, khách sạn (Colline, 10 Phan Bội Châu) và rìa khu Chợ Đà Lạt — không đoán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 19,
+  "ten_1963": "Hiến Binh Quốc Gia",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Không tìm được nguồn nào về trụ sở Hiến binh Quốc gia trên đường Trần Hưng Đạo. Gần điểm nhất trên OpenStreetMap là một nhà kiểu Pháp không tên (67 m) và 'Nhà sáng tác Đà Lạt – Lâm Đồng' (74 m), nhưng không có nguồn nối hai nơi này với Hiến binh — không đoán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 27,
+  "ten_1963": "Ty Công Chánh",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Không tìm được nguồn nào ghi Ty Công chánh nằm ở đâu trên đường Lê Hồng Phong (xưa là đại lộ Pasteur). Trên OpenStreetMap có vài nhà công sở không tên cách 40–47 m, cạnh khu Viện Pasteur (159 m) — không biết là cơ quan gì, không đoán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 30,
+  "ten_1963": "Trung Tâm Cải Huấn",
+  "nay": {
+   "ten": "Khách sạn Golf 3",
+   "mo_ta": "Khách sạn ở số 4 Lê Thị Hồng Gấm, trên dốc ngay phía trên khu Chợ Đà Lạt và chợ đêm. Đây chỉ là công trình đang đứng gần điểm nhất trên OpenStreetMap (khoảng 32–38 m); chưa có nguồn nào nói khách sạn xây trên nền Trung tâm Cải huấn cũ.",
+   "nguon": [
+    "https://www.openstreetmap.org/#map=19/11.94162/108.43786",
+    "https://nominatim.openstreetmap.org/ui/search.html?q=Golf+3+Hotel+%C4%90%C3%A0+L%E1%BA%A1t"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Điểm 1963 rơi vào khoảng đất khách sạn Golf 3 (OpenStreetMap). Blog Mực Tím Sơn Đen có nhắc một dãy nhà 'về sau được gọi là nhà Lao' bên dưới dinh trên đồi gần cầu Ông Đạo và 'khu vực khám đường trước năm 1975' gần cầu Ông Đạo, nhưng chỉ là phỏng đoán của chính bài và không ghi năm, không ghi số nhà — chưa đủ để nói trại cải huấn nằm đúng chỗ khách sạn. Nguồn: https://www.muctimsonden.com/2026/11/cau-ong-ao-va-chuyen-hinh-thanh-ho-xuan.html",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 33,
+  "ten_1963": "Ty Thuế Vụ",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Không tìm được nguồn về Ty Thuế vụ thời 1963. Điểm sát đường Hồ Tùng Mậu (xưa là đại lộ Nguyễn Trường Tộ); gần nhất trên OpenStreetMap là lối vào GO! Đà Lạt (1 Hồ Tùng Mậu, 67 m) và Ngân hàng Nhà nước (98 m) — không đoán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 36,
+  "ten_1963": "Tòa Án",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Không tìm được nguồn về toà án năm 1963 ở đường Phạm Phú Thứ (nay Pasteur). Toà án nhân dân tỉnh Lâm Đồng hiện ở 27 Trần Phú (OpenStreetMap: cách điểm 215 m) và Toà án nhân dân khu vực 1 ở 27 Pasteur (OpenStreetMap ghi toà án Đà Lạt cách khoảng 400 m) — đều quá xa để coi là cùng chỗ. Ngay điểm bây giờ là khu nhà ở quy hoạch Hoàng Văn Thụ (nhà nghỉ, quán ăn). Nguồn địa chỉ toà án: https://fdvn.vn/danh-sach-va-thong-tin-cac-toa-an-nhan-dan-tai-tinh-lam-dong/",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 42,
+  "ten_1963": "Dưỡng Đường",
+  "nay": {
+   "ten": "Khách sạn Công Đoàn Đà Lạt (Villa Lemoine)",
+   "mo_ta": "Khách sạn ở số 1 Yersin, trên ngọn đồi thông nhìn xuống hồ Xuân Hương và Quảng trường Lâm Viên. Toà chính là biệt thự kiểu vùng Bretagne (mái ngói đỏ dốc, tường đầu hồi tam giác) của bác sĩ Lemoine, sau là nhà thương tư của bác sĩ Sohier.",
+   "nguon": [
+    "http://dalatarchi-tranconghoakts.blogspot.com/2015/09/khach-san-cong-oan-villa-lemoine.html",
+    "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html",
+    "https://saigonstartravel.com/khach-san-cong-doan-da-lat",
+    "https://www.openstreetmap.org/#map=19/11.94083/108.4498"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OpenStreetMap ghi 'Du Lịch Công Đoàn' cách điểm 25 m và 'Khách sạn Công Đoàn, 1 Yersin' cách 65 m. Hai trang (blog Dalatarchi và bài Kiến trúc Đà Lạt chép lại trong Địa chí) đều kể biệt thự này từng là dưỡng đường (nhà thương) tư — khớp chữ 'Dưỡng Đường / Clinic' trên bản đồ 1963.",
+  "moc": [
+   {
+    "nam": "1935",
+    "su_kien": "Bác sĩ Lemoine xây biệt thự trên đồi cạnh hồ Xuân Hương.",
+    "chi_tiet": "Blog Dalatarchi ghi biệt thự của bác sĩ Lemoine được xây năm 1935; bản chép bài Kiến trúc Đà Lạt lại ghi 1936, nên năm chưa thật chắc. Nhà nằm trên một ngọn đồi rộng hơn 15 ha cạnh hồ Xuân Hương, mang dáng nhà vùng Bretagne với mái ngói đỏ dốc và tường đầu hồi tam giác. Blog kể bác sĩ Lemoine có lẽ là bác sĩ đầu tiên ở Đà Lạt và nhiều người Đà Lạt chào đời ở nhà ông. Sau đó ông sang lại nhà cho bác sĩ Sohier, người lập ở đây một dưỡng đường tư.",
+    "nguon": [
+     "http://dalatarchi-tranconghoakts.blogspot.com/2015/09/khach-san-cong-oan-villa-lemoine.html",
+     "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1966",
+    "su_kien": "Thị trưởng Đà Lạt kiện bác sĩ Sohier để lấy biệt thự; sau đó nhà được bán làm tiểu chủng viện.",
+    "chi_tiet": "Theo hồi ký của Nguyễn Thế Bài (2004) chép trên blog Dalatarchi, nhà thương tư Sohier phải đóng cửa sau một tai nạn: bảy bệnh nhân chết ngạt vì đốt lò sưởi mà đóng kín lỗ thông hơi. Năm 1966, bà Nguyễn Thị Hậu, thị trưởng Đà Lạt, làm hồ sơ kiện vị bác sĩ người Pháp để lấy ngôi biệt thự nhưng không thắng. Sau đó Giám mục Paul Seitz mua lại nhà để đưa chủng sinh Kontum lên học, gọi là tiểu chủng viện Sohier; giá bán chỉ là lời đồn. Năm của tai nạn và năm bán nhà không được ghi rõ.",
+    "nguon": [
+     "http://dalatarchi-tranconghoakts.blogspot.com/2015/09/khach-san-cong-oan-villa-lemoine.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 46,
+  "ten_1963": "Nhà Thờ",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Không tìm được nguồn về nhà thờ ở chỗ này (ấp Hòa An, phía bắc khu Viện Nghiên cứu Khoa học Tây Nguyên). Trên OpenStreetMap gần nhất có một nơi thờ không tên (104 m) và 'Mừng Chúa Phục Sinh' (161 m), không rõ là nhà thờ hệ phái nào, không có nguồn lịch sử — không đoán. Các nhà thờ có nguồn ở vùng này (Tùng Lâm 686 Xô Viết Nghệ Tĩnh, Thánh Mẫu) không khớp vị trí.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 49,
+  "ten_1963": "Nhà Thờ",
+  "nay": {
+   "ten": "Nhà thờ Thánh Tâm (Giáo sở Thánh Tâm, Tu hội Truyền giáo Vinh Sơn)",
+   "mo_ta": "Nhà thờ màu trắng ở số 38 (số cũ 40) Trần Phú, nằm trong Nhà Tỉnh của Tu hội Truyền giáo Vinh Sơn, gần Nhà thờ Con Gà. Ngôi nhà thờ hiện nay xây lại từ năm 2009, cung hiến năm 2011.",
+   "nguon": [
+    "https://vinhson.net/giao-so-thanh-tam.html",
+    "https://drtinhanh.blogspot.com/2018/11/nha-tho-thanh-tam-lat.html",
+    "https://www.openstreetmap.org/#map=19/11.93704/108.43057"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OpenStreetMap ghi 'Nhà thờ Thánh Tâm' cách điểm 46 m; không có nhà thờ nào khác trong 150 m. Blog kể nhà thờ có từ năm 1928, tức đã đứng ở đây năm 1963.",
+  "moc": [
+   {
+    "nam": "1928",
+    "su_kien": "Các nữ tu Bác Ái Vinh Sơn dựng ngôi nhà thờ đầu tiên ở đây.",
+    "chi_tiet": "Theo một blog du lịch, nhà thờ Thánh Tâm được xây đầu tiên năm 1928 bởi các chị dòng Nữ Tử Bác Ái Vinh Sơn. Khi ấy nơi này là một biệt thự của các chị, gọi là biệt thự Thánh Tâm. Chỉ có một trang nhắc năm này, trang của Tu hội Vinh Sơn không ghi.",
+    "nguon": [
+     "https://drtinhanh.blogspot.com/2018/11/nha-tho-thanh-tam-lat.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1940",
+    "su_kien": "Các nữ tu dời sang Domaine de Marie, để lại biệt thự Thánh Tâm cho các cha Vinh Sơn.",
+    "chi_tiet": "Cùng blog trên kể năm 1940 các chị dòng Nữ Tử Bác Ái Vinh Sơn chuyển qua nhà Domaine de Marie. Toàn bộ biệt thự Thánh Tâm được để lại cho các cha Tu hội Truyền giáo Vinh Sơn. Từ đó đây là nhà chính của Tu hội, có cả nhà cho chủng sinh trong khuôn viên.",
+    "nguon": [
+     "https://drtinhanh.blogspot.com/2018/11/nha-tho-thanh-tam-lat.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1970",
+    "su_kien": "Giáo sở Thánh Tâm được thành lập.",
+    "chi_tiet": "Trang Tu hội Truyền giáo Vinh Sơn ghi giáo sở Thánh Tâm thành lập năm 1970. Vì giáo sở nằm trong Nhà Tỉnh của Tu hội nên quá trình hình thành gắn với chương trình chung của Nhà Tỉnh. Bổn mạng là Thánh Tâm Chúa Giêsu.",
+    "nguon": [
+     "https://vinhson.net/giao-so-thanh-tam.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1974",
+    "su_kien": "Cha Gérard Trần Công Dụ bắt đầu phụ trách giáo sở, suốt 17 năm.",
+    "chi_tiet": "Năm 1974, cha Gérard Trần Công Dụ được cử phụ trách giáo sở Thánh Tâm và ở lại trong vòng 17 năm. Ngày 29/7/1991, cha Phao-lô Phạm Văn Trị thay cha Dụ.",
+    "nguon": [
+     "https://vinhson.net/giao-so-thanh-tam.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1993",
+    "su_kien": "Nhà thờ chính và nhà thờ phụ được đại tu toàn bộ.",
+    "chi_tiet": "Đầu năm 1993, cha Phao-lô Phạm Văn Trị cho đại tu toàn bộ nhà thờ chính và nhà thờ phụ. Đầu năm 1998 xây hàng rào khuôn viên, gia cố tường quanh nhà thờ; năm 2000 xây lại ta-luy và tô lại mặt tiền để mừng Đại Năm Thánh.",
+    "nguon": [
+     "https://vinhson.net/giao-so-thanh-tam.html",
+     "https://drtinhanh.blogspot.com/2018/11/nha-tho-thanh-tam-lat.html"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "2011",
+    "su_kien": "Nhà thờ xây mới được cung hiến.",
+    "chi_tiet": "Tháng 1/2009 Tu hội khởi công xây mới lại nhà thờ Thánh Tâm, cũng là nhà thờ chính của Phụ tỉnh Việt Nam của Tu hội. Ngày 28/12/2011, Giám mục Antôn Vũ Huy Chương cung hiến thánh đường với tước hiệu Thánh Tâm Chúa Giêsu.",
+    "nguon": [
+     "https://vinhson.net/giao-so-thanh-tam.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 54,
+  "ten_1963": "Thư Viện",
+  "nay": {
+   "ten": "Thư viện tỉnh Lâm Đồng",
+   "mo_ta": "Thư viện công cộng của tỉnh ở số 14 Trần Phú, phường Xuân Hương – Đà Lạt, trên đoạn Trần Phú gần Nhà thờ Con Gà.",
+   "nguon": [
+    "https://thuvienlamdong.org.vn/",
+    "https://www.openstreetmap.org/#map=19/11.93708/108.43515"
+   ]
+  },
+  "cung_cho": "chắc",
+  "cung_cho_ghi_chu": "OpenStreetMap ghi 'Lam Dong Public Library' cách điểm 28 m; trang thư viện ghi địa chỉ 14 Trần Phú. Bản đồ 1963 ghi 'Thư Viện' đúng chỗ này; bài Doanh Nhân Plus kể Thư viện thành phố Đà Lạt (1958) ở 'số 22 Yersin, nay là đường Trần Phú'. Chưa có nguồn khẳng định số 22 Yersin cũ chính là số 14 Trần Phú nay, nhưng vị trí trên bản đồ trùng.",
+  "moc": [
+   {
+    "nam": "1958",
+    "su_kien": "Thư viện thành phố Đà Lạt khánh thành trong một biệt thự trên đường Yersin (nay Trần Phú).",
+    "chi_tiet": "Sáng 15/8/1958 có lễ khánh thành Thư viện thành phố Đà Lạt, theo bài của Doanh Nhân Plus; Địa chí Đà Lạt cũng liệt kê 'Thư viện Đà Lạt (1958)'. Thư viện đặt trong một biệt thự số 22 Yersin, có bãi cỏ, cây thông và ghế đá. Bên trong có 6 phòng, riêng phòng đọc có 150 ghế. Thị trưởng Trần Văn Phước mời nhân sĩ trí thức trong thành phố góp ý chọn sách.",
+    "nguon": [
+     "https://doanhnhanplus.vn/thanh-pho-thu-vien-625391.html",
+     "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1963",
+    "su_kien": "Sau đảo chính, tấm băng khẩu hiệu của Tổng thống Ngô Đình Diệm trong thư viện bị gỡ xuống.",
+    "chi_tiet": "Bài Doanh Nhân Plus kể trong thư viện có treo băng khẩu hiệu của Tổng thống Ngô Đình Diệm: 'Mục-đích của văn-hóa là phát-triển và nâng cao Con-Người'. Sau cuộc đảo chính năm 1963, tấm băng bị gỡ xuống. Ngoài chuyện đó, việc đọc sách hằng ngày hầu như không đổi. Ông Huỳnh Quan Lâm làm quản thủ thư viện từ thời thị trưởng Trần Văn Phước.",
+    "nguon": [
+     "https://doanhnhanplus.vn/thanh-pho-thu-vien-625391.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 59,
+  "ten_1963": "Miếu",
+  "nay": {
+   "ten": "Nơi thờ 'Hà Đông' trên đường Lý Nam Đế (làng hoa Hà Đông)",
+   "mo_ta": "OpenStreetMap ghi một nơi thờ tên 'Hà Đông' trên đường Lý Nam Đế, giữa làng hoa Hà Đông (nay phường Lâm Viên – Đà Lạt). Không có nguồn nói đây là đình, miếu hay nhà thờ tổ của làng.",
+   "nguon": [
+    "https://www.openstreetmap.org/node/13130396001"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Nơi thờ 'Hà Đông' trên OpenStreetMap cách điểm chỉ 23 m, đúng loại 'miếu nhỏ' bản đồ 1963 ghi. Nhưng chỉ có một nguồn (OpenStreetMap) và không có tài liệu nào về chính ngôi miếu này. Chùa Linh Giác cách khoảng 175 m nên không phải.",
+  "moc": [
+   {
+    "nam": "1938",
+    "su_kien": "Người làng hoa quanh Hồ Tây (Hà Nội) vào lập ấp Hà Đông, nơi ngôi miếu này đứng.",
+    "chi_tiet": "VnExpress kể các hộ từ những làng hoa quanh Hồ Tây như Quảng Bá, Nghi Tàm di cư vào Đà Lạt từ năm 1938, khai hoang khoảng 50 ha lập làng hoa lấy tên Hà Đông. Địa chí Đà Lạt cũng ghi ấp trồng rau Hà Đông được lập năm 1938. Không nguồn nào ghi năm dựng chính ngôi miếu, nên đây là năm của ấp chứ chưa phải năm của miếu.",
+    "nguon": [
+     "https://vnexpress.net/thoi-su/lang-hoa-tram-tuoi-cua-nguoi-ha-noi-xua-o-da-lat-3719884.html",
+     "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 62,
+  "ten_1963": "Miếu",
+  "nay": {
+   "ten": "Sân vận động Đà Lạt",
+   "mo_ta": "Sân bóng đá có đường chạy nhựa tổng hợp ở số 1 Xô Viết Nghệ Tĩnh, phường cũ 7. Theo OpenStreetMap, điểm 1963 rơi vào khoảng cỏ và khán đài của sân.",
+   "nguon": [
+    "https://www.openstreetmap.org/#map=18/11.95874/108.4322"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "Điểm 1963 nằm trong khuôn viên sân vận động hiện nay (OpenStreetMap: bãi cỏ, khán đài cách 27 m, đường chạy bao quanh). Sân vận động Đà Lạt thời trước nằm chỗ khác, cạnh Thao trường và hồ Xuân Hương, nay là trung tâm thương mại (Mực Tím Sơn Đen), nên sân này xây sau và ngôi miếu 1963 đã mất. Không tìm được tên, năm dựng hay năm dời của ngôi miếu. Nguồn: https://www.muctimsonden.com/2026/11/san-van-ong-lat-xua.html",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 65,
+  "ten_1963": "Rạp Chiếu Bóng",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Như lần trước: điểm ở ngã ba Phan Đình Phùng – Nguyễn Văn Trỗi (xưa đường An Nam rồi Hàm Nghi). Các rạp cũ có nguồn (Ngọc Hiệp, Langbian; Annam/Kinh Đô 'số 55 đường Annam') đều không chắc nằm trong 150 m. Trên OpenStreetMap quanh điểm chỉ có cửa hàng, quán ăn — không đoán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 85,
+  "ten_1963": "Ký Nhi Viện",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Không xác định được ký nhi viện nào. Địa chí Đà Lạt (qua kết quả tìm kiếm, chưa đọc được trang gốc vì trang lamdong.gov.vn đã gỡ) nhắc nhà trẻ Nhị Trưng do sư bà Từ Hương lập từ 1950 và ký nhi viện Kiều Đàm mở năm 1964 (sau bản đồ), nhưng không ghi địa chỉ. Chùa Linh Quang (Hai Bà Trưng) cách điểm khoảng 206 m. Ngay điểm bây giờ trên OpenStreetMap là cửa hàng WinMart, quán ăn gần ngã Hai Bà Trưng – Kim Đồng — không đoán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 90,
+  "ten_1963": "Trường Học",
+  "nay": {
+   "ten": "Trường Tiểu học Đa Thành",
+   "mo_ta": "Trường tiểu học công lập trên đường Xô Viết Nghệ Tĩnh (xưa là đường Nguyễn Hoàng), khu Đa Thành, phường cũ 7.",
+   "nguon": [
+    "https://www.openstreetmap.org/way/1427065211"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "OpenStreetMap ghi 'Trường Tiểu học Đa Thành' cách điểm 68 m. Địa chí Đà Lạt liệt kê trường sơ học công lập Đa Thành từ năm 1953, cùng tên khu. Chưa có nguồn khẳng định trường nay đứng đúng nền trường cũ.",
+  "moc": [
+   {
+    "nam": "1953",
+    "su_kien": "Trường sơ học công lập Đa Thành có trong danh sách trường của Đà Lạt.",
+    "chi_tiet": "Địa chí Đà Lạt ghi đến năm 1953 Đà Lạt có 7 trường sơ học công lập: Nam Đà Lạt, Nữ Đà Lạt, Đa Nghĩa, Đa Thành, Xuân An, Tây Hồ và Đa Phước. Trường sơ học dạy những lớp nhỏ nhất bậc tiểu học. Nguồn không ghi năm mở trường hay địa chỉ.",
+    "nguon": [
+     "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 93,
+  "ten_1963": "Trường Học",
+  "nay": {
+   "ten": "Trường THCS và THPT Tây Sơn",
+   "mo_ta": "Trường trung học cơ sở và phổ thông ở số 01 Nhà Chung, phường Xuân Hương – Đà Lạt, cạnh khu Nhà thờ Con Gà.",
+   "nguon": [
+    "https://taysondalat.edu.vn/about/BAI-TRUYEN-THONG-TRUONG-THCS-VA-THPT-TAY-SON.html",
+    "https://www.openstreetmap.org/way/1513535574"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "OpenStreetMap ghi trường Tây Sơn cách điểm 46 m, nên đúng chỗ. Nhưng trường Tây Sơn chỉ mở năm 1993; không tìm được nguồn cho biết năm 1963 trường nào học ở đây.",
+  "moc": [
+   {
+    "nam": "1993",
+    "su_kien": "Trường bán công Tây Sơn được thành lập và khai giảng năm học đầu tiên.",
+    "chi_tiet": "Trường Tây Sơn được thành lập theo Quyết định số 1121 ngày 2/8/1993 của Ủy ban nhân dân tỉnh Lâm Đồng. Lễ khai giảng năm học đầu tiên là ngày 5/9/1993. Từ 1993 đến 2008 trường chạy theo mô hình bán công.",
+    "nguon": [
+     "https://taysondalat.edu.vn/about/BAI-TRUYEN-THONG-TRUONG-THCS-VA-THPT-TAY-SON.html",
+     "http://taysondalat.edu.vn/about/QUA-TRINH-XAY-DUNG-VA-PHAT-TRIEN-TRUONG-THCS-THPT-TAY-SON.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "2008",
+    "su_kien": "Trường đổi thành Trường THCS và THPT Tây Sơn – Đà Lạt.",
+    "chi_tiet": "Tháng 2/2008 trường bán công Tây Sơn chính thức chuyển thành Trường THCS và THPT Tây Sơn – Đà Lạt, dạy cả cấp hai lẫn cấp ba.",
+    "nguon": [
+     "https://taysondalat.edu.vn/about/BAI-TRUYEN-THONG-TRUONG-THCS-VA-THPT-TAY-SON.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 96,
+  "ten_1963": "Trường Học",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Không tìm được nguồn về trường học này. Điểm ở góc Lê Quý Đôn – Hải Thượng; gần nhất trên OpenStreetMap là Trung tâm Kiểm nghiệm Dược phẩm Mỹ phẩm (15 m), khách sạn, quán ăn; không có trường học nào trong 150 m — không đoán.",
+  "moc": [],
+  "trang": null
+ },
+ {
+  "so": 99,
+  "ten_1963": "Trường Học",
+  "nay": {
+   "ten": "Trường THCS Quang Trung",
+   "mo_ta": "Trường trung học cơ sở trên đường Nhà Chung (ấp Xuân An cũ), gần Nhà thờ Con Gà; một trong các trường điểm của Đà Lạt.",
+   "nguon": [
+    "https://thcsquangtrung.baoloc.edu.vn/chi-tiet-tin-tuc/?param=hanh-trinh-50-nam-truong-thcs-quang-trung-tu-hao-qua-khu-vung-buoc-tuong-lai-a45c13ac-79ef-424a-b896-b72624f1520d",
+    "https://www.openstreetmap.org/way/1525472446"
+   ]
+  },
+  "cung_cho": "chưa chắc",
+  "cung_cho_ghi_chu": "OpenStreetMap ghi trường Quang Trung cách điểm 100 m (gần hơn có một nhà trẻ không tên, 36 m). Bài 50 năm của trường kể trường có từ trường Sainte Marie (1920) rồi Trí Đức (1955–1975), nên năm 1963 ở đây đã có trường — nhưng chưa có nguồn nói rõ trường Trí Đức đứng đúng chỗ đánh dấu.",
+  "moc": [
+   {
+    "nam": "1920",
+    "su_kien": "Trường Công giáo Sainte Marie mở, do các nữ tu Phaolô phụ trách.",
+    "chi_tiet": "Theo bài 'Hành trình 50 năm Trường THCS Quang Trung', lịch sử trường bắt đầu từ trường Sainte Marie, lập năm 1920 tại Đà Lạt. Hai thập niên đầu đây là trường Công giáo thuộc nhà thờ, chủ yếu dạy mẫu giáo và tiểu học, do các nữ tu dòng Phaolô (Soeurs Phao Lồ) phụ trách. Đến 1951 trường mở thêm vài lớp trung học.",
+    "nguon": [
+     "https://thcsquangtrung.baoloc.edu.vn/chi-tiet-tin-tuc/?param=hanh-trinh-50-nam-truong-thcs-quang-trung-tu-hao-qua-khu-vung-buoc-tuong-lai-a45c13ac-79ef-424a-b896-b72624f1520d"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1955",
+    "su_kien": "Trường đổi tên thành Trung học Trí Đức.",
+    "chi_tiet": "Từ 1955 đến 1975 trường mang tên Trung học Trí Đức, dạy từ tiểu học đến trung học. Đây là giai đoạn trường lớn dần: từ những dãy nhà gỗ lợp tôn ban đầu, đến năm 1969 đã có khối nhà bốn tầng với 20 phòng học. Năm 1963, khi bản đồ được vẽ, trường đang mang tên Trí Đức.",
+    "nguon": [
+     "https://thcsquangtrung.baoloc.edu.vn/chi-tiet-tin-tuc/?param=hanh-trinh-50-nam-truong-thcs-quang-trung-tu-hao-qua-khu-vung-buoc-tuong-lai-a45c13ac-79ef-424a-b896-b72624f1520d"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1975",
+    "su_kien": "Trường Trí Đức được tiếp nhận và đổi thành trường Quang Trung.",
+    "chi_tiet": "Sau năm 1975, trường tư thục và bán công được đưa về công lập; cơ sở Trí Đức được tiếp nhận, hợp nhất và đổi thành trường Quang Trung. Trường từng là cấp 1–2 (1975–1985), rồi trường cấp II (1985–1993), có lúc sáp nhập với trường cấp III Thăng Long thành THPT Quang Trung (1995–1997).",
+    "nguon": [
+     "https://thcsquangtrung.baoloc.edu.vn/chi-tiet-tin-tuc/?param=hanh-trinh-50-nam-truong-thcs-quang-trung-tu-hao-qua-khu-vung-buoc-tuong-lai-a45c13ac-79ef-424a-b896-b72624f1520d"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1997",
+    "su_kien": "Khối cấp ba tách ra, trường mang tên Trường THCS Quang Trung.",
+    "chi_tiet": "Từ năm 1997 khối THPT tách về Trường Thăng Long, trường chính thức mang tên Trường THCS Quang Trung. Bài của trường kể đây là trường THCS đầu tiên của tỉnh Lâm Đồng (trước sáp nhập) đạt chuẩn quốc gia.",
+    "nguon": [
+     "https://thcsquangtrung.baoloc.edu.vn/chi-tiet-tin-tuc/?param=hanh-trinh-50-nam-truong-thcs-quang-trung-tu-hao-qua-khu-vung-buoc-tuong-lai-a45c13ac-79ef-424a-b896-b72624f1520d"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ },
+ {
+  "so": 108,
+  "ten_1963": "Nhà Máy Nước",
+  "nay": null,
+  "cung_cho": "không rõ",
+  "cung_cho_ghi_chu": "Thời 1963 gần như chắc là Nhà máy nước hồ Than Thở (xây 1938): điểm nằm cách mép nam hồ Than Thở khoảng 120–250 m, trên đường Nam Hồ (ấp Tây Hồ). Nhưng OpenStreetMap ở đây chỉ có nhà dân, không vẽ nhà máy nước, và không tìm được địa chỉ hay tình trạng hiện nay của nhà máy — nên chưa nói được bây giờ chỗ này là gì. Địa chí Đà Lạt ghi năm 2007 nhà máy vẫn chạy.",
+  "moc": [
+   {
+    "nam": "1937",
+    "su_kien": "Hồ Than Thở được đắp ở đầu nguồn suối Cam Ly để cấp nước cho thành phố.",
+    "chi_tiet": "Địa chí Đà Lạt ghi năm 1937 hồ Than Thở được xây dựng tại thượng lưu suối Cam Ly, vừa làm hồ cảnh vừa làm hồ chứa nước cho Đà Lạt. Cùng năm, Sở Công chánh lập kế hoạch phát triển hệ thống cấp và phân phối nước. Tuổi Trẻ cũng kể hồ được đào năm 1937.",
+    "nguon": [
+     "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html",
+     "https://tuoitre.vn/nguoi-da-lat-giu-nuoc-dau-nguon-20191019212924314.htm"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1938",
+    "su_kien": "Nhà máy nước hồ Than Thở được xây dựng.",
+    "chi_tiet": "Nhà máy nước hồ Than Thở xây năm 1938, xử lý nước hồ bằng lắng, lọc, khử trùng rồi chứa vào bể nước sạch 300 m³. Nước được bơm lên ba bể chứa thông nhau tổng 1.875 m³ (ở dinh Toàn quyền, gần dinh Thị trưởng và khu Viện Pasteur). Công suất mỗi nguồn ghi khác: Tuổi Trẻ và một đoạn của Địa chí ghi 4.300 m³/ngày, đoạn khác ghi 8.400 m³/ngày. Nhà máy có trạm thu nước thô, nhà bơm, bể lắng và 8 bể lọc cát hở.",
+    "nguon": [
+     "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html",
+     "https://tuoitre.vn/nguoi-da-lat-giu-nuoc-dau-nguon-20191019212924314.htm"
+    ],
+    "chua_chac": false
+   },
+   {
+    "nam": "1981",
+    "su_kien": "Nhà máy chuyển sang lấy nước thô từ hồ Chiến Thắng.",
+    "chi_tiet": "Trước đây nước thô đi từ hồ Than Thở vào nhà máy bằng một ống gang cỡ 300 mm. Địa chí Đà Lạt ghi sau năm 1981 nước thô được chuyển tải từ hồ Chiến Thắng, vì hồ Than Thở bị bồi lắng và không còn đủ nước.",
+    "nguon": [
+     "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "1986",
+    "su_kien": "Có nhà máy Đan Kia, nhà máy hồ Than Thở được tính chỉ để dự phòng.",
+    "chi_tiet": "Khi công trình cấp nước Đan Kia ra đời (1986), nhà máy nước hồ Than Thở và hồ Xuân Hương được dự kiến chỉ làm nhiệm vụ dự phòng vì máy móc đã quá lạc hậu. Dù vậy Địa chí vẫn kể nó là một trong ba nhà máy cấp nước cho Đà Lạt.",
+    "nguon": [
+     "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html"
+    ],
+    "chua_chac": true
+   },
+   {
+    "nam": "2007",
+    "su_kien": "Nhà máy hồ Than Thở vẫn sản xuất hơn một triệu m³ nước trong năm.",
+    "chi_tiet": "Theo Địa chí Đà Lạt, năm 2007 thành phố sản xuất tổng cộng 12.110.440 m³ nước, trong đó nhà máy hồ Than Thở góp 1.016.434 m³, phần còn lại từ nhà máy hồ Xuân Hương và Suối Vàng. Không tìm được số liệu mới hơn về nhà máy này.",
+    "nguon": [
+     "https://dalatarchi-tranconghoakts.blogspot.com/2012/12/ia-chi-lat_9.html"
+    ],
+    "chua_chac": true
+   }
+  ],
+  "trang": null
+ }
+]

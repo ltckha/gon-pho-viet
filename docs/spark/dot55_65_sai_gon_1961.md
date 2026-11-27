@@ -160,7 +160,7 @@ Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ
 Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dot60_sai_gon_1961_o/, đúng tên file trên (.png).
 ```
 
-## Đợt 61
+## Đợt 61 — ĐÃ GHÉP 27/11/2026
 
 Ảnh gốc: dot61_anh_goc_sai_gon_1961.zip (sg1961_t1_x2970_y3650, sg1961_t1_x1870_y3650, sg1961_t1_x770_y3650, sg1961_t1_x3850_y1450)
 
@@ -186,7 +186,7 @@ Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ
 Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dot61_sai_gon_1961_o/, đúng tên file trên (.png).
 ```
 
-## Đợt 62
+## Đợt 62 — ĐÃ GHÉP 27/11/2026
 
 Ảnh gốc: dot62_anh_goc_sai_gon_1961.zip (sg1961_t1_x2970_y1450, sg1961_t1_x1870_y1450, sg1961_t1_x770_y1450, sg1961_t1_x3850_y4750)
 
@@ -212,7 +212,7 @@ Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ
 Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dot62_sai_gon_1961_o/, đúng tên file trên (.png).
 ```
 
-## Đợt 63
+## Đợt 63 — ĐÃ GHÉP 27/11/2026
 
 Ảnh gốc: dot63_anh_goc_sai_gon_1961.zip (sg1961_t1_x2970_y4750, sg1961_t1_x1870_y4750, sg1961_t1_x770_y4750, sg1961_t1_x3850_y350)
 
@@ -238,7 +238,7 @@ Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ
 Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dot63_sai_gon_1961_o/, đúng tên file trên (.png).
 ```
 
-## Đợt 64
+## Đợt 64 — ĐÃ GHÉP 27/11/2026
 
 Ảnh gốc: dot64_anh_goc_sai_gon_1961.zip (sg1961_t1_x2970_y350, sg1961_t1_x1870_y350, sg1961_t1_x770_y350, sg1961_t1_x1870_y5650)
 
@@ -264,7 +264,7 @@ Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ
 Lưu lên Google Drive vào Spark/Inbox/Game_ve_thu/dot64_sai_gon_1961_o/, đúng tên file trên (.png).
 ```
 
-## Đợt 65
+## Đợt 65 — ĐÃ GHÉP 27/11/2026
 
 Ảnh gốc: dot65_anh_goc_sai_gon_1961.zip (sg1961_t1_x770_y5650)
 

@@ -344,6 +344,18 @@ def main(pdf, soat=None):
         if sum(1 for v in ke.values() if len(v) >= 0.4 * len(t)) >= 2:
             bo.add(k)
     print('bỏ vết ranh lô:', len(bo))
+    # bỏ vết đi xuyên rừng, đầm (anh Kha 27/11 "kiểm đường vẽ thiếu", soát thấy vết nhầm): đường thật là lối TRẮNG giữa hai hàng gạch,
+    # nên ≥ 70% điểm dọc tâm vết phải sáng (không xanh cây, không ký hiệu đầm) trong ô 3×3.
+    sang = (mx > 200) & (sat < 40)
+    sang3 = ndi.maximum_filter(sang, 3)
+    bo_mau = 0
+    for k, Pc in enumerate(tracks):
+        if k in bo:
+            continue
+        xi = np.clip(Pc[:, 0].astype(int), 0, W - 1); yi = np.clip(Pc[:, 1].astype(int), 0, H - 1)
+        if sang3[yi, xi].mean() < 0.7 or ndi.uniform_filter(water.astype(np.float32), 21)[yi, xi].mean() > 0.12:
+            bo.add(k); bo_mau += 1
+    print('bỏ vết đi xuyên rừng/đầm:', bo_mau)
     duong_mat = []
     for k, Pc in enumerate(tracks):
         if k in bo:
@@ -370,17 +382,39 @@ def main(pdf, soat=None):
     def dline(p, pts):
         return min(dseg(p, a_, b) for a_, b in zip(pts, pts[1:]))
     ten_duong = []
+    # Tên 1963 phủ CẢ con đường (anh Kha 27/11: "tên đường ít quá"): mỗi đoạn dò được lấy tên đường hôm nay của nó
+    # (đường OpenStreetMap trùng ≥ 60% điểm trong 15 m), rồi nhận tên 1963 của SỐ gần nhất có cùng tên nay
+    # (một đường nay có thể từng là hai đường: Trần Phú = Hùng Vương + Yersin). Xa số đó quá 1,5 km thì không gắn.
+    from scipy.spatial import cKDTree as _KD
+    def m_xy(p):
+        return (p[0] * 108900, p[1] * 110574)
+    dp, dn = [], []
+    for r in osm['ten_duong']:
+        for a_, b in zip(r['pts'], r['pts'][1:]):
+            A, Bq = m_xy(a_), m_xy(b); L_ = math.hypot(Bq[0] - A[0], Bq[1] - A[1]); k = max(1, int(L_ / 5))
+            for i_ in range(k + 1):
+                dp.append((A[0] + (Bq[0] - A[0]) * i_ / k, A[1] + (Bq[1] - A[1]) * i_ / k)); dn.append(r['ten'])
+    KD = _KD(np.array(dp))
+    neo = {}                                   # tên nay → [(tên 1963, số, nay, các điểm của đoạn tên đã dò)]
+    for s_ in t63['duong']:
+        neo.setdefault(s_['nay'], []).append(s_)
     for d in duong:
+        P = np.array([m_xy(p) for p in d['pts']])
+        dist_, idx = KD.query(P)
+        names = [dn[i] for i, v in zip(idx, dist_) if v < 15]
+        if len(names) < 0.6 * len(P):
+            continue
+        nay = max(set(names), key=names.count)
+        if nay not in neo:
+            continue
+        mid = P[len(P) // 2]
         best = None
-        for s_ in t63['duong']:
-            ds = [dline(p, s_['pts']) for p in d['pts']]
-            f = sum(1 for v in ds if v < 15) / len(ds)
-            if f >= 0.6 and (best is None or f > best[0]):
-                best = (f, s_)
-        if best:
-            d['ten'] = best[1]['ten']
-            d['so'] = best[1]['so']
-            d['nay'] = best[1]['nay']
+        for s_ in neo[nay]:
+            dd = min(math.hypot(mid[0] - q[0], mid[1] - q[1]) for q in (m_xy(x) for x in s_['pts']))
+            if best is None or dd < best[0]:
+                best = (dd, s_)
+        if best and best[0] < 1500:
+            d['ten'] = best[1]['ten']; d['so'] = best[1]['so']; d['nay'] = nay
     # nối các đoạn cùng tên chạm nhau để đặt chữ
     by = {}
     for d in duong:
@@ -397,7 +431,7 @@ def main(pdf, soat=None):
                         continue
                     a_, b = segs[i_], segs[j_]
                     for x_, y_ in ((a_[-1], b[0]), (a_[-1], b[-1]), (a_[0], b[0]), (a_[0], b[-1])):
-                        if dseg(x_, y_, y_) < 12:
+                        if dseg(x_, y_, y_) < 60:
                             if x_ is a_[-1] and y_ is b[0]: segs[i_] = a_ + b
                             elif x_ is a_[-1]: segs[i_] = a_ + b[::-1]
                             elif y_ is b[0]: segs[i_] = b[::-1] + a_
@@ -407,9 +441,15 @@ def main(pdf, soat=None):
                     if changed: break
                 if changed: break
         nay = next(d['nay'] for d in duong if d.get('ten') == ten)
-        for s in segs:
-            if len(s) >= 2:
-                ten_duong.append({'ten': ten, 'nay': nay, 'pts': s})
+        # bỏ khúc trùng (hai đường OSM song song cùng tên cho ra hai khúc chồng nhau): giữ khúc dài hơn
+        segs = sorted([x for x in segs if len(x) >= 2], key=lambda x: -sum(math.hypot((b[0] - a_[0]) * 108900, (b[1] - a_[1]) * 110574) for a_, b in zip(x, x[1:])))
+        giu = []
+        for x in segs:
+            if any(sum(1 for p in x if min(dseg(p, a_, b) for a_, b in zip(y, y[1:])) < 20) > 0.7 * len(x) for y in giu):
+                continue
+            giu.append(x)
+        for s in giu:
+            ten_duong.append({'ten': ten, 'nay': nay, 'pts': s})
     print('đoạn có tên 1963:', sum(1 for d in duong if d.get('ten')), ' tên khác nhau:', len(by))
 
     # ---------- ảnh soát ----------

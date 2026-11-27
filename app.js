@@ -245,7 +245,7 @@
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
       boxes.push({ x0: sx - 11, x1: sx + 11, y0: sy - 28, y1: sy });
     });
-    pins.forEach(function (g) {
+    function nhanGhim() { pins.forEach(function (g) {
       if (g._fixed || g._an) return;
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
       var w = g._n * 13 * 0.6 + 6, lb = g.lastChild, o = g._r ? g._r + 1 : 12, cy = g._r ? -g._r : -16;
@@ -258,19 +258,32 @@
       if (vuaPhai && free(right)) { lb.setAttribute('x', o + 2); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
       else if (vuaTrai && free(left)) { lb.setAttribute('x', -o - 2); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
       else lb.setAttribute('hidden', '');
-    });
+    }); }
+    if (!layer.y1963) nhanGhim();
+    var daDat = {};
     roadLbl.slice().sort(function (a, b) { return a.rank - b.rank || b.len - a.len; }).forEach(function (L) {
-      var show = z >= L.minZ && L.n * fs * 0.58 < L.len * 0.85;
+      var show = z >= L.minZ && L.n * fs * 0.56 < L.len * 0.9;
       if (show) {
         var sx = L.x * view.s + view.x, sy = L.y * view.s + view.y, hw = L.n * 11 * 0.58 / 2 + 4;
         if (sx < -50 || sy < -50 || sx > r.width + 50 || sy > r.height + 50) show = false;
-        else {
+        else if (L.pe) {
+          // chữ chạy dọc đường: đo bằng các ô nhỏ dọc theo đúng đoạn chữ nằm (không dùng một hình chữ nhật ngang lớn)
+          var hl = L.n * fs * 0.58 / 2 + 3 / view.s, bs = [];
+          for (var t = -hl; t <= hl + 1e-9; t += Math.max(hl / 4, 1e-6)) {
+            var q = L.pe.getPointAtLength(Math.max(0, Math.min(L.len, L.len / 2 + t)));
+            var qx = q.x * view.s + view.x, qy = q.y * view.s + view.y;
+            bs.push({ x0: qx - 6, x1: qx + 6, y0: qy - 7, y1: qy + 7 });
+          }
+          var gan = (daDat[L.ten] || []).some(function (q) { return Math.hypot(q[0] - sx, q[1] - sy) < 220; });
+          if (!gan && bs.every(free)) { bs.forEach(function (b) { boxes.push(b); }); (daDat[L.ten] = daDat[L.ten] || []).push([sx, sy]); } else show = false;
+        } else {
           var b = { x0: sx - hw, x1: sx + hw, y0: sy - hw * 0.5 - 7, y1: sy + hw * 0.5 + 7 };
           if (free(b)) boxes.push(b); else show = false;
         }
       }
       if (show) L.el.removeAttribute('hidden'); else L.el.setAttribute('hidden', '');
     });
+    if (layer.y1963) nhanGhim();
     // hồ, mốc: sau tên đường, chỗ nào còn trống mới hiện
     pointLbl.forEach(function (L) {
       var show = z >= L.minZ;
@@ -415,19 +428,37 @@
     var defs = el('defs', {}); land.appendChild(defs);
     var roadLabels = el('g', {}); labels.appendChild(roadLabels);
     roadLbl = []; pointLbl = [];
-    data.ten_duong.forEach(function (r, i) {
-      var ten = r.ten.replace(/^(Đường|Phố) /, '');
-      if (meters(r.pts) < 60) return;
-      var sm = smooth(r.pts, 3), id = 'n63_' + i;
-      if (maxTurn(smooth(r.pts, 1)) > 60) return;
-      var pe = el('path', { id: id, d: lineOf(sm) }); defs.appendChild(pe);
-      var L = pe.getTotalLength();
-      if (pe.getPointAtLength(L * 0.6).x < pe.getPointAtLength(L * 0.4).x) pe.setAttribute('d', lineOf(sm.slice().reverse()));
-      var t = el('text', { 'class': 'lbl road-name ten-1963', dy: '0.35em', hidden: '' });
-      t.appendChild(el('textPath', { href: '#' + id, startOffset: '50%' }, ten));
-      roadLabels.appendChild(t);
-      var m = pe.getPointAtLength(L / 2);
-      roadLbl.push({ el: t, len: L, x: m.x, y: m.y, n: ten.length, minZ: 1.3, rank: /^(Đại lộ|Công trường)/.test(r.ten) ? 1 : 2 });
+    // Tên đường 1963: chia mỗi khúc có tên thành cửa sổ ~300 m; cửa sổ nào đủ thẳng thì là một chỗ có thể đặt chữ.
+    // layout() chọn chỗ không đè, cùng tên thì cách nhau ≥ 220 điểm màn hình (đường dài hiện tên vài lần, như bản đồ thật).
+    var nWin = 0;
+    data.ten_duong.forEach(function (r) {
+      var ten = r.ten.replace(/^(Đường|Phố) /, '');     // tên nay cũng không ghi "Đường"; giữ "Đại lộ", "Công trường"
+      var pts = r.pts, acc = [0];
+      for (var k = 1; k < pts.length; k++) acc.push(acc[k - 1] + meters([pts[k - 1], pts[k]]));
+      var tong = acc[acc.length - 1];
+      if (tong < 50) return;
+      // nhiều cỡ cửa sổ (300, 600, 1200 m, cả khúc): phóng xa dùng cửa sổ dài, phóng gần dùng cửa sổ ngắn
+      var cua = [];
+      [300, 600, 1200, tong].forEach(function (c) {
+        if (c > tong * 1.01 && c !== tong) return;
+        var so = Math.max(1, Math.round(tong / c)), buoc = tong / so;
+        for (var w = 0; w < so; w++) cua.push([w * buoc, (w + 1) * buoc]);
+      });
+      cua.forEach(function (cw) {
+        var lo = cw[0], hi = cw[1], seg = [];
+        for (var j = 0; j < pts.length; j++) if (acc[j] >= lo - 1 && acc[j] <= hi + 1) seg.push(pts[j]);
+        if (seg.length < 2) return;
+        if (maxTurn(smooth(seg, 2)) > 70) return;
+        var sm = smooth(seg, 3), id = 'n63_' + (nWin++);
+        var pe = el('path', { id: id, d: lineOf(sm) }); defs.appendChild(pe);
+        var L = pe.getTotalLength();
+        if (pe.getPointAtLength(L * 0.6).x < pe.getPointAtLength(L * 0.4).x) pe.setAttribute('d', lineOf(sm.slice().reverse()));
+        var t = el('text', { 'class': 'lbl road-name ten-1963', dy: '0.35em', 'font-size': '0.88em', hidden: '' });
+        t.appendChild(el('textPath', { href: '#' + id, startOffset: '50%' }, ten));
+        roadLabels.appendChild(t);
+        var m = pe.getPointAtLength(L / 2);
+        roadLbl.push({ el: t, pe: pe, len: L, x: m.x, y: m.y, n: ten.length * 0.88, ten: ten, minZ: 1.1, rank: /^(Đại lộ|Công trường)/.test(r.ten) ? 1 : 2 });
+      });
     });
     // tên ấp, khu, hồ, rừng in trên bản đồ (chép tay) + quảng trường trong bảng chỉ dẫn
     var CLS = { ap: 'ap63', ho: 'sea', rung: 'rung63-ten' }, MINZ = { ap: 0, ho: 1.2, rung: 1.8 };

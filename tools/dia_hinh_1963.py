@@ -56,6 +56,39 @@ def nhanh(sk, min_len):
     return out
 
 
+def vuong_nha(nen, khung, nguong=0.72):
+    """Nắn khối nhà (anh Kha 27/11 "vẽ khối nhà chưa đẹp"): khối nào gần chữ nhật (diện tích ≥ 72% hình chữ nhật nhỏ nhất bao nó)
+    thì thay bằng chữ nhật đó — đúng tâm, hướng, cỡ. Ra (khối còn lại dạng nén cũ, chữ nhật [cx, cy (1e-6 độ từ góc khung), dài, rộng (dm), góc (0,1°)])."""
+    import math
+    KX = 111320 * math.cos(math.radians(11.94)); KY = 110574
+    con, hcn = [], []
+    for f in nen:
+        x, y = f[0], f[1]; q = [(x, y)]
+        for i in range(2, len(f), 2):
+            x += f[i]; y += f[i + 1]; q.append((x, y))
+        P = np.array([(a * 1e-5 * KX, b * 1e-5 * KY) for a, b in q])     # mét
+        if len(P) < 3:
+            con.append(f); continue
+        dt = P[:-1] if np.allclose(P[0], P[-1]) else P
+        dien = 0.5 * abs(np.dot(dt[:, 0], np.roll(dt[:, 1], 1)) - np.dot(dt[:, 1], np.roll(dt[:, 0], 1)))
+        best = None
+        for i in range(len(dt)):
+            e = dt[(i + 1) % len(dt)] - dt[i]; L = np.hypot(*e)
+            if L < 1e-6:
+                continue
+            u = e / L; v = np.array([-u[1], u[0]])
+            a_, b_ = dt @ u, dt @ v
+            A = (a_.max() - a_.min()) * (b_.max() - b_.min())
+            if best is None or A < best[0]:
+                c = u * (a_.max() + a_.min()) / 2 + v * (b_.max() + b_.min()) / 2
+                best = (A, c, a_.max() - a_.min(), b_.max() - b_.min(), math.degrees(math.atan2(u[1], u[0])))
+        if best is None or best[0] <= 0 or dien / best[0] < nguong:
+            con.append(f); continue
+        A, c, w, h, g = best
+        hcn.append([round(c[0] / KX * 1e6), round(c[1] / KY * 1e6), round(w * 10), round(h * 10), round(g * 10) % 1800])
+    return con, hcn
+
+
 def main(pdf, soat=None):
     nx0, nx1, ny0, ny1 = neatline(pdf)
     X0, X1 = int(nx0 * DPI / 72) + 2, int(nx1 * DPI / 72) - 2
@@ -226,6 +259,13 @@ def main(pdf, soat=None):
             d.line([to_px(*q) for q in p], fill=(140, 70, 0, 255), width=2)
         ov.resize((W // 2, H // 2)).save(os.path.join(soat, 'dia_hinh_soat.png'))
 
+    nha_con, nha_hcn = vuong_nha(t63['nha'], t63['khung'])
+    nha_hcn = t63.get('nha_hcn', []) + nha_hcn          # chạy lại nhiều lần: giữ chữ nhật đã nắn lần trước
+    go_con, go_hcn = vuong_nha(nen_go, t63['khung'])
+    print('nhà nắn chữ nhật:', len(nha_hcn), '/', len(nha_hcn) + len(nha_con), ' nhà gỗ:', len(go_hcn), '/', len(go_hcn) + len(go_con))
+    t63['nha'] = nha_con; nen_go = go_con
+    t63['nha_hcn'] = nha_hcn; t63['nha_go_hcn'] = go_hcn
+    t63['nha_hcn_cach_ghi'] = 'chữ nhật: [cx, cy] đơn vị 1e-6 độ tính từ khung[0], khung[1]; dài, rộng (dm); góc cạnh dài so với hướng Đông (0,1°)'
     t63.update({'khuon_vien': khuon_vien, 'nha_go': nen_go, 'rung_ram': rung_ram, 'dong_muc': dong_muc, 'do_cao': do_cao, 'vuon': vuon, 'dam': dam})
     p = os.path.join(ROOT, 'data/lam-dong/da-lat/1963.json')
     json.dump(t63, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))

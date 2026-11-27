@@ -171,6 +171,28 @@
     return d;
   }
 
+  // Đường cong mềm đi QUA đúng các điểm (Catmull-Rom → Bézier), tay nắm ≤ 40% đoạn kề để không vọt lố
+  // (anh Kha 27/11 "các đường cong… chưa đẹp"). kin = true: vùng khép kín (rừng, vườn, hồ).
+  function congOf(pts, kin) {
+    var n = layer.prec || 1, P = pts.map(function (p) { return [px(p[0]), py(p[1])]; }), m = P.length;
+    if (m < 3) return lineOf(pts) + (kin ? 'Z' : '');
+    if (kin && P[0][0] === P[m - 1][0] && P[0][1] === P[m - 1][1]) { P.pop(); m--; }
+    function at(i) { return kin ? P[(i + m) % m] : P[Math.max(0, Math.min(m - 1, i))]; }
+    function f(v) { return v.toFixed(n); }
+    var d = 'M' + f(P[0][0]) + ' ' + f(P[0][1]), end = kin ? m : m - 1;
+    for (var i = 0; i < end; i++) {
+      var p0 = at(i - 1), p1 = at(i), p2 = at(i + 1), p3 = at(i + 2);
+      var L = Math.hypot(p2[0] - p1[0], p2[1] - p1[1]);
+      function tay(a, b) {
+        var tx = (b[0] - a[0]) / 6, ty = (b[1] - a[1]) / 6, l = Math.hypot(tx, ty), cap = 0.4 * L;
+        return l > cap && l > 0 ? [tx * cap / l, ty * cap / l] : [tx, ty];
+      }
+      var t1 = tay(p0, p2), t2 = tay(p1, p3);
+      d += 'C' + f(p1[0] + t1[0]) + ' ' + f(p1[1] + t1[1]) + ' ' + f(p2[0] - t2[0]) + ' ' + f(p2[1] - t2[1]) + ' ' + f(p2[0]) + ' ' + f(p2[1]);
+    }
+    return d + (kin ? 'Z' : '');
+  }
+
   // Làm mềm đường (Chaikin 2 lượt) cho chữ chạy uốn êm theo đường, không gãy khúc
   function smooth(pts, n) {
     var p = pts;
@@ -398,7 +420,7 @@
     var minLen = { 1: 90, 2: 90, 3: 110, 4: 130 }, showAt = { 1: 1.4, 2: 1.8, 3: 2.6, 4: 4 };
     function poly(list, cls) {
       var g = el('g', { 'class': cls }), d = '';
-      list.forEach(function (p) { d += lineOf(p) + 'Z'; });
+      list.forEach(function (p) { d += congOf(p, true); });
       g.appendChild(el('path', { d: d }));
       land.appendChild(g);
     }
@@ -419,11 +441,11 @@
     poly(data.nuoc, 'water nuoc63');
     // khuôn viên công trình (khung đỏ mảnh in trên bản đồ) — 13 nơi lớn, hiện khi phóng vừa trở lên
     var gkv = el('g', { 'class': 'kv63' }), dkv = '';
-    (data.khuon_vien || []).forEach(function (k) { dkv += lineOf(k.pts) + 'Z'; });
+    (data.khuon_vien || []).forEach(function (k) { dkv += congOf(k.pts, true); });
     gkv.appendChild(el('path', { d: dkv })); land.appendChild(gkv);
     // vòng cao độ (đường đồng mức cách 5 m) — nét nâu mờ dưới đường, nhà
     var gdm = el('g', { 'class': 'dm63' }), ddm = '';
-    (data.dong_muc || []).forEach(function (p) { ddm += lineOf(p); });
+    (data.dong_muc || []).forEach(function (p) { ddm += congOf(p); });
     gdm.appendChild(el('path', { d: ddm })); land.appendChild(gdm);
     var dn = '';
     data.nha.forEach(function (f) {
@@ -440,20 +462,35 @@
       for (var i = 2; i < f.length; i += 2) { x += f[i]; y += f[i + 1]; dg += 'L' + px(ox + x / 1e5).toFixed(5) + ' ' + py(oy + y / 1e5).toFixed(5); }
       dg += 'Z';
     });
-    var gg = el('g', { 'class': 'nha63g nhago63' }); gg.appendChild(el('path', { d: dg })); land.appendChild(gg);
+    // khối đã nắn chữ nhật (dia_hinh_1963.py vuong_nha): [cx, cy (1e-6 độ), dài, rộng (dm), góc 0,1°]
+    function hcn(list) {
+      var s = '', KX = 111320 * Math.cos(11.94 * Math.PI / 180), KY = 110574;
+      list.forEach(function (r) {
+        var cx = ox + r[0] / 1e6, cy = oy + r[1] / 1e6, w = r[2] / 20, h = r[3] / 20, g = r[4] / 10 * Math.PI / 180;
+        var ux = Math.cos(g), uy = Math.sin(g);
+        [[-w, -h], [w, -h], [w, h], [-w, h]].forEach(function (c, i) {
+          var ex = c[0] * ux - c[1] * uy, ny = c[0] * uy + c[1] * ux;
+          s += (i ? 'L' : 'M') + px(cx + ex / KX).toFixed(5) + ' ' + py(cy + ny / KY).toFixed(5);
+        });
+        s += 'Z';
+      });
+      return s;
+    }
+    gn.firstChild.setAttribute('d', dn + hcn(data.nha_hcn || []));
+    var gg = el('g', { 'class': 'nha63g nhago63' }); gg.appendChild(el('path', { d: dg + hcn(data.nha_go_hcn || []) })); land.appendChild(gg);
     var roads = data.duong.slice().sort(function (a, b) { return b.loai - a.loai; });
     var casing = el('g', { 'class': 'road-casing duong63' }), fill = el('g', { 'class': 'road-fill duong63' });
     roads.forEach(function (r) {
-      var d = lineOf(r.pts);
+      var d = congOf(r.pts);
       casing.appendChild(el('path', { d: d, 'class': 'r' + r.loai }));
       fill.appendChild(el('path', { d: d, 'class': 'r' + r.loai }));
     });
     land.appendChild(casing); land.appendChild(fill);
     var mon = el('g', { 'class': 'mon63' });          // đường mòn một nét đứt
-    (data.duong_mon || []).forEach(function (r) { mon.appendChild(el('path', { d: lineOf(r.pts) })); });
+    (data.duong_mon || []).forEach(function (r) { mon.appendChild(el('path', { d: congOf(r.pts) })); });
     land.appendChild(mon);
     var dat = el('g', { 'class': 'dat63' });          // đường đất bản cũ có, nay không còn: nét đứt đôi
-    (data.duong_mat || []).forEach(function (r) { dat.appendChild(el('path', { d: lineOf(r.pts) })); });
+    (data.duong_mat || []).forEach(function (r) { dat.appendChild(el('path', { d: congOf(r.pts) })); });
     land.appendChild(dat);
     var hl = el('g', { id: 'hl63', 'class': 'hl63' }); land.appendChild(hl);
     var defs = el('defs', {}); land.appendChild(defs);
@@ -598,7 +635,7 @@
     var hl = document.getElementById('hl63'), b = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity }, d = '';
     data.ten_duong.forEach(function (r) {
       if (r.ten !== ten) return;
-      d += lineOf(r.pts);
+      d += congOf(r.pts);
       r.pts.forEach(function (p) {
         var x = px(p[0]), y = py(p[1]);
         b.minX = Math.min(b.minX, x); b.maxX = Math.max(b.maxX, x); b.minY = Math.min(b.minY, y); b.maxY = Math.max(b.maxY, y);

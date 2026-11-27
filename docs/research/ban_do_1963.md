@@ -60,3 +60,7 @@ Anh Kha chốt 26/11: vẽ lại kiểu "cách 2" (phẳng, gọn), mọi nét c
 | Khác | Nhà xây đen / nhà gỗ xám; nghĩa địa (thập đỏ); cầu xây/sắt/gỗ; dây điện cao thế; tường chắn đất; sân quần vợt; bể nước; rừng rậm/thưa/thông; vườn cam, vườn cà phê | nhà, rừng đã có | |
 
 Chạy lại: `python3 -I tools/dung_1963.py <pdf>` → `python3 -I tools/gan_ten_1963.py` → `python3 -I tools/dia_hinh_1963.py <pdf>`.
+
+## Khuôn viên và biểu tượng bật lại (27/11/2026)
+- Khung khuôn viên: tự động hỏng (nét đỏ đứt). Cách dùng: em chọn bằng mắt vùng có nét đỏ của 13 nơi lớn (chợ, Palace, Saint Paul, Dinh I, Dinh II, ga, Võ Bị, Đại học, 2 sân vận động, Bùi Thị Xuân, Yersin, Couvent des Oiseaux); máy bao nét đỏ trong vùng (lấp chỗ đứt tăng dần 14→45 điểm ảnh, không được thì bao lồi). Kết quả `docs/research/ams_1963_khuon_vien.json`. Nhà thờ lớn, Dinh III, Viện Pasteur không có khung đỏ rõ → không vẽ.
+- Biểu tượng bật lại (`BIEU_TUONG_63 = true`), ghép Spark đợt 51 (6 hình dáng năm 1963).

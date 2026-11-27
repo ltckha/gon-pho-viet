@@ -1,4 +1,4 @@
-# Spark đợt 51 (đánh số chung với game — nếu game đã dùng số 51 thì anh đổi sang số kế tiếp): mốc bản đồ Đà Lạt 1963, vẽ lại cho đồng nét (27/11/2026) — CHƯA GHÉP
+# Spark đợt 51 (đánh số chung với game — nếu game đã dùng số 51 thì anh đổi sang số kế tiếp): mốc bản đồ Đà Lạt 1963, vẽ lại cho đồng nét (27/11/2026) — ĐÃ GHÉP 27/11/2026
 
 Anh Kha 27/11: "1 số biểu tượng chưa phù hợp". 4 hình cũ (chợ, nhà thờ lớn, rạp Hòa Bình, ga) vẽ theo nét game, không có miếng đất nổi như các mốc khác; sân vận động bên hồ đang dùng hình Quảng trường Lâm Viên hôm nay (năm 1963 chưa có) → đã gỡ; Lãnh Địa Đức Bà trùng hình nhà thờ Domaine de Marie → đã gỡ. Anh báo "xong 51" là em ghép vào `HINH` (số 6, 44, 53, 105, 76, 72) trong `tools/build_1963_dia_diem.py`; hình cũ vẫn giữ cho tầng hôm nay.
 

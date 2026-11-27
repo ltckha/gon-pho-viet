@@ -4,7 +4,7 @@
   - Vòng nâu = đường đồng mức, cách đều 5 m (mặt chuẩn: mực biển trung bình Hà Tiên)      → dong_muc (đường gấp khúc)
   - Số lẻ "1508,4" cạnh chấm đen = điểm cao độ (mét)                                         → do_cao (docs/research/ams_1963_do_cao.tsv, đọc bằng mắt)
   - Ô kẻ đứt có chấm giữa = Vườn / vườn cây trái ("Jardin, Verger")                          → vuon (vùng)
-  - Khung viền ĐỎ mảnh quanh số đỏ = khuôn viên công trình đánh số                           → CHƯA làm (nét đỏ đứt nhiều, xem mục 3)
+  - Khung viền ĐỎ mảnh quanh số đỏ = khuôn viên công trình đánh số                           → khuon_vien: 13 nơi lớn, chọn tay + máy bao (docs/research/ams_1963_khuon_vien.json)
   - Nền xanh in đặc = rừng rậm; chấm xanh lấm tấm = rừng thưa                             → rung_ram (vùng)
   - Khối xám nhạt = nhà gỗ hay nhà lá (nhà xây in đen, đã có ở 'nha')                    → nha_go (nén như 'nha')
   - Búi cỏ xanh dương = đầm lầy, đất ngập ven suối                                          → dam (vùng)
@@ -139,10 +139,13 @@ def main(pdf, soat=None):
     vuon = polys(m, sc, 1.2)
     print('chấm vườn:', len(P), '→ trong cụm', len(K), ' vùng vườn:', len(vuon))
 
-    # (khung đỏ khuôn viên công trình: thử 3 cách 27/11 — loang vùng, lấp lỗ mạng nét đỏ, gom nét đỏ bao quanh — đều hỏng vì
+    # khung khuôn viên: em chọn bằng mắt vùng nét đỏ từng nơi, máy bao lại (docs/research/ams_1963_khuon_vien.json)
+    khuon_vien_tay = json.load(open(os.path.join(ROOT, 'docs/research/ams_1963_khuon_vien.json'), encoding='utf-8'))['khuon_vien']
+    # (khung đỏ khuôn viên công trình — tự động: thử 3 cách 27/11 — loang vùng, lấp lỗ mạng nét đỏ, gom nét đỏ bao quanh — đều hỏng vì
     #  nét đỏ mảnh bị nhà, mép đường in đè mất từng đoạn dài 50–80 điểm ảnh; để vẽ tay sau, khi bật lại biểu tượng.)
     t63 = json.load(open(os.path.join(ROOT, 'data/lam-dong/da-lat/1963.json'), encoding='utf-8'))
-    khuon_vien = []
+    khuon_vien = [{'so': k['so'], 'pts': k['pts']} for k in khuon_vien_tay]
+    print('khuôn viên (chọn tay):', len(khuon_vien))
 
     # ---------- 3b) rừng rậm: nền xanh in đặc (≥ 60% điểm xanh) — khác rừng thưa chấm xanh lấm tấm (~35%) ----------
     ram = ndi.gaussian_filter(gd, 3) > 0.6
@@ -223,7 +226,7 @@ def main(pdf, soat=None):
             d.line([to_px(*q) for q in p], fill=(140, 70, 0, 255), width=2)
         ov.resize((W // 2, H // 2)).save(os.path.join(soat, 'dia_hinh_soat.png'))
 
-    t63.update({'nha_go': nen_go, 'rung_ram': rung_ram, 'dong_muc': dong_muc, 'do_cao': do_cao, 'vuon': vuon, 'dam': dam})
+    t63.update({'khuon_vien': khuon_vien, 'nha_go': nen_go, 'rung_ram': rung_ram, 'dong_muc': dong_muc, 'do_cao': do_cao, 'vuon': vuon, 'dam': dam})
     p = os.path.join(ROOT, 'data/lam-dong/da-lat/1963.json')
     json.dump(t63, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     print(p, os.path.getsize(p) // 1024, 'KB')

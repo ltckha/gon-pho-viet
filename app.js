@@ -110,7 +110,7 @@
       extra: { key: 'dd63', file: 'data/lam-dong/da-lat/1963_dia_diem.json' },   // năm 1963 là gì → nay → qua các năm
       crumb: [['Đà Lạt', 'da-lat'], ['Năm 1963', 'da-lat-1963']],
       sang: ['Hôm nay', 'da-lat'],
-      legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['mon63', 'Đường mòn'], ['nha63', 'Khu nhà'], ['nhago63', 'Nhà gỗ, nhà lá (phóng gần thấy)'], ['vuon63', 'Vườn'], ['rung63', 'Rừng thưa'], ['ram63', 'Rừng rậm'], ['dam63', 'Đầm lầy'], ['water', 'Hồ'], ['dm63', 'Vòng cao độ, cách nhau 5 m'], ['cao63', 'Độ cao đỉnh (mét)']],
+      legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['mon63', 'Đường mòn'], ['nha63', 'Khu nhà'], ['nhago63', 'Nhà gỗ, nhà lá (phóng gần thấy)'], ['vuon63', 'Vườn'], ['rung63', 'Rừng thưa'], ['ram63', 'Rừng rậm'], ['dam63', 'Đầm lầy'], ['water', 'Hồ'], ['kv63', 'Khuôn viên công trình'], ['dm63', 'Vòng cao độ, cách nhau 5 m'], ['cao63', 'Độ cao đỉnh (mét)']],
       card: function () { return ''; }
     }
   };
@@ -391,7 +391,7 @@
   /* ---------- Đà Lạt 1963 (tầng riêng) ----------
      Mọi nét lấy từ bản đồ quân đội Mỹ AMS L909 Đà Lạt 1:12.500 năm 1963 (tools/dung_1963.py): đường (tâm khe giữa hai mép in),
      hồ, rừng, nhà; tên đường theo bảng chỉ dẫn in trên bản đồ. Anh Kha chốt 26/11: không ghép gì của hiện tại. */
-  var BIEU_TUONG_63 = false;
+  var BIEU_TUONG_63 = true;
   var tim63 = document.getElementById('tim63'), timKq = document.getElementById('timKq');
   function draw1963() {
     var k = data.khung, ox = k[0], oy = k[1];
@@ -417,6 +417,10 @@
     poly(data.dam || [], 'dam63');
     poly(data.khu || [], 'khu63');
     poly(data.nuoc, 'water nuoc63');
+    // khuôn viên công trình (khung đỏ mảnh in trên bản đồ) — 13 nơi lớn, hiện khi phóng vừa trở lên
+    var gkv = el('g', { 'class': 'kv63' }), dkv = '';
+    (data.khuon_vien || []).forEach(function (k) { dkv += lineOf(k.pts) + 'Z'; });
+    gkv.appendChild(el('path', { d: dkv })); land.appendChild(gkv);
     // vòng cao độ (đường đồng mức cách 5 m) — nét nâu mờ dưới đường, nhà
     var gdm = el('g', { 'class': 'dm63' }), ddm = '';
     (data.dong_muc || []).forEach(function (p) { ddm += lineOf(p); });

@@ -20,6 +20,8 @@ HINH = {
     # Spark đợt 50 (docs/spark/dot50_moc_1963.md)
     18: 'dinh_tinh_truong', 20: 'nha_dia_du', 37: 'toa_hanh_chanh', 39: 'vien_hat_nhan', 41: 'benh_vien',
     69: 'nha_tho_tin_lanh', 70: 'tu_vien_cuu_the', 73: 'tu_vien_saint_paul', 80: 'truong_bui_thi_xuan', 101: 'dai_hoc_yersin',
+    # Spark đợt 51 (docs/spark/dot51_moc_1963_bo_sung.md): dáng năm 1963, thay hình dáng nay
+    6: 'cho_da_lat_1963', 44: 'nha_tho_lon_1963', 53: 'rap_hoa_binh_1963', 105: 'ga_da_lat_1963', 76: 'san_van_dong_1963', 72: 'lanh_dia_duc_ba_1963',
 }
 # hình chọn theo tên nay mà nghiên cứu xác định được (dinh I/II/III, khách sạn Du Parc, chùa Linh Phong, Lưu trữ IV…)
 THEO_TEN = [

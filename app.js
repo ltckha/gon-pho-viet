@@ -226,22 +226,37 @@
       }
       return true;
     }
+    // Đà Lạt 1963: biểu tượng theo hạng và mức phóng — xa chỉ mốc lớn (≤ 8), vừa thêm nơi có hình (≤ 16), gần hiện hết;
+    // cái nào chồng lên cái hạng cao hơn thì ẩn (cách "ưu tiên + chống chồng" của Mapbox, Google).
+    if (layer.y1963) {
+      var hangMax = z < 1.8 ? 1 : z < 3.5 ? 2 : 3, tran = z < 1.8 ? 8 : z < 3.5 ? 16 : 99, dem = 0;
+      pins.slice().sort(function (a, b) { return a._hang - b._hang; }).forEach(function (g) {
+        var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y, rr = g._r, ok = g._hang <= hangMax && dem < tran;
+        var bx = { x0: sx - rr, x1: sx + rr, y0: sy - 2 * rr, y1: sy };
+        if (ok && (sx < -30 || sy < -30 || sx > r.width + 30 || sy > r.height + 30)) ok = false;
+        else if (ok && !free(bx)) ok = false;
+        g.parentNode.style.display = ok ? '' : 'none';
+        g._an = !ok;
+        if (ok) { boxes.push(bx); if (sx > 0 && sy > 0 && sx < r.width && sy < r.height) dem++; }
+      });
+    }
     // ghim trước (quan trọng nhất): chỗ của mọi ghim, rồi mới tới chữ. Chế độ 1963 ẩn ghim, nhường chỗ cho tên đường xưa.
-    pins.forEach(function (g) {
+    if (!layer.y1963) pins.forEach(function (g) {
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
       boxes.push({ x0: sx - 11, x1: sx + 11, y0: sy - 28, y1: sy });
     });
     pins.forEach(function (g) {
-      if (g._fixed) return;
+      if (g._fixed || g._an) return;
       var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y;
-      var w = g._n * 13 * 0.6 + 6, lb = g.lastChild;
-      var right = { x0: sx + 12, x1: sx + 14 + w, y0: sy - 26, y1: sy - 6 };
-      var left = { x0: sx - 14 - w, x1: sx - 12, y0: sy - 26, y1: sy - 6 };
+      var w = g._n * 13 * 0.6 + 6, lb = g.lastChild, o = g._r ? g._r + 1 : 12, cy = g._r ? -g._r : -16;
+      var right = { x0: sx + o, x1: sx + o + 2 + w, y0: sy + cy - 10, y1: sy + cy + 10 };
+      var left = { x0: sx - o - 2 - w, x1: sx - o, y0: sy + cy - 10, y1: sy + cy + 10 };
       // chữ không được tràn khỏi mép màn hình (tên dài như "Thiền viện Trúc Lâm – Hồ Tuyền Lâm")
       var vuaPhai = right.x1 < r.width - 6, vuaTrai = left.x0 > 6;
       if (!vuaPhai && !vuaTrai) { if (sx > r.width / 2) vuaTrai = true; else vuaPhai = true; }
-      if (vuaPhai && free(right)) { lb.setAttribute('x', 14); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
-      else if (vuaTrai && free(left)) { lb.setAttribute('x', -14); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
+      if (g._r) lb.setAttribute('y', cy + 4);
+      if (vuaPhai && free(right)) { lb.setAttribute('x', o + 2); lb.setAttribute('text-anchor', 'start'); lb.removeAttribute('hidden'); boxes.push(right); }
+      else if (vuaTrai && free(left)) { lb.setAttribute('x', -o - 2); lb.setAttribute('text-anchor', 'end'); lb.removeAttribute('hidden'); boxes.push(left); }
       else lb.setAttribute('hidden', '');
     });
     roadLbl.slice().sort(function (a, b) { return a.rank - b.rank || b.len - a.len; }).forEach(function (L) {
@@ -427,6 +442,8 @@
     var CHUNG = { 'Trường Học': 1, 'Miếu': 1, 'Nhà Thờ': 1, 'Chùa': 1, 'Nhà Máy Nước': 1 };
     var gct = el('g', { 'class': 'ct63' }); labels.appendChild(gct);
     var dd = {}; ((cache.dd63 && cache.dd63.dia_diem) || []).forEach(function (x) { dd[x.so] = x; });
+    // mốc lớn: chợ, nhà thờ lớn, 3 dinh, ga, Palace, Võ Bị, Đại học, sân cù
+    var HANG1 = { 6: 1, 44: 1, 24: 1, 25: 1, 26: 1, 105: 1, 3: 1, 84: 1, 81: 1, 52: 1 };
     pins = []; var pinLayer = el('g', {});
     (data.cong_trinh || []).forEach(function (c) {
       var x = dd[c.so];
@@ -434,9 +451,11 @@
       var g = el('g', { 'class': 'pin dd63', transform: 'translate(' + px(c.lon).toFixed(5) + ' ' + py(c.lat).toFixed(5) + ')' });
       var inner = el('g', { 'data-ct': c.so });
       inner._x = px(c.lon); inner._y = py(c.lat); inner._n = c.ten.length;
+      // hạng: 1 = mốc lớn ai cũng biết (hiện từ xa), 2 = có hình, 3 = chấm theo loại (chỉ khi phóng gần)
+      inner._hang = HANG1[c.so] ? 1 : x.hinh ? 2 : 3;
+      inner._r = x.hinh ? 20 : 11;
       if (x.hinh) {
-        inner.appendChild(el('circle', { cx: 0, cy: -16, r: 17, 'class': 'dd63-nen', 'data-ct': c.so }));
-        inner.appendChild(el('image', { href: 'assets/vn/moc_' + x.hinh + '.webp', x: -16, y: -32, width: 32, height: 32, 'data-ct': c.so }));
+        inner.appendChild(el('image', { href: 'assets/vn/moc_' + x.hinh + '.webp', x: -22, y: -40, width: 44, height: 39, 'class': 'dd63-hinh', 'data-ct': c.so }));
       } else {
         inner.appendChild(el('circle', { cx: 0, cy: -11, r: 10, 'class': 'dd63-tron n-' + c.nhom, 'data-ct': c.so }));
         inner.appendChild(el('text', { x: 0, y: -11, 'class': 'dd63-dau', 'data-ct': c.so }, DAU[c.nhom]));

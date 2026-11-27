@@ -13,8 +13,8 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 
 # hình Spark có sẵn: số trên bản đồ → tên hình (chỉ những nơi chắc là cùng công trình)
 HINH = {
-    3: 'khach_san_palace', 6: 'cho_da_lat', 76: 'quang_truong', 44: 'nha_tho_con_ga', 52: 'san_golf', 53: 'rap_hoa_binh',
-    56: 'chua_linh_quang', 57: 'chua_linh_son', 66: 'thuy_ta', 71: 'domaine_de_marie', 72: 'domaine_de_marie',
+    3: 'khach_san_palace', 6: 'cho_da_lat', 44: 'nha_tho_con_ga', 52: 'san_golf', 53: 'rap_hoa_binh',
+    56: 'chua_linh_quang', 57: 'chua_linh_son', 66: 'thuy_ta', 71: 'domaine_de_marie',
     78: 'lang_nguyen_huu_hao', 81: 'dai_hoc_da_lat', 84: 'hoc_vien_luc_quan', 86: 'couvent_des_oiseaux',
     87: 'vien_pasteur', 102: 'lycee_yersin', 104: 'san_bay_cam_ly', 105: 'ga_da_lat',
     # Spark đợt 50 (docs/spark/dot50_moc_1963.md)

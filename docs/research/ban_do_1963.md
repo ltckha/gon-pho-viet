@@ -34,7 +34,8 @@ Anh Kha chốt 26/11: vẽ lại kiểu "cách 2" (phẳng, gọn), mọi nét c
 
 ## Soát lại góp ý Antigravity (27/11/2026, lần 2)
 - a.2 Kiểm phép nắn PDF: đo 104 chỗ lưới UTM 1 km in trên bản đồ so với vị trí phép CTM dự đoán — lệch trung vị 2,4 m (10% chỗ chạm biên cửa sổ tìm 12,7 m, nhiều khả năng bắt nhầm nét khác, chưa soát từng chỗ). Phép nắn trang khớp lưới in.
-- a.1/a.3 Sai số datum Indian 1960 → WGS84 (EPSG:1542 ±25 m/trục): CHƯA kiểm độc lập (cần cài PROJ/pyproj để đối chiếu, hoặc điểm khống chế thực địa) — ghi rõ, không khẳng định "< 1 m".
+- a.1 Đối chiếu phần mềm (cài pyproj 3.8 / PROJ 9.8, anh Kha đồng ý 27/11): phép đổi tự viết trùng 0,0 m với PROJ EPSG:1542 (Indian 1960 → WGS 84 (2)); đường khác của PROJ (qua WGS72BE, EPSG:1543-kiểu) lệch +7,9 E / −7,9 N.
+- a.3 Kiểm thực tế không thiên vị: dịch lưới đường lớn OSM (cấp 1–3) trên toàn bộ khe đường dò thuần từ ảnh 1963, tìm chỗ khớp nhất → bản 1963 lệch ĐỀU Đông +4,8 m, Bắc −6,4 m (~8 m; đỉnh rõ: lệch 3 m còn 97%, 16 m còn 78%). Đường qua WGS72BE lệch thêm cùng hướng (~19 m) → giữ EPSG:1542 + HIỆU CHỈNH CỤC BỘ (−4,8 E, +6,4 N) trong `tools/ban_do_1963.py` (HIEU_CHINH); toạ độ lưu sẵn (vòng số, đường vẽ tay) đã chuyển theo. Đo lại sau chỉnh: lệch 0,0 m (bước đo 1,6 m). Lưu ý: so với OSM nên mang cả sai số của OSM (thường vài m).
 - d. Đống Đa / Tô Hiến Thành: tên nay gắn theo vòng số in trên bản đồ 1963 (31 và 96); vị trí ngược với tên hiện nay là đúng như bản in — chưa có nguồn nói là đổi tên cho nhau hay lỗi in.
 - f.5 Nhà: bỏ khối < ~30 m² và chữ số trong vòng số (11.669 → 11.510 khối). Bỏ dòng thừa.
 - f.6 Hai công trình trùng ô lưới (#2, #93): biểu tượng đang tạm ẩn — sửa khi bật lại.

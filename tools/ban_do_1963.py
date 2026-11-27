@@ -19,6 +19,11 @@ EV_A, EV_F = 6377276.345, 1 / 300.8017          # Everest 1830 (1937)
 WG_A, WG_F = 6378137.0, 1 / 298.257223563
 SHIFT = (198.0, 881.0, 317.0)                   # ING-A → WGS84
 CM, K0, FE = 111.0, 0.9996, 500000.0
+# Hiệu chỉnh cục bộ cho tờ Đà Lạt (27/11/2026): sau phép dời ING-A, đường in năm 1963 vẫn lệch ĐỀU so với đường OpenStreetMap
+# Đông +4,8 m, Bắc −6,4 m — đo không thiên vị bằng cách dịch lưới đường lớn OSM trên toàn bộ khe đường dò thuần từ ảnh (đỉnh rõ).
+# EPSG:1542 vốn ghi sai số ±25 m/trục; cách đổi khác của PROJ (qua WGS72BE) lệch thêm cùng hướng (~19 m) → không dùng.
+HIEU_CHINH = (-4.8, 6.4)        # mét (Đông, Bắc) cộng vào kết quả WGS84
+_MX, _MY = 111320 * math.cos(math.radians(11.94)), 110574
 
 
 def _tm_inv(E, N, a, f):
@@ -67,10 +72,11 @@ def _datum(lat, lon, a1, f1, a2, f2, sh):
 def utm_to_wgs(E, N):
     lat, lon = _tm_inv(E, N, EV_A, EV_F)
     lat, lon = _datum(lat, lon, EV_A, EV_F, WG_A, WG_F, SHIFT)
-    return lon, lat
+    return lon + HIEU_CHINH[0] / _MX, lat + HIEU_CHINH[1] / _MY
 
 
 def wgs_to_utm(lon, lat):
+    lon, lat = lon - HIEU_CHINH[0] / _MX, lat - HIEU_CHINH[1] / _MY
     lat, lon = _datum(lat, lon, WG_A, WG_F, EV_A, EV_F, tuple(-s for s in SHIFT))
     return _tm_fwd(lat, lon, EV_A, EV_F)
 

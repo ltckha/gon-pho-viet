@@ -24,3 +24,10 @@ Anh Kha chốt 26/11: vẽ lại kiểu "cách 2" (phẳng, gọn), mọi nét c
 - Trả lại "© OpenStreetMap" trên tầng 1963 (đường dò theo mốc OSM — ODbL).
 - Chưa làm theo được: 3 trang Địa chí trên lamdong.gov.vn Antigravity dẫn (hoang-van-thu, hoang-dieu, ba-huyen-thanh-quan) đều báo 404 ngày 27/11 → chưa dùng; chuyện "Hùng Vương 1963 = Hoàng Văn Thụ nay" chưa có nguồn mở được, giữ nguyên (số 5 trên bản đồ nằm đúng trên khúc Trần Phú nay, cạnh đầu Hoàng Văn Thụ).
 - Đường mòn một nét: thêm `duong_mon` (chuỗi gạch đơn thẳng hàng; ít nhầm, chưa bắt hết).
+
+## Tên đường theo vòng số in trên bản đồ (27/11/2026, anh Kha: "chỗ nào có số là phải kiếm để đưa tên đường vô")
+- `docs/research/ams_1963_vong_so.tsv`: 152 vòng số trên cả tờ — máy tìm vòng tròn, em đọc từng số bằng mắt; 18 số máy không thấy thì tìm tay quanh ô lưới; 1 điểm đầu mũi tên (vòng 11 chỉ vào đường đỏ).
+- `tools/gan_ten_1963.py` (chạy sau `dung_1963.py`): vòng bám khúc đường 1963 gần nhất (≤ 45 m); khúc có nhiều số thì cắt giữa hai vòng; kéo tên sang khúc nối thẳng (≤ 35°, ≤ 500 m), không qua ngã ba rẽ. KHÔNG dùng tên đường nay để đặt chỗ nữa (bỏ cách cũ "kéo theo tên đường nay").
+- Thêm nét: đường tô ĐỎ trong khu phố (bản AMS không viền đen) — vd. Đại lộ Phan Đình Phùng, Minh Mạng; 4 đường vẽ tay theo nét in quanh vòng 39, 45, 76, 92 (`docs/research/ams_1963_duong_tay.json`).
+- Kết quả: 99/99 tên đường có trên bản đồ (4 số còn lại là quảng trường, khu — điểm).
+- Còn nghi: vòng có mũi tên chỉ đường nhỏ trong khu chợ (46, 38, 61, 84) — bám khúc gần nhất, có thể lệch sang đường bên.

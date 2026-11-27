@@ -485,6 +485,46 @@ def main(pdf, soat=None):
                 best = (dd, s_)
         if best and best[0] < 1500:
             d['ten'] = best[1]['ten']; d['so'] = best[1]['so']; d['nay'] = nay
+    # 5) Đường tô ĐỎ trong khu phố (anh Kha 27/11 hỏi đường Minh Mạng): bản AMS vẽ đường chính trong mảng xám khu phố bằng
+    #    một dải đỏ, không có hai viền đen → bước 2 không thấy. Lấy khung xương mảng đỏ dày (≥ 5 điểm ảnh, bỏ chữ số đỏ mảnh),
+    #    cắt ở ngã ba, mỗi nhánh ≥ 25 điểm ảnh (~40 m) thành một khúc cấp 1. Bỏ nhánh trùng đường đã có.
+    from skimage.morphology import skeletonize as _sk
+    rd = remove_small_objects(binary_opening(red, disk(2)), 300)
+    skr = _sk(binary_closing(rd, disk(2)))
+    K3 = np.ones((3, 3), np.uint8)
+    degr = (ndi.convolve(skr.astype(np.uint8), K3, mode='constant') - 1) * skr
+    nhanh = skr & ~ndi.binary_dilation(degr >= 3, np.ones((3, 3), bool))
+    labr, nr = ndi.label(nhanh, np.ones((3, 3)))
+    them_do = 0
+    for k, sl in enumerate(ndi.find_objects(labr)):
+        ys, xs = np.nonzero(labr[sl] == k + 1)
+        if len(ys) < 25:
+            continue
+        ys = ys + sl[0].start; xs = xs + sl[1].start
+        pts_ = {(int(x), int(y)) for x, y in zip(xs, ys)}
+        nb = lambda p: [(p[0] + dx, p[1] + dy) for dx in (-1, 0, 1) for dy in (-1, 0, 1) if (dx or dy) and (p[0] + dx, p[1] + dy) in pts_]
+        ends = [p for p in pts_ if len(nb(p)) == 1]
+        cur = ends[0] if ends else next(iter(pts_)); path = [cur]; seen_ = {cur}
+        while True:
+            nx_ = [q for q in nb(cur) if q not in seen_]
+            if not nx_:
+                break
+            cur = min(nx_, key=lambda q: abs(q[0] - path[-1][0]) + abs(q[1] - path[-1][1])); path.append(cur); seen_.add(cur)
+        Pr = np.array(path, float)
+        if used[np.clip(Pr[:, 1].astype(int), 0, H - 1), np.clip(Pr[:, 0].astype(int), 0, W - 1)].mean() > 0.6:
+            continue
+        Pr = approximate_polygon(Pr, 1.0)
+        duong.append({'loai': 1, 'do': 1, 'pts': [[round(v, 5) for v in to_ll(x, y)] for x, y in Pr]})
+        them_do += 1
+    print('đường tô đỏ thêm:', them_do)
+
+    # 6) đường vẽ tay theo nét in (docs/research/ams_1963_duong_tay.json) — chỗ có vòng số mà máy không dò ra
+    tay_p = os.path.join(ROOT, 'docs/research/ams_1963_duong_tay.json')
+    if os.path.exists(tay_p):
+        for t in json.load(open(tay_p, encoding='utf-8')):
+            duong.append({'loai': 3, 'tay': 1, 'pts': t['pts']})
+        print('đường vẽ tay:', len(json.load(open(tay_p, encoding='utf-8'))))
+
     # Tên 1963 đã chắc (bảng chỉ dẫn, đúng chỗ) nhưng máy không dò ra nét đường (khu chợ cũ, đường hẹp): vẽ theo hình đường nay
     # của đúng khúc đó (ten_1963.json), đánh dấu 'theo_nay': 1 để biết nét không lấy từ bản cũ (Antigravity 27/11: khu chợ nên đồ tay).
     co_ten = {d['ten'] for d in duong if d.get('ten')}

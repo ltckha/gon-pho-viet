@@ -75,6 +75,13 @@ def main(files):
                     continue
                 moc.append({'nam': str(m['nam']), 'su_kien': m['su_kien'].strip(), 'nguon': ng,
                             'mot_nguon': len({n['trang'] for n in ng}) < 2 or bool(m.get('chua_chac'))})
+            # bỏ mốc trùng (cùng năm và trùng nguồn — mốc bổ sung chép lại từ trang có sẵn)
+            uniq = []
+            for m in moc:
+                if any(u['nam'] == m['nam'] and {n['link'] for n in u['nguon']} & {n['link'] for n in m['nguon']} for u in uniq):
+                    continue
+                uniq.append(m)
+            moc = uniq
             moc.sort(key=lambda m: re.sub(r'\D', '', m['nam'])[:4] or '9999')
             if not nay and not moc:
                 bo.append((so, 'chưa rõ nay là gì, không có mốc')); continue

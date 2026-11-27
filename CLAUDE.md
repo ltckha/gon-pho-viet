@@ -66,6 +66,7 @@ python3 tools/lich_trinh.py /tmp/osm
 - Dòng thời gian Lịch sử chỉ hiện năm (anh Kha 26/11: "ai thích nhấn vô năm thì coi"), chạm năm mới mở chuyện + nguồn.
 - "Mốc lâu đời" trong trang phố dùng hình Spark (`hinhMoc()`/`MOC_HINH` khớp tên → `assets/vn/moc_*.webp`, đợt 46–47; quán lâu đời dùng hình món đợt 45). Thêm mốc mới thì thêm dòng vào `MOC_HINH`.
 - Ô "Nay có gì" dùng hình món Spark đợt 45 (`assets/bt/bt_*.webp`, hàm `hinhMon()` khớp từ khoá, cụ thể trước chung sau); chữ chưa có hình thì về biểu tượng cũ (`bieuTuong()`).
+- Sài Gòn 1961 nền tranh Spark theo ô: **mỗi ô phải có 3 cỡ** `assets/sg1961/{nho,vua}/` + gốc (`nenSac()` trong `app.js` chọn theo chỗ đang nhìn). Để cả 57 tranh gốc cùng lúc = ~550 MB bộ nhớ, điện thoại không mở được (anh Kha 27/11). Ghép ô mới thì tạo luôn bản nho (1/4) và vua (1/2).
 - Từ 20/9/2026 có 9 thành phố trực thuộc trung ương (thêm Đồng Nai, Quảng Ninh, Bắc Ninh). Game còn ghi 6.
 
 ## Anh Kha đã chốt hướng mới (sau đánh giá khả thi `docs/danh_gia_kha_thi.md`, nhánh `claude/danh-gia-kha-thi`)

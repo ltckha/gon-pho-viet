@@ -488,6 +488,12 @@
     poly(data.dam || [], 'dam63');
     poly(data.khu || [], 'khu63');
     poly(data.nha_dac || [], 'dac63');           // Sài Gòn 1961: công trình lớn in đen đặc
+    // Sài Gòn 1961: tranh nền Spark vẽ lại theo bản quét (đặt bằng 3 góc: trên-trái, trên-phải, dưới-trái) — đè lên nét dò máy
+    (data.anh_nen || []).forEach(function (a) {
+      var x0 = px(a.tt[0]), y0 = py(a.tt[1]), ax = px(a.tp[0]) - x0, ay = py(a.tp[1]) - y0, bx = px(a.dt[0]) - x0, by = py(a.dt[1]) - y0;
+      land.appendChild(el('image', { href: a.file, x: 0, y: 0, width: 1, height: 1, preserveAspectRatio: 'none', 'class': 'nen61',
+        transform: 'matrix(' + [ax, ay, bx, by, x0, y0].map(function (v) { return v.toFixed(7); }).join(' ') + ')' }));
+    });
     if (data.net_lop || data.net) {              // Sài Gòn 1961: CHÉP Y NÉT IN của bản gốc, tô màu theo loại nét
       var tl = data.net_tl || 1e5;
       var veNet = function (list) {
@@ -571,6 +577,7 @@
     var dat = el('g', { 'class': 'dat63' });          // đường đất bản cũ có, nay không còn: nét đứt đôi
     (data.duong_mat || []).forEach(function (r) { dat.appendChild(el('path', { d: congOf(r.pts) })); });
     land.appendChild(dat);
+    Array.prototype.slice.call(land.querySelectorAll('.nen61')).forEach(function (n) { land.appendChild(n); });   // tranh nền Spark nằm trên nét dò, dưới chữ
     var hl = el('g', { id: 'hl63', 'class': 'hl63' }); land.appendChild(hl);
     var defs = el('defs', {}); land.appendChild(defs);
     var roadLabels = el('g', {}); labels.appendChild(roadLabels);

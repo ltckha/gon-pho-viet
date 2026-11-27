@@ -1,4 +1,4 @@
-# Spark đợt 52 (đánh số chung với game — nếu game đã dùng số 52 thì anh đổi sang số kế tiếp): vẽ thử bản đồ Sài Gòn 1961 khu trung tâm (27/11/2026)
+# Spark đợt 52 (đánh số chung với game — nếu game đã dùng số 52 thì anh đổi sang số kế tiếp): vẽ thử bản đồ Sài Gòn 1961 khu trung tâm (27/11/2026) — ĐÃ GHÉP 27/11/2026 (đường trùng khít bản gốc, lệch < 1 m)
 
 Máy tự dò nét từ ảnh quét ra còn xấu (anh Kha 27/11). Thử nhờ Spark vẽ lại một ô mẫu theo ảnh gốc, giữ đúng khung để em đặt chồng lên toạ độ.
 Ảnh gốc kèm theo (anh đính vào tin nhắn cho Spark): `sg_1961_trung_tam_goc.png` — cắt từ tờ 2 bản đồ Sài Gòn 1:10.000 năm 1961

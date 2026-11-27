@@ -5,8 +5,10 @@
   - Số lẻ "1508,4" cạnh chấm đen = điểm cao độ (mét)                                         → do_cao (docs/research/ams_1963_do_cao.tsv, đọc bằng mắt)
   - Ô kẻ đứt có chấm giữa = Vườn / vườn cây trái ("Jardin, Verger")                          → vuon (vùng)
   - Khung viền ĐỎ mảnh quanh số đỏ = khuôn viên công trình đánh số                           → CHƯA làm (nét đỏ đứt nhiều, xem mục 3)
+  - Nền xanh in đặc = rừng rậm; chấm xanh lấm tấm = rừng thưa                             → rung_ram (vùng)
+  - Khối xám nhạt = nhà gỗ hay nhà lá (nhà xây in đen, đã có ở 'nha')                    → nha_go (nén như 'nha')
   - Búi cỏ xanh dương = đầm lầy, đất ngập ven suối                                          → dam (vùng)
-Ghi thêm dong_muc, do_cao, vuon, dam vào data/lam-dong/da-lat/1963.json. Chạy SAU tools/dung_1963.py và tools/gan_ten_1963.py.
+Ghi thêm dong_muc, do_cao, vuon, dam, rung_ram vào data/lam-dong/da-lat/1963.json. Chạy SAU tools/dung_1963.py và tools/gan_ten_1963.py.
 
 Chạy: python3 -I tools/dia_hinh_1963.py <L909XDALAT_geo.pdf> [thư_mục_ảnh_soát]
 """
@@ -142,6 +144,45 @@ def main(pdf, soat=None):
     t63 = json.load(open(os.path.join(ROOT, 'data/lam-dong/da-lat/1963.json'), encoding='utf-8'))
     khuon_vien = []
 
+    # ---------- 3b) rừng rậm: nền xanh in đặc (≥ 60% điểm xanh) — khác rừng thưa chấm xanh lấm tấm (~35%) ----------
+    ram = ndi.gaussian_filter(gd, 3) > 0.6
+    ram = remove_small_holes(remove_small_objects(ram, 120), 150)
+    rung_ram = polys(ram, sc, 1.2)
+    print('mảng rừng rậm:', len(rung_ram))
+
+    # ---------- 3c) nhà gỗ / nhà lá: khối XÁM nhạt (chú thích: nhà xây in đen, nhà gỗ hay nhà lá in xám) ----------
+    xam_n = (sat < 18) & (mx >= 140) & (mx <= 200)
+    xam_n = ndi.binary_opening(xam_n, np.ones((3, 3)))       # bỏ viền xám răng cưa quanh nét đen
+    lx = label(xam_n, connectivity=1)
+    to = np.bincount(lx.ravel()); to[0] = 0
+    # nền khu phố: chỗ xám chiếm ≥ 30% ô 41×41 điểm ảnh (~65 m) — nhà gỗ thật đứng lẻ giữa nền trắng
+    nen_xam = ndi.binary_dilation(ndi.uniform_filter(((sat < 18) & (mx >= 140) & (mx <= 215)).astype(np.float32), 41) > 0.3, iterations=8)
+    nha_go = []
+    for rp in regionprops(lx):
+        hh, ww = rp.bbox[2] - rp.bbox[0], rp.bbox[3] - rp.bbox[1]
+        if not (12 <= rp.area <= 800 and rp.extent >= 0.65 and min(hh, ww) >= 3):
+            continue
+        cy, cx = map(int, rp.centroid)
+        if nen_xam[cy, cx]:                                  # trong nền khu phố: xám trên xám, không tách được
+            continue
+        cs = find_contours(np.pad(rp.image, 1).astype(float), 0.5)
+        if not cs:
+            continue
+        c = approximate_polygon(max(cs, key=len) - 1, 0.9)
+        if len(c) >= 4:
+            nha_go.append([to_ll(q[1] + rp.bbox[1], q[0] + rp.bbox[0]) for q in c])
+    ox, oy = t63['khung'][0], t63['khung'][1]
+    nen_go = []
+    for poly in nha_go:
+        q = [(round((lo - ox) * 1e5), round((la - oy) * 1e5)) for lo, la in poly]
+        f = [q[0][0], q[0][1]]
+        for (a1, b1), (a2, b2) in zip(q, q[1:]):
+            if (a2, b2) != (a1, b1):
+                f += [a2 - a1, b2 - b1]
+        if len(f) >= 6:
+            nen_go.append(f)
+    print('nhà gỗ (khối xám):', len(nen_go))
+
     # ---------- 4) đầm lầy: búi cỏ xanh dương nhỏ (không phải suối dài), mọc thành cụm ----------
     lb = label(blue_ink, connectivity=2)
     tuft = []
@@ -182,7 +223,7 @@ def main(pdf, soat=None):
             d.line([to_px(*q) for q in p], fill=(140, 70, 0, 255), width=2)
         ov.resize((W // 2, H // 2)).save(os.path.join(soat, 'dia_hinh_soat.png'))
 
-    t63.update({'dong_muc': dong_muc, 'do_cao': do_cao, 'vuon': vuon, 'dam': dam})
+    t63.update({'nha_go': nen_go, 'rung_ram': rung_ram, 'dong_muc': dong_muc, 'do_cao': do_cao, 'vuon': vuon, 'dam': dam})
     p = os.path.join(ROOT, 'data/lam-dong/da-lat/1963.json')
     json.dump(t63, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     print(p, os.path.getsize(p) // 1024, 'KB')

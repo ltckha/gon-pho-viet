@@ -110,7 +110,7 @@
       extra: { key: 'dd63', file: 'data/lam-dong/da-lat/1963_dia_diem.json' },   // năm 1963 là gì → nay → qua các năm
       crumb: [['Đà Lạt', 'da-lat'], ['Năm 1963', 'da-lat-1963']],
       sang: ['Hôm nay', 'da-lat'],
-      legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['mon63', 'Đường mòn'], ['nha63', 'Khu nhà'], ['vuon63', 'Vườn'], ['rung63', 'Rừng'], ['dam63', 'Đầm lầy'], ['water', 'Hồ'], ['dm63', 'Vòng cao độ (cách 5 m), • số = độ cao đỉnh (m)']],
+      legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['mon63', 'Đường mòn'], ['nha63', 'Khu nhà'], ['nhago63', 'Nhà gỗ, nhà lá (phóng gần thấy)'], ['vuon63', 'Vườn'], ['rung63', 'Rừng thưa'], ['ram63', 'Rừng rậm'], ['dam63', 'Đầm lầy'], ['water', 'Hồ'], ['dm63', 'Vòng cao độ, cách nhau 5 m'], ['cao63', 'Độ cao đỉnh (mét)']],
       card: function () { return ''; }
     }
   };
@@ -412,6 +412,7 @@
     pdm.appendChild(el('path', { d: 'M' + o25 * 0.45 + ' ' + o25 * 0.6 + 'h' + o25 * 0.5 + 'M' + o25 * 0.6 + ' ' + o25 * 0.6 + 'l-' + o25 * 0.08 + ' -' + o25 * 0.2 +
       'M' + o25 * 0.7 + ' ' + o25 * 0.6 + 'v-' + o25 * 0.24 + 'M' + o25 * 0.8 + ' ' + o25 * 0.6 + 'l' + o25 * 0.08 + ' -' + o25 * 0.2, 'class': 'dam63-bui' })); pd.appendChild(pdm);
     poly(data.rung, 'rung63');
+    poly(data.rung_ram || [], 'rung63 ram63');
     poly(data.vuon || [], 'vuon63');
     poly(data.dam || [], 'dam63');
     poly(data.khu || [], 'khu63');
@@ -428,6 +429,14 @@
       dn += 'Z';
     });
     var gn = el('g', { 'class': 'nha63g' }); gn.appendChild(el('path', { d: dn })); land.appendChild(gn);
+    var dg = '';                                   // nhà gỗ / nhà lá (in xám trên bản đồ)
+    (data.nha_go || []).forEach(function (f) {
+      var x = f[0], y = f[1];
+      dg += 'M' + px(ox + x / 1e5).toFixed(5) + ' ' + py(oy + y / 1e5).toFixed(5);
+      for (var i = 2; i < f.length; i += 2) { x += f[i]; y += f[i + 1]; dg += 'L' + px(ox + x / 1e5).toFixed(5) + ' ' + py(oy + y / 1e5).toFixed(5); }
+      dg += 'Z';
+    });
+    var gg = el('g', { 'class': 'nha63g nhago63' }); gg.appendChild(el('path', { d: dg })); land.appendChild(gg);
     var roads = data.duong.slice().sort(function (a, b) { return b.loai - a.loai; });
     var casing = el('g', { 'class': 'road-casing duong63' }), fill = el('g', { 'class': 'road-fill duong63' });
     roads.forEach(function (r) {
@@ -1418,7 +1427,7 @@
     lg.classList.remove('mo');
     if (layer && layer.y1963) lg.removeAttribute('aria-hidden'); else lg.setAttribute('aria-hidden', 'true');
     lg.innerHTML = (layer && layer.y1963 ? '<button type="button" class="lg-nut" aria-label="Chú thích">Chú thích</button>' : '') + list.map(function (l) {
-      var sw = l[0] === 'star' ? '<i class="star">★</i>' : l[0] === 'pin' ? '<i class="star pin-ico">⬤</i>' : '<i class="sw ' + l[0] + '"></i>';
+      var sw = l[0] === 'cao63' ? '<i class="star cao63-ico">•</i>' : l[0] === 'star' ? '<i class="star">★</i>' : l[0] === 'pin' ? '<i class="star pin-ico">⬤</i>' : '<i class="sw ' + l[0] + '"></i>';
       return '<span>' + sw + esc(l[1]) + '</span>';
     }).join('');
     var nut = lg.querySelector('.lg-nut');

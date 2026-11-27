@@ -333,6 +333,8 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .rung63 path { fill: #cfe3b5; }
 .nuoc63 path { fill: #a9d3e3; stroke: #6fa9c0; }
 .nha63g path { fill: #9b7a58; }
+.nhago63 path { fill: #c4ae8e; }
+.sw.nhago63 { background: #c4ae8e; border-color: #a88a66; }
 /* nét đường theo mức phóng: xa (0) chỉ đường lớn mảnh, vừa (1) thêm đường nhỏ, gần (2) đủ, có nhà */
 .vuon63 path { fill: url(#vuon63p); }
 .vuon63-nen { fill: #ece6c8; }
@@ -376,6 +378,8 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .sw.road63 { background: #f2d59a; border-color: #7a5230; border-width: 2px; }
 .sw.nha63 { background: #d9c39b; border-color: #a88a66; }
 .sw.dat63 { background: repeating-linear-gradient(90deg, #7a5230 0 4px, transparent 4px 7px); height: 3px; border: 0; }
+.ram63 path { fill: #a9cd8c; }
+.sw.ram63 { background: #a9cd8c; border-color: #7fae66; }
 .sw.rung63 { background: #cfe3b5; border-color: #9bbf86; }
 .lbl.rung63-ten { fill: #4f7a3a; font-style: italic; font-weight: 600; }
 .lbl.ct63-ten { text-anchor: start; font-weight: 600; fill: #4a3626; }
@@ -390,7 +394,7 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 /* Đà Lạt 1963 gọn: chú thích gập, nút "Hôm nay" nhỏ góc dưới, ô tìm mảnh */
 .legend.gap { pointer-events: auto; padding: 0; background: none; border: 0; }
 .legend.gap > span { display: none; }
-.legend.gap.mo { padding: 8px 10px; background: color-mix(in srgb, var(--card) 94%, transparent); border: 1.5px solid var(--edge); }
+.legend.gap.mo { z-index: 5; max-height: 72vh; overflow: auto; padding: 8px 10px; background: color-mix(in srgb, var(--card) 94%, transparent); border: 1.5px solid var(--edge); }
 .legend.gap.mo > span { display: flex; }
 .lg-nut { font: inherit; font-size: .78rem; font-weight: 600; color: var(--ink); background: var(--card); border: 1.5px solid var(--edge); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
 .legend.gap.mo .lg-nut { margin-bottom: 4px; }
@@ -411,3 +415,4 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .mon63 path { fill: none; stroke: #8f6d4a; stroke-width: .9; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; }
 #svg.y63[data-zm="0"] .mon63 { display: none; }
 .sw.mon63 { background: repeating-linear-gradient(90deg, #8f6d4a 0 3px, transparent 3px 6px); height: 2px; border: 0; }
+.cao63-ico { color: #6b4f2e; }

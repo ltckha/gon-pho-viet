@@ -49,8 +49,11 @@ Anh Kha chốt 26/11: vẽ lại kiểu "cách 2" (phẳng, gọn), mọi nét c
 | Trên bản đồ | Nghĩa (chú thích in) | Trên trang | Cách lấy |
 |---|---|---|---|
 | Vòng nâu uốn lượn | Đường đồng mức, cách đều 5 m (mực biển trung bình Hà Tiên) | `dong_muc` — nét nâu mờ | màu nâu → khung xương → làm mềm (tools/dia_hinh_1963.py) |
-| Số lẻ "1508,4" cạnh chấm đen | Điểm cao độ (mét) | `do_cao` — "• 1508,4", hiện khi phóng gần | máy khoanh chữ số, em đọc bằng mắt 35 điểm: docs/research/ams_1963_do_cao.tsv (chưa đủ hết, số bị nét khác đè thì máy bỏ sót) |
+| Số lẻ "1508,4" cạnh chấm đen | Điểm cao độ (mét) | `do_cao` — "• 1508,4", hiện khi phóng gần | máy khoanh chữ số, em đọc bằng mắt 42 điểm (lượt 2: dò chấm đen + chữ số bên phải, thêm 7, có 1488,2 là điểm đo đạc ở Nhà thờ lớn): docs/research/ams_1963_do_cao.tsv (chưa đủ hết, số bị nét khác đè thì máy bỏ sót) |
 | Ô kẻ nét đứt, có chấm giữa | Vườn / vườn cây trái (Jardin, Verger) | `vuon` — nền vàng nhạt có chấm | chấm đen tròn đứng riêng mọc thành cụm, bỏ trong rừng, khu phố xám |
+| Nền xanh in đặc / chấm xanh lấm tấm | Rừng rậm / rừng thưa | `rung_ram` — xanh đậm hơn trên nền rừng | ô ≥ 60% điểm xanh là rậm (đo: rậm ~83%, thưa ~35%) |
+| Khối xám nhạt | Nhà gỗ hay nhà lá (nhà xây in đen) | `nha_go` — khối nâu nhạt, phóng gần thấy | khối xám gọn, bỏ trong nền xám khu phố (xám ≥ 30% ô 65 m) — 982 khối; khối mảnh < 3 điểm ảnh bị bỏ |
+| Thập đỏ, mộ đỏ | Nghĩa địa / nghĩa địa công giáo | không có | dò cả tờ không thấy cụm nào (24 cụm máy tìm đều là số lưới, nét đỏ) |
 | Búi cỏ xanh dương | Đầm lầy, đất ngập ven suối | `dam` — búi cỏ xanh | búi xanh nhỏ mọc thành cụm, bỏ trên mặt hồ |
 | Khung viền đỏ mảnh quanh số đỏ | Khuôn viên công trình đánh số | CHƯA làm | thử 3 cách đều hỏng: nét đỏ bị nhà, mép đường in đè mất đoạn dài 50–80 điểm ảnh; vẽ tay khi bật lại biểu tượng |
 | Nét nâu có răng cưa | (chú thích không ghi) — có lẽ bờ đất đào đắp, taluy | không vẽ | chưa chắc nghĩa |

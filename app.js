@@ -546,13 +546,19 @@
   function boDau(s) { return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase(); }
   // khớp từ đầu một chữ ("cho" ≠ "school"); gõ có dấu thì so có dấu ("dinh" ra cả Đinh, "dinh" có dấu chỉ ra Dinh)
   var coDau = false;
-  function khop(chu, q) { var c = coDau ? (chu || '').toLowerCase() : boDau(chu || ''); return (' ' + c).indexOf(' ' + q) >= 0; }
+  function khop(chu, q) { var c = coDau ? (chu || '').normalize('NFC').toLowerCase() : boDau(chu || ''); return (' ' + c).indexOf(' ' + q) >= 0; }
+  // Bộ gõ tiếng Việt trên điện thoại (anh Kha 27/11 "gõ minh mạng nhấn vô ko được"): chữ đang gõ chưa "chốt", chạm vào kết quả
+  // thì bàn phím chốt chữ → lại phát sự kiện gõ → danh sách bị dựng lại đúng lúc chạm, cú chạm rơi vào nút cũ đã mất.
+  // Nên: chữ tìm không đổi thì giữ nguyên danh sách; chuẩn hoá dấu (NFC) vì có bộ gõ ra dấu rời (a + dấu nặng).
+  var timTruoc = null;
   function timDuong() {
-    var raw = tim63.value.trim().toLowerCase();
+    var raw = tim63.value.normalize('NFC').trim().toLowerCase();
     coDau = boDau(raw) !== raw;
     var q = coDau ? raw : boDau(raw);
+    if (q === timTruoc && !timKq.hidden) return;
+    timTruoc = q;
     timKq.textContent = '';
-    if (q.length < 2 || !data || !layer.y1963) { timKq.hidden = true; return; }
+    if (q.length < 2 || !data || !layer.y1963) { timKq.hidden = true; timTruoc = null; return; }
     var seen = {}, kq = [];
     data.ten_duong.forEach(function (r) {
       if (seen[r.ten]) return;
@@ -579,7 +585,8 @@
   function denDiem(c) {
     var hl = document.getElementById('hl63'); hl.textContent = '';
     hl.appendChild(el('circle', { cx: px(c.lon), cy: py(c.lat), r: 0.0006 * K, 'class': 'hl63-diem' }));
-    timKq.hidden = true; tim63.blur();
+    tim63.value = c.ten;
+    timKq.hidden = true; timTruoc = null; tim63.blur();
     var pad = 0.004 * K, x = px(c.lon), y = py(c.lat);
     zoomTo({ minX: x - pad, maxX: x + pad, minY: y - pad, maxY: y + pad });
   }
@@ -593,8 +600,13 @@
         b.minX = Math.min(b.minX, x); b.maxX = Math.max(b.maxX, x); b.minY = Math.min(b.minY, y); b.maxY = Math.max(b.maxY, y);
       });
     });
-    hl.textContent = ''; hl.appendChild(el('path', { d: d }));
-    timKq.hidden = true; tim63.blur();
+    // tô cho thấy rõ (anh Kha 27/11 "chuyển tới ko thấy rõ rệt"): quầng nhấp nháy + viền trắng + nét cam đậm
+    hl.textContent = '';
+    hl.appendChild(el('path', { d: d, 'class': 'hl-quang' }));
+    hl.appendChild(el('path', { d: d, 'class': 'hl-vien' }));
+    hl.appendChild(el('path', { d: d, 'class': 'hl-net' }));
+    tim63.value = ten; timTruoc = null;       // ô tìm ghi đủ tên đã chọn
+    timKq.hidden = true; timTruoc = null; tim63.blur();
     var pad = 0.003 * K;
     zoomTo({ minX: b.minX - pad, maxX: b.maxX + pad, minY: b.minY - pad, maxY: b.maxY + pad });
   }

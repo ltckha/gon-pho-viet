@@ -554,14 +554,25 @@
         if (seg.length < 2) return;
         if (maxTurn(smooth(seg, 2)) > 70) return;
         var sm = smooth(seg, 3), id = 'n63_' + (nWin++);
+        // độ dài, điểm giữa, 41 điểm mẫu tính bằng tay trên chính dãy điểm (không gọi getPointAtLength — trên iPhone hàm này
+        // rất chậm, gọi hàng chục nghìn lần lúc mở làm bản đồ đứng; anh Kha 27/11 "bản đồ bị đứng luôn")
+        var P = sm.map(function (q) { return [px(q[0]), py(q[1])]; }), ac = [0];
+        for (var j2 = 1; j2 < P.length; j2++) ac.push(ac[j2 - 1] + Math.hypot(P[j2][0] - P[j2 - 1][0], P[j2][1] - P[j2 - 1][1]));
+        var L = ac[ac.length - 1];
+        function diem(d) {
+          var lo2 = 0, hi2 = ac.length - 1;
+          while (hi2 - lo2 > 1) { var mi = (lo2 + hi2) >> 1; if (ac[mi] < d) lo2 = mi; else hi2 = mi; }
+          var k2 = ac[hi2] - ac[lo2] || 1, f = (d - ac[lo2]) / k2;
+          return [P[lo2][0] + (P[hi2][0] - P[lo2][0]) * f, P[lo2][1] + (P[hi2][1] - P[lo2][1]) * f];
+        }
+        var nguoc = diem(L * 0.6)[0] < diem(L * 0.4)[0];
+        if (nguoc) { sm = sm.slice().reverse(); P = P.slice().reverse(); ac = ac.map(function (v) { return L - v; }).reverse(); }
         var pe = el('path', { id: id, d: lineOf(sm) }); defs.appendChild(pe);
-        var L = pe.getTotalLength();
-        if (pe.getPointAtLength(L * 0.6).x < pe.getPointAtLength(L * 0.4).x) pe.setAttribute('d', lineOf(sm.slice().reverse()));
         var t = el('text', { 'class': 'lbl road-name ten-1963', dy: '0.35em', 'font-size': '0.88em', hidden: '' });
         t.appendChild(el('textPath', { href: '#' + id, startOffset: '50%' }, ten));
         roadLabels.appendChild(t);
-        var m = pe.getPointAtLength(L / 2), mau = [];
-        for (var u = 0; u <= 40; u++) { var pq = pe.getPointAtLength(L * u / 40); mau.push([pq.x, pq.y]); }    // điểm mẫu tính sẵn
+        var mm = diem(L / 2), m = { x: mm[0], y: mm[1] }, mau = [];
+        for (var u = 0; u <= 40; u++) mau.push(diem(L * u / 40));
         roadLbl.push({ el: t, pe: pe, len: L, x: m.x, y: m.y, n: ten.length * 0.88, ten: ten, minZ: /^(Đại lộ|Công trường)/.test(r.ten) ? 1.6 : 2.5, rank: /^(Đại lộ|Công trường)/.test(r.ten) ? 1 : 2, mau: mau });
       });
     });
@@ -859,20 +870,22 @@
 
   // Đà Lạt 1963 (góp ý Antigravity 27/11): 4 mức nét ở z 2,2 / 4,8 / 9 (thu nhỏ lùi 10% mới đổi, khỏi nhấp nháy);
   // bề rộng đường nội suy mượt theo log2 z giữa các mốc (lòng / tổng có viền, điểm màn hình).
-  var MUC63 = [2.2, 4.8, 9], mucCu = -1;
+  var MUC63 = [2.2, 4.8, 9], mucCu = -1, rongCu = {};
   var RONG63 = { z: [1.5, 3.3, 6.5, 12], f1: [2.6, 4.4, 7.2, 11], c1: [4, 6, 9.2, 13.4], f2: [1.8, 3.2, 5.4, 8.2], c2: [3, 4.6, 7.2, 10.4],
     f3: [0, 1.8, 3.6, 5.8], c3: [1, 3, 5.2, 7.6], f4: [0, 0, 2, 3.6], c4: [0, 1.1, 3.2, 5] };
   function datMuc63(z) {
     var m = 0; while (m < 3 && z >= MUC63[m]) m++;
     if (mucCu > 0 && m < mucCu && z >= MUC63[mucCu - 1] * 0.9) m = mucCu;      // vùng trễ khi thu nhỏ
-    mucCu = m; svg.setAttribute('data-zm', m);
-    if (z >= 6.5) svg.setAttribute('data-nha', ''); else svg.removeAttribute('data-nha');
+    if (m !== mucCu || svg.getAttribute('data-zm') !== String(m)) svg.setAttribute('data-zm', m);
+    mucCu = m;
+    var nha = z >= 6.5; if (nha !== svg.hasAttribute('data-nha')) { if (nha) svg.setAttribute('data-nha', ''); else svg.removeAttribute('data-nha'); }
     var L = Math.log2(z), Z = RONG63.z.map(Math.log2), i = 0;
     while (i < Z.length - 2 && L > Z[i + 1]) i++;
     var t = Math.max(0, Math.min(1, (L - Z[i]) / (Z[i + 1] - Z[i])));
     ['f1', 'c1', 'f2', 'c2', 'f3', 'c3', 'f4', 'c4'].forEach(function (k) {
-      var v = RONG63[k][i] + (RONG63[k][i + 1] - RONG63[k][i]) * t;
-      svg.style.setProperty('--' + k, v.toFixed(2) + 'px');
+      // làm tròn 0,25 điểm và chỉ ghi khi đổi — mỗi lần ghi bắt trình duyệt tính lại kiểu cho hàng nghìn nét
+      var v = (Math.round((RONG63[k][i] + (RONG63[k][i + 1] - RONG63[k][i]) * t) * 4) / 4).toFixed(2) + 'px';
+      if (rongCu[k] !== v) { rongCu[k] = v; svg.style.setProperty('--' + k, v); }
     });
   }
   function apply() {

@@ -491,8 +491,12 @@
     // Sài Gòn 1961: tranh nền Spark vẽ lại theo bản quét (đặt bằng 3 góc: trên-trái, trên-phải, dưới-trái) — đè lên nét dò máy
     (data.anh_nen || []).forEach(function (a) {
       var x0 = px(a.tt[0]), y0 = py(a.tt[1]), ax = px(a.tp[0]) - x0, ay = py(a.tp[1]) - y0, bx = px(a.dt[0]) - x0, by = py(a.dt[1]) - y0;
-      land.appendChild(el('image', { href: a.file, x: 0, y: 0, width: 1, height: 1, preserveAspectRatio: 'none', 'class': 'nen61',
-        transform: 'matrix(' + [ax, ay, bx, by, x0, y0].map(function (v) { return v.toFixed(7); }).join(' ') + ')' }));
+      var im = el('image', { href: a.file.replace('sg1961/', 'sg1961/nho/'), x: 0, y: 0, width: 1, height: 1, preserveAspectRatio: 'none', 'class': 'nen61',
+        transform: 'matrix(' + [ax, ay, bx, by, x0, y0].map(function (v) { return v.toFixed(7); }).join(' ') + ')' });
+      // khung ô (toạ độ bản đồ) + bề ngang → chọn tranh nhỏ / vừa / nét theo chỗ đang nhìn (nenSac)
+      im._nen = { f: a.file, m: 'nho', w: Math.hypot(ax, ay), x1: Math.min(x0, x0 + ax, x0 + bx, x0 + ax + bx), x2: Math.max(x0, x0 + ax, x0 + bx, x0 + ax + bx),
+        y1: Math.min(y0, y0 + ay, y0 + by, y0 + ay + by), y2: Math.max(y0, y0 + ay, y0 + by, y0 + ay + by) };
+      land.appendChild(im);
     });
     if (data.net_lop || data.net) {              // Sài Gòn 1961: CHÉP Y NÉT IN của bản gốc, tô màu theo loại nét
       var tl = data.net_tl || 1e5;
@@ -945,8 +949,22 @@
   // khung bản đồ trên màn hình: đo ở #map (không bị co giãn tạm thời như #svg lúc kéo / phóng)
   function khungSvg() { return svg.parentNode.getBoundingClientRect(); }
   var ve63 = null, lop63 = null;                // ve63: khung nhìn đã vẽ thật vào SVG
+  // Sài Gòn 1961 (anh Kha 27/11 "chưa coi được"): 57 tranh nét bung ra ~550 MB, điện thoại không mở nổi. Mỗi tranh có 3 cỡ
+  // (nho = 1/4, vua = 1/2, gốc); nhìn xa dùng cỡ nhỏ, chỉ ô đang trong màn hình và đủ to mới đổi sang cỡ nét. Ô ra khỏi màn hình về cỡ nhỏ.
+  function nenSac() {
+    var b = khungSvg(), dpr = Math.min(window.devicePixelRatio || 1, 2.5);
+    var vx1 = -view.x / view.s, vy1 = -view.y / view.s, vx2 = vx1 + b.width / view.s, vy2 = vy1 + b.height / view.s;
+    var ds = land.querySelectorAll('.nen61');
+    for (var i = 0; i < ds.length; i++) {
+      var n = ds[i]._nen; if (!n) continue;
+      var thay = n.x2 > vx1 && n.x1 < vx2 && n.y2 > vy1 && n.y1 < vy2;
+      var dp = n.w * view.s * dpr, m = !thay || dp < 500 ? 'nho' : dp < 1000 ? 'vua' : 'goc';
+      if (m !== n.m) { n.m = m; ds[i].setAttribute('href', m === 'goc' ? n.f : n.f.replace('sg1961/', 'sg1961/' + m + '/')); }
+    }
+  }
   function chot63() {
     clearTimeout(apply._ngung);
+    if (layer && layer.sg) nenSac();
     ve63 = { s: view.s, x: view.x, y: view.y }; lop63 = layer;
     world.setAttribute('transform', 'translate(' + view.x.toFixed(2) + ' ' + view.y.toFixed(2) + ') scale(' + view.s.toFixed(5) + ')');
     svg.style.transform = '';

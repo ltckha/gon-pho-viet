@@ -203,11 +203,21 @@ def main(anh, toado, x0, y0, x1, y1, ra):
             if quanh[cy, cx] > 0.55 and not cv_m[cy, cx]:
                 bo.append(k + 1)
     netm &= ~np.isin(lbn, bo)
+    # tô màu theo loại nét (anh Kha 27/11 "nghiên cứu làm màu"): đặc (công trình lớn in đen kín) · gạch (trong vùng nhà) · viền (còn lại)
+    dac_n = netm & ndi.binary_dilation(dac_m, iterations=2)
+    gach_n = netm & ~dac_n & ndi.binary_dilation(nha_m, iterations=2)
+    vien_n = netm & ~dac_n & ~gach_n
+    def vec(m):
+        out = []
+        for c in find_contours(np.pad(m, 1).astype(np.float32), 0.5):
+            c = approximate_polygon(c - 1, 0.7)
+            if len(c) >= 3:
+                out.append(ll([(q[1], q[0]) for q in c]))
+        return out
+    net_lop = {'dac': vec(dac_n), 'gach': vec(gach_n), 'vien': vec(vien_n)}
     net = []
-    for c in find_contours(np.pad(netm, 1).astype(np.float32), 0.5):
-        c = approximate_polygon(c - 1, 0.7)
-        if len(c) >= 3:
-            net.append(ll([(q[1], q[0]) for q in c]))
+    # nền nhà: tô nhạt dưới nét gạch cho khối nhà rõ (mặt nạ nhà mượt)
+    nen_nha = vec(ndi.gaussian_filter(nha_m.astype(np.float32), 1.5) > 0.5)
     print('nét in', len(net), 'đa giác, bỏ', len(bo), 'mẩu chữ')
     print('phố', len(duong), 'nhà', len(nha), 'khối', len(khu), 'đặc', len(dac), 'sông', len(nuoc), 'công viên', len(cv))
 
@@ -222,6 +232,18 @@ def main(anh, toado, x0, y0, x1, y1, ra):
                 f += [a2 - a1, b2 - b1]
         if len(f) >= 6:
             nen.append(f)
+    def nen2(lst):
+        o = []
+        for poly in lst:
+            q = [(round((a - ox) * 2e5), round((b - oy) * 2e5)) for a, b in poly]
+            f = [q[0][0], q[0][1]]
+            for (a1, b1), (a2, b2) in zip(q, q[1:]):
+                if (a2, b2) != (a1, b1):
+                    f += [a2 - a1, b2 - b1]
+            if len(f) >= 6:
+                o.append(f)
+        return o
+    net_lop = {k: nen2(v) for k, v in net_lop.items()}; net_lop['nen_nha'] = nen2(nen_nha)
     nen_net = []
     for poly in net:
         q = [(round((a - ox) * 2e5), round((b - oy) * 2e5)) for a, b in poly]
@@ -232,7 +254,7 @@ def main(anh, toado, x0, y0, x1, y1, ra):
         if len(f) >= 6:
             nen_net.append(f)
     data = {'nam': 1961, 'khung': khung, 'duong': duong, 'duong_mat': [], 'duong_mon': [], 'ten_duong': [], 'diem': [], 'dia_danh': [],
-            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': [], 'net': nen_net, 'net_tl': 2e5, 'nha': [],
+            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': [], 'net': nen_net, 'net_lop': net_lop, 'net_tl': 2e5, 'nha': [],
             'nha_cach_ghi': 'mỗi khối: [x0, y0, dx, dy, ...] đơn vị 1e-5 độ tính từ khung[0], khung[1]',
             'nguon': [{'ten': 'Bản đồ Sài Gòn 1:10.000 (Indochina City Plans), ấn bản 2-AMS 1961 — vẽ lại từ bản này. Tài liệu chính phủ Mỹ.',
                        'link': 'https://maps.lib.utexas.edu/maps/vietnam.html'}]}

@@ -9,7 +9,7 @@
 4. sg1961_t2_x600_y2900_goc.png — góc tây nam (Chợ Quán, kênh Tàu Hũ)
 
 ```
-Mình làm "Gọn Phố Việt" — bản đồ phố Việt Nam xưa và nay cho điện thoại. Đây là đợt vẽ số 53, tiếp đợt 52–53.
+Mình làm "Gọn Phố Việt" — bản đồ phố Việt Nam xưa và nay cho điện thoại. Đây là đợt vẽ số 54, tiếp đợt 52–53.
 
 Đính kèm 4 ảnh: các góc bản đồ Sài Gòn năm 1961 (tỉ lệ 1:10.000, bản quét giấy cũ, đen trắng), mỗi ảnh khoảng 1,7 × 1,7 km.
 Vẽ lại TỪNG ảnh thành một bản đồ minh hoạ riêng — nét vẽ y hệt đợt 52:

@@ -244,7 +244,7 @@
   }
   function layout() {
     if (!layer || layer.kind !== 'duong') return;
-    var r = svg.getBoundingClientRect(), z = view.s / fit.s, fs = 11 / view.s;
+    var r = khungSvg(), z = view.s / fit.s, fs = 11 / view.s;
     var boxes = [];
     function free(b) {
       for (var i = 0; i < boxes.length; i++) {
@@ -831,7 +831,7 @@
   function layoutMoc() {
     if (!mocs.length) return;
     // phóng tới đâu, mốc gần giữa màn hình hiện trước; tối đa MOC_TOI_DA mốc một lúc (tỉnh có bản đồ phố luôn được ưu tiên)
-    var r = svg.getBoundingClientRect(), boxes = [], cx = r.width / 2, cy = r.height / 2, dem = 0, MOC_TOI_DA = 8;
+    var r = khungSvg(), boxes = [], cx = r.width / 2, cy = r.height / 2, dem = 0, MOC_TOI_DA = 8;
     function kc(g) { return Math.hypot(g._x * view.s + view.x - cx, g._y * view.s + view.y - cy) * (g._thu_do ? 0.35 : g._uu === 1 ? 0.6 : 1); }   // thủ đô, rồi thành phố trực thuộc TW được ưu tiên hơn
     function hangMoc(g) { return g._deco ? 1e9 : (g._uu === 0 ? -1e9 : kc(g)); }
     mocs.slice().sort(function (a, b) { return hangMoc(a) - hangMoc(b); }).forEach(function (g) {
@@ -851,7 +851,7 @@
       else { g.parentNode.setAttribute('display', 'none'); g._du.removeAttribute('hidden'); }
     });
     // chữ tên tỉnh: không đè mốc, không đè chữ khác; ưu tiên tỉnh có bản đồ phố, rồi thành phố (★), rồi tỉnh thường; tên biển, nước bạn giữ nguyên
-    var sr = svg.getBoundingClientRect();
+    var sr = khungSvg();
     var ds = Array.prototype.filter.call(labels.childNodes, function (t) { return !t.hasAttribute('hidden') && !/\b(sea|ngoai-name)\b/.test(t.getAttribute('class')); });
     function hang(t) { return /\bopen\b/.test(t.getAttribute('class')) ? 0 : (t.textContent.charAt(0) === '★' ? 1 : 2); }
     ds.sort(function (a, b) { return hang(a) - hang(b); }).forEach(function (t) {
@@ -863,7 +863,7 @@
   }
 
   function fitAll() {
-    var r = svg.getBoundingClientRect();
+    var r = khungSvg();
     var top = 56, bottom = 20, side = 12;
     var w = r.width - side * 2, h = r.height - top - bottom;
     var bw = bounds.maxX - bounds.minX, bh = bounds.maxY - bounds.minY;
@@ -893,25 +893,37 @@
       if (rongCu[k] !== v) { rongCu[k] = v; svg.style.setProperty('--' + k, v); }
     });
   }
-  function apply() {
+  // Đà Lạt 1963 (anh Kha 27/11 "zoom ko mượt như bản đồ hôm nay"): bản 1963 có hơn 12 nghìn khối nhà, rừng, vườn, vòng đồi —
+  // vẽ lại cả tờ mỗi lần ngón tay nhích thì giật. TRONG LÚC kéo / phóng chỉ co giãn tấm hình đã vẽ (CSS transform, máy làm bằng
+  // bộ xử lý đồ hoạ, nhẹ như phóng ảnh); dừng tay 0,2 giây mới vẽ lại sắc nét, đổi mức, đặt chữ. Cách các bản đồ lớn vẫn làm.
+  // khung bản đồ trên màn hình: đo ở #map (không bị co giãn tạm thời như #svg lúc kéo / phóng)
+  function khungSvg() { return svg.parentNode.getBoundingClientRect(); }
+  var ve63 = null, lop63 = null;                // ve63: khung nhìn đã vẽ thật vào SVG
+  function chot63() {
+    clearTimeout(apply._ngung);
+    ve63 = { s: view.s, x: view.x, y: view.y }; lop63 = layer;
     world.setAttribute('transform', 'translate(' + view.x.toFixed(2) + ' ' + view.y.toFixed(2) + ') scale(' + view.s.toFixed(5) + ')');
+    svg.style.transform = '';
+    datMuc63(view.s / fit.s);
+    labels.setAttribute('font-size', (11 / view.s).toFixed(4));
+    labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
+    for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');
+    layout();
+  }
+  function apply() {
     var z = view.s / fit.s;                       // 1 = vừa khung
     if (layer && layer.y1963) {
-      // Đà Lạt 1963 (anh Kha 27/11: phóng ra vào nhanh → cả app Claude khởi động lại vì hết bộ nhớ): TRONG LÚC kéo / phóng chỉ dời
-      // và co giãn nền + đường chính; nhà, vòng đồi, hoa văn, chữ, biểu tượng tạm ẩn. Ngừng tay 0,25 giây mới đổi mức, vẽ lại chữ.
-      svg.classList.add('dong');
+      if (lop63 !== layer || !ve63) { chot63(); return; }
+      var k = view.s / ve63.s, tx = view.x - ve63.x * k, ty = view.y - ve63.y * k;
+      svg.style.transformOrigin = '0 0';
+      svg.style.transform = 'matrix(' + k.toFixed(5) + ',0,0,' + k.toFixed(5) + ',' + tx.toFixed(1) + ',' + ty.toFixed(1) + ')';
       clearTimeout(apply._ngung);
-      apply._ngung = setTimeout(function () {
-        var z2 = view.s / fit.s;
-        datMuc63(z2);
-        labels.setAttribute('font-size', (11 / view.s).toFixed(4));
-        labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
-        for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');
-        layout();
-        svg.classList.remove('dong');
-      }, 250);
+      apply._ngung = setTimeout(chot63, 200);
       return;
     }
+    if (svg.style.transform) svg.style.transform = '';
+    lop63 = null;
+    world.setAttribute('transform', 'translate(' + view.x.toFixed(2) + ' ' + view.y.toFixed(2) + ') scale(' + view.s.toFixed(5) + ')');
     labels.setAttribute('font-size', (11 / view.s).toFixed(4));
     labels.setAttribute('stroke-width', (3 / view.s).toFixed(4));
     for (var p = 0; p < pins.length; p++) pins[p].setAttribute('transform', 'scale(' + (1 / view.s).toFixed(6) + ')');
@@ -977,7 +989,7 @@
     }
     if (count() === 0 && start) {
       if (!start.moved && e.type === 'pointerup') {
-        var r0 = svg.getBoundingClientRect(), tx = start.x - r0.left, ty = start.y - r0.top;
+        var r0 = khungSvg(), tx = start.x - r0.left, ty = start.y - r0.top;
         var gan = layer && layer.kind === 'duong' ? pins.filter(function (g) {
           if (g._fixed) return false;
           var sx = g._x * view.s + view.x, sy = g._y * view.s + view.y - 17;
@@ -1000,7 +1012,7 @@
   }, { passive: false });
 
   function centerZoom(f) {
-    var r = svg.getBoundingClientRect();
+    var r = khungSvg();
     zoomAt(f, r.width / 2, r.height / 2);
   }
   document.getElementById('zin').addEventListener('click', function () { centerZoom(1.6); });
@@ -1160,7 +1172,7 @@
   }
 
   function zoomTo(b) {
-    var r = svg.getBoundingClientRect(), top = 70, pad = 40, bottom = 140;  // chừa chỗ ô chú thích phía dưới
+    var r = khungSvg(), top = 70, pad = 40, bottom = 140;  // chừa chỗ ô chú thích phía dưới
     var w = r.width - pad * 2, h = r.height - top - pad - bottom;
     var s = Math.min(w / Math.max(b.maxX - b.minX, 0.01), h / Math.max(b.maxY - b.minY, 0.01));
     s = Math.min(s, fit.s * (layer && layer.y1963 ? 20 : 120));   // 1963: tối đa ~1 m/điểm ảnh — sâu hơn Safari iPhone dễ hết bộ nhớ

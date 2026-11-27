@@ -442,7 +442,4 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .dong-tg details p { margin: 4px 0 6px; line-height: 1.5; }
 .lbl.ct63-ten.chung63 { font-size: .86em; fill-opacity: .75; }
 /* Không dùng opacity cho cả lớp lớn: Safari iPhone phải vẽ cả lớp ra một tấm ảnh trung gian to bằng cả bản đồ khi phóng gần → hết bộ nhớ, trang tự thoát (anh Kha 27/11). Dùng stroke-opacity / fill-opacity. */
-/* đang kéo / phóng bản đồ 1963: tạm ẩn lớp nặng (xem apply() trong app.js) */
-#svg.y63.dong .nha63g, #svg.y63.dong .dm63, #svg.y63.dong .kv63, #svg.y63.dong .mon63, #svg.y63.dong .dat63,
-#svg.y63.dong .dam63, #svg.y63.dong #labels, #svg.y63.dong #pins, #svg.y63.dong .duong63 .r4, #svg.y63.dong .hl63 .hl-quang { display: none; }
-#svg.y63.dong .vuon63 path { fill: #ece6c8; }
+#svg.y63 { will-change: transform; }

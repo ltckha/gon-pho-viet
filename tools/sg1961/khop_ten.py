@@ -3,7 +3,7 @@ Tên được đặt theo nét đường OpenStreetMap ngày nay + lưới nắn
 Cách làm: ghép các ô tranh (data/sai-gon/1961.json → anh_nen) thành một tấm theo kinh/vĩ độ (2 m một điểm ảnh), dò lòng đường
 (màu kem sáng), rồi với mỗi tên: (1) dời cả đoạn trong ±50 m tới chỗ trùng lòng đường nhiều nhất, (2) từng điểm nhích
 vuông góc ±14 m vào giữa lòng đường, làm mượt. Tên nào sau khi dời vẫn không nằm trên đường thì giữ nguyên chỗ cũ.
-Chạy: python3 tools/sg1961/khop_ten.py [ảnh kiểm tra.png]   (ghi đè ten_duong trong data/sai-gon/1961.json, giữ bản gốc ở ten_duong_osm)
+Chạy: python3 tools/sg1961/khop_ten.py [ảnh kiểm tra.png]   (đọc docs/research/sai_gon_1961/ten_duong_osm.json, ghi ten_duong trong data/sai-gon/1961.json)
 """
 import json, sys, math
 import numpy as np
@@ -13,7 +13,8 @@ from scipy import ndimage as ndi
 F = 'data/sai-gon/1961.json'
 M = 2.0                                     # mét / điểm ảnh
 d = json.load(open(F))
-goc = d.get('ten_duong_osm') or d['ten_duong']
+GOC = 'docs/research/sai_gon_1961/ten_duong_osm.json'    # tên đặt theo nét OpenStreetMap (gan_ten.py), chưa kéo
+goc = json.load(open(GOC))
 LAT0 = 10.76; KX = 111320 * math.cos(math.radians(LAT0)); KY = 110574
 A = d['anh_nen']
 lo = min(min(a['tt'][0], a['dt'][0]) for a in A) - 0.002; hi = max(a['tp'][0] for a in A) + 0.004
@@ -78,7 +79,7 @@ def doi(pts):
 moi = []; truoc = []; sau = []
 for r in goc:
     p, g, m = doi(r['pts']); q = dict(r); q['pts'] = p; moi.append(q); truoc.append(g); sau.append(m)
-d['ten_duong_osm'] = goc; d['ten_duong'] = moi
+d['ten_duong'] = moi
 print('trung bình trên lòng đường: trước %.2f → sau %.2f; tên dời %d/%d' % (np.mean(truoc), np.mean(sau), sum(1 for g, m in zip(truoc, sau) if m != g), len(goc)))
 print('tên còn lệch (<0,4):', sum(1 for m in sau if m < 0.4))
 json.dump(d, open(F, 'w'), ensure_ascii=False, separators=(',', ':'))

@@ -17,6 +17,9 @@ HINH = {
     56: 'chua_linh_quang', 57: 'chua_linh_son', 66: 'thuy_ta', 71: 'domaine_de_marie', 72: 'domaine_de_marie',
     78: 'lang_nguyen_huu_hao', 81: 'dai_hoc_da_lat', 84: 'hoc_vien_luc_quan', 86: 'couvent_des_oiseaux',
     87: 'vien_pasteur', 102: 'lycee_yersin', 104: 'san_bay_cam_ly', 105: 'ga_da_lat',
+    # Spark đợt 50 (docs/spark/dot50_moc_1963.md)
+    18: 'dinh_tinh_truong', 20: 'nha_dia_du', 37: 'toa_hanh_chanh', 39: 'vien_hat_nhan', 41: 'benh_vien',
+    69: 'nha_tho_tin_lanh', 70: 'tu_vien_cuu_the', 73: 'tu_vien_saint_paul', 80: 'truong_bui_thi_xuan', 101: 'dai_hoc_yersin',
 }
 # hình chọn theo tên nay mà nghiên cứu xác định được (dinh I/II/III, khách sạn Du Parc, chùa Linh Phong, Lưu trữ IV…)
 THEO_TEN = [

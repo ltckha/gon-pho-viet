@@ -58,12 +58,29 @@ def main(anh, toado, x0, y0, x1, y1, ra):
     # nhà: ô gạch chéo = mực dày (≥ 35% trong ô 7×7) bên trong khối, trừ viền khối; khối đen đặc = công trình lớn
     dens = ndi.uniform_filter(ink.astype(np.float32), 7)
     trong = ndi.binary_erosion(blk, iterations=3)
-    nha_m = remove_small_objects(binary_opening((dens > 0.42) & trong, disk(2)), 40)
+    # nhà in gạch chéo xám: trung bình ô 7×7 tối (gạch ~80–100, giấy ~165) — mở disk(3) bỏ chữ, nét mảnh; nở lại 2 điểm cho đủ viền;
+    # chỉ trong khối phố (chữ tên đường in trong lòng đường không thành nhà)
+    # đo 27/11: nhà gạch chéo độ lệch chuẩn ô 9×9 ~40; bồn cỏ chấm mịn ~12–20 (cùng độ xám ~100–110) → tách bằng độ lốm đốm
+    sd9 = ndi.uniform_filter(np.sqrt(np.maximum(ndi.uniform_filter(g * g, 9) - ndi.uniform_filter(g, 9) ** 2, 0)), 9)
+    nha_m = remove_small_objects(binary_opening((ndi.uniform_filter(g, 7) < 105) & (sd9 > 27), disk(3)), 60)
+    nha_m = ndi.binary_dilation(nha_m, iterations=2) & blk
     dac_m = remove_small_objects(binary_opening((ndi.uniform_filter(ink.astype(np.float32), 9) > 0.85) & blk, disk(2)), 80)
     # vườn hoa, công viên: chấm lấm tấm (mực thưa 4–25%) chiếm phần lớn khối, không có nhà
-    cham = (dens > 0.04) & (dens < 0.25) & trong & ~ndi.binary_dilation(nha_m, iterations=4)
-    cv_m = remove_small_holes(remove_small_objects(binary_opening(ndi.uniform_filter(cham.astype(np.float32), 21) > 0.6, disk(3)), 2500), 2000)
-    khu_m = blk
+    # công viên, vườn hoa: xét từng KHỐI — ít nhà (< 12%) mà có chấm lấm tấm (mực 5–35%: ký hiệu cỏ, cây) → tô xanh cả khối
+    lb, nb = ndi.label(blk)
+    idx = np.arange(1, nb + 1)
+    fn = ndi.mean(nha_m, lb, idx); fd = ndi.mean(dens, lb, idx); sz = ndi.sum(np.ones_like(blk), lb, idx)
+    # chấm cỏ cây = nhiều mẩu mực NHỎ rời (< 25 điểm ảnh); gạch chéo nhà = nét dài liền → phân biệt theo tỉ lệ mực ở mẩu nhỏ
+    li, _ = ndi.label(ink); szi = np.bincount(li.ravel()); szi[0] = 0
+    nho = ink & (szi[li] < 25)
+    fnho = ndi.sum(nho, lb, idx) / np.maximum(ndi.sum(ink, lb, idx), 1)
+    # đo 27/11: bồn cỏ Tao Đàn xám đều ~110–125, nhà gạch ~85, giấy trống ~150–165. Khối phố không tách rời hết (hẻm nhỏ, chữ
+    # nối các khối) nên xét theo vùng 31×31 điểm ảnh (~40 m): nền xám vừa + ít nhà → cỏ cây
+    m31 = ndi.uniform_filter(g, 31); fn31 = ndi.uniform_filter(nha_m.astype(np.float32), 31)
+    cv_m = (ndi.uniform_filter(g, 15) > 75) & (ndi.uniform_filter(g, 15) < 142) & (sd9 < 30) & blk
+    cv_m = remove_small_holes(remove_small_objects(binary_opening(cv_m, disk(4)), 1200), 1500) & blk
+    nha_m &= ~ndi.binary_dilation(cv_m, iterations=7)     # viền bồn cỏ (mép tối cạnh đường trắng) không phải nhà
+    khu_m = blk & ~cv_m          # khối công viên tô riêng (lớp rừng vẽ dưới lớp khối)
     light = pho & ~nuoc_m
     def polys(mask, tol, scale=1):
         out = []
@@ -83,7 +100,7 @@ def main(anh, toado, x0, y0, x1, y1, ra):
         cs = find_contours(np.pad(rp.image, 1).astype(float), 0.5)
         if not cs:
             continue
-        c = approximate_polygon(max(cs, key=len) - 1, 1.0)
+        c = approximate_polygon(max(cs, key=len) - 1, 1.3)
         P = np.array([(p[1] + rp.bbox[1], p[0] + rp.bbox[0]) for p in c])
         if len(P) < 4:
             continue
@@ -96,7 +113,7 @@ def main(anh, toado, x0, y0, x1, y1, ra):
             A = (a.max() - a.min()) * (b.max() - b.min())
             if best is None or A < best[0]:
                 best = (A, u, v, a.min(), a.max(), b.min(), b.max())
-        if best and rp.area / max(best[0], 1) >= 0.72:
+        if best and rp.area / max(best[0], 1) >= 0.9:
             _, u, v, a0, a1, b0, b1 = best
             P = np.array([u * a + v * b for a, b in ((a0, b0), (a1, b0), (a1, b1), (a0, b1))])
         nha.append(ll(P.tolist()))

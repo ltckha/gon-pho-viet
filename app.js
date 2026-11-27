@@ -107,6 +107,7 @@
     // Đà Lạt 1963: vẽ lại hoàn toàn từ bản đồ AMS L909 Đà Lạt 1:12.500 (tools/dung_1963.py) — không hiện gì của hiện tại
     'da-lat-1963': {
       kind: 'duong', y1963: true, file: 'data/lam-dong/da-lat/1963.json', prec: 5,
+      extra: { key: 'dd63', file: 'data/lam-dong/da-lat/1963_dia_diem.json' },   // năm 1963 là gì → nay → qua các năm
       crumb: [['Đà Lạt', 'da-lat'], ['Năm 1963', 'da-lat-1963']],
       sang: ['Hôm nay', 'da-lat'],
       legend: [['road63', 'Đường năm 1963'], ['dat63', 'Đường đất nay đã mất'], ['nha63', 'Khu nhà'], ['rung63', 'Rừng'], ['water', 'Hồ']],
@@ -425,13 +426,33 @@
     var DAU = { tho: '✝', chua: '卍', truong: '▲', dinh: '★', cho: '■', ga: '■', benh: '✚', choi: '●', cong: '●', thuong: '●' };
     var CHUNG = { 'Trường Học': 1, 'Miếu': 1, 'Nhà Thờ': 1, 'Chùa': 1, 'Nhà Máy Nước': 1 };
     var gct = el('g', { 'class': 'ct63' }); labels.appendChild(gct);
+    var dd = {}; ((cache.dd63 && cache.dd63.dia_diem) || []).forEach(function (x) { dd[x.so] = x; });
+    pins = []; var pinLayer = el('g', {});
     (data.cong_trinh || []).forEach(function (c) {
+      var x = dd[c.so];
+      if (!x) return;
+      var g = el('g', { 'class': 'pin dd63', transform: 'translate(' + px(c.lon).toFixed(5) + ' ' + py(c.lat).toFixed(5) + ')' });
+      var inner = el('g', { 'data-ct': c.so });
+      inner._x = px(c.lon); inner._y = py(c.lat); inner._n = c.ten.length;
+      if (x.hinh) {
+        inner.appendChild(el('circle', { cx: 0, cy: -16, r: 17, 'class': 'dd63-nen', 'data-ct': c.so }));
+        inner.appendChild(el('image', { href: 'assets/vn/moc_' + x.hinh + '.webp', x: -16, y: -32, width: 32, height: 32, 'data-ct': c.so }));
+      } else {
+        inner.appendChild(el('circle', { cx: 0, cy: -11, r: 10, 'class': 'dd63-tron n-' + c.nhom, 'data-ct': c.so }));
+        inner.appendChild(el('text', { x: 0, y: -11, 'class': 'dd63-dau', 'data-ct': c.so }, DAU[c.nhom]));
+      }
+      inner.appendChild(el('text', { x: 14, y: -14, 'class': 'pin-label dd63-ten', 'data-ct': c.so }, c.ten));
+      g.appendChild(inner); pinLayer.appendChild(g); pins.push(inner);
+      c._co = 1;
+    });
+    (data.cong_trinh || []).forEach(function (c) {
+      if (c._co) return;
       var t = el('text', { x: px(c.lon), y: py(c.lat), 'class': 'lbl ct63-ten n-' + c.nhom, hidden: '' }, DAU[c.nhom] + ' ' + c.ten);
       gct.appendChild(t);
       var lon = { dinh: 1, cho: 1, ga: 1 }[c.nhom] || c.ten === 'Nhà Thờ Lớn' || c.ten === 'Sân Cù';
       pointLbl.push({ el: t, x: px(c.lon), y: py(c.lat), n: c.ten.length + 2, minZ: lon ? 1.6 : CHUNG[c.ten] ? 5 : 3, mid: false });
     });
-    pins = []; pinsRoot.textContent = '';
+    pinsRoot.textContent = ''; pinsRoot.appendChild(pinLayer);
     bounds = { minX: px(k[0]), maxX: px(k[2]), minY: py(k[3]), maxY: py(k[1]) };
     fitAll();
     zoomTo({ minX: px(108.432), maxX: px(108.45), minY: py(11.957), maxY: py(11.927) });   // mở vào trung tâm quanh Hồ Xuân Hương
@@ -739,6 +760,11 @@
 
   /* ---------- thẻ thông tin ---------- */
   function tap(target) {
+    if (layer && layer.y1963) {
+      var so = target && target.getAttribute && target.getAttribute('data-ct');
+      if (so) moThe63(Number(so)); else closeSheet();
+      return;
+    }
     var i = target && target.getAttribute && target.getAttribute('data-i');
     if (i === null || i === undefined || i === '') { closeSheet(); return; }
     // bấm vào hình mốc tỉnh → coi như bấm vào tỉnh đó
@@ -757,6 +783,37 @@
     if (btn) btn.addEventListener('click', function () { location.hash = btn.getAttribute('data-go'); });
     srcSheet.hidden = true;
     sheet.hidden = false;
+  }
+
+  // Thẻ địa điểm trên bản đồ 1963: năm 1963 là gì · nay là gì · qua các năm (chạm năm mới mở chi tiết + nguồn)
+  function moThe63(so) {
+    var x = ((cache.dd63 && cache.dd63.dia_diem) || []).filter(function (d) { return d.so === so; })[0];
+    if (!x) return;
+    function nguon(list, one) {
+      return '<span class="src">' + (one ? 'Mới có 1 nguồn: ' : 'Nguồn: ') + list.map(function (n) {
+        return '<a href="' + esc(n.link) + '" target="_blank" rel="noopener">' + esc(n.trang) + '</a>';
+      }).join(' · ') + '</span>';
+    }
+    var h = the(x.hinh ? 'assets/vn/moc_' + x.hinh + '.webp' : '', x.ten_1963, 'Số ' + x.so + ' trên bản đồ năm 1963');
+    h += '<section class="phan"><h3>📍 Nay</h3>';
+    if (x.nay && x.nay.ten) {
+      h += '<p class="nay63"><b>' + esc(x.nay.ten) + '</b>' + (x.cung_cho !== 'chắc' ? ' <i class="chua-chac" title="chưa chắc là cùng chỗ">?</i>' : '') +
+        (x.nay.mo_ta ? '<br>' + esc(x.nay.mo_ta) : '') + '</p>' + (x.nay.nguon.length ? nguon(x.nay.nguon, x.nay.nguon.length < 2) : '') +
+        (x.cung_cho !== 'chắc' && x.cung_cho_ghi_chu ? '<span class="src warn">' + esc(x.cung_cho_ghi_chu) + '</span>' : '');
+    } else h += '<p class="nay63">Chưa rõ nay là gì.</p>';
+    h += '</section>';
+    if (x.moc.length) {
+      h += '<section class="phan"><h3>🕰️ Qua các năm</h3><ol class="dong-tg">' + x.moc.map(function (m) {
+        return '<li><details><summary><b class="nam">' + esc(m.nam) + '</b>' + (m.mot_nguon ? ' <i class="chua-chac" title="chưa chắc">?</i>' : '') +
+          ' <span class="tg-ngan">' + esc(m.su_kien.length > 46 ? m.su_kien.slice(0, m.su_kien.lastIndexOf(' ', 44)) + '…' : m.su_kien) + '</span></summary>' +
+          '<p>' + esc(m.su_kien) + '</p>' + nguon(m.nguon, m.mot_nguon) + '</details></li>';
+      }).join('') + '</ol></section>';
+    }
+    if (x.trang) h += '<button class="go lon" type="button" data-go="pho-' + esc(x.trang) + '">Xem trang hôm nay →</button>';
+    sheetBody.innerHTML = h;
+    var btn = sheetBody.querySelector('[data-go]');
+    if (btn) btn.addEventListener('click', function () { location.hash = btn.getAttribute('data-go'); });
+    srcSheet.hidden = true; sheet.hidden = false;
   }
 
   // Thẻ tỉnh / phường: ít chữ, nhiều hình — hình mốc Spark ở đầu, các ô biểu tượng, một nút đi tiếp

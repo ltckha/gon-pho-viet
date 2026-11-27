@@ -447,3 +447,13 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .dong-tg .ke-them > summary::after { content: ' ›'; }
 .dong-tg .ke-them[open] > summary::after { content: ' ⌄'; }
 .dong-tg .ke-them p { color: #4a3f33; }
+/* Sài Gòn 1961: khối phố viền mảnh, nhà gạch xám hiện ở mọi mức, đường là khoảng giấy giữa khối (như bản gốc) */
+#svg.sg61 { background: #fbf6ea; }
+#svg.sg61 .giay63 { fill: #fbf6ea; }
+#svg.sg61 .khu63 path { fill-rule: evenodd; fill: #efe5cf; stroke: #8f7a5c; stroke-width: .8; vector-effect: non-scaling-stroke; }
+#svg.y63.sg61:not([data-nha]) .nha63g, #svg.sg61 .nha63g { display: inline; }
+#svg.sg61 .nha63g path { fill: #d3c3a5; stroke: #a8936f; stroke-width: .5; vector-effect: non-scaling-stroke; }
+.dac63 path { fill: #6e5a44; }
+#svg.sg61 .duong63.road-casing path { display: none; }
+#svg.sg61 .duong63, #svg.sg61 .mon63, #svg.sg61 .dat63 { display: none; }
+#svg.sg61 .rung63 path { fill: #cfe0b5; }

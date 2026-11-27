@@ -29,25 +29,42 @@ def main(anh, toado, x0, y0, x1, y1, ra):
         q = px2ll(P[:, 0] + x0, P[:, 1] + y0)
         return [[round(a, 6), round(b, 6)] for a, b in q]
 
-    m5 = ndi.uniform_filter(g, 5)
+    # Tờ Sài Gòn in khác Đà Lạt (soát 27/11): mỗi KHỐI PHỐ có đường viền đen mảnh khép kín; nhà là ô gạch chéo trong khối;
+    # đường KHÔNG có nét riêng — chỉ là khoảng giấy giữa các viền. Nên: lấy mực (< 105), nở 1 điểm ảnh nối nét gạch,
+    # bỏ mẩu nhỏ (chữ rời, chấm), LẤP LÒNG vùng khép kín → khối phố; phần giấy còn lại nối ra mép = đường.
     m15 = ndi.uniform_filter(g, 15); sd15 = np.sqrt(np.maximum(ndi.uniform_filter(g * g, 15) - m15 * m15, 0))
-    # chữ tên đường in ngay trong lòng đường là nét đen mảnh → lấp bằng phép đóng xám 5×5 trước khi lấy khe sáng
-    gc = ndi.grey_closing(g, size=(5, 5))
-    light = binary_opening(ndi.uniform_filter(gc, 3) > 140, disk(1))
-    ink = ndi.uniform_filter((g < 90).astype(np.float32), 5)
-
-    # ---- sông rạch: xám đều, mảng lớn ----
+    ink = g < 105
+    # lưới toạ độ in mảnh chạy gần ngang / gần dọc cả tờ cắt đường thành ô → bỏ phần lưới đứng lẻ (quanh ít mực)
+    luoi = ndi.binary_dilation(ndi.binary_opening(ink, np.ones((1, 151))) | ndi.binary_opening(ink, np.ones((151, 1))), iterations=1)
+    ink2 = ink & ~(luoi & (ndi.uniform_filter(ink.astype(np.float32), 9) < 0.35))
+    inkd = remove_small_objects(ndi.binary_dilation(ink2, iterations=1), 40)
+    # vùng giấy: mạng lưới thưa, mảnh, trải rộng (≥ 160 điểm ảnh ~ 220 m) = ĐƯỜNG; còn lại = khối phố
+    #   (không dùng "lấp lòng": mạng đường bị chữ, lưới khép kín ở mép thì cả thành phố thành một khối)
+    lab_g, _ = ndi.label(~inkd); dtg = ndi.distance_transform_edt(~inkd)
+    pho = np.zeros_like(inkd)
+    for k, sl in enumerate(ndi.find_objects(lab_g)):
+        h, w = sl[0].stop - sl[0].start, sl[1].stop - sl[1].start
+        if max(h, w) < 160:
+            continue
+        mm = lab_g[sl] == k + 1
+        if mm.sum() / (h * w) < 0.35 and dtg[sl][mm].mean() < 7:
+            pho[sl] |= mm
+    blk = binary_opening(~pho, disk(2))
+    # sông rạch: xám đều, ít hạt, mảng lớn (vùng mặt nước bị lấp lòng chung với khối thì tách ra)
     nuoc_m = (sd15 < 14) & (m15 > 90) & (m15 < 140)
     nuoc_m = remove_small_holes(remove_small_objects(binary_opening(nuoc_m, disk(4)), 6000), 3000)
-    # ---- nhà ----
-    nha_m = binary_opening(binary_closing(ink > 0.45, disk(2)), disk(1)) & ~nuoc_m
-    nha_m = remove_small_objects(nha_m, 25)
-    # ---- công viên: không sáng, không nhà, có hạt chấm (độ lệch chuẩn vừa), mảng vừa ----
-    cv_m = (~light) & (ink < 0.25) & (sd15 > 12) & (m15 < 140) & ~nuoc_m
-    cv_m = remove_small_holes(remove_small_objects(binary_opening(cv_m, disk(5)), 4000), 2000)
-    # ---- khối phố ----
-    khu_m = remove_small_holes(remove_small_objects(binary_opening(~light & ~nuoc_m, disk(2)), 300), 200)
-
+    blk &= ~nuoc_m
+    blk = remove_small_objects(blk, 150)
+    # nhà: ô gạch chéo = mực dày (≥ 35% trong ô 7×7) bên trong khối, trừ viền khối; khối đen đặc = công trình lớn
+    dens = ndi.uniform_filter(ink.astype(np.float32), 7)
+    trong = ndi.binary_erosion(blk, iterations=3)
+    nha_m = remove_small_objects(binary_opening((dens > 0.42) & trong, disk(2)), 40)
+    dac_m = remove_small_objects(binary_opening((ndi.uniform_filter(ink.astype(np.float32), 9) > 0.85) & blk, disk(2)), 80)
+    # vườn hoa, công viên: chấm lấm tấm (mực thưa 4–25%) chiếm phần lớn khối, không có nhà
+    cham = (dens > 0.04) & (dens < 0.25) & trong & ~ndi.binary_dilation(nha_m, iterations=4)
+    cv_m = remove_small_holes(remove_small_objects(binary_opening(ndi.uniform_filter(cham.astype(np.float32), 21) > 0.6, disk(3)), 2500), 2000)
+    khu_m = blk
+    light = pho & ~nuoc_m
     def polys(mask, tol, scale=1):
         out = []
         for c in find_contours(np.pad(mask, 1).astype(float), 0.5):
@@ -56,7 +73,7 @@ def main(anh, toado, x0, y0, x1, y1, ra):
                 out.append(ll([(p[1] * scale, p[0] * scale) for p in c]))
         return out
     sm = lambda m: np.asarray(Image.fromarray(m.astype(np.uint8) * 255).resize((W // 2, H // 2), Image.BOX)) > 127
-    nuoc = polys(sm(nuoc_m), 1.0, 2); cv = polys(sm(cv_m), 1.0, 2); khu = polys(sm(khu_m), 0.8, 2)
+    nuoc = polys(sm(nuoc_m), 1.0, 2); cv = polys(sm(cv_m), 1.0, 2); khu = polys(khu_m, 1.0); dac = polys(dac_m, 1.0)
 
     # nhà: chữ nhật nhỏ nhất nếu đầy ≥ 72%, không thì đa giác gọn
     nha = []
@@ -133,7 +150,7 @@ def main(anh, toado, x0, y0, x1, y1, ra):
                 loai = 1 if w >= 9 else 2 if w >= 6 else 3
                 duong.append({'loai': loai, 'pts': ll(approximate_polygon(R, 0.8).tolist())})
             i = j
-    print('phố', len(duong), 'nhà', len(nha), 'khối', len(khu), 'sông', len(nuoc), 'công viên', len(cv))
+    print('phố', len(duong), 'nhà', len(nha), 'khối', len(khu), 'đặc', len(dac), 'sông', len(nuoc), 'công viên', len(cv))
 
     lo0, la0 = px2ll(np.array([x0]), np.array([y1]))[0]; lo1, la1 = px2ll(np.array([x1]), np.array([y0]))[0]
     khung = [round(min(lo0, lo1), 5), round(min(la0, la1), 5), round(max(lo0, lo1), 5), round(max(la0, la1), 5)]
@@ -147,7 +164,7 @@ def main(anh, toado, x0, y0, x1, y1, ra):
         if len(f) >= 6:
             nen.append(f)
     data = {'nam': 1961, 'khung': khung, 'duong': duong, 'duong_mat': [], 'duong_mon': [], 'ten_duong': [], 'diem': [], 'dia_danh': [],
-            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': [], 'nha': nen,
+            'cong_trinh': [], 'nuoc': nuoc, 'rung': cv, 'khu': khu, 'nha_dac': dac, 'nha': nen,
             'nha_cach_ghi': 'mỗi khối: [x0, y0, dx, dy, ...] đơn vị 1e-5 độ tính từ khung[0], khung[1]',
             'nguon': [{'ten': 'Bản đồ Sài Gòn 1:10.000 (Indochina City Plans), ấn bản 2-AMS 1961 — vẽ lại từ bản này. Tài liệu chính phủ Mỹ.',
                        'link': 'https://maps.lib.utexas.edu/maps/vietnam.html'}]}

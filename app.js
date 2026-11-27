@@ -115,7 +115,7 @@
     },
     // Sài Gòn 1961: vẽ lại từ bản đồ Sài Gòn 1:10.000, ấn bản 2-AMS 1961 (tools/sg1961/) — đang làm, mới khu trung tâm
     'sai-gon-1961': {
-      kind: 'duong', y1963: true, file: 'data/sai-gon/1961.json', prec: 5,
+      kind: 'duong', y1963: true, sg: true, file: 'data/sai-gon/1961.json', prec: 5,
       mo: [106.688, 10.768, 106.712, 10.792],
       crumb: [['Việt Nam', ''], ['Sài Gòn 1961', 'sai-gon-1961']],
       legend: [['road63', 'Đường năm 1961'], ['nha63', 'Khối phố'], ['rung63', 'Công viên'], ['water', 'Sông rạch']],
@@ -487,6 +487,7 @@
     poly(data.vuon || [], 'vuon63');
     poly(data.dam || [], 'dam63');
     poly(data.khu || [], 'khu63');
+    poly(data.nha_dac || [], 'dac63');           // Sài Gòn 1961: công trình lớn in đen đặc
     poly(data.nuoc, 'water nuoc63');
     // khuôn viên công trình (khung đỏ mảnh in trên bản đồ) — 13 nơi lớn, hiện khi phóng vừa trở lên
     var gkv = el('g', { 'class': 'kv63' }), dkv = '';
@@ -1639,6 +1640,7 @@
     sang.hidden = !layer.sang;
     if (layer.sang) { sang.textContent = layer.sang[0]; sang.setAttribute('data-go', layer.sang[1]); }
     svg.classList.toggle('y63', !!layer.y1963);
+    svg.classList.toggle('sg61', !!layer.sg);
     document.getElementById('timBox').hidden = !layer.y1963;
     if (layer.y1963) { document.getElementById('lichBtn').hidden = true; tim63.value = ''; timKq.hidden = true; timXoa.hidden = true; }
     var name = layer.crumb[layer.crumb.length - 1][0];

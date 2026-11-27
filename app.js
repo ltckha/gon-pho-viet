@@ -592,6 +592,7 @@
     // layout() chọn chỗ không đè, cùng tên thì cách nhau ≥ 220 điểm màn hình (đường dài hiện tên vài lần, như bản đồ thật).
     var nWin = 0;
     data.ten_duong.forEach(function (r) {
+      if (r.an) return;                             // Sài Gòn 1961: tên không khớp lòng đường nào trong tranh → chỉ để tìm, không in
       var ten = r.ten.replace(/^(Đường|Phố) /, '');     // tên nay cũng không ghi "Đường"; giữ "Đại lộ", "Công trường"
       var pts = r.pts, acc = [0];
       for (var k = 1; k < pts.length; k++) acc.push(acc[k - 1] + meters([pts[k - 1], pts[k]]));

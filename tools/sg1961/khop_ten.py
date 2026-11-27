@@ -37,17 +37,19 @@ a = np.asarray(nen).astype(int); R, G, B = a[..., 0], a[..., 1], a[..., 2]
 duong = (R > 228) & (G > 218) & (B > 190) & (R - B < 55) & (np.asarray(co) > 0)
 duong = ndi.binary_opening(duong, iterations=1)
 kc = ndi.distance_transform_edt(duong)                       # khoảng cách (điểm ảnh) tới mép đường gần nhất
-mo = np.minimum(kc, 8) / 8.0                                 # cao nhất ở giữa lòng đường (đường rộng ≥ 32 m coi như nhau)
+mo = np.minimum(kc, 14) / 14.0                               # cao nhất ở giữa lòng đường (đại lộ tới ~56 m cũng ra giữa)
 mo = ndi.gaussian_filter(mo, 0.8)
+duong_n = ndi.binary_dilation(duong, iterations=1)       # lòng đường nới 2 m cho mép vẽ tay
 print('lòng đường %.1f%% tấm' % (duong.mean() * 100))
 
 def lay(px, py):
     return ndi.map_coordinates(mo, [py, px], order=1, mode='constant')
 def doi(pts):
     P = np.array(pts, float); x, y = xy(P[:, 0], P[:, 1])
+    x = np.array(x, float); y = np.array(y, float)
     # chia mịn mỗi 6 m để đo
     L = np.r_[0, np.cumsum(np.hypot(np.diff(x), np.diff(y)))]
-    if L[-1] < 5: return pts, 0, 0
+    if L[-1] < 5: return [], 0, 0
     s = np.arange(0, L[-1], 3.0); sx = np.interp(s, L, x); sy = np.interp(s, L, y)
     goc_d = lay(sx, sy).mean()
     best = (goc_d, 0, 0)
@@ -58,37 +60,79 @@ def doi(pts):
             if v > best[0]: best = (v, dx, dy)
     v, dx, dy = best
     x = x + dx; y = y + dy
-    # nhích vuông góc từng điểm (chỉ các điểm gốc), làm mượt
-    n = len(x); off = np.zeros(n)
+    # chia dày mỗi 10 m rồi nhích vuông góc từng điểm vào giữa lòng đường; độ nhích làm mượt dọc đường (khỏi méo)
+    L = np.r_[0, np.cumsum(np.hypot(np.diff(x), np.diff(y)))]
+    s = np.linspace(0, L[-1], max(2, int(L[-1] / 5) + 1)); x = np.interp(s, L, x); y = np.interp(s, L, y)
+    n = len(x); off = np.zeros(n); NX = np.zeros(n); NY = np.zeros(n)
     for i in range(n):
-        j0, j1 = max(0, i - 1), min(n - 1, i + 1)
-        tx, ty = x[j1] - x[j0], y[j1] - y[j0]; l = math.hypot(tx, ty) or 1; nx, ny = -ty / l, tx / l
-        ks = np.arange(-8, 8.5, 0.5); vs = lay(x[i] + ks * nx, y[i] + ks * ny) - 0.001 * ks * ks
+        j0, j1 = max(0, i - 2), min(n - 1, i + 2)
+        tx, ty = x[j1] - x[j0], y[j1] - y[j0]; l = math.hypot(tx, ty) or 1; NX[i], NY[i] = -ty / l, tx / l
+        ks = np.arange(-11, 11.5, 0.5); vs = lay(x[i] + ks * NX[i], y[i] + ks * NY[i]) - 0.0006 * ks * ks
         off[i] = ks[int(np.argmax(vs))]
-    if n >= 3: off = ndi.median_filter(off, 3, mode='nearest')
-    for i in range(n):
-        j0, j1 = max(0, i - 1), min(n - 1, i + 1)
-        tx, ty = x[j1] - x[j0], y[j1] - y[j0]; l = math.hypot(tx, ty) or 1
-        x[i] += off[i] * -ty / l; y[i] += off[i] * tx / l
+    if n >= 5: off = ndi.gaussian_filter1d(ndi.median_filter(off, 5, mode='nearest'), 2.0, mode='nearest')
+    x = x + off * NX; y = y + off * NY
     L2 = np.r_[0, np.cumsum(np.hypot(np.diff(x), np.diff(y)))]
     s2 = np.arange(0, L2[-1], 3.0); moi_d = lay(np.interp(s2, L2, x), np.interp(s2, L2, y)).mean()
-    if moi_d < goc_d + 0.01: return pts, goc_d, goc_d
-    lon, lat = ll(x, y)
-    return [[round(float(p), 6), round(float(q), 6)] for p, q in zip(lon, lat)], goc_d, moi_d
+    if moi_d < goc_d + 0.01:
+        x, y = xy(P[:, 0], P[:, 1]); moi_d = goc_d
+    # cắt bỏ khúc chữ nằm trên khối nhà (anh Kha 27/11 "có chỗ tên đường còn nằm trong nhà"): đo mỗi 1,5 m,
+    # khúc ngoài lòng đường dài hơn 6 m thì cắt; chỉ giữ khúc trên đường dài ≥ 50 m
+    L3 = np.r_[0, np.cumsum(np.hypot(np.diff(x), np.diff(y)))]
+    s3 = np.arange(0, L3[-1] + 0.01, 0.75); tr = ndi.map_coordinates(duong_n, [np.interp(s3, L3, y), np.interp(s3, L3, x)], order=0) > 0
+    ngoai = ~tr; khuc = []; bd = None; lo_ngoai = 0
+    for k in range(len(s3)):
+        if tr[k]:
+            if bd is None: bd = k
+            lo_ngoai = 0; kt = k
+        elif bd is not None:
+            lo_ngoai += 1
+            if lo_ngoai > 10: khuc.append((bd, kt)); bd = None; lo_ngoai = 0
+    if bd is not None: khuc.append((bd, kt))
+    ra = []
+    for k0, k1 in khuc:
+        a0, a1 = s3[k0], s3[k1]
+        if (a1 - a0) * M < 40: continue
+        sel = (L3 > a0) & (L3 < a1)
+        xx = np.r_[np.interp(a0, L3, x), x[sel], np.interp(a1, L3, x)]; yy = np.r_[np.interp(a0, L3, y), y[sel], np.interp(a1, L3, y)]
+        q = rdp(np.c_[xx, yy], 0.6)
+        # cắt ở chỗ cua gắt (> 30°) — chữ chạy qua vòng xoay, góc phố bị gập méo (anh Kha 27/11 "lệch và méo")
+        manh = [[q[0]]]
+        for k in range(1, len(q)):
+            if k >= 2:
+                v1 = q[k - 1] - q[k - 2]; v2 = q[k] - q[k - 1]
+                g = abs(math.degrees(math.atan2(v1[0] * v2[1] - v1[1] * v2[0], v1 @ v2)))
+                if g > 30: manh.append([q[k - 1]])
+            manh[-1].append(q[k])
+        for mm in manh:
+            mm = np.array(mm)
+            if len(mm) < 2 or np.hypot(*np.diff(mm, axis=0).T).sum() * M < 40: continue
+            lon, lat = ll(mm[:, 0], mm[:, 1])
+            ra.append([[round(float(p), 6), round(float(t), 6)] for p, t in zip(lon, lat)])
+    return ra, goc_d, moi_d
 
-moi = []; truoc = []; sau = []
+def rdp(P, eps):                              # bớt điểm thừa (Douglas–Peucker), eps tính bằng điểm ảnh 2 m
+    if len(P) < 3: return P
+    a, b = P[0], P[-1]; ab = b - a; l = np.hypot(*ab) or 1
+    dd = np.abs(ab[0] * (P[:, 1] - a[1]) - ab[1] * (P[:, 0] - a[0])) / l
+    i = int(np.argmax(dd))
+    if dd[i] > eps: return np.vstack([rdp(P[:i + 1], eps)[:-1], rdp(P[i:], eps)])
+    return np.vstack([a, b])
+
+moi = []; truoc = []; sau = []; mat = 0
 for r in goc:
-    p, g, m = doi(r['pts']); q = dict(r); q['pts'] = p; moi.append(q); truoc.append(g); sau.append(m)
+    ds, g, m = doi(r['pts']); truoc.append(g); sau.append(m)
+    if not ds:                               # không khúc nào nằm trên lòng đường: giữ để tìm được, nhưng không in chữ (an)
+        mat += 1; q = dict(r); q['an'] = 1; moi.append(q)
+    for p in ds: q = dict(r); q['pts'] = p; moi.append(q)
 d['ten_duong'] = moi
-print('trung bình trên lòng đường: trước %.2f → sau %.2f; tên dời %d/%d' % (np.mean(truoc), np.mean(sau), sum(1 for g, m in zip(truoc, sau) if m != g), len(goc)))
-print('tên còn lệch (<0,4):', sum(1 for m in sau if m < 0.4))
+print('độ giữa lòng đường: trước %.2f → sau %.2f; %d khúc gốc → %d khúc đặt chữ; %d khúc bỏ hẳn (không có khúc nào trên đường)' % (np.mean(truoc), np.mean(sau), len(goc), len(moi), mat))
 json.dump(d, open(F, 'w'), ensure_ascii=False, separators=(',', ':'))
 if len(sys.argv) > 1:                        # ảnh kiểm tra: khu trung tâm, đỏ = chỗ cũ, xanh = chỗ mới
     from PIL import ImageDraw
     x0, y0 = xy(106.690, 10.786); x1, y1 = xy(106.708, 10.768)
     c = nen.crop((int(x0), int(y0), int(x1), int(y1))); dr = ImageDraw.Draw(c)
-    for r, q in zip(goc, moi):
-        for pts, col in ((r['pts'], (220, 0, 0)), (q['pts'], (0, 90, 255))):
+    for pts, col in [(r['pts'], (220, 0, 0)) for r in goc] + [(q['pts'], (0, 90, 255)) for q in moi]:
+        if True:
             P = np.array(pts); X, Y = xy(P[:, 0], P[:, 1])
             dr.line(list(zip(X - int(x0), Y - int(y0))), fill=col, width=2)
     c.save(sys.argv[1])

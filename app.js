@@ -507,22 +507,34 @@
         y1: Math.min(y0, y0 + ay, y0 + by, y0 + ay + by), y2: Math.max(y0, y0 + ay, y0 + by, y0 + ay + by) };
       land.appendChild(im);
     });
-    // chỗ bản đồ gốc 1961 không vẽ (góc tờ Chợ Lớn in hình nhỏ riêng) — tô màu giấy có gạch mờ + ghi chú, để không trông như lỗ hổng
+    // Góc bản đồ gốc 1961 không vẽ (tờ Chợ Lớn in hình nhỏ riêng ở đó). Anh Kha 28/11 chê ô gạch "xấu quá" → đặt ô TIÊU ĐỀ
+    // kiểu bản đồ in xưa (tên bản đồ, la bàn, thước tỉ lệ thật, nguồn) — bản đồ cổ vẫn để tiêu đề ở góc trống như vậy.
     (data.vung_trong || []).forEach(function (v) {
-      if (!document.getElementById('trong61p')) {
-        var dd = land.querySelector('defs') || land.insertBefore(el('defs', {}), land.firstChild);
-        var o = 0.00012 * K, pt = el('pattern', { id: 'trong61p', patternUnits: 'userSpaceOnUse', width: o, height: o, patternTransform: 'rotate(45)' });
-        pt.appendChild(el('rect', { width: o, height: o, fill: '#efe5cf' }));
-        pt.appendChild(el('line', { x1: 0, y1: 0, x2: 0, y2: o, stroke: '#c9b48c', 'stroke-width': o * 0.12, 'stroke-opacity': 0.55 }));
-        dd.appendChild(pt);
-      }
-      land.appendChild(el('path', { 'class': 'trong61-vung', d: lineOf(v.pts) + 'Z', fill: 'url(#trong61p)', stroke: '#b9a27a', 'stroke-width': 0.00002 * K, 'stroke-dasharray': (0.00008 * K) + ' ' + (0.00005 * K) }));
       var xs = v.pts.map(function (q) { return px(q[0]); }), ys = v.pts.map(function (q) { return py(q[1]); });
       var med = function (a) { a = a.slice().sort(function (p, q) { return p - q; }); return a[a.length >> 1]; };
-      var h = v.pts.length >> 1, cx = (med(xs.slice(0, h)) + med(xs.slice(h))) / 2, cy = (Math.min.apply(0, ys) + Math.max.apply(0, ys)) / 2;
-      var tg = el('text', { x: cx, y: cy, 'class': 'lbl trong61', 'text-anchor': 'middle' });
-      ['Bản đồ 1961', 'không vẽ', 'phần này'].forEach(function (c, i) { tg.appendChild(el('tspan', { x: cx, dy: i ? '1.15em' : '-1.1em' }, c)); });
-      labels.appendChild(tg);
+      var h = v.pts.length >> 1, x1 = med(xs.slice(0, h)), x2 = med(xs.slice(h)), y1 = Math.min.apply(0, ys), y2 = Math.max.apply(0, ys);
+      var g = el('g', { 'class': 'trong61-vung' }), W = x2 - x1, H = y2 - y1, u = H / 100;
+      g.appendChild(el('path', { d: lineOf(v.pts) + 'Z', fill: '#f6eedb' }));
+      g.appendChild(el('rect', { x: x1 + 3 * u, y: y1 + 3 * u, width: W - 6 * u, height: H - 6 * u, fill: 'none', stroke: '#6b4f2e', 'stroke-width': 1.1 * u }));
+      g.appendChild(el('rect', { x: x1 + 5.5 * u, y: y1 + 5.5 * u, width: W - 11 * u, height: H - 11 * u, fill: 'none', stroke: '#6b4f2e', 'stroke-width': 0.4 * u }));
+      var t = function (x, y, sz, txt, w, it, anc) {
+        g.appendChild(el('text', { x: x, y: y, 'text-anchor': anc || 'middle', 'font-size': sz * u, 'font-weight': w || 500, 'font-style': it ? 'italic' : 'normal', fill: '#4a3520', 'font-family': 'Be Vietnam Pro, sans-serif' }, txt));
+      };
+      // ô nằm ngang: tên bên trái, la bàn bên phải, thước + nguồn ở dưới
+      var tx = x1 + W * 0.40;
+      t(tx, y1 + H * 0.33, 10.5, 'SÀI GÒN – CHỢ LỚN', 700);
+      t(tx, y1 + H * 0.46, 6.5, 'năm 1961', 500, true);
+      var rx = x1 + W * 0.85, ry = y1 + H * 0.45, r = 10 * u;
+      g.appendChild(el('circle', { cx: rx, cy: ry, r: r, fill: 'none', stroke: '#6b4f2e', 'stroke-width': 0.6 * u }));
+      g.appendChild(el('path', { d: 'M' + rx + ' ' + (ry - r * 1.25) + 'L' + (rx + r * 0.28) + ' ' + ry + 'L' + rx + ' ' + (ry + r * 1.25) + 'L' + (rx - r * 0.28) + ' ' + ry + 'Z', fill: '#6b4f2e' }));
+      g.appendChild(el('path', { d: 'M' + (rx - r * 1.1) + ' ' + ry + 'L' + rx + ' ' + (ry - r * 0.2) + 'L' + (rx + r * 1.1) + ' ' + ry + 'L' + rx + ' ' + (ry + r * 0.2) + 'Z', fill: '#a8865a' }));
+      t(rx, ry - r * 1.45, 5, 'Bắc', 700);
+      var km = K / 110.574, sx = tx - km / 2, sy = y1 + H * 0.58, bh = 3.4 * u;
+      for (var i = 0; i < 4; i++) g.appendChild(el('rect', { x: sx + i * km / 4, y: sy, width: km / 4, height: bh, fill: i % 2 ? '#f6eedb' : '#6b4f2e', stroke: '#6b4f2e', 'stroke-width': 0.4 * u }));
+      t(sx, sy + bh + 6 * u, 4.5, '0'); t(sx + km / 2, sy + bh + 6 * u, 4.5, '500 m'); t(sx + km, sy + bh + 6 * u, 4.5, '1 km');
+      t(x1 + W / 2, y1 + H * 0.82, 4.2, 'Theo bản đồ 1 : 10.000 (Indochina City Plans, AMS 1961)', 400, true);
+      t(x1 + W / 2, y1 + H * 0.89, 4.2, 'Spark vẽ lại cho Gọn Phố Việt', 400, true);
+      land.appendChild(g);
     });
 
     if (data.net_lop || data.net) {              // Sài Gòn 1961: CHÉP Y NÉT IN của bản gốc, tô màu theo loại nét

@@ -1,9 +1,9 @@
 """Gom nghiên cứu "ký ức" Đà Lạt (docs/research/ky_uc/nhom_*.json) thành data/lam-dong/da-lat/ky_uc.json cho thẻ bản đồ 1963.
-Ảnh: KHÔNG tải về kho (anh Kha 28/11). Ảnh có giấy phép mở (dung=nhung) hiện bằng cách gọi thẳng ảnh thu nhỏ từ trang gốc
-(Wikimedia Commons /thumb/, Flickr _z), luôn kèm tác giả + giấy phép + link trang. Ảnh có chủ (chi_link) chỉ là link.
+Ảnh có giấy phép mở (dung=nhung): lưu bản thu nhỏ ở assets/ky_uc/<md5 12 ký tự của link thu nhỏ>.webp (anh Kha 28/11 chọn lưu vì
+trang xem thử chặn ảnh lấy từ trang khác), luôn kèm tác giả + giấy phép + link trang. Ảnh không có file trong assets/ky_uc thì không hiện. Ảnh có chủ (chi_link) chỉ là link.
 Bỏ ảnh đánh dấu chưa chắc đúng nơi. Ghép: so_1963 (+ so_khac) → thẻ công trình; nơi không số → tên nhãn trên bản đồ 1963 (NHAN).
 Chạy: python3 tools/build_ky_uc.py"""
-import json, glob, re, urllib.parse
+import json, glob, re, os, hashlib, urllib.parse
 NHAN = {'Hồ Xuân Hương': 'Hồ Xuân Hương', 'Hồ Than Thở': 'Hồ Than Thở', 'Hồ Chiến Thắng': 'Hồ Mê Linh', 'Ấp Ánh Sáng': 'Ấp Ánh Sáng',
         'Trại Hầm': 'Ấp Đa Lợi (Trại Hầm)', 'Khu Hòa Bình': 'Khu Hòa Bình'}
 def thu_nho(u):
@@ -18,7 +18,9 @@ for f in sorted(glob.glob('docs/research/ky_uc/nhom_*.json')):
         anh, link = [], []
         for a in p.get('anh', []):
             if a.get('dung') == 'nhung' and not a.get('chua_chac') and thu_nho(a.get('anh')):
-                anh.append({'src': thu_nho(a['anh']), 'goc': a['anh'], 'trang': a['trang'], 'nam': a.get('nam', ''), 'tac_gia': a.get('tac_gia', ''),
+                h = hashlib.md5((thu_nho(a['anh']) + '\n').encode()).hexdigest()[:12]
+                if not os.path.exists('assets/ky_uc/%s.webp' % h): continue      # chưa lưu / đã loại (bản đồ, sơ đồ không phải ảnh ký ức)
+                anh.append({'src': 'assets/ky_uc/%s.webp' % h, 'goc': '', 'trang': a['trang'], 'nam': a.get('nam', ''), 'tac_gia': a.get('tac_gia', ''),
                             'giay_phep': a.get('giay_phep', ''), 'mo_ta': a.get('mo_ta', '')})
             elif a.get('trang'):
                 if a.get('dung') == 'nhung': bo += 1

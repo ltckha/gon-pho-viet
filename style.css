@@ -473,3 +473,6 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .n61-vien path { fill: #4a3b2c; }
 #svg.sg61 .water path, #svg.sg61 .nuoc63 path { fill: #a9cfe0; stroke: #6c9fb8; }
 #svg.sg61 .rung63 path { fill: #d5e6c0; }
+
+/* Sài Gòn 1961: ghi chú chỗ bản đồ gốc không vẽ */
+.trong61 { fill: #7a6446; font-style: italic; font-weight: 500; paint-order: stroke; stroke: #f6efdf; }

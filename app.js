@@ -507,6 +507,24 @@
         y1: Math.min(y0, y0 + ay, y0 + by, y0 + ay + by), y2: Math.max(y0, y0 + ay, y0 + by, y0 + ay + by) };
       land.appendChild(im);
     });
+    // chỗ bản đồ gốc 1961 không vẽ (góc tờ Chợ Lớn in hình nhỏ riêng) — tô màu giấy có gạch mờ + ghi chú, để không trông như lỗ hổng
+    (data.vung_trong || []).forEach(function (v) {
+      if (!document.getElementById('trong61p')) {
+        var dd = land.querySelector('defs') || land.insertBefore(el('defs', {}), land.firstChild);
+        var o = 0.00012 * K, pt = el('pattern', { id: 'trong61p', patternUnits: 'userSpaceOnUse', width: o, height: o, patternTransform: 'rotate(45)' });
+        pt.appendChild(el('rect', { width: o, height: o, fill: '#efe5cf' }));
+        pt.appendChild(el('line', { x1: 0, y1: 0, x2: 0, y2: o, stroke: '#c9b48c', 'stroke-width': o * 0.12, 'stroke-opacity': 0.55 }));
+        dd.appendChild(pt);
+      }
+      land.appendChild(el('path', { 'class': 'trong61-vung', d: lineOf(v.pts) + 'Z', fill: 'url(#trong61p)', stroke: '#b9a27a', 'stroke-width': 0.00002 * K, 'stroke-dasharray': (0.00008 * K) + ' ' + (0.00005 * K) }));
+      var xs = v.pts.map(function (q) { return px(q[0]); }), ys = v.pts.map(function (q) { return py(q[1]); });
+      var med = function (a) { a = a.slice().sort(function (p, q) { return p - q; }); return a[a.length >> 1]; };
+      var h = v.pts.length >> 1, cx = (med(xs.slice(0, h)) + med(xs.slice(h))) / 2, cy = (Math.min.apply(0, ys) + Math.max.apply(0, ys)) / 2;
+      var tg = el('text', { x: cx, y: cy, 'class': 'lbl trong61', 'text-anchor': 'middle' });
+      ['Bản đồ 1961', 'không vẽ', 'phần này'].forEach(function (c, i) { tg.appendChild(el('tspan', { x: cx, dy: i ? '1.15em' : '-1.1em' }, c)); });
+      labels.appendChild(tg);
+    });
+
     if (data.net_lop || data.net) {              // Sài Gòn 1961: CHÉP Y NÉT IN của bản gốc, tô màu theo loại nét
       var tl = data.net_tl || 1e5;
       var veNet = function (list) {
@@ -590,7 +608,8 @@
     var dat = el('g', { 'class': 'dat63' });          // đường đất bản cũ có, nay không còn: nét đứt đôi
     (data.duong_mat || []).forEach(function (r) { dat.appendChild(el('path', { d: congOf(r.pts) })); });
     land.appendChild(dat);
-    Array.prototype.slice.call(land.querySelectorAll('.nen61')).forEach(function (n) { land.appendChild(n); });   // tranh nền Spark nằm trên nét dò, dưới chữ
+    Array.prototype.slice.call(land.querySelectorAll('.nen61')).forEach(function (n) { land.appendChild(n); });
+    Array.prototype.slice.call(land.querySelectorAll('.trong61-vung')).forEach(function (n) { land.appendChild(n); });   // tranh nền Spark nằm trên nét dò, dưới chữ
     var hl = el('g', { id: 'hl63', 'class': 'hl63' }); land.appendChild(hl);
     var defs = el('defs', {}); land.appendChild(defs);
     var roadLabels = el('g', {}); labels.appendChild(roadLabels);

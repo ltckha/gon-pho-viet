@@ -491,3 +491,9 @@ details.mau-chuyen { padding: 2px 10px; border-radius: 10px; background: #fbf1dc
 .ku-them { margin-top: 8px; } .ku-them summary { cursor: pointer; font-weight: 600; }
 .ku-them li { margin: 4px 0; font-size: 14px; }
 .lbl.co-ky-uc { pointer-events: auto; cursor: pointer; }
+.ky-uc figure img { cursor: zoom-in; }
+.ku-to { position: fixed; inset: 0; z-index: 50; background: rgba(20,14,8,.92); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px; }
+.ku-to img { max-width: 100%; max-height: 72vh; object-fit: contain; border-radius: 6px; }
+.ku-to p { color: #f3ead6; font-size: 14px; line-height: 1.4; text-align: center; margin: 12px 8px 0; }
+.ku-to p span { color: #cdbb9a; } .ku-to a { color: #f6d79a; }
+.ku-to .close { position: absolute; top: 14px; right: 14px; }

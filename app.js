@@ -1209,8 +1209,9 @@
     if (!cho || !k) return;
     var h = '<section class="phan ky-uc"><h3>💭 Ký ức</h3>';
     if (k.anh.length) h += '<div class="ku-anh">' + k.anh.map(function (a) {
-      return '<figure><a href="' + esc(a.trang) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(a.src) + '" data-goc="' + esc(a.goc || '') + '" alt="' + esc(a.mo_ta) + '" onerror="var g=this.getAttribute(\'data-goc\');if(g&&this.src!==g){this.src=g}else{this.closest(\'figure\').remove()}"></a>' +
-        '<figcaption>' + esc(a.mo_ta) + '<br><span>' + esc([a.nam, a.tac_gia, a.giay_phep].filter(Boolean).join(' · ')) + '</span></figcaption></figure>';
+      return '<figure><img class="ku-xem" loading="lazy" src="' + esc(a.src) + '" data-goc="' + esc(a.goc || '') + '" alt="' + esc(a.mo_ta) + '" onerror="var g=this.getAttribute(\'data-goc\');if(g&&this.src!==g){this.src=g}else{this.closest(\'figure\').remove()}">' +
+        '<figcaption>' + esc(a.mo_ta) + '<br><span>' + esc([a.nam, a.tac_gia, a.giay_phep].filter(Boolean).join(' · ')) +
+        ' · <a href="' + esc(a.trang) + '" target="_blank" rel="noopener">Nguồn</a></span></figcaption></figure>';
     }).join('') + '</div>';
     h += '<ul class="ku-dong">' + k.dong.map(function (d) {
       return '<li><details><summary>' + esc(d.d) + (d.cc ? ' <i class="chua-chac" title="mới một người kể / chưa chắc">?</i>' : '') + '</summary>' +
@@ -1220,6 +1221,16 @@
       return '<li><a href="' + esc(l.trang) + '" target="_blank" rel="noopener">' + esc(l.mo_ta || l.trang) + '</a>' + (l.nam || l.tac_gia ? ' <span class="src">' + esc([l.nam, l.tac_gia].filter(Boolean).join(' · ')) + '</span>' : '') + '</li>';
     }).join('') + '</ul><p class="note">Ảnh có chủ — mở trang gốc để xem.</p></details>';
     cho.innerHTML = h + '</section>';
+    // chạm ảnh → xem to ngay trong bản đồ (anh Kha 28/11 "ảnh nào cũng chuyển tới bài viết ko hay")
+    Array.prototype.forEach.call(cho.querySelectorAll('.ku-xem'), function (im) {
+      im.addEventListener('click', function () {
+        var f = im.closest('figure'), o = document.createElement('div');
+        o.className = 'ku-to';
+        o.innerHTML = '<button type="button" class="close" aria-label="Đóng">×</button><img src="' + esc(im.currentSrc || im.src) + '" alt=""><p>' + f.querySelector('figcaption').innerHTML + '</p>';
+        o.addEventListener('click', function (e) { if (e.target.tagName !== 'A') o.remove(); });
+        document.body.appendChild(o);
+      });
+    });
   }
   function moKyUc(ten) {
     var k = KY_UC_NHAN[ten]; if (!k) return;

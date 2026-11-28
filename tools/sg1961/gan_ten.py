@@ -82,17 +82,23 @@ def main():
         for x in ds:
             if len(x) >= 2:
                 out.append({'ten': (loai + ' ' if loai else '') + ten, 'nay': nay if chuan(nay) != chuan(ten) else '', 'pts': [[round(q[0], 6), round(q[1], 6)] for q in x]})
-    # nắn cục bộ (anh Kha 27/11 "tên đường lệch, nằm ngang khối nhà"): dời đường dẫn chữ theo lưới dời đo trên tờ quét
-    f2 = os.path.join(D, 'to2_doi.json')
-    if os.path.exists(f2):
-        import sys
-        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-        from geo import nap
-        from nan_cuc_bo import doi
-        ll2px, px2ll = nap(os.path.join(D, 'to2_toa_do.json')); h = doi(f2)
-        for r in out:
-            P = np.array(r['pts']); q = ll2px(P[:, 0], P[:, 1]); x, y = h(q[:, 0], q[:, 1])
-            r['pts'] = [[round(a, 6), round(b, 6)] for a, b in px2ll(x, y)]
+    # dời đường dẫn chữ theo đúng chỗ tranh nằm: tờ 2 → lưới nắn cục bộ (to2_doi.json); tờ 1 (Chợ Lớn) → cùng độ kéo của
+    # khep_to.py (tờ 1 được kéo cho giáp tờ 2, ~200 m ở mép giáp, giảm dần về 0 ở mép trái tờ 1)
+    import sys
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from geo import nap
+    from nan_cuc_bo import doi
+    l2p2, p2l2 = nap(os.path.join(D, 'to2_toa_do.json')); l2p1, p2l1 = nap(os.path.join(D, 'to1_toa_do.json'))
+    h = doi(os.path.join(D, 'to2_doi.json'))
+    def dat(lon, lat):
+        q2 = l2p2([lon], [lat])[0]
+        if q2[0] >= 244:
+            x, y = h(np.array([q2[0]]), np.array([q2[1]])); return p2l2(x, y)[0]
+        x1, y1 = l2p1([lon], [lat])[0]
+        v = p2l2([244], [y1])[0] - p2l1([4939], [y1])[0]; t = min(max((x1 - 770) / (4939 - 770), 0), 1)
+        return np.array([lon + v[0] * t, lat + v[1] * t])
+    for r in out:
+        r['pts'] = [[round(float(c), 6) for c in dat(a_, b_)] for a_, b_ in r['pts']]
     d['ten_duong'] = out
     json.dump(d, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     print('tên gắn được:', co, '/', co + len(khong), ' đoạn chữ:', len(out))

@@ -116,7 +116,7 @@
     // Sài Gòn 1961: vẽ lại từ bản đồ Sài Gòn 1:10.000, ấn bản 2-AMS 1961 (tools/sg1961/) — đang làm, mới khu trung tâm
     'sai-gon-1961': {
       kind: 'duong', y1963: true, sg: true, file: 'data/sai-gon/1961.json', prec: 5,
-      mo: [106.688, 10.768, 106.712, 10.792],
+      mo: [106.617, 10.718, 106.723, 10.799],      // mở thấy cả thành phố (tấm tổng), phóng vào mới tải tranh nét
       crumb: [['Việt Nam', ''], ['Sài Gòn 1961', 'sai-gon-1961']],
       legend: [['road63', 'Đường năm 1961'], ['nha63', 'Khối phố'], ['rung63', 'Công viên'], ['water', 'Sông rạch']],
       card: function () { return ''; }
@@ -489,14 +489,21 @@
     poly(data.khu || [], 'khu63');
     poly(data.nha_dac || [], 'dac63');           // Sài Gòn 1961: công trình lớn in đen đặc
     // Sài Gòn 1961: tranh nền Spark vẽ lại theo bản quét (đặt bằng 3 góc: trên-trái, trên-phải, dưới-trái) — đè lên nét dò máy
+    // anh Kha 28/11 "tốc độ tải còn chậm": lúc mở chỉ tải MỘT tấm tổng nhỏ (anh_tong, ~550 KB) cho cả thành phố;
+    // từng ô tranh nét chỉ tải khi phóng vào và ô đó đang trong màn hình (nenSac), ra khỏi màn hình thì bỏ cho nhẹ máy.
+    if (data.anh_tong) {
+      var t0 = data.anh_tong, tx0 = px(t0.tt[0]), ty0 = py(t0.tt[1]);
+      land.appendChild(el('image', { href: t0.file, x: 0, y: 0, width: 1000, height: 1000, preserveAspectRatio: 'none', 'class': 'nen61 tong61',
+        transform: 'matrix(' + [(px(t0.tp[0]) - tx0) / 1000, 0, 0, (py(t0.dt[1]) - ty0) / 1000, tx0, ty0].map(function (v) { return v.toPrecision(10); }).join(' ') + ')' }));
+    }
     (data.anh_nen || []).forEach(function (a) {
       var x0 = px(a.tt[0]), y0 = py(a.tt[1]), ax = px(a.tp[0]) - x0, ay = py(a.tp[1]) - y0, bx = px(a.dt[0]) - x0, by = py(a.dt[1]) - y0;
       // khung 1000×1000 (không phải 1×1): trình duyệt làm tròn toạ độ ảnh ở hệ riêng của nó — khung 1×1 làm tranh lệch 20–30 m
       // so với tên đường (anh Kha 27/11 "tên lệch ra nhiều lắm")
-      var im = el('image', { href: a.file.replace('sg1961/', 'sg1961/nho/'), x: 0, y: 0, width: 1000, height: 1000, preserveAspectRatio: 'none', 'class': 'nen61',
+      var im = el('image', { x: 0, y: 0, width: 1000, height: 1000, preserveAspectRatio: 'none', 'class': 'nen61',
         transform: 'matrix(' + [ax / 1000, ay / 1000, bx / 1000, by / 1000, x0, y0].map(function (v) { return v.toPrecision(10); }).join(' ') + ')' });
       // khung ô (toạ độ bản đồ) + bề ngang → chọn tranh nhỏ / vừa / nét theo chỗ đang nhìn (nenSac)
-      im._nen = { f: a.file, m: 'nho', w: Math.hypot(ax, ay), x1: Math.min(x0, x0 + ax, x0 + bx, x0 + ax + bx), x2: Math.max(x0, x0 + ax, x0 + bx, x0 + ax + bx),
+      im._nen = { f: a.file, m: '', w: Math.hypot(ax, ay), x1: Math.min(x0, x0 + ax, x0 + bx, x0 + ax + bx), x2: Math.max(x0, x0 + ax, x0 + bx, x0 + ax + bx),
         y1: Math.min(y0, y0 + ay, y0 + by, y0 + ay + by), y2: Math.max(y0, y0 + ay, y0 + by, y0 + ay + by) };
       land.appendChild(im);
     });
@@ -962,8 +969,13 @@
     for (var i = 0; i < ds.length; i++) {
       var n = ds[i]._nen; if (!n) continue;
       var thay = n.x2 > vx1 && n.x1 < vx2 && n.y2 > vy1 && n.y1 < vy2;
-      var dp = n.w * view.s * dpr, m = !thay || dp < 500 ? 'nho' : dp < 1000 || !NEN_GOC ? 'vua' : 'goc';
-      if (m !== n.m) { n.m = m; ds[i].setAttribute('href', m === 'goc' ? n.f : n.f.replace('sg1961/', 'sg1961/' + m + '/')); }
+      // tấm tổng ~7 m/điểm ảnh = mỗi ô ~240 điểm ảnh; ô hiện to hơn ~450 điểm ảnh thật thì tấm tổng nhoè → tải ô vừa / nét
+      var dp = n.w * view.s * dpr, m = !thay || (data.anh_tong && dp < 450) ? '' : dp < 500 ? 'nho' : dp < 1100 || !NEN_GOC ? 'vua' : 'goc';
+      if (m !== n.m) {
+        n.m = m;
+        if (!m) ds[i].removeAttribute('href');
+        else ds[i].setAttribute('href', m === 'goc' ? n.f : n.f.replace('sg1961/', 'sg1961/' + m + '/'));
+      }
     }
   }
   function chot63() {

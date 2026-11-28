@@ -159,7 +159,7 @@
 
   function el(tag, attrs, text) {
     var e = document.createElementNS(NS, tag);
-    for (var a in attrs) e.setAttribute(a, attrs[a]);
+    for (var a in attrs) if (attrs[a] !== null && attrs[a] !== undefined) e.setAttribute(a, attrs[a]);
     if (text) e.textContent = text;
     return e;
   }
@@ -678,7 +678,7 @@
     var CLS = { ap: 'ap63', ho: 'sea', rung: 'rung63-ten' }, MINZ = { ap: 0, ho: 1.2, rung: 1.8 };
     (data.dia_danh || []).concat(data.diem || []).forEach(function (p) {
       var c = CLS[p.loai], mid = !!c;
-      var t = el('text', { x: px(p.lon), y: py(p.lat), 'class': 'lbl ' + (c || 'diem-1963'), hidden: '' }, mid ? p.ten : '◆ ' + p.ten);
+      var t = el('text', { x: px(p.lon), y: py(p.lat), 'class': 'lbl ' + (c || 'diem-1963') + (KY_UC_NHAN[p.ten] ? ' co-ky-uc' : ''), hidden: '', 'data-ku': KY_UC_NHAN[p.ten] ? p.ten : null }, (mid ? p.ten : '◆ ' + p.ten) + (KY_UC_NHAN[p.ten] ? ' 💭' : ''));
       labels.appendChild(t);
       pointLbl.push({ el: t, x: px(p.lon), y: py(p.lat), n: p.ten.length + 2, minZ: p.loai in MINZ ? MINZ[p.loai] : 2.5, mid: mid });
     });
@@ -1138,7 +1138,8 @@
   function tap(target) {
     if (layer && layer.y1963) {
       var so = target && target.getAttribute && target.getAttribute('data-ct');
-      if (so) moThe63(Number(so)); else closeSheet();
+      var ku = target && target.getAttribute && target.getAttribute('data-ku');
+      if (so) moThe63(Number(so)); else if (ku) moKyUc(ku); else closeSheet();
       return;
     }
     var i = target && target.getAttribute && target.getAttribute('data-i');
@@ -1171,6 +1172,7 @@
       }).join(' · ') + '</span>';
     }
     var h = the(x.hinh ? 'assets/vn/moc_' + x.hinh + '.webp' : '', x.ten_1963, 'Số ' + x.so + ' trên bản đồ năm 1963');
+    h += '<div class="ky-uc-cho" data-so="' + x.so + '"></div>';
     h += '<section class="phan"><h3>📍 Nay</h3>';
     if (x.nay && x.nay.ten) {
       h += '<p class="nay63"><b>' + esc(x.nay.ten) + '</b>' + (x.cung_cho !== 'chắc' ? ' <i class="chua-chac" title="chưa chắc là cùng chỗ">?</i>' : '') +
@@ -1191,8 +1193,38 @@
     }
     if (x.trang) h += '<button class="go lon" type="button" data-go="pho-' + esc(x.trang) + '">Xem trang hôm nay →</button>';
     sheetBody.innerHTML = h;
+    veKyUc(sheetBody.querySelector('.ky-uc-cho'), KY_UC.so && KY_UC.so[String(so)]);
     var btn = sheetBody.querySelector('[data-go]');
     if (btn) btn.addEventListener('click', function () { location.hash = btn.getAttribute('data-go'); });
+    srcSheet.hidden = true; sheet.hidden = false;
+  }
+
+  // ---------- Ký ức (anh Kha 28/11: "tái hiện kí ức… nhìn vô địa điểm người xem có thể hồi tưởng lại") ----------
+  // data/lam-dong/da-lat/ky_uc.json (tools/build_ky_uc.py). Ảnh xưa có giấy phép mở: gọi thẳng ảnh thu nhỏ từ trang gốc,
+  // luôn ghi tác giả + giấy phép + link; ảnh có chủ chỉ là link. Không lưu ảnh nào vào kho.
+  var KY_UC = {}, KY_UC_NHAN = {};
+  var P_KY_UC = null;
+  function napKyUc() { return P_KY_UC || (P_KY_UC = loadJSON('data/lam-dong/da-lat/ky_uc.json').then(function (d) { KY_UC = d; KY_UC_NHAN = d.nhan || {}; }).catch(function () {})); }
+  function veKyUc(cho, k) {
+    if (!cho || !k) return;
+    var h = '<section class="phan ky-uc"><h3>💭 Ký ức</h3>';
+    if (k.anh.length) h += '<div class="ku-anh">' + k.anh.map(function (a) {
+      return '<figure><a href="' + esc(a.trang) + '" target="_blank" rel="noopener"><img loading="lazy" src="' + esc(a.src) + '" data-goc="' + esc(a.goc || '') + '" alt="' + esc(a.mo_ta) + '" onerror="var g=this.getAttribute(\'data-goc\');if(g&&this.src!==g){this.src=g}else{this.closest(\'figure\').remove()}"></a>' +
+        '<figcaption>' + esc(a.mo_ta) + '<br><span>' + esc([a.nam, a.tac_gia, a.giay_phep].filter(Boolean).join(' · ')) + '</span></figcaption></figure>';
+    }).join('') + '</div>';
+    h += '<ul class="ku-dong">' + k.dong.map(function (d) {
+      return '<li><details><summary>' + esc(d.d) + (d.cc ? ' <i class="chua-chac" title="mới một người kể / chưa chắc">?</i>' : '') + '</summary>' +
+        (d.nguon ? '<span class="src">Nguồn: <a href="' + esc(d.nguon) + '" target="_blank" rel="noopener">' + esc(d.nguon.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]) + '</a></span>' : '') + '</details></li>';
+    }).join('') + '</ul>';
+    if (k.link.length) h += '<details class="ku-them"><summary>🖼️ Xem thêm ảnh xưa (' + k.link.length + ')</summary><ul>' + k.link.map(function (l) {
+      return '<li><a href="' + esc(l.trang) + '" target="_blank" rel="noopener">' + esc(l.mo_ta || l.trang) + '</a>' + (l.nam || l.tac_gia ? ' <span class="src">' + esc([l.nam, l.tac_gia].filter(Boolean).join(' · ')) + '</span>' : '') + '</li>';
+    }).join('') + '</ul><p class="note">Ảnh có chủ — mở trang gốc để xem.</p></details>';
+    cho.innerHTML = h + '</section>';
+  }
+  function moKyUc(ten) {
+    var k = KY_UC_NHAN[ten]; if (!k) return;
+    sheetBody.innerHTML = the('', k.ten, 'Trên bản đồ năm 1963') + '<div class="ky-uc-cho"></div>';
+    veKyUc(sheetBody.querySelector('.ky-uc-cho'), k);
     srcSheet.hidden = true; sheet.hidden = false;
   }
 
@@ -1778,7 +1810,8 @@
       }).then(function (d) { cache[x.key] = d; return d; });
     }
     Promise.all([load(id), L.context ? load(L.context.layer) : null, L.extra ? loadExtra(L.extra) : null,
-      loadExtra({ key: 'ngoai', file: 'data/lang-gieng.json' }).catch(function () { return null; })]).then(function (res) {
+      loadExtra({ key: 'ngoai', file: 'data/lang-gieng.json' }).catch(function () { return null; }),
+      L.y1963 && !L.sg ? napKyUc() : null]).then(function (res) {
       var d = res[0];
       data = d; layer = L; layerId = id;
       document.getElementById('map').classList.toggle('nen-spark', id === 'viet-nam' || id === 'lam-dong');

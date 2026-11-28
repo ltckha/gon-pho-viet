@@ -15,7 +15,7 @@ def trong(a, lon, lat):                       # điểm có nằm trong ô a kh�
     tt, tp, dt = map(np.array, (a['tt'], a['tp'], a['dt']))
     u, v = np.linalg.solve(np.c_[tp - tt, dt - tt], np.array([lon, lat]) - tt)
     return 0.01 < u < 0.99 and 0.01 < v < 0.99
-R = 0.07
+R = 0.025                                     # dải mờ ~40 m (0,07 làm vệt mờ chồng hình, anh Kha 28/11)
 for k, a in enumerate(A):
     f = a['file']; g = os.path.join(GOC, os.path.basename(f))
     tt, tp, dt = map(np.array, (a['tt'], a['tp'], a['dt']))

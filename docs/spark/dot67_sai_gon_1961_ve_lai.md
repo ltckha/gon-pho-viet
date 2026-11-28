@@ -1,4 +1,4 @@
-# Spark đợt 67: vẽ lại 7 ô Sài Gòn 1961 bị gãy ở mép nối (28/11/2026)
+# Spark đợt 67: vẽ lại 7 ô Sài Gòn 1961 bị gãy ở mép nối (28/11/2026) — ĐÃ GHÉP 28/11/2026 (cả 7 ô; mép lệch > 8 m: 6 → 1)
 
 Sau khi uốn mọi ô theo bản quét gốc (khop_quet.py), còn 6 khúc mép lệch > 8 m vì Spark vẽ hai ô khác nội dung ở dải chồng mép
 (một ô có đường ray / bờ sông, ô kia không). So từng ô với bản quét tại chỗ đó (độ khớp nét): ô sai rõ là x600_y5100 (-0,08),

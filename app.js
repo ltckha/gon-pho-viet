@@ -512,9 +512,12 @@
     (data.vung_trong || []).forEach(function (v) {
       var xs = v.pts.map(function (q) { return px(q[0]); }), ys = v.pts.map(function (q) { return py(q[1]); });
       var med = function (a) { a = a.slice().sort(function (p, q) { return p - q; }); return a[a.length >> 1]; };
-      var h = v.pts.length >> 1, x1 = med(xs.slice(0, h)), x2 = med(xs.slice(h)), y1 = Math.min.apply(0, ys), y2 = Math.max.apply(0, ys);
+      // khung phủ trọn chỗ trống + lề giấy trắng của ô bên cạnh (anh Kha 28/11 "vẫn còn lòi trắng"): lấy mép xa nhất, nới thêm
+      var h = v.pts.length >> 1, x1 = med(xs.slice(0, h)), x2r = Math.max.apply(0, xs.slice(h)), y1 = Math.min.apply(0, ys), y2 = Math.max.apply(0, ys);
+      var x2 = x2r + (x2r - x1) * 0.09;
       var g = el('g', { 'class': 'trong61-vung' }), W = x2 - x1, H = y2 - y1, u = H / 100;
       g.appendChild(el('path', { d: lineOf(v.pts) + 'Z', fill: '#f6eedb' }));
+      g.appendChild(el('rect', { x: x1, y: y1, width: W, height: H, fill: '#f6eedb' }));
       g.appendChild(el('rect', { x: x1 + 3 * u, y: y1 + 3 * u, width: W - 6 * u, height: H - 6 * u, fill: 'none', stroke: '#6b4f2e', 'stroke-width': 1.1 * u }));
       g.appendChild(el('rect', { x: x1 + 5.5 * u, y: y1 + 5.5 * u, width: W - 11 * u, height: H - 11 * u, fill: 'none', stroke: '#6b4f2e', 'stroke-width': 0.4 * u }));
       var t = function (x, y, sz, txt, w, it, anc) {
